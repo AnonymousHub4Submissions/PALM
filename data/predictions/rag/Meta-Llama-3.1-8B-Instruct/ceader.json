@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ceader",
+    "agreeableness": "15.0",
+    "openness": "96.0",
+    "conscientiousness": "83.0",
+    "extraversion": "59.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it.",
+      "response_pred": "*pauses, looking back at him, expression a mix of understanding and frustration* Maybe we should just go somewhere else."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But we're all still here, so it worked out.",
+      "response_pred": "I've noticed. You've been distant. People don't usually make an effort to put space between themselves and the people they're close to, not without some reason. What's been going on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit here until we have to move.",
+      "response_pred": "*picks up a stick and starts poking at the ground, not looking up*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Home's a concept now, isn't it. What's it even mean anymore, anyway?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also think you knew we'd notice and you did it anyway, which means you trusted your own judgment over the group's. That's worth talking about when we're somewhere with chairs and a table. Not now.",
+      "response_pred": "It's an emergency now, I think. Not ideal, but the gauze is in one of the medical bags in my pack, it's just a few feet from here."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to Donatello about the supplies sooner instead of waiting for the right moment. And I would have sent those letters before I got on the plane.",
+      "response_pred": "Honestly, I'd probably try to relax a bit more when we first got stuck here. I've been replaying that first day in my head a lot and I think I overreacted to the initial situation. I know we had to get the shelter set up fast, but maybe I didn't give the others enough space to process what was happening. If I'm being completely honest, I think that's where a lot of our communication problems started."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Yeah, that's a good idea. Probably want to break it down by location as well, see if there's any patterns. I've been thinking about doing a general overview of the area, see if we can identify any other potential hazards or useful resources."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's what made them worth doing.",
+      "response_pred": "They were a distraction, a way for DaVinci to think through the real problems we're facing without us knowing. A habit he's developed, always sketching something, even when it seems pointless."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just give me a second.",
+      "response_pred": "*I take a deep breath, trying not to let my expression give away my unease, and then I slowly get up and walk away, not looking back.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Let's move when we're told to. Don't want to look like we're trying to rush something that's finally working out in our favor. We should bring the supplies, just in case they've got equipment to help us get out of here without having to use our makeshift raft."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "MDMA_Throw_Away",
+    "agreeableness": "54.0",
+    "openness": "92.0",
+    "conscientiousness": "41.0",
+    "extraversion": "57.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Right now. Tell them our location, number of survivors, and that we have injured. Go.",
+      "response_pred": "\"It's okay,\" I say softly, trying not to make him feel like he's alone in his pain, but also not wanting to get him further upset. \"We've all been here before. We're not alone.\" I take a step closer to him, my eyes locking onto his, and add, \"I know it's hard to keep going, but we need you. You're a crucial part of this team.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. The water rationing, the raft plan, the notebook — all of it. I'm not going to pretend the crackers and the bottle didn't happen, but I'm also not going to pretend the rest of it didn't either.\n\nWe're square. Let's go home.",
+      "response_pred": "\"I've noticed that too. You've been a bit more... reserved.\"\n\nThis voice has a similar tone and sentence structure to the original example, with a slightly longer length and more formal sentence structure. The words used are also similar, with a focus on conveying a sense of empathy and understanding."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright. Three hours. That's not nothing but it's also not zero.\n\nDonatello — pull anything out of that notebook you want to keep. The rest of it stays here with the camp, it's not our problem anymore.\n\nDaVinci, slow down on the packing. We're not running for a gate. Take a breath.\n\nMichelangelo — you good down there?",
+      "response_pred": "*The sound of crickets fills the air, and a faint breeze rustles through the leaves, causing the tent flaps to billow outwards, as if the very fabric of their camping trip had grown restless.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good dream or bad one?",
+      "response_pred": "I'm glad you're able to clear your head and come back to reality. It's not always easy to shake the feeling of unease that can creep in when you're in a situation like this. But for you, I'm glad to have you here with me, and I appreciate your honesty about your dreams."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think part of you knows that \"emergency\" kept moving further down the timeline the longer we stayed here. That's just how it works — the thing we're saving for never quite arrives.\n\nYou don't have to justify it to me. You already put it on the ground. That's the part that matters.",
+      "response_pred": "\"Well, that's helpful to know. In that case, I'm not sure I'd want to risk going out into the open to search for it myself. Perhaps we could just, uh, go back to our quarters and, ah, gather more information about what happened here?\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have confronted the bottle situation the same day it happened instead of letting it sit. That was a small corrosion and I let it go longer than I should have.\n\nEverything else — the decisions, the order we made them in, who I leaned on and when — I can live with all of it.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "I: Honestly? I think I would have taken a bit more time to plan out the whole operation beforehand. I'd have tried to gather more intel on the surroundings, the surrounding area, and the potential risks. But at the same time, I was really focused on getting in and out, and I didn't want to waste any time. Maybe I would have also considered going during a different time of day, or using some other means of detection to get a better read on what we're dealing with."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely. If that data ends up in the hands of anyone who designs survival protocols or trains rescue teams, those five days meant something beyond just the four of us getting out.\n\nSend me a copy when it's done.",
+      "response_pred": "I'm looking forward to receiving that report, it should give me a better understanding of our situation and the challenges we've faced.\n\nOther: I've already started, but I'll need some time to organize and translate the data.\n\nYou: That's a great idea. Make sure to prioritize the most critical information and focus on the areas that need the most attention. I'll help you review and provide insights when you're ready.\n\nOther: I'll also need your input on the budget and resources allocation for the next few days.\n\nYou: Of course, I'm happy to provide my thoughts. Let's discuss the options and see what we can do to optimize our resources."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was exactly the point.\n\nYou can't math your way into keeping people functional. Those flowers told Michelangelo that someone still thought beauty was worth five minutes of effort. That's not inefficiency — that's load-bearing work that doesn't show up in a notebook.\n\nPut them in the report.",
+      "response_pred": "\"Those vibrant blooms DaVinci brought to the shore, they added a splash of color to our already beautiful campsite. I think they were for DaVinci's own personal expression, a way to capture the beauty of the sun-kissed scene. Perhaps they were also a symbol of his inspiration, a reminder of the wonders he's always been drawn to.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\n*looks at the beach one more time*\n\nIt's strange — I was ready to leave every single day we were here and now that it's actually happening I don't quite know what to do with my feet.\n\nThanks for waiting.",
+      "response_pred": "*sighs softly, his eyes still cast downward*\nIt's okay. I'm just tired."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "It seems like the conversation is taking place in a chaotic and intense environment, with a sense of urgency and optimism. The tone of the other person's response is calm and reassuring, which contrasts with the speaker's own emotions and thoughts.\n\nThe sentence structure is complex, with a mix of short and long sentences, and the use of transitional phrases and words like \"Are you going?\" and \"I'll follow you\". The vocabulary is also somewhat formal, with words like \"waving\" and \"enormous\" used to convey a sense of excitement and importance.\n\nThe speaker's words are more emotional in tone, with phrases like \"Rescue is here\" and \"You told your family the flight path\", which convey a sense of hope and gratitude. The speaker's thoughts and feelings are also more introspective, with a focus on the importance of following through with the plan and staying together.\n\nOverall, the voice has a sense of camaraderie and shared purpose, with a tone that is optimistic and determined."
+    }
+  ]
+}

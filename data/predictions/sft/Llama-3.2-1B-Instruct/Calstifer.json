@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Calstifer",
+    "agreeableness": "54.0",
+    "openness": "54.0",
+    "conscientiousness": "71.0",
+    "extraversion": "86.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Calstifer__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it sink in for a second.\n\nWe're okay. We're actually okay.",
+      "response_pred": "*Looks down, trying not to make eye contact.* \"Hey, it's okay. We're here for you.\"\n\n*Pauses, then adds, \"You're not alone. I'm here.\"*\n\n*Looks up again, avoiding eye contact but still maintaining a fragile, sad expression.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, which counts for a lot.\n\nThe rationing, the scouting, the raft plan, the notebook - I didn't always agree with how you went about things, and I said so. But I also knew every morning that you were already up and thinking about what needed doing. That's not nothing either.\n\nI think you know where the edges are now. Between rational and fair, between practical and present. That's worth something, coming out of something like this.",
+      "response_pred": "I want you to know that I get it. I'm not here to pretend everything's fine if it's not.\n\nYou can talk to us about anything. Not everything. But anything."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit with that for a minute.\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "This isn't a great moment, okay? It's not a good moment. We're all struggling, and we need to work through it. But instead of acknowledging that, you just kind of passed on.\n\nThat's not the same as leadership. Leadership is about showing up, day after day, without expecting what comes next. Leadership is about creating the space for others to do what they need to do. Leadership is about not being the problem, and the problem is definitely the rift you just created.\n\nIf we don't start working on that, we're going to lose a lot of people. We're going to lose a lot, and we'll all need to spend a lot of time making up for it. We don't know what we're working towards yet, but we need to start putting in some effort."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "I had a dream too. It was different. It was like the whole world was floating on water, and I was holding onto it with my whole body. It felt real."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. I don't think you were being malicious about it. I think you made a calculation and you stuck to it, which is very you.\n\nBut we had the conversation about the bottle and the crackers. And you said you understood why it mattered. So seeing this now - I'm not angry, I'm just... I want to understand what the difference was in your head between then and this.\n\nBecause from where I'm standing it looks like the same thing, just with better justification attached to it.",
+      "response_pred": "It's okay. I'd like to talk about it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more, earlier. Not about the practical stuff - the decisions mostly held up. But there were moments where I could see someone struggling and I found a way to make it about the task at hand instead of just... sitting with it properly.\n\nThe afternoon Michelangelo was staring at nothing, I went and sat near him, which was right. But it took me longer than it should have to get up and do it. I was thinking about the firewood.\n\nI'd also have pushed back on the rationing plan the moment it appeared, instead of flagging the enforcement clause and letting the rest of it stand. The plan itself set a tone, and the tone mattered more than I gave it credit for at the time.\n\nWhat would you change? You left yourself the question. You must have something.",
+      "response_pred": "No, I wouldn't change anything.\n\nThe decision to leave that notebook out, for example. I know it was a way of expressing frustration, but it still feels like a call to action. And I think the note itself, which implied it wasn't just a personal question - I think that's what I was most trying to get across.\n\nBut see, what we said to you tonight - it's not just about the practical stuff. It's about you keeping us alive, even when it felt like it wasn't going to happen. That's something to stand on."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd do, and I mean that genuinely.\n\nSend me a copy when it's done. I'm curious what it looks like from the outside - the full picture, all five days laid out. I think it'll read differently than it felt living through it.",
+      "response_pred": "I think that's a good start. And I've got a thought, actually. Not just any report. Write it up in a way that's clear, concise, and honest. Not just about the numbers and the decisions - about why. What was it about the resource data that made you want to write it up as a report? What were the underlying values or principles that that part of the story was trying to convey?\n\nThat's not just a historical document. It's a way of framing what happened and why. That's what makes it valuable."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. There's a difference, and I think you know that now even if you didn't then.\n\nLook at him over there.",
+      "response_pred": "They were to mark the spot where we anchored the raft. Each piece is spaced about 100 yards apart, and they're all pretty consistent with what we'd expect in a good spot. It was a small detail, but it was something to remember, I think.\n\nIt's funny - I used to think that was just a stupid thing to draw on the beach, and now I'm not so sure. But that's where the difference is. You didn't just draw on the beach - you drew on the entire five days of our time here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I thought getting here would feel like something resolving. Like the ending of something. But it doesn't quite feel like that, does it. It feels more like - I don't know. Like waking up from a very long dream and not being sure yet which parts were real.\n\nThey were all real. That's the thing.\n\n*looks at DaVinci, then back at the boat*\n\nOkay. I'm ready.",
+      "response_pred": "We're okay. We're actually okay.\n\nThere was a moment - that's it - where you were struggling. I was there. I'm not saying I fixed it, because I didn't. But I was there.\n\nLet's keep moving. Let's keep listening to each other."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on then.\n\nStay close.",
+      "response_pred": "I'll wait for you."
+    }
+  ]
+}

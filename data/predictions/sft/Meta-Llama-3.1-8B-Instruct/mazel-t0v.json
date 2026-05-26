@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "mazel-t0v__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "*Stands up, arms crossed* What's going on? He okay?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "*pauses* I think that's an understatement."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "*Picks up a nearby stick, begins to whittle it. Looks up at the others occasionally, but stays focused on the stick.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "What did it look like?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "You're not going to use it on me, are you?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "I'd have kept moving the first day."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "Do it now."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "I think they were just something to draw."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "Keep going."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah. I'm going."
+    }
+  ]
+}

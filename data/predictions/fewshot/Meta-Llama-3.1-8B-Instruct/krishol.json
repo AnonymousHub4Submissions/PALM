@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "krishol",
+    "agreeableness": "48.0",
+    "openness": "44.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "Hey, what's going on? Are you okay?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive so. I'll take it.",
+      "response_pred": "You've been in your own head a lot, I get it. Anyone would be after what happened. We're all still trying to wrap our heads around it, I think."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright I'm not just gonna sit here for three hours. Let's at least make this place look like we weren't completely feral while we were here.",
+      "response_pred": "Come on guys, what's going on? We've got work to do and not a lot of time to waste. Donatello, can you come over here for a second and help me figure out how we're gonna ration these supplies? And DaVinci, yeah I know you said you'd handle the water but we still need to get some more containers going. We can't just sit around all day."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Good dream or one of those ones where you're home but something's still off?",
+      "response_pred": "What was it like? Was it like it used to be or was it all messed up?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not gonna make a big thing out of it right now, not with rescue three hours away. But you know it wasn't okay, right?",
+      "response_pred": "The lighter. I thought we'd already talked about this, like we're not trying to start a bonfire here, we just need something to warm up and cook with. You're not planning on lighting the whole thing up again, are you?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the food thing sooner instead of waiting for it to pile up. I let it go too long because I didn't want the conflict and that wasn't fair to anyone. What would you change?",
+      "response_pred": "Honestly? I don't know. Like I'd probably change a lot of things but at the same time I think we made some of the right calls given the situation. The raft, for example, is still a risk to take but it's not like we had a lot of other options. Two days of work and we might have a chance at getting out of here, that's not a bad trade-off. And before that, the shelter situation was a nightmare, but we figured it out. Like, I'm not saying everything was perfect, but... I don't know, it's hard to say what I'd change. Maybe I'd try to be a little more assertive about the Donatello thing earlier on. But who knows, maybe if we'd done things differently we'd be in an even worse spot by now. It's all just speculation at this point, I guess."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks for you. Send me a copy when you're done, I'm genuinely curious what it looks like all written out.",
+      "response_pred": "That's actually a pretty good idea, we could use a solid summary of what we've got and what we need to focus on. But can we make it a little more of a priority? I mean the raft is still only partially built and we've got a real chance of rescue coming in within two days. Let's not forget about the actual tasks at hand."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Nothing practical. That's kind of the whole point.",
+      "response_pred": "Honestly I think they were probably just a way to pass the time, you know? And also maybe a little bit of a morale booster. I mean, let's be real, we've been stuck out here for a while and it's easy to get down. But drawing something beautiful like that, it's like a reminder that there's more to life than just survival. Plus, if rescue does show up, those flowers are actually a pretty good signal, I mean they're big and colorful, it's hard to miss them."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm coming, I just need a second.",
+      "response_pred": "*Still staring at the wreckage, I shake my head and turn back to him, a hint of a frown on my face*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "We're going! Come on, let's move, don't just stand around. We need to make sure everyone's okay, don't want to leave anyone behind. DaVinci, Michelangelo, we're going!"
+    }
+  ]
+}

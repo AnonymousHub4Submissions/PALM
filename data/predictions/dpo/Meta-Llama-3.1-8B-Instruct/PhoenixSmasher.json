@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PhoenixSmasher",
+    "agreeableness": "2.0",
+    "openness": "87.0",
+    "conscientiousness": "10.0",
+    "extraversion": "98.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": "33.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. We're good. We made it.",
+      "response_pred": "*My eyes widen in surprise, and I immediately jump up from my seat, concern etched on my face. I rush over to the guy, slapping him gently on the back.* Oh man, are you okay? You look like you've seen a ghost. What's going on, buddy?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. That counts for a lot.",
+      "response_pred": "Come on, don't even get me started, okay? I've been in a meeting for three hours straight, trying to close this huge deal and all my coworkers are just sitting there, staring at me like I'm some kind of superhero or something. And then I get back to my office and my assistant tells me the CEO wants to see me in five minutes. I swear, it's like the world is just spinning out of control sometimes."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this place up. We're not leaving it like this. Michelangelo, get up, help me stack the panels. DaVinci, start breaking down what we built and sort what's worth taking back from what isn't. Three hours is plenty of time.",
+      "response_pred": "*pauses for a moment, looks around at the others, then continues on their way, occasionally glancing back to see if anyone's following or paying attention, eventually settling on a nearby tree to take out their guitar and start strumming a lively tune, humming along as they play*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I've been thinking about taking a road trip out to the coast, it's been ages since I've seen the ocean. You know, I was talking to my buddy Joey the other day and he said he's been thinking about selling the old family cabin. I told him, 'Dude, you can't sell that place, it's a part of who we are.' I swear, every time I think about it, I get this urge to grab my guitar and head out there."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all went hungry together. That's the part that's hard to get past.",
+      "response_pred": "I don't think you need to justify it to me, but I do have to say that keeping a spare tire isn't just for emergencies. It's also a good idea to check your tire pressure regularly and make sure your spare is in good condition."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group conversation about the food earlier instead of waiting. That needed to happen sooner. Other than that... I don't know. We made it. Hard to argue too much with the outcome.\n\nWhat's your answer?",
+      "response_pred": "Honestly, not much. I mean, we managed to get everything done, even with the setbacks. But if I had to pick something, I'd say I wish we'd have been more aggressive with the timeline on the Johnson account. We lost some valuable time there, and it put us behind schedule. But overall, it was a solid operation, and I'm proud of the team for pulling it off."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "Finally, some order out of chaos. I've been telling you we need to keep track of our progress and finances more efficiently. That report is long overdue. While you're doing that, I'll prep the sales pitch for the investors meeting next week. We need to make a killer impression."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that might've been the point.",
+      "response_pred": "The famous flowers of DaVinci's Vitruvian Man. They were actually a representation of the proportions of the human body, not a depiction of flowers on a beach. It's a drawing of a nude male figure inscribed within a circle and square, demonstrating the mathematical proportions of the human form as described by Vitruvius. Some art historians believe that DaVinci was using the flowers as a symbol of harmony and balance, but it was more about the underlying mathematical concept rather than any practical purpose."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "You're not going to join in on the fun? I'm getting the whole team pumped up for the big game, and you're just standing there."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Finally, something's happening. I'm going to go and check what's going on, don't just stand there. Follow me, let's see what they're doing. I'm not going to wait around for them to come to us."
+    }
+  ]
+}

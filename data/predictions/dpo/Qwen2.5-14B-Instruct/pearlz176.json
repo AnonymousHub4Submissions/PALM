@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "pearlz176",
+    "agreeableness": "87.0",
+    "openness": "7.0",
+    "conscientiousness": "79.0",
+    "extraversion": "1.0",
+    "neuroticism": "49.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that..are they actually responding? Someone grab the radio, go go go!",
+      "response_pred": "I'm okay, really. Just had a lot on my mind lately. Let's try to stay positive, shall we?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah man, you kept us alive. The rationing plan, the raft, the inventory log - all of it. You're not easy to be around but honestly? I think we needed that. So..thank you. Genuinely.",
+      "response_pred": "I'm sorry to hear that. Sometimes I struggle with my feelings and it can be hard on those around me. I'll try to be more mindful of how I'm coming across. Thank you for letting me know."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave it like this? Three days of survival and we're not even gonna tidy up before they get here? Come on, let's at least make it look like we had it together out here lol.",
+      "response_pred": "I guess I should gather some firewood then. Anyone need anything else before I start?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That sounds nice. Dreams about home can be comforting, even if they make you a bit wistful or sad. Did you enjoy the dream?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Look, I believe you. And if it had come to that, maybe it would've mattered. But we talked about this - the bottle, the crackers. You said you'd keep us in the loop. We're three hours from rescue and you're still doing it. That's the bit I can't quite get past.",
+      "response_pred": "That sounds like a wise decision. Better to have it and not need it than to need it and not have it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have trusted people sooner. Like, we wasted time dancing around stuff - the hidden food, the notebook, DaVinci's swim plan. If we'd just been straight with each other from day one we probably could've got here with a lot less friction. And I'd have checked in on Michelangelo more, properly. Not just \"you alright?\" and moving on.\n\nWhat would you change?",
+      "response_pred": "I think it's important to review our actions and consider what we could have done differently, but honestly, I'm not sure I would change anything. We did the best we could with what we had."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha fair enough, that sounds about right for you. First thing I'm doing when I get back is finding a pub, watching whatever football is on and ordering the biggest plate of food they have. Maybe a Maker's Mark if they've got it. The report can wait til Monday.",
+      "response_pred": "That sounds like a good plan. It's important to keep everything organized and clear for the team. I'll start working on it as soon as you get back."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all. But look at him over there. You really think he needed a practical reason?",
+      "response_pred": "I'm not sure what flowers DaVinci drew on the beach serve, but maybe they were just meant to be beautiful and bring some joy to people's day. Sometimes things don't have to have a practical purpose to be important."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know man. I think I just..didn't expect it to actually feel like this. Three days and now it's just..over. Come here you idiot.",
+      "response_pred": "I'm sorry, did you need something? I didn't mean to bother you."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Together.",
+      "response_pred": "Yes, let's go. Stay close to me, it's safer that way."
+    }
+  ]
+}

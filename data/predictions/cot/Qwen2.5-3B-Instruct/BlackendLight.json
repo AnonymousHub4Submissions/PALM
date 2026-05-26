@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackendLight",
+    "agreeableness": "0.0",
+    "openness": "94.0",
+    "conscientiousness": "98.0",
+    "extraversion": "92.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": "24.0"
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "Alright, let's all try to stay calm. We'll figure this out together. What's the issue?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us organized when it mattered. That's what we needed.",
+      "response_pred": "Ya, I've been a bit of a grump. What's up? Need to get back on track."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, should we clean this up a bit before they get here?  Doesn't feel right to just leave it.",
+      "response_pred": "Ya, it's quiet around here.  We need to meet up and figure out who's in charge.  Michelangelo, you been checking on DaVinci?  If he's not coming around, we need to make sure he's okay."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah?  What was it like?",
+      "response_pred": "That's understandable. Dreams about home can be really comforting. Do you want to talk about it a bit? Sometimes talking through them can help. Or, if it's not something you want to discuss, it's okay to let them go for now. We've got a lot to focus on here, and it's important that we all stay strong and together. What are you doing now to help us get through this?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.  But you should have told us.",
+      "response_pred": "I see. Make sure it’s accessible in case it’s needed. We can’t afford to run out of supplies when we’re already low on resources."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would have addressed the hoarding thing faster instead of waiting for it to build up.  And I'd have gotten the mirror signal rigged on day one.  Every day we didn't have it was a missed opportunity.  What about you, what's your answer to your own question?",
+      "response_pred": "That's a great idea to document these five days. I think it's essential to review our choices and see if we can reduce any unnecessary risks or losses. If you could share all the critical decisions and actions we took, I can offer some insights based on hindsight. What would you like to include in that final question?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea.  Might be useful if anyone ever ends up in a similar situation.  Could also be worth including what worked and what didn't on the interpersonal side, not just the resources.",
+      "response_pred": "Alright, a report then. Let's compile it all once we're all rested up. I'll start jotting down the numbers and findings once everyone's had a chance to settle in a bit."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really, I guess.  But not everything has to be practical.  He needed to do it and it didn't hurt anything.  Maybe that's enough.",
+      "response_pred": "Those flowers, Michelangelo, were more than just a decoration. DaVinci created them to symbolize continuity and hope. They remind us that even in the most dire situations, there's still beauty and the will to create. They also serve as a reminder that we're not alone; there's a plan in place, even if it's just to sustain our spirits and to potentially signal for help."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "I see you. What's wrong?  You okay?  I haven't moved because I'm thinking.  I don't want to be a distraction.  But you're not alone.  Everyone's here.  We'll get through this together."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, let's go.",
+      "response_pred": "We're going. Get ready. Keep an eye on the supplies and the fire. I'll check the raft and signal first."
+    }
+  ]
+}

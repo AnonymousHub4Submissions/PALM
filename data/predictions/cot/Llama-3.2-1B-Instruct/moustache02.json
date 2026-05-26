@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "moustache02",
+    "agreeableness": "29.0",
+    "openness": "38.0",
+    "conscientiousness": "86.0",
+    "extraversion": "43.0",
+    "neuroticism": "19.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer the radio. Now.",
+      "response_pred": "other: *pauses, still looking at you with a mix of fear and desperation* I... I don't know why I'm telling you this. But... *trails off, unable to finish the sentence*\n\nYou: *leaning in, trying to get him to talk* What's going on, man? What's on your mind? *try to sound concerned, but still keep an eye on him*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us alive, that's what mattered.",
+      "response_pred": "You: Yeah, I know. I've been feeling a bit...restless, too. You know, always on edge, always wondering what's going to happen next. It's like my mind is always racing, and I'm not really sure how to quiet it down. I guess that's just part of the life, but it's not what I'd want for a family. I mean, I love them, but they're always worried about me, always pushing me to do more, be more. It's like I'm always running on a hamster wheel, you know? And it's exhausting. I just want to sit back, relax, and enjoy life."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not sit here doing nothing.\n\nPack what's worth keeping, leave the rest. Douse the fire properly, don't just kick sand on it. And someone flatten that SOS on the beach so the rescue team knows we're accounted for and not still missing.\n\nMichelangelo get up, you can stare at the sky from the helicopter. DaVinci stop fussing over what to pack, take everything and sort it later.\n\nDonatello, close the notebook. It's done.",
+      "response_pred": "*The silence stretches out, a heavy, oppressive blanket that wraps around them like a shroud. The only sound is the distant hum of crickets and the occasional snap of a twig. Donatello picks up his guitar, strumming a melancholy tune that sends shivers down Michelangelo's spine. DaVinci simply stands there, his eyes fixed on the horizon, his hands clenched into fists. The three of them stand there, a tableau of tension and uncertainty, as the sun dips below the horizon, casting the camp in a deep, foreboding shadow.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that feeling, you're almost there.",
+      "response_pred": "Michelangelo, you're not going to get all sentimental on us about the past, are you? Don't think for a second that I'm not aware of something bothering you. I'm cutting through the nonsense. I just want to know you're thinking about home. What's going on?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah I know. And if we'd hit day five with nothing I'd probably have thanked you for it.\n\nBut we didn't. So eat it now, share it, and we call it even. No point carrying guilt onto the helicopter.",
+      "response_pred": "think: This response is typical of the persona's blunt and matter-of-fact tone, which is a characteristic of the Big Five personality traits.\n\ntheir reply: You: Don't worry, it's not a problem. We can always build you in."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much. Maybe been quicker to call out the solo resource thing before it became a pattern. And I would've pushed harder on the raft earlier, before the plane scare.\n\nBut the big stuff - keeping the group moving, covering all three priorities, not letting anyone fall apart completely - I think that went alright.\n\nWhat would you change? And be honest, not the clean answer you'd put in a report.",
+      "response_pred": "Persona: DaVinci\n\n\"Ah, my friend, I think I know exactly what you're getting at. If you had to do it over, you'd change the fact that you spent three days monitoring the camp's internal temperature, trying to estimate the probability of a fatal heat stroke. I mean, I know you're trying to be cautious, but honestly, it's a bit excessive. We're in the middle of a survival situation, not a science experiment. We need to focus on more practical things... like building that raft.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah do it. Might actually be useful if this ever happens again to someone.\n\nSend me a copy when it's done. I'm curious what the numbers look like from the outside.",
+      "response_pred": "Personality: Agreeableness: 29.0\nOpenness: 38.0\nConscientiousness: 86.0\nExtraversion: 43.0\nNeuroticism: 19.0\n\nResponse: \"Ah, come on! Let's get everything useful over here — move it! We've got a lot to review and a tight deadline. I'm not sure I'm ready to do this report just yet, especially with all the... interesting things we've been doing lately.\"\n\nThis response is brief, sharp, and somewhat blunt, reflecting the persona's higher Agreeableness score. The use of the phrase \"Come on!\" shows a sense of frustration, while the suggestion to \"move it\" implies a desire to get started on the task. The tone is somewhat dismissive of the report, as the persona seems to be prioritizing the immediate task of completing the raft over the report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose.\n\nBut they made DaVinci feel like himself out here, which kept him functional, which kept the group together. Sometimes that's worth more than practical.",
+      "response_pred": "Think: The persona's response is brief, concise, and direct. The tone is calm, measured, and slightly detached. They're avoiding a direct confrontation, which is unusual for someone in this situation. The use of the phrase \"out here\" suggests that the conversation is taking place in a more isolated environment, which adds to the persona's reserved nature.\n\nTheir reply: The persona is not directly addressing the issue at hand; instead, they're redirecting the conversation to a completely unrelated point. This creates a sense of deflection, which can be seen as a coping mechanism. The person is trying to sidestep the problem and steer the conversation towards something else, which may be a way to avoid discussing the sensitive topic of the signal equipment and the potential rescue. The use of the phrase \"what practical purpose did they serve\" implies that the person is not genuinely interested in understanding the flowers' significance."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just give me a second.",
+      "response_pred": "You: *Your eyes scan the surrounding area, your gaze lingering on the trees, the fire, and beyond. Your voice is low and even, but your words convey a sense of unease.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah I'm going. Come on, let's move.",
+      "response_pred": "I'll be right behind you. Stay close and follow the signal. We're not out of the woods yet."
+    }
+  ]
+}

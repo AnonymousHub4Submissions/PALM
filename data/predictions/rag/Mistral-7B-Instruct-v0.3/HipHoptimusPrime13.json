@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "HipHoptimusPrime13",
+    "agreeableness": "94.0",
+    "openness": "80.0",
+    "conscientiousness": "0.0",
+    "extraversion": "47.0",
+    "neuroticism": "4.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — it's okay. Breathe.",
+      "response_pred": "I see you're struggling, friend. If you're ready, there's work to be done. We've got supplies to gather, rations to manage, and morale to maintain. Maybe it'll help, having something concrete to focus on. Let's get to work. I'm here for you if you need to talk."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the raft, the water scouting — that was all you. \n\nThe other stuff, the bottle and the crackers — I'm not going to pretend that didn't happen. But I think you know that too, otherwise you wouldn't be bringing it up right now.\n\nWe're good.",
+      "response_pred": "I get it, man. Life can be tough sometimes, and it's not always easy to hide that. But I appreciate you being honest about it. We're all in this together, after all. Maybe things'll lighten up a bit soon."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, let's clean this up before they get here. I don't want to leave this place looking like we just gave up on it. Michelangelo, you good to help me break down the fire pit? DaVinci, whenever you're done packing, let's get the SOS cleared off the beach — we don't need it anymore and it feels right to be the ones who take it down.",
+      "response_pred": "Well, it seems like we've all found our own corners to occupy. I suppose that's the beauty of solitude, isn't it? But I can't help but wonder if we're missing an opportunity here. Perhaps we should discuss our next steps, pool our resources, and form a plan. After all, we're all in this together. Or am I the only one who sees it that way?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Oh, the dreams, huh? They get more vivid the longer we're out here, don't they? I had one too... about the sound of rain on the roof, or the smell of gardenias in the morning. It's a cruel reminder of what we've left behind. But we're still here, and that's what matters. So, let's focus on the present. We've got tasks ahead, and daydreaming won't help us get through them."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. And I think if things had gotten bad enough, you would have shared it.\n\nBut you wrote the rationing plan. You set the rules and then you worked around them, and we all saw it. That's the part that was hard to sit with — not that you were scared and wanted a backup, but that you didn't trust us enough to say so.\n\nIf you'd come to me and said 'I want to set aside a small emergency reserve' I would have said yes. Probably without much argument.\n\nWe're okay. I just want you to know that's how it landed.",
+      "response_pred": "I understand. Emergencies can be unpredictable, so it's always good to be prepared. Just remember, we need to ration what we have carefully. Let's make sure we use it wisely."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have talked to you sooner. Not about the food — about the notebook, the rationing plan, all of it. I kept watching you operate and assuming I understood what you were doing and why, and I never just asked. That probably cost us a few days of unnecessary tension.\n\nI'd have been more upfront with Michelangelo too. I kept trying to redirect him when he was struggling instead of just sitting with it. Sometimes that's what people need and I defaulted to 'keep moving' because that's easier for me.\n\nWhat would you change?",
+      "response_pred": "Not much, really. We made the best of what we had and managed to survive. Maybe we could've scouted further for resources on the second day, but that's hindsight. Overall, I think we did well."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd be good at. You should do it.\n\nHonestly, if you write that up properly it could be useful to someone someday. Not just the resource data — the decision-making stuff too. What worked, what didn't, where the gaps were. That's the part that's hard to teach from a textbook.\n\nSend me a copy when it's done.",
+      "response_pred": "Sounds good. Make sure to include any significant findings and potential strategies for future resource management. I'll lend a hand if needed. Let's focus on the immediate tasks at hand for now, though. We need to secure shelter and water before anything else."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.\n\nYou're really good at the practical stuff, Donatello. Better than any of us. But the flowers weren't about survival — they were about DaVinci needing to feel like himself in the middle of all this. Like he was still a person and not just a function.\n\nI think that matters. Maybe not in the way you can log it, but it kept him going. And we needed him going.",
+      "response_pred": "I'm not entirely sure, but they might have been used for medicinal purposes or as a means of communication. DaVinci was always exploring various aspects of nature and art, and it wouldn't be surprising if he found some practical use for his drawings. However, it's worth noting that many of his discoveries were ahead of their time and might not have been immediately understood by those around him."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I thought I'd feel something cleaner than this.\n\nFive days of wanting nothing more than to see that boat and now it's actually there and I'm just... standing here. It's a weird feeling. Like your brain hasn't caught up yet.\n\nI'm glad you're here, man. I mean that.",
+      "response_pred": "I suppose you're waiting for a response. Well, I don't know what to say. I've been thinking about it, too. But... we've got a job to do, haven't we? We can't just stand here. We've got resources, we've got plans, and we've got each other. Let's make the most of it. That's what I plan to do, at least."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Let's go, but let's make sure we're not abandoning anyone. We've been through a lot, and I don't want anyone left behind. We've all got a chance now, let's not squander it. If you're ready, let's move towards them, but let's do it together. We've got a chance at a new beginning, and I don't want to start it with regrets."
+    }
+  ]
+}

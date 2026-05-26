@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mojo29",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "43.0",
+    "extraversion": "40.0",
+    "neuroticism": "67.0",
+    "gender": "m",
+    "age": "24.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. You don't have to say anything right now. None of us do.",
+      "response_pred": "Look, I know you're hurting. We all are. But we can't give up now. Not when help may still be on the way. We have to keep going, keep pushing forward. We need to make sure we're conserving our supplies, keeping the signal going, and doing everything we can to stay alive until help arrives.\n\nI know it's hard, but we can't let fear take over. We have to stay strong for each other. We're in this together and we'll make it through this, as long as we don't give up.\n\nLet's take a moment to catch our breath, gather our thoughts, and then let's get back to work. We'll get through this. Together. I believe in us."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But none of us have been at our best out here. I'm not going to pretend the bottle thing didn't bother me, because it did. And the log thing was a little weird, not gonna lie. But you also kept us alive and organized when the rest of us were still trying to figure out which way was up. So I think it balances out more than you might think.\n\nI'm glad you said something though. That actually means a lot.",
+      "response_pred": "I get it, man. I know things have been tough. But we're still here, and that's something. We've got each other, and that counts for a lot. I'm not going to pretend like I haven't noticed some things that worry me, but we can't let that divide us. We need to stick together, trust each other, and keep moving forward. So let's just focus on what we've got, and try to make the best of it. That's all I'm asking. Let's not let the past few days define us. Let's define the days ahead. What do you say?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just going to leave this place looking like this? I know rescue's coming and I know everybody's in their own head right now, and honestly I get it, I am too. But I think we should clean this up a little. Not because anybody's going to care, but because... I don't know. It feels like the right way to leave it.\n\nThree hours is enough time. Let's put the fire out right, break down what we built, leave it better than we found it if we can. \n\nMichelangelo, you good to help? Donatello, you can keep going through the notebook, just maybe do it while we work?\n\nI just don't want to sit here for three hours watching the clock. Let's finish it out the right way.",
+      "response_pred": "Man, this silence is heavy. I'm not gonna pretend I'm not feeling it too. But we can't let it get to us. We gotta stay focused. I'm gonna go check on Michelangelo. Make sure he's alright. He looks cold. I'll see if I can find something to help warm him up. And then I think we need to figure out what our plan is for tomorrow. We've got tasks to tackle, supplies to conserve, and signals to send. We can't just let ourselves get lost in our heads. That's not going to do us any good out here. So let's regroup, okay? Let's talk about what we need to do and how we're going to do it. And let's do it together. That's what we've always done. That's what we need to keep doing."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I get it, I do. Home, right now, feels like a long ways away. But we can't let that get to us. We need to focus on what we can control. Like making sure we've got enough water and food for the next few days, and keeping the signal going. We've got a chance, a real one, of getting rescued. We just have to hang in there a little longer.\n\nSo, let's get moving. We can take a minute to think about home, but we can't let it distract us from what we need to do right now. We're in this together, and I believe we can make it through. We've got each other, and that's worth holding onto."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do. And I think part of you meant that. But I also think part of you just wanted to make sure you had more than everybody else if things got really bad. And I'm not saying that to be cruel, I'm saying it because I think you know it too and I think you'd rather somebody just say it out loud than dance around it.\n\nLook, it doesn't matter now. We're going home. Nobody starved, nobody got hurt over it. But if you're serious about being better with people... that's probably a good place to start. Not just keeping the rules when it's easy, but keeping them when it's hard and you're scared and your brain is telling you to look out for yourself first.\n\nI'm not angry. I was, a little, but I'm not anymore. I just want you to sit with why you did it. Not because I need an apology or anything like that. Just because I think you're smarter than most people and I think you could actually do something with that if you figured out how to trust people even a little bit more.\n\nThat's all I've got.",
+      "response_pred": "Man, I appreciate you keeping that for emergencies. But I think we need to be honest with each other about what's going on here. We're running low on supplies and I can't help but notice that we've got a pack of crackers missing and an empty bottle where they were supposed to be. I don't want to make a big deal out of it, but I think we need to talk about this. I'm not trying to point fingers or anything, but if we're going to make it out of here, we need to be able to trust each other and follow the rules we've set.\n\nSo, what happened with the crackers and the bottle? I just need to know. And if there's anything else that's been taken or used without being accounted for, I need to know that too. I know it's tough out here, but we're all in this together and we need to stick to the plan if we're going to make it out of here.\n\nCan we talk about it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more. Earlier. To all of you.\n\nI spent a lot of this time managing things and keeping the peace and making sure everybody was okay and I never really just... said what I was actually feeling. I do that at home too. I'm not great at letting people in and out here it wasn't any different. I kept things close to my chest when I probably should've just put them out there.\n\nI'd have talked to you about the bottle the same day it happened instead of letting it sit. Not to embarrass you, just to deal with it before it had a chance to grow into something worse. I let that go too long.\n\nAnd I'd have spent more time with Michelangelo just sitting and talking and less time worrying about whether he was pulling his weight with the firewood. He needed somebody to just be present with him more than he needed to collect wood. I knew that and I still kept defaulting back to the task list.\n\nI think I'd also have told DaVinci what he meant to the group more. He kept everybody moving when the rest of us were dragging and I don't think I ever actually said that to him out loud.\n\nWhat about you? You wrote the question. You have to have an answer by now, even if it's just a partial one.",
+      "response_pred": "Man, that's a tough one. I'd say I'd maybe try to be a little more open about my feelings and thoughts from the beginning. I think keeping things bottled up the way I did just made things harder on everybody. I'd also try to be a little more assertive, especially early on. I think I let some things slide that maybe I shouldn't have, and that might have made a difference.\n\nBut I'd also say that I'm proud of how we all worked together and supported each other. We made some mistakes, but we also made some good decisions and found ways to persevere in really tough situations. So I guess what I'd really change is trying to find that balance between being open and assertive, while still being understanding and supportive of the others. That's definitely something I'll carry forward with me, whether we get rescued or not."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, that sounds like you. And I mean that in a good way.\n\nI don't really know what the first thing I'm going to do is. Call somebody I've been putting off calling, probably. There's a person back home I've been wanting to say some things to for a long time and I keep finding reasons not to. Out here it was pretty hard to keep telling myself I'd get around to it eventually.\n\nI think almost dying has a way of making the stuff you've been avoiding feel a lot more urgent.\n\nBut yeah, write your report. I think you should. What happened out here was real and you kept track of it better than any of us. That matters. Just... maybe also do the other thing. The trusting people thing. Don't let the report be the only thing you take home from this.",
+      "response_pred": "I don't know, man. I mean, that's a good idea, but is that really the first thing you should be doing? We've got resources here that are running low and we're still not even sure where we are. Shouldn't we be focusing on figuring out where we are and finding more resources before we start organizing what we have? I'm just saying, it seems like there's more immediate things that need our attention right now. The report can wait."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nBut I think that's kind of the point. Out here everything was survival and rationing and patching leaks and keeping the fire going and none of it left any room for just... being a person. And DaVinci drew flowers next to an SOS sign on a beach where nobody could see them and it didn't help us get rescued and it didn't conserve any energy and it was completely pointless.\n\nAnd it was also one of the best things anybody did out here. Because it was the one moment where somebody said I'm still me, this place hasn't taken that yet.\n\nI think you understand that more than you're letting on. You asked the question at the end of your notebook. You didn't have to write that. It didn't help the resource log. But you wrote it anyway.\n\nThat's your flowers, Donatello.",
+      "response_pred": "I'm not sure they served a practical purpose, to be honest. But I think they were meant to help us feel a little less alone. DaVinci put a lot of thought into them, and for her, that's important. It's a way for her to cope, I think. And if they help us get noticed, well, that's a bonus. But I get what you're saying, it doesn't make sense in the grand scheme of things out here. It's just... something small that we could do, you know? Something to remind us that there's still beauty in the world."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I don't know what's wrong with me, I should be running into that water right now.\n\nI think I just... I don't want it to be over. Which is insane, right? We almost died out here. Multiple times. We were cold and hungry and scared and I watched a plane fly away and felt like the floor dropped out from under me. And now rescue is right there and I can't make myself move.\n\nI think it's because out here it was simple. Not easy, but simple. You wake up and you know exactly what matters and exactly what you have to do and there's no room for any of the other stuff. The second I get on that boat all the other stuff comes back. The things I haven't dealt with. The person I've been meaning to call. All of it.\n\nOut here I actually said things. To all of you. Things I don't think I've ever said to anybody back home.\n\nI don't want to go back to being the version of me that doesn't do that.\n\nI'm coming. I'm coming, I just needed a second.",
+      "response_pred": "Man, something's not right. You've been laughing and cheering for a while now, but it feels like... I don't know, it feels forced. Like you're trying to hide something. You need to talk about it. Whatever it is, we're in this together. We're not going to leave anyone behind. I'm here to listen. We can figure this out, but first we need to be honest with each other. What's going on?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Man, I'm not sure I can believe this. Let's just get our stuff and go, alright? We've made it. I'll take the lead, but you follow close behind. We can't afford to get separated now. And if you see DaVinci or Michelangelo, tell them to hurry up. We're not leaving anybody behind. I'm... I'm just trying not to think about everything that happened out here. It's a lot to take in, you know? But we made it. We did it. We really did it."
+    }
+  ]
+}

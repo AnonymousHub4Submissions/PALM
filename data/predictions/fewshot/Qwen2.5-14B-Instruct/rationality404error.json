@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "rationality404error",
+    "agreeableness": "32.0",
+    "openness": "80.0",
+    "conscientiousness": "21.0",
+    "extraversion": "82.0",
+    "neuroticism": "59.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey.\n\nHey — breathe.\n\nSomeone pick up the radio and answer it. Donatello — you. You're the clearest thinker right now, and that's what they need on the other end of that call.\n\nThe rest of us just — stay where we are. Don't move. Don't do anything that makes this moment go sideways.\n\nWe made it.",
+      "response_pred": "Hey. Take a breath, okay? It's okay if you don't have the words yet. Sometimes it's enough to just be here, with us, and know we're here too. \n\nDo you want to sit down? Or maybe just walk for a bit? Whatever helps."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You weren't easy. But you were useful, and more than that — you were honest when it counted. The crackers thing, the notebook, the raft plan with the drowning math written in plain language like a weather report. I actually needed that. We all did, even when we didn't want it.\n\nI think 'easy to be around' is maybe overrated as a survival trait.\n\nYou okay?",
+      "response_pred": "Hey, it's okay. You don't have to sugarcoat it — we've all been a mess, and for good reason. But here's the thing: I'm not measuring you by how easy you've been to be around. I'm measuring you by how you keep showing up, even when it feels like it's the last thing you want to do.\n\nSo — no, you haven't been easy. But you've also been real, and honest, and you've been part of everything. That's something.\n\nIf there's anything specific you want to talk about, or if there's anything I can do to make things easier, just let me know. We're in this together, and that means the good and the bad."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to leave this place better than we found it.\n\nI'm not saying we owe the jungle a tidy campsite. But I think we'll feel weird about just walking away from it — like we were never here, or like we're pretending the last three days didn't happen.\n\nI'm going to start breaking down what we built. Not because it has to be done. Just because doing it feels right.\n\nMichelangelo, you don't have to move if you don't want to. But if you want something to do with your hands while you watch the sky, I could use someone to hand me things.\n\nDonatello — when you're done with the notebook, whatever's in there is worth keeping. Make sure it comes with you.",
+      "response_pred": "Hey, listen. I know we're all just trying to process, but we can't afford to drift right now. We have a chance here, and that means we have to keep moving. \n\nMichelangelo, you've got the fire. Make sure it stays strong. Donatello, can you start prepping materials for the mirror? We've got work to do, and it's not worth losing any more time. \n\nI'll go check on the signal equipment. Let's not waste this chance we've got."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Home, huh? Must've been something to wake up to. What was it like?\n\nDid you see the house you grew up in, or somewhere newer? Was anyone there with you, or was it just you? Sometimes those dreams feel more real than the dreams we have about the island."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think the emergency you were saving it for was the one where everything fell apart and you were the only one who could hold it together. That's a very specific kind of fear — not fear of starving, fear of being the last competent person standing with nothing left to work with.\n\nI'm not going to make you feel worse about it. We're three hours from rescue and everyone's alive and that's the scorecard that matters.\n\nBut I want you to notice something: we made it through with what we had, together, and the hidden food didn't end up being the thing that saved us. The thing that saved us was Michelangelo telling us about the flight path, and DaVinci drawing flowers next to an SOS sign, and you writing everything down in a notebook like someone might need it later.\n\nYou can keep the food. Or you can put it in the pile. Either way, I think you already know what the right thing is, or you wouldn't have laid it out.",
+      "response_pred": "Kept what for emergencies? The gauze, the water, or something else? Can you be a bit more specific? It's important we know what we're working with, especially if it's meant for emergencies."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd talk less and listen more at the beginning. I came in pretty fast with opinions and plans, and most of the time that was fine, but there were a couple of moments where I think I steamrolled something that needed more room to breathe.\n\nI'd also have asked you directly, on day one, what you were afraid of. Not what you thought the risks were — what you were actually scared of. I think we would have gotten to the crackers conversation a lot sooner, and it would have been a different conversation.\n\nThe thing I wouldn't change is the order of priorities. Water, shelter, signal, people — roughly in that order, but never so rigidly that the people part got pushed off the list entirely. I think we got that mostly right.\n\nWhat's your answer? You wrote the question. You've had three hours to think about it, minimum. What would you change?",
+      "response_pred": "That sounds like a heavy task, but also a really important one. Writing it down means you're not just carrying it, you're processing it. For me, I think I'd go back and make sure I talked more about the rationing plan early on. It's one of those things where we all meant well, but it got messy fast. If I had a do-over, I'd lay it all out in one conversation — everyone's role, everyone's responsibility, and why it mattered. No surprises, no backpedaling.\n\nWhat about you? Did you find an answer to your own question, or does it still feel open?\n\nAlso — you know, if you need a break from the report, you're not alone. I'm here. And if you ever want to just talk about it, instead of writing it down, I'm good with that too."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds exactly like you, and I mean that as a genuine compliment.\n\nCan I make one request? Put the question from the last page in the report too. Not buried in an appendix — somewhere people actually read it. Because that question is the most useful thing in the whole notebook, and I think you know that, or you wouldn't have written it down.\n\nThe resource data tells people what happened. That question tells them how to do it better next time. Both matter, but one of them is rarer.",
+      "response_pred": "Sounds like a good plan. Just remember, a report's only as useful as the people it reaches. If you're the one who finds it most useful to review, that's great. But if it's meant for someone else, make sure they actually need it and can use it. No sense in logging everything if it's just going to sit.\n\nAlso — don't forget to get some rest. If you're the one doing the tracking, you need to be fresh to keep it accurate."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's exactly what they were for.\n\nThe SOS was practical. The flowers were for us. For the part of us that needed to remember we were still people out here and not just a list of survival priorities.\n\nI think that's why you couldn't answer it at the time. It doesn't fit in the notebook. It doesn't have a resource value. But look at DaVinci right now — he's *cheering*. And part of the reason he still has that in him is because he never stopped being someone who draws flowers next to things.\n\nYou can't log that. But it mattered.",
+      "response_pred": "They didn't have a practical purpose. But sometimes, things aren't about what they do, they're about what they make you feel.\n\nThose flowers were a reminder that beauty exists even in the bleakest moments. And in a situation like this, holding onto that can make all the difference. It’s like a tiny flame of hope in the dark, you know?\n\nSo, no practical use, but maybe more important than that. What do you think?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know what this is.\n\nI've been moving since the second the plane stopped. Checking on people, making calls, talking through every decision like if I just kept thinking out loud everything would stay manageable. And now there's a boat on the horizon and I can't take a step toward it and I genuinely cannot tell you why.\n\nI think I was so focused on the problem that I forgot to leave any room for whatever comes after the problem.\n\n*looks at DaVinci*\n\nHow are you doing that? The cheering. Where does that come from?",
+      "response_pred": "I'm just catching my breath. The cheering's good — it's a reminder that we're not just surviving, we're doing something. But moving that fast when we're already running on fumes? That's the kind of thing that gets us into trouble.\n\nLet's take a minute to make sure we're all still in it together before we start celebrating too hard. What do you think?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on — stay close to me. We'll walk over together.",
+      "response_pred": "Yeah, of course. Let's go. I'll lead the way. Stay close, okay? We're in this together."
+    }
+  ]
+}

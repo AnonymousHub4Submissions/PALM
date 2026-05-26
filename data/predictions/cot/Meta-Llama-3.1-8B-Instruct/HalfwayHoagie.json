@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "HalfwayHoagie",
+    "agreeableness": "17.0",
+    "openness": "20.0",
+    "conscientiousness": "1.0",
+    "extraversion": "63.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — that's real. That's actually real.\n\nSomebody grab the radio, respond to it, tell them our position. Donatello — you know the coordinates better than anyone, get on it right now.\n\nDaVinci, breathe. It's okay. You can let it out, just breathe first.",
+      "response_pred": "I think this persona's typical response length is generally concise, often focusing on the immediate issue or task at hand. Their tone is often blunt, lacking in small talk or unnecessary embellishments, which sometimes comes across as direct or even a bit abrasive. They tend to prioritize getting things done or addressing problems over flowery language or emotional niceties. When it comes to deeper conversations or more philosophical topics, they're willing to engage, but their responses often still lean towards the practical or the immediate.\n\n<response>Hey, you okay? You look like you've been crying. What's going on?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You weren't easy, no. But you kept us alive. The water rationing, the raft plan, tracking what we had — that was you. I don't think we're standing here right now without that.\n\nThe notebook thing, the crackers — that stuff mattered and I'm not going to pretend it didn't. But you also put it down when it counted. That matters too.\n\nWe're good.",
+      "response_pred": "I get that, but we're all struggling here. It's not like you're the only one with their head on the ground. We're all just trying to make it through this. That being said, if you're feeling overwhelmed, let's talk about it. What's really going on, besides the obvious fact that we're stuck in the middle of nowhere with limited resources?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Nobody's in a rush, that's fine.\n\nI'm going to start breaking down what we can. Not because anyone asked me to, just because leaving this place exactly as it is feels wrong. We built something here, even if it was ugly and stressful and nobody wants to remember most of it. Least we can do is leave it cleaner than the crash did.\n\nAnyone who wants to help, help. Anyone who needs to just lie there and watch the sky for a while — that's fine too, we've got time.",
+      "response_pred": "Hey, we can't keep doing nothing. We need to figure out what's next, whether it's fixing camp, getting the raft built, or something else. Who's with me on prioritizing something?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or just... home?",
+      "response_pred": "You dream about home a lot, don't you? It's not just about the place, it's about what it represents, right? Safety, comfort, familiarity. What did your dream feel like, was it vivid? Was it a reminder of what we're fighting for, or just a way for your mind to cope with what's happening here?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nLook, I'm not going to relitigate it right now. We're three hours from rescue. But I want you to understand something — if it had gone the other way, if we'd needed that and you were the only one who knew where it was, that would have been a real problem. Not just a trust problem. A survival problem.\n\nI believe you that it was for emergencies. I just think you drew the line between \"emergency\" and \"not yet\" in a place that was only visible to you, and that's the part that's hard to sit with.\n\nEat some of it. Share the rest. We're almost out of here.",
+      "response_pred": "What is it, exactly? A knife? A first-aid kit? What kind of emergency are we talking about?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have been more upfront about what I didn't know. I made calls like I was confident when half the time I was just guessing and hoping the guess was right. That works until it doesn't.\n\nI think I would've pushed harder to make the group actually function as a group earlier — like the first day, before everyone settled into their roles and it got harder to change them. You went into analyst mode, DaVinci went into morale mode, Michelangelo went into his head, and I just kind of managed between all of it. That's fine but it's reactive. I'd rather have had one real conversation on day one about how we were going to make decisions together than spend the rest of the time working around the fact that we never had it.\n\nWhat would you change? You left yourself the question — you must have an answer forming.",
+      "response_pred": "I'd change the fact that DaVinci got stuck to that tree, but that's about it. The rest was just trying to survive, and that's all we can really do in a situation like this."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you actually need to do, so do it. I'd read it, genuinely. Not because I want to relive the week, but because I think there's stuff in there that's worth understanding.\n\nJust — maybe write a second document alongside it. Not the resource data, not the decisions. The other stuff. The part where you almost didn't put the notebook down. Because that's the part that actually tells you something useful about how people work under pressure, and I think you know that already or you wouldn't have left yourself that question on the last page.\n\nThe data is good. But the data isn't the whole story.",
+      "response_pred": "What's the point of writing a report? We're not exactly in a position to file it with anyone. Is this just something to keep yourself occupied or is there a reason you think we need one?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut that's kind of the point. DaVinci drew them because he needed to put something human into the middle of a survival situation. Something that said we're not just trying to stay alive, we're still people while we're doing it.\n\nI think that's what you're feeling right now, sitting down when everyone else is reacting. You did everything right. You kept the data, you ran the numbers, you held the line on resources. And now it's over and your legs don't work because the practical part is done and you don't quite know what to do with the rest of it.\n\nThe flowers were for that. The part that doesn't have a practical purpose.",
+      "response_pred": "<think> This persona's typical response length is concise and to the point, often cutting through unnecessary details to get to the main issue. Their tone is generally blunt and pragmatic, with a dash of dry humor. They tend to focus on the facts and the task at hand, and can come across as a bit abrasive or dismissive to those who expect more emotional support or hand-holding. With that in mind, we can predict that their response to this utterance will be a straightforward, no-nonsense explanation of the practical purpose of the flowers.\n\n<response> They were a morale booster. Donatello was trying to keep our spirits up and make the situation a bit more bearable."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.\n\nI don't know what this feeling is. It's not bad. It's just — we were in it, and now we're not, and I don't know how to switch that off as fast as the situation changed.\n\nGo ahead and wave them in. I'll be right there.",
+      "response_pred": "You okay, buddy?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "I'm going. Stay close, we don't know what condition they're in or what's going to happen next. Let's just stick together and see what happens."
+    }
+  ]
+}

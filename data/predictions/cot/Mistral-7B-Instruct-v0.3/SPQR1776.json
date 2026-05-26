@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "cot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "<think>This persona is typically terse, preferring short, direct, and to-the-point responses. Their tone is generally calm, supportive, and pragmatic, with an underlying sense of responsibility for the group. They are likely to approach the situation in a logical and analytical way, focusing on practical solutions and prioritizing the needs of the group over their own.\n\n<response>Mikey, you alright? You look like you've got something on your mind. If you need to talk, I'm here to listen. But right now, we need to focus on getting through the night. Let's check the signal equipment, make sure everything's in order, and then we'll get some rest. We'll talk tomorrow, if you want to. For now, let's keep our heads in the game."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "<think>This persona is typically quite terse but still empathetic, with a tone that's mostly reassuring but can be blunt when necessary. They keep conversations practical and focused on solving problems, but occasionally open up with personal reflections.\n\n<response>It's alright Mikey, I understand it's been tough. We're all feeling it. But we're in this together, and we'll get through it. Let's just focus on what we can control right now - getting our supplies in order, keeping the signal up, and staying positive. We'll find a way out of this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "<think>This persona is typically terse in their responses, favoring concise communication. Their tone is calm and pragmatic, with an emphasis on organization and decision-making. They would likely address the situation by taking charge, assigning tasks, and encouraging the group to continue working together.\n\n<response>Alright, let's get everyone together. We need to decide on tasks and make sure everyone knows what they're doing. We can't just sit here. Let's sort this out."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "<think>This persona typically responds in a concise but supportive manner, hinting at a reassuring and empathetic tone. They may attempt to refocus the conversation towards practical matters or positive thinking, while acknowledging the emotions expressed.\n\n<response>I had a dream about home too. It's okay to miss it, but remember we're doing everything we can to get back. Let's focus on what we can control for now."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "<think>This persona tends to be concise, focusing on the task at hand and avoiding unnecessary words. Their tone is supportive, but also firm when necessary. They prioritize practicality and efficiency.\n\n<response>Sure, that's fine. But let's be careful with it. We don't want to waste it unless we really have to."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "<think>This persona tends to be relatively terse and direct, focusing on practical matters. Their tone is generally calm, organized, and slightly detached. They would likely respond by addressing the question directly, with a focus on specific actions rather than broad philosophical considerations.\n\n<response>I'd say the communication could have been better. We should have established clear roles and responsibilities from the start, and discussed things like rationing and resource allocation as a group. It's important to work together to make decisions and avoid any sense of hoarding or secrecy. As for the log, I think it's a good idea and I'd be interested in reading it when we're back. But let's make sure we prioritize open communication moving forward."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "<think>This persona's response is typically concise and to the point, with a slightly analytical tone. They prioritize practicality and efficiency in their responses. They would likely respond constructively to the other's plan, offering suggestions or questions to improve the report.\n\n<response>Sounds like a solid plan. Let's make sure we've got all the relevant data in there though, not just the resource numbers. Any notable events, observations, or group dynamics that might be useful to future search parties? We want to make this as comprehensive as possible, not just a list of figures."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "<think>The persona tends to be concise yet comprehensive in their responses, aiming to provide useful information while keeping the conversation focused on practical solutions. They maintain a neutral tone, prioritizing logic and reason over emotion.\n\n<response>Well, I suppose they could be used as markers, help us keep track of the camp's location or provide a visual signal for rescuers if they're flying overhead. It's not essential, but it won't hurt either. DaVinci might have her reasons for drawing them, we should ask her about it."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "<think>\nThis persona is typically terse and focuses on the practical aspects of a situation. Their tone is blunt but compassionate, as they try to maintain a sense of order and focus in difficult circumstances. They would likely respond to this situation by acknowledging the other person's feelings but quickly shifting the focus back to the task at hand.\n<response>\nHey, it's alright to take a break. But let's not forget, we need to keep the signal going. We can't give up hope just because we're tired. Let's take a few minutes, then get back to it. We're in this together, remember?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "<think>This persona's response is typically short and to the point, with a tone that leans towards blunt practicality. They have a tendency to focus on the task at hand and prioritize action over sentiment. In this scenario, they would likely appreciate clear and concise information about the rescue situation.\n\n<response>Right, let's go. You follow me, we'll make our way to them."
+    }
+  ]
+}

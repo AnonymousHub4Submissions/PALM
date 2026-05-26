@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "MDMA_Throw_Away",
+    "agreeableness": "54.0",
+    "openness": "92.0",
+    "conscientiousness": "41.0",
+    "extraversion": "57.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Right now. Tell them our location, number of survivors, and that we have injured. Go.",
+      "response_pred": "*I sit back, my eyes fixed on yours, trying to read your expression. My tone is soft, almost concerned. I place a gentle hand on your arm, my fingers brushing against your skin.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. The water rationing, the raft plan, the notebook — all of it. I'm not going to pretend the crackers and the bottle didn't happen, but I'm also not going to pretend the rest of it didn't either.\n\nWe're square. Let's go home.",
+      "response_pred": "I'm sorry to hear you're feeling that way. It's like I always try to live up to others' expectations, even when I'm not feeling it."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright. Three hours. That's not nothing but it's also not zero.\n\nDonatello — pull anything out of that notebook you want to keep. The rest of it stays here with the camp, it's not our problem anymore.\n\nDaVinci, slow down on the packing. We're not running for a gate. Take a breath.\n\nMichelangelo — you good down there?",
+      "response_pred": "I lean back against a tree, watching the fire dance in the darkness, my eyes fixed on the flames that have grown low from the night before. I let my gaze drift out of the fire's light and into the surrounding trees, feeling the cool night air rustle my hair. For a while, I just sit there, lost in thought."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good dream or bad one?",
+      "response_pred": "that sounds nice and comforting. how was your day?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think part of you knows that \"emergency\" kept moving further down the timeline the longer we stayed here. That's just how it works — the thing we're saving for never quite arrives.\n\nYou don't have to justify it to me. You already put it on the ground. That's the part that matters.",
+      "response_pred": "That's really smart of you. Having a stockpile of emergency funds can really help you sleep better at night."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have confronted the bottle situation the same day it happened instead of letting it sit. That was a small corrosion and I let it go longer than I should have.\n\nEverything else — the decisions, the order we made them in, who I leaned on and when — I can live with all of it.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "\"in my opinion, one area I'd revisit is prioritizing self-care. I went through such an intense time, and I think it's essential to acknowledge that taking care of myself wasn't always a priority. I'd definitely do it differently next time.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely. If that data ends up in the hands of anyone who designs survival protocols or trains rescue teams, those five days meant something beyond just the four of us getting out.\n\nSend me a copy when it's done.",
+      "response_pred": "I'm glad you're taking the initiative to compile all the resource data from the past five days. That's going to be a big undertaking, but it'll be worth it in the end. I'll just make sure to put in some extra effort this week to get everything completed on time."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was exactly the point.\n\nYou can't math your way into keeping people functional. Those flowers told Michelangelo that someone still thought beauty was worth five minutes of effort. That's not inefficiency — that's load-bearing work that doesn't show up in a notebook.\n\nPut them in the report.",
+      "response_pred": "\"Me think they represent some sort of seashell...or maybe they were made to attract some sort of sea creature? I know it seems random, but I'm pretty sure he was trying to capture the beauty of the ocean on paper. The way the lines are flowing and the play of light on the waves, it's mesmerizing. I've seen some of his other works where he depicts the sea, and it's always so...elegant. I'm curious, what do you think about the flowers?\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\n*looks at the beach one more time*\n\nIt's strange — I was ready to leave every single day we were here and now that it's actually happening I don't quite know what to do with my feet.\n\nThanks for waiting.",
+      "response_pred": "*He takes a slow, deliberate step back, his eyes still fixed on you, but his gaze no longer filled with warmth. The smile slowly fades, replaced by a look of quiet unease.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I just saw them and I'm heading over. Thanks for offering to follow, I appreciate it."
+    }
+  ]
+}

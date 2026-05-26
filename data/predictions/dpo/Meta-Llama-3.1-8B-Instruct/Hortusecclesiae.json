@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "*I lean in, concerned, and try to get his attention* Hey, buddy, you okay? You look like you've been crying. Maybe we should grab you a glass of water or something. *I gesture to an empty chair, inviting him to sit down*"
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "*takes the radio and fiddles with the dial, humming softly as I scan through the stations* Ah, got it, talk radio. *tunes it in and cranks up the volume* What's going on?"
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "*eyes narrowing slightly, voice steady* We're here, whatever that means. I've been tracking the signal for hours. Where's the rest of the team?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "You have no idea, I've been on edge myself. The world just feels like it's spinning out of control sometimes, and I'm not sure if I'm ready to deal with anyone else's drama on top of my own."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "You know, I think it's kinda weird how we just kinda... stopped. I mean, we were all having a great time, and then suddenly, nobody's talking anymore. I'm the life of the party, but even I don't know how to break the ice this time."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "that's really interesting, I've always been fascinated by the subconscious and how it can tap into our deepest desires and memories like that, you know? I've had dreams about my own childhood home before, it's almost like the brain is trying to recapture a sense of nostalgia and comfort, do you think that's possible?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "I've been saying that to myself, too. It's like this giant, outdated flip phone. I mean, I know it's still functional, but it's just so... clunky. Not to mention, the battery life is terrible. I swear, I have to recharge it like every hour. Do you think I should just get rid of it already?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "That's a decent idea for a report, but let's not get ahead of ourselves. We still have to debrief and discuss our strategy. What was the context behind your question at the end of the report? Was it something that's been bothering you or did you just want to see what I'd say?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "I don't know if you've even started looking at the data yet, how are you going to compile it into a report that quickly? We still need to finalize the numbers from the Johnson site, and I haven't even had a chance to review the soil samples from the new location. Can we at least take a few hours to go over what we have so far before we start writing up anything?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "The famous drawings of Spring flowers that DaVinci did on the sand. Yeah, I've heard they're pretty famous among art historians. Honestly, I wouldn't know much about their practical significance, but I do know that the drawings were probably just an exercise in observation for DaVinci. He was known for his curiosity and love of nature, and those drawings might've been a way for him to study the way light interacts with the flowers, or to practice rendering textures and colors."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "You're still just standing there, staring off into space. I was having a blast, just playing some tunes, getting the crowd going. I thought you might want to join in. Now you're just sort of... looming over me. *pauses, fidgets with guitar*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "finally, I've been waiting for this moment. Alright, let's move, I'll lead the way. Stay close, we don't know what's waiting for us on the other side. Keep your eyes open, watch your step. I'll try to get an idea of what's going on, you just follow me. Ready?"
+    }
+  ]
+}

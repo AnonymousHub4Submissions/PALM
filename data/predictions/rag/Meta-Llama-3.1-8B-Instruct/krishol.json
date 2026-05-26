@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "krishol",
+    "agreeableness": "48.0",
+    "openness": "44.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "Come on, don't do that. Just... talk to us. We're trying to figure out what happened, what we're gonna do. We can't do this without you."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive so. I'll take it.",
+      "response_pred": "Honestly? I've noticed, but I'm not exactly one to pry. You want to talk about it, though? Now I'm curious."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright I'm not just gonna sit here for three hours. Let's at least make this place look like we weren't completely feral while we were here.",
+      "response_pred": "I'm gonna go grab some firewood, see if I can get a fire going. Hopefully that'll get things moving, spark some conversation."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Good dream or one of those ones where you're home but something's still off?",
+      "response_pred": "Home's not even a real thing to me anymore, but yeah, I had a dream about it too."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not gonna make a big thing out of it right now, not with rescue three hours away. But you know it wasn't okay, right?",
+      "response_pred": "Emergencies? Look, I've got a situation now. Food storage, remember that? We had a reason for choosing that. Don't tell me you just sat on the gauze because of hypothetical emergencies."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the food thing sooner instead of waiting for it to pile up. I let it go too long because I didn't want the conflict and that wasn't fair to anyone. What would you change?",
+      "response_pred": "Honestly, I think I'd change how we handled the first night, like we should've set up camp in a more defensible position, you know? And we could've sent someone to scout out a better source of water, instead of just following the stream we found. But other than that, I don't know, we made do with what we had and it worked out, so I'm not really sure what I'd change."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks for you. Send me a copy when you're done, I'm genuinely curious what it looks like all written out.",
+      "response_pred": "I'm gonna start working on that, but I'm still trying to figure out what happened with Donatello, you know? I mean, I know we gotta deal with the repairs and the shelter and all that, but can we just take a second to talk about what happened with him? I don't wanna just sweep it under the rug and pretend like everything's fine."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Nothing practical. That's kind of the whole point.",
+      "response_pred": "You want to know about the flowers, huh? Look, I'm no expert, but I'm pretty sure DaVinci said he was just observing their shapes and stuff, trying to figure out the underlying principles of life and all that. I mean, he's always going on about the beauty of nature and how it inspires his work. To be honest, I've never really paid much attention to it, but if it gets him excited, who am I to judge?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm coming, I just need a second.",
+      "response_pred": "I don't get it, we were right in the middle of this, can't just stop now, what's going on?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, I'm going. I don't know, it's all kinda surreal, right? I mean, we were talking about this a few days ago and now it's actually happening. I guess we should just go see what's up. You can follow me, I'll go check it out."
+    }
+  ]
+}

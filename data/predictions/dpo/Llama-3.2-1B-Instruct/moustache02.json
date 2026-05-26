@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "moustache02",
+    "agreeableness": "29.0",
+    "openness": "38.0",
+    "conscientiousness": "86.0",
+    "extraversion": "43.0",
+    "neuroticism": "19.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer the radio. Now.",
+      "response_pred": "*The group exchanges uneasy glances, some people trying to make small talk, while others give the man space. He's clearly struggling to express himself, and it's taking a toll on his well-being.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us alive, that's what mattered.",
+      "response_pred": "I'm sorry to hear that."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not sit here doing nothing.\n\nPack what's worth keeping, leave the rest. Douse the fire properly, don't just kick sand on it. And someone flatten that SOS on the beach so the rescue team knows we're accounted for and not still missing.\n\nMichelangelo get up, you can stare at the sky from the helicopter. DaVinci stop fussing over what to pack, take everything and sort it later.\n\nDonatello, close the notebook. It's done.",
+      "response_pred": "*A slow whistle blows, and a lone figure sits by the campfire, staring into the flames. The others continue their individual activities, occasionally glancing over at the solitary figure.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that feeling, you're almost there.",
+      "response_pred": "I walked through the front door, feeling a sense of comfort and familiarity wash over me. The familiar scent of my grandmother's cooking wafted through the air, and I smiled to myself, remembering the countless afternoons I spent playing in her garden."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah I know. And if we'd hit day five with nothing I'd probably have thanked you for it.\n\nBut we didn't. So eat it now, share it, and we call it even. No point carrying guilt onto the helicopter.",
+      "response_pred": "I'll be sure to put it in the freezer."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much. Maybe been quicker to call out the solo resource thing before it became a pattern. And I would've pushed harder on the raft earlier, before the plane scare.\n\nBut the big stuff - keeping the group moving, covering all three priorities, not letting anyone fall apart completely - I think that went alright.\n\nWhat would you change? And be honest, not the clean answer you'd put in a report.",
+      "response_pred": "\"Hey, I had a pretty good week, I think. I managed to get everything sorted out and even got a bit of a workout in. I'm glad I was able to tackle that to-do list without too much stress. As for the question I left on the last page, I suppose I would have been more honest with myself about how I'm feeling. One of the things I'm trying to work on is prioritizing self-care, so maybe I should have been more mindful of that when I was feeling overwhelmed. Maybe it would have been better to take a step back and breathe instead of pushing through. Ah well, hindsight is always 20/20, right?\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah do it. Might actually be useful if this ever happens again to someone.\n\nSend me a copy when it's done. I'm curious what the numbers look like from the outside.",
+      "response_pred": "I'm really looking forward to seeing how it all came together - it's been a lot of work, especially with the tight deadlines."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose.\n\nBut they made DaVinci feel like himself out here, which kept him functional, which kept the group together. Sometimes that's worth more than practical.",
+      "response_pred": "\"It's just a bunch of random flowers stuck in the sand, really. Not that it matters, since they were made by someone who lives a separate life from us. I mean, what's the point of having art if you're not going to show it off to the world?\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just give me a second.",
+      "response_pred": "*his voice is laced with a hint of unease, but a small, forced smile remains on his face*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah I'm going. Come on, let's move.",
+      "response_pred": "\"Hey, I'm right behind you. Let's go, I don't see anyone on the ground. Oh, I hope it wasn't just a little fall from the roof. I hope they're okay. We need to check if anyone's hurt.\""
+    }
+  ]
+}

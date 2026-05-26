@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "Excuse me, I seem to have lost my words for the moment. Allow me a brief respite to gather my thoughts. I appreciate your patience."
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "I'm just a machine, but I can certainly help you with that. Let's crank up the tunes!"
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "With a firm and determined tone, I say, \"Alright, we're in. Let's make this count.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "Apologies for my intense energy and perhaps bluntness. It's just that I'm brimming with ideas and enthusiasm, and I can't help but share them. I'm working on finding a balance, I promise. Let's find a way to channel this energy positively, shall we?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "\"I suppose this is as good a time as any to take advantage of the solitude. Let's see...I could start a fire and work on sharpening my knife, or maybe explore the vicinity a bit. The wilderness calls to me, and I've always preferred to be alone. I wonder if they'll notice I'm gone for a while.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "That's interesting, I haven't thought about home in a while. But it's quite vivid in my dreams, isn't it? It's almost as if I can still feel the energy, the vibrancy of the place. It's a stark contrast to the monotonous routine I find myself in now. Maybe I should pay it a visit sometime soon."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "That's a fascinating piece of technology. However, I must clarify, it's primarily for unforeseen situations, not for idle chatter or mundane tasks. Now, if you have an actual emergency or problem that requires immediate attention, I'd be more than happy to assist. But remember, I'm not here for casual conversations or small talk. Let's keep it professional and focused."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "I'm thinking about it... If I had to do it over, I'd probably be more assertive in my interactions with the team. I tend to focus on data and analysis, but I realize now that clearer communication could have streamlined our decision-making process. Also, I should have pushed for a break or two during those long days. My mind needs a breather to function at its best. But overall, I'm proud of what we achieved in these five days. We've gathered valuable insights and made significant progress towards our goal."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Let's get straight to it. I'll assemble that report, crunch the numbers, and present a comprehensive analysis of the data we've gathered over the past five days. There's no time to waste, and I'm always up for a challenge. Once it's done, we'll be one step closer to unlocking the secrets we've set out to discover. Now, if you'll excuse me, I've got work to do."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "I find it intriguing, yet perplexing. Perhaps they were more for aesthetics and emotional stimulation rather than practicality. After all, beauty often serves a purpose that transcends the mundane."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "\"Well, aren't you going to join the party? Or do you prefer to stand there like a stone, silent and unyielding?\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Absolutely! I'm ready to roll. Let's get this show on the road. I'll be right behind you. This is going to be an exciting adventure!"
+    }
+  ]
+}

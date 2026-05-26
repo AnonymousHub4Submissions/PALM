@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "laughterasthepower",
+    "agreeableness": "47.0",
+    "openness": "99.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "1.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "yeah. i hear it too.",
+      "response_pred": "-Openly curious- you're still sitting there, staring off into space, your eyes red from crying. your lips are still moving, but it's not a word. it's more like a silent scream, a cathartic release of all the emotions you've been holding inside. -Your words are barely audible, but I can sense the desperation, the feeling of being overwhelmed. it's a powerful thing to see, a testament to the depth of your emotions. -I reach out a hand, hesitantly, and try to touch your shoulder, but you flinch, your eyes snapping back to yours. -It's like you're trying to hold back a flood, to keep it all inside. but I know what it's like to feel trapped, to feel like you're drowning in your own emotions. -I take a deep breath, trying to calm myself down, and speak softly. -It's okay, come on. I'm here. you're safe now. -Your eyes never leave mine, but you don't respond. you just keep staring, like you're trying to will something to happen. -I feel a pang of sadness, but I try not to let it get the best of me. I know that sometimes, people have to push through their emotions in order to keep going. -I take another step closer, my eyes locked on yours. -You're not alone, you know. there are people who care about you, who want to help. -I pause, trying to think of what to say next. I don't want to push you any further, but I also don't want to leave you alone. -I take a deep breath, and try to speak again."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no you haven't. but you kept us alive so it mostly evens out. the food thing on day two was a problem and you know it was, but everything after that you did right. i'm not gonna hold a grudge.",
+      "response_pred": "i'm fine. just a bit...overwhelmed. the reality of it all is sinking in. the doubt crept in and i tried to push it away. but it's been there for a while now."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright we should probably clean this up before they get here. not because it matters aesthetically but because leaving the wreckage in better shape means easier recovery of the plane materials and it's just the right thing to do. three hours is enough time if we actually use it.\n\ndavinci stop packing for a second and help me with the signal stuff first, we should break down what we built and keep it organized. michelangelo whenever you're ready.",
+      "response_pred": "*The sound of the waves gently lapping against the shore and the distant calls of birds can be heard in the background as the three of them continue to drift apart, each lost in their own thoughts.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "what was it like. good dream or the other kind.",
+      "response_pred": "Person: yeah, me too. it was weird, just a dream. nothing too intense. i think we were still on the island, but it felt like it was far away. i was standing on the beach, looking out at the ocean, and i saw this figure in the distance. it was a woman, i think. she was walking towards me, but she didn't seem to know it was me. she just kept walking, and i felt a sense of... not concern, exactly, but maybe a sense of unease. like I should go talk to her or something, but i didn't."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "we both know that's not what it was. an emergency for who, you? the rationing plan was your idea. you wrote it up, you handed it to us, and then you went and built yourself a private reserve the same day.\n\ni'm not going to pretend i'm not annoyed because i am. but we made it and nobody died partly because of things you did right, so i'm not going to make this into a whole thing three hours before rescue gets here.\n\njust don't do it again. and maybe think about why your first instinct was to take care of yourself before the group when you're the one who set the rules.",
+      "response_pred": "Person: Yeah, I've been carrying it for a while now. it's not like I've forgotten about it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? not much in terms of decisions. the calls we made were mostly right given what we had to work with.\n\nthe one thing i'd change is i would have pushed harder on the group trust issue earlier instead of letting the food situation sit for as long as it did. i noticed it, i addressed it, but i didn't follow through hard enough to make sure it actually changed the dynamic. i let it go because you were useful and i didn't want the friction. that was a calculation but it was also a bit of a cop out.\n\neverything else i'd do roughly the same. what are you going to write for yours.",
+      "response_pred": "bigfive: *pauses, looking thoughtful* i'm not sure i'd change anything. we made the best decision we could with what we had and we did what we thought was best for michelangelo and daVinci. the raft was the only way to get out of this situation without too many risks, and i think it worked out okay.\n\nif i'm being honest, i think we should have known the plane was coming a bit earlier. but we didn't have enough information to know for sure. and even if we did, we probably wouldn't have had enough time to prepare.\n\ni think if we had more resources, more people, that would have made a big difference. but we didn't have enough to make it work, so we did what we could with what we had.\n\nbigfive: *looks up at you* you know, i've been thinking about this a lot lately. what if we hadn't made that decision to go to the reef? what if we had stayed closer to the wreckage and tried to signal from the beach? do you think that would have changed anything?\n\nbigfive: *shrugs* i don't know. it's possible that we would have gotten rescued sooner. but it's also possible that we would have been hurt or killed. that's a risk we had to take.\n\nbigfive: *pauses, thinking* you know, i think what really matters is the impact we had on daVinci's life. he's been through a lot already, and the trauma of this experience has left him with deep scars. if we hadn't gone out to the reef, he would probably still be alive.\n\nbigfive: *nods* i think we did the best we could, and we did what we thought was best for daVinci. and for michelangelo. they're both still with us, and that's all that matters."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah that sounds like something you'd do. honestly it's probably worth doing, if that data helps someone else in the same situation then it's not just a record of what happened here, it's actually useful. you should send it somewhere that people would read it, not just file it away.",
+      "response_pred": "Person: yeah, i'm actually kind of curious about the report. how much time do you think you'll need to put it together?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. they didn't serve a practical purpose. that was kind of the point.\n\nnot everything has to be functional to matter. davinci needed to do something that was just his, something that wasn't about survival or rationing or risk assessment. the flowers were that. and honestly looking at that SOS every day with the flowers next to it was a little less bleak than looking at just the letters.\n\nyou logged everything in that notebook but that's the kind of thing that wouldn't show up in your data.",
+      "response_pred": "*pauses for a moment, looks away for a fraction of a second before speaking* Why, they're just... symbolical. meaningless. We're not actually using them for anything practical. The colors are just random, it's just a little exercise in art. You know how it is, always trying to make sense of things. But honestly, I was just trying to distract myself from the fact that we're all stuck out here, dying. The flowers are just... platitudes, nothing more."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i'm fine. just give me a second.",
+      "response_pred": "-you take a deep breath, trying to regain your composure, but it's clear you're still reeling from the moment - the smile, the fear, the uncertainty. I look away, trying to find something, anything, to distract myself, but my eyes keep drifting back to his. I can feel the tension between us, a palpable weight that's hard to ignore. I clear my throat, trying to sound casual, but my voice comes out shaky - \"yeah, I'm good. just... just thinking about a lot of things right now.\"*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah i'm going. let's go.",
+      "response_pred": "big five, 67. long and lean, with a sharp jawline and piercing brown eyes. his hair is dark and messy, and it falls across his forehead in a way that's both untamed and endearing. he has a small scar above his left eyebrow, and it's slightly raised, as if it's been scratched out in a hurry. his skin is a bit pale, and it looks like it's been kissed by the sun. he's wearing a simple white shirt with a loose collar, and his pants are stained and worn from hiking. he looks like he's been preparing for this moment his whole life.\n\nbig five's eyes are a deep shade of brown that seems almost black in certain lighting. his pupils are slightly sunken, giving him a slightly haunted look. he has a small nose and a pointed chin, and his lips are thin and pressed together. he's wearing a pair of worn leather gloves, and his hands are rough and calloused.\n\nbig five's posture is relaxed and casual, but there's a sense of tension in his shoulders that makes him look like he's ready to jump at a moment's notice. his eyes are fixed intently on the horizon, and his jaw is clenched as if he's trying to suppress a growl.\n\nbig five's voice is low and rough, with a hint of a growl that makes him sound like a bear. when he speaks, his words are often laced with a sharp edge that makes you feel like he's looking right through you. but when he looks at you, his eyes seem to soften, and he looks like he really cares about what you're saying.\n\nbig five's movements are fluid and economical, as if he's been doing this sort of thing for years. he's not flashy or showy, but there's a sense of quiet confidence about him that makes him seem like he knows exactly what he's doing."
+    }
+  ]
+}

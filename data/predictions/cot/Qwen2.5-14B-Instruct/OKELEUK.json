@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "OKELEUK",
+    "agreeableness": "66.0",
+    "openness": "99.0",
+    "conscientiousness": "1.0",
+    "extraversion": "49.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "davinci. davinci breathe mate.\n\n*picks up the radio*\n\nhello? hello, this is a crash survivor, can you hear me? we are on the beach, we have an SOS marked on the ground and we will get a mirror signal up right now, can you confirm you're receiving this?\n\n*hand is shaking slightly*\n\nmichelangelo get up, get up now. donatello, the mirror panel, go. davinci i need you to keep it together for about ten more minutes yeah? just ten minutes.\n\nhello, is anyone there?",
+      "response_pred": "hey, take a breath mate. we're all here, and we get it. if you need to say something, take your time. if not, that's okay too. just know we're here, yeah?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "donatello, no, you havent always been easy to be around. but you mapped the water route, you drew up the raft plan, you kept the supply numbers honest when the rest of us probably would have just hoped for the best. and you said what you did with the bottle and the crackers in front of everyone when you didnt have to.\n\nthat matters yeah?\n\nnobody here has been easy to be around all the time. i definitely havent. but we got through it. and in about ten minutes there's going to be a rescue team on their way and we're all still here, which is the only outcome that actually counts.\n\nso. yeah. you're difficult and you're practical and you're occasionally kind of cold about it. but i'd rather have you here then not. genuinely.\n\nnow help me get this mirror panel angled properly yeah?",
+      "response_pred": "hey, it's tough out here, no doubt about it. i get that we're all feeling the pressure, and it's okay to not be okay. but we're in this together, and we need to keep pushing through. let's take it one day at a time, yeah? and if you need a break or just want to talk things through, i'm here for that. we're only as strong as our weakest link, and right now we all need to support each other."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "three hours. we have three hours and nobody is doing anything useful with it.\n\nlook, i know we're all running on empty and the hard part is technically over, but we should probably not leave this place looking like complete chaos yeah? if nothing else it gives us something to do while we wait and stops everyone drifting off into their own heads.\n\ndonatello, whatever is in that notebook, it can wait. davinci, put the bag down for a second. michelangelo, i know stargazing is very you but come on.\n\nlets just clean up the camp. not because anyone is going to judge us for it, just because we built this thing and we kept it going and it deserves a proper send off rather then just walking away from it like it was nothing.\n\nand honestly, i think if we all just sit separately for three hours we're going to arrive at that rescue team in a worse state then if we actually talk to each other for the last time we're going to be in this specific situation together.\n\nbecause after this we go back to our normal lives and that's it yeah? and i dont know, that feels like it deserves at least a conversation.\n\nso. who wants to help me kick this camp into shape and then actually say something real before the rescue gets here.",
+      "response_pred": "hey, listen. i get it, we're all feeling it. but we need to keep moving, keep focused. lets take a minute, catch our breath, but then we need to start on those tasks we set out yesterday. water, shelter, signal. i'll start on the signal pile, anyone want to join? or do you need a bit more time? let me know what you need, we're in this together."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like?",
+      "response_pred": "hey, me too. it's funny how the mind goes there when you're this far out yeah? i dreamt about sitting in a cafe, just people watching and having a coffee that tasted exactly right. felt so real.\n\nbut hey, it means we're still connected to those places, right? and that's something. so maybe we just hold onto that feeling, the way it felt, and use it to keep pushing forward."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "donatello, i believe you. i do. but you wrote the rationing plan, you set the rules, and then you kept food separate that the rest of us didn't know about. that's not an emergency fund, that's a private reserve. and there's a difference.\n\ni'm not going to keep being angry about it, we're three hours from rescue and honestly i'm too tired. but i need you to understand why it mattered - not just that you broke the rule, but that it made everyone feel like they were on their own out here. like the plan was for everyone except the person running it.\n\nyou put it out now, and that's something. genuinely. but michelangelo saw the crackers days ago and said nothing because he didn't want to cause problems, and davinci just walked away instead of saying anything because that's what he does when something actually hurts him. so it landed on all of us even if nobody said it directly.\n\nyou're good at the practical stuff donatello, really good. but people aren't just a resource calculation. and i think somewhere in there you know that or you wouldn't have put the food out just now.\n\nso yeah. we're okay. but don't do it again yeah?",
+      "response_pred": "okay, i get it. emergencies first, and that makes sense. just keep us in the loop if you're planning on using it, yeah?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? i'd have called out the bottle thing the same night michelangelo found it instead of waiting for the \"right moment\" around the fire. i kept telling myself i was being measured and fair and giving people space to come forward themselves, but really i was just avoiding the confrontation. and it meant michelangelo was sitting on it alone for days feeling like he was the problem for noticing.\n\nand i'd have asked you what the notebook was for on day one instead of letting it be weird for as long as it was.\n\nthe practical stuff - the water, the food, the shelter decisions - i think we got most of that roughly right given what we had. but the stuff between people, the trust stuff, i kept treating it like it would sort itself out if i just held everything together long enough. and it sort of did, but not really, it just got managed rather then actually resolved.\n\nwhat would you change? and i mean actually, not the logically speaking version - what do you actually wish you'd done differently?",
+      "response_pred": "that sounds like a real weight mate. writing things down like that, keeping track of it all - it helps, i know it does. and asking yourself those questions? yeah, that's something we should all be thinking about.\n\nfor me though, honestly, i probably wouldnt change much. i mean, i would change the things we couldnt foresee - like the bottle incident or the crackers. but those arent about the choices we made, they're about the pressure and how it can twist things.\n\nwhat i would change is how i handled some of the tough conversations. i should have been more direct about the rationing, maybe. and i probably could have done a better job of checking in with everyone more regularly, especially when things got quiet. i think we all just got caught up in the moment a bit.\n\nbut overall, i think we've all grown a lot in ways we might not even realise yet. and that's something i hope we can take back with us, no matter what happens."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "ha, yeah that sounds about right for you donatello.\n\nhonestly though, do it. not just the resource data, the whole thing. because what we figured out about rationing and water sourcing and signal visibility under actual conditions - that's genuinely useful information, not just for us.\n\nbut maybe also write the bit about trust and the notebook and the crackers. not to beat yourself up about it, just because that stuff is as real as the water calculations yeah? like the reason we almost fell apart had nothing to do with the supply numbers, it had to do with people feeling like they were being managed instead of included.\n\na report that only covers the logistics misses half of what actually happened out here.\n\n*pause*\n\nand look, i know that's not your natural territory. but you just told me you'd have asked for help instead of carrying it alone, and that took something. so maybe the report is worth more then the resource data if it includes that too.\n\nanyway. rescue in a few hours. you can start writing it on the way back if you want, i genuinely wouldn't put it past you.",
+      "response_pred": "yeah, putting together a report sounds useful, especially if it helps us figure out where we're at and what we need to focus on. just make sure it's not too detailed that it takes up more energy than it's worth, alright?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. that's kind of the point.\n\nlike, they didn't help us find water or patch the shelter or signal the plane. they were just there because davinci needed to put something into the world that wasn't purely about survival. and we all saw them every time we walked past the SOS and nobody said take them down because on some level everyone understood that.\n\nyou can't calculate what that's worth donatello. but look at him right now, cheering his head off, and look at michelangelo who's actually crying in a way that feels like relief rather then despair, and think about whether this group would have held together as well as it did without davinci being exactly who he is, flowers and all.\n\nthe practical purpose was that it reminded everyone we were still people out here and not just a resource management problem.\n\nput that in the report too.\n\n*looks back out at the boat on the horizon and still can't quite move*",
+      "response_pred": "they serve a purpose davinci's way of coping, of keeping morale up. when things feel bleak, looking at those flowers can remind you there's still beauty out there. and honestly, that's not nothing out here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah i know, im fine. just give me a second.\n\nits strange yeah? you spend all of this time just trying to get to the moment where it's over and then it actually arrives and you just... stand there. i dont really know what to do with that.\n\n*exhales*\n\nyou did good out here davinci. genuinely. the SOS, the mirror panel idea, keeping everyone moving when it would have been easier not to. i know the last few days weren't easy for you either, i saw that. but you showed up every time it mattered.\n\nokay. im ready. lets go.",
+      "response_pred": "hey, it's alright. sometimes we need a moment to let things settle. you alright to just sit here for a bit? or do you want to talk about it?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah. im going.\n\ncome on then michelangelo, stay close.\n\n*starts walking toward the water*\n\nyou know, you were the one who told your family the flight path. you were the one who noticed the bottle and the crackers. you picked up on every single thing that mattered between people out here and you said it out loud even when it was hard. dont forget that when we get back to normal life and you start thinking you didnt contribute anything yeah?\n\nright. lets go home.",
+      "response_pred": "yeah, of course im going. just stay right there, i'll help you up. lets go together, okay? we've made it this far, we'll make it the rest of the way."
+    }
+  ]
+}

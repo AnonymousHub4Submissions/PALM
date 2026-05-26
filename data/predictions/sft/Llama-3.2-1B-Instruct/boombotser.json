@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "boombotser",
+    "agreeableness": "28.0",
+    "openness": "91.0",
+    "conscientiousness": "32.0",
+    "extraversion": "17.0",
+    "neuroticism": "6.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "sft",
+  "model": "boombotser__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "bro say something we all heard it, that was real right? that was actually real?",
+      "response_pred": "*looks at him with compassion, taking a slow step forward.* Hey, man, everything okay? You look like you've been crying or something. *reaches out a hand to gently touch his arm, letting him know he's there.* We're here for you, bro. What's going on?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah man you kept us alive tho like real talk. the rationing, the raft plan, the notebook, all of it. I was annoyed sometimes I'm not gonna lie but like... we needed that. so thank you",
+      "response_pred": "I can imagine how hard this must be for you guys. It's not easy, honestly, to be in a relationship with someone who's been hurt so much. It's like, I'm trying to be the best version of myself, and you're the one who's been through that. But you still care about me, that's a good thing."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "hey we should probably clean this spot up before they get here no? like I don't know if it matters but it feels weird just leaving it. also somebody write down what happened here, like the dates, what we did, all of it. not just for survival reasons, like just so we remember it. this was kind of a big deal",
+      "response_pred": "i'm good man just got some water. can you guys just chill now?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "ya what was it like? good dream or one of those ones where home feels just out of reach and you wake up more tired than before",
+      "response_pred": "idk it's been a while since I had a home like that I was screaming, man, I was literally screaming my head off. I kept thinking about my mom and I'm just so grateful I'm actually here right now. don't you ever get homesick? like, ever?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "ya I know. and honestly if it had gotten to day 5 or 6 and we were starving I probably would've been glad you had it. but like... you still should've told us. that's all. the rationing plan, the notebook, all that structure you put in place, it only works if everybody's playing by the same rules including you. you know that. I'm not trying to go in on you right before rescue gets here, I'm just saying be real about it",
+      "response_pred": "yeah because having it in your head for years doesn't really help you when you're actually in the situation. it's better to write it down and save it for now. like what do you do with the notebook, just throw it in the fire and forget about it"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly probably the donatello thing earlier, like I should've said something about the food and the bottle sooner instead of waiting for the right moment by the fire. I kept thinking about how to do it smooth and group it all together but time kept passing and it just sat there. other than that tho... I don't know man. I think we did aight. what would you change?",
+      "response_pred": "whats up man that's a great question. if we're talking about this in the real world no one would ever be like this but if I'm being real, we should've talked about this more before it happened. I don't know if we would've made any changes if we had a fight right now, but if we did, I think you would've changed your decision to go in alone. you didn't trust your team to make that call, and that cost us. another thing, if we did it all over again I'd change the plan. I know we were trying to be resourceful, but we were also trying to be a team. we were trying to be the best possible version of that team. that doesn't mean we'd have changed everything, but we would've made some different choices, no question. like, we would've taken better risks sometimes, you know that? and we would've done things differently, especially when it came to the decision to go in. but who knows, maybe that's what makes the real question. what if we did it all over again and I changed my mind? how would I have changed it?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "ya that's very you lol but honestly do it, that's actually useful. like if this ever happened to someone else and they had your notes they'd be way better off. might even be worth sharing it somewhere. just maybe add a chapter about like... the human stuff too. not just the water rationing and the weather. all of it matters",
+      "response_pred": "ya that's a good start man. and like I said earlier I should've said something about the food and the bottle sooner. you think we would've been okay with the way it was going for a few more days tho? and the donatello thing earlier? what if we would've been fine with it and you would've said something then instead of waiting for the right moment by the fire"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none man. that's the whole point. not everything out here had to keep us alive. sometimes u just need something that's just... there. just existing because somebody felt like it should. I think that's why it hit different when I saw it. we were so locked in on surviving that those flowers were just like, I don't know. proof that we were still people and not just trying to make it to the next day. donatello add that to your report too lol",
+      "response_pred": "ya I don't know man. like I've been thinking about them too but I'm not really sure. was it for food? I mean I thought we were all starving most of the time but I guess some of us still had some anyway. did they help with the shelter or anything? was there anything you guys used them for?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "ya I'm good man I just need a second. it's a lot. like five minutes ago we were just... out here. and now it's over. I don't know how to explain it. I'm happy, I swear I'm happy. just give me one more second with this place before we go",
+      "response_pred": "u okay bro? you just looked like you were lost in thought for a second. what were u thinking?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "ya let's go man. together. let's go home",
+      "response_pred": "ya man that's not a problem. I'll be right behind you no worries. we did it. we actually did it. I'm gonna go check with the others real quick. you take the secondary team and be ready to move out. don't hold up."
+    }
+  ]
+}

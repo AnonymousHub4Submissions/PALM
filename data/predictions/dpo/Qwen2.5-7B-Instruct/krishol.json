@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "krishol",
+    "agreeableness": "48.0",
+    "openness": "44.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "I can't stop talking, can I? It's like I have a million things to say and they all just pour out. You guys better listen up."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive so. I'll take it.",
+      "response_pred": "Yeah, I've been on this high energy vibe, talking non-stop. Sorry if I've worn everyone out. It just feels like there's so much to share!"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright I'm not just gonna sit here for three hours. Let's at least make this place look like we weren't completely feral while we were here.",
+      "response_pred": "Man, this is gonna be one long night without anyone to keep things moving. Let's start a story or something to break the ice."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Good dream or one of those ones where you're home but something's still off?",
+      "response_pred": "That sounds cozy. Sometimes dreams can be really comforting, taking us back to familiar places. What did you dream about specifically?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not gonna make a big thing out of it right now, not with rescue three hours away. But you know it wasn't okay, right?",
+      "response_pred": "Sure, having something handy for emergencies can be a good idea. Just make sure it's somewhere accessible but not where it could attract unwanted attention."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the food thing sooner instead of waiting for it to pile up. I let it go too long because I didn't want the conflict and that wasn't fair to anyone. What would you change?",
+      "response_pred": "If I had to do it over, I'd start a bit earlier. But hey, hindsight is 20/20, right? Still, gotta keep that energy channeled better next time."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks for you. Send me a copy when you're done, I'm genuinely curious what it looks like all written out.",
+      "response_pred": "Got it, let's get those resources organized and make that report happen! I'm all geared up to dive into it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Nothing practical. That's kind of the whole point.",
+      "response_pred": "Those flowers were more about the beauty and the moment, you know? DaVinci was all about observing nature and capturing its essence. There wasn't really a practical purpose, just a way to appreciate the simple things. He was quite the character, always looking for inspiration in the ordinary."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm coming, I just need a second.",
+      "response_pred": "I'm not sure what to say... I just... I guess I was spaced out. Um, are you okay? Did I miss something?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Of course, let's go help them out! Just follow me, we've got this."
+    }
+  ]
+}

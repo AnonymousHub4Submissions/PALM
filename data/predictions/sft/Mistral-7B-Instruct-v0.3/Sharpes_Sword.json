@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sharpes_Sword",
+    "agreeableness": "93.0",
+    "openness": "91.0",
+    "conscientiousness": "96.0",
+    "extraversion": "4.0",
+    "neuroticism": "21.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Sharpes_Sword__Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's actually it. Someone get on that radio right now.",
+      "response_pred": "I'm okay. Don't worry about me. I'll be fine."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The rationing, the scouting, the raft plan — that was all you. You're not easy to read but you got things done when it mattered. That counts for a lot out here.",
+      "response_pred": "That's it. That's actually it. Someone get on that radio right now."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, we should probably not just leave all this here. Three hours is enough time to sort through what's worth keeping and leave the rest tidy. I don't know, feels weird to just abandon it like this after everything. Michelangelo, you good to help pack up the supplies? DaVinci, maybe start breaking down what we can of the shelter.",
+      "response_pred": "I'm going to catch some shut-eye."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "I had that too. It's messed up, but it's the one time that I don't feel like I'm wasting energy thinking about how we're going to make it through the night."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But I think the emergency was always right now, every day out here. We all were the emergency. Anyway, it's done. We made it. Save some of it for the trip back if you want, or leave it — up to you.",
+      "response_pred": "That's a good call. You never know when you might need the whole thing."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the supply thing with you earlier instead of sitting on it. I kept thinking it would blow up and make things worse but it just festered instead and that wasn't good for anyone. Other than that I think we did alright. What about you — what are you going to write down for yourself?",
+      "response_pred": "I'd say we'd have stayed in the shelter longer. That extra day would have given our rash a chance to heal before we moved. We were pushing ourselves pretty hard the last two days."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks. Send me a copy when it's done, I'd actually read it. Might be useful for someone someday.",
+      "response_pred": "Sure, that sounds like a good way to make sense of everything. It's a lot of information to take in all at once and you're right, having it all laid out is a good way to help us remember."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, practically. But I think that was kind of the point. Not everything out here had to be practical. The flowers were just DaVinci being DaVinci, keeping himself human through all of it. Honestly looking back I think that mattered more than I gave it credit for at the time.",
+      "response_pred": "I don't know, man. That was your area. That was the one thing you had that was yours, and nobody else could tell you how to do it. They were beautiful, I didn't understand why they were so important to you but I didn't need to — you did."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second. I don't know why I can't move. It's right there.",
+      "response_pred": "Hey, you're going to need to get moving again. We've got a pretty good rhythm going and I don't want to break it."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. You good to keep up on the raft?"
+    }
+  ]
+}

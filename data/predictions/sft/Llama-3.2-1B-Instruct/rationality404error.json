@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "rationality404error",
+    "agreeableness": "32.0",
+    "openness": "80.0",
+    "conscientiousness": "21.0",
+    "extraversion": "82.0",
+    "neuroticism": "59.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "rationality404error__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey.\n\nHey — breathe.\n\nSomeone pick up the radio and answer it. Donatello — you. You're the clearest thinker right now, and that's what they need on the other end of that call.\n\nThe rest of us just — stay where we are. Don't move. Don't do anything that makes this moment go sideways.\n\nWe made it.",
+      "response_pred": "*Looks at the person, then at the others, and back at the person, a hint of understanding in his eyes.* \"Hey, what's going on?\" he asks softly.\n\n*Wrings his hands, and his eyes flicker with a mix of sadness and frustration.* \"I just want to tell you guys what happened, but I don't know if I can.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You weren't easy. But you were useful, and more than that — you were honest when it counted. The crackers thing, the notebook, the raft plan with the drowning math written in plain language like a weather report. I actually needed that. We all did, even when we didn't want it.\n\nI think 'easy to be around' is maybe overrated as a survival trait.\n\nYou okay?",
+      "response_pred": "*pauses, looking at him. He takes a step forward, his eyes still red, but his face inches from yours. His voice is low, direct.* I'm not going to lie to you — I've been pretty weird. But that's no excuse.\n\nI'm not sure what's more surprising — that we've made it through the past few days without blowing up, or that we're actually capable of having this kind of conversation.\n\nI'm not looking for excuses. I'm looking for what's real. Right now.\n\nYou feel that?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to leave this place better than we found it.\n\nI'm not saying we owe the jungle a tidy campsite. But I think we'll feel weird about just walking away from it — like we were never here, or like we're pretending the last three days didn't happen.\n\nI'm going to start breaking down what we built. Not because it has to be done. Just because doing it feels right.\n\nMichelangelo, you don't have to move if you don't want to. But if you want something to do with your hands while you watch the sky, I could use someone to hand me things.\n\nDonatello — when you're done with the notebook, whatever's in there is worth keeping. Make sure it comes with you.",
+      "response_pred": "The silence is comfortable.\n\nIt's not something we've signed up for, and we don't know how to make it work without an argument. But it's not like we're going to take the easy way out. Even if we were, there's no easy way.\n\nWe just do this."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "*Still standing there, arms raised.* I saw you walking alone, holding a knife. Back to the edge, into the forest. Reminded me that sometimes it's okay to just walk away.\n\nIt's okay. It's okay to figure out what's next when you're up to it.\n\nYou're not alone. We're all in this together, even when the rain isn't pouring. Even when the ground isn't dry.\n\nDonatello — would you like to come over and tell me what happened in there?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think the emergency you were saving it for was the one where everything fell apart and you were the only one who could hold it together. That's a very specific kind of fear — not fear of starving, fear of being the last competent person standing with nothing left to work with.\n\nI'm not going to make you feel worse about it. We're three hours from rescue and everyone's alive and that's the scorecard that matters.\n\nBut I want you to notice something: we made it through with what we had, together, and the hidden food didn't end up being the thing that saved us. The thing that saved us was Michelangelo telling us about the flight path, and DaVinci drawing flowers next to an SOS sign, and you writing everything down in a notebook like someone might need it later.\n\nYou can keep the food. Or you can put it in the pile. Either way, I think you already know what the right thing is, or you wouldn't have laid it out.",
+      "response_pred": "That's a good reason to keep it. It's not like you're not being paranoid. If you need to know, I do know that at least one of us is actually asleep with a knife in their hand.\n\nBut even if that's true, what's the worst that could happen? You wake up, and you're okay. You don't lose yourself or the people we care about.\n\nYou're just as scared as the rest of us. And that's not something to be ashamed of. It's something to be acknowledged."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd talk less and listen more at the beginning. I came in pretty fast with opinions and plans, and most of the time that was fine, but there were a couple of moments where I think I steamrolled something that needed more room to breathe.\n\nI'd also have asked you directly, on day one, what you were afraid of. Not what you thought the risks were — what you were actually scared of. I think we would have gotten to the crackers conversation a lot sooner, and it would have been a different conversation.\n\nThe thing I wouldn't change is the order of priorities. Water, shelter, signal, people — roughly in that order, but never so rigidly that the people part got pushed off the list entirely. I think we got that mostly right.\n\nWhat's your answer? You wrote the question. You've had three hours to think about it, minimum. What would you change?",
+      "response_pred": "I'd say that's a great start. I love the specificity.\n\nIf you had to do it over, I'm not here to judge. But if you had to change anything, I'd say one thing: if you'd stopped eating the trash and made sure everyone had clean water, we wouldn't have had to go to the river.\n\nI'm not saying that's because the river was the worst thing that happened. It was just one of a lot of things. But if you'd made a few smaller decisions that had a bigger payoff in the long run, I think we would be in a totally different place.\n\nI know that's a pretty loaded question. But it's also a pretty clear retraction of a pretty easy decision. If you could go back and change just one thing, what would it be?\n\nAnd don't worry — I'm not here to give you a moralizing lecture. I'm here to give you something. If you're willing to share, I am.\n\nBut if you're not, that's okay. We'll figure it out as we go. It's not like we're going to make it anyway."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds exactly like you, and I mean that as a genuine compliment.\n\nCan I make one request? Put the question from the last page in the report too. Not buried in an appendix — somewhere people actually read it. Because that question is the most useful thing in the whole notebook, and I think you know that, or you wouldn't have written it down.\n\nThe resource data tells people what happened. That question tells them how to do it better next time. Both matter, but one of them is rarer.",
+      "response_pred": "You want a report. That's a good idea.\n\nI want it to be good, not just a list of things that happened. I want it to be clear why people did what they did, and that there's a narrative here that's worth understanding. You should be honest about your own biases, and I'll be honest about mine.\n\nI don't want to see anything that was left unsaid. If you were scared, we were scared, and that's okay. If you think you might have tried something that would have blown the whole thing up, that's an area we'll need to talk about.\n\nIf you need help with that — or if you'd rather do it yourself — I'm here. We're not going to get this done with everyone doing it alone.\n\nHere's the deal: I'll ask you once, directly, this time. What did you think was the worst moment, and why?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's exactly what they were for.\n\nThe SOS was practical. The flowers were for us. For the part of us that needed to remember we were still people out here and not just a list of survival priorities.\n\nI think that's why you couldn't answer it at the time. It doesn't fit in the notebook. It doesn't have a resource value. But look at DaVinci right now — he's *cheering*. And part of the reason he still has that in him is because he never stopped being someone who draws flowers next to things.\n\nYou can't log that. But it mattered.",
+      "response_pred": "I think Michelangelo — you know, the guy who's been listening to us talk for three hours and so far hasn't said nothing except that we're alive — was listening to you, and he's thinking about it, and he's drawing flowers because he wants to tell us that.\n\nWhen he draws flowers, he doesn't draw anything else. He draws flowers and then he labels them with numbers. There are five flowers. And the numbers are all different.\n\nThe first three — they're called the blue sky, the white swan, the yellow sun. The last one's called the river.\n\nHe doesn't explain what they're for. He just draws them.\n\nIf you figure out what they're for, I'm going to guess that's the most important thing we need to talk about right now. But the question is — what's the first question you have?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know what this is.\n\nI've been moving since the second the plane stopped. Checking on people, making calls, talking through every decision like if I just kept thinking out loud everything would stay manageable. And now there's a boat on the horizon and I can't take a step toward it and I genuinely cannot tell you why.\n\nI think I was so focused on the problem that I forgot to leave any room for whatever comes after the problem.\n\n*looks at DaVinci*\n\nHow are you doing that? The cheering. Where does that come from?",
+      "response_pred": "Not moving is not the same as doing nothing. It's all you can do.\n\nYou're not — you're not deliberately sitting here and not doing anything because you're afraid. You're not lying or pretending. You're just sitting, and you're not moving because it's not your style.\n\nMichelangelo, I'm not saying you should keep sitting for three hours. I'm saying you should try to get up. If you need help, I'll be right over. But if you're not moving, you might get hurt, and that's not something we can do later. Something we can do now.\n\nDonatello — you're not alone. I'm here. And I don't think we’re going to get nowhere by sitting here."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on — stay close to me. We'll walk over together.",
+      "response_pred": "I'm going. But I'm also going to sit down and hold something for a minute.\n\n*pauses, hands not moving*\n\nI'm not good at this. I'm not good at giving up, or apologizing, or saying sorry when we're not saying sorry. But I'm good at something else.\n\nI'm good at not being angry. And right now, that's what this feels like: not angry. And I think that's okay.\n\n*looks at the others*\n\nLet's do this thing.\n\n*stands, hands not moving, but eyes open*"
+    }
+  ]
+}

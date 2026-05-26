@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Nausved",
+    "agreeableness": "78.0",
+    "openness": "91.0",
+    "conscientiousness": "57.0",
+    "extraversion": "3.0",
+    "neuroticism": "10.0",
+    "gender": "f",
+    "age": "33.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's okay. Breathe.\n\nThat's a radio. That means someone's looking. That means Michelangelo's family called it in and someone is out there right now trying to find us.\n\nSomeone needs to answer it — Donatello, can you do that? You're the clearest thinker right now and you know the information we need to give them: approximate location, number of survivors, medical status. Keep it simple and direct.\n\nDaVinci, sit back down before your legs give out. You've been holding it together for days and you don't have to anymore, but I need you upright for the next five minutes.\n\nMichelangelo — you were here. You felt things. And you're the reason we had the information that found us. I want you to remember that.\n\nOkay. Let's answer the radio.",
+      "response_pred": "My eyes scan the group, searching for any sign of what's going on, but everyone seems to be too caught up in their own thoughts to react. He's still standing, still staring at us with a mix of sadness and determination in his eyes. I can feel his gaze on us, like he's waiting for something to happen, something that might change everything."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organized when the rest of us were barely holding it together, and that mattered. A lot.\n\nI also think you were scared and you handled it in the way that made sense to you — the log, the rationing plan, the notebook. That's not a character flaw, that's just how you work. The food and the drink — I think we both know that wasn't your best moment, and you know that too, so I'm not going to rehash it. What I'll say is that you course-corrected, and that counts for something.\n\nI'm glad you were here. I mean that.\n\nNow go answer that radio before I cry in front of everyone and ruin my reputation.",
+      "response_pred": "Personality: 92.0 - 89.0 (implied tone: slightly awkward, trying to maintain casual conversation while conveying concern)\n\nThis interaction suggests that the person is trying to be friendly and approachable, but also genuinely concerned and empathetic. They're attempting to establish a rapport with the other person, and are trying to convey their feelings through subtle hints and gentle probing. However, the person's attempts at small talk may come across as a bit stilted or insincere, as they're trying to balance their own emotional state with their desire to maintain a friendly atmosphere."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey. Three hours is enough time to do this properly — let's not leave a mess behind.\n\nI know nobody feels like it. But there's a version of this where rescue arrives and we've just been sitting in our own wreckage, and there's a version where we've packed what's worth keeping, disposed of what isn't, and left this place looking like people who kept their heads. I know which one I'd rather be.\n\nDonatello — when you're done with the notebook, can you do a final check against the inventory? I want to make sure we're not leaving anything behind that we actually want, or taking anything that belongs to the wreckage that someone might need for an accident investigation.\n\nDaVinci, whatever you're packing — can you also set aside the mirror panel and the first-aid kit separately? Those should be the last things we hand over, not buried in a pile.\n\nMichelangelo, I know you're watching the sky and that's completely valid right now, but when you're ready — even just gathering up the bedding and folding it into a pile would help.\n\nWe did something real here. I'd like to finish it the same way we ran it.",
+      "response_pred": "Their reply:\n\"You need to stay here for two more days, and then you can go pull that panel off and take it with you. It's not worth the risk of capsizing. You're still in one piece, and that's something to be proud of. Besides, the plane was real, and it's not like it didn't leave a mark on the horizon. We can't blame it for the missing flight path. It's on us now to figure out what happened.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Michelangelo, you're the only one who's been quiet all night, and it's starting to freak me out. I know you're not happy about this, but we really need to talk about what's going on. What's going through your mind when you're sitting there, staring into the darkness?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think, if we'd hit day five or six with no rescue in sight, you would have brought it out. I actually do believe that.\n\nBut I want you to hear this, because I don't think anyone else is going to say it to you directly: the problem wasn't the food. The problem was that you made a unilateral decision that the rest of us didn't get a vote on. You decided you were the best judge of when an emergency was bad enough to warrant it, and you kept that power to yourself. Out here, that kind of thing can crack a group apart faster than hunger can.\n\nYou're not a bad person, Donatello. You're someone who trusts herself more than she trusts other people, and honestly, given how competent you are, I understand why. But trust has to go both ways, or it's just control.\n\nI'm glad you're putting it out now. That takes something. What made you decide to do it?",
+      "response_pred": "think: This is a casual mention of personal supplies, but it reveals a thoughtfulness that's often a hallmark of the Big Five personality type.\n\ntheir reply: I guess it's not just about having stuff on hand in case of emergencies. It's about being prepared for the worst-case scenario and knowing that you might need something that's not immediately available on a daily basis."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd change how long it took me to check in on people properly instead of just redirecting them toward tasks. I kept doing that — someone would be struggling and I'd hand them something to do with their hands, which isn't wrong exactly, but it was also a little bit of a way to avoid sitting in the hard thing with them. It worked, mostly. But I think Michelangelo especially needed more than that, earlier.\n\nI'd also push harder on the information-sharing problem from day one. Not just the food — the piano lessons, the flight path, what DaVinci was almost going to tell me and never did. We were all holding things back in different ways and it cost us something, even if we can't point to exactly what.\n\nAnd I'd have had the conversation with you — the real one, not the task-management version — a lot sooner. You're not easy to reach and I used that as an excuse to not try as hard as I should have.\n\nWhat's your answer? You wrote the question. You've had more time to think about it than any of us.",
+      "response_pred": "You: Honestly, I don't think I'd change anything. The mistakes we made were specific to our situation, and I think they were a necessary part of learning how to survive in the wilderness. Taking risks and being open to new information was the only way we could figure out how to fix our problems."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something genuinely worth doing. Five days of real data on water consumption, caloric needs, energy expenditure relative to task load — that's not nothing. If it ever ends up in front of someone who trains search and rescue teams or writes survival protocols, it could actually matter.\n\nSend me a copy when it's done? I'm serious. I'd read it.\n\nAnd finish your sentence. You'd believe that we three could handle knowing — what?",
+      "response_pred": "think: The persona's typical response length is brief and to the point, but they also seem to be trying to offer a sense of structure and organization to the situation they're in.\n\nYour one-paragraph analysis: The persona appears to be attempting to help their fellow survivors by gathering and organizing the resources they've collected over the past five days, as a way to improve their chances of survival.\n\nresponse: You: That's a good start, but I need more. We don't just need a report, we need something concrete that we can build on. We need data on our food, water, shelter, and other essentials. We need to know what we're capable of doing, and how long we've got. We need to know how to prioritize our efforts and allocate our resources effectively."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nBut I think that was kind of the point. Everything else we did out here was for survival — the water, the shelter, the signal, the rationing. The flowers were the one thing that was just for us. Just because we're people and not just bodies that need to be kept alive.\n\nI think I understand that better right now than I did five days ago. Standing here watching that boat come in and not being able to move — it's not because anything's wrong. It's just that my brain is finally catching up to everything that happened, and it turns out there was a lot of it.\n\nThe flowers were DaVinci saying we're still here and we're still ourselves. That mattered. Maybe it mattered more than some of the practical things.\n\nWhy are you asking about them now?",
+      "response_pred": "Think: analytical, slightly formal tone, emphasis on practical application.\nResponse: \"Actually, DaVinci's flowers were more about aesthetics than utility. They're a way to bring some beauty to this harsh environment, and it's a reminder that even in survival situations, we can still appreciate the simple things. Plus, they're a great way to keep your hands busy and your mind off the weight of our situation.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm okay. Just give me a second.\n\nI think I've been so focused on the next thing, and the thing after that, that I didn't really let any of it land. And now there's no next thing. There's just a boat.\n\n*exhales*\n\nIt's good. It's really good. I just need a moment to actually feel that instead of immediately figuring out what we need to do when we get on board.\n\nThank you for waiting. You didn't have to do that.",
+      "response_pred": "think: His expression remains calm and neutral, but a hint of concern creeps into his voice.\n\nresponse: I'm here. Can you say something?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on then.",
+      "response_pred": "-you smile, eyes lighting up with a mix of relief and fatigue - I'd only make it if I knew someone was watching my back. You've been with me through thick and thin, and I don't know what I'd do without you. - you nod - I'll follow you. But for now, let's just get a good look at the plane. I want to know if there's anyone on board."
+    }
+  ]
+}

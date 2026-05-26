@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "deviantmoomba",
+    "agreeableness": "88.0",
+    "openness": "80.0",
+    "conscientiousness": "41.0",
+    "extraversion": "82.0",
+    "neuroticism": "91.0",
+    "gender": "f",
+    "age": "27.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\n*picks up the radio*\n\nHello? Hello, this is a crash survivor — we need help. Can you hear me? Please respond.",
+      "response_pred": "*I sit down, hands together, eyes fixed on him, trying to convey understanding and empathy*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so.\n\n*still holding the radio, waiting for a response*\n\nHonestly? The log, the rationing plan, the raft calculations — I was frustrated at the time, but looking back, we had a framework because of you. We knew what we had, we knew what we needed, we didn't just panic and flail. That was you.\n\nThe supplies thing was hard. I'm not going to pretend it wasn't. But you came clean when I pushed, and you didn't do it again. That counts.\n\nI think you're better at keeping people alive than you are at letting them know you care if they live. But maybe that's something to work on when we're not, you know, stranded on a beach waiting for a rescue team.\n\n*radio crackles again*\n\nOkay, I need to focus on this. But — we're alright. Yeah?",
+      "response_pred": "It seems like a gentle and introspective response, with a hint of vulnerability. The use of \"these past few days\" creates a sense of immediacy and suggests that the person is reflecting on their behavior over a relatively short period. The phrase \"I know I haven't been easy to be around\" implies that the other person has picked up on the person's mood or behavior, and that there have been problems or tensions in their interactions. The tone is down-to-earth and relatable, with a touch of self-awareness and introspection."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the three of them, then at the camp*\n\nRight, so — three hours. Which feels like a lot until it isn't, and I'd rather we didn't hand over a disaster zone to whoever's coming to get us if we can help it.\n\nI'm not saying we need to make it pristine, but can we at least consolidate everything? Stack the panels, collect the signal materials, make sure the first aid kit is packed properly. Partly because it's the decent thing to do, and partly because Donatello's log is going to be a lot more useful to any official inquiry if the physical evidence isn't just scattered across a beach.\n\nMichelangelo, I know you're watching the sky and that's completely valid, but if you feel like doing something with your hands while you wait, even just gathering things into a pile near the SOS would help.\n\nDaVinci — what are you actually packing? Because some of this stuff probably shouldn't come with us, and some of it should. The mirror panel, the log, the first aid kit — yes. The random bits of wreckage we collected and then didn't use — probably not our problem anymore.\n\nThree hours is enough time to leave this place in a state that says we were competent and we coped. I'd like that. I think we've earned it.",
+      "response_pred": "*pauses, looking around cautiously at the few remaining campers*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Person: I've been having a bit of a weird night, to be honest. I don't know how it happened, but I'm pretty sure I had a vivid dream. I think it's been... probably a week or two since we've been trying to get out of there, but I guess my brain just decided to run with it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\n*looks at it*\n\nI believe you that it was for emergencies. I also believe that what counted as an emergency was a decision you made alone, without telling anyone, which is the part that was the problem. Not the keeping. The alone part.\n\nWe're three hours from rescue. So I'm not going to have the argument now — there's no point, and honestly I'm too tired. But when we're back and we've slept and eaten something that isn't rationed out in millilitres... I think you need to sit with why you didn't tell us. Not because I'm angry. Because I think you know it wasn't right, and I think you're someone who actually cares about doing things right, even if it doesn't always look that way from the outside.\n\nFor now — put it with the rest of the supplies. We'll take it back with us. It goes in the log.",
+      "response_pred": "The person's tone is somewhat defensive, and there's a hint of frustration with the other person's practicality.\n\nTheir sentence structure is somewhat complex, with a mix of short and long sentences, and some use of complex sentence structures. They also use some irregular verb tenses, which adds to the sense of informality.\n\nTheir word choice is generally straightforward, but they use some words with connotations of mystery or unpredictability, such as \"emergencies\", which creates a sense of tension and uncertainty."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks at the last page for a moment*\n\nHonestly? I'd have talked more. Like, actually talked — not just problem-solved at people when they were struggling, but actually sat with the discomfort of not having answers and let that be okay. I spent a lot of energy trying to be the steady one and I think sometimes that probably made it harder for other people to fall apart when they needed to.\n\nI'd have pushed you earlier on the supplies thing. Not harder — I think the way I did it was about right — but sooner. I kept noticing things and waiting for the right moment and there were a couple of days where we lost trust we couldn't really afford to lose.\n\nAnd I'd have asked DaVinci what he was going to say, the time he stopped himself. I still don't know, and that's going to bother me.\n\n*hands the notebook back*\n\nWhat about you? You left yourself the question but you haven't answered it yet. Three hours is enough time.",
+      "response_pred": "You're the one who's been tracking our progress, aren't you? I can tell. You've got a real knack for this. So far, it's been a productive five days. We've got some good food, some decent gear, and we've managed to get the signal back. That's a big win. Now, let's see... what would you change if you had to do it over?\n\nI'd say, on the last page, I'd emphasize the importance of being more thorough in our initial assessment of the situation. We didn't take the time to really dig into what we had, what we were looking for. I'd want to make sure we account for every contingency, every scenario. And, yeah, I'd also want to make sure we've got a better plan in place for when things go south. We don't want to be stuck here waiting for something to happen, do we?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like you, honestly. First thing I'm doing when I get back is sleeping for approximately a thousand years and then eating something that wasn't rationed out by the millilitre.\n\nBut the report is a good idea. If it helps someone else survive something like this, that's worth doing. And your data is genuinely solid — I've complained about your methods but I've never complained about your accuracy.\n\nSend me a copy when it's done? I mean it. I want to read it.",
+      "response_pred": "I'd wait."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\n*still watching the boat*\n\nThat was the point, I think. Everything else we did out here had a function — the SOS, the mirror, the rationing, the log. The flowers were just... because. Because DaVinci needed to put something beautiful in the middle of the thing that was trying to kill us. Because it's a very human thing to do, to insist on that.\n\nI think maybe that's what kept him going when the practical stuff wasn't enough. And honestly? I think it kept the rest of us going a bit too, even if we didn't say so.\n\n*finally starts walking toward the water*\n\nCome on. Our boat's here.",
+      "response_pred": "\"Oh, those little doodles of DaVinci's on the beach? I mean, I know they're just sketches of sand and shells, but to me, they were like tiny little masterpieces. They brought a sense of whimsy and wonder to the entire scene. As for what they served, I'm not sure, but I'm pretty sure it was more than just providing a pretty backdrop for the landscape. Maybe they were a way of, you know, keeping his mind off the task at hand? DaVinci was always getting so lost in his own thoughts and ideas, it was pretty much a wonder he ever got anything done. Anyway, I'm glad they're still out here, even if they don't have the same practical purpose they did when they were drawn.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "*finally looks at him*\n\nSorry. I don't know why I'm just standing here. My legs have gone a bit weird.\n\n*laughs, slightly shakily*\n\nWe actually did it, didn't we. Like, we actually — I keep waiting for something to go wrong. Plane on the horizon and it passes, that kind of thing. Is that mad?\n\n*starts walking*\n\nRight. Okay. Let's go.",
+      "response_pred": "\"I know you didn't want to talk about it, but... *pauses* ...I care about you. Really. I want to help, to support you, no matter what.\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.\n\n*holds out a hand*\n\nYou don't have to follow me, you can walk next to me. We made it together, we can get on a boat together.",
+      "response_pred": "I've already been thinking of that. I'm not sure what I'd do if I were you - I'd want to know the details, I'd want to know what we're doing, the risks, the rewards. But I think we're all in this together, for now.\n\nIt's been a long time since I've seen the city, and I'm not sure how it looks anymore. I've been trying to remember the places, the people, the sounds... but it's like trying to hold water in my hands - it's always slipping away.\n\nI'm glad we have each other, I suppose. We're not going to be able to do this alone, not for a long time. But I'm not sure what the future holds, or where we're going. And I'm not sure if I want to know."
+    }
+  ]
+}

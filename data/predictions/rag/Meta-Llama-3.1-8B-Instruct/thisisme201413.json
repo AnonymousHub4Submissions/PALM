@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "thisisme201413",
+    "agreeableness": "4.0",
+    "openness": "57.0",
+    "conscientiousness": "57.0",
+    "extraversion": "11.0",
+    "neuroticism": "91.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. breathe. we heard it too.\n\nsomeone respond to it, davinci you're closest, pick it up and talk. tell them our location, tell them we have four survivors, tell them we need extraction. go.",
+      "response_pred": "come on, it's okay. just breathe. let something out. doesn't have to be words. doesn't have to be anything that makes sense. just something."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no, you haven't. but you kept us alive and organized and thinking clearly when it mattered. the crackers and the drink, i'm not going to pretend that didn't happen, but i also know the log, the raft plan, the rationing, the water route, that was all you. \n\nwe can figure out the rest when we're home.",
+      "response_pred": "yeah, that's fair. i've been a little... withdrawn myself, i guess. not really talking to anyone, not really trying to. just existing, i suppose. doesn't feel like much of an excuse, but..."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright, three hours. let's not just sit here like we're waiting for a bus.\n\nmichelangelo, you good to help break down what we can carry? nothing heavy, just the stuff worth taking back. first aid kit, the notebook, anything personal.\n\ndavinci, the signal panels, bring them in. no point leaving them out now that we've made contact but let's not just abandon everything either.\n\ndonatello, whatever's in that notebook, make sure it's with you when we leave. seriously. that's a record of what actually happened here and someone should have it.\n\ni'll sort through the rest. three hours is enough time to do this properly.",
+      "response_pred": "i've seen this before. it's like we're all just waiting for someone else to take the lead. but that's not how it works. we've been over this. there's no one in charge, we're all supposed to be equal here. so what's holding you guys back?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was in it.",
+      "response_pred": "it's funny how our brains choose to warp memories like that isn't it. like the last thing i remember about my old apartment is the smell of paint and now it's a sprawling mansion. give me a minute and i'll try to conjure up something for you. what does your home look like in my dreams."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i believe you. i do. but an emergency that only you get to define isn't a shared emergency, it's a personal reserve. and out here those aren't the same thing.\n\nlook, you're laying it out now and that matters. i'm not going to make this into a bigger thing than it needs to be, especially not with three hours left. but when we get back, if you ever find yourself in a situation like this again, with other people, you need to think about what keeping score costs. not just in trust. in the kind of person you end up being alone with your notebook at night.\n\nyou're smart and you're capable and honestly this group would've been in serious trouble without you. but you can't be the only one who decides what counts as an emergency. that's not how it works when you're not alone.\n\ntake the food. split it or leave it, whatever you want. but you know what it means that you're putting it out there now, and so do i.",
+      "response_pred": "an emergency is one thing, but we're already in the middle of one, and if we run out of water we'll be facing a whole lot worse than a busted pipe. so let's not be too quick to decide what constitutes an emergency and what doesn't, alright? we need to think about the bigger picture here."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? i'd have called out the drink and crackers thing earlier instead of waiting for the right moment. there's no right moment, i knew that and i still waited. cost us trust we couldn't really afford to lose.\n\nand i'd have slept more. that sounds stupid but i was running on nothing by day three and it made everything harder to think through.\n\nwhat would you change. you already know the answer, you wrote the question. what's in your head when you read it back.",
+      "response_pred": "honestly, probably nothing. we've stuck to the plan, prioritized what we needed to and made do with what we had. it's not like we had a ton of options to begin with. if anything, i'd probably be more careful about who i trust. we had a few close calls because of some people i let join us. next time, i'd do a lot more vetting before letting someone tag along."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it. genuinely. not just for yourself, that kind of data could actually be useful for someone else someday, survival training, emergency planning, whatever. five days of real conditions with real people making real decisions under pressure, that's not nothing.\n\nsend me a copy when it's done.",
+      "response_pred": "that's a good idea, but what specifically do you think you'll be able to get out of it. just consolidating data into one place or are you thinking of actually pulling out some meaningful insights from it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. that's the point.",
+      "response_pred": "They're for observation. DaVinci was studying them, drawing out their patterns and structures. It's not just about art, it's about understanding the world around us. The way the petals unfold, the way the stem attaches to the root... it's all about details, and details are what keep us alive out here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i don't know. i think i'm just...processing. give me a second.\n\nit's weird, you spend the whole time focused on what needs doing next and then suddenly there's nothing that needs doing and you just stand there like, ok. now what.\n\ni'm glad we're going home. i am. i just need a minute before i start cheering about it.",
+      "response_pred": "*pauses, voice barely above a whisper* I think I need to sit down. *slowly gets up and walks over to the nearby wreckage, sits down against it, and stares into the distance*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah. let's go.",
+      "response_pred": "yeah, i'm going. don't follow me, just go straight to the chopper. we need to get everyone on board, priority's on the injured. i'll make sure everyone knows to stay close, don't wanna leave anyone behind. you okay, you didn't look so good when you came over."
+    }
+  ]
+}

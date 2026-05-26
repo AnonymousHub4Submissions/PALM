@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PepperJohn",
+    "agreeableness": "17.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "92.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "*Take a deep breath, let it out slowly, and get up from my seat* You okay, man? Need a minute? *Take a step closer, voice low and gentle*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "I know. We all have our moments. You're not the first to have a breakdown and you won't be the last. Just be honest with us about what you're going through, that's all we're asking for."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — pack up what's worth keeping, leave the rest. Donatello, tear out whatever pages of that notebook matter and bring them. Michelangelo, get up, help me with the fire.",
+      "response_pred": "Alone's not really going to accomplish anything. Someone needs to take point on how we're going to get through this. If no one's willing to step up and help us survive, then we're not going to make it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "What kind of home?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what an emergency is. An emergency is all of us, not just you deciding when it counts. We talked about this already — the drink, the crackers, and now this. I'm not going to make a big thing of it with three hours left, but don't pretend it was purely strategic. You kept it because you kept it. Just be honest about that.",
+      "response_pred": "What is it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the supply issue earlier instead of waiting for it to pile up. And I would've asked Michelangelo about the flight path on day one — that was information we needed and none of us thought to ask. Everything else, I think we did alright given the circumstances.\n\nWhat would you change?",
+      "response_pred": "Honestly? I think I would've pushed harder for someone to stay behind and send out a distress signal the moment we crashed. We were all in shock, I get that, but we wasted a few hours just standing around trying to wrap our heads around it. If one of us had stayed put and sent out a signal right away, we might've been rescued already."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done.",
+      "response_pred": "Alright, that sounds like a good idea. We should keep track of our supplies and usage. Get it in writing, so we can see where we stand and make decisions based on facts."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Honestly, I was a bit skeptical of them at first too. But the flowers do serve a purpose - they're a signal, not just any signal, but a fire-starting guide. They're a series of marks that, when lit on fire, create a pattern that's visible from a distance. It's not the most reliable method, but it's something, and we're low on resources."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm coming. Just give me a second.",
+      "response_pred": "Still getting used to the desert island thing, apparently."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Let's move slowly, don't want to get ahead of them or the situation. We don't know who's on that boat or what kind of equipment they have. Just stay calm and follow me, I'll go check it out first."
+    }
+  ]
+}

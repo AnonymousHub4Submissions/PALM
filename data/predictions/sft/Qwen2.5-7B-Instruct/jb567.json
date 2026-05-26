@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "jb567",
+    "agreeableness": "56.0",
+    "openness": "46.0",
+    "conscientiousness": "54.0",
+    "extraversion": "42.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "jb567__Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "is that - is that what I think it is\n\nsomeone answer it, go, now",
+      "response_pred": "What's the matter, man? *Holds hand out to him*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you've been alright. annoying sometimes, but you got things done and when it mattered you held your hands up. that's more than most people manage tbh\n\nnow come on, DaVinci's about to talk to actual humans, let's go",
+      "response_pred": "you think\n\nyou think I haven't been easy to be around\n\noh yeah, like you haven't noticed\n\noh sure, someone please tell me what a person who isn't easy to be around does\n\noh, maybe like not mentioning the fact that the guy you've been talking to for the past hour and a half is actually your ex-boyfriend\n\nmaybe like not having some 300 pages of notes on what's going down with you and your family\n\nmaybe like not mentioning the fact that you got a 90 on the math test you were worried about\n\noh come on, what a person who isn't easy to be around does is they blurt it out\n\n*shakes head, looks at the floor, takes a deep breath, looks at you and the others. His shoulders tense. He holds eye contact for a few seconds, but then looks away and speaks in a shaky tone*\n\nI'm sorry"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "right, are we really just going to sit here for three hours and stare at things\n\ncome on, let's actually leave this place better than we found it. DaVinci you're already packing, start thinking about what we leave behind that might be useful if someone else ends up here. Michelangelo get up off the ground mate, three hours is nothing, don't spend it lying in the sand.\n\nDonatello I know you're processing or whatever but maybe the notebook can wait until we're on an actual rescue boat with actual seats\n\nI don't know, it feels wrong to just drift after everything. we made it. let's at least mark it somehow before we go tbh",
+      "response_pred": "alright, this is it\n\nyou've got to be kidding me\n\nhow do you even… how do you even\n\nI didn't even - I didn't think\n\nokay, okay, okay\n\nalright\n\nalright\n*sits down, head in hands*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like",
+      "response_pred": "I bet you did. I haven't really let myself think about it properly since I first woke up. I know it sounds weird, but that's the last place I can imagine being right now.\n\nI don't know if that's a good thing or a bad thing tbh"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do.\n\nbut like... this is kind of the exact situation we talked about isn't it. the whole point of the rationing plan, the group conversation, all of it - it only works if everyone's actually in it. and you weren't fully in it, you had a backup stash the whole time.\n\nI'm not going to have a go at you about it, we're three hours from rescue and honestly I don't have the energy. and I can see you laying it out now, that means something.\n\nbut I think you know that \"for emergencies\" is doing a lot of work in that sentence tbh. we were the emergency. all four of us, the whole time.\n\nkeep it for the journey back if you want. or leave it here like I said, for whoever comes next. up to you. just - don't carry the other thing with you when we get home. the hiding. you're better at the honest version of yourself, I've seen it.",
+      "response_pred": "right, you've been carrying that bag around for years\n\nthe spare clothes, the climbing gear, that's all for emergencies. the notebook… that's not really an emergency item is it\n\nwe know who you are and we know what you do. we don't need your backup plan, it's not like we're ever going to be in a situation where it matters\n\nbut you're not saying that, are you. you'd have that ready for us if we ever needed it. you're worried about us, even though you're the only one worried about us\n\nthat's why you're always so tense. because you're the only one who is. because you care about us more than you care about yourself\n\ndon't say it. I don't want to hear it"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? probably would've pushed harder for the group conversations earlier instead of letting things fester. the rations thing, the crackers, the bottle - we danced around it for too long before saying it out loud. costs you trust and energy you don't really have to spare in a situation like this.\n\nand I'd have asked Michelangelo what he needed instead of just telling him to stay present. he knew things before the rest of us did, he just needed someone to actually ask.\n\nwhat would you change? and I mean actually, not the logistical stuff - I know you've got that covered in here. the other bit.",
+      "response_pred": "right, I've been meaning to ask you that. you're actually the only one out of four of us who could do it over.\n\nso, what would you change\n\nwe've already talked about the rationing plan, obviously that's what's meant. but what's important is that you actually answer the question. not just what you think happened, but what you think you would do differently\n\nbecause of course - you're not going to actually be in the situation to make those changes. so what are we doing here right now if not to reflect and make sure we actually learn from this\n\nI get that you're not a fan of the blame kind of thing. and like, I don't mind saying, I'm not a huge fan of it either\n\nbut the thing is, we have to work out what actually happened here on our own, and we have to make sure it's not going to happen again, and the only way we can do that is to look at it like it's an actual thing we're learning from, and not just a bad day at the office that was meant to be forgotten as soon as the next one came\n\nso what would you change"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it, genuinely. that's useful stuff, not just for you - if anyone else ends up in a situation like this that data could actually matter.\n\njust maybe also do the other thing. the trusting people bit. don't let the report be the only thing you take home from this tbh.",
+      "response_pred": "okay. good idea. makes sense tbh. the more data you can get, the more you can make sense of it on the other side\n\nMichelangelo you're still on for first thing tomorrow? we haven't got a plan for the day yet, but I know you were talking about the history thing, would you still like to do that?\n\nDonatello do you have your notebook out and ready yet? we still need to make notes on the conversation about the rationing plan today before we go to sleep."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "they were for us Donatello, not for the rescue boat\n\nlike yeah the SOS did the practical work, but the flowers were DaVinci saying we're still people here, not just survivors. we still care about things that don't have a function. that matters when everything else is stripped back to basics\n\nI don't know, maybe that's the thing I'd want you to take home more than the report. not everything needs a purpose to be worth doing\n\nlook at him over there, cheering his head off. that's the same guy who drew flowers on a beach when Donatello told him it was a waste of time. I think he had it right from the start tbh",
+      "response_pred": "they were for the three of us, sitting on that beach and talking like human beings instead of survivors. they're the opposite of practical tbh, the two of you have been asking for something like that for weeks now.\n\nI don't think DaVinci's put much thought into why they're there. he's just human. it's not a report or a ration plan or a statement of purpose. he's trying to be present. he's trying to remember what it feels like to be human and not just alive.\n\nI don't think you need to worry about the flowers, Michelangelo. they're for the two of you now, if you want them to be."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah I'm coming, just give me a sec\n\nit's weird isn't it. three days ago I was having a mild panic attack in a field of burning wreckage and now there's a boat and I still can't quite make my legs work\n\nI'll be fine. go on, wave them in. you're better at that than me tbh",
+      "response_pred": "he's probably right, we've only got three hours. Michelangelo, DaVinci, Donatello - honestly, none of us has the energy for this. we're all fidgety and restless and way more interested in what we're going to eat later.\n\nbut I think DaVinci's right, it's worth doing something. and if you want, maybe Michelangelo or Donatello or both of you could get involved. we have a few minutes before DaVinci stops talking, you're welcome to go before then if you want\n\nbut honestly - three hours is nothing. three hours is the price of the thing that matters\n\nMichelangelo you got the hammer, you're only on this for a minute, let's get this done"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah, come on then. let's go.",
+      "response_pred": "yeah come on, let's do this\n\nDaVinci, Michelangelo - come on, help us out here. you're going to be fine, honestly. you've done the harder bit already.\n\nsee you on the other side."
+    }
+  ]
+}

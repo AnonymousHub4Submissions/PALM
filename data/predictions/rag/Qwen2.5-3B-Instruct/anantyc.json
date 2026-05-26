@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "anantyc",
+    "agreeableness": "53.0",
+    "openness": "17.0",
+    "conscientiousness": "16.0",
+    "extraversion": "10.0",
+    "neuroticism": "64.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's ok. Breathe.",
+      "response_pred": "Hey, what’s going on? Need to talk?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "I've noticed. It's okay to not be okay sometimes. What's going on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up the bigger pieces of debris and tossing them to the side*",
+      "response_pred": "Ok, everyone, let's try to stay together. We need to decide where we're going next."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, those dreams never fail to bring a tear to my eye. It's why I try to sleep as little as possible these days."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you saving it for, we almost ran out of food. I'm not gonna pretend it's fine, it wasn't. But it's done now.",
+      "response_pred": "Yeah, but for emergencies like a punctured tire or a lost wallet. This isn't an emergency, this is a disaster."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably talk more. Not about tasks or plans, just... actually say things when something's wrong instead of keeping it to myself. I do that a lot, someone asks if i'm ok and i just say nothing because i figure they don't really care. Doesn't help anyone out here.",
+      "response_pred": "Yeah, I wrote down everything too. Thought it'd be helpful to have a record. I've got that last question marked too — figured I'd tackle it when we're back and have a chance to relax. What changes would you make?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, send me a copy when you're done. Might be useful.",
+      "response_pred": "First thing when I get back — I'll be putting together all the resource data from these five days into a report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But not everything needs a practical purpose.",
+      "response_pred": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here? I guess he was just being artistic or maybe they had some hidden significance."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I just need a second.",
+      "response_pred": "Other: *His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*\n\nYou: *Just give me a sec.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Yeah, let's go. I'll head first and make sure they're not alone. You stay here, keep an eye on things."
+    }
+  ]
+}

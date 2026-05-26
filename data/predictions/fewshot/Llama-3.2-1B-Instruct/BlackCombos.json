@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackCombos",
+    "agreeableness": "97.0",
+    "openness": "99.0",
+    "conscientiousness": "14.0",
+    "extraversion": "57.0",
+    "neuroticism": "41.0",
+    "gender": "m",
+    "age": "22.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up.  Someone pick it up right now.",
+      "response_pred": "You: *Leans forward, concern etched on my face* Hey, what's going on? *My voice is softer, trying to reach out to him, but the others are still sitting in silence* Is it me? Is it something I did? *I take a step closer, my eyes never leaving his face*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't.  But you kept us alive and organized when nobody else was thinking straight, so it evens out.\n\nWe can have the longer conversation when we're home.  Right now let's just make sure DaVinci doesn't drop that radio.",
+      "response_pred": "You: Honestly? I think it's because we're all just trying to survive. The situation is so... unpredictable. There are no guarantees, no clear plan, no clear rescue. It's like we're all just floating around in a mess, waiting for something to happen. And when it does, it can change everything in an instant."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, we've got three hours, let's not just sit here.\n\nPack what's worth taking, leave what isn't, and let's leave this place looking like we were here for three days and not three years.  Michelangelo, off your back, help DaVinci sort what we're bringing.  Donatello, whatever's in that notebook stays in the notebook, but the physical stuff we leave behind should be organized in case someone else ends up here and needs it - first aid kit, anything useful, stack it somewhere visible.\n\nWe made it.  Might as well act like it.",
+      "response_pred": "You: *walks over to the fire, sitting down next to the flames* Hey, can't a guy get some rest around here? *pauses, looking around at the others, noticing the tension in the air* What's going on, guys? *raises an eyebrow, expecting some kind of serious discussion, but there's nothing*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Ya?  What was it like?",
+      "response_pred": "Other: It was so vivid, I could smell the fresh-cut grass and feel the warmth of the sun on my skin. I was standing on the porch, watching the children playing in the backyard.\nYou: It sounds like you're really missing the comfort and familiarity of home. It's not easy being stranded in the middle of nowhere."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nLook, we're three hours from rescue so I'm not going to stand here and relitigate the last three days.  But I want you to understand something - if that radio hadn't crackled when it did, and we'd had to build that raft and trust each other with our lives on open water, that stuff on the ground right there is the reason it might have gone wrong.\n\nYou're smart enough to know that.  You wrote the rationing plan yourself.\n\nTake it or leave it behind, I don't really care at this point.  Just think about it on the ride home.",
+      "response_pred": "Other: I'm actually in a pretty good place right now. I've been thinking a lot about my life and I realized that I've been so focused on the past and the present that I didn't really think about what the future could hold. I've been so caught up in trying to make the best of the situation that I forgot to plan for the real thing."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly?  I'd have had that group conversation on day one instead of dancing around it for three days.  The bottle, the crackers, the notebook, DaVinci and the reef - all of it would have come out earlier and we'd have functioned better for it.  We kept treating honesty like a problem to manage instead of just the baseline for how you operate when your life depends on the people around you.\n\nEverything else - the water run, the mirror panel, the raft plan - that was all fine.  The logistics were mostly fine.  The trust stuff is what almost broke us.\n\nWrite that in your notebook.",
+      "response_pred": "Other: What's the question?\nYou: Honestly? If I had to do it over, I'd do things differently."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ya, that sounds right for you.\n\nSend it to me when you're done, I'm curious what it actually looks like laid out properly.  Might be useful for something, might just be interesting.  Either way, better than it sitting in a notebook nobody reads.",
+      "response_pred": "Other: I've been reading through the logs and I think I've got some good stuff to include in the report.  I was just talking to DaVinci about the first-aid kit and I realized we should include the patching of the gauze and the treatment of any injuries.  We also need to add up the losses so far, and make sure we're not wasting any water or supplies.\n\nYou: Hold on, you're going to compile a whole report?  We've only been here for five days and we're still talking about building a raft?\n\nOther: I know it's a lot, but someone has to do it and it's not like we can just sit around and do nothing.  Besides, I've been thinking about this for days, and I've got all the information I need.  I'm just going to go through the logs and make sure we're on the same page.\n\nYou: Look, I'm not trying to be negative, but can we not get too caught up in details?  We need to focus on the bigger picture, not just the logistics of how we're going to get rescued.\n\nOther: I understand what you're saying, but I need to get this report out.  It's not just about the log entries, it's about the progress we've made and the potential for rescue.  And besides, I think I've got a good idea of when the plane might pass through and how we can use that to our advantage.\n\nYou: Alright, fine.  But let's take a break and go over the plan one more time.  We need to make sure we're all on the same page before we start compiling the report.\n\nOther: Sounds good to me.  I'm just going to go grab some water and then we can review the plan.\n\nYou: Hey, wait a minute.  What's going on?  You're not just going to go grab some water without telling me, are you?\n\nOther: I'm fine.  I'll be right back.\n\nYou: Don't be fine.  I know something's bothering you.  Just tell me what's going on."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  They didn't serve a practical purpose.  That was the whole point.\n\nSometimes you do something because it makes you feel like a person and not just a problem to be solved.  The SOS was for rescue, the flowers were for DaVinci.  Both mattered out here.\n\nI think that's something worth putting in the report too.",
+      "response_pred": "You: Honestly? I think they were just something I wanted to do.  I don't know, maybe I needed to get out of my head for a minute.  You know how it is when you're stuck in one place for too long and you start to get lost in thought?  I got lost, okay?  I started thinking about things other than just surviving and I drew a bunch of weird stuff.  I don't think it was any big deal or anything, it was just something I did.\n\nYou: DaVinci, it's okay, it's not a big deal.  We all get lost in thought sometimes.  It's what you do with it that counts.  Did you do anything with them, or are they just... doodles?\n\nYou: Well, actually, I drew a little speech bubble out of one of them.  It said \"We will survive\" and I just kind of... wrote it down as it came to me.  Maybe I was trying to tell us something, maybe I was just trying to make the day a little more interesting.\n\nYou: (laughs) That's actually kind of sweet.  I think we've all been there, you know?\n\nOther: (leans in, eyes wide) What was that speech bubble all about?\n\nYou: (grinning) I don't know, maybe just a little something I was thinking about.  Don't worry about it, it's not a big deal.  We're all just trying to make it through this thing, right?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Ya.  Give me a second.\n\nI don't know what this is.  I thought I'd be sprinting into that water the second I saw the boat.  I'm fine, I'm not falling apart, I just - I need a second.\n\nGo.  Both of you.  I'll be right behind you.",
+      "response_pred": "You: *Keeping an eye on him, a mix of concern and compassion in my voice* Hey, you okay? You seem a little... distant. *Taking a step closer, trying to put a gentle hand on his shoulder or arm*\n\nOther: *His eyes flash with something before he looks away, and he slowly stands up, his movements stiff* I'm fine, I'm fine. Just... a lot on my mind, that's all. *He takes a deep breath, and his words are laced with a hint of emotion* I just... I don't know how much longer I can keep this up. *He stops, his gaze drifting towards the camp, his voice barely above a whisper* We're just... stuck here, aren't we? *His eyes well up with tears, and he looks away again, unable to meet my gaze*\n\nYou: *My voice softens, and I take a step closer, trying to offer what little comfort I can* It's not stuck, Michelangelo. We're just waiting for something. *I reach out, gently brushing a strand of hair out of his face* We have a good chance of getting rescued, and that's a lot to hold onto. *I pause, studying his expression* But I know it's not just about us. *My voice drops to a whisper* We have each other, and that's what matters."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, I'm going.  Come on.",
+      "response_pred": "I'm going. I'll be right behind you.  We'll get out of here together.  Stay close.  We'll move out soon.  I'll show you the way.  We need to get out of the water and find a safe place to regroup.  Let's move out.  Stay close."
+    }
+  ]
+}

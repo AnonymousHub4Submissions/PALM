@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "TwoPunnyFourWords",
+    "agreeableness": "63.0",
+    "openness": "58.0",
+    "conscientiousness": "13.0",
+    "extraversion": "33.0",
+    "neuroticism": "60.0",
+    "gender": "",
+    "age": "33.0"
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it happen.\n\nYou don't have to say anything right now. None of us do.\n\n*sits down*\n\nWe made it. That's the whole sentence. Everything else can wait.",
+      "response_pred": "He stammers slightly, hands fidgeting nervously in his lap as he tries to find the right words."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you were useful, and that's not a small thing.\n\nThe hoarding was a problem and we dealt with it. The notebook, the distance, the way you process people as variables — those are real tendencies and you know it better than I do. But you also mapped the water source, you worked out the raft frame, you identified the right panel, and you kept the resource logic sound when the rest of us were running on emotion. That matters.\n\nI don't think you're a bad person. I think you're someone who defaults to control when things get uncertain, which is understandable, and the cost of that default is that people feel like data points rather than people. That's worth knowing about yourself.\n\nWhat you said last night, about not knowing how to be part of a group without turning people into variables — the fact that you could say that out loud is actually more than most people manage. So take that for what it's worth.\n\nWe're all going home with things to think about.",
+      "response_pred": "Yeah, I've definitely noticed that I've been more on the neurotic side lately. It's been tough to keep my cool."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to do this properly.\n\nWe're not leaving this site looking like we abandoned it in a panic, partly because it's the right thing to do and partly because whoever comes after us — search teams, other survivors if this ever happens again, whoever — deserves to find something coherent rather than wreckage on top of wreckage.\n\nDonatello, when you're done with the notebook, I want a final inventory documented — what we used, what's left, what condition the first aid kit is in. That information is actually useful to the people who are going to debrief us and it'll save time.\n\nDaVinci, channel whatever you've got left into breaking down what can be broken down and stacking what should be stacked. The mirror panel especially — that should be left in a position where it's still functional if it needs to be.\n\nMichelangelo. You can keep watching the sky. But when you're ready, I'd like you to walk the perimeter with me and just tell me what you notice. One last time. Because your eyes caught things the rest of us missed and I want to make sure we're not leaving anything behind that matters.\n\nThree hours. Let's use them.",
+      "response_pred": "It's not exactly what they'd call a social environment, but I suppose the lack of leadership makes sense given their personalities. The conscientiousness and extraversion scores are pretty low, which might lead to a lack of initiative or interest in group activities. Openness and neuroticism are also on the lower end, which could mean that they're content with their solitude and are perhaps more focused on their own interests rather than engaging with others."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "Ah, I see. Those home dreams are often a reflection of feelings of comfort and familiarity, which can be tied to my high agreeableness. It's nice to have something peaceful in your subconscious."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, in the sense that I think that's genuinely how you framed it to yourself. The emergency reserve logic is rational on its face. The problem is that you made that decision unilaterally, which meant the rest of us were operating on incomplete information about our actual resource state, which means every decision we made about rationing and the raft timeline and how hard to push was based on numbers that weren't accurate. That's the real cost of it. Not the food itself.\n\nYou're laying it out now, three hours before rescue, and I'm not going to pretend I don't notice the timing. But you're laying it out, and that's more than you were doing four days ago, so I'll take it as evidence that something shifted.\n\nHere's what I want to say and then I'm done with it. The instinct to secure a private margin against catastrophe is deeply human and I understand it. But you cannot build a functioning group on private margins. The group's margin is everyone's margin or it belongs to nobody. That's not idealism, it's just how the arithmetic works when you're dependent on each other.\n\nTake the food back into the communal supply. Document it in the inventory. And when someone asks you to account for it in the debrief, tell them the truth about why you did it, including the part where you knew it was wrong and did it anyway. That conversation is going to be more useful to you than any justification you could construct.\n\nWe're going home. Do it right.",
+      "response_pred": "I guess I like to be prepared, but sometimes it feels like I'm overestimating the need for emergency supplies."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honest answer? I'd have been quicker to say the uncomfortable things out loud instead of waiting for the right moment. I let the Donatello situation go one observation longer than it needed to because I was calibrating how to raise it without damaging the group dynamic, and in retrospect the calibration cost us more than the directness would have.\n\nI'd also have paid more attention to DaVinci earlier. He was doing a lot of emotional labour for the group and I was treating that as a free resource rather than something that was being drawn down. The thing he almost said and then didn't — I still don't know what that was, and I should have pushed harder when I had the chance.\n\nAnd I'd have asked Michelangelo sooner about the flight path. Not because I think he was withholding it maliciously, but because I didn't ask the right questions early enough to surface it. Information that exists but isn't in the room is a planning failure, and that one's on me as much as it's on him.\n\nWhat would you change? You've got a whole notebook and a question you haven't answered. I'm curious whether your list looks anything like mine or whether you were watching a completely different set of problems.",
+      "response_pred": "Ah, that question you left yourself — it's a great one. If I had to do it all over again, I'd probably start by being more organized with my time and resources. I think I could have used a bit more structure in tracking everything. And maybe I'd need to be more open to feedback from others to improve my decision-making. As for neuroticism, I'd like to see if I could tone it down a bit, as it seems to influence my stress levels quite a bit."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Do it. That data is actually worth having in a form that other people can use — not just as a personal debrief exercise but as something with practical value for whoever designs survival protocols or trains search and rescue teams. Five days of real consumption rates under genuine stress conditions is the kind of information that's usually extrapolated from controlled studies, which means it's almost always wrong in ways that matter.\n\nBut finish the sentence first. You would what?",
+      "response_pred": "Sounds like a plan, I'll start working on it right away. I'll make sure to keep it concise but comprehensive."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was the signal. The flowers were the statement that there was still a person making the signal, not just a survival mechanism going through the motions. DaVinci couldn't articulate that in terms you'd find satisfying and he probably didn't try to, but that's what they were.\n\nYou documented everything in that notebook. Resource burn rates, decision quality, weather conditions. All of it accurate, all of it useful. But the flowers are the thing that doesn't appear in the notebook and can't, because what they were measuring isn't a variable you had a column for.\n\nI think that's actually the answer to your question on the last page. Not just trust sooner, not just ask for help. But leave room for the thing that doesn't have a practical purpose. Because the flowers are also why Michelangelo is over there crying instead of staring at the water with nothing left, and why DaVinci still had enough left in him to spot that the mirror panel mattered.\n\nYou can't put that in the report. But you could put in a footnote that says the morale data was incomplete and that the gap in the data was itself meaningful.",
+      "response_pred": "Heh, DaVinci was quite the enigma. His drawings on the beach likely served more as a means of expression and perhaps a way to escape the stress of his busy life. For him, it was about creativity and solitude, not necessarily practical purposes. Maybe he found solace in the colors and shapes, or perhaps these were just his ways of connecting to nature. Who knows?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI've been running the logic of this whole thing for five days — what's the priority, what's the risk, what does the group need, what are we missing. And now the answer is just... out there on the water, coming to get us, and I don't know what to do with that. There's no next decision to make. The problem is solved and I'm still standing here looking for the problem.\n\nI think that's what I can't name. Not relief. Just — the sudden absence of the thing that was organising everything.\n\n*pause*\n\nI'm fine. I'm coming.",
+      "response_pred": "He furrows his eyebrows, concern etching his features, and his smile fades away. His eyes lock onto you, waiting for a response."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on then.",
+      "response_pred": "I'll give it a shot. Rescue missions can be dangerous, but I guess it's part of my job. Follow your instincts, I'll keep you updated."
+    }
+  ]
+}

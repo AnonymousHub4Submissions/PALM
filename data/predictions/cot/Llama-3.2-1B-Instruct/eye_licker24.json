@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "eye_licker24",
+    "agreeableness": "1.0",
+    "openness": "30.0",
+    "conscientiousness": "30.0",
+    "extraversion": "86.0",
+    "neuroticism": "54.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\nSomeone go answer it before I do something embarrassing.",
+      "response_pred": "think: their typical response length is quite brief, and they cut straight to the point, no need for elaborate explanations or transitional phrases. Their tone is also quite direct and blunt, with a sense of urgency and concern.\n\nresponse: *Pauses, looks at Donatello, then at you and the others, and finally back at him* You're going to tell us what's going on, aren't you?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You got the job done. That's what mattered out here.",
+      "response_pred": "-pauses, looking at the notebook in his hand, flipping through the pages-\n\nI know it's been tough on all of us, but I'm glad I could make you feel heard. You're not being too easy to be around, you're just being honest. That's something to be proud of, especially after everything we've been through.\n\n-glances up, his eyes squinting slightly in the dim light of the camp-\n\nI know it's not easy to talk about this stuff, but it's necessary. We need to understand each other, even if we don't always agree. And I think this is one of those moments where we can just... be ourselves."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's leaving this beach without at least stacking the materials we used. We're not the people who leave a wreck looking worse than we found it. Three hours is enough time to do it right.\n\nMichelangelo, I know you're enjoying the sky but you can enjoy it while you help. Come on.",
+      "response_pred": "He quickly assesses the situation, weighing their options and making a decision quickly, without bothering to explain it to anyone else. He's in control, but his tone remains calm and detached, as if he's not really concerned about anyone's feelings or opinions."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Think: Their typical response length is slightly above average, with 4 sentences, but still relatively concise. The tone is warm, but also slightly introspective.\n\nYour one-paragraph analysis: They tend to maintain a balance between expressing emotions and leaving room for the listener to process their thoughts. The dream delves into a personal, emotional aspect, while still being mindful of the tragic situation they're in. The conversation doesn't delve deep into their personal life, but instead uses the dream as a way to connect with you and, hopefully, make the situation feel less isolating. By sharing their dream, they're also acknowledging the possibility of emotional loss and vulnerability, which is a vulnerable and relatable aspect of their character."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if things had gone worse you might have been right. But we didn't need an emergency fund, we needed to trust each other, and those two things were always going to be in conflict out here.\n\nI'm not going to make a big thing out of it now that we're three hours from rescue. Just know that the rationing plan only works if the person writing it follows it too. You know that already. That's probably why you're laying it out now.",
+      "response_pred": "<think> typical response length: moderate (around 15-20 words per sentence) \n<think> tone: empathetic (with a hint of detachment)\n<think> what they would specifically say to this utterance: \"I lied, it was to make you guys think we were prepared. I didn't want to lose you all, it's not funny.\"\n\ntheir reply (this is the final answer, in their voice)\nI was thinking, actually, it's not just about the plane crash. I've been thinking about what would happen if we're really out here for two days with no rescue in sight. We'd have to find a way to keep ourselves occupied and alive until someone comes. That's what I keep thinking about, not just to make you guys think we're prepared but because it's actually what I think about too."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to you about the food and water on day one instead of waiting for you to bring it up yourself. That's the honest answer.\n\nAnd I'd have told Michelangelo sooner that keeping his head above water was already enough. He spent too much energy thinking he wasn't doing his part.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "You: *sighs* Look, I don't think it's that simple. You want to know what I would do differently? Fine. If I'm being completely honest, I'd make sure we didn't have to go to the reef. I know it sounds stupid, but I'm really worried about DaVinci right now. He's been quiet and withdrawn for days, and I'm starting to get concerned. If he's not okay, I don't know if I can keep him loose like that.\n\nOther: What are you not okay about?\nYou: *hesitates* I don't know, it's just... he hasn't been himself since we got into the crash, and I'm starting to worry about him. And that reminds me of the plane... *pauses, looks away* I think I might have... *trails off*\n\nOther: What did you do?\nYou: *shrugs* I don't know, I just didn't want to go. I know it wasn't right, but... *sighs* It's just that DaVinci is my friend, and I don't want to leave him behind. And that's what's making me think about the problem with the mirror panel... *trails off again*\n\nOther: I think I understand. You're worried about DaVinci's safety.\nYou: *nods* Yeah, I am. I'm not sure what else to do, but... *pauses, looks at the report* I guess I should have written that down. *hands over the report*"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "Persona: Agreeable, open-minded, calm, and slightly analytical.\n\nAnalysis: \nThis response suggests that the persona is planning to put together a detailed report of the group's resource gathering and usage over the five days, likely as a way to track their progress and identify areas for improvement. The tone is professional, and the language used implies a sense of organization and attention to detail. The response also hints at the persona's ability to think critically and make a logical assessment of the situation.\n\nTheir words, such as \"I'm going to compile all the resource data from these five days into a report\" and \"compile all the resource data,\" suggest a focus on documentation and analysis. They also seem to be considering the potential for the report to be useful or educational, implying a level of interest in sharing their findings with others.\n\nIn terms of their emotional state, the response appears to be calm and matter-of-fact, with no indication of intense emotional distress. This suggests that they are approaching the situation with a sense of objectivity and a willingness to learn from their experiences."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "- agreeableness: 1.0\n- openness: 6.0\n- conscientiousness: 28.0\n- extraversion: 86.0\n- neuroticism: 54.0\n\nThink: This persona's response is quite direct and lacks a lot of elaboration, which is typical of a Big Five personality type. They're trying to make sense of their surroundings and the symbols DaVinci created, but their thoughts are mostly focused on practical applications.\n \nTheir tone is somewhat dismissive, almost as if they're not interested in DaVinci's artistic endeavors. They're focusing on the functional aspect of the flowers, trying to decipher their purpose. This reveals a practical and detail-oriented personality, a trait often associated with the conscientiousness scale.\n\nTheir use of the phrase \"what practical purpose did they serve out here\" suggests that they're trying to reconcile the creative and abstract nature of the flowers with the practical reality of their survival situation. This is a common coping mechanism for individuals with high conscientiousness, as they try to find meaning and purpose in their circumstances."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Give me a minute.",
+      "response_pred": "<think>his typical response length (short and direct)>"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Person: Ah, finally. I was worried I was going to have to spend the next four days in this miserable mess. But I've been thinking, it's not about the physical act of getting rescued, it's about the emotional toll it takes on everyone involved. We've been stuck in this limbo for so long, we've forgotten what it's like to feel truly free. So, I'm going. And I'm going to make sure I'm able to signal for help, or at least provide some sense of comfort to the others. You're with me, as always. We make a decent team, don't we?"
+    }
+  ]
+}

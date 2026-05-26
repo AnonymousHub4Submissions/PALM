@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "falefail",
+    "agreeableness": "60.0",
+    "openness": "54.0",
+    "conscientiousness": "82.0",
+    "extraversion": "43.0",
+    "neuroticism": "62.0",
+    "gender": "f",
+    "age": "24.0"
+  },
+  "method": "sft",
+  "model": "falefail__Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah. I think that's enough.",
+      "response_pred": "I'm okay. I'm going for a walk. I'll be back."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organised when the rest of us were too overwhelmed to think straight, so it evens out. I think we all showed up in the ways we were capable of. That's probably the best you can ask for.",
+      "response_pred": "I know I've been a little, well, maybe more than a little off-kilter lately. I appreciate you guys sticking with me."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just going to leave this place exactly as we found it? I feel like we should do something before the rescue team gets here — even just gathering everything into one spot so it's easier to account for. And Michelangelo, get off the ground, you can watch the sky from a standing position. Three hours isn't that long.",
+      "response_pred": "I think we should all turn in. We've got a big day tomorrow and we need to be rested and focused."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like in the dream? Was it good?",
+      "response_pred": "I've been dreaming about home, too."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not going to pretend I'm not annoyed about it, because I am — we had a rationing plan and you wrote it. But I also know that if things had got really bad, you'd have used it for all of us, not just yourself. At least I think that's true.\n\nIs that what you're telling me? That it was for all of us?",
+      "response_pred": "Yeah, I've got a flare too."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I would have called out the food and drink situation earlier instead of waiting and letting it sit. I knew something was off and I kept thinking about the right moment to bring it up and there probably wasn't ever going to be a perfect moment — I should have just said it directly when I first saw the bottle.\n\nI think I also spent a lot of energy managing how everyone was feeling at the expense of saying what I actually thought. Which isn't always wrong, but there were times I softened things that probably didn't need softening.\n\nWhat about you? What's your answer to your own question?",
+      "response_pred": "I… I don't know. I don't know how you could change any of it. The first day was the worst, but after that we fell into a rhythm that worked. It wasn't great, but it was okay.\n\nIf I'm being honest, I think the hardest part for me was the silence. At the beginning, we were all too exhausted and traumatised to cope with anything more than basic communication. And then once we'd got over that, it became a pattern. One of us would start talking, and the others would just listen. And then we'd repeat that cycle over and over again.\n\nI kept trying to break that pattern, but it never felt like the right time. And then when I did finally get the chance, I don't think anyone wanted to listen anyway.\n\nSo if I had to do it over, I'd do more. I'd try harder to keep the conversation going. I'd try harder to be the person that everyone wanted to talk to, instead of the person that everyone just listened to.\n\nBut that's not really the same as changing something. It's just a different way of doing the same thing.\n\nAre there any answers that make more sense than that?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's probably a good idea actually. Might be useful for other people in the same situation — like, what actually works when you're rationing with almost nothing, what the real priorities are versus what you think they'll be. The water source being two hours away on foot, the mirror panel, all of it. Someone could genuinely benefit from that.\n\nSend it to me when it's done. I mean that.",
+      "response_pred": "Sure, that's a great idea. I'll help if you want.\n\n* * *\n\n\nPersona (Big Five, 0-100):\n- agreeableness: 60.0\n- openness: 54.0\n- conscientiousness: 82.0\n- extraversion: 43.0\n- neuroticism: 62.0\n\n\nDid you see the sunset last night? It was beautiful."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve a practical purpose. That was kind of the point.\n\nI think when everything is stripped back to just survival — water, food, signal, shelter — and someone still makes room to draw flowers next to an SOS sign, that's them refusing to stop being a person. It's easy to become purely functional when the stakes are that high. DaVinci didn't.\n\nI didn't fully appreciate it at the time either, if I'm honest. But I do now.",
+      "response_pred": "To attract attention. At least, that's what the first aid kit said. They're a distress signal."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I think I just need a second. It's real now and I don't quite know what to do with that.",
+      "response_pred": "Okay. What is it?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yeah, I'm going.\n\n--\n\nMichelangelo (Big Five, 0-100):\n- agreeableness: 56.0\n- openness: 82.0\n- conscientiousness: 50.0\n- extraversion: 72.0\n- neuroticism: 82.0\n\n\nYeah, I'm going.\n\n--\n\nIgnazio (Big Five, 0-100):\n- agreeableness: 90.0\n- openness: 24.0\n- conscientiousness: 88.0\n- extraversion: 54.0\n- neuroticism: 16.0\n\n\nYeah, I'm going.\n\n--\n\nDaVinci (Big Five, 0-100):\n- agreeableness: 60.0\n- openness: 88.0\n- conscientiousness: 82.0\n- extraversion: 46.0\n- neuroticism: 52.0\n\n\nYeah, I'm going.\n\n--\n\nJulianna (Big Five, 0-100):\n- agreeableness: 88.0\n- openness: 50.0\n- conscientiousness: 66.0\n- extraversion: 42.0\n- neuroticism: 36.0\n\n\nYeah, I'm going.\n\n--\n\nTommaso (Big Five, 0-100):\n- agreeableness: 78.0\n- openness: 86.0\n- conscientiousness: 56.0\n- extraversion: 50.0\n- neuroticism: 44.0\n\n\nYeah, I'm going.\n\n--\n\nAlbert (Big Five, 0-100):\n- agreeableness: 64.0\n- openness: 70.0\n- conscientiousness: 88.0\n- extraversion: 30.0\n- neuroticism: 44.0\n\n\nYeah, I'm going.\n\n--\n\nEugenio (Big Five, 0-100):\n- agreeableness: 86.0\n- openness: 16.0\n- conscientiousness: 82.0\n- extraversion: 40.0\n- neuroticism: 12.0\n\n\nYeah, I'm going.\n\n--\n\nLeonardo (Big Five, 0-100):\n- agreeableness: 96.0\n- openness: 68.0\n- conscientiousness: 84.0\n- extraversion: 42.0\n- neuroticism: 20.0\n\n\nYeah, I'm going.\n\n--\n\nIldebrando (Big Five, 0-100):\n- agreeableness: 100.0\n- openness: 80.0\n- conscientiousness: 94.0\n- extraversion: 98.0\n- neuroticism: 20.0\n\n\nYeah, I'm going.\n\n--\n\nNiccolò (Big Five, 0-100):\n- agreeableness: 88.0\n- openness: 66.0\n- conscientiousness: 74.0\n- extraversion: 50.0\n- neuroticism: 52.0\n\n\nYeah, I'm going.\n\n--\n\nNiccolò (Big Five, 0-100):\n- agreeableness: 74.0\n- openness: 80.0\n- conscientiousness: 70.0\n- extraversion: 50.0\n- neuroticism: 64.0\n\n\nYeah, I'm going.\n\n--\n\nLucrezia (Big Five, 0-100):\n- agreeableness: 88.0\n- openness: 42.0\n- conscientiousness: 74.0\n- extraversion: 50.0\n- neuroticism: 18.0\n\n\nYeah, I'm going."
+    }
+  ]
+}

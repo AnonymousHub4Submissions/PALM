@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "doctorbull",
+    "agreeableness": "98.0",
+    "openness": "99.0",
+    "conscientiousness": "5.0",
+    "extraversion": "4.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move — but nothing comes out.*",
+      "response_truth": "Hey. We're okay. We're okay.",
+      "response_pred": "It seems like you're having a tough time. You don't need to say anything right now if you're not ready. Just remember, we're all in this together and we'll get through it. I'm here for you if you want to talk. There's no need to carry everything on your own. We can support each other. When you're ready to share, we'll listen. In the meantime, try to focus on your breathing and take things one step at a time. We'll get through this."
+    },
+    {
+      "utterance": "These past few days — I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, and those two things are related. The same qualities that made you difficult to be around are the reason we're all still here to be bothered by it. I think you know that.\n\nFor what it's worth - the notebook, the rationing plan, the raft design, the water source. That was all you. We wouldn't have made it to a radio to receive that signal without the work you put in. I don't think that should go unsaid.",
+      "response_pred": "I understand that you've been dealing with a lot, and it's okay to not be okay. We're all in this together, and it's essential that we support each other. It might help if we share our feelings more openly instead of keeping them bottled up. That way, we can work through our fears and anxieties as a team, and we'll be better equipped to face whatever comes next. So, if there's something you'd like to talk about, or if you just need someone to listen, I'm here for you. We got each other's backs, and that's what matters most right now."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes the lead. The silence settles over camp.*",
+      "response_truth": "Three hours is a long time to just wait. I'm going to start breaking down what we built here - not because it matters practically, but because it feels wrong to just leave it. Anyone want to help or is everyone doing what they need to do right now?",
+      "response_pred": "I'm picking up on the unease here. Let's talk about it. We're not used to making decisions by ourselves, and I think that's part of what's making us hesitate. But we can't let that paralyze us. We need to decide what our next steps are. Shall we discuss each possible course of action and weigh its pros and cons? I'll start - I suggest we focus on strengthening our camp, ensuring we have enough food, water, and shelter for the time being. The raft can wait until we're sure rescue isn't on its way. What do you think?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Home feels distant right now, but it's still there. And it's still waiting for us. In the meantime, let's focus on what we can control - finding water, patching up our camp, staying visible. We'll find our way home, one step at a time. And when we do, we'll be stronger for it, because we've faced something truly challenging together. That's worth holding onto, isn't it?"
+    },
+    {
+      "utterance": "I kept it in case of an emergency.",
+      "response_truth": "I believe you. And I think part of you knew that wasn't the whole reason, which is probably why it's on the ground right now.\n\nWe don't have to make more of it than it is. You made a call that didn't sit right with you and you're correcting it before we leave. That's not nothing. That's actually harder than not taking it in the first place.\n\nWhat do you want to do with it?",
+      "response_pred": "What kind of emergency are you referring to exactly? It's good to have contingencies, but it's also important to know what we're planning for."
+    },
+    {
+      "utterance": "I've logged every day — resources, decisions, all of it. Plan to turn it into a proper report once we're back. Last page I left a question I haven't answered myself: if you could do this over, what would you change?",
+      "response_truth": "I'd have talked to you sooner. Not about the supplies or the plans - you had all of that. I mean actually talked to you. I think I treated you like a system to work with instead of a person to know, and that was a missed opportunity that I'm only seeing clearly now that we're about to leave.\n\nWhat would you change?",
+      "response_pred": "I'd probably spend more time on the log from the start. It's a valuable resource and it would have been useful to have a clearer picture of our initial situation and decisions. Beyond that, I think the question of what to change is less about specific actions and more about mindset. I'd try to be more open to different perspectives and approaches, not just my own. And I'd make sure to communicate more effectively, especially when things are difficult or when I'm feeling uncertain. The log is a good start, but it's the conversations and connections with the others that really matter."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to write up a report on the resource usage data from these five days.",
+      "response_truth": "That sounds right for you. I hope you actually send it somewhere useful - emergency preparedness people, aviation safety, whoever would actually read it. That data has value beyond the two of us knowing it existed.\n\nThough I'd say - maybe write the other thing first. The last page question. You already know the answer, you just told me. That one's worth getting down while it's still close.",
+      "response_pred": "Alright, let's talk about that report. What kind of data are we looking at and what are the key insights you think we might find? It's important to understand how we're using our resources so we can make more informed decisions moving forward."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach... I never really understood it. What was the point of that, practically speaking?",
+      "response_truth": "It wasn't practical. That was the point.\n\nThere's a version of survival that's just keeping the body alive, and you did that better than any of us. But there's another version where you also remember that you're a person while you're doing it, and the flowers were that. DaVinci needed to do something that wasn't purely instrumental, something that was just... his. And it cost us nothing, and it made the SOS feel like it was made by people worth rescuing rather than just coordinates on a map.\n\nI think you understood it more than you're giving yourself credit for. You just didn't have a category for it in the notebook.",
+      "response_pred": "The flowers are a signal, but not the kind you might be thinking. They're a symbol of hope, a message that we're still here and we haven't given up. They're a beacon, a promise that life can still grow even in the harshest conditions. It's a reminder that we're not just surviving, we're holding onto something bigger than ourselves. And who knows, maybe they'll catch someone's eye from the sky and change everything for us. It's worth a try, don't you think?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I didn't expect it to feel like this. I thought relief would be simple. It's not simple.",
+      "response_pred": "What's on your mind, friend? You seem a bit off. Is there something you'd like to talk about, or is there something you need help with? I'm here for you."
+    },
+    {
+      "utterance": "Rescue is here... they're waving at us. Are you going over? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "It's a relief, but it's important we maintain our composure until we're actually aboard the rescue vehicle. Let's make sure everyone is accounted for and any necessary supplies are secured before we go. Once we're on board, I'll make sure to thank the rescuers for their efforts."
+    }
+  ]
+}

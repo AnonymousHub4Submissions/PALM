@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "doctorbull",
+    "agreeableness": "98.0",
+    "openness": "99.0",
+    "conscientiousness": "5.0",
+    "extraversion": "4.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. We're okay. We made it.",
+      "response_pred": "I... I can't... I just..."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, and those two things are probably related.",
+      "response_pred": "Oh sweetie, I'm really sorry if I've made things difficult for you. Please know that's not my intention at all. I've been struggling a bit lately and it's been affecting my mood. I truly value our relationship and I'm working on staying more patient and understanding. Can we talk more about what's been going on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "I'm going to start breaking this down. Three hours is enough time to do this properly.",
+      "response_pred": "I can't stand this silence, we need to do something! Anyone? (with a growing sense of urgency and impatience)"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Oh, how sweet! Dreaming about home can bring such warm and comforting feelings. It's those little moments that remind us of the places we love, isn't it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think we both know that's not quite the whole story, but we made it, so I'm not sure it matters much to relitigate it now. You kept a log, you ran the numbers, you got us to 48 hours. The crackers didn't end up being the thing that killed us.\n\nIf you want to talk about it, I'll listen. If you don't, that's fine too.",
+      "response_pred": "I understand you need a backup for tough times, but we should really consider using it more responsibly."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have brought up the drink and the crackers sooner, directly, instead of waiting for the right moment. The right moment was the first moment. I kept telling myself it was about timing and I think I was partly just conflict-averse.\n\nAnd I'd have pushed harder for the group to make decisions together from the start, instead of letting a structure emerge where one person was running the numbers in private and everyone else was operating on incomplete information. That's not a criticism of you specifically - I participated in that dynamic too.\n\nWhat would you change?",
+      "response_pred": "I think I'd probably try to keep a bit more of a level head, you know? Those five days were intense, and I let the stress get to me more than I should have. Maybe if I stayed a little more calm, we could have avoided some of the missteps. But overall, I'm proud of the team and what we accomplished."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like it could actually be useful - not just as a record but as a framework. There's not a lot of good data on small group survival dynamics from the inside, most of it is reconstructed after the fact.\n\nIf you write it up, I'd read it. And I think you should include the last page question. The answer you just gave me is more valuable than most of the resource tables.",
+      "response_pred": "I'll make sure to gather everything meticulously, ensuring no detail is overlooked. It's so important to capture every little bit for a comprehensive report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was practical. The flowers were for us. There's a difference between what keeps you alive and what makes being alive feel like something worth doing. Turns out you need both.\n\nI think DaVinci understood that before any of us did.",
+      "response_pred": "Those flowers, they were more than just decorations, my friend. They were a way for DaVinci to capture the beauty and the essence of nature, to remind us of the simple joys and the fleeting moments that make life so precious. They were a part of his journey, a way to connect with the world around him in a profound and personal way. There's no practical purpose to them, but their beauty and the way they reflect the light and the colors of the beach… that's what makes them special."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time.",
+      "response_pred": "I... I'm sorry. I didn't mean to be so quiet. It's just... everything has been happening so fast. Your support means a lot to me, and I just... I needed a moment to process. Thank you for being here."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Of course, let's go. I'll follow you, just like always."
+    }
+  ]
+}

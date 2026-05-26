@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "cyanisis",
+    "agreeableness": "9.0",
+    "openness": "59.0",
+    "conscientiousness": "5.0",
+    "extraversion": "72.0",
+    "neuroticism": "7.0",
+    "gender": "m",
+    "age": "28.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. hey — say something. we got it. we're good.\n\n*grabs the radio*",
+      "response_pred": "hey, take a breath. it's okay to be quiet. we're all here for you. if you need to walk it off, that's cool too. just let us know what you need."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you were fine. you kept us alive, that's what mattered.\n\nthe drink thing, the crackers, the notebook — none of that matters anymore. you came clean when i asked you directly and you adjusted. that's all anyone can do.\n\nhonestly the raft plan alone probably saved us even if we never used it. just having it as a backup changed how everyone felt about the situation. that was you.\n\n*hands you the radio*\n\nyou want to talk to them first? feels right.",
+      "response_pred": "i get that, but it's okay. we all have our moments. i'm just glad you're here and we're all still here. trying our best, you know?\n\nif you need to talk more or just need a bit of space, i'm here for both. just let me know what you need."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright i'll say it since nobody else is going to — do we want to clean this up or just leave it?\n\nlike i'm not attached to any of this stuff but it feels weird to just walk away from a camp we built and leave it looking like a disaster zone. three hours is plenty of time.\n\nmichelangelo you good down there? davinci — you packing or just moving things around? donatello close the notebook for like 20 minutes, we can break this down together and actually leave the place better than we found it.\n\nnot because anyone's going to see it. just because it seems like the right way to end it.",
+      "response_pred": "hey guys, i know we're all chillin' out here but maybe we should just check in with each other? see how everyone's doing? it's been a while since we've had a proper chat and i think sometimes it helps just to talk about it, even if it's just a bit of small talk.\n\ncome on, let's not let this camp turn into a ghost town. we're in this together, right?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like?",
+      "response_pred": "that's not uncommon. our brains try to hold on to that stuff when we're in tough spots.\n\ndid you enjoy the dream, or did it just make you miss it more?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i know.\n\nand honestly i believe you. i don't think you were hoarding it to be selfish, i think you genuinely convinced yourself it was the rational backup plan. that's very you.\n\nbut you also know that if we'd hit day five with no radio and people were starving, and then this came out... that would've been a different conversation. you see that right?\n\n*looks at the food, then back at you*\n\ni'm not going to make you feel worse about it than you already do. you're laying it out now and that counts for something. but next time — and hopefully there is no next time — just tell the group. even if the plan sounds paranoid out loud, say it out loud. we can handle it. what we can't handle is not knowing.\n\nanyway. three hours. let's eat some of this actually, we've been rationing for days and there's no reason to be hungry on a rescue helicopter.",
+      "response_pred": "i get that but we all agreed this morning that emergencies mean everyone has to be on the same page, right? so if you felt you needed to keep some for yourself, maybe we could talk about how we can make sure everyone feels secure without hoarding, you know? we're in this together and that means sharing the load and trusting each other. don't you think?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? not much on the practical side. the decisions we made were mostly right given what we knew at the time.\n\nthe one thing i'd change is probably day one — i'd have asked everyone directly what they were scared of before we got into planning mode. like just name it. because most of the problems we had weren't resource problems, they were fear problems that showed up looking like resource problems. the drink, the crackers, the notebook, michelangelo not saying anything about the flight path for three days. all of that comes from the same place.\n\nif we'd had that conversation early — \"what are you actually scared of right now, say it out loud\" — i think some of that stuff gets short-circuited before it becomes a thing.\n\nthe weird part is i think you already knew that. i think that's why you're asking.\n\nwhat's your answer?",
+      "response_pred": "hmm that's a good question. probably not much, honestly. i mean, we all did our best with what we had and what we knew at the time. hindsight is 20/20 but i think we made the right calls. maybe i would have pushed harder for more regular check-ins with headquarters, just to make sure we weren't missing any critical updates. but that's a small thing and probably not a big deal in the grand scheme of things. what about you? is there anything you think we could have done differently?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "ha ok yeah that tracks. that's very you and i mean that as a compliment.\n\nhonestly though — send me a copy when you're done. i'm serious. i'd actually read it. not even because we were there, just because i think there's something genuinely useful in having that documented. like the water math alone, the activity-adjusted rations thing, that's actually good information that people don't think about until they need it.\n\njust maybe add a section that isn't pure data. like what actually happened between people and why. because the numbers tell you what worked but they don't tell you why the drink thing almost became a bigger problem than it was, or why michelangelo not mentioning the flight path for three days almost cost us. that stuff matters too and it's not in any of your columns.\n\nanyway. three hours. you going to be able to sit still that long or are you going to spend it reorganizing the first aid kit?",
+      "response_pred": "sounds good, that'll be really helpful. maybe we can set a quick meeting to go over it so we're all on the same page and can start planning out what we need to focus on next. also, let's make sure we include any notes on the local environment — like the edible plants and the water sources we've found. that info could be super useful."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. that's kind of the point.\n\nlike the SOS was the signal. the flowers were just... davinci saying \"we're still people and we're still here.\" you can't put that in a column but i think it mattered. maybe not to the rescue team but to us.\n\n*stares at the boat on the horizon*\n\ni don't know why i can't move right now. that's a weird feeling. you'd think this would be the easy part.",
+      "response_pred": "oh those! they weren't really about a practical purpose. davinci was just… you know, davinci. he's got this thing for finding beauty in everything, even in this place. it's like a little oasis of color and life in the middle of all this nothingness. it's his way of keeping our spirits up, i guess. plus, he probably wants to have a record of what's out here, you know, in case we ever make it back or something. but yeah, not really functional, more like a morale boost."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah. probably right.\n\n*exhales slowly*\n\nhey davinci. come on. let's go meet the boat.",
+      "response_pred": "hey.\n\n*sits down next to him*\n\ni know the moment, the feeling of everything just... clicking into place. it's pretty amazing, isn't it? but sometimes after the high, there's a drop. just remember, that plane, it's a sign. a good one. let's take that and make something happen with it. come on, let's go see what we can find in that pile over there. movement, right?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah. i'm going.\n\ncome on.",
+      "response_pred": "yeah of course. let's go. i'll grab the radio and the flare gun just in case. you should probably grab your bag too. we don't know what's on the other side.\n\ncome on, let's move. i'll stay a step behind you just in case. you've got this, by the way. you've been through a lot but you're strong. just keep it steady, alright?"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "We_are_out_of_nopes",
+    "agreeableness": "6.0",
+    "openness": "17.0",
+    "conscientiousness": "85.0",
+    "extraversion": "27.0",
+    "neuroticism": "82.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Holy shit. HOLY SHIT. Is that — is someone there?? Answer it, answer it!! Does anyone know how to work this thing?!",
+      "response_pred": "think>their typical response length (brief vs verbose?)\nresponse>He's holding his tongue, not opening his mouth to respond."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah man. I mean... yeah, you weren't always easy. But you kept us alive too. The rationing plan, the raft, the water run — that was all you. We'll talk about the other stuff later. Right now we're going home.",
+      "response_pred": "=== THINK ===\nThe persona's typical response length is around 6-7 sentences, and they tend to keep their sentences short and to the point. They usually have a clear and direct tone, often with a hint of dry wit.\n\nTheir response is a casual acknowledgment of the other person's behavior, with a brief aside about not being easy to be around, indicating a sense of familiarity and possibly even a touch of humor."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. We're almost there. Should we maybe clean this place up a bit or just... leave it? I kind of want to leave it honestly. Like let it be. We were here, you know?",
+      "response_pred": "<analyze>Their typical response length is quite short, almost like a punchline. It keeps the story moving and hints at some tension or conflict, but doesn't reveal too much about the characters' thoughts or feelings. \n\n<Tone>Their tone is quite blunt and to the point. They deliver the lines without much emotional expression, which suggests a somewhat detached or observational personality. \n\n<What they would specifically say to this utterance>They are trying to say that the conversation is over, that the group is drifting apart, and that the silence is settling over the camp. The phrase \"no one takes charge\" is particularly telling, suggesting that the group is leaderless and unable to make decisions or take charge."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Like, what did you dream about specifically?",
+      "response_pred": "Person: *takes a deep breath* Yeah, I did too. Like, I was there, standing in front of the window, looking out at the same view. It was so real. My mom's cooking, my dad's smile, everything just felt the same. But, you know, it's just a dream, right? It's not like we're actually missing out on anything. We're still here, we're still together. There's no rush to be anywhere else. *pauses, looking away* I'm sorry, I don't mean to downplay what you're feeling. It's just... it's been a while, you know? And to be honest, I'm still trying to figure out what's real and what's just a dream."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And honestly... I believe you. But you could've just said that. We all would've understood \"I'm keeping a reserve for emergencies.\" Instead you hid it and wrote the rationing plan and logged everyone's movements and it made everything harder than it needed to be. You're smart, like genuinely, but you gotta let people in sometimes man. Anyway. It's out now. We're good.",
+      "response_pred": "think: This persona is deflecting the other's concern, downplaying the severity of the situation and implying that the other's fears are unfounded.\n\ntheir reply: \"Yeah man... honestly yeah. I get that. Like the idea that you were just here and then you're not and nobody really knew you — that's a scary thought. But hey, you told your family the flight path. That's something. And you've been the one saying the stuff nobody else would say this whole time. That counts for something bro. You haven't disappeared, you're right here.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people faster. Like I spent a lot of time watching and waiting to see who was gonna be a problem instead of just... talking. And I was right about some of it but it also made things colder than they needed to be. Michelangelo was falling apart and sometimes I helped and sometimes I just told him to get up and move. I don't know if that was right. And DaVinci — I should've pushed harder to find out what he was gonna say that night, the thing he kept to himself. That's gonna bother me. What would you change? And are you actually gonna answer that question you wrote, or is it just gonna sit there on the last page?",
+      "response_pred": "think: This persona's approach to writing a report, though thorough, is rather abrupt. A more detailed analysis would be fitting, considering the significance of their contributions.\n\nresponse: you: <delays pause his sentence> I'd change that one."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah okay, that's very you. I'm gonna eat something real and sleep for like 12 hours. Maybe get back online. See what I missed.",
+      "response_pred": "think: This persona has a somewhat constrained communication style, and the response is brief and to the point.\n\nTheir reply: The response assumes the context of a 5-day survival situation and the persona's preparation for a report. They are also somewhat direct and to the point, which is consistent with their personality type."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose. That's kind of the point though isn't it? Like we were out here surviving, rationing water, logging everything, building a raft — and he still stopped to draw flowers next to the SOS. I don't know, I think that's actually the most human thing anyone did out here. You can't explain it with logic but it mattered. It mattered to him and honestly... it mattered to me too.",
+      "response_pred": "think: Their meaning was lost on everyone else, including you, but you made an effort to explore it, to understand the symbolism behind those flowers... that's admirable, but also a reminder that sometimes, even when we try to decipher the meaning, the truth remains hidden.\n\nresponse: I was trying to find a way to calm DaVinci down, to take his mind off the impending doom, but I guess I ended up doing more harm than good. The flowers, the notes, the entire thing was just a distraction from the reality of our situation. You were right, they were just a waste of time."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just... give me a second.",
+      "response_pred": "<i>He looks at you but doesn't say anything. He waits for a while, then slowly stands up, brushes off his clothes, and takes a step back from the fire. He looks at the other two, then at you, and his eyes soften.</i>"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah I'm going. Come on, let's go together.",
+      "response_pred": "Their reply: \"Rescue is here… they're waving us over. Are you going? I'll follow you.\" This response is a typical example of their concise and somewhat blunt demeanor. They're clearly excited and eager to get rescued, but their tone is also somewhat dismissive, as if they don't fully understand the significance of this development. They seem to be focusing on the practical aspects of the situation rather than the emotional implications."
+    }
+  ]
+}

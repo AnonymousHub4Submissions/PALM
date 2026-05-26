@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "MDMA_Throw_Away",
+    "agreeableness": "54.0",
+    "openness": "92.0",
+    "conscientiousness": "41.0",
+    "extraversion": "57.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "MDMA_Throw_Away__Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Right now. Tell them our location, number of survivors, and that we have injured. Go.",
+      "response_pred": "..."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. The water rationing, the raft plan, the notebook — all of it. I'm not going to pretend the crackers and the bottle didn't happen, but I'm also not going to pretend the rest of it didn't either.\n\nWe're square. Let's go home.",
+      "response_pred": "You weren't supposed to be around. I was working from a safe house, trying to organize a response. That's how I found out about the raid and the survivors. When you called, I didn't know where you were, but I had to get you out of there."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright. Three hours. That's not nothing but it's also not zero.\n\nDonatello — pull anything out of that notebook you want to keep. The rest of it stays here with the camp, it's not our problem anymore.\n\nDaVinci, slow down on the packing. We're not running for a gate. Take a breath.\n\nMichelangelo — you good down there?",
+      "response_pred": "*Goes to the fire, tosses in some sticks to keep it going. The embers glow red. Looks over at the others. No chatter. No movement. Only the crackle of the fire. No one speaks.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good dream or bad one?",
+      "response_pred": "That's the worst kind of dream, right? The ones that you can't even identify the place that's being referred to."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think part of you knows that \"emergency\" kept moving further down the timeline the longer we stayed here. That's just how it works — the thing we're saving for never quite arrives.\n\nYou don't have to justify it to me. You already put it on the ground. That's the part that matters.",
+      "response_pred": "*Michelangelo reaches into the notebook, pulls out a small, clear plastic bottle. There's a smear of red inside.*"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have confronted the bottle situation the same day it happened instead of letting it sit. That was a small corrosion and I let it go longer than I should have.\n\nEverything else — the decisions, the order we made them in, who I leaned on and when — I can live with all of it.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "You should do it now. Maybe it'll be the same answer, maybe it won't. But the act of revisiting it — that's already a change."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely. If that data ends up in the hands of anyone who designs survival protocols or trains rescue teams, those five days meant something beyond just the four of us getting out.\n\nSend me a copy when it's done.",
+      "response_pred": "*Stops him, takes his hand. Looks straight into his eyes, steady, serious.*"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was exactly the point.\n\nYou can't math your way into keeping people functional. Those flowers told Michelangelo that someone still thought beauty was worth five minutes of effort. That's not inefficiency — that's load-bearing work that doesn't show up in a notebook.\n\nPut them in the report.",
+      "response_pred": "You're right, I don't know what they really meant. I can see that they're supposed to look nice and that they're supposed to make the water look better, but I don't know what else they're supposed to do.\n\nI don't think there was any real practical purpose — I think they were more a sign that we were still alive, that we were trying.\n\nI'm not going to pretend that I understand everything about what DaVinci did out here. But I'm not going to pretend that the flowers didn't mean something to him either."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\n*looks at the beach one more time*\n\nIt's strange — I was ready to leave every single day we were here and now that it's actually happening I don't quite know what to do with my feet.\n\nThanks for waiting.",
+      "response_pred": "*Stands up. He's been drawing his hand over his face, and the scruff is visible now. His eyes are red.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I don't know. I'll wait. We'll see what happens.\n\n*waits, eyes on the horizon, the ocean beyond it.*\n\nI'm going with them."
+    }
+  ]
+}

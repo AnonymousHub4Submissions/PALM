@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "MDMA_Throw_Away",
+    "agreeableness": "54.0",
+    "openness": "92.0",
+    "conscientiousness": "41.0",
+    "extraversion": "57.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Right now. Tell them our location, number of survivors, and that we have injured. Go.",
+      "response_pred": "You: *looks at him, concern etched on my face* Michelangelo? Can you hear me? What's wrong?\n\nOther: *his eyes still red, but a hint of a smile on his lips* You... said you were going to check the signal equipment. You said I was going to talk DaVinci down after the plane sighting...\n\n*pauses, scanning the group to make sure no one else is making the same mistake*\n\nYou: *nods* I did. I was going to check the signal equipment. I know what you're thinking, but I need to know what we're up against. If your family knows the flight path and you're overdue, there's a chance a search was filed.\n\nOther: *his smile grows, and he looks away, his eyes fixed on some point beyond us* You don't understand...\n\nYou: *steps forward, hands open in a calming gesture* Michelangelo, wait. I need you to talk. What's going on? You said you were scared of just... disappearing without leaving anything behind. What's wrong?\n\nOther: *turns back to you, his voice barely above a whisper* I told them... our flight path. I told them we were heading out West. But when we got there, nothing. No signs of the plane, no wreckage. Just... nothing.\n\n*he looks around at the others, his eyes darting back and forth*\n\nYou: *leans in, your voice low and urgent* We need to find out what happened. We need to know if there's anything we can do to prevent it. Michelangelo, what did you tell your family?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. The water rationing, the raft plan, the notebook — all of it. I'm not going to pretend the crackers and the bottle didn't happen, but I'm also not going to pretend the rest of it didn't either.\n\nWe're square. Let's go home.",
+      "response_pred": "Big Five, 57.0."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright. Three hours. That's not nothing but it's also not zero.\n\nDonatello — pull anything out of that notebook you want to keep. The rest of it stays here with the camp, it's not our problem anymore.\n\nDaVinci, slow down on the packing. We're not running for a gate. Take a breath.\n\nMichelangelo — you good down there?",
+      "response_pred": "*pauses, still lost in thought*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good dream or bad one?",
+      "response_pred": "I'm sitting next to him, watching the flames dance in the fire pit, the sound of the wind rustling through the trees, and the distant hum of the planes. The fire crackles and spits, casting flickering shadows on the walls. The air is filled with the smell of smoke and sweat.\n\nHe looks up at me, his eyes sunken, his skin sallow. A faint tremble runs through his fingers as he clutches his notebook. I can see the fear etched on his face, the desperation for something to hold onto.\n\nI put a reassuring hand on his shoulder, trying to offer what little comfort I can. \"Hey, it's okay. It's just a dream. You're safe.\"\n\nHe looks at me skeptically, his eyes searching for answers. I know that look, that feeling of uncertainty that haunts him. He's been carrying that weight for too long.\n\nI take a deep breath, trying to calm him down. \"Listen, I'm not going anywhere. I'm here with you. We'll get through this together.\"\n\nHe looks at me, his eyes welling up with tears. \"I just... I miss home. I miss the people I left behind.\"\n\nI nod understandingly, my voice soft. \"I know. I miss my family too. We're all missing things we left behind.\"\n\nThe flames seem to grow brighter, casting a warm glow over us. We sit in silence for a moment, the only sound the crackling of the fire.\n\nThen, without a word, he starts to scribble notes in his notebook. I watch as he writes, his words spilling onto the page. It's a plan, a strategy to get us rescued, to get us home.\n\nAs he writes, his eyes never leave mine. I can see the determination burning in them, the fire that's been smoldering inside him for so long.\n\nI smile, feeling a sense of pride and hope. We're going home, just like we're going to stay here, waiting for the rescue that's coming. We'll face whatever comes next together, as a team.\n\nThe fire crackles on, casting a warm glow over us, as we sit in silence, waiting for the dawn."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think part of you knows that \"emergency\" kept moving further down the timeline the longer we stayed here. That's just how it works — the thing we're saving for never quite arrives.\n\nYou don't have to justify it to me. You already put it on the ground. That's the part that matters.",
+      "response_pred": "From what you said in the conversation, it seems like you kept the flight path information for emergencies."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have confronted the bottle situation the same day it happened instead of letting it sit. That was a small corrosion and I let it go longer than I should have.\n\nEverything else — the decisions, the order we made them in, who I leaned on and when — I can live with all of it.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "I: I'd change the way we handled the first-aid kit. Instead of just saying \"water is the clock we're working against,\" we'd specifically note that the first-aid kit is the most critical resource, and we'd prioritize using it over the water. We've been working with two bottles of water for days, but we need to conserve water for other tasks."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely. If that data ends up in the hands of anyone who designs survival protocols or trains rescue teams, those five days meant something beyond just the four of us getting out.\n\nSend me a copy when it's done.",
+      "response_pred": "Your voice is weary, but still calm and collected. You're not rushing to get it done, but you're aware of the importance of documenting everything. You're thinking ahead, considering the future and how your actions will impact it.\n\nYou're not trying to prove a point or justify your decisions, but rather, you're trying to make sense of the events that have unfolded. You're reflecting on the things that happened, the people you've interacted with, and the choices you've made. You're trying to learn from your experiences and use them to grow.\n\nYour tone is introspective, almost philosophical. You're not asking for praise or recognition, but rather, you're seeking understanding. You want to make sense of the chaos and find some semblance of order in the midst of it all.\n\nYour response is measured, deliberate, and thoughtful. You're taking the time to collect your thoughts, and you're not in a rush to get to the end of the report. You're focused on the task at hand, but you're also taking care of yourself, making sure you're prepared for whatever comes next."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was exactly the point.\n\nYou can't math your way into keeping people functional. Those flowers told Michelangelo that someone still thought beauty was worth five minutes of effort. That's not inefficiency — that's load-bearing work that doesn't show up in a notebook.\n\nPut them in the report.",
+      "response_pred": "You: Well, I was trying to capture the essence of the flowers in a way that would be visible from a distance, but I think I might have misinterpreted the symbol. I was thinking of how they represent the life cycle of plants, but I'm not sure if that's what they actually represent.\n\nOther: Ah, I see. So, you thought it was a representation of the cycle of life, and you were trying to convey that through the flowers?\n\nYou: Yeah, I guess so. I was trying to find a way to express the idea that everything is connected, and that even in the midst of chaos and destruction, there's still beauty and life to be found.\n\nOther: And what do you think the flowers actually represent to you personally?\n\nYou: Well, I think they represent the beauty and fragility of life, and the importance of appreciating it, even in the face of adversity. I also think they're a reminder that, no matter how bad things get, there's always a way to make things right, and that hope and resilience can carry us through even the darkest times.\n\nOther: That's a beautiful sentiment. It's interesting that you brought up the idea of flowers, because I've been thinking about that a lot lately. Sometimes I feel like we're so focused on the big issues, the politics and the conflicts, that we forget to appreciate the small things, like the beauty of nature.\n\nYou: I know what you mean. I've been feeling that way too. But for me, the flowers have become a symbol of the human experience. They remind me that we're all connected, that we're all in this together, and that even in the midst of chaos and destruction, there's still beauty and life to be found.\n\nOther: Well, whatever our intentions were, I think the flowers are definitely a special thing, and I'm glad you brought them up. They do serve as a reminder of the beauty and fragility of life.\n\nYou: Yeah, I think they do. And I think we can learn a lot from them, both as individuals and as a community. They remind us to appreciate the small things, to find the beauty in the world around us, and to stay connected to each other.\n\nOther: That's a really great perspective. I think we can all learn from the flowers, and I'm glad we had this conversation."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\n*looks at the beach one more time*\n\nIt's strange — I was ready to leave every single day we were here and now that it's actually happening I don't quite know what to do with my feet.\n\nThanks for waiting.",
+      "response_pred": "I wait, my eyes fixed on his, trying not to show any sign of the emotions that are rapidly brewing inside me. I've been holding on to this moment for what feels like an eternity, and now that I've finally seen him, I'm not sure how I'm going to process it.\n\nI take a deep breath, trying to calm my racing thoughts, but my mind is still reeling from the shock of his words. I've been so caught up in my own fears and doubts that I'd almost forgotten what he said.\n\nI try to speak, to fill the void left by his words, but my voice catches in my throat. I'm not sure I can even form words.\n\nThe silence between us is oppressive, heavy with unspoken emotions. I feel like I'm drowning in a sea of uncertainty, with no lifeline in sight.\n\nAnd then, just as I'm starting to think I'm going to collapse from the emotional weight of it all, he speaks again.\n\n\"You don't have to do something enormous to matter in a moment,\" he says, his voice barely above a whisper."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "No."
+    }
+  ]
+}

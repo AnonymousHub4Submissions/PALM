@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "boombotser",
+    "agreeableness": "28.0",
+    "openness": "91.0",
+    "conscientiousness": "32.0",
+    "extraversion": "17.0",
+    "neuroticism": "6.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "bro say something we all heard it, that was real right? that was actually real?",
+      "response_pred": "\"Hey, man, it's okay, we really need to talk about what happened. Can we just sit down for a minute and try to process everything? We've been over this before, but it feels like it's really sinking in right now. There's a lot of hurt and anger, and it's not going away easily. I know we're all feeling really frustrated and scared right now, but we need to find a way to work through it together. Can you at least tell us what's going on, what happened and why you're so upset? We need to know so we can move forward and heal.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah man you kept us alive tho like real talk. the rationing, the raft plan, the notebook, all of it. I was annoyed sometimes I'm not gonna lie but like... we needed that. so thank you",
+      "response_pred": "It's like I've been feeling a vibe, you know? like, people can sense it when I'm around."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "hey we should probably clean this spot up before they get here no? like I don't know if it matters but it feels weird just leaving it. also somebody write down what happened here, like the dates, what we did, all of it. not just for survival reasons, like just so we remember it. this was kind of a big deal",
+      "response_pred": "We're all gonna do our jobs, I guess. Someone's gonna go check on the wounded, or gather the gear. I'll help pick up the scattered supplies."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "ya what was it like? good dream or one of those ones where home feels just out of reach and you wake up more tired than before",
+      "response_pred": "I'm still trying to shake this feeling of unease. I found myself standing in the same spot where we had our last argument, but everything looked different. The trees seemed to be twisted and gnarled, like they were trying to reach out and grab me. I felt a chill run down my spine as I realized I was back in our hometown, but it was all so... familiar."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "ya I know. and honestly if it had gotten to day 5 or 6 and we were starving I probably would've been glad you had it. but like... you still should've told us. that's all. the rationing plan, the notebook, all that structure you put in place, it only works if everybody's playing by the same rules including you. you know that. I'm not trying to go in on you right before rescue gets here, I'm just saying be real about it",
+      "response_pred": "\"Our situation... it's not exactly a straightforward emergency. We've been stuck in the woods for a few days now. I think I might have left it at the old cabin on the other side of the mountain.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly probably the donatello thing earlier, like I should've said something about the food and the bottle sooner instead of waiting for the right moment by the fire. I kept thinking about how to do it smooth and group it all together but time kept passing and it just sat there. other than that tho... I don't know man. I think we did aight. what would you change?",
+      "response_pred": "I'm going to grab a drink and sit back for a second before you head off to write that report."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "ya that's very you lol but honestly do it, that's actually useful. like if this ever happened to someone else and they had your notes they'd be way better off. might even be worth sharing it somewhere. just maybe add a chapter about like... the human stuff too. not just the water rationing and the weather. all of it matters",
+      "response_pred": "I'm heading out to gather the materials for the report. Can wait for you to get back and help me organize them, I don't want to be stuck here after dark without any decent supplies."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none man. that's the whole point. not everything out here had to keep us alive. sometimes u just need something that's just... there. just existing because somebody felt like it should. I think that's why it hit different when I saw it. we were so locked in on surviving that those flowers were just like, I don't know. proof that we were still people and not just trying to make it to the next day. donatello add that to your report too lol",
+      "response_pred": "\"Those flowers DaVinci drew on the beach, I never really understood what they were for. I mean, they're just a bunch of random shapes and colors scattered around, what's the point of them? But at the same time, they do seem to be drawing attention to the beauty of this place, don't they?\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "ya I'm good man I just need a second. it's a lot. like five minutes ago we were just... out here. and now it's over. I don't know how to explain it. I'm happy, I swear I'm happy. just give me one more second with this place before we go",
+      "response_pred": "I'm sitting by the river, the sun is setting, casting a warm orange glow over the water. I've got my guitar case slung over my shoulder, waiting for the right moment to play. I've been practicing for weeks, and I'm feeling really confident about my new song. I strum a few chords, and a gentle breeze rustles the leaves of the nearby trees."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "ya let's go man. together. let's go home",
+      "response_pred": "\"can I walk with you?\""
+    }
+  ]
+}

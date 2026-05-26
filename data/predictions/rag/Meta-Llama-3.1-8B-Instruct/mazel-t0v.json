@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "DaVinci's been talking to you, hasn't he? Telling you things I've said before, I'm sure. That we're running out of time, that we need to keep looking."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "I've been expecting as much. It's not like I'm a stranger to your moods. They're as predictable as the weather in a city that's been ravaged by pollution."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "Well, I suppose someone has to do something about the fire. It's not going to light itself."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "Home. It's a funny thing. We all have one, but how many of us ever really know it? Even when we're there, it's always in the back of our minds – the places we're not, the things we're not doing. It's a weight, a constant reminder of what we're leaving behind."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "That's not what I asked for. The empty bottle next to the rationing plan, the one Michelangelo found – we need to know what's in it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "Honestly, I've been thinking about that a lot, and I'd say I'd try to find a better spot for our first night. We got caught in that storm, and it made things a lot harder than they needed to be. But looking back, it's hard to say what else we could've done differently. We did what made sense at the time, and it's not like we had a choice about the weather. Still, if I'm being completely honest, I wish we'd had more time to prep before we had to set up camp. It felt like we were always scrambling to find what we needed."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "We can't afford to let that wait. We need to review and adjust our strategy tonight, not tomorrow or the day after."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "Honestly, I think DaVinci was just observing the local flora, and it didn't necessarily have any direct practical application. The drawings were probably more of a way for him to document and study the ecosystem, given his fascination with nature and how it interacts with the human experience."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "I don't know what to say. We've been searching for hours, and I'm starting to think it's pointless. We've combed every inch of this island, and there's nothing. It's like they vanished into thin air."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm not going anywhere. I'll wait for them to come to us. We've been waving them off for days, now it's their turn to come to us."
+    }
+  ]
+}

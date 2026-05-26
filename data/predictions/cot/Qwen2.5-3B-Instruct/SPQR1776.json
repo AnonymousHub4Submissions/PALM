@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "Take a seat, Mikey. What's wrong?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "I get it. We've all been pretty tough on each other. But the truth is, we're stuck with each other. Let's just keep things as simple as possible and be as clear as we can. Where do you think we should start?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "Alright, let's get some work done. We need to make sure we're as visible as possible to any potential rescuers. Let's start with inventory and make sure we have everything accounted for. We can't afford to make mistakes now."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Home? What was it like? Did it feel real or just a dream? And what did you dream about specifically?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "Emergency kit or what? Give me a scenario where you'd need that."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "Alright, let's break down what we've done and see where we can find improvements. If I could do it all over again, I would definitely focus more on the communication aspect. I should have been clearer about what everyone was doing and why certain decisions were made. Also, I think we should have had more open discussions about our fears and concerns, not just keeping those to ourselves. And of course, we could have worked better on keeping the signal equipment visible and in good condition. Those are some of the things I'd change, but let's not dwell on the past. Moving forward, we'll make sure we're more transparent and proactive."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "Alright, Mikey. Good job. Let's have that report done pronto so we can make a plan for the next phase. What's the scope of the data you're gathering?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "Those flowers were more than just a decorative touch, Mikey. They were a way to communicate with the outside world. DaVinci knew we wouldn't be able to signal with an SOS or mirror panel without attracting unwanted attention. The flowers were the least conspicuous way to send out a message. They were also a reminder that we're not alone here and that someone out there cares."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "Hey, what’s the deal? You look… different. Is everything okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Alright, let's go. Stay behind me and be ready to follow. Follow the signal flags; they'll guide us to the landing area."
+    }
+  ]
+}

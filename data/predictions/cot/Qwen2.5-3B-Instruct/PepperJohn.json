@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PepperJohn",
+    "agreeableness": "17.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "92.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "Alright, what's got you so worked up? Spit it out."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": ": I'm here, and I've been thinking about our time together. It's been tough, and I know that. But it's important to keep things real. We need to help each other, and share our thoughts, even if they're hard. We've been through a lot, and we're stronger because of it. Let's talk about what's been going on, and see if we can find a way to move forward together.\""
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — pack up what's worth keeping, leave the rest. Donatello, tear out whatever pages of that notebook matter and bring them. Michelangelo, get up, help me with the fire.",
+      "response_pred": ": Alright, we need to pull together and talk about what we're going to do next. Each of you knows your strengths and we need to utilize those. Let's see what tasks we can delegate so we can move forward as a team.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Oh, that's interesting. Dreams can be a window into our subconscious. What did your dream about exactly?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what an emergency is. An emergency is all of us, not just you deciding when it counts. We talked about this already — the drink, the crackers, and now this. I'm not going to make a big thing of it with three hours left, but don't pretend it was purely strategic. You kept it because you kept it. Just be honest about that.",
+      "response_pred": "What's an emergency?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the supply issue earlier instead of waiting for it to pile up. And I would've asked Michelangelo about the flight path on day one — that was information we needed and none of us thought to ask. Everything else, I think we did alright given the circumstances.\n\nWhat would you change?",
+      "response_pred": "Alright, that's an interesting idea. Writing up a report is a good way to organize our thoughts, especially since we're in this long-term survival scenario. Before we get started, let's pull together a list of the most important changes we've made and discuss which ones we think could be crucial if we were starting over. It's a good exercise for us, figuring out what works and what doesn't in our little community. What do you suggest we start with?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done.",
+      "response_pred": "I see, let's do that. We'll need to go through everything, but it's important to have a clear picture of what we have left. Got any specific areas to focus on?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Those flowers, DaVinci, were more than just a creative expression of a moment. They were a way to mark our progress, a visual cue that we had settled into our makeshift camp. Each flower could represent a day we had survived, a task we had accomplished. They also served as a reminder of the beauty and simplicity sometimes lost in the chaos of survival. As for their practical purpose, they could be used as markers for a signal fire or to communicate a message to any potential rescuers. Their essence, however, lay in their ability to bring a sense of normalcy and hope to our otherwise desperate situation."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm coming. Just give me a second.",
+      "response_pred": "What's up? You okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Let's wait here. You're with us, and I'll handle communication. Everyone's accounted for?"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "pearlz176",
+    "agreeableness": "87.0",
+    "openness": "7.0",
+    "conscientiousness": "79.0",
+    "extraversion": "1.0",
+    "neuroticism": "49.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that..are they actually responding? Someone grab the radio, go go go!",
+      "response_pred": "You: *Looks at the others, concerned* Hey, is he alright? *Reaches out a hand, but DaVinci's gesture is to go away*\n\nYou: *Leans in, speaking softly* Hey, the signal's still working, we've got the mirror panel - we're good. *Looks back at the other person, who's still standing, expressionless*\n\nYou: *Notices the tears in his eyes* Oh, don't cry, man. We're all here. We're going to get through this together. *Eases back, trying not to make the situation worse*\n\nYou: *Glances at Michelangelo, who's still holding the signal equipment, unsure what to do*\n\nYou: *Turns back to the other person, trying to understand what's going on* Say something. It's not safe, man. We're in a bad situation. *Takes a step closer, hoping he'll snap out of it*\n\nYou: *Notices Donatello standing a few feet away, observing the scene with a concerned expression*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah man, you kept us alive. The rationing plan, the raft, the inventory log - all of it. You're not easy to be around but honestly? I think we needed that. So..thank you. Genuinely.",
+      "response_pred": "You: Yeah, I knew it was only a matter of time before you opened up. You've been holding it in for a while now, and I think it's safe to say you're a little more than just 'sitting silently against the wreckage'. You've been carrying around a lot of weight, and I'm here to listen if you need to share it. What's been on your mind, man?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave it like this? Three days of survival and we're not even gonna tidy up before they get here? Come on, let's at least make it look like we had it together out here lol.",
+      "response_pred": "You: *sits down on a nearby rock, eyes fixed on the horizon, a hint of a smile on your face*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: It was just a dream, I'm sure. Nothing to worry about.\nYou: You don't know what it's like, do you? To be someone else. To be someone in someone else's shoes. You're not just dreaming, are you? You're really feeling that loss.\nOther: No...I just feel...different. Like something's missing.\nYou: Missing? That's an understatement. I've been watching you, and I think you're feeling the weight of it. You're feeling the weight of that plane, and the loss of your family, and the uncertainty of what's to come. But you're not letting it consume you, are you? You're holding on, even when it's hard.\nOther: Just...just give me some time, okay? I need to process this.\nYou: Time? You want time? We've got time, we've got resources, we've got each other. We don't need time. We just need to be here, together. And if that means facing the reality of your loss, then so be it. But you're not alone in this. We're all in this together."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Look, I believe you. And if it had come to that, maybe it would've mattered. But we talked about this - the bottle, the crackers. You said you'd keep us in the loop. We're three hours from rescue and you're still doing it. That's the bit I can't quite get past.",
+      "response_pred": "Other: Yeah, I used it for a small fire, and then I burned it. I didn't think of it as a long-term solution, but you know, everything's gotta be useful or it's not worth anything.\nYou: Yeah, that makes sense. Just a little setback. You know, I think I might be starting to see this place a bit differently. The whole emergency kit thing, the searching for supplies, it's not just about survival, it's about...I don't know, having options, having a plan. And yeah, I can see why you'd keep it for emergencies, that's just basic life skills.\nOther: Yeah, it's just practical, you know?\nYou: Yeah, I do. It's funny, I was just thinking about the whole 'first aid kit' thing, and the fact that you kept it for emergencies, that's a great point. It's not just about having medical supplies on hand, it's about being prepared for anything that might happen. And yeah, having options is key. I think we all need to start thinking about that a bit more, you know?\nOther: I just wish I could go back in time and tell my younger self, \"Don't keep it for emergencies, keep it for stuff you actually need.\"\nYou: I know, right? It's like, just take it one step at a time, you know? Don't worry about the long-term, just focus on getting through the day. And yeah, it's weird, but I think it's actually kind of nice that you kept it for emergencies. It's just...you know, part of who you are, I guess.\nOther: (pauses and looks away)"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have trusted people sooner. Like, we wasted time dancing around stuff - the hidden food, the notebook, DaVinci's swim plan. If we'd just been straight with each other from day one we probably could've got here with a lot less friction. And I'd have checked in on Michelangelo more, properly. Not just \"you alright?\" and moving on.\n\nWhat would you change?",
+      "response_pred": "You: Honestly? I think I'd make a few changes, but they're not necessarily big ones. I mean, the camp's equipment is a bit lacking, and I wish we'd taken more time to fix some of the smaller stuff before we left. But I guess that's just hindsight.\n\nI'd also like to revise our planning for the raft. I know it was a good idea, but I wish we'd taken into account the wind direction and the coastline more carefully. And I think it would have been better if we'd had a few more emergency supplies. But overall, I feel like we've done okay.\n\nOne thing that's bugging me is the communication with Donatello. I know she was worried about her plan, but I wish we'd been more clear about what was going to happen. And I wish she'd told us about the flowers thing. It's a pretty simple idea, but it would have been nice to have shared it with everyone.\n\nI don't think there's really anything we could've done to avoid the flight path issue, but if I had to do it over, I'd probably have been a bit more careful with the mirror panel. And I'd have taken more time to decide on the raft's design before we started building it.\n\nBut overall, I feel pretty good about what we've accomplished. We've gotten everything we needed, and we've got a good idea of how to fix the raft. I just wish we'd been more prepared, you know? But hey, that's hindsight, right?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha fair enough, that sounds about right for you. First thing I'm doing when I get back is finding a pub, watching whatever football is on and ordering the biggest plate of food they have. Maybe a Maker's Mark if they've got it. The report can wait til Monday.",
+      "response_pred": "Other: Yeah, I'll make sure to update the first-aid kit, inventory, and shelter information into the report. I'll also take some notes on the equipment we've used, the skills we've developed, and the challenges we've faced.\n\nYou: Alright, good. And I'll make sure to include the SOS signal we used, as well as the information about the plane that carried us to the area. I'll also include some notes on the camp's layout and the resources we've managed to scavenge.\n\nOther: I'll make sure to include some photos and sketches of the equipment we've used and the shelter we've built. It'll be helpful for the people who might be looking for someone to help with repairs.\n\nYou: Good. Make sure to include some data on the terrain, the weather, and any other relevant information that might be useful. I'll also include some notes on the challenges we've faced and the successes we've had.\n\nOther: I'll make sure to include a detailed breakdown of the resources we've used, including food, water, and equipment. It'll be helpful for the people who might be looking for someone to help with resource management.\n\nYou: Alright, that sounds good. Let's get started on the report. I'll send you a draft to review.\n\nOther: Sounds good. I'll send it back to you as soon as I have it.\n\nYou: Good. Let's get started then."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all. But look at him over there. You really think he needed a practical reason?",
+      "response_pred": "You're staring at the flowers, aren't you? I remember you mentioned that, didn't I? DaVinci said they were a makeshift compass. He figured out that the reflective properties of the petals could be used to estimate direction. He attached them to the plane's mirror panel and used it to get bearings. It wasn't perfect, but it was a decent way to estimate our position. And since you guys were all a bit lost, it was better than nothing."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know man. I think I just..didn't expect it to actually feel like this. Three days and now it's just..over. Come here you idiot.",
+      "response_pred": "Your expression is still fixed, your eyes fixed on the spot where he was sitting. His shoulders slumped slightly, and his head nods downwards."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Together.",
+      "response_pred": "You: Yeah, I'm going. But just one sec, let me check on Michelangelo. I don't want to leave him hanging or anything."
+    }
+  ]
+}

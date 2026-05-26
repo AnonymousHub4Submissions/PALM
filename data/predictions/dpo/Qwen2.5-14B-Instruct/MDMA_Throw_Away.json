@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "MDMA_Throw_Away",
+    "agreeableness": "54.0",
+    "openness": "92.0",
+    "conscientiousness": "41.0",
+    "extraversion": "57.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Right now. Tell them our location, number of survivors, and that we have injured. Go.",
+      "response_pred": "I'm okay, really. Just needed a moment. Let's keep going, shall we?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. The water rationing, the raft plan, the notebook — all of it. I'm not going to pretend the crackers and the bottle didn't happen, but I'm also not going to pretend the rest of it didn't either.\n\nWe're square. Let's go home.",
+      "response_pred": "Hey, I've been feeling a bit off too. Let's talk about it, okay? Sometimes sharing how we feel can really help."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright. Three hours. That's not nothing but it's also not zero.\n\nDonatello — pull anything out of that notebook you want to keep. The rest of it stays here with the camp, it's not our problem anymore.\n\nDaVinci, slow down on the packing. We're not running for a gate. Take a breath.\n\nMichelangelo — you good down there?",
+      "response_pred": "Hey, guys, let's not let the quiet get to us. Anyone have an idea for what we should do next? Maybe we can plan out our route or set up some fun activities for the day. Thoughts?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good dream or bad one?",
+      "response_pred": "That sounds like it must have been a comforting dream. What did you see in your home?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think part of you knows that \"emergency\" kept moving further down the timeline the longer we stayed here. That's just how it works — the thing we're saving for never quite arrives.\n\nYou don't have to justify it to me. You already put it on the ground. That's the part that matters.",
+      "response_pred": "Ah, smart thinking! It's always good to have a backup plan."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have confronted the bottle situation the same day it happened instead of letting it sit. That was a small corrosion and I let it go longer than I should have.\n\nEverything else — the decisions, the order we made them in, who I leaned on and when — I can live with all of it.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "Hmm, that's a tough one. I think the biggest thing I'd want to change is how I managed the team's morale. We were all under a lot of pressure, and I feel like I could have done more to keep spirits up. Maybe more breaks or team-building activities? But you know, hindsight is 20/20."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely. If that data ends up in the hands of anyone who designs survival protocols or trains rescue teams, those five days meant something beyond just the four of us getting out.\n\nSend me a copy when it's done.",
+      "response_pred": "Sounds like a good plan! I'll help you gather the data if you need it. Let's make sure everything is neatly organized and easy to understand."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was exactly the point.\n\nYou can't math your way into keeping people functional. Those flowers told Michelangelo that someone still thought beauty was worth five minutes of effort. That's not inefficiency — that's load-bearing work that doesn't show up in a notebook.\n\nPut them in the report.",
+      "response_pred": "Well, sometimes things aren't just about practicality, you know. Maybe they were a form of expression, a way to add a bit of beauty to the world around us. Or perhaps they served as a marker, a way to signal something to others. Either way, it's all part of the creative process, adding layers to our environment that go beyond mere functionality."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\n*looks at the beach one more time*\n\nIt's strange — I was ready to leave every single day we were here and now that it's actually happening I don't quite know what to do with my feet.\n\nThanks for waiting.",
+      "response_pred": "Hey, everything okay? You can join in if you want, or we can do something else. Let me know what you'd like to do."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. Stay close, okay? We're almost safe."
+    }
+  ]
+}

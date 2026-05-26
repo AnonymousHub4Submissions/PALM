@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "Mumbling incoherently, he stumbles back to his seat, clearly in distress."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "Yeah, I've noticed too. I've been quite neurotic lately, which has definitely impacted my mood and interactions."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "It's not exactly my forte to handle such situations, but seeing the lack of leadership and the resulting disarray isn't ideal. I guess I lean more towards a high level of agreeableness, which might make me try to mediate and foster a sense of cooperation, despite how introverted and lacking in extraversion I am. My high openness to experience could lead me to be someone who values communication and might try to find ways to engage everyone, even if it's just brainstorming activities. However, my neuroticism could make me overly sensitive to the tension in the air, making me feel anxious about the outcome. Despite my conscientiousness, I might struggle to step up and be the one to make the decisions or take charge."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "Yeah, those dreams about home usually mean it's been on my mind a lot. It's nice to have a place that feels like a haven."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "I'm not sure what \"it\" you're referring to, but for emergencies, I'd prefer to have a bit more flexibility in my financial situation."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "Hmm, that's a good question. If I had to do it over, I probably would've spent more time on the planning phase to ensure all the bases were covered. I think I rushed through some decisions and probably could've benefited from a bit more introspection. Maybe I should've gone back and reviewed each decision with a critical eye to see if there were better ways to approach certain tasks."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "Sounds like a solid approach. I'll start gathering all the info and make sure everything is well-organized."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "Oh, the flowers? DaVinci just seemed to find beauty in the simplest things. I think he was just exploring his creativity and expressing himself, without necessarily having a practical purpose in mind. Sometimes, art just speaks to the soul in its own unique way."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "His expression turns from a bright, hopeful grin to a more somber, almost disappointed look. His eyes lock onto mine, waiting for some kind of response or reaction."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Absolutely, I'll head over. You stay put, I'll handle it."
+    }
+  ]
+}

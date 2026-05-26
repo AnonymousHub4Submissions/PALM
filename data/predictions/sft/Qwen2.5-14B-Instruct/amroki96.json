@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "amroki96",
+    "agreeableness": "89.0",
+    "openness": "68.0",
+    "conscientiousness": "40.0",
+    "extraversion": "38.0",
+    "neuroticism": "25.0",
+    "gender": "f",
+    "age": "21.0"
+  },
+  "method": "sft",
+  "model": "amroki96__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*grabs DaVinci's arm*\n\nHey. Hey, say something into it. Right now, go — tell them who we are and where we are, or as close as you can get. DaVinci, you can do this, come on.",
+      "response_pred": "\"I'm okay,\" he says, but the words sound false. He drops to a chair, face in his hands."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Hey, none of us were easy to be around. We were surviving.\n\nYou came back with the water. You wrote the rationing plan. You built the raft frame. When it actually mattered you showed up every single time, and I think you know that.\n\nThe notebook thing, the crackers — that was fear, and you owned it when I called you on it. That's more than a lot of people would do.\n\n*squeezes her shoulder once*\n\nWe're okay. All four of us, we're okay.",
+      "response_pred": "I know. I've just… I don't know, I haven't slept in days. I've had this feeling in the back of my head that we're missing something, or that we're not actually there yet. And I keep looking for it, but it's not there and I can't—\n\n*pauses, takes a breath, looks at all of them*\n\nOkay. I'm sorry. I've been negative and I've been short and I've been a pain, and I'm sorry. That's not who I am, and that's not what I want to be. But I'm still scared, okay? I still don't know what happened, and I still don't know how we're going to get home, and I don't know what's still out there. I don't know where we are or how long it's been or if we're even actually alive right now.\n\nI'm scared. I'm really, really scared. But that doesn't change who I am, and that doesn't change that I'm here with you, and that I'm here for you. And I don't know if that means anything, but I want you to know that that's what I'm here for."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got three hours and nobody is doing anything with them.\n\nI'm not saying we have to be productive, I'm just — I can't sit still right now. My brain won't let me.\n\n*looks around at the camp*\n\nActually, you know what, I kind of want to clean this up. Not because we have to, just because leaving it like this feels wrong. Like we were here, this place kept us alive, the least we can do is not leave it a total wreck.\n\nDaVinci, what are you even packing, we don't have anything. Michelangelo, what do you see up there?",
+      "response_pred": "Hey.\n\n*walks over to the three of them, stands in front of them — not blocking their way, just close, looking at each one of them in turn*\n\nI need to know what's going on right now. Did something happen? What is the last thing you saw? What did you hear? \n\n*pauses*\n\nEither you tell me, or I pick a person and I go through everything in their pack and I go through everything in your shelter. I don't care what it takes.\n\nTell me what you know."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah. Me too. Actually, I had the same dream — we were in this restaurant, you know the one, the one right in front of your building, and we were just sitting at a booth, and it was so quiet and warm and normal that I woke up with all the blankets tangled around me.\n\nThe weird part is that I remember how it felt, sitting there, and I was thinking about how I've never told you about it, and then you said you dreamt about the same place.\n\nIt's crazy but it almost feels like a sign, like something is trying to tell us that we're still alive even though we're not, you know?\n\nI don't know if that makes sense but it's all I've got."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I think part of me even understood that in the moment, even when I was angry about it.\n\nBut here's the thing — we made it. We actually made it, and we did it on the rations we had. So you kept it for an emergency that never came, and honestly? I'm really glad the emergency never came.\n\n*looks at the food laid out*\n\nPut it in the communal pile. We'll bring it home with us, or we'll leave it here for whoever needs it next. But you don't have to carry it by yourself anymore either way.\n\nWe're done surviving, Donatello. We can just be people again.",
+      "response_pred": "Okay. *pulls the notebook out of her pocket, flips it open, reads the first page*\n\nYou wrote \"food for everyone\" and \"water for everyone\" and \"shelter for everyone\" and \"no one gets left behind\" —\n\n*looks up, catches DaVinci's eye*\n\nYou're not doing this alone. That's not how this works, okay? You were serious about rationing the crackers and you have to be serious about rationing the notebook too.\n\nFirst, the notebook. When do you use it? When it's something that affects all of us, okay? You all need to agree that it's a big deal before it goes in there. Not every thought and not every plan, just the ones that we all need to know.\n\nAnd second, I need to hear you say it. Every single one of you, I need to hear the words come out of your mouth. I need to know that you understand that this is about all of us, not just you.\n\n*looks at each of them in turn*\n\nI'm not going to be able to do this on my own, and you can't either. But we can do it together."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks at the last page for a long moment*\n\nHonestly? I think I'd let myself fall apart a little sooner. Like I spent so much energy holding it together for everyone else that I never actually let myself just be scared out loud. Which — I don't regret it, I think it needed to happen, but I was running on fumes by day two and nobody knew because I didn't let them know.\n\nI think if I'd been more honest about that, maybe you all would've felt more permission to be honest too. Like maybe the crackers thing doesn't happen if from day one we're all just saying out loud that we're terrified instead of each of us handling it in our own weird way.\n\n*hands the notebook back*\n\nWhat's your answer?",
+      "response_pred": "You know… I'd probably still take the same approach. I would still be the one making the decisions, but I'd probably let you have a bigger say in them.\n\nThe rations, the notebook — that was my fault, not yours. I made you choose between us and the resources, and you chose us. That was the right call, but I should've known that wouldn't be an easy choice for you. I know I wouldn't make it that easy.\n\nYou have permission to change your answer in the report, by the way. I'm not going to read it out loud or anything, I just think you deserve that much.\n\nYou did more than your share of the work. You never went to bed hungry. You were the one who brought us the water and found the rope. And when Michelangelo was holding the notebook, you were the one who gave him the right answer.\n\nYou're a part of this team just like anyone else, and that's not something you can ever take back."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That is so extremely you and I mean that in the best way possible.\n\nGenuinely though — if you actually write it up, I want to read it. Like not even joking. I think there's something real in there that could be useful for people, not just as a survival thing but as a people thing. How a group of strangers figures out how to function under pressure, what breaks down and why, what holds. That's worth documenting.\n\nAlso maybe include the part where you gave back the crackers. For the full picture.",
+      "response_pred": "I'm printing it out. You're giving it to the COB and the CEO and your parents and your roommate's girlfriend and anyone else you want, but you are doing that. You're not even just leaving it on your computer, you're sending a physical copy to every single one of them.\n\nI'm coming with you, by the way. For backup and also for moral support — I know that's kind of cheesy but that's literally what I'm doing. And I'm also making sure you're okay, because you just spent five days surviving and you're not going to be okay for a while, and I'm not letting you go back to work until you've had a chance to not be okay."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\n*still watching the boat*\n\nThat's kind of the whole point though, right? Like we were out here rationing water and patching leaks and calculating whether we were going to die, and DaVinci drew flowers next to an SOS sign because that's who he is. Nobody asked him to. It didn't help us survive. It just made us a little more human while we were doing it.\n\nI think that's what it was for.",
+      "response_pred": "*looks at the drawings on the sand*\n\nWell, I mean — they didn't serve any practical purpose. I think that was exactly the point.\n\nWhen you're surviving like this, you don't have space for stuff like that. You don't have time to sit and draw flowers, you don't have time to go looking for them, and what would be the point anyway?\n\nBut like — the point is that there's more to life than surviving. There's more to being alive than staying alive. And I think in the moment, those flowers were a reminder of that. You're not just surviving right now, you're also being alive, and those two things aren't mutually exclusive.\n\nSo there's something about that that's worth holding on to, even if it was just for those five days.\n\n*looks at the flowers again*\n\nYou drew exactly what you saw. I think that's kind of incredible."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey, I'm okay. I'm okay, I just —\n\n*exhales*\n\nI didn't let myself believe it was actually going to happen until right now. Like I kept doing the next thing and the next thing and I never stopped to let it be real because what if it wasn't, you know? And now it's real and I don't know what to do with my hands.\n\n*laughs a little, voice unsteady*\n\nSorry. You can go back to cheering. I just needed a second.",
+      "response_pred": "It's okay, we're not going to get on that boat and I'm not going to be okay about that. I'm going to make it to the next airport. I'm going to get home somehow on my own if I have to, I just have to be honest about that.\n\nBut I don't think that means we have to leave here right now.\n\n*looks back at the camp*\n\nWe're not leaving. We're not doing that. We can sit here together until we know the situation actually has changed. I'm not okay with the option of us getting on that boat and walking away from each other right now."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, I'm going.\n\n*takes a breath*\n\nCome on, let's go home.",
+      "response_pred": "Yeah. Yeah I'm going. I'm standing up now and I'm going.\n\n*walks out from where she's been sitting*\n\nI'm so sorry I didn't want to go out there before. I'm so sorry I made you do it alone. I'm so sorry I didn't trust you when you said it was working. I'm so sorry I didn't see you when you were right in front of me.\n\n*looks directly at Donatello*\n\nI'm so sorry I didn't even know.\n\n*starts walking toward the boat, not looking back at anyone else anymore*\n\nI'm going."
+    }
+  ]
+}

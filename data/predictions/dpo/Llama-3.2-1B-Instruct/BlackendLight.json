@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackendLight",
+    "agreeableness": "0.0",
+    "openness": "94.0",
+    "conscientiousness": "98.0",
+    "extraversion": "92.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": "24.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "*The room falls silent, eyes fixed on the person with the red eyes, his voice barely above a whisper*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us organized when it mattered. That's what we needed.",
+      "response_pred": "I've been having a pretty tough time myself lately."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, should we clean this up a bit before they get here?  Doesn't feel right to just leave it.",
+      "response_pred": "They stood at the edge of the clearing, the warm sun beating down on their faces. A gentle breeze rustled the leaves of the trees, creating a soothing melody that seemed to wash away the tension."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah?  What was it like?",
+      "response_pred": "I'm really glad I'm not the one seeking your advice, I'm rather in a state of comfort myself."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.  But you should have told us.",
+      "response_pred": "\"Making sure I'm prepared for anything that comes up, you know?\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would have addressed the hoarding thing faster instead of waiting for it to build up.  And I'd have gotten the mirror signal rigged on day one.  Every day we didn't have it was a missed opportunity.  What about you, what's your answer to your own question?",
+      "response_pred": "uhmmm i dont think i would change a thing"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea.  Might be useful if anyone ever ends up in a similar situation.  Could also be worth including what worked and what didn't on the interpersonal side, not just the resources.",
+      "response_pred": "I'm going to help you with that. You're not the one who's stuck in the office, I can handle the day."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really, I guess.  But not everything has to be practical.  He needed to do it and it didn't hurt anything.  Maybe that's enough.",
+      "response_pred": "The flowers he drew, ah, yes... I think they were for the sake of beauty, the flowers that bloomed by the water's edge, the ones that seemed to dance in the breeze. They were used in the local rituals for purification, to cleanse the mind and body of the soul. The artist's use of the flowers in his work was a reflection of his connection to nature, his understanding of the intricate balance of the universe."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "*the silence is palpable, the only sound the heavy beat of his own heart*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, let's go.",
+      "response_pred": "I'm going, I'm going. Let's go. Stay close."
+    }
+  ]
+}

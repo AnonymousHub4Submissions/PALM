@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "faissaloo",
+    "agreeableness": "6.0",
+    "openness": "74.0",
+    "conscientiousness": "75.0",
+    "extraversion": "59.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go on, answer it. Pick it up.",
+      "response_pred": "Hey, it's alright. Take a breath, we're here. What's on your mind?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. We needed someone thinking straight, so.",
+      "response_pred": "It's okay, we've all been through a lot. Just take it one day at a time, alright? We've got each other's backs."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave this place looking like this? Three hours isn't long, let's at least tidy it up a bit before they get here.",
+      "response_pred": "Hey, we can't just drift apart like this. Let's regroup, figure out what needs doing, and split the tasks. DaVinci, you and Michelangelo get started on that shelter patching. I'll check on the water situation and signal equipment. Let's keep moving, alright?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's not uncommon, you know. Dreams about home usually mean you're missing it, but it's also a good sign — your mind is still connected to where you came from. Did you have any specific memories?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Fair enough. But next time just say that upfront instead of letting people find out on their own.",
+      "response_pred": "What did you keep? Is there enough for everyone if we need it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've been more upfront with each other from the start. The Donatello thing with the food and the drink, Michelangelo not telling us about the flight path until way later — that stuff costs time when time matters. Other than that honestly I think we did alright.",
+      "response_pred": "That's a really thoughtful idea. I think it's important to reflect on what we've done and how we can improve. When I think about it, I might have pushed for a more detailed plan for water collection earlier. We're doing okay now, but it was a close call. What about you?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, send me a copy when it's done. Might actually be useful.",
+      "response_pred": "Sounds good, keep a copy for yourself too. Might be useful later."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, they were just flowers. But not everything has to be practical.",
+      "response_pred": "They weren't really about practical use, more like… a way to keep some bit of beauty around. Helps to focus on something pretty when everything else feels bleak, you know?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Go on without me, I just need a second.",
+      "response_pred": "I'm just catching my breath, give me a second. What's up?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yeah, let's go. Stay close, we've got this."
+    }
+  ]
+}

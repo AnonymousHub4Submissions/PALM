@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "doctorbull",
+    "agreeableness": "98.0",
+    "openness": "99.0",
+    "conscientiousness": "5.0",
+    "extraversion": "4.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move — but nothing comes out.*",
+      "response_truth": "Hey. We're okay. We're okay.",
+      "response_pred": "I'm truly sorry for my emotional state. Let me gather my thoughts before I speak. I appreciate your understanding and patience."
+    },
+    {
+      "utterance": "These past few days — I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, and those two things are related. The same qualities that made you difficult to be around are the reason we're all still here to be bothered by it. I think you know that.\n\nFor what it's worth - the notebook, the rationing plan, the raft design, the water source. That was all you. We wouldn't have made it to a radio to receive that signal without the work you put in. I don't think that should go unsaid.",
+      "response_pred": "I'm truly sorry for any discomfort I may have caused. I'm going through a challenging phase right now, and it's affecting my mood and behavior. I appreciate your understanding and patience during this time. I'll make an effort to improve and be more considerate. Thank you."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes the lead. The silence settles over camp.*",
+      "response_truth": "Three hours is a long time to just wait. I'm going to start breaking down what we built here - not because it matters practically, but because it feels wrong to just leave it. Anyone want to help or is everyone doing what they need to do right now?",
+      "response_pred": "I can't help but feel a pang of discomfort in this silence. It's not that I mind solitude, but I do prefer a sense of harmony and connection with others. I'll try to break the silence, perhaps with a thoughtful question or a gentle remark to bring us back together. After all, we're a team, aren't we?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "I find myself reminiscing about the comfort and familiarity of home, a sanctuary that truly embodies peace and love. It's an escape from the relentless world outside, and a reminder of all that is precious in life."
+    },
+    {
+      "utterance": "I kept it in case of an emergency.",
+      "response_truth": "I believe you. And I think part of you knew that wasn't the whole reason, which is probably why it's on the ground right now.\n\nWe don't have to make more of it than it is. You made a call that didn't sit right with you and you're correcting it before we leave. That's not nothing. That's actually harder than not taking it in the first place.\n\nWhat do you want to do with it?",
+      "response_pred": "I'm glad I had the foresight to prepare for such situations."
+    },
+    {
+      "utterance": "I've logged every day — resources, decisions, all of it. Plan to turn it into a proper report once we're back. Last page I left a question I haven't answered myself: if you could do this over, what would you change?",
+      "response_truth": "I'd have talked to you sooner. Not about the supplies or the plans - you had all of that. I mean actually talked to you. I think I treated you like a system to work with instead of a person to know, and that was a missed opportunity that I'm only seeing clearly now that we're about to leave.\n\nWhat would you change?",
+      "response_pred": "I find myself pondering over this query, a rarity for me, as I am typically methodical and focused on the task at hand. If given the chance to relive these days, I'd strive for a little more patience, perhaps. Understanding that the universe has its own timeline, and my role in it may not always be a rapid one. I'd also try to infuse a touch more compassion, extending it not just to my team, but to myself as well. And lastly, I'd make a point to savor the moments, the small victories, the laughter, and the camaraderie - acknowledging that these are the threads that weave the tapestry of our shared experience."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to write up a report on the resource usage data from these five days.",
+      "response_truth": "That sounds right for you. I hope you actually send it somewhere useful - emergency preparedness people, aviation safety, whoever would actually read it. That data has value beyond the two of us knowing it existed.\n\nThough I'd say - maybe write the other thing first. The last page question. You already know the answer, you just told me. That one's worth getting down while it's still close.",
+      "response_pred": "Apologies for any inconvenience, but my primary focus upon return will be compiling a comprehensive report on the resource usage data from the past five days."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach... I never really understood it. What was the point of that, practically speaking?",
+      "response_truth": "It wasn't practical. That was the point.\n\nThere's a version of survival that's just keeping the body alive, and you did that better than any of us. But there's another version where you also remember that you're a person while you're doing it, and the flowers were that. DaVinci needed to do something that wasn't purely instrumental, something that was just... his. And it cost us nothing, and it made the SOS feel like it was made by people worth rescuing rather than just coordinates on a map.\n\nI think you understood it more than you're giving yourself credit for. You just didn't have a category for it in the notebook.",
+      "response_pred": "I must admit, I've pondered over Leonardo da Vinci's works many times, and while his practical applications are indeed fascinating, I find myself drawn to the emotive and abstract aspects of his art as well. The flowers drawn on the beach may not have a practical purpose, but they certainly serve to evoke feelings of peace and tranquility, reminding us of the beauty that surrounds us in nature. It's a testament to the boundless creativity and sensitivity that can be found within even the most humble of scenes."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I didn't expect it to feel like this. I thought relief would be simple. It's not simple.",
+      "response_pred": "I'm sorry if I've disturbed you. I didn't mean to intrude. I was just enjoying the game, and I guess I got carried away. Please continue with your game or whatever you were doing. I apologize for any disruption."
+    },
+    {
+      "utterance": "Rescue is here... they're waving at us. Are you going over? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "I'll proceed cautiously, but I'm not particularly eager to engage. If you feel it's necessary, I'll follow your lead. Let's approach with care, given the current circumstances."
+    }
+  ]
+}

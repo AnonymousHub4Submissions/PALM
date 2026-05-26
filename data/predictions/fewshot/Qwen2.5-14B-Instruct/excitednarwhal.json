@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "excitednarwhal",
+    "agreeableness": "70.0",
+    "openness": "30.0",
+    "conscientiousness": "71.0",
+    "extraversion": "76.0",
+    "neuroticism": "16.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — it's real. That's real, okay? Somebody grab that radio.",
+      "response_pred": "Hey, take it easy. We're here. Whatever you need to say, you can say it. We're all listening."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what matters.",
+      "response_pred": "Hey, it's okay. We've all been rough around the edges. Just take it one day at a time, man. We're here for each other."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this place up a little — not gonna leave a mess on the beach. And somebody should make sure the signal stuff is still visible in case the rescue team needs to find us from the air. Mich, you good?",
+      "response_pred": "Hey, listen, I know we're all tired and stuff, but we need to get back on track. Let's meet up, figure out what's next. DaVinci, you got a minute?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Really? What was it like? Anything specific stand out?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I believe you. But you wrote the rationing plan. You put it in the middle of camp for all of us to find. And then you kept food on the side. That's the part that's hard to get past.\n\nI'm not gonna drag it out — rescue is coming and we made it. But I think you knew it was wrong. That's why you put it out now.",
+      "response_pred": "What did you keep for emergencies? If it's something we need as a group, let's talk about it. We've gotta be careful with our supplies, but I know you'd only do that if it was important."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people sooner. I spent a lot of energy just kind of watching and waiting to see who was gonna fall apart instead of just... being straight with everyone from day one. Donatello, I should've called out the bottle the same night Mich found it. Didn't. Sat on it. That's on me.\n\nAnd I think I would've pushed harder to make sure everybody felt like they were actually part of this — not just useful, but actually in it together. Mich almost checked out completely and we kept throwing tasks at him instead of just asking if he was okay.\n\nWhat would you change?",
+      "response_pred": "That's a heavy question, man. But it's also a good one. I think about that too. Maybe I would've pushed harder to gather more resources right from the start. Or maybe I would've taken that moment to sit down and talk sooner — you know, the one where everyone was feeling the cracks. But honestly, I think we've all done our best with what we had. If anything, I'd change how I reacted to some of the stuff we've seen. Like, if I had to do it over, I'd want to be more open to talking about those fears and doubts. Not let them fester so much. But hey, we're all learning as we go. That's kinda the point, right?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. Make sure you put the part about the crackers in there.",
+      "response_pred": "Sounds like a good plan. Helps us keep track of everything and see where we stand. Just make sure to include the water source and the raft progress too, okay?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nThat's kind of the whole point.",
+      "response_pred": "Oh, those aren't about practical stuff. They're more like... a reminder that even in places like this, there's still beauty. It's a way of holding onto something normal, you know? Like, they're not gonna help us get rescued or fix the plane, but they're a small thing we can create and take pride in. Kinda like how hiking or playing music can be for me. It's about keeping a bit of ourselves intact out here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.",
+      "response_pred": "Hey, man. Just taking a minute here. What's up?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, of course. Let's go. Stay close."
+    }
+  ]
+}

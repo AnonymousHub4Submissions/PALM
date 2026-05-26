@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "laughterasthepower",
+    "agreeableness": "47.0",
+    "openness": "99.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "1.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "yeah. i hear it too.",
+      "response_pred": "davinci come on, snap out of it. what are you trying to say. do you need a minute or something."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no you haven't. but you kept us alive so it mostly evens out. the food thing on day two was a problem and you know it was, but everything after that you did right. i'm not gonna hold a grudge.",
+      "response_pred": "yeah that's an understatement. michelangelo's been shaking like a leaf since day one and you're the one that's been distant ever since the plane flew over. what happened to you, did something just click in your head or are you just really good at pretending to be fine when you're not."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright we should probably clean this up before they get here. not because it matters aesthetically but because leaving the wreckage in better shape means easier recovery of the plane materials and it's just the right thing to do. three hours is enough time if we actually use it.\n\ndavinci stop packing for a second and help me with the signal stuff first, we should break down what we built and keep it organized. michelangelo whenever you're ready.",
+      "response_pred": "you know we can't just keep doing this, just drifting around all day not really doing anything. help michelangelo get some food going or something, davinci can go check on the fire. something needs to get done today."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "what was it like. good dream or the other kind.",
+      "response_pred": "yeah that's not surprising. for a lot of people that's what they cling to when they're in a tight spot, memories of home. it's not just about the place itself, it's about the people and the sense of normalcy. but maybe it's good that you did dream about it, it means you're not completely numb to what's going on. that's a good sign."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "we both know that's not what it was. an emergency for who, you? the rationing plan was your idea. you wrote it up, you handed it to us, and then you went and built yourself a private reserve the same day.\n\ni'm not going to pretend i'm not annoyed because i am. but we made it and nobody died partly because of things you did right, so i'm not going to make this into a whole thing three hours before rescue gets here.\n\njust don't do it again. and maybe think about why your first instinct was to take care of yourself before the group when you're the one who set the rules.",
+      "response_pred": "yeah that's reasonable, i'm just glad it's not something we had to scramble for at the last minute. what's the situation like, is it a functional first aid kit or is it more of a just-in-case thing that you're not even sure you'd use."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? not much in terms of decisions. the calls we made were mostly right given what we had to work with.\n\nthe one thing i'd change is i would have pushed harder on the group trust issue earlier instead of letting the food situation sit for as long as it did. i noticed it, i addressed it, but i didn't follow through hard enough to make sure it actually changed the dynamic. i let it go because you were useful and i didn't want the friction. that was a calculation but it was also a bit of a cop out.\n\neverything else i'd do roughly the same. what are you going to write for yours.",
+      "response_pred": "honestly, i don't think there's much to change. we've had some close calls with food and water but that was mostly just bad luck. we've been lucky in terms of weather, not too hot or too cold. and we've had a few ideas that actually worked out, like the mirror panel. \n\ni think what i would change is probably how we handle the personal stuff. like davinci being in a bad state and donatello hoarding food. that's not just an individual problem, that's a group problem. if we'd been more upfront about how people were feeling and what was going on, we might've avoided some of the tension that built up."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah that sounds like something you'd do. honestly it's probably worth doing, if that data helps someone else in the same situation then it's not just a record of what happened here, it's actually useful. you should send it somewhere that people would read it, not just file it away.",
+      "response_pred": "good idea, keep track of what we've used and what's still available so we can plan better going forward. also make a note of any observations about the weather, like how much rain we've gotten and when. that'll help us make a more informed decision about when to try to signal for help."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. they didn't serve a practical purpose. that was kind of the point.\n\nnot everything has to be functional to matter. davinci needed to do something that was just his, something that wasn't about survival or rationing or risk assessment. the flowers were that. and honestly looking at that SOS every day with the flowers next to it was a little less bleak than looking at just the letters.\n\nyou logged everything in that notebook but that's the kind of thing that wouldn't show up in your data.",
+      "response_pred": "come on, you're really asking about the flowers now. after everything we've been talking about. the signal fire, the mirror panel, the raft, all that. you're asking about the flowers. they were a morale thing, okay. they were something to give us something to look at that wasn't just the wreckage and the sand and the water. they were something to make this place feel a little less like a prison and a little more like... i don't know, home, i guess. they didn't serve any practical purpose, that's the point. they were a distraction."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i'm fine. just give me a second.",
+      "response_pred": "what's going on, you're just staring at me. did you think i'd actually start cheering with you or something."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah i'm going. let's go.",
+      "response_pred": "yeah lets just move slowly and in a line, don't want to do anything that might spook them off. and try not to look like we're ready to lunge at them or something, this is probably going to be our one chance. michelangelo, you okay to walk? donatello, you're not going anywhere near that plane. davinci, same, you stay with michelangelo, michelangelo you stay with davinci. the rest of you, let's just move."
+    }
+  ]
+}

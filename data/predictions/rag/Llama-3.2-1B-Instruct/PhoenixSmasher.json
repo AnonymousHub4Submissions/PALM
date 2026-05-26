@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PhoenixSmasher",
+    "agreeableness": "2.0",
+    "openness": "87.0",
+    "conscientiousness": "10.0",
+    "extraversion": "98.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": "33.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. We're good. We made it.",
+      "response_pred": "\"Hey, buddy, what's going on?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. That counts for a lot.",
+      "response_pred": "\"I've noticed that lately it's been a bit tough for me to put on a smile. But I'm working on it.\"\n\nThis response maintains a friendly and non-confrontational tone, which is consistent with the \"agreeableness\" of 2.0. The sentence structure is simple and conversational, with a few short, direct sentences. The choice of words is also informal and relaxed, with phrases like \"lately\" and \"it's been a bit tough\" adding a sense of informality."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this place up. We're not leaving it like this. Michelangelo, get up, help me stack the panels. DaVinci, start breaking down what we built and sort what's worth taking back from what isn't. Three hours is plenty of time.",
+      "response_pred": "*The silence is broken by the sound of my own footsteps, crunching through the underbrush after a few minutes, as I make my way towards the clearing, looking for some respite from the oppressive stillness.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's been a while since we've had a quiet night in the city."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all went hungry together. That's the part that's hard to get past.",
+      "response_pred": "\"Ah, emergencies are our best friends, aren't they? We should've thought of that ourselves, actually. I didn't expect anyone to come to the rescue, though. You know how it is. Must have been a nice day out.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group conversation about the food earlier instead of waiting. That needed to happen sooner. Other than that... I don't know. We made it. Hard to argue too much with the outcome.\n\nWhat's your answer?",
+      "response_pred": "We're heading out again. I've been thinking about our last few days, and I've come to a realization. I wish I'd been more proactive in scouting for shelter. We could have avoided some of the issues we faced if we had a better idea of what we needed. I'm thinking we should have prioritized setting up a secure signal tower sooner, and maybe even had some backup plans in place for emergencies. It was easy to get caught up in the excitement of exploring, but in hindsight, it would have been a smart move to prepare ahead of time."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "\"I'm looking forward to seeing that report, actually. It'll give me a good idea of what we've been up to and what we need to prioritize for the next days. By the way, I noticed you mentioned signal first in your inventory. No need to stress yourself out if it's a bit challenging, right?\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that might've been the point.",
+      "response_pred": "\"I'm not sure I see their practical purpose too, but I'm sure DaVinci's art will find a way to bring joy to the people back in Florence.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "*I glance up, my eyes locking onto his, a flicker of guilt crossing my face before quickly falling. My voice is low and measured, my words barely above a whisper.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "\"That would be great, thanks. I couldn't sleep and I was wondering what the situation was. I'm just glad they're here and that we're okay.\""
+    }
+  ]
+}

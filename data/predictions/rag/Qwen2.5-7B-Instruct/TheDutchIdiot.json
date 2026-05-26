@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "TheDutchIdiot",
+    "agreeableness": "19.0",
+    "openness": "6.0",
+    "conscientiousness": "23.0",
+    "extraversion": "37.0",
+    "neuroticism": "36.0",
+    "gender": "m",
+    "age": "32.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "Just spit it out, mate. We can handle it."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. All that planning, the rationing, the raft — that stuff mattered. Even when it was annoying as hell.\n\nWe're good.",
+      "response_pred": "Yeah, I've noticed. You been through a lot, man. Just… take your time to sort it out. I'm here if you need to vent or anything."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can afford to actually clean this place up a bit before they get here.\n\nDaVinci, leave the packing for a second — help me get the camp sorted. Michelangelo, when you're ready.\n\nNot going to leave this place looking like a disaster zone if we don't have to.",
+      "response_pred": "Alright, let's just each do our own thing then. Doesn't look like anyone else is stepping up, so we might as well start putting some distance between us. Silence suits me just fine right now."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or rough one?",
+      "response_pred": "Yeah, I get those too. Just flashes really. The smell of the pizza, the sound of the shower. It's like a torture, you know? Makes you realize how much you miss it, but also how you can't go back."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah. I figured.\n\nLook, we made it. So I'm not going to stand here and relitigate it. But you know what you did and you know why it was wrong, and I think that's probably enough.\n\nKeep the food. Distribute it fairly before the rescue team gets here or don't, up to you. Just don't insult us by pretending it was purely strategic.",
+      "response_pred": "I know, but we can't rely on that. What if there's an emergency where it's not enough? We need to ration it carefully."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much on the practical side. The water run, the raft, the signals — that stuff was solid.\n\nI'd have caught the hoarding earlier. Should have been paying closer attention in the first couple of days instead of waiting for Michelangelo to notice things.\n\nAnd I'd have spent less time managing everyone's emotions and more time just letting people be what they are. DaVinci's going to draw flowers on the beach, Michelangelo's going to sit with his fear, you're going to log everything in a notebook. That's just who you all are. Took me a day or two longer than it should have to stop fighting that and just work with it.\n\nWhat's your answer?",
+      "response_pred": "I dunno. Probably ride a bit more. You know, less about the planning and more just... living. Maybe pack lighter next time too."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah that sounds about right for you.\n\nSend me a copy when it's done. Genuinely curious what it looks like laid out properly. Might be useful for something, who knows.",
+      "response_pred": "Sure thing, grab as much as you can. I'll handle the tech stuff until you get back."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nHe wasn't doing it for a practical purpose, he was doing it because it kept him human. Kept all of us human honestly. You can't run on pure survival logic for five days without losing something.\n\nThe flowers stayed.",
+      "response_pred": "Practical purpose? They were just… a distraction. A way for DaVinci to keep busy and maybe even find a moment of joy in this damn desert. They served no real purpose out here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "No need to wait on me. Just get back to whatever you were doing."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll lead the way. Let's move. But don't expect anyone to be cheerful or in any kind of good mood. We've been through too much."
+    }
+  ]
+}

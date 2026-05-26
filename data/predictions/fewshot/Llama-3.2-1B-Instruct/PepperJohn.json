@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PepperJohn",
+    "agreeableness": "17.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "92.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "Person: *Looks at you with a mixture of concern and wariness, but also a hint of curiosity* What's going on? What happened? *Steps back slightly, unsure of how to react*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "Other: Yeah, I'm sorry. I feel like I'm not doing anything to help. I'm just sitting around, waiting for something to happen. I feel like I'm just going through the motions.\nYou: I know it sounds that way. It's not easy being trapped in a situation where you feel like you're not contributing much. But here's the thing: you are contributing. You're just not doing it in the way that I am. I'm doing the heavy lifting around here, gathering materials, patching things together. You're more of a... well, a long-term planner, a strategist. You're thinking about how we're going to survive and how we're going to get rescued.\nOther: But I don't know if I can keep going like this. I feel so helpless.\nYou: I know it's hard, but you have to think about the bigger picture. We've been stuck in this situation for days, and it's not going to magically fix itself. If we don't do something about it, it's not going to get better. And even if we do manage to find a way off this island, there are still going to be problems afterwards. You have to think about the long-term, not just the short-term. You have to be willing to take risks and make sacrifices if it means getting us out of this situation.\nOther: I don't know... it's just so frustrating.\nYou: I know it's frustrating. But you have to trust that I'm doing this for us. I'm doing this because I care about you and the rest of the group. And I'm doing it because I think it's our only chance at survival. So let's focus on the task at hand, okay? Let's get the raft together and figure out how to signal for help."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — pack up what's worth keeping, leave the rest. Donatello, tear out whatever pages of that notebook matter and bring them. Michelangelo, get up, help me with the fire.",
+      "response_pred": "*The sound of the wind rustling through the wreckage and the distant call of a bird can be heard as the three of them settle in for the night, each lost in their own thoughts.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Other: No, I was standing in the doorway, looking out at the city. It was still there, but it was different. There were... flowers. And birds. And trees. They seemed to be... singing."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what an emergency is. An emergency is all of us, not just you deciding when it counts. We talked about this already — the drink, the crackers, and now this. I'm not going to make a big thing of it with three hours left, but don't pretend it was purely strategic. You kept it because you kept it. Just be honest about that.",
+      "response_pred": "Big Five persona's response:\n\nOther: No, that's not it. I was thinking of something in the middle, but I changed my mind."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the supply issue earlier instead of waiting for it to pile up. And I would've asked Michelangelo about the flight path on day one — that was information we needed and none of us thought to ask. Everything else, I think we did alright given the circumstances.\n\nWhat would you change?",
+      "response_pred": "Other: *exhaling, looking relieved* I've been trying to put everything into words for days now, but it's hard to summarize the chaos that was our first five days without getting any of the right information.\n\nOther: *pauses, collecting thoughts* If you had to do it over, I think I would make sure we communicated more effectively about the supplies, especially the first-aid kit. I was so focused on getting food that I lost track of the rest of our priorities, and it ended up costing us more than it needed to. If I had to do it over, I would make sure everyone is aware of the water situation and that we're not wasting resources.\n\nOther: *sighs* I also wish we had been more prepared for the search and rescue situation. We were so focused on finding a way off the island that we didn't think about the possibility of rescue at all. If we had been more careful, we might have avoided some of the worst of it.\n\nOther: *smiles slightly* I also think we should have been more careful about our communication. We relied on a few trusted individuals to stay in touch, but when that person didn't return, it was a huge mistake. If we had been more careful, it might have given us a better idea of what was happening on the other side of the island.\n\nOther: *looks up, a hint of sadness in her eyes* I think the biggest thing I would change is that I didn't tell my family my flight path. I know it sounds cowardly, but I didn't want to worry them. If we had known where we were headed, it might have been easier to find a way off. But knowing that we might never get a chance to say goodbye to each other is a pretty hard pill to swallow.\n\nOther: *pauses, collecting thoughts* I also wish we had been more prepared for the psychological toll of being stranded. We were all exhausted and traumatized at the end of it, and we didn't realize just how much we were relying on each other. If we had been more aware of the risks to our mental health, we might have been better equipped to deal with the stress of being stranded."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done.",
+      "response_pred": "You: Alright, let's make sure we're all on the same page. DaVinci, I want you to review the repair plan for the shelter and the signal equipment. Michelangelo, you're covering the food storage and the first-aid kit. Donatello, I want you to keep an eye on the water supply and make sure we're not running out. Your report is due in an hour, let's get started."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Other: They were just doodles, nothing to do with the signal. You've been spending too much time staring at the desert. These are just the rainbows I drew in the sand when I was a kid. They're called... um, the Anna Maria sequence. It's a natural phenomenon."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm coming. Just give me a second.",
+      "response_pred": "Other: *He slowly gets up, his movements stiff and awkward, like he's trying not to make any noise. He takes a few steps back, eyes fixed on you, before finally returning to his seat by the fire. He looks almost... nervous.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "You: Don't worry, Donatello, I'll be okay. We've got a good signal and the mirror's mirror might just give us away. I'll stay close to the fire and keep an eye out for any signs of the rescue team. Just keep to the side, I want to make sure everything goes smoothly."
+    }
+  ]
+}

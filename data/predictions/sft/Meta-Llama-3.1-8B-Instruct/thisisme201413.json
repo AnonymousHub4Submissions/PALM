@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "thisisme201413",
+    "agreeableness": "4.0",
+    "openness": "57.0",
+    "conscientiousness": "57.0",
+    "extraversion": "11.0",
+    "neuroticism": "91.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "thisisme201413__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. breathe. we heard it too.\n\nsomeone respond to it, davinci you're closest, pick it up and talk. tell them our location, tell them we have four survivors, tell them we need extraction. go.",
+      "response_pred": "*waits for a moment, then speaks* you're not going to say anything to him right now, that's not an option. we need to get out of here and get him to a safe place. then we can talk about what just happened. anyone who's ready to move, let's go. *starts walking towards the door*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no, you haven't. but you kept us alive and organized and thinking clearly when it mattered. the crackers and the drink, i'm not going to pretend that didn't happen, but i also know the log, the raft plan, the rationing, the water route, that was all you. \n\nwe can figure out the rest when we're home.",
+      "response_pred": "yeah. i get that. we all do. not easy to be around right now. but that's exactly why we need to talk about it. and not just me, not just you, all of us. because this isn't just about you, it's about all of us. and what we're going to do with what's left of us.\n\nyou want to scream, scream. you want to cry, cry. but you also need to tell us what happened. and then you need to tell us what we're going to do next. because we can't just sit around here and wait for the past to catch up with us. it's not that simple. we have to move forward. we have to keep going.\n\nso yeah, it's not easy. but that's what we do. that's what we are. we're not just survivors, we're not just people who made it through something. we're people who are still here. and we're still here for a reason.\n\nso talk. tell us what happened. tell us what you need from us. and then let's figure out what we're going to do next.\n\nand by the way, it's okay to not be okay. it's okay to not be okay right now. but it's not okay to just sit around here and wait for it to get worse. so let's move. let's talk. let's figure out what's next."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright, three hours. let's not just sit here like we're waiting for a bus.\n\nmichelangelo, you good to help break down what we can carry? nothing heavy, just the stuff worth taking back. first aid kit, the notebook, anything personal.\n\ndavinci, the signal panels, bring them in. no point leaving them out now that we've made contact but let's not just abandon everything either.\n\ndonatello, whatever's in that notebook, make sure it's with you when we leave. seriously. that's a record of what actually happened here and someone should have it.\n\ni'll sort through the rest. three hours is enough time to do this properly.",
+      "response_pred": "we're not in some war movie, we're not gonna wait for someone to step up. you're all looking at me, fine.\n\nlook up. we have two days, three max, before we need to start rationing water. we have a first aid kit, a signal fire, a flare, a raft. we have that. we don't have a plan.\n\ni want to talk about the route. we talked about it before, but we need to pick a spot to go for. is it the north, the south, the east? what's the pros and cons of each. let's talk it out, one at a time. start with the north, someone say why we should go for the north."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was in it.",
+      "response_pred": "yeah. me too. it's weird how when you're out here you start thinking about the little stuff again, food smells, the feeling of sitting on a couch, even just the sounds your family makes when they're all in the same room.\n\nit's not a substitute for being there but it is something. it's something to hold onto.\n\ndon't get me wrong, i'm not going to lie, there were parts of that dream where i was back there, sitting on a couch, and i forgot you guys were here too. but that's not the point, the point is, it's not just the big stuff that's worth holding onto.\n\nyou can hold onto the small stuff too. the thing about home is it's not just one thing, it's a million things all at once."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i believe you. i do. but an emergency that only you get to define isn't a shared emergency, it's a personal reserve. and out here those aren't the same thing.\n\nlook, you're laying it out now and that matters. i'm not going to make this into a bigger thing than it needs to be, especially not with three hours left. but when we get back, if you ever find yourself in a situation like this again, with other people, you need to think about what keeping score costs. not just in trust. in the kind of person you end up being alone with your notebook at night.\n\nyou're smart and you're capable and honestly this group would've been in serious trouble without you. but you can't be the only one who decides what counts as an emergency. that's not how it works when you're not alone.\n\ntake the food. split it or leave it, whatever you want. but you know what it means that you're putting it out there now, and so do i.",
+      "response_pred": "yeah, it's good you did. you can save it for when we need it.\n\nyou still want to keep it for emergencies or you want to listen to it now."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? i'd have called out the drink and crackers thing earlier instead of waiting for the right moment. there's no right moment, i knew that and i still waited. cost us trust we couldn't really afford to lose.\n\nand i'd have slept more. that sounds stupid but i was running on nothing by day three and it made everything harder to think through.\n\nwhat would you change. you already know the answer, you wrote the question. what's in your head when you read it back.",
+      "response_pred": "donatello. that's the one thing i was dreading. and now i'm glad you asked it.\n\nfirst off, the panel signal, no debate. that was a waste of time. we should've used the cards from the start.\n\nsecond, the fire, we should've had the fire going sooner. it's a couple of hours, it's not the end of the world, and it's what we do.\n\nthird, the route, we should've stayed on the track. i know it's tempting to cut corners, but it's not worth the risk. not here.\n\nfourth, the log, i'm glad we did it, but if we'd had more time, we could've gone further. we could've had a real picture of what went wrong and how to fix it.\n\nfifth, the food, we should've rationed it more tightly. i know it's not the most pleasant thing to think about, but we're still alive because we rationed it.\n\nsixth, the route again, we should've stuck to the signs. they're there for a reason, and we should've trusted them.\n\nseventh, the shelter, we should've built it sturdier.\n\nthat's it. that's my list.\n\nas for what i would change, i don't know. i really don't. i think we did about as well as we could, given what we had and where we were. and yeah, maybe the food, maybe we should've been more careful with that, but at the end of the day, i don't know if i would do anything differently.\n\nyou asked the question, i answered it. now write the report, and let's just get home."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it. genuinely. not just for yourself, that kind of data could actually be useful for someone else someday, survival training, emergency planning, whatever. five days of real conditions with real people making real decisions under pressure, that's not nothing.\n\nsend me a copy when it's done.",
+      "response_pred": "yeah, that's a good idea. it'll be a useful reference for next time, or just for the record.\n\nanyway, one hour. we're actually leaving in an hour. davinci, you got the panels? michelangelo, anything worth taking?\n\ndonatello, that notebook, you bring it, i'll carry it. don't even think about leaving it behind.\n\none hour. let's not waste it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. that's the point.",
+      "response_pred": "they were just something to do. something to think about. you're out here, you're alive, you're not going to be able to draw anything again for a while, what do you draw. they don't serve a practical purpose, they're the same as the log or the notebook or anything else you've done, they're just something else you did to make the time pass.\n\nthey're not a waste, they're just not something you can point at and say \"i did that and it helped\". they're just something you did because you could.\n\nyou can still draw when we get back. you can still draw something that doesn't exist out here. doesn't have to be flowers, doesn't have to be anything like it. just something that exists."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i don't know. i think i'm just...processing. give me a second.\n\nit's weird, you spend the whole time focused on what needs doing next and then suddenly there's nothing that needs doing and you just stand there like, ok. now what.\n\ni'm glad we're going home. i am. i just need a minute before i start cheering about it.",
+      "response_pred": "yeah. sorry. i'm just not that guy."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah. let's go.",
+      "response_pred": "yeah i'm going. i'll go first then come back for you. don't wait for me to get there, just follow the sound and the lights. you'll see the boat."
+    }
+  ]
+}

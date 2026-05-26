@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "I'm... I just... need some space. Can we... can we just... be quiet for a moment?"
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "Of course, let's do this! Grab the radio and give it a shake, show them what you've got!"
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "*whispers seductively* I'll make sure they know we're here, baby. Let's go make some noise."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "Yeah, I've been all over the place, jumping from one thing to another. I guess my emotions have been pretty raw lately, and I'm not the easiest person to deal with. But I'm trying to keep it together, you know?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "*Sighs loudly, shrugs off the backpack, and starts gathering firewood, completely ignoring the awkward tension.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "That sounds cozy. Missing your place, huh? I get lost in thoughts of home too, especially when I'm away. What was it like in your dream?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "Got it, just in case the weather turns or if we need extra supplies. Always better to be prepared, right?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "If I had to do it over, I'd probably cut out the fluff and dive straight into the action. There's no time for niceties when you're out there pushing the limits. Let's get to the next big adventure already!"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Sure thing, let's get those numbers crunched and laid out nice and clear. I'll have this report ready in no time, all polished up and ready to go. Count on me to make it pop with all the juicy details."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "Those flowers, they weren't just for show, mate. DaVinci was always one for the aesthetics, but there's more to them. He was sketching the way the light hit the petals, how the wind moved them. It's all about understanding nature, capturing its essence. Practical? Not really, but then again, sometimes the most beautiful things in life aren't practical at all."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "Why aren't you cheering? This is amazing! Let's celebrate! *wait* Are you okay? You don't seem too excited..."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Of course, let's go! I can't wait to help out. Follow me!"
+    }
+  ]
+}

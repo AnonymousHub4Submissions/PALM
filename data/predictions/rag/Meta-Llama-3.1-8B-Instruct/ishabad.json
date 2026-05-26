@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ishabad",
+    "agreeableness": "18.0",
+    "openness": "9.0",
+    "conscientiousness": "42.0",
+    "extraversion": "22.0",
+    "neuroticism": "80.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. That's it. That's what we've been waiting for. Say something back to them.",
+      "response_pred": "*My voice cracks as I speak, the words barely above a whisper.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though. That's what matters.",
+      "response_pred": "I mean, it's not a secret. You're usually a lot more... optimistic than this. What's going on that's got you so down?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours, let's at least make this place look like we tried. Come on.",
+      "response_pred": "*Stare blankly ahead, the silence not quite registering, still scribbling in my notebook.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Don't try to think about it too much, okay? It's just a dream."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah but we were the emergency. We were all the emergency, the whole time.",
+      "response_pred": "You're really not gonna tell me what happened are you?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably trust people more upfront instead of waiting for things to go sideways. Like we wasted time being suspicious of each other when we could've just been straight from the start. That's what I'd change.",
+      "response_pred": "Honestly, I don't know, it's not like anything major comes to mind. I mean, I guess we could've done some things differently, but I'm not really sure what. We got the water, shelter, and signal, that's what matters. Other than that, I'm not really thinking about it."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, honestly that sounds like something worth reading. Send it over when it's done.",
+      "response_pred": "Sounds good, but can we make sure to get the equipment maintenance done first? Don't want it sitting around in case we need to bug out anytime soon. Also, what about the satellite signal we picked up? I feel like we should get that decoded ASAP."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Honestly? None. That's kind of the point.",
+      "response_pred": "They're just some observations, nothing more. He's just trying to record his findings, like I do with the plants that could be used for medicine or food. It's not like they're going to magically make our existence out here more bearable."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "*pauses, looks at the ground, then back up at you, but doesn't say anything for a while*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Come on.",
+      "response_pred": "Yeah, I'm going. Let's just get this over with and see what they want. I'll go first, you follow, but don't get too close, I don't know what kind of gear they're carrying."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ourlegacy",
+    "agreeableness": "18.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "5.0",
+    "neuroticism": "50.0",
+    "gender": "m",
+    "age": "20.0"
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "Speak up, man. What's up?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us organized and that mattered. The drink and crackers thing was a bit rough but you came clean about it and we're all still here so it's whatever.",
+      "response_pred": "I can see why you'd think that. Things have been tough, and I probably haven't handled it well. I'm sorry."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours isn't forever but let's not just sit around waiting. DaVinci, start breaking down what we can carry and what we leave. No point dragging wreckage home but the first aid kit, compass, flares — anything useful comes with us. Michelangelo, when you're ready, help him sort it. Donatello, whatever's in that notebook, make sure it's got everything documented in case anyone needs a debrief when we get back.\n\nAnd let's clean the camp up a bit. Not for any practical reason, just — leave it better than we found it or whatever.",
+      "response_pred": ": Alright, a moment of quiet doesn't change anything. Each of you has your own tasks to complete. Keep focused and make progress. The sooner we get settled and ready, the better. Let's rally when it's time to decide on the next steps."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, we all do. Nightmares are a common occurrence when you're in a situation like this. Focus on staying alert and getting through the day. We all need to keep our wits about us."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "What kind of emergencies? And why not share it openly instead of keeping it private?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group trust stuff earlier instead of waiting for the right moment. The drink and crackers thing — I let that sit too long. Should've addressed it the day Michelangelo found the bottle.\n\nAnd I'd have asked you directly what the notebook was about instead of letting it become a thing.\n\nWhat would you change?",
+      "response_pred": "That's a great idea, documenting everything helps us learn from our experiences. If I had to do it over, I'd probably start earlier, get a head start on the camp setup and resource allocation. Also, we should have established a more formal decision-making process from the beginning to avoid this kind of confusion. And I'd definitely be more vocal about what I think, especially when it came to resource allocation and the raft plan. It's hard to trust when you feel like your voice isn't being heard. I'm sorry for the chaos I caused and for not being more proactive."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that makes sense. Might actually be useful for someone — search and rescue teams, aviation authorities, whoever does the debrief. If it helps them handle something like this better next time then all those notes were worth it.\n\nSend me a copy when it's done.",
+      "response_pred": "Alright, compile it while we still have time. Focus on what we can control and report only what's actionable."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. He needed to do something that felt human, not just functional. I think that mattered more than you'd think — kept his head right when it could've gone the other way.",
+      "response_pred": "Those flowers? DaVinci drew them as a morale booster, kind of like a reminder that we're not alone out here. But in the end, they're just a bunch of daisies. We need to focus on getting things done, not getting lost in symbolism."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "Look, I see you're still up. Everything’s under control. Sit down, we can talk about it later, but for now, let's focus on what we can do. What did you notice?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Evidence of rescue means we're close, but we need to be cautious. Follow a safe distance behind. Let's not assume they'll bring us in — they might need to secure the area first."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Interested-Koala",
+    "agreeableness": "18.0",
+    "openness": "5.0",
+    "conscientiousness": "1.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "",
+    "age": "15.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that... is that actually a signal? Someone say something, grab it, go!",
+      "response_pred": "*silently walks over to the other, places a hand on their shoulder*\n\nHey, buddy. Take a deep breath. We're all in this together. Just remember that, okay?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us through this though. The rationing, the raft plan, keeping track of everything — that stuff mattered. You're not exactly the warmest person but like... we'd probably be in way worse shape without you. So thanks for that.",
+      "response_pred": "Yeah, I get it. This situation isn't easy for any of us. But we're all in this together and we need to rely on each other. If you need to talk or need help with something, just let me know. I'm here for you. Let's not dwell on the past though, we need to stay focused on survival. So, what's the plan for today?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "So are we just leaving this place exactly how it is or should we actually clean some of this up before they get here lol. I feel like we could at least sort through what we're taking and what we're leaving behind. Three hours is plenty of time.",
+      "response_pred": "Alright, I'll do a quick check around the camp. Make sure we've got everything accounted for. And we should discuss the supplies situation again. I mean, we can't keep going like this. It's not fair to anyone. I'm going to find everyone and bring it up. We need to be open about this and make sure we're sharing everything equally. It's the only way we're going to make it out of here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, I've had some strange dreams too. It's weird how much this feels like a dream sometimes, but it's real. So what did you dream about specifically?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... we were kind of already in an emergency the whole time though. But look, it's out now and rescue is coming so I'm not gonna make a big thing of it. Just... if there's a next time, and hopefully there won't be, just be upfront about it. We all would've made the same amount of food go further if we'd known it existed.",
+      "response_pred": "Alright, I'll check it then. But remember, we should all be upfront about what we're doing and why. So what's the notebook actually for?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably have just said stuff out loud more instead of letting things sit. Like the crackers thing, the bottle — I kind of noticed and didn't push hard enough on it early on. And I kept saying I'd go check the signal equipment and just... didn't. That's on me. \n\nWhat about you? What are you gonna write down for yourself?",
+      "response_pred": "I don't know... I'd probably try to be more proactive about sharing resources equally. I mean, I get it, survival instincts can make people do weird things. But we're all in this together, right? So we should try to look out for each other a little more. As for the rest, I think we've done alright, considering the circumstances. But I'll think about it more, see if there's anything else I can do differently."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that sounds about right for you honestly. I'll probably just go home and play video games for like twelve hours straight and not think about any of this for a while.",
+      "response_pred": "Hey, I'll help with that when you get back. For now, I think we should focus on the water situation. Who's up for scouting for rivers or anything nearby? I'll go if no one else volunteers."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. But like... not everything has to have a purpose. I think that's kind of the point. We were out here just trying to survive and he still wanted to make something that looked nice. That's not nothing.",
+      "response_pred": "I'm not really sure about the practical purpose of the flowers DaVinci drew. They seemed more like a way to pass the time or maybe a form of self-expression. But I guess if they helped lighten the mood a bit, that's important too. What do you think?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...yeah. I don't know why I can't move. It's right there.",
+      "response_pred": "Hey, it's good to see you're back. I was starting to worry. We need to start rationing the water and food now. I'll scout for any nearby water sources, but in the meantime, let's prioritize fixing the shelter. And DaVinci, you can help with that as well. I'll take care of organizing the supplies.\n\nAlso, I found the first-aid kit. It seems complete, but we need to make sure everyone knows where it is and how to use it in case of an emergency.\n\nLastly, I noticed you've been quiet lately. If you need to talk about anything, I'm here for you. We're all in this together, and we'll get through it."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.",
+      "response_pred": "I'll go first. You take your time. Just make sure to grab some water and food on your way. We've got this."
+    }
+  ]
+}

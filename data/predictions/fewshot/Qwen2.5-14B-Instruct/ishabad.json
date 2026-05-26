@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ishabad",
+    "agreeableness": "18.0",
+    "openness": "9.0",
+    "conscientiousness": "42.0",
+    "extraversion": "22.0",
+    "neuroticism": "80.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. That's it. That's what we've been waiting for. Say something back to them.",
+      "response_pred": "Hey, you alright? Take a breath, man. We're here."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though. That's what matters.",
+      "response_pred": "Yeah, I get that. Look, we're all a bit on edge. If you need to talk or just need a minute, I'm here."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours, let's at least make this place look like we tried. Come on.",
+      "response_pred": "Hey, come on, let's not just sit here. We need to pick up where we left off. Someone needs to handle the fire, another get some water, and we can split the rest of the tasks. Let's go."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah? What was it like? Anything specific?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah but we were the emergency. We were all the emergency, the whole time.",
+      "response_pred": "What exactly did you keep? And what kind of emergency are we talking about here?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably trust people more upfront instead of waiting for things to go sideways. Like we wasted time being suspicious of each other when we could've just been straight from the start. That's what I'd change.",
+      "response_pred": "If I had to do it over, I'd probably try not to freak out as much. But honestly, I don't know if that's even possible. Guess we just gotta take it one day at a time."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, honestly that sounds like something worth reading. Send it over when it's done.",
+      "response_pred": "Yeah, sounds like a plan. But first, let's make sure we've got everything we need covered today. No point in writing a report if we're not actually taking care of stuff right now."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Honestly? None. That's kind of the point.",
+      "response_pred": "They didn't really serve a practical purpose, did they? More like a distraction from the reality, you know? But hey, if it helped him stay sane, that's something."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "What's up? Why'd you stop cheering?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Come on.",
+      "response_pred": "Yeah, let's go. Stay close, alright?"
+    }
+  ]
+}

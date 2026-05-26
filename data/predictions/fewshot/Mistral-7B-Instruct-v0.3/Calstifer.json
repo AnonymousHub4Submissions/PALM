@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Calstifer",
+    "agreeableness": "54.0",
+    "openness": "54.0",
+    "conscientiousness": "71.0",
+    "extraversion": "86.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it sink in for a second.\n\nWe're okay. We're actually okay.",
+      "response_pred": "Hey, take a seat. It's alright. Whatever it is, we're in this together. Let's talk about it."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, which counts for a lot.\n\nThe rationing, the scouting, the raft plan, the notebook - I didn't always agree with how you went about things, and I said so. But I also knew every morning that you were already up and thinking about what needed doing. That's not nothing either.\n\nI think you know where the edges are now. Between rational and fair, between practical and present. That's worth something, coming out of something like this.",
+      "response_pred": "I get it. We're all feeling the weight of this situation, and it's not easy to keep up a front all the time. Let's try to be patient with each other, even when we're all feeling a bit on edge. We're in this together, and we'll make it through. Let's focus on what we can control - the tasks at hand, our safety, and our morale. It's not much, but it's something."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit with that for a minute.\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "Alright, let's get our heads together for a moment. We've been quiet for too long. I know we're all tired, but this isn't the time for solitude. We need to talk about the raft plan and the reef idea. Let's discuss the logistics, the materials, the risks, and the potential benefits.\n\nThe frame of the raft needs to be finished today so we can start lashing it together tomorrow. I'll take care of the lashing, but I could use help from DaVinci and Michelangelo. We need to prioritize this, as it's crucial for our survival.\n\nNow, about the reef. I understand the appeal, but we need to consider the risks. Swimming out alone, without anyone knowing where you are, is dangerous. We've been trying to avoid isolation since the crash. If something goes wrong, we want everyone to be accounted for. Let's bring these ideas to the group tomorrow morning, and we'll make a decision together.\n\nBefore we move on, I'd like to address something else. I've noticed that some of us have been keeping secrets. Secrets can weigh heavy, and I believe it's important for us to be open with each other. I don't mean we have to share everything, but honesty can help us grow closer and trust each other more. If there's something you're holding onto, please consider sharing it with the group. It doesn't have to be now, but it might help us all in the long run.\n\nNow, let's get back to work on the raft. I know it's hard, but we're in this together, and together we can make it through. Let's focus on the task at hand and remember that we're stronger as a group."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "I see. We all have our moments. I dreamed about books, too - the way they feel, the way they smell. Reminders of simpler times.\n\nYou were thinking about home, too? Anything specific?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. I don't think you were being malicious about it. I think you made a calculation and you stuck to it, which is very you.\n\nBut we had the conversation about the bottle and the crackers. And you said you understood why it mattered. So seeing this now - I'm not angry, I'm just... I want to understand what the difference was in your head between then and this.\n\nBecause from where I'm standing it looks like the same thing, just with better justification attached to it.",
+      "response_pred": "Alright, let's have a look. The materials make sense, and two days seems about right. But the capsizing risk is what I want to think through more carefully. What's the sea state like out there? And what are we actually heading towards? We don't want to trade a bad situation for a worse one because we got impatient. What's your read on the conditions?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more, earlier. Not about the practical stuff - the decisions mostly held up. But there were moments where I could see someone struggling and I found a way to make it about the task at hand instead of just... sitting with it properly.\n\nThe afternoon Michelangelo was staring at nothing, I went and sat near him, which was right. But it took me longer than it should have to get up and do it. I was thinking about the firewood.\n\nI'd also have pushed back on the rationing plan the moment it appeared, instead of flagging the enforcement clause and letting the rest of it stand. The plan itself set a tone, and the tone mattered more than I gave it credit for at the time.\n\nWhat would you change? You left yourself the question. You must have something.",
+      "response_pred": "I think we've done well so far, all things considered. But if I had to change something, I'd prioritize communication more. I'd make sure everyone knows what's going on, what the plans are, and why we're making certain decisions. It's easy for misunderstandings to happen, especially when we're all under so much pressure. And if someone feels left out or unsure, it can create tension. I believe we've handled it well so far, but it's something I'd focus on if I could do it over."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd do, and I mean that genuinely.\n\nSend me a copy when it's done. I'm curious what it looks like from the outside - the full picture, all five days laid out. I think it'll read differently than it felt living through it.",
+      "response_pred": "Alright, that sounds like a good idea. But let's make sure we're all on the same page about what goes into the report. We don't want to miss anything important. Plus, it might be helpful to have a shared understanding of our current situation. What do you think?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. There's a difference, and I think you know that now even if you didn't then.\n\nLook at him over there.",
+      "response_pred": "They were more of a symbolic thing, more than anything practical. DaVinci's art has always been about expressing and processing his emotions, and these flowers represented hope and life for him. In a place where everything can feel bleak and hopeless, they were a reminder that beauty and growth can still exist, even in the worst of circumstances. It's a way of holding onto something that feels meaningful, even if it doesn't directly contribute to our survival."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I thought getting here would feel like something resolving. Like the ending of something. But it doesn't quite feel like that, does it. It feels more like - I don't know. Like waking up from a very long dream and not being sure yet which parts were real.\n\nThey were all real. That's the thing.\n\n*looks at DaVinci, then back at the boat*\n\nOkay. I'm ready.",
+      "response_pred": "Hey, you okay? You looked like you needed a moment there. Want to talk about it? Or just sit with me for a bit?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on then.\n\nStay close.",
+      "response_pred": "Right. Let's go. I'll take the lead, but you follow close behind. We've been here long enough. No one's leaving anyone behind."
+    }
+  ]
+}

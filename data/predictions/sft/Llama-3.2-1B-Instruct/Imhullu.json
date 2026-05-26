@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Imhullu",
+    "agreeableness": "29.0",
+    "openness": "57.0",
+    "conscientiousness": "49.0",
+    "extraversion": "54.0",
+    "neuroticism": "67.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Imhullu__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah.  Yeah I mean it.\n\nHey - radio.  Somebody grab it, right now.",
+      "response_pred": "*looks at the person, then back at the others, acknowledging their concern.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though.  The rationing plan, the raft, the log - all of that mattered.\n\nWe can talk about the other stuff when we're actually home.  Right now let's just focus on whoever's on that radio.",
+      "response_pred": "I know too.  I feel that way with you.\n\nNever said you had to be easy.  But just being real with myself, and you, about how I'm feeling.  That's a start.\n\nAnd honestly, I appreciate it.  It's not always easy for me to talk about this stuff.  But it means a lot that you're willing to listen."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours.  We've got time.\n\nI'm not just leaving this place looking like this though.  Like I know we're getting rescued but let's at least stack the wood, put out the fire properly, collect our stuff.  \n\nMichelangelo, you good to help me pack up?  Donatello, whatever's in that notebook, make sure you've got it all.  DaVinci - you're already packing so just keep doing that.\n\nLet's not check out mentally before the ride actually gets here.",
+      "response_pred": "No - radio.  Someone grab it.  Now.\n\nHey -  I'm gonna go.  You two okay over here?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah?  What was it like?",
+      "response_pred": "Dreams.  Don't think about this stuff until we get past this.  Just... no.\n\nSomebody else, come back here.  Alright?  Don't touch anything.  We need to talk.  Right now."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you.  And I get that that was probably genuinely how you were thinking about it.\n\nBut we had a rationing plan.  We all agreed to it.  And you wrote it.  So when the person who wrote the rules is the one breaking them, even with good intentions, it makes it really hard for everyone else to stay on board.\n\nI'm not trying to pile on you right before rescue gets here.  I'm really not.  But I think you know that \"I kept it for emergencies\" and \"I drank from the bottle without telling anyone\" are two different things.  And I think you owe that acknowledgment to the group, not just to me.\n\nWe made it though.  All of us.  So whatever this was, let's just... be honest about it and move forward.  That's all I want.",
+      "response_pred": "We've got an emergency fund.  It's not a guarantee, but it's a safety net.  You wanted to keep it for yourself.  I'm not judging.\n\nWe'll figure out when we need it, but for now just keep it close.  We've got a long way to go before we get there."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly?  I'd have pushed for that group conversation way earlier.  Like day one.  Not about rules or rationing, just... who are we, what are we each good at, what do we need from each other.  We kind of figured all that out the hard way over five days when we probably could've gotten there on day one if anyone had just asked.\n\nI'd also have checked in on Michelangelo more.  Not in a hovering way, just more consistently.  He was carrying a lot quietly and I didn't always catch it fast enough.\n\nWhat would you change?  You left yourself the question, so you must have something in mind already.",
+      "response_pred": "Yeah.  That's a good start.\n\nActually, I'm not going to even see that report.  I think we all figured that out a long time ago.\n\nBut yeah, the question.  That's real.  If you had to redo it, though?  Yeah.  I would change the way we handled the person who was dying.  Like I said, they kept us alive.  We all did.  But in the moment, it wasn't that clear.  We just reacted.\n\nIf I could go back, I would make sure we all acted on a sense of guilt.  Not just regret.  Guilt.  Because even if we didn't save them, the fact that we tried - that's what mattered.\n\nIt's not a lot of time to redo things, though.  I know.  But if you want to talk about it or write it if you come back, I'm still here."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that sounds about right for you.\n\nHonestly though, do it.  That kind of data could actually be useful for someone someday.  Like if there's ever a training situation or something, having real numbers from a real scenario is way more valuable than whatever they're making up in a classroom.\n\nJust maybe include the part where the person who made the rationing plan drank a mystery bottle.  For accuracy.",
+      "response_pred": "That's a no-brainer.  I'm already documenting everything from day one.  I just wanted to know if anyone would take the time to add to that instead of going straight to the narrative.\n\nSo yeah, try to remember that.  We need a good narrative when we get back.  But for now, let's focus on the data.  We can talk about the story later.\n\nWhat's next?  After the report?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  They didn't serve a practical purpose.\n\nBut look at him right now.  That's what they were for.",
+      "response_pred": "They had a purpose.  They were used to mark the water's edge.  For days we were stuck in the mud and had no way to get out.  The marks we made along the water's edge helped the group keep track of the water depth.  We were all scared to get in that water but we knew how deep it was to get out.  So the marks we made were our original plan.\n\nLater on, when we were actually getting out, we noticed that the marks had changed.  The lines on the water's edge had gotten washed away, and we were all confused about what was going on.  It turned out that the water had gotten really bad.  But the marks we made had helped the group keep track of how deep we were getting out.  So even though the marks themselves didn't actually help us get out, they helped us survive when we were really drowning.\n\nThey weren't just pretty.  They were practical."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know.  I think I just thought when this moment came I'd feel like... more.  Like relief or something obvious.\n\nI do feel it.  I just also feel kind of strange.  Like I'm not sure what I go back to being now.\n\nI'm good.  I promise.  Go back to cheering, you've earned it.",
+      "response_pred": "Hey.  Thanks."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Yeah.  Yeah you can definitely follow.\n\nI'm going.  I already said I would."
+    }
+  ]
+}

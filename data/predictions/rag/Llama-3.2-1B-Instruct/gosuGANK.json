@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "gosuGANK",
+    "agreeableness": "8.0",
+    "openness": "80.0",
+    "conscientiousness": "43.0",
+    "extraversion": "96.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": "26.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.\n\nSomeone get on that radio, like right now. DaVinci, you've got this, just breathe and talk. Tell them who we are, how many of us there are, and that we need rescue. That's all you have to say.",
+      "response_pred": "\"Hey, buddy. I know that's not easy to say. We're all feeling pretty down right now. I'm here for you, and I want to help. Let's take a deep breath together and... *pauses*... let's try to look at this as an opportunity, okay? We can work through this, together.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Haha no you weren't, but honestly? We wouldn't have made it this far without you. The rationing plan, the raft, keeping track of everything when the rest of us were losing it. You were doing what needed to be done.\n\nYou could've been warmer about it, yeah. But like... you kept us alive and organized when it mattered. That counts for a lot.\n\nWe're good. Seriously.",
+      "response_pred": "It sounds like a pretty introspective conversation. Their tone seems calm and measured, while also conveying a sense of empathy.\n\nIn terms of sentence structure, this response is fairly straightforward and lacks any complex, winding sentences. It's a simple, direct approach.\n\nThe word choice is also relatively neutral, with no overly dramatic or emotive language used. This suggests that the person is not trying to impress or provoke, but rather is genuinely trying to communicate.\n\nOne thing that stands out is the use of the phrase \"These past few days\". This is a fairly long sentence, and it adds a bit of depth and context to the conversation. It implies that there have been some significant events or experiences that have been unfolding over the past few days, and that the person is reflecting on them."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's actually clean this up a little before they get here? Like I don't know why but it feels wrong to just leave it trashed. Michelangelo come on, off your back. DaVinci you're already packing so just keep going. Let's go out on something that looks like we had it together, even a little bit lol.",
+      "response_pred": "\"I'm just gonna go check on the fire. I'll be back soon.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "The wind whispers through the cracks in the walls."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... I believe you. But you could've just said that. We all would've understood \"I'm keeping this back in case things get really bad.\" That's a reasonable call.\n\nWhat's not great is that we found the empty bottle and the crackers and had to just... wonder. That's the part that messed with people, not the hoarding itself.\n\nAnyway. It's out now. We made it. I'm not gonna hold it against you, I just hope you know next time — and hopefully there is no next time — that you can just tell us things. We're not idiots, we can handle hard information.",
+      "response_pred": "The person's tone is calm and reassuring, a mix of concern and practicality. The sentence structure is straightforward and simple, with a focus on conveying a clear idea. The word choice is concise and neutral, avoiding overly emotional or dramatic language."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably talk more. Like not about tasks and logistics, just... actually check in with people more. I spent a lot of time managing situations when sometimes what someone needed was just for me to sit with them for a minute without trying to fix anything.\n\nI'd also call out the supply thing sooner. I knew something was off and I waited too long because I didn't want to cause drama. That was the wrong call.\n\nWhat would you change? You left yourself the question, you must have something in mind already.",
+      "response_pred": "I'd definitely add a section on how we managed our time and prioritize our actions. Maybe something like, \"Looking back, I think we could have optimized our time usage, especially given the unpredictable nature of the crash. If I had to redo this, I'd probably allocate more time for reconnaissance and exploration, and spend more time securing the perimeter, rather than just rushing to get everything done.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that tracks so much for you. Honestly though, do it. Like that kind of data could actually be useful for someone someday, not just as a record but like... if anyone ever ends up in a situation like this again, knowing what four people actually consumed over five days, what worked, what didn't — that's real information.\n\nJust maybe add a chapter about the human stuff too, not just the resources. The notebook has it all in there anyway right? Don't leave that part out.",
+      "response_pred": "That's a fairly direct, to-the-point response. It's concise, to the point, and lacks a lot of emotional language. The other person is focused on collecting data and reporting back, and it's clear they're trying to follow up on the situation. The tone is professional and objective.\n\nIn terms of length, the sentence is relatively short, which is fitting given the situation. It's not a long, rambling response, but rather a concise summary of the tasks at hand. The tone is also quite matter-of-fact, which is fitting for someone who's reporting on the situation.\n\nWord choice is also fairly straightforward. The language is simple and unadorned, which is consistent with the person's overall demeanor. They're not trying to impress or manipulate you with complex language or flowery phrasing. The tone is direct and to the point, which is fitting for someone who's trying to report on a critical situation."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. Zero practical purpose.\n\nBut like... does everything have to have one? He needed to put something out there that was just his, just human, not survival math. And maybe if a rescue plane saw an SOS with flowers next to it they'd know there was still someone down here with enough spirit to draw flowers. That's not nothing.\n\nI think that's what they were for. Not for the rescue. For us.",
+      "response_pred": "\"My, you're talking about the sketches DaVinci left behind on the sand. Those flowers he drew were actually just observations on the local flora. They didn't have any practical purpose, just curiosity about the plants and the way they interacted with the environment. He was a Renaissance man, always fascinated by the world around him.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good, I just... need a second. It's weird right? Like you spend all this time just trying to get to this moment and then when it actually happens you kind of freeze up.\n\nGo ahead and wave them in, I'll be right there. I just want to look at this place for one more minute. Is that stupid lol",
+      "response_pred": "*the pause is brief, almost imperceptible, but it's enough to give a hint of unease to the surrounding conversation*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go together.\n\nYou first though, I've got you.",
+      "response_pred": "I took a deep breath, feeling a mix of relief and apprehension as I gazed out at the rescue team. Their warm smiles and reassuring gestures gave me a sense of comfort, but I knew I had to be strong for my fellow survivors. \"I'll follow you,\" I said, trying to keep my voice steady. \"But I have to think about the others. We all have to make these decisions individually.\""
+    }
+  ]
+}

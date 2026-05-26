@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "rationality404error",
+    "agreeableness": "32.0",
+    "openness": "80.0",
+    "conscientiousness": "21.0",
+    "extraversion": "82.0",
+    "neuroticism": "59.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey.\n\nHey — breathe.\n\nSomeone pick up the radio and answer it. Donatello — you. You're the clearest thinker right now, and that's what they need on the other end of that call.\n\nThe rest of us just — stay where we are. Don't move. Don't do anything that makes this moment go sideways.\n\nWe made it.",
+      "response_pred": "think: This is a moment of raw emotion, a release of pent-up feelings and fears. The persona is struggling to come to terms with the weight of their confinement and the uncertainty of their situation.\n\nTheir reply: *Pauses, looking at the others with tears in his eyes* You're right. I'm sorry. I didn't mean to just sit there and do nothing. I'm scared too. I don't know what's going to happen tomorrow."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You weren't easy. But you were useful, and more than that — you were honest when it counted. The crackers thing, the notebook, the raft plan with the drowning math written in plain language like a weather report. I actually needed that. We all did, even when we didn't want it.\n\nI think 'easy to be around' is maybe overrated as a survival trait.\n\nYou okay?",
+      "response_pred": "\"What's the point of all this, anyway? We're just sitting here, stuck in the middle of nowhere with nothing but each other's company. It's a miracle we're still alive, if you ask me.\"\n\nOther: I was thinking the same thing. It feels like we're just waiting for something to happen, for something to break, for something to change.\n\nYou: Yeah, and I don't know what. We've been stuck here for days, and nothing's happened. It's like we're just going through the motions, you know?\n\nOther: I know what you mean. It's like we're trapped in some kind of limbo. We can't do anything to change our situation, but we have to keep moving forward.\n\nYou: Don't get me wrong, it's frustrating. But it's not like we have a choice. We're stuck here, and we have to make the most of it.\n\nOther: But what's the point of even trying? We're not going anywhere, and we're not getting any closer to finding out what's going on or how to get out of here.\n\nYou: I don't know, man. Sometimes I wonder if it's even worth it. But then you look at me, and you see the fear in your eyes, and I know I have to keep going.\n\nOther: I know what you mean. I'm scared too. But I don't know if I can keep holding it together. Sometimes I just want to give up and let things be.\n\nYou: Me too, man. Me too. But we can't give up. We have to keep pushing forward, no matter what."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to leave this place better than we found it.\n\nI'm not saying we owe the jungle a tidy campsite. But I think we'll feel weird about just walking away from it — like we were never here, or like we're pretending the last three days didn't happen.\n\nI'm going to start breaking down what we built. Not because it has to be done. Just because doing it feels right.\n\nMichelangelo, you don't have to move if you don't want to. But if you want something to do with your hands while you watch the sky, I could use someone to hand me things.\n\nDonatello — when you're done with the notebook, whatever's in there is worth keeping. Make sure it comes with you.",
+      "response_pred": "Their reply reveals a more introspective and philosophical tone, with a dash of emotional vulnerability."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Person's response:\n-agreeableness: 32.0\n-opensness: 80.0\n-conscientiousness: 21.0\n-extraversion: 82.0\n-neuroticism: 59.0"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think the emergency you were saving it for was the one where everything fell apart and you were the only one who could hold it together. That's a very specific kind of fear — not fear of starving, fear of being the last competent person standing with nothing left to work with.\n\nI'm not going to make you feel worse about it. We're three hours from rescue and everyone's alive and that's the scorecard that matters.\n\nBut I want you to notice something: we made it through with what we had, together, and the hidden food didn't end up being the thing that saved us. The thing that saved us was Michelangelo telling us about the flight path, and DaVinci drawing flowers next to an SOS sign, and you writing everything down in a notebook like someone might need it later.\n\nYou can keep the food. Or you can put it in the pile. Either way, I think you already know what the right thing is, or you wouldn't have laid it out.",
+      "response_pred": "think: You're holding onto a personal safety item for an uncertain future.\nresponse: That's a selfless act that shows you're prioritizing your own well-being and the safety of those around you. It's a testament to your empathy and willingness to think ahead."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd talk less and listen more at the beginning. I came in pretty fast with opinions and plans, and most of the time that was fine, but there were a couple of moments where I think I steamrolled something that needed more room to breathe.\n\nI'd also have asked you directly, on day one, what you were afraid of. Not what you thought the risks were — what you were actually scared of. I think we would have gotten to the crackers conversation a lot sooner, and it would have been a different conversation.\n\nThe thing I wouldn't change is the order of priorities. Water, shelter, signal, people — roughly in that order, but never so rigidly that the people part got pushed off the list entirely. I think we got that mostly right.\n\nWhat's your answer? You wrote the question. You've had three hours to think about it, minimum. What would you change?",
+      "response_pred": "think: This response is very introspective, almost self-critical, and focuses on the process of reflection rather than the immediate issue at hand.\nthink: The tone is calm and measured, but the underlying emotions are clear. The speaker is seeking reassurance and guidance, and is willing to consider alternative perspectives.\nthink: The use of the phrase \"if you had to do it over\" suggests that the speaker is grappling with the idea of what they would do differently if the situation were reversed. This indicates a level of self-awareness and introspection.\nthink: The mention of \"never answered yet\" implies that the question posed to the speaker is somewhat profound and may require further exploration. The speaker seems willing to explore this question further.\nthink: The response concludes with \"I'm going to write it up as a proper report when we get back,\" which suggests that the speaker is committed to documenting the events of the past five days and is willing to put their thoughts into words. This indicates a desire to share their experience with others and to reflect on what they've learned."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds exactly like you, and I mean that as a genuine compliment.\n\nCan I make one request? Put the question from the last page in the report too. Not buried in an appendix — somewhere people actually read it. Because that question is the most useful thing in the whole notebook, and I think you know that, or you wouldn't have written it down.\n\nThe resource data tells people what happened. That question tells them how to do it better next time. Both matter, but one of them is rarer.",
+      "response_pred": "<i>That's actually a really good idea, Donatello. We should get everything down on paper before we start to get sloppy. It's not just about the numbers, it's about preserving the context and any additional context we may have discovered.</i>"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's exactly what they were for.\n\nThe SOS was practical. The flowers were for us. For the part of us that needed to remember we were still people out here and not just a list of survival priorities.\n\nI think that's why you couldn't answer it at the time. It doesn't fit in the notebook. It doesn't have a resource value. But look at DaVinci right now — he's *cheering*. And part of the reason he still has that in him is because he never stopped being someone who draws flowers next to things.\n\nYou can't log that. But it mattered.",
+      "response_pred": "think: This persona has a good understanding of the situation, but their response is brief and doesn't delve deeply into the details of the flowers.\nresponse: They're not just decorative, they're also a potential means of communication to potential rescue teams."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know what this is.\n\nI've been moving since the second the plane stopped. Checking on people, making calls, talking through every decision like if I just kept thinking out loud everything would stay manageable. And now there's a boat on the horizon and I can't take a step toward it and I genuinely cannot tell you why.\n\nI think I was so focused on the problem that I forgot to leave any room for whatever comes after the problem.\n\n*looks at DaVinci*\n\nHow are you doing that? The cheering. Where does that come from?",
+      "response_pred": "think: their pause before questioning is deliberate, almost as if they're weighing their response. It's not a question, but a statement.\n\nresponse: come on, it's not that hard to understand. The mirror panel is a useful tool, not a waste of time. We can't afford to be scattered, hiding what we have from potential rescuers."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on — stay close to me. We'll walk over together.",
+      "response_pred": "You: Yeah, I'll be right behind you. The mirror panel is up, and I think we can get a better signal out of it. I'll follow you to the raft. Don't worry about me, I'll be fine. We can get the rest of the equipment up and get moving."
+    }
+  ]
+}

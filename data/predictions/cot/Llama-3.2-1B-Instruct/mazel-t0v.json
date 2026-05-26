@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "big five, 85.0. \n\nthink: this person is clearly upset and emotional, with a sense of desperation and fear hanging over them. the fact that he can't even muster a coherent sentence suggests that he might be experiencing some kind of breakdown.\n\nresponse: \"I know what you mean. You just have to trust that the things you've already done — the people you've already affected, those don't disappear just because you do. You left something with your family when you gave them that flight number. That might be what finds us.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "You think I'm easy to be around? You're the one who's been hiding behind your masks, trying to avoid the truth. You think you're strong, but you're just a fragile little package, wrapped in a thin layer of self-preservation. You're not sure how to deal with real emotions, and that's why you're not telling me the truth. You're not sure how to be honest with yourself, and that's why you're not sure how to be honest with me."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "\"Hey, Michelangelo? You okay? You looked like you were going to collapse back there when you said something. Donatello, I had to pick up some more materials from the wreckage and I'm not sure I got everything. I saw you putting a pack of crackers into your bag, but I'm not sure how it's going to look. We could be taking a day or two off, waiting for rescue, and I'm getting worried.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "You're telling me about your subconscious. Dreams, you know? They're a way our minds can process stuff, but sometimes they can just be...intriguing, aren't they? What made you think about home? We've been out here for days, and I've been thinking about it too. It's not just about getting rescued, it's about something more."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "think: This persona's typical response length (terse vs verbose?)\nTheir tone is calm, collected, and somewhat detached, which is consistent with a person who is trying to hold things together and prioritize the group's safety over their personal anxieties.\n\nTheir response is also quite direct and straightforward, which is a characteristic of their personality. They're not trying to sugarcoat or avoid the issue, but rather state the obvious and get on with the task at hand.\n\nTheir use of simple, concise language (\"I kept it for emergencies\") also suggests a person who values practicality and simplicity, which is consistent with their background as an engineer and their focus on finding solutions to the group's problems.\n\nresponse: I don't know, I just thought it would be good to have something to remember the flight number for, and it's not like we're going anywhere anytime soon."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "think: Their response is characterized by a sense of examination and analysis of the past five days, reflecting their meticulous approach to documenting their experiences and making sense of the events that unfolded.\n\nTheir tone is introspective and slightly self-critical, as they acknowledge their own limitations (\"I don't think it goes away\") and the potential risks of their decision (\"You just have to trust that the things you've already done...\"). This self-awareness and willingness to reflect on their own mistakes is a hallmark of their Big Five personality.\n\nTheir sentence structure is plain and direct, with a focus on conveying their thoughts and feelings in a straightforward manner. The use of the phrase \"I'm going to write it up as a proper report\" suggests a sense of preparation and organization, which is consistent with their conscientiousness score.\n\nTheir final sentence, \"I'll do it now,\" implies a sense of pragmatism and decisiveness, which is reflected in their extraversion score. While they may be considering the potential risks of their decision, they also seem to be taking control of the situation and moving forward. Overall, their response is thoughtful, reflective, and matter-of-fact, characteristic of their personality."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "\"Report? You're going to spend five days in the wilderness, gathering data, and then we're going to review it? Can't we just focus on survival for a while? We're not starving or anything. We've got food, water, shelter. What's the point of compiling this report?\"\n\nOther: The report will help us establish the basis for the rescue operation. We'll need to know how far we are from land, what the weather's going to be like, and any other relevant information that could aid in our rescue efforts.\n\nYou: \"So, you're planning on gathering all this data in one spot, like a survival manual or something? You're going to write it all out in triplicate? 'This is the report on the five-day survival period, from day one to day five. It includes the location, weather, and any other relevant information.' Give me a break.\"\n\nOther: It's better than nothing. We can't just sit around and wait for the rescue team to show up. We need to be prepared.\n\nYou: \"Preparing for a rescue? You're not exactly a trained pilot or rescue expert. What's your experience with air travel? You're going to be lucky if we can get a rescue team to show up in time.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "Personality Analysis:\nThe response is a mix of curiosity and slight reluctance, indicating a person who is open and willing to share their thoughts but may be hesitant to discuss personal matters. The tone is measured, with a hint of defensiveness, suggesting a person who values their privacy. The use of the phrase \"I'm scared of just... disappearing without leaving anything behind\" implies a strong emotional investment in their personal life, which is a common trait in individuals with a Type II personality (high neuroticism).\n\nThe specific response to the utterance is a paraphrase of Michelangelo's earlier statement about DaVinci drawing flowers on the beach. The question is a natural follow-up, and the response acknowledges the flowers as a source of comfort and connection for DaVinci. The fact that the person is feeling a sense of loss and disconnection after the crash suggests that they may be more emotionally invested in their personal life than they initially let on.\n\nIn terms of the person's typical response length, this response is quite brief, with a focus on conveying the idea rather than elaborating. This is consistent with the persona's tendency to be direct and to-the-point."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "Your one-paragraph analysis:\n1. This persona's typical response length: Short and direct, but not too short. They prefer to respond quickly and to the point.\n2. Their tone: Somewhat dismissive, but not outright. They're trying to reassure him, but there's a hint of sadness and concern beneath the surface.\n3. What they would specifically say to this utterance: They would likely tell him to focus on his own needs for now, to take care of himself before worrying about others. They might also remind him of the bigger picture and the importance of holding on to their supplies, even if it means delaying the raft's construction."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Person: That's what the others are saying. I'm going. Just make sure you're close to the fire. We don't want anyone getting caught in the wind."
+    }
+  ]
+}

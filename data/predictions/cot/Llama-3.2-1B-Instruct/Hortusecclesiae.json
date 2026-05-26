@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "think: Their response comes across as somewhat ambiguous and non-verbal, with the person not explicitly stating his emotions, but rather conveying them through gestures and expressions.\n\nresponse: \"Tell me I'm not crazy. Tell me I'm not alone.\""
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "\"Alright, I'll check the signal equipment. It's probably just a maintenance issue, but better to be safe. I'll start looking for any signs of damage or debris. See if I can find anything that might give us a clue about where the plane went. Don't worry, I'll keep it quiet for now. You just focus on patching up the camp and getting some rest. I'll take care of this.\""
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "Think: The persona's response is brief, direct, and assertive, typical of someone who values directness and clarity. Their tone is calm and steady, with a hint of authority, as if they're not afraid to make a statement, even if it's a simple one. The sentence structure is simple and straightforward, with short, punchy phrases that convey their message effectively.\n\nTheir reply:"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "think: their response is brief and doesn't display much emotional expression; a pause, a slight pause, a nod or a smile would all fit in their calm demeanor.\nresponse: I know I haven't been easy to be around."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "\"Okay, who's got the water right now?\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "-think: their typical response length is brief and concise, with a mix of basic communication and cautious consideration of potential consequences - they're talking about a personal, emotional topic and don't want to linger or distract from the main task - their tone is gentle and concerned, hinting at a deeper emotional vulnerability - they're not brusque or dismissive, but rather thoughtful and empathetic - they're trying to connect on a personal level, despite the fact that they're in a survival situation - their language is straightforward, but also infused with a sense of quiet introspection and self-awareness."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "You're right. Just keep it in case something happens. We don't know how long we'll be stuck down here."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "think: This persona's response is quite lengthy, with a lot of detail and organization. Most responses are brief and to the point, but this one seems to be a bit more elaborate.\n\nresponse: I've been thinking about that a lot, since we all agreed that it's not worth debating it right now. I'd say I'd change the obsession with the SOS signal into something more practical. I'd focus more on the resources we have available to us, like food, water, and shelter, and how to use them more efficiently. We can't just sit around twiddling our thumbs, waiting for rescue. I'd also make sure to document everything we do each day, like tracking the water supply, repairing equipment, and finding ways to improve our situation. That way, when we do get rescued, we can look back on our efforts and say we did everything we could to survive."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Their reply is concise, to the point, and gets straight to the point, just like them. They're not going to dwell on their emotions, but rather focus on the task at hand. The sentence structure is simple and direct, which suits their personality."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "think: Their use in a survival situation is likely to be minimal, but their beauty could serve as a morale booster, a distraction from anxiety or boredom.\n\nresponse: DaVinci's flowers were probably used for decorative purposes, such as adding color to the campsite or creating a pleasant environment."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "think: The persona's response is calm and measured, but also somewhat stilted and awkward, reflecting their introverted nature and difficulty expressing themselves.\n\nresponse: *The silence stretches out, punctuated only by the sound of his own ragged breathing.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "My heart races as I quickly scan the area to ensure our fellow travelers are still alive. I give a reassuring smile and nod towards the signal pile, trying to convey encouragement. I glance at the makeshift raft, still half-buried in the mud, and then back at the wavers, who have now gathered around, waving and shouting. I take a deep breath, mentally preparing myself for what's to come. My eyes lock onto DaVinci's, and I give him a nod, as if to say, \"You're coming with me.\" I turn back to the wavers, whispering, \"Don't worry, we'll stay together. We'll make it out of here.\""
+    }
+  ]
+}

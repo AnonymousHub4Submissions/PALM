@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "MDMA_Throw_Away",
+    "agreeableness": "54.0",
+    "openness": "92.0",
+    "conscientiousness": "41.0",
+    "extraversion": "57.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Right now. Tell them our location, number of survivors, and that we have injured. Go.",
+      "response_pred": "You, taking a deep breath: \"What's on your mind, friend? You've been quiet for a while now. Is there something you need to let out?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. The water rationing, the raft plan, the notebook — all of it. I'm not going to pretend the crackers and the bottle didn't happen, but I'm also not going to pretend the rest of it didn't either.\n\nWe're square. Let's go home.",
+      "response_pred": "Hey, it's okay. I know this has been a lot and I appreciate you being honest about how you're feeling. We're all carrying a heavy load right now, and it's important to acknowledge that. Let's take a moment and regroup. I think we're all in this together, and that means supporting each other through the hard times as well as the good. So, take a deep breath, and when you're ready, let's talk about what's next. I'm here for you, and I believe in our ability to make it through this together. Let's focus on the task at hand and find our way forward."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright. Three hours. That's not nothing but it's also not zero.\n\nDonatello — pull anything out of that notebook you want to keep. The rest of it stays here with the camp, it's not our problem anymore.\n\nDaVinci, slow down on the packing. We're not running for a gate. Take a breath.\n\nMichelangelo — you good down there?",
+      "response_pred": "Hey, let's regroup. We've got a few things to address before we hunker down for the night.\n\nFirst, I want to talk about the signal situation. I'll take a look at the mirror panel situation, but before that, I want to discuss the SOS. It's still up, right? We need to make sure it's visible and functioning.\n\nSecond, let's address the food situation. I've noticed a few items have been missing, and I want to make sure we're all on the same page with rationing. We need to be mindful of our resources, but we also can't afford to lose energy.\n\nLastly, I want to reiterate the importance of keeping our camp secure. With the potential of planes passing overhead, we need to make ourselves as visible as possible while also being cautious.\n\nLet's get everyone together and make sure we're all on the same page. We need to work together if we're going to make it through this."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good dream or bad one?",
+      "response_pred": "I know the feeling. It's not really about the house or the town, is it? It's about the people and the life we left behind. But right now, we need to focus on the here and now. What's next on our list?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think part of you knows that \"emergency\" kept moving further down the timeline the longer we stayed here. That's just how it works — the thing we're saving for never quite arrives.\n\nYou don't have to justify it to me. You already put it on the ground. That's the part that matters.",
+      "response_pred": "You know, I've been thinking about what you said earlier. About the fear of disappearing without leaving anything behind. It's a valid concern, but let me ask you this — what if the opposite is true? What if the reason we're here is precisely because we mattered enough to someone to file that report? What if our survival, our continued existence, is the most powerful testament we can leave behind? It might not be a grand monument or a work of art, but it's something. It's real. It's tangible. And it's ours to protect. So let's focus on that. Let's make sure we're here for each other, and for the people who care enough to look for us. That's our legacy, right there. Now, I'm going to check the signal equipment. Anything specific you need me to check or are we just confirming it's still intact and positioned right?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have confronted the bottle situation the same day it happened instead of letting it sit. That was a small corrosion and I let it go longer than I should have.\n\nEverything else — the decisions, the order we made them in, who I leaned on and when — I can live with all of it.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "I'd say the priority should have been clearer from the start. We spent valuable time and resources on things that, in hindsight, weren't as critical as we thought. If we had focused on the essentials — water, shelter, signal — we could have conserved our energy and supplies more effectively.\n\nBut it's easy to second-guess decisions in hindsight. What matters now is that we learn from our experiences and adapt to the situation as it unfolds. We've got to stay focused on the tasks at hand and make the most of the resources we have. That's how we increase our chances of survival."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely. If that data ends up in the hands of anyone who designs survival protocols or trains rescue teams, those five days meant something beyond just the four of us getting out.\n\nSend me a copy when it's done.",
+      "response_pred": "I'm not going to argue over who gets the glory here, but let's not change the plan mid-stream without a reason. What shifted? We've got a lot of work ahead of us, so let's focus on the tasks at hand. I'll get back to the signal equipment. Anything specific you need me to check or are we just confirming it's still intact and positioned right?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was exactly the point.\n\nYou can't math your way into keeping people functional. Those flowers told Michelangelo that someone still thought beauty was worth five minutes of effort. That's not inefficiency — that's load-bearing work that doesn't show up in a notebook.\n\nPut them in the report.",
+      "response_pred": "They're not just for practical purposes. They're a symbol of hope, a reminder that we're not alone, and a message to anyone who might find us that we're still here, fighting. It keeps our spirits up and that's just as important as food or shelter in a situation like this. So, don't underestimate their value. Keep drawing them."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\n*looks at the beach one more time*\n\nIt's strange — I was ready to leave every single day we were here and now that it's actually happening I don't quite know what to do with my feet.\n\nThanks for waiting.",
+      "response_pred": "Hey. What's going on? You look a little off. Is everything alright?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I need to check something first. Let me take a look at our supplies and make sure we're not leaving anything behind. We've been through a lot and we can't afford to miss anything. I'll meet you at the extraction point once I've double-checked everything. Donatello, you keep an eye on the camp and make sure everything's secure. Let's move quickly, but let's also make sure we're not leaving anything important behind."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "Get a hold of yourself. We don't have time for this. Let's sort the supplies and get moving. We need to conserve water, patch the weak spots in camp, and keep the signal going. Two days, that's all we need. Let's focus and get to work."
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "Alright, I'll do it. Hand me the radio."
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "Right. I'll gather the group and give them the coordinates. We need to keep the signal going and conserve resources until help arrives. Let's stay focused and keep moving."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "It's alright. Focus on what's important. Water, shelter, signal. Priorities. Let's just get on with it."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "Alright, let's get a move on. Gather the useful supplies and let's organize our priorities. Water first, then shelter, and a signal if possible. Check the food storage and make sure it's secure. I'll take the watch."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "Good, at least you're sleeping. Get some rest, we'll talk about it later."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "Alright, hand it over. I'll see if it's useful."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "Well, I'd pay more attention to the signal equipment and less to the flowers. Prioritizing visibility and rescue is key. I'd also make sure everyone knows where the resources are and how to access them in case of emergencies. And I'd try to foster better communication among the group, so we can all work together more effectively and avoid misunderstandings. But overall, I think we've done alright given the circumstances."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Good. That'll be useful for planning. Just make sure you include the water sources, shelter options, and potential signal points. And prioritize the information — water's the priority."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "They're not for a practical purpose. It's just a way to pass the time, you know, like doodling. It helps to take your mind off things."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "Alright, let's get going. Don't dawdle."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. Let's move, but make sure we secure the camp first. We can't just leave it."
+    }
+  ]
+}

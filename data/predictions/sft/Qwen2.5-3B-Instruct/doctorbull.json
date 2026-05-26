@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "doctorbull",
+    "agreeableness": "98.0",
+    "openness": "99.0",
+    "conscientiousness": "5.0",
+    "extraversion": "4.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "doctorbull__Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move — but nothing comes out.*",
+      "response_truth": "Hey. We're okay. We're okay.",
+      "response_pred": "*Stares at him, confused.*"
+    },
+    {
+      "utterance": "These past few days — I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, and those two things are related. The same qualities that made you difficult to be around are the reason we're all still here to be bothered by it. I think you know that.\n\nFor what it's worth - the notebook, the rationing plan, the raft design, the water source. That was all you. We wouldn't have made it to a radio to receive that signal without the work you put in. I don't think that should go unsaid.",
+      "response_pred": "I've been trying to be a bit more conscientious around you. I've looked at everything that's going on across the world, and I realize I've been a bit insensitive. I apologize for that. I don't want to be the easy out, but I'm not doing so well."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes the lead. The silence settles over camp.*",
+      "response_truth": "Three hours is a long time to just wait. I'm going to start breaking down what we built here - not because it matters practically, but because it feels wrong to just leave it. Anyone want to help or is everyone doing what they need to do right now?",
+      "response_pred": "*Startled by the silence, I look around.* Oh, *I say*, did you guys hear me say that? *I turn my attention to the three of them.* I could really use some company. *I walk over to them and sit down next to them, maintaining eye contact. My voice is soft, like I'm leading them out of the silence.* Can we do something? Like a game? Or a song? Or maybe we could do something with the fire? *I know they'll cave. I know they'll take the lead. There's no way they can resist.*\n\n*They look at each other. They start to fidget. Maybe they don't know what to do.*\n\n*Maybe I should lead the charge?*\n\n*Maybe. But I don't really want to. I don't want to be the one to make them do something, even if I'm the one doing the doing.*\n\n*Maybe if I let them know I'm not going to push them too hard, they'll be more likely to do something.*\n\n*Maybe. I'm not sure.*\n\n*Maybe. I don't know.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "I'm not surprised. We both know how important home is to us."
+    },
+    {
+      "utterance": "I kept it in case of an emergency.",
+      "response_truth": "I believe you. And I think part of you knew that wasn't the whole reason, which is probably why it's on the ground right now.\n\nWe don't have to make more of it than it is. You made a call that didn't sit right with you and you're correcting it before we leave. That's not nothing. That's actually harder than not taking it in the first place.\n\nWhat do you want to do with it?",
+      "response_pred": "He sat back, folding his arms across his chest. \"You kept it?\" He was trying to sound casual. \"What for, how long?\"\n\nI think about the idea of keeping something for an emergency. More specifically, keeping something in case it could be useful to someone else. Like the useful scrap and wire I have. Maybe that's what you want to do with the things you have. Keep them in case you need them. Keep them in case someone else might need them. It's a good idea, I suppose. But who, exactly?"
+    },
+    {
+      "utterance": "I've logged every day — resources, decisions, all of it. Plan to turn it into a proper report once we're back. Last page I left a question I haven't answered myself: if you could do this over, what would you change?",
+      "response_truth": "I'd have talked to you sooner. Not about the supplies or the plans - you had all of that. I mean actually talked to you. I think I treated you like a system to work with instead of a person to know, and that was a missed opportunity that I'm only seeing clearly now that we're about to leave.\n\nWhat would you change?",
+      "response_pred": "I'd probably hire someone else, or at least have someone else review the thing. I'd probably tell you to get a second opinion. But I'm not sure I would change anything. Except for the part where you decided to live in the woods. That was a bad idea. But I'm glad it happened. I don't know why. I think what really happened is I wanted to do something different, and so did you, and we decided to do it together."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to write up a report on the resource usage data from these five days.",
+      "response_truth": "That sounds right for you. I hope you actually send it somewhere useful - emergency preparedness people, aviation safety, whoever would actually read it. That data has value beyond the two of us knowing it existed.\n\nThough I'd say - maybe write the other thing first. The last page question. You already know the answer, you just told me. That one's worth getting down while it's still close.",
+      "response_pred": "I'm still a little tired after all that, but I will be able to finish it in a bit. I'll want to explain what we found and suggest what we need to do about it, but I'll have to go through the data first. Just make sure everything is set for me to do that."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach... I never really understood it. What was the point of that, practically speaking?",
+      "response_truth": "It wasn't practical. That was the point.\n\nThere's a version of survival that's just keeping the body alive, and you did that better than any of us. But there's another version where you also remember that you're a person while you're doing it, and the flowers were that. DaVinci needed to do something that wasn't purely instrumental, something that was just... his. And it cost us nothing, and it made the SOS feel like it was made by people worth rescuing rather than just coordinates on a map.\n\nI think you understood it more than you're giving yourself credit for. You just didn't have a category for it in the notebook.",
+      "response_pred": "Those flowers weren't just flowers. DaVinci was reinterpreting the natural world through geometry and mathematics. The curve of a flower, the symmetry of a leaf, all of it encoded, simplified, and measured. He saw patterns in nature that others didn't. He wanted to capture the essence of the world, not just its surface. And he did it on the beach because that's where he had all the tools he needed for his art. Tools like the wind, the sand, and the sea. He was a man of the earth."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I didn't expect it to feel like this. I thought relief would be simple. It's not simple.",
+      "response_pred": "I… I'm fine. Just thinking."
+    },
+    {
+      "utterance": "Rescue is here... they're waving at us. Are you going over? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "It feels like I've been watching this for hours. I'm not going down."
+    }
+  ]
+}

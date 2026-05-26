@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sharpes_Sword",
+    "agreeableness": "93.0",
+    "openness": "91.0",
+    "conscientiousness": "96.0",
+    "extraversion": "4.0",
+    "neuroticism": "21.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's actually it. Someone get on that radio right now.",
+      "response_pred": "*I fidget in my seat, trying to make eye contact, but avoiding direct stare, and speak softly* Are you okay? Do you need some water or something to drink? Maybe we should take a break for a minute?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The rationing, the scouting, the raft plan — that was all you. You're not easy to read but you got things done when it mattered. That counts for a lot out here.",
+      "response_pred": "That's an understatement. I've noticed you've been a bit withdrawn lately, which is completely understandable given everything that's been going on. If you'd like to talk about it, I'm here to listen and offer any support I can."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, we should probably not just leave all this here. Three hours is enough time to sort through what's worth keeping and leave the rest tidy. I don't know, feels weird to just abandon it like this after everything. Michelangelo, you good to help pack up the supplies? DaVinci, maybe start breaking down what we can of the shelter.",
+      "response_pred": "The quiet is almost palpable, like a mist rolling in. I suppose we've all gotten so used to the hustle and bustle of our daily lives that the stillness feels almost... awkward. I find myself fidgeting with a stick, breaking it apart and reassembling it in an attempt to distract myself from the silence."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "That's so sweet. I'm sure it felt really comforting. I've been thinking about my own childhood home lately, it's amazing how certain places can just transport us back to a different time. Do you think your dream was triggered by anything in particular, or was it just a random nostalgia thing?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But I think the emergency was always right now, every day out here. We all were the emergency. Anyway, it's done. We made it. Save some of it for the trip back if you want, or leave it — up to you.",
+      "response_pred": "I'm glad to hear that. You know I'm always happy to lend a helping hand or offer a listening ear, even when it's not a dire situation. Sometimes I think people underestimate the importance of having a friend to talk to, no matter how small the issue may seem."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the supply thing with you earlier instead of sitting on it. I kept thinking it would blow up and make things worse but it just festered instead and that wasn't good for anyone. Other than that I think we did alright. What about you — what are you going to write down for yourself?",
+      "response_pred": "I've been thinking about that a lot, actually. If I'm being completely honest, I think I might have overestimated our team's capacity for this project. We took on a few too many tasks, and it showed in the execution. If I had to do it over, I'd prioritize more and delegate tasks more effectively. Maybe we could have delegated some of the research to the interns, or even hired a freelancer to help with the data analysis. That would have given us more bandwidth to focus on the high-level strategy and get a better result in the end. What do you think?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks. Send me a copy when it's done, I'd actually read it. Might be useful for someone someday.",
+      "response_pred": "I was thinking we could do that together, make it a bit more collaborative and not just a copy-paste job. I've been going over the notes I took during our meetings, and I found some inconsistencies in the data from the third day. If we're going to make this report accurate, we should probably iron those out first."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, practically. But I think that was kind of the point. Not everything out here had to be practical. The flowers were just DaVinci being DaVinci, keeping himself human through all of it. Honestly looking back I think that mattered more than I gave it credit for at the time.",
+      "response_pred": "Those flowers are actually drawings of the foliage in the water I used to make a makeshift still. If you notice, the water here is crystal clear, but it's also very dense with plant life. You see, I was studying the behavior of water and its relationship with plants, and I wanted to see if I could create a still that would purify the water without burning it. The drawings were actually a way for me to record my observations and measurements. I was trying to determine the optimal angles and placement for the still, and the flowers were just a way for me to note the types of plants I was using. It might seem unrelated at first, but trust me, it's all part of my quest for knowledge and understanding of the natural world."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second. I don't know why I can't move. It's right there.",
+      "response_pred": "*pauses, looking slightly concerned* You okay? We were right in the middle of celebrating, I didn't think you'd just...stop. Everything's fine, the team won, we should be happy. *takes a step forward, eyes scanning your face*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yes, let's go. I have my first aid kit in the car, we should try to be cautious, but it's probably okay since the rescue team is here. I'll lead the way, just stay close and watch your step."
+    }
+  ]
+}

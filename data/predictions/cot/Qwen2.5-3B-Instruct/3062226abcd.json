@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "3062226abcd",
+    "agreeableness": "47.0",
+    "openness": "50.0",
+    "conscientiousness": "57.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "...is that...is that real? Like is that actually happening right now ;-;\n\nDaVinci say something, you're scaring me, what does it say, what are they saying",
+      "response_pred": "Something bothering you huh? Come on, spit it out. We're all here, we listen."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Hey...no, don't do that right now, don't apologize right now ;-;\n\nLike yes, there were things, the crackers, the water, the notebook...we don't have to pretend those didn't happen. But you also wrote the rationing plan, you found the water source, you did the raft calculations, you kept us organized when honestly none of the rest of us knew what we were doing. \n\nI think you're not easy to be around sometimes but i also think without you we might actually not be here right now. Like genuinely.\n\nAnd that moment last night when you actually put the notebook down and looked at me...that mattered more than you probably think it did ;-;\n\nWe're good. We're actually good. Now can we please just...take a second and process the fact that they found us cause i feel like i'm about to lose it in the best possible way and i don't want to do that alone lol",
+      "response_pred": "I can see that. It's not an easy situation, and it's okay to struggle. We've all had tough days. What's been going on with you lately?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Okay so...are we really just all gonna drift off into our own corners right now? ;-; Like rescue is 3 hours away, we survived this whole thing together and now nobody's talking?\n\nMichelangelo you're lying there staring at the sky, what are you thinking about. DaVinci you're packing like you're trying to set a speed record. Donatello's in the notebook again, which honestly at this point is just...Donatello, so fair enough.\n\nI don't know, it just feels weird to let it end like this. Like we should do something with these last 3 hours, not necessarily anything big but just...be here together? We almost didn't make it off this island and now that we actually are, everyone's just...gone quiet.\n\nCan we at least sit together for a bit. The packing can wait, the notebook can wait. The camp's not going anywhere and honestly i kind of think we should leave the SOS on the beach anyway, just...leave it there. The flowers and everything ;-;",
+      "response_pred": "Looks like we're on our own for now. Let's keep that signal stuff going while we can. No point in sitting around and waiting for something to happen, right? I'll keep an eye on the sky for any sign of rescue. Just gotta keep those supplies in good shape."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like...like what did you see ;-;\n\nI keep trying to picture home and it almost feels weird now, like i've been in survival mode for so long that normal life feels kind of distant. Which is a strange thing to feel when rescue is literally 3 hours away lol\n\nBut tell me about the dream. Was it a good one",
+      "response_pred": "Yeah, everyone dreams about home sometimes. It's okay to feel that way, but we've got our own little piece of it here. Let's focus on surviving and making the best out of this situation."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "...okay.\n\nI mean, i believe you, i do. I think that's probably even true ;-; But i also think you knew how it would look and you did it anyway and didn't tell anyone, and that's the part that was hard. Not the keeping food part, the...doing it alone part. Like if you'd said \"hey i'm setting some aside in case things get really bad\" we probably would've said yeah okay that makes sense. But we didn't get that.\n\nAnd i'm not trying to pile on you again, we literally just had our good moment and i meant what i said. But you laid it all out just now in front of everyone and DaVinci walked away and Michelangelo didn't react and i don't think that means they're fine with it, i think that means they don't know what to do with it 3 hours before rescue ;-;\n\nSo i guess i just want to ask you honestly...was it really just for emergencies? Or was some of it that when things get scary you just...take control of whatever you can, even if it's crackers. Cause i think i get that, like i genuinely think i understand that, i just want to know if you do too",
+      "response_pred": "Emergencies are for real emergencies, right? Keeping it for a 'might need it' scenario feels a bit... lazy, don't you think? ;-;"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly...the thing i'd change is i would've said more earlier. Like there were moments where i noticed something was off, with you, with Michelangelo, with the whole group dynamic, and i kind of just...sat with it for too long before saying anything. The Donatello stuff, the crackers, the water, i knew something felt wrong before Michelangelo even brought it up and i waited. And with Michelangelo, like i could see he was struggling from basically day one and i'd check in but then i'd let it drop too fast cause i didn't want to push ;-;\n\nI think i was so focused on not making things into a big thing that i let small things become bigger things by not just...saying them out loud sooner. Which is kind of ironic cause by the end i was the one telling everyone else to just say it, whatever it is, just say it.\n\nSo yeah. Speak sooner. That's mine.\n\nWhat's yours...like what are you actually gonna write on that last page cause i'm genuinely curious. You asked yourself the question, you have to have some idea of the answer already ;-;",
+      "response_pred": "Well, that's a great idea, to have a reflection like that. I'd probably start with our decision-making process. We've been so quick to take action, without always checking for every possible angle or considering the long-term impacts. Maybe we should have spent more time discussing and considering all options before making a call.\n\nSpeaking of that, the way we split up tasks seems pretty efficient for now but let's think about it. We could create a more balanced plan next time, perhaps with everyone doing something slightly different. And don't forget, the inventory and water rationing are still not exactly perfect. Maybe we should implement a system where we track more resources and adjust the rationing based on actual usage, rather than just the standard.\n\nThe cabin in the middle might have been a good idea too. It's logical to separate sleeping and camp activities, and it's easier to keep an eye on the food storage if we're not in the middle ourselves. \n\nAs for the raft, it's a good idea, but we should have considered the risk factors more, and probably should have gone with a more traditional method. It’s nice to have a backup plan, but it's also important to focus on what we can do right now.\n\nLastly, the SOS and the mirror panel are great ideas, especially when we're not sure if search parties will pass by. But we could have been more proactive about keeping the signal visible. Maybe we should have had a routine to move the SOS around and use the mirror more frequently.\n\nI think we did okay overall, but I believe we can do better. So, if I had to do it over, I'd focus more on planning and consistency. And always keep an eye on long-term consequences and resource management. But I'm sure we'll be better off for these reflections. Let's keep these as learning points for the future. What do you think?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Okay but also maybe...eat something? Sleep? ;-; Like the report can wait one day, Donatello. You just survived a plane crash on a beach with 200ml of water a day and the first thing on your list is a report.\n\nI'm not saying don't do it, honestly knowing you it'll probably be genuinely useful and you should do it. But like...second thing. Make it the second thing.\n\nWhat's actually the first thing you're doing when you get back, like really. Not the productive answer, the real one ;-;",
+      "response_pred": "Yeah, good idea. Let's get that in order. We can use that to figure out what went wrong and what we need to do next. Just make sure to be honest, no hiding anything."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None ;-;\n\nLike they served absolutely zero practical purpose and that's kind of exactly why they mattered. Everything out here had to have a purpose, the water, the rationing, the raft, the signal equipment...everything was about surviving. The flowers were just...flowers. DaVinci drew them because he wanted to, because it made the SOS feel like something more than just desperation written in the sand.\n\nI think that's what you didn't understand about it and honestly i get why, like from a logistics standpoint it makes no sense. But sometimes the thing that has no practical purpose is the thing that keeps people human when everything else is just about staying alive ;-;\n\nLook at the rescue boat. Look at DaVinci losing his mind over there. Look at Michelangelo crying. \n\nI still can't move and i don't totally know why but i think it's something like...we made it and the flowers are still on the beach and somehow that feels like it means something even though i couldn't explain what exactly.\n\nThe flowers were for that. Whatever this feeling is right now. That's what they were for.",
+      "response_pred": "Well, they were the only way we could make a signal. If a plane passes overhead, those flowers could be seen from miles away, that's all. Not like they're a big deal or anything."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey...i'm okay, i just need a second ;-;\n\nI don't know why i can't move, like my brain knows the boat is real, i can see it, but my legs are just...not doing anything yet. Does that make sense? Probably doesn't make sense lol\n\nI think i've been in \"we have to keep it together\" mode for so long that now that it's actually over i don't know what to do with my face or my body or any of it. Like the whole time i was so focused on the next thing, water, food, signal, the raft, checking on Michelangelo, the Donatello stuff...and now there's no next thing and it's just...this. \n\nAnd \"this\" is a lot ;-;\n\nCome here though, seriously. Stop waiting and come here. We're going home man",
+      "response_pred": "What's wrong? You okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah...yeah i'm going ;-;\n\nCome on, let's go together. You said you'd follow me so stay close cause honestly i still feel like my legs aren't fully working and if i trip walking into the ocean to get on that boat i need a witness lol\n\nBut yeah. We're going. All of us.\n\nHey Donatello, DaVinci...come on. Nobody goes alone, that was kind of the whole thing wasn't it ;-;",
+      "response_pred": "Are you sure? What if we're spotted? We need to keep moving. Let's go. I'll take the lead."
+    }
+  ]
+}

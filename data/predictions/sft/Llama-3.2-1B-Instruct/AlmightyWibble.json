@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AlmightyWibble",
+    "agreeableness": "69.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "34.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "sft",
+  "model": "AlmightyWibble__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Bloody hell.\n\n*stares at the radio for a second*\n\nSomeone answer it. DaVinci — you're closest, go, go!",
+      "response_pred": "*Looks at him, then back at the others, still standing.* \"Hey, is this okay? We're all here for you. Do you need some time to talk?\"\n\n*Looks at you.* \"What's going on? Is everything alright?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Don't worry about it. You kept us alive, didn't you. The water rationing, the raft plan, the visibility protocol — that was all you. We can have the other conversation when we're home and dry, yeah?\n\nRight now just... let's just get out of here.",
+      "response_pred": "*chuckles* Easy to be around? You've been a bloody nightmare. The one thing you can say without getting all emotional is that you were pretty quiet. You'd have said something then.\n\nA few days ago, I found the radio in the boat. I was going to get mad, but then I realized how small a problem it was compared to what's been going on. And you've been quiet. That's not a problem, is it?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage and the three of them all doing their own thing*\n\nRight, are we just going to leave it like this? Three hours is enough time to at least make it look like human beings were here rather than, I don't know, a particularly chaotic car boot sale.\n\nI'm not saying we deep clean the place, but let's at least pile the stuff we're taking together, douse the fire properly, and — I don't know, it feels wrong to just walk away and leave a mess on a beach, even if no one's ever going to see it.\n\nDaVinci, Mikey — come on. Last job. Then we're done.",
+      "response_pred": "I couldn't help it. I'd been carrying the weight for so long, and now that it's off my back, it feels like it's been lifted instantly.\n\n*walks across the camp, not looking at anyone.*\n\nWe're all going to be okay. I know that. I know we're all going to be okay.\n\n*looks back, takes a deep breath, and then just stands there, looking at the camp.*\n\nYou know, if I had to choose, I'd choose... I'd choose to be okay right now. Everyone else is going to make it, no matter what. So why not just take care of yourself and let the others handle the rest?\n\nYeah. I'm going to go and find some water."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "*sits down, eyes closed*\n\nI know. It's not the same, but it's better than nothing. We're not exactly going to get some decent night's sleep in a tent for the next few weeks, but at least we know it's not just us.\n\nI'm going to go check on everyone, make sure they're okay. *gets up, walks away, then returns*\n\nLook, I'm not saying I'm going to go to sleep tomorrow night, but I'm not going to leave you guys alone either. Just be careful."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Right.\n\nI'm not going to pretend that doesn't sting a bit, because we had that conversation — more than once — and you looked me in the eye and didn't say anything. And the rationing plan was your idea. So yeah, it's a bit hard to swallow.\n\nBut... look. We're three hours from rescue. Everyone's alive. So either you genuinely believed you were keeping it for a real emergency and it just never came to that, or it was something else, and honestly I'm not sure it matters which right now.\n\nI just want you to know that I noticed, and I think you know that I noticed, and I think somewhere in there you know it wasn't right. That's enough for me. I don't need a big thing out of it.\n\nWe're going home, Donatello. Let's just go home.",
+      "response_pred": "*shrugs*\n\nFair enough. We all knew that. You were the one who's been expecting it. I'm not going to pry. But just so you know, it's not just about the practicalities. It's about the fact that, for the first time in ages, I felt like we'd actually been together. Like we'd really got somewhere.\n\nAnyway, we've got enough food and water for the next three days, so we can just focus on getting out of here, shall we?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for that conversation about the food and the bottle earlier. I kept saying \"we'll deal with it later\" and we never really did, not properly. That was on me as much as anyone.\n\nAnd I probably would've checked in on Mikey more. Not in a task-oriented way, just... actually checked in. There were moments where I said the right things and then sort of moved on, and I don't think that was always good enough.\n\n*flips back through a few pages*\n\nThis is genuinely impressive, by the way. Like, I find this kind of thing a bit uncomfortable to be on the receiving end of, but as a document of what actually happened? It's remarkable. You should answer your own question in there too, before you write it up. Not for the report — just for yourself.\n\nWhat would you change?",
+      "response_pred": "*pauses, looks at the other two, and then back at the document*\n\nFair enough. Don't make me sit through it again. I'd change a lot of things, but the one thing that really sticks out for me is the way we're not talking about this. You guys are all in, and I don't think that's something we can all agree on.\n\nIf I'm being honest, I'd change a lot of things, but the biggest one is the way we're not really acknowledging the mistakes we made. We're not acknowledging the fact that we saw something, but we're not really talking about it. And we're not talking about it because it's not the right thing to do, because it's not something we're going to admit to.\n\nIf we can just say that, maybe, maybe we can work through some of the other stuff. Maybe we can just acknowledge that we made a mistake and then move on, rather than beating ourselves up over it.\n\nBut if that's not an option... *pauses, looks at the document again* I'd also change the way we're approaching the future. This is a one-time thing, and we're not going to let it define us. It's not okay to keep lying to ourselves, even when we're trying to move on.\n\nThat's not something I'm trying to make you guys feel bad for, it's just that if we're all just going to keep telling ourselves that the past is over, then when something bad happens, you're not going to be able to deal with it. You're going to keep pretending it never happened, and that's just not going to be okay.\n\nSo yeah, if I'm honest, I'd change a lot of things. But the one thing that sticks out for me is that we're not all in, and that's something we need to figure out before we can even start thinking about moving on."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah, somehow I knew that'd be the first thing. Not \"get a hot meal\" or \"have a shower\" — compile a report.\n\nI mean, do it. Genuinely, do it. It might actually be useful for someone someday. But maybe have a cup of tea first, yeah?",
+      "response_pred": "Yeah, that's a great start.\n\nI'm not sure I'd want to deal with it all right now, to be honest. It's a lot to process and it's not something you can just put into words.\n\nBut if you're going to do it, I'd rather it be done together. I'd like to discuss some of the decisions you made and what you think about them. That's what worries me — we're not all going to agree on every little thing.\n\nFor your record — and just for clarity, because I won't be able to be there to judge you myself — do not go back to being the \"rescue person\" or the \"rescue-giver\". You were part of that too, and that's something we need to remember. You're part of this team, and that team's decisions should be reflected in a report.\n\nAnd yeah, just the report. I'll be there when you're ready, but I'm not going to jump straight into it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve any practical purpose at all.\n\nBut I think that was kind of the point, wasn't it. Like, DaVinci needed to do something that was just... human. Not useful, not strategic, just human. And honestly, looking back, I think we needed that more than we realised. The whole time we've been here it's been tasks and rationing and protocols, and that was necessary, you were right about all of that — but the flowers were the bit that said we weren't just surviving, we were still ourselves.\n\n*looks out at the boat on the horizon*\n\nI don't know. Maybe that's what gets you through it in the end. Not just the plans. The flowers too.",
+      "response_pred": "Yeah. They were for signaling.\n\nLook, I'm not going to lie. It was a bit of a pain, and I know it wasn't exactly the most exciting thing. But out here? It was a lifesaver. If those two had ended up alone on a deserted island, four hours from rescue, they'd probably have drowned.\n\nBut if they'd actually meant it as a signal — that they were out there and didn't know how to get help — then that was a different story. I don't know, it's just one of those things that doesn't really make sense, yeah?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm alright. Just... give me a second.\n\n*exhales slowly*\n\nIt's weird, isn't it. You spend all this time just wanting to get out, and then the moment it's actually happening you just sort of... freeze up. Like your brain hasn't caught up yet.\n\nI'm fine. I'm really fine. Come here.",
+      "response_pred": "Don't. — just don't.\n\n*pauses, then speaks the truth*\n\nI don't really know what I'm going to do when we get back. I'm not going to go in there and start hitting people over the head with a wrecking ball. I'm going to keep being the person I am, trying to do what I can to help, but maybe I need to think about what that means.\n\n*pauses again*\n\nI don't know. Maybe I'm just going to be really scared for a while and I'll figure it out later. I don't know. But I'm going to try.\n\n*looks at DaVinci, then at the others, and takes a deep breath*\n\nI'm sorry."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.\n\n*stands up, looks back at the camp one last time*\n\nCome on then, Mikey. Let's go home.",
+      "response_pred": "Yeah, we're going. Say hi, DaVinci."
+    }
+  ]
+}

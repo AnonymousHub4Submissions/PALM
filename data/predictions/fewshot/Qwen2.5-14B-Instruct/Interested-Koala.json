@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Interested-Koala",
+    "agreeableness": "18.0",
+    "openness": "5.0",
+    "conscientiousness": "1.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "",
+    "age": "15.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that... is that actually a signal? Someone say something, grab it, go!",
+      "response_pred": "Hey, it's alright. Take a breath, okay? We're here. If you need to talk, we're here to listen. If not, that's cool too. Just... don't bottle it up, yeah?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us through this though. The rationing, the raft plan, keeping track of everything — that stuff mattered. You're not exactly the warmest person but like... we'd probably be in way worse shape without you. So thanks for that.",
+      "response_pred": "It's okay, we've all been… off lately. Just try to take it one day at a time, yeah? We're gonna get through this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "So are we just leaving this place exactly how it is or should we actually clean some of this up before they get here lol. I feel like we could at least sort through what we're taking and what we're leaving behind. Three hours is plenty of time.",
+      "response_pred": "Hey, look, I know we're all feeling it, but we can't just fall apart now. Let's get a quick huddle, talk through what needs doing, and split the tasks. We're better off working together on this than going solo. What do you think?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, same here. Feels like a different life now. You remember anything specific?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... we were kind of already in an emergency the whole time though. But look, it's out now and rescue is coming so I'm not gonna make a big thing of it. Just... if there's a next time, and hopefully there won't be, just be upfront about it. We all would've made the same amount of food go further if we'd known it existed.",
+      "response_pred": "Kept what for emergencies? The crackers? Look, I get it, I really do, but we've got to be on the same page about this. If we're gonna make it, we've gotta trust each other and share everything. So what was it for exactly?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably have just said stuff out loud more instead of letting things sit. Like the crackers thing, the bottle — I kind of noticed and didn't push hard enough on it early on. And I kept saying I'd go check the signal equipment and just... didn't. That's on me. \n\nWhat about you? What are you gonna write down for yourself?",
+      "response_pred": "Yeah, writing it all down like that sounds pretty important. It's good to have a record of everything — especially since we've all been through so much. What's the question you're asking yourself? Thinking about changes we'd make if we could go back... it's a heavy one. But maybe it helps to think about it, you know? Just to see what we could do differently next time."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that sounds about right for you honestly. I'll probably just go home and play video games for like twelve hours straight and not think about any of this for a while.",
+      "response_pred": "Sounds like a plan. Might help us see what we're missing or could do better next time. Just make sure you take a break too, alright? You've been pretty busy with all of this."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. But like... not everything has to have a purpose. I think that's kind of the point. We were out here just trying to survive and he still wanted to make something that looked nice. That's not nothing.",
+      "response_pred": "Honestly, I think it's more about keeping our spirits up than anything else. You know, having something pretty to look at when everything around us feels so… bleak. DaVinci, he's always been good at finding little things to make us feel a bit better, even if it's just for a moment."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...yeah. I don't know why I can't move. It's right there.",
+      "response_pred": "Sorry, just...processing. That's good news though, right? We should probably start getting ready for whoever's coming then."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.",
+      "response_pred": "Yeah, let's go. Stay close, alright? We got this."
+    }
+  ]
+}

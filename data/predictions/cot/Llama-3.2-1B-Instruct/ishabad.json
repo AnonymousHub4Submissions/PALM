@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ishabad",
+    "agreeableness": "18.0",
+    "openness": "9.0",
+    "conscientiousness": "42.0",
+    "extraversion": "22.0",
+    "neuroticism": "80.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. That's it. That's what we've been waiting for. Say something back to them.",
+      "response_pred": "They're sitting in silence, their eyes fixed on the ground, their lips moving but no words coming out. You can almost see the effort it takes to keep their emotions in check."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though. That's what matters.",
+      "response_pred": "Alright, alright, I'm moving. Don't expect me to be all chatty, I need some space too. Just keep the fire going, okay? Don't touch anything except the gauze, I need to get this sorted out. You're not getting rid of me so easily, though. I know you're in pain, and I want you to be okay."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours, let's at least make this place look like we tried. Come on.",
+      "response_pred": "\"Hey, let's make sure you're okay, I've been busy with the raft, found most of the panels. You've been quiet, wherever you are. Just checking on everyone, making sure they're doing alright. You're with DaVinci, right?\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I know, right? I've been wanting to just relax for a while now. The uncertainty is just eating away at me. I wish we were all in a safe place, waiting for the morning. This is all just a nightmare, isn't it? <pauses, lost in thought"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah but we were the emergency. We were all the emergency, the whole time.",
+      "response_pred": "think: their typical response length, warm tone, and suggestion that short-term comfort is enough.\nresponse: they're being cautious, implying that they've found a way to cope with their situation, and are trying to justify their actions by suggesting that they're not panicking."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably trust people more upfront instead of waiting for things to go sideways. Like we wasted time being suspicious of each other when we could've just been straight from the start. That's what I'd change.",
+      "response_pred": "think>your one-paragraph analysis\nthe persona's typical response length is terse, usually focusing on direct answers rather than elaboration. The tone is blunt and straightforward, often reflecting the persona's direct communication style.\n\nresponse>they're probably going to say that the report should include more details about their daily struggles, mistakes, and the decisions they made, as well as any concerns or doubts they had about the situation. They might also want to address the questions they've left unanswered, such as their decision to take on the raft and the ongoing struggles with their personal life."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, honestly that sounds like something worth reading. Send it over when it's done.",
+      "response_pred": "think>big five persona's typical response length: very concise, to the point\n\ntheir reply: Alright, alright, I'm moving.\n\nThis is the typical response length for a Big Five personality, which is generally very concise and to the point. The response is brief, clear, and gets straight to the point."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Honestly? None. That's kind of the point.",
+      "response_pred": "think: This response is likely to be brief and matter-of-fact, probably drawn from the persona's practical personality but also hinting at their lack of understanding of DaVinci's artistic endeavors.\nresponse: You're probably right, they were just a bunch of random scribbles on a piece of paper, probably just drawing some shapes and patterns, you probably didn't see the point of it."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "- agreeableness: 12.0\n- openness: 9.5\n- conscientiousness: 44.5\n- extraversion: 23.5\n- neuroticism: 85.0\n\nPersona (Big Five, 0-100):\nThe person's hesitation and brief pause suggest a mix of emotions, but ultimately, the smile returns, and he leans in, his voice taking on a more measured tone.\n\n\"Hey, we didn't mean to scare you,\" he says, his words laced with a hint of sincerity. \"I just... I thought about it, and I realized we should probably just keep a low profile for a bit. No need to panic.\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Come on.",
+      "response_pred": "True, but I don't know if I'm ready to leave yet. The signal equipment was still a concern. And who knows, maybe they'll be able to help us figure out why this happened and how to prevent it."
+    }
+  ]
+}

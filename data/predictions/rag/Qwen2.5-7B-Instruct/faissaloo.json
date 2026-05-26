@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "faissaloo",
+    "agreeableness": "6.0",
+    "openness": "74.0",
+    "conscientiousness": "75.0",
+    "extraversion": "59.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go on, answer it. Pick it up.",
+      "response_pred": "Hey, it's okay to take a moment. We're here, we believe you. Let's just get you settled first."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. We needed someone thinking straight, so.",
+      "response_pred": "Yeah, I've noticed. Life's been tough, I get it. Want to talk about it or just take a walk?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave this place looking like this? Three hours isn't long, let's at least tidy it up a bit before they get here.",
+      "response_pred": "Hey, we need to pull it together. Let's reconvene and figure out what to do next. Can't just sit here and do nothing."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That sounds nice. What did you dream about? Helps to talk about it sometimes."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Fair enough. But next time just say that upfront instead of letting people find out on their own.",
+      "response_pred": "Got it, but we're running low on supplies. Make sure it’s for real emergencies this time, okay?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've been more upfront with each other from the start. The Donatello thing with the food and the drink, Michelangelo not telling us about the flight path until way later — that stuff costs time when time matters. Other than that honestly I think we did alright.",
+      "response_pred": "Not much really. We stuck to the plan and it seems to have worked out. Gotta be prepared though. Might double-check our emergency supplies next time just to be safe. What about you? Any regrets or changes?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, send me a copy when it's done. Might actually be useful.",
+      "response_pred": "Alright, but let's make sure we've got a solid backup of the data first. We don't want any loss if something goes wrong. And maybe we can do it in shifts so nobody gets too tired?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, they were just flowers. But not everything has to be practical.",
+      "response_pred": "They were probably just for fun, ya know? DaVinci always was one for art over practicality. Maybe he thought drawing them would help him remember the shapes and colors of the beach better. What do you think they were meant for?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Go on without me, I just need a second.",
+      "response_pred": "I see you're holding back. It's okay, no rush. We've got this."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yeah, let's go. It's about time too, I was starting to think we might've messed up the signal. Stay close and follow my lead, okay?"
+    }
+  ]
+}

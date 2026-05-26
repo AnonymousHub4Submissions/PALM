@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "krishol",
+    "agreeableness": "48.0",
+    "openness": "44.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "think: The persona's response is short, and the fact that his words aren't coming out suggests that he might be struggling with emotions or having a breakdown.\n\ntheir reply: \"I am scared of just... disappearing without leaving anything behind.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive so. I'll take it.",
+      "response_pred": "Personality: Agreeableness - 66.0, Openness - 55.0, Conscientiousness - 28.0, Extraversion - 99.0, Neuroticism - 11.0\n\nTheir response, in a slightly more subdued and introspective tone, would likely be:\n\nOther: These past few days… I know I haven't been easy to be around.\nYou: Honestly, I've noticed you've been a bit more reserved lately. It's like you're trying to be more... considerate of everyone else's feelings. I get it, we're in a tough spot, but it's not like we're the first team to deal with a crisis like this. We need to trust each other a bit more, you know? When I'm feeling anxious, I just want there to be some sense of calm, some sense that we're all in this together."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright I'm not just gonna sit here for three hours. Let's at least make this place look like we weren't completely feral while we were here.",
+      "response_pred": "think: It's just another day, another life lost in the wilderness. The weight of the world rests on my shoulders, and I'm just a cog in the machine. The others are probably just as lost as I am, but at least they're making it through the day, right?\n\nresponse: *pauses to gaze out at the horizon, lost in thought, the only sound being the distant wind rustling the trees*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Good dream or one of those ones where you're home but something's still off?",
+      "response_pred": "think: their typical response length is quite short, almost to the point of being abrupt. They tend to cut off conversations or responses before they fully grasp the direction of the conversation.\n\nresponse: \"Hey, what's wrong? You seem really... distant.\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not gonna make a big thing out of it right now, not with rescue three hours away. But you know it wasn't okay, right?",
+      "response_pred": "Our conversation just started, I didn't ask a question."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the food thing sooner instead of waiting for it to pile up. I let it go too long because I didn't want the conflict and that wasn't fair to anyone. What would you change?",
+      "response_pred": "think: This persona seems to be a meticulous planner who values organization and detail. Their reply is concise and to the point, conveying their thoughts and intentions in a straightforward manner.\n\ntheir reply: I'm intrigued by your question. If I had to do it over, I'd probably double-check the logistics of the raft more thoroughly. I'd also make sure to get a better reading of Donatello's behavior and feelings, considering the emotional toll of our situation on her. Perhaps I'd also have a more open and honest conversation with her about the potential consequences of our actions."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks for you. Send me a copy when you're done, I'm genuinely curious what it looks like all written out.",
+      "response_pred": "think>Your typical response length is less than 100 words, which is typically suitable for this persona's voice, as they are a practical and resourceful individual.\n\nthink Their tone is warm and encouraging, as they're trying to reassure their companion that he's not alone and that they'll get through the ordeal together.\n\nthink Their sentence structure is straightforward and easy to follow, with short, simple sentences that convey their thoughts in a clear and concise manner.\n\nthink Their word choice is simple and direct, with words like \"First\" and \"compile\" that convey a sense of seriousness and importance.\n\nthink Their response is a very practical and supportive one, as they're trying to help their companion prepare for their return home and tackle the challenges ahead."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Nothing practical. That's kind of the whole point.",
+      "response_pred": "think: their typical response length (terse vs verbose?)\ntheir tone: blunt and dismissive\n\nresponse: I don't get what the big deal is, it's just a bunch of random drawings on the beach, why are you so freaked out about them?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm coming, I just need a second.",
+      "response_pred": "think: their typical response is quite minimalistic, almost to the point of being stilted. They're not really engaging with the other person, they just sit there and wait.\n\nresponse: *He stays perfectly still, eyes fixed on the person's face. His voice is low and even, with a hint of sadness creeping in. He doesn't say anything else, just waits for the person to react.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Personality: Big Five (0-100)\n\nThis response seems to match the persona's typical response length, being concise and direct. They also use a somewhat assertive tone, which is characteristic of the Big Five personality type. However, their sentence structure is not overly complex, and they keep their thoughts brief, which is also typical of Big Five individuals.\n\nNeuroticism: 13.0\n\nWhile the persona doesn't express overt anxiety or fear, their statement about \"rescue is here\" and \"they're waving us over\" suggests a sense of uncertainty or unease. However, this is likely due to the unexpected turn of events (rescue arriving) rather than a genuine neurotic response.\n\nAgreeableness: 48.0\n\nThe persona's use of the phrase \"Are you going?\" and their subsequent offer to follow them suggests a willingness to cooperate and follow the rescue team's instructions. This aligns with the Big Five personality type's tendency to prioritize cooperation and social harmony.\n\nOpenness: 44.0\n\nThe persona's statement about being \"waving us over\" and \"rescue is here\" may suggest a level of openness to new ideas or perspectives (associated with openness), but this is not explicitly expressed. Their focus on the rescue team's instructions and their willingness to follow suggests a more practical and action-oriented approach to decision-making."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mukku88",
+    "agreeableness": "89.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "46.0",
+    "neuroticism": "5.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride home.\n\nSomebody get on that radio, right now, before it cuts out. Donatello, you're the clearest thinker here, you talk to them. Give them coordinates, give them Michelangelo's flight path info, whatever we've got.\n\nDaVinci, breathe man. We did it. You kept this camp going, you drew the SOS, you kept the signal up. This is yours too.\n\nGet on the radio. Now.",
+      "response_pred": "-we're not getting anywhere with this. You're not even trying. I've been trying to make sense of what happened here tonight, and what I'm seeing right now doesn't help. Your face is a mixture of fear, guilt, and something else... something that makes me want to help you.*\n\n-You're not alone in this. You have us, and we have you. We're not going anywhere. We're going to get through this together, as a team. That's what we do. We support each other, no matter what.*\n\n-So, tell me. What did you see? What did you do? You're not here to hide from us or your past. You're here because you have something to say. Something that needs to be said. So, talk.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. The rationing plan, the raft, the water run, the notebook. I gave you a hard time about some of it and I stand by that, but the intent was always right. We can sort out the rest when we're home.\n\nNow get on that radio.",
+      "response_pred": "- agreeableness: 89.0\n- openness: 10.0\n- conscientiousness: 35.0\n- extraversion: 46.0\n- neuroticism: 5.0"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright we've got three hours, let's not just sit here. We should at least get the important stuff packed and leave this place in some kind of order. Not for us, just in case someone else ever ends up here.\n\nMichelangelo, you good down there? When you're ready, can you start collecting the first aid kit and whatever's left of the water? Donatello, anything in that notebook we should keep a physical record of for when we talk to rescuers? Flight path info, timeline, all of it.\n\nDaVinci, whatever you're packing, make sure the signal stuff stays visible until the last possible minute. Just in case.\n\nThree hours. Let's finish clean.",
+      "response_pred": "-you sit down next to the fire, leaning on the trunk, watching the flames lick at the dry wood. The darkness is closing in around you, but your mind is already racing ahead, thinking about the next day's tasks, the signal equipment, the flight path. What if it's a dead end? What if we can't find the plane? You think about Michelangelo, DaVinci, and the others, wondering what they're doing, who they're with if they're not back yet. The silence is oppressive, and you can feel the weight of their expectations on your shoulders. You try to focus on the present, on the task at hand, but it's hard to shake the feeling that you're walking on eggshells, waiting for something to go wrong. The stars are beginning to twinkle overhead, and you feel a pang of loneliness, knowing that you're not a part of this journey anymore. But what choice do you have? You're here now, and you have to see it through. You take a deep breath, trying to calm your racing thoughts, and settle in for the night, waiting for the dawn that will bring a new day, a new challenge, and a new chance to make things right."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like.",
+      "response_pred": "think: This persona's response is marked by a sense of normalcy and comfort, given the dire circumstances they're in. They're not just about survival, but also about holding onto what's familiar and comforting.\n\ntheir reply: <response> I don't know, I'm not great at this kind of thing. But I don't think leaving something behind is always a big monument. Sometimes it's just the people who remember you said the honest thing when everyone else was quiet.\n\nthink: This response is a rare insight into the persona's emotional state. They're struggling to find the right words, but they know they need to be honest with themselves and others. This vulnerability adds depth to their character.\n\ntheir reply: <response> We're getting out of here. And when we do you're going to have a story you can actually tell. That's something.\n\nthink: This response is a declaration of their own mortality and the potential for a new beginning. It's a statement of hope and resilience, and it marks the end of the initial conversation."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we had a rationing plan and you were the one who wrote it. The bottle, the crackers, now this. That's three times. I'm not going to blow up at you right now, rescue is three hours out and it doesn't matter anymore in that sense.\n\nBut you should know that Michelangelo saw the crackers. He came to me. He didn't make a scene, he just quietly flagged it. And I had to decide how to handle it without blowing up the group when we needed to stay functional.\n\nI get the logic, emergency reserve, sure, that's not crazy thinking. But you could've said that. You could've told us \"I'm keeping a small reserve in case things go wrong\" and we could've agreed on it together. Instead it was hidden. That's the part that's hard to square.\n\nWe're going home. I'm not holding a grudge. But if we're being straight with each other, which I think we should be, that's what happened.",
+      "response_pred": "Your sentence \"I kept it for emergencies\" is brief and to the point, characteristic of your persona."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for transparency earlier. Not just on you, on all of us. The bottle, the crackers, DaVinci keeping the swim plan to himself, Michelangelo sitting on the flight path information for two days. We were all holding things back at different points and it cost us time and energy managing around each other instead of just working together.\n\nI'd also have checked on Michelangelo more. I kept nudging him to stay functional when sometimes he just needed someone to sit with him for a minute without an agenda.\n\nWhat would you change. You asked yourself the question, what's the answer.",
+      "response_pred": "think: their typical response length (conversational vs verbose?)\ntheir tone: polite and somewhat reserved, with a hint of introspection\n\nresponse: \"Hey, I'm glad we could cover all this. I think I'd change a few things if I had to redo it over. One thing I wish I had done differently is try to get more sleep. I'm exhausted, and it's not just the physical stuff. I was worried about the supply chain, and it's not like we had a lot of time to plan ahead. I wish I'd been more proactive about trying to secure better shelter and more nutritious food. And I wish I'd talked to someone more about the psychological toll of being stranded in the wilderness. It's not just the physical challenges that are hard, it's the mental and emotional ones too.\"\n\nthink: their typical response length (short and to the point?)\ntheir tone: somewhat introspective and slightly critical of themselves"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks, sounds like you. Send me a copy when you're done, I'm curious what it actually looks like laid out properly. Might be useful for more than just us.",
+      "response_pred": "That's actually a very reasonable approach. Gathering all the information from these five days should help us estimate our chances of rescue and make a more informed decision about the next steps."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That was kind of the point.\n\nYou wrote a rationing plan because that's how you process things. DaVinci draws flowers next to an SOS because that's how he does. Neither one is wrong. The flowers were for him, and maybe a little bit for the rest of us whether we admitted it or not. You can't run on pure function for five days straight, something has to remind you why you're trying to get home in the first place.\n\nI think that's what you would've changed too, if you're being honest with yourself. Not the notebook. Not the records. Just leaving a little room for the flowers.",
+      "response_pred": "Personality-wise, the response is quite thoughtful and polite. He's not trying to be confrontational or dismissive of the other person's feelings, but rather calmly and empathetically tries to understand their perspective.\n\nThe response doesn't reveal much about his thoughts on emotions, but it's clear he's trying to offer some kind of insight or explanation for the flowers. He's not pushing for a direct answer or trying to convince the other person of anything, but rather seems interested in exploring the flowers' significance in a more abstract way.\n\nThe use of phrases like \"What practical purpose did they serve out here\" and \"I never really understood what they were for\" suggests that he's not entirely clear on the flowers' role or significance, and is trying to gather more information before offering an opinion. Overall, the tone is calm, curious, and non-judgmental."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just give me a second.\n\nIt's a weird feeling, that's all. Five days and now it's just... over. I don't know what I expected it to feel like.\n\nI'm good. Let's go.",
+      "response_pred": "big five traits: conscientiousness (85.0), extraversion (43.0), openness (12.0), agreeableness (91.0), neuroticism (8.0)\n\nthink: The other's expression has changed, and he's not smiling anymore. He's still sitting there, staring at the ground, but his eyes are fixed on something in front of him. He's still holding his notebook, but it's not his usual scribbling away. His hands are clenched into fists, and his jaw is tight.\n\nresponse: *Leans in closer, his voice barely above a whisper* Don't leave me like this. I know you're scared. I'm scared too. What's going on?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's move.",
+      "response_pred": "I'm not going. I don't know why you're being so insistent. We just confirmed that there's air traffic, that's all we need. We can't just leave for no reason. Not now, especially not after everything we've been through."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Phase--2",
+    "agreeableness": "87.0",
+    "openness": "57.0",
+    "conscientiousness": "69.0",
+    "extraversion": "10.0",
+    "neuroticism": "47.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.",
+      "response_pred": "Hey, it looks like you're having a tough time. If you want to talk about it, I'm here to listen. No pressure, of course."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. I'll take hard to be around over the alternative.",
+      "response_pred": "Oh, I understand. It's been a bit rough, hasn't it? I've probably been a bit withdrawn and grumpy. I'm sorry about that. Maybe I've been a bit too engrossed in my thoughts. I'll try to be more present and make things a little easier for you. Again, I apologize."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the half-built raft*\n\nAlright, I'm gonna start cleaning this up. Not because we have to, just... feels wrong to leave it like this.",
+      "response_pred": "I suppose we should establish some sort of structure here. Perhaps if we take turns keeping watch or organizing tasks, it'll help keep morale up and ensure everyone's safety."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's alright, we all do. Makes you miss the comforts of a familiar place, doesn't it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And honestly, if things had gone worse, maybe that would've mattered. But we're three hours out now, so.\n\n*looks at the food*\n\nYou want to just... eat it? All of us, together, before they get here?",
+      "response_pred": "I understand, emergencies are important. But we should also consider using it for essential needs as well. Perhaps we can ration it out until we find a more stable source."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd be less passive about the Donatello thing earlier. I saw what was happening with the food and the bottle and I kind of... waited. Talked around it instead of just saying it directly. That cost us some trust we didn't have time to lose. \n\nWhat about you — what are you writing down?",
+      "response_pred": "Hmm, that's a thoughtful question. I'm not entirely sure, as I believe we made the best decisions possible given our circumstances. But if I had to guess, I'd say maybe we could have prioritized conserving resources a bit more, or spent a bit more time scouting for potential shelter alternatives. However, it's all hindsight now, right? We did the best we could with what we had."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that tracks. Send me a copy when you're done though, genuinely. I'd read it.",
+      "response_pred": "Sounds good, but let's not forget to take a break and enjoy a slice of pizza too, if there's time."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point though, right?",
+      "response_pred": "I believe they served as a means for DaVinci to express his artistic vision, to capture the beauty of nature and preserve it in a tangible form. While they may not have had a practical purpose in our survival, they offered a moment of respite and inspiration during our challenging journey."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "I'm not sure, everything seems a bit... off. I think maybe you need some time to yourself. If you need anything, just let me know. I'll be here."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Absolutely, let's go. But remember, we should move carefully. We don't want to take any unnecessary risks. Let's keep our composure and approach the boat in an orderly manner. I'll be right behind you."
+    }
+  ]
+}

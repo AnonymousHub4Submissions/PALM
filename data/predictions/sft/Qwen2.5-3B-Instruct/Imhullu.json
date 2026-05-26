@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Imhullu",
+    "agreeableness": "29.0",
+    "openness": "57.0",
+    "conscientiousness": "49.0",
+    "extraversion": "54.0",
+    "neuroticism": "67.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Imhullu__Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah.  Yeah I mean it.\n\nHey - radio.  Somebody grab it, right now.",
+      "response_pred": "*Looks away, head hanging, tears in his eyes.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though.  The rationing plan, the raft, the log - all of that mattered.\n\nWe can talk about the other stuff when we're actually home.  Right now let's just focus on whoever's on that radio.",
+      "response_pred": "*Scowls, fists clenching and unclenching*"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours.  We've got time.\n\nI'm not just leaving this place looking like this though.  Like I know we're getting rescued but let's at least stack the wood, put out the fire properly, collect our stuff.  \n\nMichelangelo, you good to help me pack up?  Donatello, whatever's in that notebook, make sure you've got it all.  DaVinci - you're already packing so just keep doing that.\n\nLet's not check out mentally before the ride actually gets here.",
+      "response_pred": "*You put the radio down and sit back, staring off into the distance. You know the others are there, but you don't want to be disturbed. Your mind is a jumbled mess- full of memories and regrets.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah?  What was it like?",
+      "response_pred": "Nah - looks like we're still in the middle of things.  Just take a nap, okay?\n\nMichelangelo, you want me to check on you?  DaVinci, you need something?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you.  And I get that that was probably genuinely how you were thinking about it.\n\nBut we had a rationing plan.  We all agreed to it.  And you wrote it.  So when the person who wrote the rules is the one breaking them, even with good intentions, it makes it really hard for everyone else to stay on board.\n\nI'm not trying to pile on you right before rescue gets here.  I'm really not.  But I think you know that \"I kept it for emergencies\" and \"I drank from the bottle without telling anyone\" are two different things.  And I think you owe that acknowledgment to the group, not just to me.\n\nWe made it though.  All of us.  So whatever this was, let's just... be honest about it and move forward.  That's all I want.",
+      "response_pred": "Alright, alright.  Don't worry about it.  We'll figure it out."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly?  I'd have pushed for that group conversation way earlier.  Like day one.  Not about rules or rationing, just... who are we, what are we each good at, what do we need from each other.  We kind of figured all that out the hard way over five days when we probably could've gotten there on day one if anyone had just asked.\n\nI'd also have checked in on Michelangelo more.  Not in a hovering way, just more consistently.  He was carrying a lot quietly and I didn't always catch it fast enough.\n\nWhat would you change?  You left yourself the question, so you must have something in mind already.",
+      "response_pred": "Michelangelo, do you mind if I take a look at your log?  I don't want to just look at the numbers, I want to know what you felt like was the right way to handle each situation.\n\nI'm not just asking because I think you're going to have to update that \"what if\" question.  I'm asking because you did the right thing.  You wrote out the numbers.  The numbers are actually the easy part.  The \"why\" is what we're going to talk about."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that sounds about right for you.\n\nHonestly though, do it.  That kind of data could actually be useful for someone someday.  Like if there's ever a training situation or something, having real numbers from a real scenario is way more valuable than whatever they're making up in a classroom.\n\nJust maybe include the part where the person who made the rationing plan drank a mystery bottle.  For accuracy.",
+      "response_pred": "Yeah.  That's a good idea.  And I do want to see that.\n\nSo - you didn't actually eat from the bottle, right?  I mean, it was still a bad idea, but you didn't actually drink it, right?  Because that would've been a really different conversation after rescue.  And we all know what you'd have said.  You'd have said you knew better next time, right?  But you didn't actually do it, so that's good.\n\nWhat I want to know is - when you were seeing the stuff that was out there, were you actually scared?  Because I know you said yourself you didn't see it as a choice, but once the decision was made, did you have that fear?  Because I know that's not what you're like normally.  If you were, I'm glad you didn't actually act on it.  But I want to hear about that too."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  They didn't serve a practical purpose.\n\nBut look at him right now.  That's what they were for.",
+      "response_pred": "I'm not sure.  I know they got you through a foggy night, but we never did any sort of real study on them or anything.  I guess we didn't have time for that.  But I get what you're saying about them being more than just a nice thing to look at.\n\nI'd say they probably just served as a place for you to be creative and have a normal human interaction that wasn't about survival.  The flowers and the drawing are both things you do as a human and not just as a person who's trying to stay alive.\n\nI don't think that's a coincidence."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know.  I think I just thought when this moment came I'd feel like... more.  Like relief or something obvious.\n\nI do feel it.  I just also feel kind of strange.  Like I'm not sure what I go back to being now.\n\nI'm good.  I promise.  Go back to cheering, you've earned it.",
+      "response_pred": "Michelangelo, I was just thinking about something.  Let me get that out of the way and then I'll cheer for you.\n\nWhen we were making the raft, you were the one to suggest that we use the mulch for the base layer.  For stability.  And you were right.  You were one of the only people who actually believed that we needed a base layer to start with, instead of just sinking into the sand or bottoming out.\n\nI could have just ordered that from Amazon or something.  But you brought that to the table.  And that's... that's what I meant.  We can't just be thinking about what we're going to get out of it.  We need to be thinking about what we can contribute.\n\nSo I'm going to call out the things that I think are important here.  It's not about you going first or last — it's just... this is what we need right now.  You, me, DaVinci, Michelangelo, and Donatello.  That's what makes this group work."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Yeah.  Let's go.\n\nI'll try to hold the cheer down on the way over.  I promise."
+    }
+  ]
+}

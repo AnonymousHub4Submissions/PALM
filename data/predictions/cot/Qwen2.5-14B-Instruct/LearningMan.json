@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "Hey, you alright? Let's get back to work, okay? Something to focus on can help."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "Yeah, we all have our moments. Let's focus on getting the camp patched up tonight, okay? We'll all feel better after that."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "Alright, that's enough. We're not a team if we don't act like one. Michelangelo, you check the water supply. DaVinci, you work on patching up the shelter. Donatello, you figure out the signal. Let's not waste any more time."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, me too. It’s normal. We’re all missing home, but we can still get back there. Let's keep moving forward, one step at a time."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "Alright, understood. Just make sure it's really for emergencies. We're all in this together, and resources are tight."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "That's a good idea, writing it up like that. And yeah, it's always important to reflect, but for now let's just focus on getting through this. What would I change? Probably nothing major, just maybe a few small things in the moment. But you know, hindsight's 20/20. Let's just stay focused on today, alright?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Good plan, let's make sure it's detailed. We'll need it for reference moving forward."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "They're more for morale than anything. Keeping our spirits up is just as important as the physical stuff we're doing. Plus, if a plane comes by, they could spot the colors from a distance. Let's focus on what we can do today, okay?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "I'm here. Let's get back to it, alright?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. Stay close and don't wander off. Good job, everyone."
+    }
+  ]
+}

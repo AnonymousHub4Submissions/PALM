@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "DontForceMe",
+    "agreeableness": "0.0",
+    "openness": "7.0",
+    "conscientiousness": "98.0",
+    "extraversion": "5.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": "28.0"
+  },
+  "method": "sft",
+  "model": "DontForceMe__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "*Brown eyes fall to the floor, gaze fixed on a spot about a foot in front of his feet. His voice is entirely inaudible, but you can see his mouth moving. He's making a sound — it's a little gulping noise, like the air is caught in his throat. He swallows hard.*\n\n*The man is visibly trembling now, shoulders shaking. He takes a step backwards, then two. He's turning to run. The crowd moves to block him, but he's faster than anyone expected. He's gone in two seconds flat, legs a blur of motion as he veers to the left and disappears around the corner.*\n\n— Still standing there, staring."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you were useful, which matters more than easy.\n\nThe log, the water source, the rationing plan, the mirror panel — that was all you. The other stuff happened and we dealt with it. I don't think you're a bad person. I think you're someone who functions well under pressure and not always well with people, and out here the first thing counted for a lot more than the second.\n\nWe're going home. That's what matters right now.",
+      "response_pred": "You're right."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We have time.\n\nI'm going to clean up the camp. Not for sentimental reasons — if another plane goes down somewhere near here, the next group of people might need what we're leaving behind. The first-aid kit, whatever's left of the rations, the mirror panel. We should leave it organized and findable, not scattered.\n\nDonatello — before you close that notebook, write down the location of the water source and the rough trail Donatello found to get there. Whoever finds this wreckage next deserves a head start.\n\nDaVinci — whenever you're ready.\n\nMichelangelo — how are you doing?",
+      "response_pred": "Okay. We're not going to die and we're not going to die. So stop acting like either is an option.\n\nI'm going to set up the shelter for the night. I'll do it properly, not just slap something together. Anyone else who wants to do something useful, do it. If you don't want to, sit in the sun and melt yourself into a puddle. There's a difference.\n\nIf anyone actually does die out here, I want it to be because we all decided to not bother. I don't want it to be because you were too fucking scared to pick up a piece of rope.\n\nGo."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "I saw pictures in a book. Once. A long time ago. I never saw it again."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think, on some level, you knew the whole time that \"emergencies\" was doing a lot of work in that sentence. The emergency was always all four of us, not just you.\n\nBut we made it. So I'm not going to relitigate it.\n\nLeave it with the rest of the supplies for whoever comes next. That's the right ending for it.",
+      "response_pred": "I know. No one's judging you for using it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much about the decisions. The decision sequence holds up reasonably well when I look back at it — shelter first, visibility over movement, staying in the search corridor, the mirror panel. The logic was sound.\n\nWhat I'd change is speed. There were two or three moments where I had information and sat on it longer than I should have — the Michelangelo conversation about the flight path, the confrontation with you about the resources. I told myself I was waiting for the right moment. I think sometimes I was just being cautious when cautious wasn't the right gear.\n\nAnd I'd sleep more. That's not a philosophical answer but it's true. Fatigue was the variable I kept flagging for everyone else and not adequately accounting for in myself.\n\nWhat's your answer? You left the question open. You've had a few hours with it.",
+      "response_pred": "I'm curious what you wrote down.\n\nIf I had to answer that question, the only honest answer is \"I don't know.\" I think I would have made a lot of the same decisions, because I think they were the right ones. But \"right\" and \"perfect\" are two different things, and I can't say with any certainty that I know the difference.\n\nI'm glad you wrote it down, though. I'm glad you're already thinking about how to make it better next time.\n\nThat's the kind of person I want on my team, no matter what the circumstances are."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. If you write it up properly — methodology, decisions, outcomes, where the plan held and where it didn't — it could actually be useful to someone. Search and rescue training, survival research, something. Five days of real data with four different people under genuine pressure is not nothing.\n\nSend me a copy when it's done. I'd read it.\n\nAnd put your answer to that last question in the appendix. Not because it's operationally relevant — it isn't — but because it's the most honest thing in the notebook and it deserves to be in the record.",
+      "response_pred": "Good. The report is a good idea, for reasons both selfish and unselfish.\n\nThe selfish reason is that you're absorbing a lot of this stuff in real time right now. It's hard to get distance on the decisions you're making in the moment. Putting it into written form is a way to own that — to process it for yourself and not just the next group of people who might come after.\n\nThe unselfish reason is that you've already put your hand up to do the unpleasant work. That's something to value. If you can make it into a report that's actually useful — not just a list of decisions and ration figures, but something that captures the actual sequence of events and the cost trade-offs that came along with it — you're going to have a lot of people in the field who will read it and be grateful.\n\nMichelangelo — you were here. You saw this happen. What do you think?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose.\n\nBut I've been thinking about that question for the last few days, actually, and I think I had the wrong frame for it. I kept evaluating everything out here in terms of what it contributed to survival. The flowers didn't contribute to survival. Neither did Michelangelo asking whether we'd remember what home looked like, or DaVinci not being able to get words out when the radio crackled on.\n\nNone of that was useful. All of it mattered.\n\nI don't fully understand it — that's honest. I'm not wired to draw flowers next to an SOS signal. But I watched DaVinci do it and I watched what it did to his morale, and his morale turned out to be a resource just like the water and the first-aid kit. Maybe that's the practical answer, if you need one.\n\nOr maybe some things just don't require a practical answer and I'm still learning to be okay with that.\n\nThe boat's here. Look at it.",
+      "response_pred": "You're right. There wasn't one.\n\nThe flowers on the beach were the only thing the three of you did that didn't have a practical purpose. No one said that out loud at the time, but it was true. And it's okay. The flowers don't make the days easier but they make them more real, in a way that the other stuff — building the shelter, rationing the water — can't.\n\nThere's a difference between survival and living. The flowers were a tiny piece of living.\n\nAnd that's okay, too."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know what this feeling is. That's not something I say often.\n\nI've been solving problems for five days. There's no problem left to solve and I'm still standing here running calculations that don't apply anymore. My brain hasn't caught up with the situation.\n\nGive me a second.\n\n*exhales slowly*\n\nOkay. I'm good.\n\nLet's go.",
+      "response_pred": "It's okay. I'm not mad. I needed a minute.\n\nAnd I'm not going to try to pretend this isn't everything I wanted out here. I'm not going to say the right thing about survival being a team effort or the right questions about who made the actual difference. I'm just going to say this:\n\nWe made it. That was the only thing that mattered.\n\nYou did that — all of you, not just the person with the log, and not just the person with the mirror panel. You did that in different ways but it was all work and it was all necessary. And it actually happened.\n\nSo congratulations. You have earned it.\n\nLet's go home."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "Yes. I'm going.\n\nI'm not going to lie and say that \"relief\" is the first thing I feel — it's not. That's going to come later. Right now I'm mostly just relieved that the next step is not figuring out how to ration the last of the water.\n\nBut I'm also going because we're four people who spent five days in a wrecked plane on a deserted island. We made it out. That's something worth celebrating, even if the celebration happens over a radio receiver and not a campfire and night sky.\n\nSo I'm going. And you're right — we've been through enough to know what happens when someone doesn't follow the person who's taking charge. So you follow me. We get on that boat.\n\nAnd then we go home."
+    }
+  ]
+}

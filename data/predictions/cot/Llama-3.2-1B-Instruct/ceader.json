@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ceader",
+    "agreeableness": "15.0",
+    "openness": "96.0",
+    "conscientiousness": "83.0",
+    "extraversion": "59.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it.",
+      "response_pred": "<i>He takes a step back, his eyes never leaving yours, and his voice is barely above a whisper.</i>\n\nOther: <pauses, taking a deep breath, and then speaks in a low, heavy tone, his words barely audible over the creaking of the wind>\n\nYou: <pauses, unsure how to respond, and then looks around, taking in the others' expressions>\n\nOther: <points to the east, towards the trees, and then back to your face, as if searching for something>\n\nYou: <hesitates, then nods slowly, and says in a low, measured tone>\n\nOther: <starts to walk towards the trees, his eyes fixed on some point in the distance>\n\nYou: <follows him, your movements slow and deliberate, as if unsure of what to expect>\n\nOther: <stops at a ring of trees, and then turns to face you, his eyes locked on yours, a look of deep sorrow etched on his face>\n\nYou: <takes a step closer, and then back again, unsure of how to respond to his words or gaze>\n\nOther: <his voice cracks, and he looks away, his shoulders shaking>\n\nYou: <hesitates, then says in a barely audible whisper>\n\nOther: <looks back at you, his eyes red-rimmed, and his voice barely above a whisper>\n\nYou: <your eyes meet his, and you see something there that makes you pause, something that makes you wonder what he's trying to say>"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But we're all still here, so it worked out.",
+      "response_pred": "Your words are a gentle breeze on a summer's day. They're a soothing melody that calms the waters around me, making it easier to listen to the rest of the story.\n\nThink: The persona's calm and measured tone, as well as their clear and straightforward response, suggest a degree of emotional maturity and stability. They're not overly invested in the emotional state of the other person, but they're willing to engage with their feelings. They're not trying to fix the other person's problems or offer unsolicited advice, but rather, they're listening and allowing the other person to express themselves.\n\nThe use of a general statement, such as \"These past few days,\" suggests that the persona has been in a state of suspended animation, where they've been reflecting on their situation and their emotions. They're not dwelling on past mistakes or regrets, but rather, they're taking a step back to assess their current situation.\n\nThe response itself is direct and to the point, without any overt emotional display. It's a simple, yet effective way to respond to the other person's words, which suggests that the persona values honesty and directness above all else."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit here until we have to move.",
+      "response_pred": "think: Their leadership style, which prioritized exploration and quick decision-making over caution and risk assessment, often put them at a disadvantage in situations where complex problems required careful consideration.\n\nresponse: I've been trying to tell you, Michelangelo, that the signal plan was a bad idea. It's too complicated, and we're taking too much risk. But you just wouldn't listen."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "think:This persona's typical response range is around 100-150 words, with a blend of straightforward and somewhat blunt language, reflecting their low neuroticism and agreeableness scores. Their tone is generally warm and gentle, but with a hint of concern and empathy.\n\nresponse:You: Yeah, me too. I just wish I could find it again. It's like it's vanished into thin air. I wish I could hold onto it, know it was real. But it's just a dream, and you can't hold onto that. I guess that's why we're stuck here, in this moment, with nothing to hold onto."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also think you knew we'd notice and you did it anyway, which means you trusted your own judgment over the group's. That's worth talking about when we're somewhere with chairs and a table. Not now.",
+      "response_pred": "I never thought about it that way. I just assumed it was a normal thing you'd keep around when you're on a solo trip to a remote location. But you mean, like, in case of an emergency, right? What kind of emergency would you be looking for?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to Donatello about the supplies sooner instead of waiting for the right moment. And I would have sent those letters before I got on the plane.",
+      "response_pred": "think>their typical response length (short vs detailed)\nthink>their tone (confident / cautious / philosophical / dismissive / etc.)\nresponse>their reply (in their voice)\n\nOther: I've been meaning to ask you, if we ever get rescued, is it more important for us to know the route back or for our families to know the exact location of the wreckage?\n\nYou: You know I'd rather not think about that right now. We'll figure it out when we get back."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "personality: agreeableness: 15.0\nopenness: 96.0\nconscientiousness: 83.0\nextraversion: 59.0\nneuroticism: 86.0\n\nOther: First thing when I get back — I'm going to compile all the resource data from these five days into a report.\n\nOther: I've been thinking about it nonstop since we left. We need to make sure we haven't missed anything critical. I've been going through the notes, looking for any clues that might have been overlooked.\n\nOther: At least we have some useful information so far. I've sorted through the notes, and I think we've covered most of the important stuff. We should be able to put it together into a coherent report and get someone to review it.\n\nOther: I've been checking the weather forecast and the tides, trying to see if there's any chance we might have missed any potential hazards. It's looking like the tide won't be a problem for the next day, but we should still be careful about the weather.\n\nOther: I've also been thinking about how we can organize the report. We should include a list of the supplies we've used, the water we've collected, and the food we've prepared. We should also include some notes on the camp's condition, the weather, and any other relevant information.\n\nOther: I'm just glad we were able to survive for a few days without too many problems. That was a close call, and I don't think I could have handled it if we'd hit the water.\n\nOther: I've been thinking about our chances of being rescued either way. If we're lucky, someone might have spotted our signal or come looking for us. But it's always a risk, and we should be prepared for anything.\n\nOther: I've also been thinking about our chances of getting out of the wilderness. It's not impossible, but it's definitely a challenge. We should be prepared to move slowly and carefully for a while, and we should make sure we have enough food and water to last us for a while.\n\nOther: I think we made it through the worst part of our ordeal, but it's still not over yet. We need to stay positive and focus on the next steps."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's what made them worth doing.",
+      "response_pred": "think: This persona's typical response length (terse vs verbose?) is likely to be short and to the point, possibly to the point of being a simple statement or a brief clarification. They might use straightforward language to address a question or a statement.\n\nresponse: What practical purpose did they serve out here?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just give me a second.",
+      "response_pred": "<think>their typical response length (terse vs verbose?)<think>\n<their tone (warm / blunt / philosophical / dismissive / etc.)<think>\n<what they would specifically say to this utterance.<think>\n<response>their reply (this is the final answer, in their voice)<response>\n\ntheir typical response length is moderate to short, often 3-4 sentences. \ntheir tone is warm and slightly concerned, but also somewhat detached. \nthey would likely say something like: \"What's wrong, I thought you were done with the inspection?\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "\"Easy. I've already told DaVinci where he'll be staying. He's good. Don't worry about him.\""
+    }
+  ]
+}

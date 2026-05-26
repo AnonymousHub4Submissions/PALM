@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "anantyc",
+    "agreeableness": "53.0",
+    "openness": "17.0",
+    "conscientiousness": "16.0",
+    "extraversion": "10.0",
+    "neuroticism": "64.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's ok. Breathe.",
+      "response_pred": "\"Hey, what's going on? I thought we were having a nice meeting. Can someone please explain what's happening?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "\"Hey, I'm here for you. What's been going on that's making you feel that way? I'm not trying to push you to talk about it, but I'm here if you need to vent. We can grab coffee or just sit here and talk.\""
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up the bigger pieces of debris and tossing them to the side*",
+      "response_pred": "\"I think it's time we all headed back to the cabin,\" says Maria, her voice a gentle whisper. \"We can sit in there for a bit and collect our thoughts.\"\n\nTom pushes off from the rock and starts walking towards the cabin, his backpack slung over his shoulder. \"Yeah, I'm getting a bit tired. Can we get some dinner and then figure out what to do next?\"\n\nEmily trails behind them, her eyes fixed on the ground. \"I'm not really hungry. I just want to sit down and be quiet for a bit.\"\n\nThe three of them climb the cabin stairs and enter, the silence enveloping them like a warm blanket. Maria clears her throat to initiate conversation."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I'm really glad I'm not the only one who's been feeling a bit restless lately. There's something about coming home that just feels like a warm hug on a chilly day. Did you have a specific place in your dreams that you felt a strong connection to?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you saving it for, we almost ran out of food. I'm not gonna pretend it's fine, it wasn't. But it's done now.",
+      "response_pred": "I can put it in the cabinet."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably talk more. Not about tasks or plans, just... actually say things when something's wrong instead of keeping it to myself. I do that a lot, someone asks if i'm ok and i just say nothing because i figure they don't really care. Doesn't help anyone out here.",
+      "response_pred": "imagine being stuck in a small boat in the middle of an ocean with only a small rations and no communication device."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, send me a copy when you're done. Might be useful.",
+      "response_pred": "I'm looking forward to seeing how everything came together."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But not everything needs a practical purpose.",
+      "response_pred": "Those lovely sand dunes, they were our home, our shelter, our refuge. We'd build little shelters out of palm fronds and bring on food, water, and tools to make life more bearable. The sand itself, it's rich in nutrients, and the flowers, like the ones you mentioned, they're a source of food and medicine for many of us. But I think, if I'm being honest, the real purpose they served was as a reminder of our connection to the natural world and a way to honor the spirits that roam these dunes."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I just need a second.",
+      "response_pred": "*The silence stretches out, uncomfortable for both of you. The tension builds, with an undercurrent of unspoken emotions. The air feels thick and heavy, weighted with unspoken words and unresolved issues.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "I'll be right behind you, thanks. I'm not sure what's going to happen but I'll do my best to stay calm."
+    }
+  ]
+}

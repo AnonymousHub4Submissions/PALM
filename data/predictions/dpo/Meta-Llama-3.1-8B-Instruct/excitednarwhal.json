@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "excitednarwhal",
+    "agreeableness": "70.0",
+    "openness": "30.0",
+    "conscientiousness": "71.0",
+    "extraversion": "76.0",
+    "neuroticism": "16.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — it's real. That's real, okay? Somebody grab that radio.",
+      "response_pred": "*Notices the guy standing up, eyes red, and takes a step back, concern etched on my face* Oh man, are you okay? What's going on? Do you need something to drink or... *pauses, trying to gauge the situation and decide the best course of action*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what matters.",
+      "response_pred": "Aw, come on, don't say that. I'm just glad I get to spend time with you, even if you're a bit down. You know I'm always here to listen, and I'm not going anywhere. What's been going on that's got you feeling like this?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this place up a little — not gonna leave a mess on the beach. And somebody should make sure the signal stuff is still visible in case the rescue team needs to find us from the air. Mich, you good?",
+      "response_pred": "I guess we're all just too tired to talk anymore. I'm gonna go grab some more firewood, see if I can find some decent sticks. *gets up and walks away, whistling softly to myself*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I know what you mean. Sometimes I think about my family's farm back in Nebraska, too. It's funny how a place can feel like home even if you're not there anymore. I used to love riding my bike through those fields when I was a kid. Did you grow up in the same place as in your dream?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I believe you. But you wrote the rationing plan. You put it in the middle of camp for all of us to find. And then you kept food on the side. That's the part that's hard to get past.\n\nI'm not gonna drag it out — rescue is coming and we made it. But I think you knew it was wrong. That's why you put it out now.",
+      "response_pred": "You're finally admitting it, I've been telling you to get rid of that old thing for years. It's just taking up space and collecting dust. What's the point of keeping it around if it's not even useful anymore?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people sooner. I spent a lot of energy just kind of watching and waiting to see who was gonna fall apart instead of just... being straight with everyone from day one. Donatello, I should've called out the bottle the same night Mich found it. Didn't. Sat on it. That's on me.\n\nAnd I think I would've pushed harder to make sure everybody felt like they were actually part of this — not just useful, but actually in it together. Mich almost checked out completely and we kept throwing tasks at him instead of just asking if he was okay.\n\nWhat would you change?",
+      "response_pred": "You know, at first, I thought that was a pretty bold move, leaving that question there for me to answer. But the more I think about it, the more I like it. I mean, we've been so focused on getting everything right, making sure we're covering all our bases, that it's easy to forget to take a step back and think about what we could've done differently. But if I'm being honest with myself, there were a few times when I wish we'd moved faster, taken a few more risks. Like that meeting with the potential investor – I think we should've pushed harder to get a commitment from them. But overall, I'm pretty proud of how things went, and I think this report is going to be a great tool for us to learn and grow from."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. Make sure you put the part about the crackers in there.",
+      "response_pred": "Sounds like a plan, I was thinking we could do a joint meeting to review everything and make sure nothing's been missed."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nThat's kind of the whole point.",
+      "response_pred": "You're talking about those lovely little sketches of plants and flowers Leonardo da Vinci made on the beach. To be honest, I'm not entirely sure why he drew them there. But I've always thought that maybe it was just a moment of inspiration, a chance for him to relax and observe the natural world. DaVinci was known for his curiosity and love of learning, so maybe he was just trying to capture the beauty of the scene. It's not like he was drawing a map or making notes for a specific project, it was more like a little doodle, a moment of creativity."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.",
+      "response_pred": "*pauses, eyes fixed on you, a faint hint of confusion in his expression* Oh, hey, you okay? You've been standing there for a bit, and I was just getting the team pumped up for the game. Everything alright?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go! I've been waiting for what feels like hours to get out of here. I'm going to go talk to them and see what's next. You stay close, I don't want you to get caught in the chaos."
+    }
+  ]
+}

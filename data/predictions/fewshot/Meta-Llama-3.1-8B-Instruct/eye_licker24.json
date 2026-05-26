@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "eye_licker24",
+    "agreeableness": "1.0",
+    "openness": "30.0",
+    "conscientiousness": "30.0",
+    "extraversion": "86.0",
+    "neuroticism": "54.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\nSomeone go answer it before I do something embarrassing.",
+      "response_pred": "Don't try to speak, just sit back down and let's get some water in you."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You got the job done. That's what mattered out here.",
+      "response_pred": "You think?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's leaving this beach without at least stacking the materials we used. We're not the people who leave a wreck looking worse than we found it. Three hours is enough time to do it right.\n\nMichelangelo, I know you're enjoying the sky but you can enjoy it while you help. Come on.",
+      "response_pred": "Come on, people, we're not done for the day yet. I'm not going to start patching the food storage by myself. DaVinci, you're over there just staring at the wreckage, Michelangelo, you're just sitting there, and Donatello, you're... well, you're not doing anything at all. Let's get things done before the sun sets, we can't just sit around all night."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Don't get too comfortable with the idea of home, it's not like we're out of the woods yet."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if things had gone worse you might have been right. But we didn't need an emergency fund, we needed to trust each other, and those two things were always going to be in conflict out here.\n\nI'm not going to make a big thing out of it now that we're three hours from rescue. Just know that the rationing plan only works if the person writing it follows it too. You know that already. That's probably why you're laying it out now.",
+      "response_pred": "Good luck with that."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to you about the food and water on day one instead of waiting for you to bring it up yourself. That's the honest answer.\n\nAnd I'd have told Michelangelo sooner that keeping his head above water was already enough. He spent too much energy thinking he wasn't doing his part.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "Honestly? I'd probably change how I handled the first day. There were a few moments where I should've spoken up sooner, like when Donatello was taking more rations than she said were available. If I'd called her out on it then, it might've saved some headaches later on. But overall, I think we made do with what we had. We're still here, and that's more than I can say for a lot of people in our situation."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "Good idea, but make it six days. Tomorrow's going to be a long day and I don't want to have to dig through all this again when I get back. Add it to your list, we can debrief when I get back with the water, or better yet, you can start working on it now and I'll do the same with what I saw out there."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Honestly, I said it at the time, they're a waste of time. But the truth is, they helped. They helped DaVinci keep his head in the game, kept him from spiraling into that dark place he likes to get lost in. And they gave us something to talk about, something to do that didn't involve survival. That's not nothing."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Give me a minute.",
+      "response_pred": "*My gaze stays on him for a moment, the silence between us heavy with unspoken words. Finally, I break the silence.* You were really looking forward to this, weren't you?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Let's go. Stay close, and don't get your hopes up just yet."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "sublime_warthog",
+    "agreeableness": "11.0",
+    "openness": "50.0",
+    "conscientiousness": "10.0",
+    "extraversion": "4.0",
+    "neuroticism": "61.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "I'm speechless.",
+      "response_pred": "You: Hey... *pauses, not wanting to make a big deal out of the moment*... I think we should get some water from the stream. It's not far from here. *gets up and walks towards the stream, trying to ignore the emotional outburst*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. But you kept us alive. Both things can be true.",
+      "response_pred": "I would say: Come on. Let's get everything useful over here — move it.\n\nThis line suggests a somewhat confrontational tone, but it's also a practical and matter-of-fact response that indicates the person is trying to get on with their tasks. The use of the phrase \"I know I haven't been easy to be around\" also implies a sense of resignation and possibly even disappointment in the other person's behavior."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks at the sky too*",
+      "response_pred": "*pauses, still sitting alone, lost in thought*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Me too.",
+      "response_pred": "Person: I don't know about you, but I'll try. *pauses* I've been having some trouble sleeping lately too. *looks away* \n\nOther: What do you mean? You're not still worried about the raft? \nYou: No, no. I just... I've been thinking about it a lot, and I don't know if it's such a good idea. *hesitates*"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we were the emergency.",
+      "response_pred": "Your tone is cautious and practical, with a hint of unease. You're trying to be prepared, but you're also hesitant to make a big deal out of it. You're not sure if it's worth mentioning, but you're willing to consider sharing it with others.\n\nYour sentence structure is straightforward and to the point, with a focus on conveying your thoughts and feelings through simple, direct language. You're using a moderate level of vocabulary, with a mix of short and longer sentences to create a sense of flow.\n\nYour word choice is straightforward, with a focus on basic, everyday words. You're not using overly complex or abstract language, which suggests that you're trying to convey your thoughts and feelings in a clear and direct way, without being too poetic or flowery.\n\nOverall, your response is quite introspective and guarded. You're not revealing much about your private thoughts or feelings, but you're also not trying to be secretive or evasive."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd write 'remember' instead of 'don't forget' in a few places. And I'd have talked to you sooner about the food.",
+      "response_pred": "Other: *Looks up, slightly surprised, and then nods* There's one thing... I would change."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you'd actually do.",
+      "response_pred": "Other: I'll help you with that. We should start by creating a timeline of events, then organize the data by category. I've already started working on the report.\n\nOther: What about the shelter? We need to make sure it's safe and secure.\n\nYou: I'll add that to the list. But first, let's get the food storage checked. I don't want to give you anything to carry.\n\nOther: Okay, but if we don't have enough water, I'm blaming you.\n\nYou: That's not exactly a problem, but I see what you're getting at. Anyway, let's get the shelter organized."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that's exactly why they mattered.",
+      "response_pred": "Your tone is calm, matter-of-fact, and slightly puzzled. You're asking a question that you've probably thought about before but haven't really had time to explore. Your curiosity stems from the fact that you're not sure what DaVinci's artistic expression was trying to convey, and you're wondering how a simple drawing on the beach could have any practical significance. You're not trying to be critical or dismissive of DaVinci's art, but rather, you're genuinely interested in understanding the meaning behind his creative expression."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing, I think.",
+      "response_pred": "Other: *The silence stretches out for a moment, then he turns and walks away, disappearing into the distance. He doesn't look back, just keeps moving, leaving the tension between us unresolved.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "*pauses, looks around cautiously, then nods slightly* Yeah. I'm coming. *starts to gather what's left of the supplies, careful to be as quiet as possible, then begins to walk towards the rescue team, who have arrived with a small boat*"
+    }
+  ]
+}

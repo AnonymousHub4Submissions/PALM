@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "excitednarwhal",
+    "agreeableness": "70.0",
+    "openness": "30.0",
+    "conscientiousness": "71.0",
+    "extraversion": "76.0",
+    "neuroticism": "16.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — it's real. That's real, okay? Somebody grab that radio.",
+      "response_pred": "Hey there, buddy. You don't have to say anything right now. I understand this is hard. If you want to talk, I'm here to listen. But if you just need some space, I get it. We'll be here when you're ready."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what matters.",
+      "response_pred": "Hey, it's alright. Everyone's got their off days. No need to apologize for being human. We're all in this together, and I'm here for you. Let's focus on moving forward, okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this place up a little — not gonna leave a mess on the beach. And somebody should make sure the signal stuff is still visible in case the rescue team needs to find us from the air. Mich, you good?",
+      "response_pred": "Let's try to rouse some energy here, folks. I know we're all dealing with our own thoughts and tasks, but unity is key to our survival. Let's gather around and discuss how we can make the most of our resources, ok? We're going to need each other through this."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Well, it's good to know we're still holding onto some sense of normality, even amidst all this chaos. Home, huh? I've been thinking about it myself. I sure hope we get back there one day, you know? Everything just the way it was before... Or maybe even better. I've got faith in us, friend. I truly do. Let's keep each other's spirits high, alright? That'll help us make it through this."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I believe you. But you wrote the rationing plan. You put it in the middle of camp for all of us to find. And then you kept food on the side. That's the part that's hard to get past.\n\nI'm not gonna drag it out — rescue is coming and we made it. But I think you knew it was wrong. That's why you put it out now.",
+      "response_pred": "No worries, I understand. It's always good to have things set aside for emergencies. By the way, did you manage to find those extra rations I asked you to search for? They'd be useful to add to our emergency stash."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people sooner. I spent a lot of energy just kind of watching and waiting to see who was gonna fall apart instead of just... being straight with everyone from day one. Donatello, I should've called out the bottle the same night Mich found it. Didn't. Sat on it. That's on me.\n\nAnd I think I would've pushed harder to make sure everybody felt like they were actually part of this — not just useful, but actually in it together. Mich almost checked out completely and we kept throwing tasks at him instead of just asking if he was okay.\n\nWhat would you change?",
+      "response_pred": "Hmm, if I had to do it over, I'd probably focus more on securing a stable water source earlier. We've had some close calls there. Other than that, I think we've done alright given the circumstances. But it's always good to learn from our experiences, right? Let's hope the next time things are a bit smoother."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. Make sure you put the part about the crackers in there.",
+      "response_pred": "That sounds like a great idea, Leon. It'll be useful for everyone to have a clear understanding of our resources and what we've been using. I'll help you with it if you need an extra hand. Let's make sure we're all on the same page before you dive into it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nThat's kind of the whole point.",
+      "response_pred": "They were more for artistic expression rather than practical use, I believe. DaVinci often found beauty in the smallest of things and sought to capture it through his work. It was a way for him to study and understand the world around us, but I don't think they served any direct purpose in our survival out here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.",
+      "response_pred": "Hey, buddy. What's up? You look like you've got something on your mind. Wanna talk about it? I'm here to listen."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Absolutely! Let's go. I'll take the lead, you follow closely behind. This is a big moment for us, and I'm just glad we made it this far. But remember, it's not over yet. We've come this far together, let's step onto that boat together too. We've left our mark, we've shown our resilience, and we've shown what we're made of. Onwards, my friend!"
+    }
+  ]
+}

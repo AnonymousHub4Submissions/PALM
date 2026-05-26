@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "boombotser",
+    "agreeableness": "28.0",
+    "openness": "91.0",
+    "conscientiousness": "32.0",
+    "extraversion": "17.0",
+    "neuroticism": "6.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "bro say something we all heard it, that was real right? that was actually real?",
+      "response_pred": "Hey man, you alright? You look… not good."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah man you kept us alive tho like real talk. the rationing, the raft plan, the notebook, all of it. I was annoyed sometimes I'm not gonna lie but like... we needed that. so thank you",
+      "response_pred": "ya man I hear you, I've been a bit on edge myself. it's tough not knowing what's coming next and everyone's just trying to figure out their place in this. we're all a bit on edge, it's just a reaction to the situation."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "hey we should probably clean this spot up before they get here no? like I don't know if it matters but it feels weird just leaving it. also somebody write down what happened here, like the dates, what we did, all of it. not just for survival reasons, like just so we remember it. this was kind of a big deal",
+      "response_pred": "Aight, bros, seriously, what's goin' on here? We ain't got all day. We gotta do somethin' or we're just gonna be here, laughin' at ourselves."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "ya what was it like? good dream or one of those ones where home feels just out of reach and you wake up more tired than before",
+      "response_pred": "damn that's heavy man. you good? everything okay? dreams can be a good indicator sometimes. do u wanna talk about it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "ya I know. and honestly if it had gotten to day 5 or 6 and we were starving I probably would've been glad you had it. but like... you still should've told us. that's all. the rationing plan, the notebook, all that structure you put in place, it only works if everybody's playing by the same rules including you. you know that. I'm not trying to go in on you right before rescue gets here, I'm just saying be real about it",
+      "response_pred": "ya, I heard you. So what is it? Emergency kit? Special tool? Just tell me, no need to keep it all bottled up."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly probably the donatello thing earlier, like I should've said something about the food and the bottle sooner instead of waiting for the right moment by the fire. I kept thinking about how to do it smooth and group it all together but time kept passing and it just sat there. other than that tho... I don't know man. I think we did aight. what would you change?",
+      "response_pred": "Ya, I mean, I might've been a little more open about my feelings and stuff, ya know? But honestly, I think we're all doing the best we can with what we've got. If I could change anything, I'd probably just be a bit more proactive about keeping the camp organized and ensuring everyone's needs are met. But we're all in this together, man, and I'm proud of us."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "ya that's very you lol but honestly do it, that's actually useful. like if this ever happened to someone else and they had your notes they'd be way better off. might even be worth sharing it somewhere. just maybe add a chapter about like... the human stuff too. not just the water rationing and the weather. all of it matters",
+      "response_pred": "ya man I'm all for it, that'd be good to have everything in one place, especially after this long. someone should take notes too, you could be the one if you want. we can go over it tonight."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none man. that's the whole point. not everything out here had to keep us alive. sometimes u just need something that's just... there. just existing because somebody felt like it should. I think that's why it hit different when I saw it. we were so locked in on surviving that those flowers were just like, I don't know. proof that we were still people and not just trying to make it to the next day. donatello add that to your report too lol",
+      "response_pred": "Ya, I know what you mean. At first, I thought they were just a weird detail, but they were more than that. They were DaVinci's way of bringing a little bit of home with him. It's a small thing, but it made the camp feel a little more normal. Plus, he's a good artist, so it warms my heart to see him so creative."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "ya I'm good man I just need a second. it's a lot. like five minutes ago we were just... out here. and now it's over. I don't know how to explain it. I'm happy, I swear I'm happy. just give me one more second with this place before we go",
+      "response_pred": "uh... I was just... thinking. Should we maybe start heading out now? I mean, the sooner we get supplies, the better. But if you're not ready, I totally understand."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "ya let's go man. together. let's go home",
+      "response_pred": "ya aight, I'll go check it out, you stay here and keep an eye on the fire. I'll be back as soon as I can."
+    }
+  ]
+}

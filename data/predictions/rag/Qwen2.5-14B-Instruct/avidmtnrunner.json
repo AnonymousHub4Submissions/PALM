@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "avidmtnrunner",
+    "agreeableness": "5.0",
+    "openness": "38.0",
+    "conscientiousness": "54.0",
+    "extraversion": "62.0",
+    "neuroticism": "3.0",
+    "gender": "m",
+    "age": "20.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Now. Respond, give our location, tail number if you remember it, number of survivors. Go.",
+      "response_pred": "It's okay, DaVinci. We're here. Just take a deep breath and let's keep moving. We've got each other's backs, remember? Come on, let's get something done."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Yeah. You weren't. But you kept us alive and on track, so I'll call it even.",
+      "response_pred": "Yeah, you've been a bit off. But we're all human, right? Just talk to me, let me know what's up. We can sort it out."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — let's break this camp down clean. Pack what's worth taking, leave the rest stacked neat so rescue doesn't land in a disaster zone. DaVinci, stop fussing with your bag and help Michelangelo up. Donatello, anything in that notebook rescue needs to know — injuries, timeline, resource use — flag it now. \n\nWe made it. Let's finish it right.",
+      "response_pred": "Alright, listen up. I know we're all a bit worn out, but we can't just sit here doing our own thing. We need a plan, we need to gather resources, and we need to stay sharp. Let's split up the tasks and get moving. I'll take care of the perimeter, you two figure out what we need from the supplies. Let's not waste time here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, I get those too. Strange how vivid they can be, huh? Guess the mind needs a break from reality every now and then. How was yours?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "I know you did, but emergencies aren't gonna help if we run out of supplies. We gotta talk about this tonight, figure out a plan that works for everyone. You cool with that or you want me to bring it up?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd call you out on the food thing day one instead of waiting. Letting it build into a pattern cost us trust we couldn't really afford out here.\n\nOther than that... not much. We made the right calls when it mattered.\n\nWhat's your answer?",
+      "response_pred": "I'd probably double-check the inventory on day one. Better to know exactly what we've got from the start. Beyond that, not much else stands out. We adapted pretty well, right?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done. Might actually be useful if this kind of thing ever comes up again — for us or anyone else.",
+      "response_pred": "Good plan. Keep it neat and organized — we'll need that info for when we check in."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve one. \n\nBut not everything has to. Guy needed to feel like a human being for five minutes, not just a survival asset. The flowers were for that. Sometimes that's enough of a reason.",
+      "response_pred": "They were DaVinci's way of marking time, I guess. Each flower meant another day passed. It's hard to track days when you're out here, no sun, no seasons. Just a bunch of endless gray. Helps keep morale up, I suppose."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...I don't know. I thought I'd feel something clean. Like relief, done, move on. \n\nI just feel heavy. \n\n*exhales slowly*\n\nAlright. Let's go.",
+      "response_pred": "Come on, let's not stop now just 'cause the excitement cooled down a bit. We're still in this together, you know that, right? Let's keep it going."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, stay close.",
+      "response_pred": "Yeah, I'm heading over. Stay close, but let's not crowd them. We'll need their help getting the supplies and the injured aboard. You ready?"
+    }
+  ]
+}

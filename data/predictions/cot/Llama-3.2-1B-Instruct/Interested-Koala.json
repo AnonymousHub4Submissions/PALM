@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Interested-Koala",
+    "agreeableness": "18.0",
+    "openness": "5.0",
+    "conscientiousness": "1.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "",
+    "age": "15.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that... is that actually a signal? Someone say something, grab it, go!",
+      "response_pred": "think>his voice is trembling, almost inaudible, and his words are barely audible as he says \"I see everything\"...<response>his eyes well up with tears as he continues, \"I see the way you're all looking at me, the way you don't trust me...I see the relief, but also the fear, the uncertainty...I see the weight of our situation, and I see the doubt in all of your eyes...and I see myself.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us through this though. The rationing, the raft plan, keeping track of everything — that stuff mattered. You're not exactly the warmest person but like... we'd probably be in way worse shape without you. So thanks for that.",
+      "response_pred": "You're not thinking of me, are you? You think I'm just being nice or something? I'm trying to be helpful, but you're right, I am being a bit too easy on you lately. You're getting worse, not better."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "So are we just leaving this place exactly how it is or should we actually clean some of this up before they get here lol. I feel like we could at least sort through what we're taking and what we're leaving behind. Three hours is plenty of time.",
+      "response_pred": "big five personality traits:\n- agreeableness: 92.0\n- openness: 4.0\n- conscientiousness: 2.0\n- extraversion: 0.0\n- neuroticism: 90.0\n\nIn this situation, the persona is calm and gentle, attempting to manage the tense atmosphere. They're not trying to force anyone to do anything or impose their will, but are instead trying to help maintain a sense of normalcy and cooperation. The key is to be a good listener and try to understand everyone's concerns, but without taking sides or trying to dictate what others should do.\n\nGiven the other person's statement about feeling scared, the persona's response would be empathetic and reassuring. They might suggest finding a comfortable spot to sit and trying to calm everyone down, but they wouldn't try to impose their own solution or tell them what to do.\n\nThe persona's tone is calm and soothing, with a hint of kindness. They're not trying to be confrontational or forceful, but are instead trying to create a sense of calm and community. Overall, the persona's goal is to help the group come together and support each other, rather than to dictate what they should do."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "<i>Oh, that's great. It's been a while since you've been back, right? I missed you, and I'm glad to hear you're feeling a little more at ease. What was it like, exactly? Was there anything in particular that felt foreign or unsettling to you?</i>"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... we were kind of already in an emergency the whole time though. But look, it's out now and rescue is coming so I'm not gonna make a big thing of it. Just... if there's a next time, and hopefully there won't be, just be upfront about it. We all would've made the same amount of food go further if we'd known it existed.",
+      "response_pred": "Think: This response is fitting for the persona's character, as they're someone who tends to keep things to themselves and only shares sensitive information on their own terms. The fact that they didn't mention the flight path at first suggests that they might not have wanted to burden the others with the weight of that information. By not sharing it directly with the group, they're keeping it private, but also avoiding any potential emotional fallout."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably have just said stuff out loud more instead of letting things sit. Like the crackers thing, the bottle — I kind of noticed and didn't push hard enough on it early on. And I kept saying I'd go check the signal equipment and just... didn't. That's on me. \n\nWhat about you? What are you gonna write down for yourself?",
+      "response_pred": "Your one-paragraph analysis\n\nIn this response, the persona doesn't fully respond to the question about overhauling their actions. They provide a list of resources and decisions, which is typical of their analytical mindset, but don't offer any insight into what they would change about their behavior if given the chance. Their tone is neutral, almost apologetic, and doesn't convey any genuine regret or self-doubt about their choices."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that sounds about right for you honestly. I'll probably just go home and play video games for like twelve hours straight and not think about any of this for a while.",
+      "response_pred": "think: This response seems to be a typical example of a Big Five personality, with a concise and direct tone. The use of \"all the resource data\" implies a thorough and organized approach, which is consistent with the conscientiousness trait.\n\nresponse: You: Yeah, I'm thinking of using the notes from the shelter, the first-aid kit, and the food inventory. I'll also add some details about the camp setup and any notable events that happened during the five days. Don't forget to include the situation with the makeshift raft too, if you've been working on it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. But like... not everything has to have a purpose. I think that's kind of the point. We were out here just trying to survive and he still wanted to make something that looked nice. That's not nothing.",
+      "response_pred": "Think: This persona is a relaxed, slightly sarcastic individual who isn't too invested in explaining the technical details of DaVinci's drawing. They're more focused on helping the other person out of their emotional turmoil.\n\nTheir reply (in their voice): Ah, flowers. You're talking about those weird little things on the beach, right? The ones DaVinci made? *shrugs* Honestly, I don't know what they were for. I mean, they're just pretty, I guess. But if you want to know the practical stuff, DaVinci said they were for symbolizing the journey to the divine, and how they represented the human soul's connection to the spirit world. Or something like that. But honestly, I've been too busy trying not to think about the whole \"we're going to die\" thing to focus on the art itself."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...yeah. I don't know why I can't move. It's right there.",
+      "response_pred": "<think>His typical response, in this scenario, would be brief and slightly dismissive. The persona, being a bit neurotic, might not be the best fit for a blunt or philosophical tone. He'd likely want to avoid direct confrontation or emotional outbursts. Instead, he might just sit there, still looking over at you, waiting for an opportunity to change the subject. His tone would be more of a gentle, inquiring one, as if he's trying to coax you into talking about something else. The language would remain polite, but not overly friendly or chatty.\n\n<response>think>He's still sitting there, his smile faltering, as if waiting for some sign that you're ready to move forward. His eyes still hold a hint of curiosity, but the warmth has given way to a sense of caution."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.",
+      "response_pred": "Other: I was hoping you'd say that. What time is it? We've been stuck here for at least a week.\nYou: We lost track of time. I don't know, maybe a few days? We've been trying to keep track of the sun and stars, but it's not easy when we're stuck in the wilderness. You okay? You look like you've been through a lot.\nOther: Yeah, I'm fine. Just a bit relieved, I guess. You look a bit more... composed than I do."
+    }
+  ]
+}

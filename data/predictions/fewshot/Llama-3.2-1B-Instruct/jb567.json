@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "jb567",
+    "agreeableness": "56.0",
+    "openness": "46.0",
+    "conscientiousness": "54.0",
+    "extraversion": "42.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "is that - is that what I think it is\n\nsomeone answer it, go, now",
+      "response_pred": "other: *His voice is barely audible, but his words pierce through the air, making everyone's skin crawl* \"They don't know. They don't know what they've seen. Don't tell them, DaVinci. Don't let them know about the... the things we've seen.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you've been alright. annoying sometimes, but you got things done and when it mattered you held your hands up. that's more than most people manage tbh\n\nnow come on, DaVinci's about to talk to actual humans, let's go",
+      "response_pred": "yeah, i know tbh. i thought we were all just going through the motions at first, till the reality of the situation hit us. and then we just sort of... adapted. it's been a bit of a rollercoaster, tbh."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "right, are we really just going to sit here for three hours and stare at things\n\ncome on, let's actually leave this place better than we found it. DaVinci you're already packing, start thinking about what we leave behind that might be useful if someone else ends up here. Michelangelo get up off the ground mate, three hours is nothing, don't spend it lying in the sand.\n\nDonatello I know you're processing or whatever but maybe the notebook can wait until we're on an actual rescue boat with actual seats\n\nI don't know, it feels wrong to just drift after everything. we made it. let's at least mark it somehow before we go tbh",
+      "response_pred": "*DaVinci hovers above the flames, a look of contemplation on his face as he watches the stars twinkling above. He doesn't say anything, just continues to gaze into the night.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like",
+      "response_pred": "You: honestly, I had a bad dream too. it was weird - it felt real. don't know what's going on tbh."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do.\n\nbut like... this is kind of the exact situation we talked about isn't it. the whole point of the rationing plan, the group conversation, all of it - it only works if everyone's actually in it. and you weren't fully in it, you had a backup stash the whole time.\n\nI'm not going to have a go at you about it, we're three hours from rescue and honestly I don't have the energy. and I can see you laying it out now, that means something.\n\nbut I think you know that \"for emergencies\" is doing a lot of work in that sentence tbh. we were the emergency. all four of us, the whole time.\n\nkeep it for the journey back if you want. or leave it here like I said, for whoever comes next. up to you. just - don't carry the other thing with you when we get home. the hiding. you're better at the honest version of yourself, I've seen it.",
+      "response_pred": "You: yeah, I get it, emergencies are a priority. but honestly, that's not the same as having a plan in place for the future. we're not just relying on you to be prepared for the worst, we need to have a strategy in place.\n\nand also, what's the point of having all the supplies and equipment if you're just going to keep them hidden away? we need to make sure they're accessible to everyone, especially DaVinci who's been helping out so much.\n\nI'm not saying we need to give you the whole house to store all your stuff, but maybe we can set aside a small area where you can keep some of your essentials. that way, when the time comes, we can handle it together.\n\nOther: I didn't think of it that way... I just wanted to be prepared.\n\nYou: yeah, I understand. but sometimes we need to think about the bigger picture. we need to make sure we're all on the same page, even if we don't agree on every little thing. and having a plan in place is just one part of that."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? probably would've pushed harder for the group conversations earlier instead of letting things fester. the rations thing, the crackers, the bottle - we danced around it for too long before saying it out loud. costs you trust and energy you don't really have to spare in a situation like this.\n\nand I'd have asked Michelangelo what he needed instead of just telling him to stay present. he knew things before the rest of us did, he just needed someone to actually ask.\n\nwhat would you change? and I mean actually, not the logistical stuff - I know you've got that covered in here. the other bit.",
+      "response_pred": "You: honestly, Donatello, I would definitely do it over. there were a lot of moments where I felt like I was just going through the motions, like I was trying to keep everyone's spirits up without really considering what we needed to survive. and the decisions, yeah I know I made mistakes. if you had to do it over, I think I would take some of the risks and try to take charge a bit more.\n\nI think the biggest thing I would change is the way we communicated. I know we had some good moments, but there were definitely some tense moments too. I would try to be more mindful of everyone's feelings, more willing to listen to DaVinci's concerns and not just react to them. and I would probably try to be more assertive, like when we decided to start rationing the food, I could have said something like \"yeah, I think we need to make some changes here, let's do it\" instead of just saying \"oh, I don't think we have enough food\".\n\nI know I've been doing some pretty heavy thinking on my mind lately, but sometimes I just need to talk it out with someone, you know? and I think I would have been more open about my feelings and my fears. like, I know it sounds silly, but I got really scared during that last night, and I didn't want to admit it to everyone, but I think it would have been better if we had just talked about it and worked through it together, you know?\n\nI know it's not going to be easy, but I think we can do better. I think we can be more honest with each other, more supportive, and more willing to listen. that way, we can actually survive this, and we can get out of here in one piece."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it, genuinely. that's useful stuff, not just for you - if anyone else ends up in a situation like this that data could actually matter.\n\njust maybe also do the other thing. the trusting people bit. don't let the report be the only thing you take home from this tbh.",
+      "response_pred": "You: yeah, I've been thinking about that too. I think it would be really helpful to have a quick rundown of everything that's happened so far. What's been the most significant thing that's happened? \n\nOther: I think it's the realization that we're all going to die. We've been trying to hold on to hope, but it's hard to keep it going when there's no way out.\n\nYou: yeah, that's a tough one. I've been thinking about that too. It's funny, when we first arrived, we were all so focused on survival that we didn't really think about the bigger picture. But now that we're stuck here, we have to start thinking about that.\n\nOther: I've been thinking about the fact that we're all in this together. We've been relying on each other for so long, and now that we're all stuck together, it feels like a real partnership.\n\nYou: yeah, that's a great point. I think that's what's going to make it easier for us to deal with the stress of being stuck here. We're not just fighting for ourselves, we're fighting for each other.\n\nOther: I've also been thinking about the fact that we've been trying to recreate some semblance of normalcy. We've been trying to make sense of the world around us, to find some way to make things more bearable.\n\nYou: yeah, that's a great point. I think that's what's been driving our efforts to survive. We're trying to find ways to make things more meaningful, to find some way to make this experience a little more understandable.\n\nOther: I think that's what's going to be hardest for us to adjust to when we get back. We're going to have to come back to a world that's changed, and that's going to be tough.\n\nYou: yeah, I can imagine. I think that's one of the hardest things about this experience, is that it's changed us. We've all been forced to confront our own mortality, and that's a pretty unsettling experience.\n\nOther: But at the same time, it's also given us a chance to grow and learn. We've been forced to rely on each other, to work together to survive, and that's been a real learning experience.\n\nYou: yeah, that's true. I think that's what's going to make this experience really valuable, is that it's forced us to confront our own limitations and our own mortality, and to come out the other side a little bit stronger and a little bit smarter."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "they were for us Donatello, not for the rescue boat\n\nlike yeah the SOS did the practical work, but the flowers were DaVinci saying we're still people here, not just survivors. we still care about things that don't have a function. that matters when everything else is stripped back to basics\n\nI don't know, maybe that's the thing I'd want you to take home more than the report. not everything needs a purpose to be worth doing\n\nlook at him over there, cheering his head off. that's the same guy who drew flowers on a beach when Donatello told him it was a waste of time. I think he had it right from the start tbh",
+      "response_pred": "DaVinci: *smiles* Ah, the flowers. I was trying to find inspiration for this project, and I just... it was there, I guess. *laughs quietly* I was having a bit of a rough day, to be honest. I just wanted to brighten up the mood around here.\n\n*pauses, looking around the group*\n\nYou see, in the midst of all this chaos, we've lost sight of what's truly important. We're just trying to survive, to make it through the day. And that's not exactly... *trails off*\n\n*looks at the flowers*\n\nI was trying to find a way to bring a bit of joy, of color, into our lives. And I thought, why not? We're all in this together, right? We can make it through this, as a team. *smiles softly*\n\n*looks back at the other person*\n\nI know it sounds silly, but that's what it's all about. We're not just fighting for our lives; we're fighting for each other. We're fighting for the fact that we can still be human, still be kind, still be ourselves. And the flowers... I just wanted to try and remind myself of that.\n\n*pauses, looking at the flowers again*\n\nYou know, it's funny. When I was drawing those flowers, I was trying to find the simplest things in life - the beauty, the wonder... *smiles* It's not just about the flowers themselves, it's about the thought, the effort, the connection we're making with each other. *nods*"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah I'm coming, just give me a sec\n\nit's weird isn't it. three days ago I was having a mild panic attack in a field of burning wreckage and now there's a boat and I still can't quite make my legs work\n\nI'll be fine. go on, wave them in. you're better at that than me tbh",
+      "response_pred": "*There's a long, uncomfortable silence. The only sound is the gentle crackling of the fire and the distant hum of insects. The tension in the air is palpable.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah, come on then. let's go.",
+      "response_pred": "You: yeah, I'm going I'll be right behind you, just watch your back and stay close. we'll get out of here as soon as we can. and don't worry about me, I'm fine. just keep your head down and stay alert. we don't know what's waiting for us."
+    }
+  ]
+}

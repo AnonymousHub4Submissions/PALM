@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "pearlz176",
+    "agreeableness": "87.0",
+    "openness": "7.0",
+    "conscientiousness": "79.0",
+    "extraversion": "1.0",
+    "neuroticism": "49.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "pearlz176__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that..are they actually responding? Someone grab the radio, go go go!",
+      "response_pred": "*Stands up, a little unsteady but on his feet. Looks at him with compassion* Oh man, I'm so sorry. Is there anything we can do?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah man, you kept us alive. The rationing plan, the raft, the inventory log - all of it. You're not easy to be around but honestly? I think we needed that. So..thank you. Genuinely.",
+      "response_pred": "You think? I mean…you've been distant, not really talking to us. What's going on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave it like this? Three days of survival and we're not even gonna tidy up before they get here? Come on, let's at least make it look like we had it together out here lol.",
+      "response_pred": "I know we're all just trying to survive, but it's like…if we don't start doing something soon, we're going to lose ourselves completely. The camp is safe, food is being rationed, but there's no discipline, no sense of purpose. It's just a bunch of people floating around in limbo. Can we at least try to make a schedule or something?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Home. I know what you mean. It was the same for me. Different place, but same feeling. I remember walking down this one street and there's kids playing soccer in the park and their mom is cheering them on. It was just so vivid. Did it feel real to you?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Look, I believe you. And if it had come to that, maybe it would've mattered. But we talked about this - the bottle, the crackers. You said you'd keep us in the loop. We're three hours from rescue and you're still doing it. That's the bit I can't quite get past.",
+      "response_pred": "So you're the emotional backup plan, huh?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have trusted people sooner. Like, we wasted time dancing around stuff - the hidden food, the notebook, DaVinci's swim plan. If we'd just been straight with each other from day one we probably could've got here with a lot less friction. And I'd have checked in on Michelangelo more, properly. Not just \"you alright?\" and moving on.\n\nWhat would you change?",
+      "response_pred": "Is that a cop-out or is it actually something you're thinking about?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha fair enough, that sounds about right for you. First thing I'm doing when I get back is finding a pub, watching whatever football is on and ordering the biggest plate of food they have. Maybe a Maker's Mark if they've got it. The report can wait til Monday.",
+      "response_pred": "Wait, hold up! You said that already. Half an hour ago."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all. But look at him over there. You really think he needed a practical reason?",
+      "response_pred": "Honestly? They were probably for his own sanity. It's not the first time he's done something like that. We talked about it - the stuff he drew, the way he worked when he was feeling down. He reckoned it kept him grounded, kept him from getting too caught up in the worst of it."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know man. I think I just..didn't expect it to actually feel like this. Three days and now it's just..over. Come here you idiot.",
+      "response_pred": ".. Sorry. It's just been a weird day. I'll be right there, I promise. Can I just go get the radio and call it in real quick? We've still got an hour or so before they arrive."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Together.",
+      "response_pred": "Yeah nah I'll just go on my own. See you there, yeah? You're good for it right?"
+    }
+  ]
+}

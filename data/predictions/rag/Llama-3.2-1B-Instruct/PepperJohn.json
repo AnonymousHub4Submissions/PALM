@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PepperJohn",
+    "agreeableness": "17.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "92.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "\"Hey, we're here for you,\" I say softly, taking a step closer to him."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "I'll give it a shot.\n\nOther: These past few days… I know I haven't been easy to be around.\nYou: Honestly, I think it's because I've been trying to fill up some of the gaps in my life. I've been carrying around a lot of emotional baggage and I'm not sure I'm ready to let go of things."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — pack up what's worth keeping, leave the rest. Donatello, tear out whatever pages of that notebook matter and bring them. Michelangelo, get up, help me with the fire.",
+      "response_pred": "I'll sit here with you, my friend."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "My heart skipped a beat as I listened to your words. I felt a wave of concern wash over me, and I knew I had to ask. \"Do you have any idea what might have triggered this dream, or is it just a random flight of fancy?\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what an emergency is. An emergency is all of us, not just you deciding when it counts. We talked about this already — the drink, the crackers, and now this. I'm not going to make a big thing of it with three hours left, but don't pretend it was purely strategic. You kept it because you kept it. Just be honest about that.",
+      "response_pred": "\"Good thinking, I should have thought of that.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the supply issue earlier instead of waiting for it to pile up. And I would've asked Michelangelo about the flight path on day one — that was information we needed and none of us thought to ask. Everything else, I think we did alright given the circumstances.\n\nWhat would you change?",
+      "response_pred": "I'd make sure to have a detailed inventory of our possessions and supplies, including any items that could be sold or used for trade, and also to have a written plan for how to allocate them and prioritize our needs."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done.",
+      "response_pred": "\"Can't wait to get that done. I've been meaning to get a better picture of our situation. What's the plan for distributing the resources? Have we accounted for any potential shortages or waste?\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "\"We were camped near the sea, and he wanted to create something ephemeral to remind us of the beauty and fragility of life. He called it a 'pontifixio di bellezza' – a bridge of beauty. It was a symbol of the transience of life and a reminder to appreciate the simple things. I just...I didn't know what to think about it at first, but it's definitely become one of my favorite things from this trip.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm coming. Just give me a second.",
+      "response_pred": "\"Hey, what's going on? You look like you've seen a ghost. Is everything okay?\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "I'd be happy to match this voice with a possible response. Here's a possible response:\n\nOther: Oh my god, is this real? We made it?\n\nMe: (laughs) Yeah, it's real. Your family is going to be okay. You're safe.\n\nOther: (nervously) No, no, no, I don't want to go. I want to see them, I want to hold them.\n\nMe: (soothingly) I know it's hard, but you're not going anywhere. You're going to be okay. You're safe now. Let's just take some deep breaths and get through this together."
+    }
+  ]
+}

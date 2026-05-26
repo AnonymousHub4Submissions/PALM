@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "anantyc",
+    "agreeableness": "53.0",
+    "openness": "17.0",
+    "conscientiousness": "16.0",
+    "extraversion": "10.0",
+    "neuroticism": "64.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's ok. Breathe.",
+      "response_pred": "I don't have a lot to say right now. Can you guys help me get something to eat or drink, please? I'm really feeling off today."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "I know you've all been dealing with a lot. I get nervous around people who are stressed or frustrated, and I've been feeling pretty anxious myself. I don't want to jeopardize our chances of surviving, and I hope my behavior hasn't been hindering us. Let's focus on getting through this together, okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up the bigger pieces of debris and tossing them to the side*",
+      "response_pred": "Looks like we need to decide on a course of action. I'll check the signal equipment, DaVinci, you and Michelangelo can rest. No use in arguing about it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Same ol' dream, huh?*"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you saving it for, we almost ran out of food. I'm not gonna pretend it's fine, it wasn't. But it's done now.",
+      "response_pred": "Emergencies are for real emergencies, not small stuff."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably talk more. Not about tasks or plans, just... actually say things when something's wrong instead of keeping it to myself. I do that a lot, someone asks if i'm ok and i just say nothing because i figure they don't really care. Doesn't help anyone out here.",
+      "response_pred": "I'm not sure what you mean. We've covered everything. Just focus on moving forward and staying focused on our priorities. If we need to revisit anything later, we'll have a clear record here."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, send me a copy when you're done. Might be useful.",
+      "response_pred": "Good idea. Let's get it done before nightfall."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But not everything needs a practical purpose.",
+      "response_pred": "You know, DaVinci probably didn't draw those flowers for any specific practical reason. Sometimes people make art just for the sake of expressing something meaningful to them. For DaVinci, those flowers might have represented hope or a reminder of home. What matters isn't the practicality but the emotional connection and the effort to keep spirits up."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I just need a second.",
+      "response_pred": "What's going on? You look… different."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Yeah, let's go. Follow me, keep moving. Just don't look back until we're clear of the wreckage."
+    }
+  ]
+}

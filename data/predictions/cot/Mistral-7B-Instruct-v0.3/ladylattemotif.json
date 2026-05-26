@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ladylattemotif",
+    "agreeableness": "0.0",
+    "openness": "95.0",
+    "conscientiousness": "7.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "f",
+    "age": "25.0"
+  },
+  "method": "cot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Pick it up. Answer it.",
+      "response_pred": "<think>The persona is typically terse in their responses, often getting straight to the point. Their tone is blunt, with a hint of pragmatism. They are not one to sugarcoat things or beat around the bush.\n\n<response>Look, I get it. It's tough. But we need to hold it together. Can you talk, or do you just need some space for a bit? I'm here if you want to talk. But we can't let things slide — we need to keep our heads about us, even if it's hard."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Those aren't unrelated things.",
+      "response_pred": "<think>This persona tends to be terse in their responses, focusing on the task at hand or the issue at the core of the conversation. Their tone is often blunt and to the point, with an undercurrent of stoicism.\n\n<response>I'm aware. It's been a difficult situation for all of us. We're under a lot of pressure. If there's something specific you need from me, let's make it clear and move on. We have to focus on what needs doing, not on feelings."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the SOS still marked in the sand*\n\nWe should probably leave this reasonably tidy. Not for us — I know we're not coming back — but because if another plane comes down somewhere near here, some of this might still be useful to someone.\n\nAlso I'd just feel weird leaving it like this.\n\n*starts gathering things into a rough pile*\n\nAnyone want to help, or are you all having your moments? I can do it, I just — Donatello, you could at least tell me which of this kit is worth keeping versus leaving behind.",
+      "response_pred": "<think>\nThe persona will respond with a tersely worded, directive statement, aiming to re-establish order and structure within the group. They will likely focus on assigning tasks rather than addressing the underlying issue of leadership.\n<response>\nListen up. We need to get moving — I'm assigning tasks. DaVinci, you're on food storage. I want that secured and bones removed before nightfall. Donatello, I want you working on the signal equipment. And Michelangelo, you're with me patching the weak spots in camp. Let's get this done."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "<think> This persona's typical response length is terse, but with a hint of philosophical insight. They tend to be blunt, direct, and reserved, but also demonstrate empathy when the situation calls for it.\n\n<response> Dreams are a strange thing. They're just memories, really. But sometimes they can be a comfort, even if they're not real. Maybe it means you're still holding onto something, even if it's just a memory. Or maybe it's a sign that even in the worst of times, you've still got something to look forward to. Either way, I think it's a good thing."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I believe that's what you told yourself.\n\nBut we had a rationing plan. You wrote it. And then you kept resources back from it — twice, that I know of, and now whatever's here. So either the plan was real or it wasn't, and you were the one who decided, alone, that it wasn't. That's the part I can't quite let go of.\n\nI'm not going to make a thing of it now, three hours before rescue. But I want you to know that I noticed, and I noticed what it cost — not just in crackers or a drink, but in whether Michelangelo and DaVinci trusted the situation they were in. That matters.\n\nYou kept us alive. I meant that. I also think you know this wasn't right. So I'll leave it there.",
+      "response_pred": "Yeah, I get it. Emergencies are a thing, but don't let it become a habit. We need to ration resources carefully, and that includes the food. We all have to contribute equally, regardless of who has what stashed away."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had the conversation with you about the resources earlier. I kept waiting for the right moment and telling myself I'd handle it tonight, or after this other thing was sorted, and the right moment doesn't really exist — you just have to say the thing.\n\nI'd also have been clearer with Michelangelo sooner about what we actually needed from him. I was gentle with him because he was struggling, and I don't regret that exactly, but there's a version of gentle that's also honest, and I think I leaned too far into just... managing him rather than treating him like someone capable of rising to it. He might have surprised me if I'd asked more directly.\n\nWhat would you change? You clearly know what you'd write — you left yourself the question.",
+      "response_pred": "<think>This persona has a terse response style, often keeping their answers short and to the point. They have a blunt tone, but are not necessarily dismissive. They tend to ask questions to gather information, and their responses are usually straightforward and practical, with a focus on problem-solving.\n\n<response>If you had to do it over, what would you change? I'd say we need better communication and transparency among the group. Keeping things private doesn't build trust, and it can create unnecessary tension. I'd also prioritize workload discussions to make sure everyone is contributing fairly and that no one feels overlooked or undervalued. Other than that, I'd stick to the plan as much as possible, because changing it on the fly can lead to more problems than it solves."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds useful, actually. If it ends up somewhere people can read it — search and rescue teams, survival training, whoever — then this whole thing meant something beyond the four of us getting out. \n\nMake sure you include the stuff that didn't work as well as the stuff that did. The notebook, the rationing breach, the communication gaps. The honest version is the one that's actually worth anything.",
+      "response_pred": "Alright. Good to know. Let's keep track of what we're using and where so we can make informed decisions about rationing and replenishing resources."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't signal anything, they didn't catch light, they didn't do anything functional.\n\nBut DaVinci drew them because he's the kind of person who, even when he's terrified and exhausted and holding everyone else together, still wants to put something beautiful next to the thing that might save his life. I think that's worth something. I couldn't tell you exactly what, but I think it is.\n\n*doesn't take her eyes off the boat*\n\nI'm glad he put them there.",
+      "response_pred": "<think>This persona, while somewhat verbose, tends to be straightforward and pragmatic in their responses. They may be philosophical in some situations, but their focus is usually on the task at hand.\n\n<response>Honestly, I'm not sure there was a practical purpose for the flowers. DaVinci may have just done it for comfort, or maybe he thought they'd be a nice reminder of home. But if you're asking if there's some hidden survival benefit to them, no, not that I can think of. They're just flowers."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Don't wait for me. I'm fine. I just need a second.\n\n*finally looks at him*\n\nYou drew flowers on the beach. On the worst day. I keep thinking about that for some reason.\n\nGo on — wave them in. You're the right person to do it.",
+      "response_pred": "<think>This persona's responses are typically brief, direct, and to the point. They maintain a blunt tone, focusing on practicality and the task at hand. When faced with uncertainty or emotion, they may adopt a more philosophical or empathetic approach, but only insofar as it serves to address the situation effectively.\n\n<response>Hey. Are you okay? We need to keep moving. Let's get back to work."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, then.",
+      "response_pred": "<think>This persona is typically terse, with a blunt tone. They prioritize efficiency and practicality in their responses. They are focused on the task at hand and less concerned with emotional support.\n\n<response>I'm heading over. You can follow if you want, but stay close and watch your footing. Don't let your guard down — we still don't know who these people are or what their intentions are."
+    }
+  ]
+}

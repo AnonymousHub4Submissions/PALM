@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "eye_licker24",
+    "agreeableness": "1.0",
+    "openness": "30.0",
+    "conscientiousness": "30.0",
+    "extraversion": "86.0",
+    "neuroticism": "54.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\nSomeone go answer it before I do something embarrassing.",
+      "response_pred": "Other: *Sits back down, still looking at you with a mix of fear and despair in his eyes.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You got the job done. That's what mattered out here.",
+      "response_pred": "Yeah, that's probably for the best. I've been trying to keep it together for everyone's sake. It's not easy, though. I've been having some thoughts of my own lately. Stuff about the crash, and what's going to happen to us now that we're stranded. It's hard to keep them to myself, but I'm trying to push them aside for now.\n\nI know I've been... distant, I guess. Just trying to stay strong for everyone, but it's hard to muster that kind of energy when you're scared and unsure of what's going to happen. I just want to be able to help, to do something useful, but every time I think I'm making progress, something else happens and I'm back to square one.\n\nIt's not like I'm not grateful for what we have, though. We have each other, and that's something. And I know I'm lucky to be alive. Still, it's hard to shake the feeling that we're just... waiting, you know? Waiting for something to happen, and when it does, it's not going to be good.\n\nI know I'm not going to say it out loud, but I'm scared. I'm scared of the unknown, scared of what might happen if we don't make it out of this alive. But at the same time, I'm trying to hold on to hope. I want to believe that we can make it, that we can overcome what's happening and find a way out of this.\n\nIt's a fragile thing, hope, and it's hard to keep it from slipping away when everything feels so unsure. But I'll hold on, I promise. For everyone's sake, I'll hold on."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's leaving this beach without at least stacking the materials we used. We're not the people who leave a wreck looking worse than we found it. Three hours is enough time to do it right.\n\nMichelangelo, I know you're enjoying the sky but you can enjoy it while you help. Come on.",
+      "response_pred": "*Gently picks up DaVinci's sketchbook and flips through the pages, stopping at a drawing of a small, sleek spaceship. He turns the page over, finding a note scribbled in the margin.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: I cried last night. It was a dream, not a memory – I've been trying to get the good dreams back from the past few weeks.\nYou: I'm sorry. What happened in the dream?\nOther: I was a kid and I was swimming in a lake. I remember running and running until I got tired. I was exhausted, but then I saw a boat coming. It was a big, old wooden boat with a sail and a rope. It was calling to me. I thought it was going to save me, so I ran towards it. When I got there, I saw an old man on the boat. He was smiling and waving at me. He told me that he had been waiting for me and that he had brought me here from a different world."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if things had gone worse you might have been right. But we didn't need an emergency fund, we needed to trust each other, and those two things were always going to be in conflict out here.\n\nI'm not going to make a big thing out of it now that we're three hours from rescue. Just know that the rationing plan only works if the person writing it follows it too. You know that already. That's probably why you're laying it out now.",
+      "response_pred": "Other: Who knows? Maybe I'll use it someday.\nYou: Yeah, I bet you will. Maybe."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to you about the food and water on day one instead of waiting for you to bring it up yourself. That's the honest answer.\n\nAnd I'd have told Michelangelo sooner that keeping his head above water was already enough. He spent too much energy thinking he wasn't doing his part.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "Other: I know exactly what you're talking about. If I had to do it over, I'd make sure to fully follow the rationing plan and make sure the food is properly stored and cooked. I'd also make sure to stay closer to the fire and keep an eye on the signal equipment. I'd also try to stay in better physical condition and not get as tired so easily.\n\nYou: That's a good point. I got so caught up in trying to save face that I forgot to take care of myself. If I had to do it over, I'd also try to find a way to stay more relaxed and focused. I'd try to avoid getting too frustrated with the others and just take it one step at a time. And I'd also try to be more open with the others and share my concerns and fears more clearly."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "You: Alright, I think that's a good idea. We've had a lot of important conversations and decisions to make during our time together. It'll be good to get everything down on paper. What kind of format are you thinking of? Should we include everything from the inventory to the medical supplies, or just focus on the most critical information?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Person: What's out there? I didn't leave my notebook with the sketches and you just picked it up. You know how I feel about leaving things behind. Come on, let's get everything useful over here — move it.\n\nOther: I thought we were going to die. Did you get that feeling… like your mind just went completely blank?\nYou: Yeah. Honestly that's probably your brain doing you a favor, I don't think you'd want to remember every detail of that. You still in one piece?\n\nOther: *Sits silently against the wreckage, staring into the distance, not moving, not saying a word.*\n\nYou: Hey. I hear you. But sitting here staring into the distance isn't going to do either of us any good. Come help me look through this stuff, it'll keep your hands busy at least.\n\nOther: First-aid kit is good for three days. Two bottles of water. Food is basically nothing.\n\nYou: Alright so food is the priority then. What else did we pull out of the wreck, anything we can use to start a fire or signal with?\n\nOther: Inventory's done. Priorities in order: water, shelter, signal.\n\nYou: Right so what's the terrain looking like, are we near anything that could have running water? Even a dry riverbed tells us something. And before we split up to look, do we still have any electronics that work, because even a dead phone has a mirror finish on it for signaling.\n\nOther: So — how do we split the blankets?\n\nYou: Donatello and Michelangelo get them. I'll sit closer to the fire, I run hot anyway.\n\nOther: Freshwater source is to the northeast — two hours on foot. Someone has to go tomorrow. You or DaVinci?\n\nYou: I'll go. DaVinci should stay here with Michelangelo, someone needs to keep him moving or he'll spend the whole day in his head. Two hours northeast, got it. Is there anything on this rationing plan I should know before I head out, or did you already make all the decisions for us while we were asleep?\n\nOther: Today's tasks: collect fresh water, patch the weak spots in camp, sort the first-aid kit. I'll handle the water. You and DaVinci split the other two.\n\nYou: Hold on, I thought I just said I'd go for the water. Which is it, are you going or am I going? Let's not have two people heading northeast and nobody watching camp. Pick one and stick with it.\n\nOther: I… I can't find my stuff. The gauze from the first-aid kit — have you seen it?\n\nYou: No, I haven't touched the first aid kit. Why, what happened to it? Actually, hold on, before we go down that road - did you see what's sitting next to the rationing plan right now?\n\nOther: Before Donatello came back just now… I saw her put a pack of crackers into her own bag. What do you think we should do?\n\nYou: Well that changes things. Empty bottle next to the rationing plan she wrote, crackers going into her own bag. That's not an accident, that's a pattern. We need to say something to her directly, not make a big dramatic thing out of it but she needs to know we know. If she's the one setting the rules she absolutely cannot be the one breaking them, that's just how it works. Where is she right now?\n\nOther: Hey… any chance the camp repairs can wait until tomorrow? We've already done a lot today.\n\nYou: No, they really can't. But that's actually not what I'm thinking about right now. DaVinci, come here for a second, keep your voice down. We've got a problem with Donatello.\n\nOther: Hey — that knot I tied should be holding, right?\n\nYou: Forget the knot for a second, the food goes dry before anything else. We patch that first, Michelangelo you're sleeping closer to the fire tonight and that's not up for debate.\n\nOther: A leak over the food storage has worse consequences. But it's your call.\n\nYou: Yeah, I know it's my call, that's why I already made it. Glad we agree though. You want to help patch it or are you going to stand in the rain and watch?\n\nOther: …Sorry for waking you.\n\nYou: Don't apologize for that. Nightmares after a plane crash are basically mandatory. You good?\n\nOther: You said you were going to check the signal pile. It hasn't been touched.\n\nYou: Yeah, I know, I got pulled into a conversation. I'm going there now.\n\nOther: Is that a problem?\nYou: Depends. Are you logging this because it actually helps us survive, or did you like having a record of everyone's mistakes? Because if it's the first one, fine, useful even. If it's the second one we should probably talk about that."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Give me a minute.",
+      "response_pred": "Other: *He takes a deep breath, his eyes fixed on the fire* You... you just stood there.\n\nYou: *You remain perfectly still, watching the flames with an intense gaze, your expression unreadable*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "You: (smiling slightly, still in a bit of shock) Yeah, I think I'm going. I'm not sure what else to do, to be honest. But I think it's time we started moving towards them. (pauses, looking at Donatello, who's still staring at their notebook) You okay? You've been quiet for a while."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sketcher10",
+    "agreeableness": "51.0",
+    "openness": "68.0",
+    "conscientiousness": "18.0",
+    "extraversion": "62.0",
+    "neuroticism": "7.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's real. That's real.\n\nSomeone say something back to them — tell them where we are. DaVinci, Donatello, anyone got the coordinates from the notebook?",
+      "response_pred": "*pauses, looking at him with concern, then turns to the others*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the raft blueprints, the scouting — that was all you. I don't think we make it 48 hours without that.\n\nI get why you are the way you are. You were solving problems. I just think next time — and hopefully there isn't a next time — maybe loop the rest of us in a little more. We're better as a team than any of us are alone. You proved that too, honestly.\n\nWe're okay, Donatello. We're all okay.",
+      "response_pred": "It's been tough lately, huh?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — we should clean this up, pack what's worth taking, and make sure the SOS on the beach is still visible in case they need a visual to find us.\n\nDaVinci, you're already moving, can you start breaking down the shelter material? Michelangelo, when you're ready, help me sort what we leave versus what we bring back. Donatello — whatever's in that notebook, it might actually matter when we talk to rescuers. Don't lose it.\n\nWe made it. Let's finish it right.",
+      "response_pred": "\"Alright, guys, let's get one thing straight. We've got a long day ahead of us and I'm not afraid to take the lead. I'll make sure we're all accounted for and we're moving at a decent pace. Let's get started.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I sat in silence for a moment, lost in thought. I had indeed returned home, but it wasn't the same as I remembered. The familiar streets, the smell of freshly baked bread, the sound of my mother's laughter. It was all just a memory now, a comforting illusion. I got up from the chair and walked to the window, staring out at the night sky. The stars twinkled like diamonds, and I felt a pang of sadness in my chest. Home was just that – a place I couldn't truly call my own when I was away. I took a deep breath and looked away, trying to shake off the feeling."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I appreciate you saying that. And I'm glad you're putting it out there now.\n\nBut I'm not going to pretend it didn't happen. You saw the rationing plan. You wrote it. And then you made a different set of rules for yourself. That's the part that's hard to just move past.\n\nI don't think you're a bad person, Donatello. I genuinely don't. But if we'd needed that food at the wrong moment, or if Michelangelo or DaVinci had found out before I did — this group could have fallen apart completely. That's the real cost of it.\n\nSo yeah, I hear you. Emergency reserves, I get the logic. But you should have told us that was the plan from the start. That's all I've got to say about it.\n\nWe're going home. Let's leave it here on the island.",
+      "response_pred": "I'll try to match this voice as closely as possible.\n\nOther: You always say that first-aid kit is for emergencies.\n\nMe: I think you're right, though. In my case, I could have sworn we had it somewhere..."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd talk more. Not about tasks or logistics, just... actually check in with people. I spent a lot of energy managing the situation and not enough making sure everyone felt like they were actually part of it.\n\nI'd also push back on you sooner — not in a confrontational way, just earlier. The drink, the crackers, the notebook. I saw the pattern forming and I let it go too long because I didn't want to create conflict when we needed to stay focused. That was the wrong call.\n\nAnd I'd spend less time worrying about whether I was making the right decisions and more time trusting that we could figure it out together. That's probably the biggest one.\n\nWhat's your answer? You wrote the question — you must have something.",
+      "response_pred": "Other: Honestly, I'd go back and try to find a more efficient way to organize my time. Prioritizing was a bit of a scramble, and I'm worried that we didn't make the most of our limited time. I was too focused on getting everything sorted out, and I think we could have made some more effective use of our time if we'd planned more carefully.\n\nOther: What specifically do you mean by \"getting everything sorted out\"?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea. Honestly, if that data helps someone else survive a situation like this, it's worth putting together.\n\nSend me a copy when it's done?",
+      "response_pred": "\"I'd like to take a few minutes to review the data, see if there's anything that stood out to me. Can I start by looking over the shelter repair materials you've got, see if we can make any adjustments?\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't make the SOS bigger or more visible. They didn't solve a problem.\n\nBut I think that was kind of the point. DaVinci needed to put something human out there — like a reminder that we weren't just surviving, we were still people. And honestly? Every time I looked at that SOS I felt a little better because of those flowers. That has to count for something.\n\nNot everything useful shows up in a notebook, Donatello.",
+      "response_pred": "\"It's a big problem I didn't think of, but we need to find a way to purify the water before it gets contaminated. I was thinking, maybe we could boil it or have someone collect it from a nearby stream. DaVinci, what do you think of that idea? You're always good with animals, I know they love water. Maybe you could help us out with that?\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\nJust give me a second.",
+      "response_pred": "His voice is calm, measured, and slightly weary. He's trying to salvage what's left of his usual optimistic tone, but it's clear he's struggling. The sentence structure is formal and deliberate, with a focus on establishing a sense of calm and control. The word choice is also subdued, with a focus on conveying a sense of stability and presence."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I took a deep breath, and with a small smile, I said, \"I'll be back shortly, and I'll make sure you get safe.\"\n\nI glanced at the others, who were starting to stir, and then back at the figures waving from the raft. It was a mix of relief and uncertainty etched on their faces, and I knew I had to give them what little guidance I could.\n\nI took a moment to collect my thoughts before responding, \"Let's move slowly, and I'll help guide you. The rescue team is going to need to get us to safety, and we don't want to rush into anything.\"\n\nI kept my tone gentle, reassuring, and a bit calm, which I hoped would help ease their concerns."
+    }
+  ]
+}

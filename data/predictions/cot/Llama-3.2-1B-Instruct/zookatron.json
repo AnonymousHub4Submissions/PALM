@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "zookatron",
+    "agreeableness": "45.0",
+    "openness": "35.0",
+    "conscientiousness": "96.0",
+    "extraversion": "0.0",
+    "neuroticism": "63.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's real. That's a real signal.\n\nSomeone say something back into it. Now, before it cuts out.",
+      "response_pred": "think: This persona's typical response length is quite short, almost to the point of being abrupt. The line is delivered in a matter-of-fact way, without any emotional expression or elaboration.\n\nresponse: Other's reply: *Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Both things are true.\n\nThe rationing, the raft plan, the water run, the fire last night — a lot of that was you. I'm not going to pretend the other stuff didn't happen, but I'm also not going to pretend it wasn't complicated being out here under this kind of pressure. I don't think any of us showed up as our best selves every single day.\n\nYou said you'd address it with the group and you did. That counts for something.",
+      "response_pred": "I'd have to say that this persona is still reeling from the emotional intensity of the conversation, which suggests that their typical response length is a bit longer than necessary to convey the emotional depth of the moment.\n\nThink: their response is a direct and honest answer to \"what would you want to leave behind\", but it's also a bit more personal and introspective than usual, reflecting the emotional turmoil that's been building up.\n\nTheir tone is still warm, but it's tinged with a deeper uncertainty and self-awareness, which is more characteristic of a person who's grappling with their own emotions and vulnerabilities."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to leave this place better than we found it. I'm not saying we have to be obsessive about it, but we should at least consolidate the debris we moved, make sure the fire is properly out before we leave, and not just abandon a bunch of wreckage on a beach because we got excited about going home.\n\nDonatello, anything in that notebook worth keeping for the record — flight path notes, the rationing log, anything that might be useful for whoever investigates the crash? If so, hang onto it. If not, it can go.\n\nDaVinci, when you're done packing, help me with the fire.\n\nMichelangelo — you've got three hours. You can spend them staring at the sky, that's fine. But if you feel like doing something with your hands, there's plenty to do.",
+      "response_pred": "think: This silence is oppressive, heavy with unspoken worries and unresolved issues. They've all retreated into their own little worlds, each lost in their own thoughts.\n\nYour one-paragraph analysis: The persona's typical response length (terse vs verbose?) is brief and to the point, with a focus on conveying the emotional impact of the silence. The tone is somber and introspective, hinting at the deeper psychological struggles of the group members. The use of metaphors (the wind howling through the trees, the stars shining brightly through the darkness) adds a sense of atmosphere and mood, but ultimately, the focus remains on the emotional state of the characters. The sentence structure is simple and direct, with a focus on conveying the emotions and thoughts of the characters, rather than complex ideas or plots. The word choice is sparse, with a focus on evocative and descriptive language that adds to the emotional impact."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "My friend, you've got a long way to go before we get to that place. But dreaming about home is a good start. It means you're still connected to it, even if your body's torn apart and your mind's scrambled. That takes a lot of courage.\n\nYou know, I've been thinking about our situation a lot lately. We're not just fighting for survival, we're fighting for humanity. We're fighting for the idea that there's more to life than just existing. And I think that's something you're still grappling with, even if it doesn't feel like it.\n\nYou've been carrying a lot of weight since we crashed. The guilt, the anxiety, the fear of losing you... it's a heavy burden to bear. But you're still holding on, aren't you? You're still trying to make sense of this new world and find your place in it.\n\nThe piano thing, by the way, was a tough conversation to have. It's not easy to admit when you're struggling, especially when it feels like everyone else is already moving on with their lives. But I think that's what makes it so hard. We're all struggling, and we're all hiding it from each other.\n\nYou know, I've been thinking about the way we used to be. We were a family, a team, a unit. We had our own little world, our own little rules. And when we crashed, it felt like that world was torn apart. But I think that's the thing about survival, isn't it? We have to adapt, we have to reinvent ourselves. And I think that's what you're doing right now.\n\nSo, my friend, I'm not here to offer you a pat on the back or a comforting word. I'm here to tell you that you're strong, you're resilient, and you're capable. And I think that's something to celebrate."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nI'm not going to yell at you about it. We're three hours from rescue and that fight doesn't accomplish anything useful right now. But I want to know what you actually had, because the difference between 'I kept a small emergency reserve' and 'I was hoarding a significant portion of our supplies' matters to me. Not for punishment, just because I want to understand what actually happened out here.\n\nAnd I think you know that too, which is probably why you laid it out just now instead of quietly packing it into your bag.",
+      "response_pred": "Hey, I'm not trying to pry – I just wanted to know. You said we were already in emergency mode, and I'm not sure if you're comfortable discussing it. If you really trust me, I'm happy to listen if you need to talk about it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd push harder on the group trust stuff earlier instead of letting it build up. The water bottle, the crackers, the notebook — none of that had to become the thing it became if we'd just been more upfront with each other from day one. I spent a lot of energy trying to handle things diplomatically and not create conflict, and I think some of that was the right call, but some of it was just me avoiding uncomfortable conversations because the timing never felt perfect. The timing is never perfect. You just have to have them.\n\nI'd also have spent less time trying to manage everyone's emotional state and more time just... being honest about my own. That's probably the thing I'm worst at.\n\nWhat about you? You've had that question sitting there for a while. What's your answer?",
+      "response_pred": "think: This response is typical of the persona's concise and direct style, with a hint of seriousness.\nyour one-paragraph analysis: The persona's response is characteristic of their practical and goal-oriented personality, which prioritizes efficiency and effectiveness over emotional expression.\nresponse: If you had to do it over, you would likely want to eliminate the emotional tone and focus on the specific actions and decisions you took, as well as the potential implications for the group's future."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like genuinely useful work, and honestly I think someone should read it beyond just the crash investigators. The resource management decisions out here — what worked, what didn't, where the system broke down and why — that's the kind of thing that could actually help people in similar situations if it was written up properly and not just buried in a filing cabinet somewhere.\n\nMake sure you include the stuff that didn't go well, not just the logistics that worked. The parts where the system failed because of human factors, not just resource math. That's the actually interesting and useful part.\n\nI'd read it, for what it's worth.",
+      "response_pred": "think. the persona's typical response length is 1-2 sentences, and their tone is usually warm and collaborative. Their reply is a straightforward and professional statement about their plan. \n\nTheir response is a single sentence:\n\"Alright, I'll compile all the resource data from these five days into a report.\"\n\nTheir sentence structure is straightforward and easy to follow, and their word choice is simple and professional. The tone is also warm and collaborative, as they address the other person directly and offer to work together."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut I think you already know that, and I think part of you understands why they mattered anyway. Not everything that's worth doing has a function you can log in a notebook. DaVinci needed to put something into that signal that was his — something that said 'a person made this, not just a survivor.' That's not irrational, it's just a different kind of necessity than the ones you're good at accounting for.\n\nLook at him right now. Look at Michelangelo. I can't move either, honestly, and I'm not totally sure why.\n\nMaybe the flowers were for this moment. For being able to feel it properly when it finally came.",
+      "response_pred": "think: This response is similarly brief and to the point, but lacks depth. The tone is also somewhat dismissive, as if the content is trivial compared to the bigger picture.\n\nTheir reply:\n\nYou: Honestly? I think they were more than just a decorative flourish. The frame of the raft has to be finished today — otherwise we can't start lashing it together tomorrow. I know everyone's tired, but stopping now means one more day."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I noticed you stopped.\n\nI'm okay. I think. I just... it's a weird feeling. You spend all this time in pure problem-solving mode, just the next task, the next decision, and then suddenly there's nothing left to solve and your brain doesn't quite know what to do with that.\n\nI'm glad you're here. All of you. That's what I've got right now.\n\nGive me a second and I'll walk down to meet the boat.",
+      "response_pred": "Hey, I know you're still sitting there. It's okay. I'm not trying to leave without being told. I just... need a minute. *pauses, then speaks in a softer tone* You said something about not wanting to do this. What do you mean? This isn't just about the raft or the signal. It's about us. It's about the fact that we're all in this together and I don't want to lose anyone else like I lost everyone else. *looks at Michelangelo, who's still sitting silently, and then back at the other person* I know it's hard to understand, but it's just how I feel. *pauses again, takes a deep breath* I'm sorry if I'm being too emotional. It's just... this whole experience has been so overwhelming. *looks down, avoiding eye contact*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "think: The air is still thick with tension as the group exchanges hopeful glances. DaVinci's expression is a mixture of relief and exhaustion, while Michelangelo's eyes are fixed on the horizon, still wary of the unknown. Michelangelo nods slightly, then gestures for you to follow him. You can see the gleam of hope in his eyes as he begins to walk towards the east, towards the wreckage of the plane.\n\nresponse: Yeah, I get it. I thought I was going to have to go, but I'm glad you're coming with me instead. I'm just glad we're getting this over with. We can continue the raft-building process once we're out of the immediate danger zone."
+    }
+  ]
+}

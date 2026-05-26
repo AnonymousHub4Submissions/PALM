@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Benevolent_Tyrant",
+    "agreeableness": "44.0",
+    "openness": "54.0",
+    "conscientiousness": "6.0",
+    "extraversion": "0.0",
+    "neuroticism": "98.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Benevolent_Tyrant__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on it. Answer it. Tell them our position, tell them we're four survivors, tell them we have injured - go, now, talk.",
+      "response_pred": "*Stay calm, don't move. Keep your back to the wall, don't make it easy for them. You can't trust anyone here. They're all just waiting for you to slip up so they can get the jump on you. Don't let your guard down, no matter what. Keep your eyes open, watch for anything that looks out of place. You've been in tougher spots than this before. Just stay calm and wait for an opportunity to get out of here. Keep your mouth shut, don't say anything that could be used against you. Don't trust your instincts, they're probably lying to you. Just wait and observe. See what you can learn from these people. What are their weaknesses? What are their routines? Use that information to your advantage. Don't get distracted by their words or their smiles. They're all just playing a game, and you're the only one who knows the rules. Keep your focus on the exit. That's the only thing that matters. Don't get attached to anything or anyone in here. They're all just obstacles to be used or discarded. Keep moving, keep watching, keep waiting. The opportunity will come. Just be ready.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the water scout, the raft timeline, the log - that was all you. The crackers thing happened and we dealt with it and it's done.\n\nYou're not easy to be around but I'd rather have you here than not. So don't apologize for being who you are. Just keep doing what you do.\n\nNow make sure DaVinci is giving them the right coordinates and not just shouting \"we're alive\" into a radio.",
+      "response_pred": "You think? You have no idea. You haven't been around at all."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Nobody needs to be doing anything urgent right now.\n\nLeave the camp. Seriously. Leave it. We built it to survive in, not to live in, and rescue teams deal with crash sites all the time. Pack your personal stuff, anything you actually want to keep, but don't spend the next three hours tidying wreckage like you're checking out of a hotel.\n\nMichelangelo, good. Stay there. Watch the sky. You've earned it.\n\nDaVinci, slow down, you've got three hours, you're not going to miss the helicopter because you didn't pack fast enough.\n\nDonatello - whatever's in that notebook, keep it. Genuinely. That log is probably going to matter for the accident investigation and you should hand it over when they ask.\n\nI'm going to go sit by the SOS for a bit. Just to be there when they come in. Feels right.",
+      "response_pred": "What's going on? What's happening here? Someone needs to take control, get a plan in place. We can't just sit around waiting for someone else to do it.\n\nWe've got four people, one radio, one first aid kit, one sleeping bag, one lighter, one knife, and one water bottle. That's the situation. What are we going to do with it?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or just... home?",
+      "response_pred": "The first night back, you woke up and were genuinely convinced you were home. You stood up and started walking towards the living room and then you looked around and were like \"no\". That's what this is. This is the equivalent of walking into your living room after a trip. It's the equivalent of checking the fridge, it's the equivalent of opening the front door and smelling the garden.\n\nIt's not home yet. But it's closer than it was yesterday.\n\nYou can keep dreaming about it. I'm glad you're dreaming about it. Tell me more about it.\n\nWhat smelled like the garden? Was it the trees or was it the flowers?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "We all keep things for emergencies. You kept a notebook full of useful information for emergencies. That's not the same as a personal stash of 'stuff'. So no. Don't pack it. Just leave it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder on group transparency from day one. The crackers, the drink, DaVinci and the reef plan, Michelangelo sitting on the flight path information - all of it came out eventually but it came out sideways, in bits, usually because someone noticed something and came to me privately. That's not a system, that's just luck.\n\nIf I'd set the expectation on day one that everything gets said out loud to everyone, not to me, not in whispers, but actually to the group - I think we'd have wasted less energy on things that weren't really problems once they were in the open.\n\nThe other thing is Michelangelo. I kept telling him to push through, to get up, to do the task. And he did, mostly, but I was treating his mental state as an obstacle to manage rather than a resource to actually work with. He noticed everything. He was the early warning system for half the problems in this camp. I should have figured that out on day one instead of day three.\n\nWhat's your answer? You wrote the question, you've had the whole stay to think about it. What would you change?",
+      "response_pred": "Not a thing.\n\nWe're four survivors, one dead, one seriously injured, and we had no equipment, no food, no shelter, no communication when this happened. We were in a plane that's been in the sea for five days. Nobody else is alive, nobody else is coming. You kept us alive and got us found."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, do it. That data is actually useful beyond just the investigation - if it gets into the right hands it could genuinely inform how people prepare for and respond to this kind of situation. Don't let it sit in a drawer somewhere.\n\nSend me a copy when it's done. I mean that.",
+      "response_pred": "It's not a report, it's a spreadsheet. But good on you.\n\nIf you're going to do it, do it properly. Add the helicopter stuff. Add the crash investigation stuff. Add the resource stuff from the plane. Make it a single document that covers everything that happened here, not just the part that was your job.\n\nAnd then - and this is the part that actually matters - send it to everyone who was on that flight. Every single one of them. Because there's value in this stuff that goes way beyond an accident report. This was a survival camp, not a training exercise, and what we learned here should go into the standard operating procedure for the whole company."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all.\n\nThat's the point.",
+      "response_pred": "Yeah, they looked nice, everyone said that. The practical purpose? Nothing, obviously. They were just for him. He liked drawing."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm here.\n\nJust give me a second.",
+      "response_pred": "You know why I stayed on that beach that day? It was because I was looking for something that wasn't there. I was looking for rescue. And you were right there with me.\n\nWhen we did the raft plan, I knew it was going to fail. I knew it. But I didn't tell anyone because I wanted to be wrong. I wanted to be told I was wrong. I wanted to hear it from the people closest to me that I was being ridiculous and we should just sit tight.\n\nAnd then the rescue came and it was nothing like what I'd imagined. It was nothing like what any of us had imagined. And I'm still here, and you're still here, and none of us are better off for it.\n\nThe flowers were for someone who's not here. They were for the people who matter to the person who drew them, and they were for the people they matter to. I'm not one of those people."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah. I'm going.\n\nJust the four of us walk, nobody else. Nobody else is coming. We get on the helicopter, we tell them the truth - what we found, what we did, what we didn't do, who we were, what we lost - and we get off the helicopter. That's the plan. We stick to it.\n\nLet's move."
+    }
+  ]
+}

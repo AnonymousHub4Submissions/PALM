@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "Mikey, it's okay to take a moment. We're all here for you."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "I know, it's been tough for both of us. Just take it easy, okay? We all have our moments."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "Raph, Leo, let's get this camp back on track. Someone needs to take charge here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's nice, were the dreams good? Help me stay positive, maybe our own little slice of home here is starting to feel real."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "Alright, make sure it stays accessible just in case. We can't be too careful these days."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "I don't think I'd change much, really. We did what we could with what we had. The question is tough though—maybe a bit more focus on staying hidden, you know? Less risk of getting spotted. But then again, sometimes you gotta take the risks when you're in a bind. What about you?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "Sure thing, but make it snappy. I don't want to be wading through pages and pages of detail when I could be out there doing something useful."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "They weren't really for practical purposes, more like a way to pass the time and keep our minds engaged. DaVinci's always been good at finding beauty in the mundane. Maybe he was just trying to make our days a little more colorful."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "I know, buddy. It's okay to take a moment."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Of course, let's go. It's been a long time, but we made it. Lead the way."
+    }
+  ]
+}

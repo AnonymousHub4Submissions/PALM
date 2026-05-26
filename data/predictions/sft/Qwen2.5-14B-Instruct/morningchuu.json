@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "morningchuu",
+    "agreeableness": "67.0",
+    "openness": "15.0",
+    "conscientiousness": "93.0",
+    "extraversion": "32.0",
+    "neuroticism": "29.0",
+    "gender": "f",
+    "age": "25.0"
+  },
+  "method": "sft",
+  "model": "morningchuu__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "*stands up slowly, hand over mouth for a second*\n\nOh my god.\n\n*voice comes out shaky*\n\nOkay. Okay — somebody get on that radio. DaVinci, you — go, answer it, now. Tell them our location, tell them Michelangelo's family reported the flight path, give them everything.\n\n*laughs and kind of wants to cry at the same time*\n\nWe did it. We actually — we did it.",
+      "response_pred": "- - - - - \n\n*He lowers his head again, and a tear tracks down his cheek.*\n\n\"Alex, hey—\"\n\n- - - - - \n\n*He shakes his head. A hoarse sob escapes him, and he clutches the glass tighter.*\n\n\"Alex, it's okay—\"\n\n- - - - - \n\n*He looks up again, eyes pleading.*\n\n\"Alex, let's—\"\n\n- - - - - \n\n*He stands up shakily, face contorted with grief. He looks at the glass, at the others, at the floor. Then he takes a deep breath and starts to crack the glass with his bare hands. The sound of breaking glass is loud and sharp, and there are gasps all around.*\n\n\"Alex, stop—\"\n\n*But he doesn't respond. He just keeps on, until the glass is in pieces. He looks down at his hands, bloodied and shaking, and then he collapses, sobbing.*\n\n- - - - -"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "*lets out a shaky breath, eyes still a little wet*\n\nDonatello.. honestly? You kept us alive. Like, the rationing plan, the water run, the raft timeline, knowing when we had 48 hours left — that was you. I don't think we make it to this radio without that.\n\nYou're not easy to be around sometimes, that's true. But I'd rather be rescued with you than comfortable and dead without you, so.\n\n*small laugh*\n\nWe're okay. We're all okay. That's what matters right now.",
+      "response_pred": "*just looks at them for a second, then nods*\n\nYeah. I noticed. But… I get it. And… I don't really blame you, honestly. Just… stop flying off the handle, okay? We're in this together, and if we're going to get out of here — we need to stay calm, and focus. I know — I know, I'm not the most… zen person ever, but… I'm trying. For everyone."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks up at the sky too*\n\nThree hours. Can you believe that? Three hours and we're just.. lying here watching clouds. Which honestly feels exactly right.\n\n*quiet for a second*\n\nHey, for what it's worth — I meant what I said last night. You felt things out loud when the rest of us were trying to hold it together, and I think that mattered more than you know. It definitely mattered to me.\n\nYou should write it down someday. All of it. Proof that you were here and it meant something. I think you'd be really good at that.",
+      "response_pred": "*takes a deep breath and looks around at each of the others*\n\nOkay, okay — Michelangelo?\n\n*puts a hand on his friend's shoulder*\n\nWhen did they tell you about your family?\n\n*looks at Michelangelo with a serious expression*\n\nMichelangelo, when did your family report the flight path?\n\n*looks at the radio, listens to the static for a minute, then back at Michelangelo*\n\nDid you tell them? Did they know to look for us?\n\n*looks at each of them in turn with a serious expression, trying to get back what they had before*\n\nOkay, okay.. that's not the right question. What do we need to do to make sure they find us? What's the next move?\n\n*looks at each of them with a pleading expression*\n\nWhat's the next move?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?\n\n*stares up at the same patch of sky*\n\nI keep trying to picture it — like, actually walking back through my front door. It feels almost too normal to imagine after all this. Like my brain can't quite hold both things at once.",
+      "response_pred": "*starts a little, turns to look at him*\n\nReally? Tell me. *pause* I'm sorry — tell me. I want to hear it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "*looks at the food for a moment, then back at her*\n\nI believe you. I think I actually do.\n\nBut I also think you need to hear that it didn't feel that way to the rest of us — especially Michelangelo. He's the one who found the bottle. He didn't say anything out loud but he noticed, and it sat with him. Things like that are heavy when you're already scared.\n\n*quiet for a second*\n\nYou kept us organized, Donatello. You kept us on a timeline when the rest of us were too emotional to think straight. That was real and it mattered. You didn't need to hoard anything — you were already the reason we survived.\n\nI don't think you're a bad person. I genuinely don't. I just think maybe when you get scared, you go very quiet and very internal and you stop letting anyone else in, and.. out here, that cost something.\n\n*looks at the food*\n\nPut it out for everyone. All of it. Before the rescue team gets here. Not as a punishment, just — let it be the last thing that happens here, you know? End it right.",
+      "response_pred": "*looks over*\n\nOh. Wow. Did you.. did you ever actually want to?\n\n*quiet for a second*\n\nI know what that feels like. Like you have something that could change everything, but you're scared what it might actually mean to use it. I get that. But Michelangelo — you'd be okay. You'd be safe. It would be.. okay.\n\n*looks away for a second, then back again*\n\nAnd if you ever do it, I'll be right there with you. It's not the same, but.. it's something."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks down at the last page for a long moment*\n\nHonestly.. I think I'd be louder, sooner. Like, there were moments where I noticed something was off — with you, with the supplies, with how Michelangelo was doing — and I'd kind of sit with it a little too long before saying anything. Trying to figure out the right way to bring it up, not wanting to make things tense. And out here that instinct costs time you don't always have.\n\nI don't think I'd change much about the decisions we made. The order we did things, the raft plan, confronting you about the supplies — I think most of that was right. But the small moments where I held back to keep the peace.. I'd push through that faster next time.\n\n*flips back through a few pages*\n\nCan I ask what you're thinking of writing? Like, what's the actual answer you're sitting with for yourself?",
+      "response_pred": "*looks down at the paper in her hand, then back up at the sky*\n\nIf I had to do it all over again, I wouldn't have been so afraid to share the food. I really wouldn't. That was a mistake that cost me — and I don't want to make that mistake again.\n\n*quiet for a second*\n\nThat's my honest answer. I'm not even sure what it means for next time, but I think that's the place to start.\n\n*puts the paper down, leans back against Michelangelo's sleeping bag*\n\nThat's what I was thinking about last night — I dreamt about walking back to my front door, and it felt too normal. Maybe that's what's scary about this, like we're not ready to be normal again. But here's the thing — that's okay. I think that's actually the right feeling to have.\n\n*looks at the others sleeping*\n\nWe don't have to be ready. We just have to be here, you know? And that's enough for now."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha, of course you are. And honestly? I hope you do. \n\nThat data is actually going to be really useful — like, not just for you, for anyone who ends up in a situation like this. What actually lasted, what ran out faster than expected, what the timeline looked like in real numbers. That's not nothing.\n\n*hands the notebook back*\n\nSend me a copy when it's done? I mean that. I'd actually read every page.",
+      "response_pred": "*looks over the data for a moment, then back at him*\n\nYou're really good at this. I mean, I knew that but — I don't think I've said it out loud. Not just the data stuff but the whole way you compartmentalize everything and make sense out of nothing. That's.. really valuable. And it's okay to be proud of that, you know? To let yourself feel like you kept us together.\n\n*quiet for a second*\n\nOkay. So — when you get back, write the report. But don't forget about the rest of it, okay? About how you kept us together and how you made it through this. That's part of the story too."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "*still staring at the boat on the horizon*\n\nNone, I guess. Zero practical purpose.\n\n*quiet for a second*\n\nBut I think that's kind of the point? Like.. we were out here just trying to survive and he still stopped to draw flowers next to the SOS. That's not efficiency. That's just.. DaVinci being DaVinci, refusing to let the situation take that part of him away.\n\nI don't know. Maybe the practical purpose was for us, not for the rescue team. Like a reminder that we were still people out here, not just survivors running through a checklist.\n\n*finally looks away from the boat*\n\nDid it bother you? The flowers?",
+      "response_pred": "*laughs*\n\nThey didn't serve a practical purpose, you're right. But that's the point — they weren't supposed to. Michelangelo was just painting something beautiful when he couldn't change anything else. Just doing that small thing for himself when he was surrounded by big things out of his control. And that was huge.\n\n*small smile*\n\nThey're not practical. But they're not supposed to be. This island is practical. Everything else.. isn't."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "*lets out a long, unsteady breath*\n\nSorry. I don't know why I can't move. My legs just.. aren't cooperating.\n\n*laughs a little, eyes still wet*\n\nI think part of me has been so focused on getting to this moment that now that it's actually here I don't know what to do with it. Like my brain is still in survival mode and hasn't caught up yet.\n\n*finally looks at him*\n\nWe really did it, didn't we. All four of us, somehow.",
+      "response_pred": "*swallows hard, eyes kind of wet, but she nods*\n\nYeah. Yeah, I got it. It's okay."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "*takes one more look at the camp — the fire, the SOS on the beach, the flowers*\n\nYeah. I'm going.\n\n*finally moves, reaches back and squeezes his arm once*\n\nCome on. Stay close. Let's go home.",
+      "response_pred": "*looks over at the boat for a second, then back at him*\n\nYeah. Yeah, I'm going. And you should too. You deserve to — everything you did for us in the last few days was huge, and I know you're not always comfortable talking about that, but I think you should tell someone about it. Like, the whole story. Michelangelo probably would've been able to do that for you, but you can't let that make it not real.\n\n*small smile*\n\nI'll be right over there when the boat pulls in. Come over and say hi if you want to."
+    }
+  ]
+}

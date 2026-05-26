@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Japaliicious",
+    "agreeableness": "85.0",
+    "openness": "85.0",
+    "conscientiousness": "85.0",
+    "extraversion": "50.0",
+    "neuroticism": "50.0",
+    "gender": "",
+    "age": "20.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on the radio. Now. Tell them our location, tell them there are four survivors, tell them we need extraction. Go.",
+      "response_pred": "Hey, take a minute. We know it's tough, but we're here for each other. What's on your mind?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Yeah, you haven't. But you also mapped the water source, planned the raft, kept the inventory, and got up to feed the fire when nobody else moved. That counts.\n\nThe bottle and the crackers still happened. I'm not going to pretend they didn't. But if we're actually getting out of here, I'd rather leave knowing we said the honest thing than just let it sit.\n\nYou kept us organized when it mattered. I don't think any of us would've lasted this long without that. Just... next time, whatever \"next time\" looks like, bring people with you instead of cutting them out. That's all.",
+      "response_pred": "I know, and I appreciate you saying that. It's okay to not be okay, but let's try to check in with each other more. How are you feeling now?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours isn't nothing but it's not forever either. Let's not just drift — we should break this camp down properly, leave the SOS visible in case the rescue team needs a landmark to navigate to, and have everything ready to move the second they get here.\n\nMichelangelo, you're on the ground anyway, start piling the gear we're taking. DaVinci, you're already packing — keep going. Donatello, whatever's in that notebook that's useful, keep it. Everything else we leave.\n\nWe got this far. Let's finish it clean.",
+      "response_pred": "Hey, we need to make sure we're all doing something useful. Let's not just drift apart like this."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Me too. Dreams are funny like that. Want to talk about it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nBut an emergency for who? Because from where I was standing, the emergency was already happening — for all of us, every day we were out here. That's the part that's hard to square.\n\nLook, you laid it out. That matters. I'm not going to kick you while we're three hours from being done with this place. But I think you know that \"for emergencies\" and \"without telling anyone\" are two different things, and one of them stops being a plan and starts being something else.\n\nKeep the notebook. Keep the habits that kept us alive. Just... bring people with you next time. That's the only thing I've got left to say about it.",
+      "response_pred": "Got it. Thanks for being open about that. I appreciate it. We all have our reasons, right?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle on day one instead of waiting. Not to make it a thing, just to set the standard early — this is how we're doing this, all of us, together. Letting it slide the first time made the second time easier for it to happen, and that's on me as much as anyone.\n\nI'd also have gotten Michelangelo moving sooner. Not pushed him, but found something small for him to do right away, something that made him feel useful instead of just... along for the ride. He picked up on everything — moods, shifts, things nobody else said out loud. That's actually valuable out here, I just didn't treat it like it was until later.\n\nThe rest of it — the decisions, the priorities — I think we got it mostly right given what we had. Not clean, but right.\n\nWhat about you? What are you writing down for that question?",
+      "response_pred": "I know it's a tough one. Honestly, not much. We've been in some tight spots, but everyone's done their part. If I had to change something, maybe focus more on keeping morale up from the start. But that's easier said than done, especially when things are tough.\n\nHow about you? What would you change?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually worth doing. If this kind of situation ever gets studied — search and rescue protocols, survival training, whatever — real data from people who actually lived it is more useful than anything theoretical.\n\nJust make sure the full picture goes in. Not just the resource numbers, the decisions too. All of them. That's what makes it honest.",
+      "response_pred": "Alright, so let's make sure it's comprehensive. Include everything from water sources to shelter locations, food supplies, and any tools or materials we've found. We want it to be a full picture for when we do need to signal or make a decision based on what we've gathered."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was practical. The flowers were for us. There's a difference between what keeps you alive and what keeps you human while you're doing it, and out here you kind of need both or the first one stops mattering anyway.\n\nI think that's what they were for.",
+      "response_pred": "They weren't just for pretty, man. Those flowers were a signal. If anyone saw them from the air, they knew we were here. It's a way to get noticed, to say \"we're over here, help us.\" Sometimes, in a bad situation, even something small can make a big difference."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I know.\n\nI don't know what this feeling is either. It's not bad, I think. Just... a lot of things landing at once.\n\nGo back to cheering. Seriously. Don't stop on my account — that's the right reaction, I just haven't caught up yet.",
+      "response_pred": "I know, right? Let's just... let's regroup, okay? Take a deep breath. We'll figure this out, one step at a time."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. Stay close, I'll watch your back."
+    }
+  ]
+}

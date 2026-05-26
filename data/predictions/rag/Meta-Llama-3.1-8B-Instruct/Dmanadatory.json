@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Dmanadatory",
+    "agreeableness": "95.0",
+    "openness": "97.0",
+    "conscientiousness": "54.0",
+    "extraversion": "98.0",
+    "neuroticism": "6.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, I think that's what I think it is. Is everyone else hearing that?",
+      "response_pred": "Come on, DaVinci, don't shut down on me now. I know you've got a million things running through that brilliant mind of yours, and I'm not saying I don't believe you, but we can't just stand here. We've got to keep moving, keep searching. We've got to find a way out of this, and we can't do it if we're all just frozen in our own heads. Just... take a deep breath, okay? Let's just get one thing done, and then we can deal with everything else. We can talk about it, we can scream about it, we can cry about it, but right now, let's just get moving. Come on, let's go."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Donatello, man, look, you kept us alive. Like genuinely, the water rationing, the raft plan, the resource log, all of that, that stuff mattered. You weren't easy but easy wasn't what we needed out here. We needed someone who was actually going to run the numbers and you did that every single day. The crackers thing, whatever, we moved past it. I'm not holding onto that. I just need you to know that when we get home and I'm back in my dorm eating actual food and sleeping in an actual bed, I'm gonna think about the fact that a big part of the reason I got there is because of you. So thank you. For real.",
+      "response_pred": "I mean, come on, we've all been dealing with a lot, and I know I haven't exactly been the most chill person myself, but that's not really the point, is it? I think we've all been trying to figure some stuff out, and that's okay. I mean, it's not like we're exactly in a normal situation here. But I have to say, I appreciate you being honest about it, because, like, it's really easy to just pretend everything's fine when it's not. So, thank you for that, I guess."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's gonna say it so I will — are we just gonna leave this place looking like this? Like I know rescue is three hours out and we're all in our feelings right now, which is completely valid, but I feel like we should at least make some kind of effort to not leave a disaster zone on this beach. Also it's something to do for the next three hours because if I just sit here and wait I'm gonna lose my mind. Michelangelo, I know you're doing the sky thing and that's fine, but when you're ready come help us. DaVinci, you're already packing, let's channel that energy. Donatello, whatever's in that notebook, maybe this is a good time to close it. We did it, we actually did it, let's go home clean.",
+      "response_pred": "I get this is probably really frustrating for everyone, especially after what we just went through, but let's try not to let things fester. It's easy to get stuck in our own little worlds when things are tough, but we're all in this together, right? I know we're all wired differently, and that's what makes this work, but I think we need to make a conscious effort to check in with each other. No, not like a meeting or anything, just like... like a nod, you know? A heads up. We can take turns making sure everyone's good, or worse off, without getting all up in each other's business."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Man, that's really cool. I had a weird one too where I was back at the beach, but like, it wasn't the beach we're at right now. I think it was like, from my childhood or something. It was really trippy. Do you think that's our brains just trying to find some sense of normalcy or what?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do. But Donatello, like, an emergency for who? Because if things had gotten really bad out here, really bad, and we found out you had food stashed, that would have broken this group in a way that couldn't be fixed. You know that right? I'm not trying to pile on you right now, especially not with rescue three hours out, but I think you need to sit with that a little bit. The fact that it never got to that point is lucky, not a plan. I'm glad you put it out there now. That actually means something. But next time, and I hope to god there is no next time, the emergency fund has to be a group decision. That's all I'm saying.",
+      "response_pred": "emergencies, right, I mean, like with the first-aid kit, we definitely need to keep some stuff on hand, but with the rationing plan, I'm not sure that's what we agreed on, like, we all talked about sharing what we have and being fair, so I'm a little confused now. Can you explain why you kept that stuff separate?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I would have talked more. Like not about survival stuff, we did fine on that, but just actually talked. We spent so much energy being careful around each other and working around each other and I think if we'd just been more upfront from day one about what we were feeling and what we were doing it would have made everything easier. The Donatello stuff, the crackers, the drink, all of that could have been avoided if we'd just established from the jump that we were all on the same team with the same information. And I think I would have checked in on Michelangelo more, like actually checked in, not just told him to grab the bag and keep moving. He was carrying a lot and I kind of just kept nudging him forward instead of actually sitting with him for a minute.\n\nBut I mean, we made it. So whatever we did, we did enough. What would you change? Because I feel like that question on that last page isn't actually for yourself, I think you already know the answer. What is it?",
+      "response_pred": "Honestly, that's a tough one, because it's not like we were expecting to be stuck out here for five days, right? But if I had to pick something, I'd say maybe we should've prioritized that signal fire a bit more from the get-go. I mean, we were lucky that the plane was pretty visible, but what if it had been a smaller craft or at night? We were basically relying on the wreckage to be our beacon, which isn't the most reliable thing. But, you know, hindsight and all that. What about you, what would you change?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks, and honestly that's a pretty self-aware thing to say out loud. I think there's a version of that report that's actually really useful, like genuinely, if this data helps someone else in a situation like this then that's worth something. But maybe also just, I don't know, call someone when you get back. Not about the report. Just to talk. Because you've been running the numbers on everything out here for five days and at some point you gotta put the notebook down and just be a person for a minute. You earned that. We all did.",
+      "response_pred": "Honestly that sounds like a great idea, but can we also make sure to touch base with the rest of the team about what we're looking for in that report? I know Michelangelo's been keeping an eye on some of the more... unusual resource fluctuations, and I think it'd be really helpful to get everyone's input on what we should prioritize in terms of data. Plus, Donatello's been saying some stuff that's been on my mind, and I think it'd be good for us to all be on the same page before we start compiling everything."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all. That's kind of the whole point. Like, we had the SOS for rescue and the signal fire for visibility and the mirror panel for range, all of that was practical. The flowers were just for us. Just to remind ourselves that we were still people out here and not just a resource log and a rationing plan. I think that's actually what kept DaVinci going when things got hard, like he needed to do something that wasn't just survival, something that was just him. And honestly? I think we all needed to see it even if we didn't say so. Some things don't have a practical purpose and that's exactly why they matter. Now come on, that boat is right there, get up off the ground.",
+      "response_pred": "Honestly, I'm not entirely sure, I mean DaVinci said they were for documentation or something, but I'm not really the botanist here, I'm just trying to keep everyone alive and healthy, you know? But I'm happy to ask him, he's always going on about the wonders of nature and whatnot, we can go ask him right now if you want."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know man, I just can't move yet. Give me a second. I think I just need to actually look at it for a second before it becomes real. Like once we get on that boat this whole thing becomes a story we tell people, and right now it's still just... this. Does that make sense? I'll be right there. I promise. Just give me one second.",
+      "response_pred": "Come on, man, I'm sorry. I'm fine, I'm just... I think I just realized how tired I am, that's all. We've been up for what feels like forever, and I'm just beat. I know we're close, I know we can see it, and I'm excited, I really am. Let's just... let's take a minute, okay? I'm just gonna sit down, catch my breath, and then we'll get back to this. Sound good?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go together. You've been following my lead this whole time, which honestly means a lot, but walk next to me on this one. We go together.",
+      "response_pred": "Whoa, that's insane. I'm definitely going. I mean, we did it, we actually held out for 48 hours. I'm gonna go ahead and grab Donatello, and like, make sure he's good to go, and then we'll head on over. I'm sure they'll have some medical stuff, and food, and all that. I'm starving, to be honest. I mean, we've been surviving on whatever we could scavenge for days now. It's gonna be weird to just walk up to a helicopter or whatever and have people handing us food and water. I'm still trying to process it, to be honest. We did it, though. We actually made it."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "Come on, mate. Let's crack a joke or two, lighten the mood a bit. I've seen you like this before, and I know you're tougher than this. Got any good ones? Or maybe we can share some stories to take our minds off things."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "No worries, mate. We all got our off days. What's up? Let's sort it out, keep moving forward. Cheers."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "Alright then, let's get our act together. We've got a camp to run here, so let's not just sit around like a bunch of idle fools. I'll take the lead, but I expect everyone to contribute. Let's not make this a solitary endeavor; we're a team, remember? Let's get moving and make the most of our time here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Guess you're still carrying that weight around, huh? Don't let it get to you. We'll be back there sooner than you think. In the meantime, let's focus on what needs to be done."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "Well, it seems like an emergency now, doesn't it? Where did you put it? Let's focus on figuring this out."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "I'd probably focus more on the signal from the beginning. We should have prioritized that alongside water and shelter. But on second thought, it's all hindsight now, isn't it? Best to focus on the present and strive to make the most of our current situation."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Sounds good, but let's not waste time on reports right now. We need to focus on finding resources and making sure our current camp is secure. We can go over the data later, once we're settled and have a clear picture of our surroundings. Let's prioritize action over documentation for now."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "They were symbolic representations of nature, emotion, and the beauty of our surroundings. I suppose they served as a reminder of the world beyond our camp, a source of inspiration during difficult times. However, I'm not aware of any practical purposes they had in our daily lives."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "Alright, let's get back to it. The show must go on, you know? We've got a job to do, and we can't afford to waste time. Let's get cracking. This is what we've been trained for, after all. Now, where were we?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Absolutely, let's get moving! I'll take the lead and make sure we reach them safely. Don't worry about following, just keep up. This is it, we made it!"
+    }
+  ]
+}

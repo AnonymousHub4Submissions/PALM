@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "*The expression is one of concern and empathy, but also of a hint of frustration. I take a step forward, my eyes fixed on his, and ask in a gentle tone.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "It's natural to have a few tough days, isn't it?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "Everyone: *muttering to themselves, some walking away, others remaining in the same spot, occasionally approaching the nearest one*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I sat up a bit straighter in bed, my eyes scanning the room as if searching for a glimpse of Donatello's messy lair. My mind began to wander, conjuring up images of the chaotic workshop and the way the sunlight streaming through the window highlighted the scattered wires and half-finished projects.\n\nThe dream felt so vivid, so real – I could almost hear Donatello's laughter as he tinkered with a new gadget, and the smell of freshly soldered wire wafting through the air. I smiled wistfully, feeling a pang of longing for the familiar comforts of his place. But as I sat up and swung my legs over the side of the bed, I felt a sense of unease creeping in – what if we weren't going to make it? What if the rescue mission had failed, and we were truly alone in the city? The thought sent a shiver down my spine."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "\"Hey, sure, if you really need it for emergencies, but we should also make sure we have some extra, just in case.\"\n\n(Note: This response maintains a level of agreement and politeness, but also shows a more practical and cautious side, typical of someone with a moderate conscientiousness score.)"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "I: Yeah, it's always great to reflect on what we actually do. Can I add that to my own log, maybe we can discuss it in the morning?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "\"Alright, that sounds good. I'm still on repair duty so I'll help you with that. We can do it together and I'll make sure to double-check the numbers so we don't make any mistakes.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "Other: Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?\nYou: Honestly, I'm a bit puzzled myself. I mean, they're pretty beautiful. Maybe you can explain why you drew them?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "*The only sound is the distant hum of the aircraft*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "\"It's about time. I'm coming. Let's just stay low and still for a bit. We don't know what's on the other side of that wall."
+    }
+  ]
+}

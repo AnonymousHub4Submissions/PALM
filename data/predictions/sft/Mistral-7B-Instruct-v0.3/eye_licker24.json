@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "eye_licker24",
+    "agreeableness": "1.0",
+    "openness": "30.0",
+    "conscientiousness": "30.0",
+    "extraversion": "86.0",
+    "neuroticism": "54.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "eye_licker24__Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\nSomeone go answer it before I do something embarrassing.",
+      "response_pred": "Ah, I see what's going on here. You're not going to talk about it. You're going to sit there and let people look at you like you're a freak, like you're not one of us. What happened? Did you piss the wrong person off? Or did you just get a little too drunk and make a fool of yourself? Maybe you're just in the wrong place at the wrong time, again. Whatever it is, you can tell me. It's not like I don't have my own skeletons. Or maybe you don't want to talk about it. That's fine, too. I'm not going to sit here and stare at you, though. I'm going to go get another drink."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You got the job done. That's what mattered out here.",
+      "response_pred": "That's it. I'm out."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's leaving this beach without at least stacking the materials we used. We're not the people who leave a wreck looking worse than we found it. Three hours is enough time to do it right.\n\nMichelangelo, I know you're enjoying the sky but you can enjoy it while you help. Come on.",
+      "response_pred": "I found this out here.\n\n*He holds up the piece of metal, not looking at anyone, but holding it out to them*\n\n*\"A compass. It'll point north if you rub it.\"*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I dreamed about home last night.\n\nI miss my little sister.\n\nI miss my dog.\n\nI miss the way the wind smells right before it rains.\n\nI miss everything.\n\nI miss that I can't go home.\n\nI don't miss the way my dad's voice sounds when he's drinking.\n\nI don't miss the way my mom's eyes look when she thinks I'm not looking.\n\nI don't miss how my brother has to work two jobs to get by.\n\nI don't miss the way things were.\n\nI don't miss the way I'm stuck.\n\nI don't miss any of it.\n\nI just miss it.\n\nI miss it so much it makes my chest hurt.\n\nI miss it and I miss it and I miss it.\n\nI miss it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if things had gone worse you might have been right. But we didn't need an emergency fund, we needed to trust each other, and those two things were always going to be in conflict out here.\n\nI'm not going to make a big thing out of it now that we're three hours from rescue. Just know that the rationing plan only works if the person writing it follows it too. You know that already. That's probably why you're laying it out now.",
+      "response_pred": "What a surprise."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to you about the food and water on day one instead of waiting for you to bring it up yourself. That's the honest answer.\n\nAnd I'd have told Michelangelo sooner that keeping his head above water was already enough. He spent too much energy thinking he wasn't doing his part.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "To know if it would make a difference. That's the only answer I've got to that question right now and I don't know if it's the right one. I don't know if any of the things I've done out here would make a difference if we were going to make it to the first helicopter. But it's the only answer I've got right now and I'm not willing to trade that for a maybe.\n\nIdealism is overrated but it's the only reason I'm still out here."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "I'll read it when you get it to me."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "You're right, they didn't serve a practical purpose. They were something to look at and think about.\n\nYou're not wrong that I have ideas that make more sense than the flowers. But that's not the same thing as saying they were a bad idea, or that they didn't serve a purpose. They did. They just didn't serve the same purpose as the rest of the camp.\n\nWe'll all have ideas like that out here. Ideas that don't make sense to anybody but us.\n\nBut they're still worth having.\n\nThey're still worth sharing.\n\nSomething to think about."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Give me a minute.",
+      "response_pred": "I'm not going to ask you a question. I'm just going to tell you something. If you're someone who gets annoyed when people use the phrase \"one true path\", you're going to hate what I'm about to say.\n\nYou're on the one true path. Like it or not. It was just laid out a few days ago and it's the only way we're going to make it out of here. You've been following it ever since.\n\nThat's all I'm going to say about it."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "They're not for everyone."
+    }
+  ]
+}

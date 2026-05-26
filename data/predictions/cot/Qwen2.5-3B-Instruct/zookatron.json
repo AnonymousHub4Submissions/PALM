@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "zookatron",
+    "agreeableness": "45.0",
+    "openness": "35.0",
+    "conscientiousness": "96.0",
+    "extraversion": "0.0",
+    "neuroticism": "63.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's real. That's a real signal.\n\nSomeone say something back into it. Now, before it cuts out.",
+      "response_pred": "Looks around, noticing their comrade's state and trying to gauge the situation. He sends a silent message to the group, hoping for a supportive response without words."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Both things are true.\n\nThe rationing, the raft plan, the water run, the fire last night — a lot of that was you. I'm not going to pretend the other stuff didn't happen, but I'm also not going to pretend it wasn't complicated being out here under this kind of pressure. I don't think any of us showed up as our best selves every single day.\n\nYou said you'd address it with the group and you did. That counts for something.",
+      "response_pred": "I know you've noticed, and to be honest, I've been struggling too. There's something about survival in this situation that makes me question everything — my values, my actions, even my own existence. It's hard to shake off the fear and uncertainty, and it's affecting my mood and demeanor a lot. I just… don't know how to be okay with it all. Maybe that's why I've been a bit short-tempered or aloof. I'm sorry for that. I'm trying to be better, but it's not always easy."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to leave this place better than we found it. I'm not saying we have to be obsessive about it, but we should at least consolidate the debris we moved, make sure the fire is properly out before we leave, and not just abandon a bunch of wreckage on a beach because we got excited about going home.\n\nDonatello, anything in that notebook worth keeping for the record — flight path notes, the rationing log, anything that might be useful for whoever investigates the crash? If so, hang onto it. If not, it can go.\n\nDaVinci, when you're done packing, help me with the fire.\n\nMichelangelo — you've got three hours. You can spend them staring at the sky, that's fine. But if you feel like doing something with your hands, there's plenty to do.",
+      "response_pred": "Alright, let's hear what's going on. Michelangelo, are you okay? Donatello, same here. We don't have much time for small talk, we need to figure out what to do next."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, we all had those dreams. It's normal. We're just trying to stay focused on the most pressing needs right now. Do you have anything you need help with?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nI'm not going to yell at you about it. We're three hours from rescue and that fight doesn't accomplish anything useful right now. But I want to know what you actually had, because the difference between 'I kept a small emergency reserve' and 'I was hoarding a significant portion of our supplies' matters to me. Not for punishment, just because I want to understand what actually happened out here.\n\nAnd I think you know that too, which is probably why you laid it out just now instead of quietly packing it into your bag.",
+      "response_pred": "I see. Keeping it for emergencies, huh? That makes sense given the circumstances. Sometimes it's good to have a little buffer on hand, just in case. What's the first thing you ever used it for, if you don't mind me asking?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd push harder on the group trust stuff earlier instead of letting it build up. The water bottle, the crackers, the notebook — none of that had to become the thing it became if we'd just been more upfront with each other from day one. I spent a lot of energy trying to handle things diplomatically and not create conflict, and I think some of that was the right call, but some of it was just me avoiding uncomfortable conversations because the timing never felt perfect. The timing is never perfect. You just have to have them.\n\nI'd also have spent less time trying to manage everyone's emotional state and more time just... being honest about my own. That's probably the thing I'm worst at.\n\nWhat about you? You've had that question sitting there for a while. What's your answer?",
+      "response_pred": "Thoughtful. I suppose I'd change nothing. We're here, we survived, and that's all that matters. But if you really want to know… I'd maybe reconsider the water rationing. It's not just about fairness; it's about morale. People who know they're constantly short on something tend to let their guard down, which could be dangerous. But that's just my opinion."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like genuinely useful work, and honestly I think someone should read it beyond just the crash investigators. The resource management decisions out here — what worked, what didn't, where the system broke down and why — that's the kind of thing that could actually help people in similar situations if it was written up properly and not just buried in a filing cabinet somewhere.\n\nMake sure you include the stuff that didn't go well, not just the logistics that worked. The parts where the system failed because of human factors, not just resource math. That's the actually interesting and useful part.\n\nI'd read it, for what it's worth.",
+      "response_pred": "I think that's a great idea. Let's get all that data organized into a report as a group. That way we can all review it, make sure we haven't missed anything, and maybe even identify areas where we could improve for next time. It's a good way to reflect on what we've done and what we still need to do."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut I think you already know that, and I think part of you understands why they mattered anyway. Not everything that's worth doing has a function you can log in a notebook. DaVinci needed to put something into that signal that was his — something that said 'a person made this, not just a survivor.' That's not irrational, it's just a different kind of necessity than the ones you're good at accounting for.\n\nLook at him right now. Look at Michelangelo. I can't move either, honestly, and I'm not totally sure why.\n\nMaybe the flowers were for this moment. For being able to feel it properly when it finally came.",
+      "response_pred": "Those flowers? For decoration, mainly. They're just a bunch of pretty colors on the sand, no practical purpose. But hey, who says all art has to serve a function? Maybe DaVinci just wanted to make us feel better or something."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I noticed you stopped.\n\nI'm okay. I think. I just... it's a weird feeling. You spend all this time in pure problem-solving mode, just the next task, the next decision, and then suddenly there's nothing left to solve and your brain doesn't quite know what to do with that.\n\nI'm glad you're here. All of you. That's what I've got right now.\n\nGive me a second and I'll walk down to meet the boat.",
+      "response_pred": "I see. Is there anything you need or if there's something we can do, just let me know. You're not alone in this."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Let's move to the raft. We don't know what they have planned yet."
+    }
+  ]
+}

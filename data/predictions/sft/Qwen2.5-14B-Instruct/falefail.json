@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "falefail",
+    "agreeableness": "60.0",
+    "openness": "54.0",
+    "conscientiousness": "82.0",
+    "extraversion": "43.0",
+    "neuroticism": "62.0",
+    "gender": "f",
+    "age": "24.0"
+  },
+  "method": "sft",
+  "model": "falefail__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah. I think that's enough.",
+      "response_pred": "*Clears throat, voice cracking* \"I don't know what to say... I'm so sorry. I didn't mean to do that. I just... I lost control. I don't know what came over me. I'm sorry.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organised when the rest of us were too overwhelmed to think straight, so it evens out. I think we all showed up in the ways we were capable of. That's probably the best you can ask for.",
+      "response_pred": "I'm… I'm sorry. So sorry."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just going to leave this place exactly as we found it? I feel like we should do something before the rescue team gets here — even just gathering everything into one spot so it's easier to account for. And Michelangelo, get off the ground, you can watch the sky from a standing position. Three hours isn't that long.",
+      "response_pred": "Everyone, not that it's good for my own peace of mind, but I think this is less about us having a disaster and more about us having a quiet time. I know I haven't been the easiest person to be around. I'm not sure if I'm the best person to be putting on the leadership hat, but I feel like we need to do something. But it doesn't need to be a big thing. It just needs to be something. So, what do you think? Where do we start?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like in the dream? Was it good?",
+      "response_pred": "I did too. I keep seeing my old apartment, but every time I walk through the door the layout changes. Sometimes there's a wall where the fridge should be and other times it's just… gone, like it's vanished. Like someone just decided to get rid of the whole living room. I think it's just my brain trying to process the difference between what I remember and what I know isn't real anymore."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not going to pretend I'm not annoyed about it, because I am — we had a rationing plan and you wrote it. But I also know that if things had got really bad, you'd have used it for all of us, not just yourself. At least I think that's true.\n\nIs that what you're telling me? That it was for all of us?",
+      "response_pred": "That seems… smart? I mean, I don't know, I'm not sure what the right word for that is. But I don't think it's a bad thing to have a backup plan in your back pocket."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I would have called out the food and drink situation earlier instead of waiting and letting it sit. I knew something was off and I kept thinking about the right moment to bring it up and there probably wasn't ever going to be a perfect moment — I should have just said it directly when I first saw the bottle.\n\nI think I also spent a lot of energy managing how everyone was feeling at the expense of saying what I actually thought. Which isn't always wrong, but there were times I softened things that probably didn't need softening.\n\nWhat about you? What's your answer to your own question?",
+      "response_pred": "I don't know. As far as I can tell, you did everything you could. You didn't have enough information to know what was coming, so how could you have prepared for it? But I guess that's the question. We don't get to know what's coming, but we do know when we don't have a plan. So is it that you should have a plan for everything? Or is it just that you should have a plan for the things you can predict?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's probably a good idea actually. Might be useful for other people in the same situation — like, what actually works when you're rationing with almost nothing, what the real priorities are versus what you think they'll be. The water source being two hours away on foot, the mirror panel, all of it. Someone could genuinely benefit from that.\n\nSend it to me when it's done. I mean that.",
+      "response_pred": "Ok, I think that's a good plan. I'll do the same — I've been writing notes in a notebook each day and I'll write it up properly after we get back."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve a practical purpose. That was kind of the point.\n\nI think when everything is stripped back to just survival — water, food, signal, shelter — and someone still makes room to draw flowers next to an SOS sign, that's them refusing to stop being a person. It's easy to become purely functional when the stakes are that high. DaVinci didn't.\n\nI didn't fully appreciate it at the time either, if I'm honest. But I do now.",
+      "response_pred": "I don't know. I think he just drew them. It wasn't about practicality, it was about… I don't know. Not letting it change him completely, I guess. Like they were a reminder of something else. But I don't really know. That was more his thing than mine."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I think I just need a second. It's real now and I don't quite know what to do with that.",
+      "response_pred": "I'm sorry. I just… didn't know what else to do.\n\nI'm not sure what I'm saying. But thank you, for this."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yeah, I'm going. You coming?"
+    }
+  ]
+}

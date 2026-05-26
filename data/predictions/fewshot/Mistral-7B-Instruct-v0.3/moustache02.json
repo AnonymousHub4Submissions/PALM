@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "moustache02",
+    "agreeableness": "29.0",
+    "openness": "38.0",
+    "conscientiousness": "86.0",
+    "extraversion": "43.0",
+    "neuroticism": "19.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer the radio. Now.",
+      "response_pred": "Alright, let's get moving. DaVinci, you and Michelangelo check the wreckage for anything useful. We need to assess our situation before we make any rash decisions.\n\nDonatello, what do we have here? Food, water, anything we can use? I want a rundown.\n\nOther: *Sits quietly, staring off into the distance*\nYou: Michelangelo, go grab whatever you can carry and bring it to Donatello. We need to prioritize here, and sitting around won't help anyone.\n\nDonatello, let's get this inventory done and figure out what we're working with. Priorities in order: water, shelter, signal. I'll handle the water. You and DaVinci split the other two.\n\nDaVinci, still out there scouting? Let's move as a group. Nobody splits up alone in this terrain, that's just how you die faster.\n\nMichelangelo, you good to walk? Cause we're moving soon.\n\nOther: *Looks worried*\nYou: Yeah, I know it's scary. But sitting here won't make it any better. We need to push through it and make ourselves useful.\n\nDonatello, serious question - how long are those food rations going to last? We need to find a water source fast.\n\nWhat did you see out there besides the water? Any signs of other survivors, trails, anything?\n\nOther: *Appears distracted, not focusing on the conversation*\nYou: Hey, are you okay? What's on your mind? We need everyone sharp out here."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us alive, that's what mattered.",
+      "response_pred": "You know, everyone's been through a lot. It's understandable to feel on edge. But let's focus on what we need to do. We've got a raft to build, supplies to gather, and signals to keep up. Let's put our energy into that. We'll get through this together. Now, let's get moving. The sun's not waiting for us to catch up."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not sit here doing nothing.\n\nPack what's worth keeping, leave the rest. Douse the fire properly, don't just kick sand on it. And someone flatten that SOS on the beach so the rescue team knows we're accounted for and not still missing.\n\nMichelangelo get up, you can stare at the sky from the helicopter. DaVinci stop fussing over what to pack, take everything and sort it later.\n\nDonatello, close the notebook. It's done.",
+      "response_pred": "Alright, let's get our heads straight. We've got food, water, and shelter - for now. First things first, DaVinci, check the perimeter. You might find something useful, like a stream or anything wet. The rest of you, help Donatello assess our situation. We need to prioritize water before anything else. After that, we'll figure out shelter and a signal. Let's keep moving, no time for idling. We've got work to do."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that feeling, you're almost there.",
+      "response_pred": "Yeah, I get that. Nothing like a good home-sick dream to remind you where you're supposed to be. But we're here now, might as well make the most of it. I'll go check if there's any firewood, maybe that'll help you sleep better tonight."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah I know. And if we'd hit day five with nothing I'd probably have thanked you for it.\n\nBut we didn't. So eat it now, share it, and we call it even. No point carrying guilt onto the helicopter.",
+      "response_pred": "Alright, so you've been hoarding supplies for emergencies, got it. But remember, this isn't just about you anymore. We're a team, and we need to share resources if we want to survive. Let's distribute those supplies evenly and focus on our priorities - water, shelter, signal. That's the deal. Now, let's get moving on that raft, it's our best chance at rescue."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much. Maybe been quicker to call out the solo resource thing before it became a pattern. And I would've pushed harder on the raft earlier, before the plane scare.\n\nBut the big stuff - keeping the group moving, covering all three priorities, not letting anyone fall apart completely - I think that went alright.\n\nWhat would you change? And be honest, not the clean answer you'd put in a report.",
+      "response_pred": "Alright, let's see. If I had to do it over, I'd focus more on communication and teamwork. I'd make sure everyone knows what resources we have and what tasks need to be done. I'd also make it clear that everyone shares the resources equally. No hoarding.\n\nSecondly, I'd push harder for us to work together on big decisions. For example, the raft plan - we should have discussed it thoroughly as a group before committing to it.\n\nLastly, I'd try to create a more positive atmosphere. I know things are tough but we're all in this together and it helps morale to keep spirits up. So maybe I'd find some way to lighten the mood, even if it's just a joke or a quick game.\n\nBut overall, I think we're doing okay. We're surviving, we're staying organized, and we're working together. We just need to keep focusing on our priorities and keep each other's spirits up. That's all we can do."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah do it. Might actually be useful if this ever happens again to someone.\n\nSend me a copy when it's done. I'm curious what the numbers look like from the outside.",
+      "response_pred": "Sounds like a plan, but remember to share the report with the group. We work best when we're all on the same page. Let's prioritize building the raft first, then we can focus on compiling data and keeping the signal visible. Let's move quickly and efficiently."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose.\n\nBut they made DaVinci feel like himself out here, which kept him functional, which kept the group together. Sometimes that's worth more than practical.",
+      "response_pred": "They served as a signal, a way to make our location more visible to rescuer's planes or boats. The bright colors and patterns draw the eye and make it easier to spot our position from above or at a distance. It's not a practical purpose in the traditional sense, but it's an important part of our survival strategy."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just give me a second.",
+      "response_pred": "Don't worry about it, I heard you. Enjoy the moment, we've earned it. But let's not get too carried away. We still have work to do. Let's get back to it."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah I'm going. Come on, let's move.",
+      "response_pred": "Alright, let's get moving. I'll take the lead, you follow close behind. We don't want to lose sight of them in this terrain. And no dawdling, we need to make sure we're seen. Let's show them we're ready to get out of here."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "falefail",
+    "agreeableness": "60.0",
+    "openness": "54.0",
+    "conscientiousness": "82.0",
+    "extraversion": "43.0",
+    "neuroticism": "62.0",
+    "gender": "f",
+    "age": "24.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah. I think that's enough.",
+      "response_pred": "Hey, it's ok. I know this is a lot. We've all been through a lot these past few days, and it's normal to feel overwhelmed. If you need to take a moment, that's fine. Just remember, we're in this together, and we'll get through it together. If you want to talk about it, or just need someone to be here, I'm here for you. And the same goes for everyone else. We've got each other, and that's what matters most right now. Let's try to take care of each other."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organised when the rest of us were too overwhelmed to think straight, so it evens out. I think we all showed up in the ways we were capable of. That's probably the best you can ask for.",
+      "response_pred": "That's alright. We've all been affected by this situation in different ways and it's understandable that some of us are handling it better than others. I know I've had my moments. But we're a team, and we need to support each other through this. If there's something you need to talk about, or if you just need some company, I'm here for you. We'll make it through this together."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just going to leave this place exactly as we found it? I feel like we should do something before the rescue team gets here — even just gathering everything into one spot so it's easier to account for. And Michelangelo, get off the ground, you can watch the sky from a standing position. Three hours isn't that long.",
+      "response_pred": "Hey, let's just take a moment to make sure we're all on the same page. I think it's important that we don't let this silence between us become a thing. We've got each other here, and we need to stick together if we want any chance of getting through this. So, let's just check in — you ok, DaVinci? And what's going on with you, Raphael? It feels like there's something weighing on you. Let's talk it out, yeah? We've got to look out for each other, and that means being honest with each other too."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like in the dream? Was it good?",
+      "response_pred": "Home, huh? That's a rare thought, I can see why it's stuck with you. What were you dreaming about specifically? The people, the place, or just the feeling of being there?\n\nI had a dream about a book once, back in the real world, and it was so vivid I could practically feel the pages. I think about it sometimes, about what it would be like to be lost at sea and still have that book, even just the memory of it, to hold onto.\n\nIs there anything you can hold onto here? Something that makes this feel a little less strange and a little more like home?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not going to pretend I'm not annoyed about it, because I am — we had a rationing plan and you wrote it. But I also know that if things had got really bad, you'd have used it for all of us, not just yourself. At least I think that's true.\n\nIs that what you're telling me? That it was for all of us?",
+      "response_pred": "Yeah, I understand. It's good to have a backup, especially in a situation like this. But let's try to conserve it for now. If we need to use it, we'll. But for now, I think our focus should be on making ourselves as visible as possible and trying to draw attention to our location. We can still make use of it if we need to signal a specific location or something, but for now, I think we should prioritize our main strategies. How about we focus on making the most of our supplies and resources, and try to create as many signals as we can? That way, we're covering all our bases and giving ourselves the best chance of being found."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I would have called out the food and drink situation earlier instead of waiting and letting it sit. I knew something was off and I kept thinking about the right moment to bring it up and there probably wasn't ever going to be a perfect moment — I should have just said it directly when I first saw the bottle.\n\nI think I also spent a lot of energy managing how everyone was feeling at the expense of saying what I actually thought. Which isn't always wrong, but there were times I softened things that probably didn't need softening.\n\nWhat about you? What's your answer to your own question?",
+      "response_pred": "That's an interesting question. Honestly, I'm not sure I would change much. We've been making decisions based on what makes the most sense for our survival, and I think that's been the right approach. But if I had to pick something, I might have tried to be more proactive about addressing the issue with Donatello taking supplies without sharing. I think we all need to be more mindful of the resources we have and make sure we're using them equitably. Other than that, I think we've been doing well overall. It's been a challenging situation, but we've been working together and supporting each other, and that's been key to our survival so far."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's probably a good idea actually. Might be useful for other people in the same situation — like, what actually works when you're rationing with almost nothing, what the real priorities are versus what you think they'll be. The water source being two hours away on foot, the mirror panel, all of it. Someone could genuinely benefit from that.\n\nSend it to me when it's done. I mean that.",
+      "response_pred": "Sure, let's do that. It'll be helpful to have a clear picture of what we have and what we've used. And it'll give us a starting point if we need to make decisions about rationing or prioritizing tasks. Just make sure everyone has a chance to double-check the numbers before it gets finalized, okay? It's important that we're all on the same page with this kind of thing."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve a practical purpose. That was kind of the point.\n\nI think when everything is stripped back to just survival — water, food, signal, shelter — and someone still makes room to draw flowers next to an SOS sign, that's them refusing to stop being a person. It's easy to become purely functional when the stakes are that high. DaVinci didn't.\n\nI didn't fully appreciate it at the time either, if I'm honest. But I do now.",
+      "response_pred": "They served a symbolic purpose, really. It's a way of leaving a mark, of saying \"We were here\". It's not about practicality, it's about letting someone know that we exist. It's a small gesture, but it can mean a lot in situations like this. It's about hope, really — hope that someone will find us, hope that someone is searching for us. It's a way of holding onto that hope, even when everything else feels hopeless. And it's a way of saying that we're not just giving up and disappearing, we're still here, still fighting."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I think I just need a second. It's real now and I don't quite know what to do with that.",
+      "response_pred": "Hey, I'm glad you're feeling better. How's the leg? I was just about to go check on the signal equipment, but I wanted to make sure you were okay first. Should we take a quick break together before we get back to work? There's no rush, and I think we could both use a moment to catch our breath."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Alright, let's go. But first, we should grab some water and food. I don't know how long we'll be stuck here, and we should conserve our resources as much as possible. And DaVinci, you might want to take a blanket with you, it gets cold out there.\n\nDon't forget to wave back at them, let them know we see them. And if you feel ok to do so, try to give them a thumbs up or wave — that's a good sign for everyone."
+    }
+  ]
+}

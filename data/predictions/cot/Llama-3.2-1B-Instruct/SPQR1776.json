@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "Person's tone: philosophical, somewhat stern\n\nThink: They're trying to convey a message, but their words are incomplete or unclear, indicating a deeper emotional turmoil.\n\nTheir reply: *awkwardly attempts to speak, but struggles to form words* \"I'm scared... I'm scared of losing everything... of being forgotten... of... of being left behind.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "Personality (Big Five) agreesableness: 93.0. They're empathetic and understanding, trying to be supportive. The response is relatively short and to the point.\n\nPersonality (Big Five) openness: 93.0. They're curious and interested in the topic being discussed, but not necessarily in-depth or analytical.\n\nPersonality (Big Five) conscientiousness: 97.0. They're practical and detail-oriented, trying to be considerate of the situation. However, they're not overly concerned with details or nitpicking.\n\nPersonality (Big Five) extraversion: 1.0. They're introverted and prefer to observe from a distance, but they're not antisocial or completely alone.\n\nPersonality (Big Five) neuroticism: 99.0. They're extremely anxious and prone to worrying, trying to reassure themselves and others that everything will be okay."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "<think>It seems this persona is a bit of a control freak, possibly due to their high conscientiousness and need for order. They tend to try to direct the conversation and the situation, often without considering the full context. This could be part of their neurotic tendencies, as they worry about being overlooked or dismissed. The fact that they're not getting their way might be fueling their anxiety.</response> \n\nTheir reply seems to be a typical example of how they might address this situation. As someone who values order and control, they're freaking out about the situation, trying to assert their position. The others are drifting apart, and this adds to the chaos and disorganization of the situation. The persona's tone is still somewhat serious and authoritative, but the way they're addressing the issue is more frantic and reactive than constructive."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Think: their typical response length (terse vs verbose?)\nTheir tone: emotional (since they're sharing a personal moment)\n\nTheir reply: \"I just miss it sometimes. I wish I could go back, but it's not meant to be. I'm stuck here.\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "Okay, I'm keeping the piano lessons, I just want to hear what it was about that. What made you stop? Was it something I said or did?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "Think: this persona's typical response length is moderate, but their tone is more concise than verbose. Their sentence structure is straightforward, with a mix of short and longer sentences.\n\nresponse: if you had to do it over, we'd probably split the tasks more evenly between us, especially with the raft. I'd want to do the exterior work, like patching the roof and repairing the doors, while DaVinci focuses on the interior and making sure everything is secure. Mikey's skills as a scout would come in handy when searching for supplies and checking for any dangers, and Donatello's expertise would be invaluable in assessing the situation and coming up with a plan."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "Personality (Big Five): agreeableness: 93.0, openness: 93.0, conscientiousness: 97.0, extraversion: 1.0, neuroticism: 99.0\n\nThis response is quite concise and to the point, characteristic of the Big Five personality type. The person is focused on summarizing their experiences and preparing a report, indicating a conscientious and organized mindset. The tone is matter-of-fact and lacking in emotion, typical of individuals with high agreeableness. The vocabulary is simple and direct, with no signs of overly complex thought patterns or emotional expression, suggesting a low neuroticism. Overall, this response conveys a sense of professionalism and preparation, reflecting the Big Five's traits."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "Think: somewhat curt, direct (somewhat blunt)\n\nresponse: Mikey, those flowers were for camouflage. We can't get lost in the bushes and have the plane spot us, so DaVinci drew a pattern on the beach that helps us avoid being seen. It's not just about making it harder to spot us, it's also about giving us a way to move through the area without being detected."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "- agreeableness: 93.0\n- openness: 93.0\n- conscientiousness: 97.0\n- extraversion: 1.0\n- neuroticism: 99.0"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": ">Hey, Mikey, I'm not sure if I'm going to be able to make it. I've been having some thoughts about your piano lessons, and it's hard for me to imagine you giving up something that's been such a big part of your life. If you're willing to say it, I'd like you to know how much you're missed, and how much I wish you were here."
+    }
+  ]
+}

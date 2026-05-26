@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackendLight",
+    "agreeableness": "0.0",
+    "openness": "94.0",
+    "conscientiousness": "98.0",
+    "extraversion": "92.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": "24.0"
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "You alright?  Take a second if you need it.  But when you are, let's talk about next steps."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us organized when it mattered. That's what we needed.",
+      "response_pred": "Ya, I get it. It's tough. But we're all here for each other right now. If you need a hand or just want to talk, I'm here."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, should we clean this up a bit before they get here?  Doesn't feel right to just leave it.",
+      "response_pred": "Hey, let's not lose focus. We've got tasks to do. DaVinci, can you start on the shelter repairs? Michelangelo, work on the signal. I'll check the water supplies. Any issues, holler."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah?  What was it like?",
+      "response_pred": "Ya, me too.  We should get back to work, though.  Any chance you can help with the signal mirrors?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.  But you should have told us.",
+      "response_pred": "What exactly did you keep and for what kind of emergency? We need to make sure everyone knows what we have and why it was saved."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would have addressed the hoarding thing faster instead of waiting for it to build up.  And I'd have gotten the mirror signal rigged on day one.  Every day we didn't have it was a missed opportunity.  What about you, what's your answer to your own question?",
+      "response_pred": "I think that's a smart thing to keep track of. It'll help us out when we're back and also for future reference. As for what I'd change, probably the same as everyone else — wish we had more supplies, a better idea of where we are, and maybe a quicker response to the plane sighting. But honestly, I don't think there's much we could have done differently that would have made a huge impact. We're where we are and we just need to keep pushing forward."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea.  Might be useful if anyone ever ends up in a similar situation.  Could also be worth including what worked and what didn't on the interpersonal side, not just the resources.",
+      "response_pred": "Alright, sounds good. But let's think about what DaVinci needs to do while you're compiling that. Maybe patching up the camp while we're waiting?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really, I guess.  But not everything has to be practical.  He needed to do it and it didn't hurt anything.  Maybe that's enough.",
+      "response_pred": "They're not just flowers, they're a way to keep our spirits up and remind us we're still part of something bigger. Plus, they can be seen from a distance, so they might help signal too."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "What's up? You good?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, let's go.",
+      "response_pred": "Yeah, let's go. Stay close and follow my lead. We've got this."
+    }
+  ]
+}

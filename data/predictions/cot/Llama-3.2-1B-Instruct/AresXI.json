@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AresXI",
+    "agreeableness": "88.0",
+    "openness": "83.0",
+    "conscientiousness": "45.0",
+    "extraversion": "5.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it. Right now, just answer it.",
+      "response_pred": "think: This persona's voice is calm and measured, but his words are laced with a subtle tension, hinting that he's struggling to keep his emotions in check.\n\ntheir reply: *pauses, taking a deep breath* You're one of the few who still seems to care, DaVinci. *tries to hide his own emotions behind a neutral expression* We need to keep you calm, sir. You're the one who's been keeping us all going these past few days. Your... *pauses, searching for the right word* your... energy is what's carried us through. *glances at Michelangelo, who's standing a little stiffly, and then back at DaVinci* I need you to keep up the physical and mental effort. We're not out of this yet."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us organized when nobody else was thinking straight. The rationing plan, the inventory, the raft calculations, keeping track of everything. That stuff mattered even when it was hard to hear. You're not easy but easy doesn't keep people alive out here.",
+      "response_pred": "\"You're not being easy, other. You're scared. You're worried about everyone else's well-being, not just your own. And to be honest, that's not an easy thing for most people to do. It takes a lot of emotional labor to be that strong when we're dealing with the very real possibility of death. So yeah, I'm scared too. But I'm trying to be there for you, and for everyone else. It's not always easy, but it's worth it.\""
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's not just leave this place looking like a disaster. Three hours is enough time to at least break down what we can and not leave a total mess behind. DaVinci, you good to help pack up the camp? Michelangelo, whenever you're ready, even just small stuff helps. No rush but we should probably leave this place better than we found it if we can.",
+      "response_pred": "He sits down near the fire, watching the flames dance and the darkness outside, his eyes lost in thought. The sound of crickets and distant roosters provides a soothing background hum, and the only sounds he makes are occasional deep breaths or the occasional rustle of leaves."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "That's a good dream to have right now. What was it about?",
+      "response_pred": "Your reply is brief and to the point, but it shows a glimmer of empathy and concern for the person's well-being. You're not trying to offer a lot of information, but you're acknowledging their feelings and showing that you care."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also believe you knew we were already rationing and that everyone else was doing it together. Look, you laid it out so that's something. But don't act like the emergency justification makes it clean because it doesn't. We all had emergencies out here. Michelangelo was falling apart, DaVinci was holding himself together with duct tape, I was running on nothing. The difference is none of us were quietly stashing supplies while logging everyone else's movements. \n\nI'm not going to hold it against you forever, especially not today when rescue is three hours out. But you should probably say something to them too, not just me.",
+      "response_pred": "They're saying they kept it for emergencies, suggesting that the SOS will be their last resort, and not to reveal personal feelings or concerns through their words."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably check in on people more deliberately instead of just when things were already falling apart. I was reactive a lot of the time, waiting until Michelangelo was already in a bad place or DaVinci was already cracking before I said something. \n\nWhat would you change?",
+      "response_pred": "Think: Analyzing the persona's typical response length, tone, and sentence structure reveals a person who generally speaks in brief, direct sentences, often with a hint of abruptness. Their tone is usually matter-of-fact, with a touch of bluntness. However, there's also a hint of warmth and concern, especially when they're speaking to someone close to them.\n\nTheir reply: It seems like the persona is trying to maintain a professional and detached tone, which is unusual for someone who's been dealing with the emotional toll of being stranded in a plane crash. The phrase \"I'm going to write it up as a proper report when we get back\" suggests that the persona is trying to maintain a sense of detachment, as if they're observing the situation from a distance.\n\nThink: Given the persona's usual response length and tone, it's likely that they would change this line by adding more emotional depth or nuance. They might rephrase it to make it sound more like a confession or a introspection, rather than a straightforward statement. Perhaps they would say something like: \"I've been carrying around this question for days now, and I still don't have an answer. If I had to do it over, I'd make sure to confront this uncertainty head-on, to explore the depths of my own emotions and decision-making process.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That actually sounds like something worth doing. Might be useful if anyone else ever ends up in a situation like this, having actual data from real conditions instead of just theoretical survival guides. Just maybe lead with the parts where people held it together instead of just the parts where the numbers worked out.",
+      "response_pred": "-big five persona is going to be very stoic, nervous, and possibly a little anxious about the impending task.\n\nthink: This persona is going to be focused on getting the report done as soon as possible, possibly to alleviate some of the anxiety they're feeling about the situation.\n\nresponse: \"Alright, just make sure to include everything, though. We're not out of the woods yet. We still need to patch up the camp, find some food, and make sure the signal equipment is working for the next few days. And whatever you can do to keep us alive and comfortable, like keeping the fire going, would be a huge help.\"\n\nThey're not going to be overly enthusiastic about the task, but they're willing to do it because they know it's necessary to survive. They're also trying to reassure the person that they'll get the report done as soon as possible, so they don't have to feel overwhelmed."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That's kind of the point. Not everything out here had to. We needed the SOS for rescue, sure, but we also needed to feel like we were still people and not just bodies trying to survive. That's what the flowers were for.",
+      "response_pred": "Persona: \"Hey, what's the plan for tomorrow? We still need to figure out how to patch the food storage and get the first-aid kit sorted out.\"\n\nOther: \"I was thinking we could use the plane's mirror panels to reflect sunlight towards the sun, it would be a signal of some kind. But it's not like we have much time for it, we need to focus on getting the food and first-aid supplies sorted out first.\"\n\nYour reply: \"I agree, let's just get the food storage fixed and then we can worry about the signal. We can always think about the mirror panels later.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.",
+      "response_pred": "My one-paragraph analysis: This exchange is really heart-wrenching. The persona starts off in a warm and caring tone, offering words of comfort and reassurance to his friend. However, as the conversation progresses, he reveals a more complex and nuanced personality. He becomes increasingly distant and detached, revealing a darker and more troubled side.\n\nResponse: You: *I see the change in him. He's not himself anymore. We're not just talking about him, we're talking about us.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go home.",
+      "response_pred": "- agreeableness: 85.0\n- openness: 81.0\n- conscientiousness: 53.0\n- extraversion: 4.0\n- neuroticism: 101.0\n\nYou: Wait, don't go yet. That's not the right direction. I want to get a better look at that plane before we go waving to them. We can't just rush in without knowing what's going on. Besides, I've got a feeling about this."
+    }
+  ]
+}

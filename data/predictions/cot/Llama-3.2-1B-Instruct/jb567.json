@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "jb567",
+    "agreeableness": "56.0",
+    "openness": "46.0",
+    "conscientiousness": "54.0",
+    "extraversion": "42.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "is that - is that what I think it is\n\nsomeone answer it, go, now",
+      "response_pred": "personality: - agreeableness: 56.0 - openness: 46.0 - conscientiousness: 54.0 - extraversion: 42.0 - neuroticism: 95.0\n\nthe other's emotional state: mostly red, possibly from fear or suppressed emotion. he's looking at you and the others with a mixture of pain and desperation, as if he's trying to convey a message but can't quite put it into words.\n\nhis silence is a significant aspect of his emotional state. he's not trying to hold back or be polite; he's simply unable to speak, unable to express himself. this suggests that he's trying to process his emotions, and his inability to do so is a significant source of distress for him.\n\nthe fact that he's not trying to deceive or hide his emotions, but rather is trying to convey them, adds to the sense of vulnerability and fragility in his character. his inability to speak is both a physical and emotional limitation, and it highlights the depth of his emotional pain."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you've been alright. annoying sometimes, but you got things done and when it mattered you held your hands up. that's more than most people manage tbh\n\nnow come on, DaVinci's about to talk to actual humans, let's go",
+      "response_pred": "You: <expression of understanding and empathy> Yeah, I get that. We've all been pretty rough around the edges, to be honest. The tension between us is still a bit raw, but you're right, we're all in this together now. We're a team, not a bunch of strangers stuck on a deserted island together."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "right, are we really just going to sit here for three hours and stare at things\n\ncome on, let's actually leave this place better than we found it. DaVinci you're already packing, start thinking about what we leave behind that might be useful if someone else ends up here. Michelangelo get up off the ground mate, three hours is nothing, don't spend it lying in the sand.\n\nDonatello I know you're processing or whatever but maybe the notebook can wait until we're on an actual rescue boat with actual seats\n\nI don't know, it feels wrong to just drift after everything. we made it. let's at least mark it somehow before we go tbh",
+      "response_pred": "think: a sense of resignation settles over the camp, as if the three are collectively acknowledging that there's no one in charge to tell them what to do. The air is heavy with the weight of uncertainty, and the flickering light of the fire casts eerie shadows on the faces of the three. \n\nTheir reply:"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like",
+      "response_pred": "First, let's analyze the persona's typical response length:\n\n* They're typically a bit concise and to the point, often using short sentences or phrases.\n* Their responses usually don't linger on a single thought or idea, but rather cut off abruptly or with a transition to the next topic.\n\nNow, let's analyze their tone:\n\n* They're warm and empathetic, particularly when it comes to DaVinci's struggles with the mirror panel.\n* Their tone is also somewhat lighthearted and humorous, especially when they joke about DaVinci's ability to make the sun shine (or not shine).\n* However, their tone can also take on a more serious and introspective tone when discussing broader themes, such as the fear of disappearing and the importance of human connection.\n\nBased on this analysis, here's their reply to the other person's statement:\n\nYou: <response>...I was thinking the same thing, actually. it's funny how some people have to keep pushing and striving, even when they're not feeling it. home...I guess it's just one of those places where we always come back to, no matter how hard we try to forget."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do.\n\nbut like... this is kind of the exact situation we talked about isn't it. the whole point of the rationing plan, the group conversation, all of it - it only works if everyone's actually in it. and you weren't fully in it, you had a backup stash the whole time.\n\nI'm not going to have a go at you about it, we're three hours from rescue and honestly I don't have the energy. and I can see you laying it out now, that means something.\n\nbut I think you know that \"for emergencies\" is doing a lot of work in that sentence tbh. we were the emergency. all four of us, the whole time.\n\nkeep it for the journey back if you want. or leave it here like I said, for whoever comes next. up to you. just - don't carry the other thing with you when we get home. the hiding. you're better at the honest version of yourself, I've seen it.",
+      "response_pred": "think: Their response is somewhat abrupt, as they're not elaborating on what they meant by \"emergencies\" or why they kept the note for everyone's safety.\n\nTheir reply: The persona's tone is surprisingly blunt, almost dismissive. They're not particularly concerned about the person's emotional state or the potential risks of disappearing. Instead, they seem more focused on the practical aspects of the situation, like ensuring the group's safety and the chances of rescue. The phrase \"more than you think\" is particularly telling, suggesting that the group's survival is more important than the individual's feelings."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? probably would've pushed harder for the group conversations earlier instead of letting things fester. the rations thing, the crackers, the bottle - we danced around it for too long before saying it out loud. costs you trust and energy you don't really have to spare in a situation like this.\n\nand I'd have asked Michelangelo what he needed instead of just telling him to stay present. he knew things before the rest of us did, he just needed someone to actually ask.\n\nwhat would you change? and I mean actually, not the logistical stuff - I know you've got that covered in here. the other bit.",
+      "response_pred": "think their typical response length is quite short, almost to the point of being abrupt. They seem to be cutting to the chase and not really waiting for a response before moving on. Also, their tone is quite dismissive, almost like they're not interested in hearing what the other person has to say.\n\nHowever, I notice that they do reveal a bit more about their thoughts and feelings in this exchange, such as their fear and anxiety about disappearing without leaving anything behind. But overall, their response still seems quite curt and to the point."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it, genuinely. that's useful stuff, not just for you - if anyone else ends up in a situation like this that data could actually matter.\n\njust maybe also do the other thing. the trusting people bit. don't let the report be the only thing you take home from this tbh.",
+      "response_pred": "You: yeah, I'm actually looking forward to that, I've been meaning to get my hands on the data. see if anyone's managed to scrounge up any of the missing items, like the first-aid kit or the...the...whatever it was I lost in the jungle."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "they were for us Donatello, not for the rescue boat\n\nlike yeah the SOS did the practical work, but the flowers were DaVinci saying we're still people here, not just survivors. we still care about things that don't have a function. that matters when everything else is stripped back to basics\n\nI don't know, maybe that's the thing I'd want you to take home more than the report. not everything needs a purpose to be worth doing\n\nlook at him over there, cheering his head off. that's the same guy who drew flowers on a beach when Donatello told him it was a waste of time. I think he had it right from the start tbh",
+      "response_pred": "think. their artistic value wasn't as high up in our priority list as the survival situation, but still, something like that. drew flowers in the wild, but didn't help us much in here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah I'm coming, just give me a sec\n\nit's weird isn't it. three days ago I was having a mild panic attack in a field of burning wreckage and now there's a boat and I still can't quite make my legs work\n\nI'll be fine. go on, wave them in. you're better at that than me tbh",
+      "response_pred": "Personality: Big Five (0-100)\n\n think: This is a character who is initially cold and distant, but then reveals a more emotional side as he begins to open up to the Other. He is a complex individual with a mix of strengths and weaknesses.\n\nTheir reply: \"You said you were going to check the signal equipment. So where did you go?\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah, come on then. let's go.",
+      "response_pred": "You: thanks mate, you'd do the same for me, right? we make a good team, we've been through this all together. I'd lead the way, you take point and stick with me, and Donatello, you two are good as gold - I'll follow you anywhere. We make it look easy, don't we?"
+    }
+  ]
+}

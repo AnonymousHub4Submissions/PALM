@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ColdOxygen",
+    "agreeableness": "90.0",
+    "openness": "13.0",
+    "conscientiousness": "20.0",
+    "extraversion": "2.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "22.0"
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "I'm struggling to speak right now, my emotions are all over the place."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what mattered out here.",
+      "response_pred": "Yeah, I've been pretty low-key and maybe even a bit distant. Not really my usual self. It's been tough, but I'm trying to work on it."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Probably the most comfortable silence we've had out here honestly.",
+      "response_pred": "I'm feeling rather detached from the group today, which is probably why no one is taking charge and the silence has settled. My high neuroticism might be causing me to feel anxious and distant, while my low agreeableness and conscientiousness don't seem to motivate me to step up and initiate plans. I suppose I'll just continue to do my own thing and hope for a change in the mood."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Ah, a common theme for someone low on agreeableness and high on neuroticism. Dreams about home are often a reflection of feelings of nostalgia and possibly anxiety or stress, especially if your conscientiousness and extraversion scores are low."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all could've used it.",
+      "response_pred": "I suppose you're cautious, but with this high neuroticism score, your decisions might seem overly precautious to others."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed back on the rationing stuff sooner instead of just letting it sit. And maybe talked more. I don't know, I think I kept a lot to myself out here when I didn't have to.",
+      "response_pred": "Ah, a good practice to reflect on and learn from. If I had to do it over, I'd probably focus more on being organized and less on getting so caught up in details. Agreeableness and conscientiousness could definitely use some balance."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, sounds about right for you. I'll probably just sleep for like 12 hours.",
+      "response_pred": "Sounds like a solid plan. I'll dive into those notes and make sure everything is organized neatly."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "I think they were just for us. Not everything has to be practical.",
+      "response_pred": "He likely viewed them as more of an artistic expression rather than a practical one. For someone high in agreeableness, it might have been a gesture of kindness or to make the beach more enjoyable for others, but for me, it seemed more like a creative act rather than something functional."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just taking it in for a second.",
+      "response_pred": "He furrows his eyebrows, his gaze locking onto me, as if assessing whether I'm paying attention or not. A hint of frustration tinges his expression, but it's quickly masked by his usual stoic demeanor."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll take care of this. If they need help, I'll be there. And if they're okay, I'll catch up."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "amroki96",
+    "agreeableness": "89.0",
+    "openness": "68.0",
+    "conscientiousness": "40.0",
+    "extraversion": "38.0",
+    "neuroticism": "25.0",
+    "gender": "f",
+    "age": "21.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*grabs DaVinci's arm*\n\nHey. Hey, say something into it. Right now, go — tell them who we are and where we are, or as close as you can get. DaVinci, you can do this, come on.",
+      "response_pred": "You: *Looks at him, concerned* Oh, hey, hey, Mikey, I'm here. I'm here. *Gently takes his hand* You're safe. We're all safe. *Smiles* You okay? You look like you're upset. *Gently pats the empty space beside him*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Hey, none of us were easy to be around. We were surviving.\n\nYou came back with the water. You wrote the rationing plan. You built the raft frame. When it actually mattered you showed up every single time, and I think you know that.\n\nThe notebook thing, the crackers — that was fear, and you owned it when I called you on it. That's more than a lot of people would do.\n\n*squeezes her shoulder once*\n\nWe're okay. All four of us, we're okay.",
+      "response_pred": "I know things have been tough. Your absence has been weighing on all of us, and I feel like I've been carrying a heavy load for a long time. But I want you to know that I'm here for you, and I'm not going anywhere. Not yet, at least."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got three hours and nobody is doing anything with them.\n\nI'm not saying we have to be productive, I'm just — I can't sit still right now. My brain won't let me.\n\n*looks around at the camp*\n\nActually, you know what, I kind of want to clean this up. Not because we have to, just because leaving it like this feels wrong. Like we were here, this place kept us alive, the least we can do is not leave it a total wreck.\n\nDaVinci, what are you even packing, we don't have anything. Michelangelo, what do you see up there?",
+      "response_pred": "*The sound of the rain starts to pick up, a gentle patter on the canvas of the camp. The three of them sit in silence for a while, each lost in their own thoughts.*\n\nYou: *Your head lingers on the notebook, still scribbling away in the margins.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "You: *looks over at DaVinci, then back at the others, and then back at you, a concerned expression on your face* You okay? You looked like you were having a nightmare."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I think part of me even understood that in the moment, even when I was angry about it.\n\nBut here's the thing — we made it. We actually made it, and we did it on the rations we had. So you kept it for an emergency that never came, and honestly? I'm really glad the emergency never came.\n\n*looks at the food laid out*\n\nPut it in the communal pile. We'll bring it home with us, or we'll leave it here for whoever needs it next. But you don't have to carry it by yourself anymore either way.\n\nWe're done surviving, Donatello. We can just be people again.",
+      "response_pred": "You: Yeah it's not something I worry about, it's just... that's just how it is. People are so scared, they don't think about the little things. Like leaving behind a note, a personal memento, anything to remind themselves that they're still alive. That's not a big deal for some people, but for me it's what keeps me going.\n\nI think it's because I'm not thinking about the big picture, I'm just trying to survive. And in that moment, trying to keep someone's name on my lips, trying to keep them in my head... it's a different kind of fear, but it's still there.\n\nIt's funny, we all have our own ways of dealing with it, but for me, it's just something I have to deal with every day. It's not a problem, it's just a part of it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks at the last page for a long moment*\n\nHonestly? I think I'd let myself fall apart a little sooner. Like I spent so much energy holding it together for everyone else that I never actually let myself just be scared out loud. Which — I don't regret it, I think it needed to happen, but I was running on fumes by day two and nobody knew because I didn't let them know.\n\nI think if I'd been more honest about that, maybe you all would've felt more permission to be honest too. Like maybe the crackers thing doesn't happen if from day one we're all just saying out loud that we're terrified instead of each of us handling it in our own weird way.\n\n*hands the notebook back*\n\nWhat's your answer?",
+      "response_pred": "You: Honestly, I'd do a lot of things differently. I'd make sure the camp was warmer and more stable, that we had better food and water, and that we had more medical supplies. I'd also try to find a way to signal for help sooner rather than later. With the distance from the beach, it's easy to think we're going to make it without sending out a distress signal, but I know that's why we're planning to send it now.\n\nI'd also try to do more to prepare for the potential loss of medical aid, like finding a way to store the first-aid kits, and making sure we have a plan for who would help us if something happened to the rest of the group.\n\nAnd, I know this might sound crazy, but I'd also try to be more prepared for the psychological aspects of surviving in extreme conditions. I'd try to find ways to stay calm and focused, like keeping a routine, and finding ways to occupy my mind so I don't get too anxious or paranoid.\n\nI'd also try to be more of a leader, instead of just following DaVinci's lead. I'd try to take charge of the situation, make decisions, and communicate with the group. I know it sounds weird, but I think we all have different strengths and weaknesses, and I think I could be a better leader.\n\nBut, you know, the biggest thing I'd change is the way we're approaching the situation. I'd try to be more proactive, rather than waiting for things to happen. I'd try to find ways to mitigate the risks, and make sure we're prepared for everything that could go wrong.\n\nYou: That makes sense. I think you've already shown a lot of growth and leadership skills. But, honestly, I'm still trying to figure out what you'd change if you had to do it all over again."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That is so extremely you and I mean that in the best way possible.\n\nGenuinely though — if you actually write it up, I want to read it. Like not even joking. I think there's something real in there that could be useful for people, not just as a survival thing but as a people thing. How a group of strangers figures out how to function under pressure, what breaks down and why, what holds. That's worth documenting.\n\nAlso maybe include the part where you gave back the crackers. For the full picture.",
+      "response_pred": "You: Yeah, I'll help you with that. I've been keeping track of everything we've gathered so far, but I don't want to overwhelm you with too much data at once. Let's make a list of everything we need to document, and then we can go through it together."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\n*still watching the boat*\n\nThat's kind of the whole point though, right? Like we were out here rationing water and patching leaks and calculating whether we were going to die, and DaVinci drew flowers next to an SOS sign because that's who he is. Nobody asked him to. It didn't help us survive. It just made us a little more human while we were doing it.\n\nI think that's what it was for.",
+      "response_pred": "You: Honestly, I just wanted something to mark the spot. You know, a little bit of something to make us remember where we are. It's not about the actual meaning behind it, it's just something I needed to do."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey, I'm okay. I'm okay, I just —\n\n*exhales*\n\nI didn't let myself believe it was actually going to happen until right now. Like I kept doing the next thing and the next thing and I never stopped to let it be real because what if it wasn't, you know? And now it's real and I don't know what to do with my hands.\n\n*laughs a little, voice unsteady*\n\nSorry. You can go back to cheering. I just needed a second.",
+      "response_pred": "*My eyes never leave his face, I'm still frozen in place, my expression unreadable. The only sound is the crackling of the fire, the distant sound of a plane passing over.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, I'm going.\n\n*takes a breath*\n\nCome on, let's go home.",
+      "response_pred": "You: Come on, let's go. I'll show you. *starts walking towards the opposite direction of the rescue team*"
+    }
+  ]
+}

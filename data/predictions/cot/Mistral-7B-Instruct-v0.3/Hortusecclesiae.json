@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "<think>\nThis persona typically responds tersely, maintaining a blunt and direct tone. They're pragmatic, focusing on tasks and priorities. They may struggle to empathize with emotional outbursts but will offer brief words of support when necessary.\n<response>\nLook, we've got bigger things to deal with than this. Let's focus on the tasks at hand and get through this together."
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "<think>This persona has a typically terse response style, often providing brief and direct answers. Their tone is blunt and commanding, with a focus on efficiency and practicality. They are not particularly warm or empathetic, but do show a sense of responsibility and leadership. In this situation, they would likely prioritize action over emotion.\n\n<response>Alright, I'll do it. But make sure you're ready to take over as soon as I hand it back to you. We don't want to risk losing contact."
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "<think>This persona tends to be terse and direct in their responses, with a blunt and no-nonsense tone. They prioritize action and efficiency over emotion, and their responses are often focused on tasks and solutions rather than empathy or small talk.\n\n<response>Alright, let's set up the signal equipment. We'll make sure they know we're here."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "<think>The persona's response length is typically terse, often focusing on the facts and actions rather than emotions or lengthy explanations. Their tone is blunt, direct, and decisive, with a hint of authority. They prioritize efficiency and practicality in their communication.\n\n<response>Tough times call for focus. You're here, doing what needs to be done. Let's get back to work."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "<think>This persona tends to be terse, with a blunt tone. They prioritize practical tasks over emotional discussions and often take charge when no one else does. They are direct and to the point, focusing on the immediate needs and tasks at hand.\n\n<response>Alright, let's get moving. We need to keep the fire going, patch the weak spots, and check the signal equipment. No one should be idle. Let's get this done."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "<think>The persona's response length is brief, typically consisting of short, succinct sentences. Their tone is blunt but not unkind. They tend to focus on the task at hand and often give direct instructions or responses.\n\nIn this case, they would likely say something like:\n\n<response>Dreamed about home, huh? Well, let's get moving. We've got work to do."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "Got it. Use it if needed. Now, let's get back to work."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "Write it up as you like. I wouldn't change much. Maybe be a bit more diplomatic with the others, but otherwise, the decisions were right for survival."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Right, do that. And make sure we've got a plan for tomorrow."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "Practical purpose? They're just decoration to keep our spirits up. Let's focus on the supplies and the raft. We can discuss art later. Move out."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "<think>This persona tends to respond tersely, prioritizing action and efficiency over emotional expression. Their tone is blunt and pragmatic, often focusing on the task at hand rather than personal feelings. They would likely respond in a way that directs the other person to a solution or task.\n\n<response>Oi. Let's get back to work. We've got a lot to do before sundown."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "<think>The persona's responses are generally brief and to the point, often focusing on practical matters and tasks. Their tone is blunt, but not unkind, and they show a strong sense of leadership. They would likely respond quickly and with a directive.\n\n<response>Alright. Let's move towards them. I'll take the lead. Follow close."
+    }
+  ]
+}

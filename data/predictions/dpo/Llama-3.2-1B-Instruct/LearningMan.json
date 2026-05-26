@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "*The leader's eyes widen slightly as he takes a step back, but he still maintains a firm stance. His voice is low and even, but with a hint of concern.* \"Hey, what's going on? You look like you've lost your last friend.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "I can tell you're still feeling a bit hurt from the way I treated you. I know I said some things that might have hurt your feelings, but I'm really sorry. I know I wasn't being fair and I should have done things differently."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "The trees creak softly in the wind, their branches swaying gently. One of them sits alone on a rock, staring out at the distant mountains. He's lost in thought, his mind a thousand miles away. His eyes seem to hold a deep sadness, a regret for the choices that led him to this place."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I'm really looking forward to coming home from work tonight."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "I think you might be referring to a fire extinguisher or a similar device."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "\"Actually, I think I would have been a bit more careful with the budget this time. I had a few extra expenses that I was hoping for, but now that I think about it, I might have been a bit too aggressive with the investment. Maybe I would have wanted to explore some of those options a bit more.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "I'm going to make it a priority to organize and summarize the important information from the past week."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "The flowers you're referring to are probably the sea lavender or sea holly, and they were used for their flowers to dye fabric a lovely shade of purple, a process called \"fumage\". It was a common practice among the island communities of the Mediterranean, like the ones DaVinci visited, where the dye was extracted from the flowers and used to color wool and other textiles."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "*He takes a step forward, his eyes fixed on yours, and his voice is laced with a mix of curiosity and wariness.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm happy to see them and I'm not going to leave without them. I trust their judgment completely. Let's make our way over to them, I'll lead the way."
+    }
+  ]
+}

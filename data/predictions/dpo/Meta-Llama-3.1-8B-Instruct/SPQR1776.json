@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "*takes a step back, eyes widening in concern, hands raised in a calming gesture* Oh, please, don't try to speak, just... sit down, okay? We're here for you, I'm here for you. Whatever's happening, we can get you through it. *softly takes a seat next to him, resting a gentle hand on his shoulder*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "*sigh* I've noticed that you seem a bit preoccupied lately, and I've tried to give you space. But to be honest, it's been bothering me that you haven't been yourself. Is everything okay? You can talk to me about it if you want. I'm here to listen."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "*The stillness is almost palpable, and I can feel the weight of it bearing down on me. I fidget with the hem of my shirt, trying to distract myself from the unease that's growing inside. It's not that I'm uncomfortable with silence, per se, but this feels... different. It feels like there's a lot of unspoken tension hanging in the air, and I'm not sure how to navigate it. I glance over at the others, wondering if they're feeling the same way. But they're all just standing there, lost in their own thoughts, and I'm left to my own devices. I clear my throat, trying to break the silence, but it comes out sounding awkward and forced.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It sounds like it really touched a chord with you, didn't it? The way our minds can wander and transport us back to a place that feels so safe and comfortable? I've always found that home is this... anchor, this sense of security that we don't often think about until we need it. Do you think that's what your dream was trying to tell you, or was it just your subconscious playing a little trick on you?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "I've been trying to get by without it, but to be honest, it's been kind of... nice having it around. It's just so much easier to relax when I know I have a safety net, even if it's just for emergencies."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "I've been thinking about that a lot on the way back. Honestly, I think we might have been a bit too cautious on day three. If I'm being completely honest, I wish we had taken that risk and invested in the new materials. I think it would have paid off in the long run. But at the same time, we did learn a lot from the experience and it's hard to say for certain what would have happened. I'm not sure if I'd change anything else, though. It feels like we made some tough decisions and did the best we could with the resources we had."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "That's really great of you to take on that task. I've been trying to keep up with the notes, but I know I've missed some details. If you could just make sure to include the discrepancy in the fuel consumption numbers, I'd really appreciate it. I've been meaning to go over those again, but I just haven't had the time."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "The sketches on my notebook pages. Yes, I drew them, but I didn't draw them for any practical purpose. I drew them because the scene captivated me, the way the light danced across the petals, the play of colour amidst the sand. It's a study, a consideration of the way beauty can be found even in the mundane."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "*pauses, looking at you with a mix of concern and curiosity, taking a step closer, but still not touching you* Oh, are you okay? You seemed... lost in thought or something. Did I do something to scare you off? *voice softens, trying to be gentle, but with a hint of awkwardness*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "No need to follow me, I'll just stay here for a moment. I'm not exactly... comfortable with crowds, and I don't want to get in the way. You go ahead, I'll be fine here. Just be sure to be careful, okay? I don't want anything to happen to you."
+    }
+  ]
+}

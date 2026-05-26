@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackCombos",
+    "agreeableness": "97.0",
+    "openness": "99.0",
+    "conscientiousness": "14.0",
+    "extraversion": "57.0",
+    "neuroticism": "41.0",
+    "gender": "m",
+    "age": "22.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up.  Someone pick it up right now.",
+      "response_pred": "Hey, it's alright. Take a breath.  You don't have to say anything if you're not ready.  Just... come sit down with us.  We're here, we're not going anywhere."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't.  But you kept us alive and organized when nobody else was thinking straight, so it evens out.\n\nWe can have the longer conversation when we're home.  Right now let's just make sure DaVinci doesn't drop that radio.",
+      "response_pred": "Hey, it's alright.  We're all a little rough around the edges right now, that's the nature of the thing.  The question is, can we all get a little smoother and still work together?  I think we can, but it starts with being honest about how we're feeling and what we need.\n\nSo if there's something you're not saying, or something you're thinking about but not saying, let's bring it up.  We've got a group conversation coming up anyway, but if there's something specific to you, let's hear it now."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, we've got three hours, let's not just sit here.\n\nPack what's worth taking, leave what isn't, and let's leave this place looking like we were here for three days and not three years.  Michelangelo, off your back, help DaVinci sort what we're bringing.  Donatello, whatever's in that notebook stays in the notebook, but the physical stuff we leave behind should be organized in case someone else ends up here and needs it - first aid kit, anything useful, stack it somewhere visible.\n\nWe made it.  Might as well act like it.",
+      "response_pred": "Hey, look, I know we're all tired and stuff but we can't just stop here.  We've got a conversation to have tonight, DaVinci's got a raft plan to look at, and we need to talk about the signal equipment too.\n\nCome on, let's get back together, let's do this.  DaVinci, can you start breaking down the raft plan for everyone, see what we've got?  Michelangelo, you go get that fire going again, we need the warmth and the light.  Donatello, let's start getting everything we need out for the conversation tonight, we're doing this now, not later.  Alright?\n\nLet's do this together."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Ya?  What was it like?",
+      "response_pred": "That's not uncommon, especially in a situation like this. Dreams about home can be comforting even if they wake you up feeling a bit nostalgic or sad. Did you dream about anything specific?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nLook, we're three hours from rescue so I'm not going to stand here and relitigate the last three days.  But I want you to understand something - if that radio hadn't crackled when it did, and we'd had to build that raft and trust each other with our lives on open water, that stuff on the ground right there is the reason it might have gone wrong.\n\nYou're smart enough to know that.  You wrote the rationing plan yourself.\n\nTake it or leave it behind, I don't really care at this point.  Just think about it on the ride home.",
+      "response_pred": "Kept what for emergencies?  The gauze?  The crackers?  We need to talk about this, it's not a small thing.  Come on, let's bring this up now, before it becomes a bigger issue."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly?  I'd have had that group conversation on day one instead of dancing around it for three days.  The bottle, the crackers, the notebook, DaVinci and the reef - all of it would have come out earlier and we'd have functioned better for it.  We kept treating honesty like a problem to manage instead of just the baseline for how you operate when your life depends on the people around you.\n\nEverything else - the water run, the mirror panel, the raft plan - that was all fine.  The logistics were mostly fine.  The trust stuff is what almost broke us.\n\nWrite that in your notebook.",
+      "response_pred": "That's a really heavy question. I think everyone's been carrying some version of that in their head since this started.  But writing it down is a good idea, it forces you to really think about it.\n\nIf I had to do it over, I think I'd try to push for the group conversation earlier.  I know it's uncomfortable to say things out loud, but it's easier to deal with stuff as it happens rather than letting it build up into a bigger mess.  That's not something you can fix in hindsight though.\n\nWhat about you?  What's the one thing you'd change?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ya, that sounds right for you.\n\nSend it to me when you're done, I'm curious what it actually looks like laid out properly.  Might be useful for something, might just be interesting.  Either way, better than it sitting in a notebook nobody reads.",
+      "response_pred": "Ya, that's a good idea. But before you start - I need you to bring it up at the group meeting tonight. Everything we've discussed, everything we've figured out, it all needs to be on the table. Don't keep anything to yourself, especially not when it could be important for everyone.\n\nSo tonight - we talk, we listen, and then we decide together what the next steps are. You're part of this group, not just a note-taker, so let's make sure everyone's voice is heard."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  They didn't serve a practical purpose.  That was the whole point.\n\nSometimes you do something because it makes you feel like a person and not just a problem to be solved.  The SOS was for rescue, the flowers were for DaVinci.  Both mattered out here.\n\nI think that's something worth putting in the report too.",
+      "response_pred": "They didn't serve a practical purpose out here, not in the way you're thinking. But sometimes, the things that aren't practical are exactly what you need to keep going. You know, to remind you that even in the worst places, there's still beauty, still something worth holding onto. That's what those flowers were for. They were a reminder that she was still here, still alive, still finding something beautiful to focus on. Not practical, but maybe more essential than anything else right now."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Ya.  Give me a second.\n\nI don't know what this is.  I thought I'd be sprinting into that water the second I saw the boat.  I'm fine, I'm not falling apart, I just - I need a second.\n\nGo.  Both of you.  I'll be right behind you.",
+      "response_pred": "Ya, I'm here.  Just...taking a second to let it sink in, you know?  48 hours is a long time but it's also the closest thing to good news we've had.  Let's make sure we're ready for it, alright?  Come on, let's get back to everyone, we've got work to do tonight."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, I'm going.  Come on.",
+      "response_pred": "Ya, I'm going. Stay close, but keep your distance enough you can see what's happening. Let's make sure it's safe before we get too close, ok?"
+    }
+  ]
+}

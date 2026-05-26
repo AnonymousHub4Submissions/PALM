@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "joellllll",
+    "agreeableness": "4.0",
+    "openness": "64.0",
+    "conscientiousness": "3.0",
+    "extraversion": "10.0",
+    "neuroticism": "1.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move — but nothing comes out.*",
+      "response_truth": "Get on the radio. Now.",
+      "response_pred": "Maybe you just need a minute. Take all the time you need."
+    },
+    {
+      "utterance": "These past few days — I know I haven't been easy to be around.",
+      "response_truth": "None of us were. It worked out.",
+      "response_pred": "I know things have been tough on you lately. What's been going on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes the lead. The silence settles over camp.*",
+      "response_truth": "Let's clean this up before they get here.",
+      "response_pred": "Maybe we should check on Donatello. I don't like how quiet he's been."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "Yeah... I know the feeling. Dreams can be a strange mirror of our fears and desires. No need to attach too much weight to them, though. Focus on what we can do today to keep moving forward."
+    },
+    {
+      "utterance": "I kept it in case of an emergency.",
+      "response_truth": "That's not what happened though. You took the drink before anyone knew it was there. Same with the crackers. If it was emergency reserves you would have said so at the time.",
+      "response_pred": "That's reasonable. But we're not in an emergency. What's the emergency?"
+    },
+    {
+      "utterance": "I've logged every day — resources, decisions, all of it. Plan to turn it into a proper report once we're back. Last page I left a question I haven't answered myself: if you could do this over, what would you change?",
+      "response_truth": "Probably would have pushed harder on the group transparency thing earlier. The notebook, the rationing, all of it should have been visible from day one. Would have saved some friction.",
+      "response_pred": "I... I don't know if I could change anything. We're all doing the best we can with what we have, and I don't think any of us regret our choices. The future's not for changing, it's for facing. What do you think, Michelangelo?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to write up a report on the resource usage data from these five days.",
+      "response_truth": "Good idea. The rationing data especially, that's actually useful if it ends up in front of anyone who designs survival protocols.",
+      "response_pred": "Yeah, I'll get to that. Let's just get the easy stuff out of the way first."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach... I never really understood it. What was the point of that, practically speaking?",
+      "response_truth": "Didn't need a point.",
+      "response_pred": "Those flowers were more about capturing a moment than anything. DaVinci's artistic expression, even if it seems whimsical, helps us remember our time together. It's a way to hold onto something, even if it's just a bit of beauty."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give it a minute.",
+      "response_pred": "Maybe. But the raft is half built and the mirror is up. We keep going regardless."
+    },
+    {
+      "utterance": "Rescue is here... they're waving at us. Are you going over? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I don't think so. We need to conserve our supplies and energy. Let them make the first move."
+    }
+  ]
+}

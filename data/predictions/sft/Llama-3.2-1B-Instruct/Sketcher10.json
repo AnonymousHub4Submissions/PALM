@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sketcher10",
+    "agreeableness": "51.0",
+    "openness": "68.0",
+    "conscientiousness": "18.0",
+    "extraversion": "62.0",
+    "neuroticism": "7.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Sketcher10__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's real. That's real.\n\nSomeone say something back to them — tell them where we are. DaVinci, Donatello, anyone got the coordinates from the notebook?",
+      "response_pred": "\"Ay, élj meg!\" (That's right!) Say it!"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the raft blueprints, the scouting — that was all you. I don't think we make it 48 hours without that.\n\nI get why you are the way you are. You were solving problems. I just think next time — and hopefully there isn't a next time — maybe loop the rest of us in a little more. We're better as a team than any of us are alone. You proved that too, honestly.\n\nWe're okay, Donatello. We're all okay.",
+      "response_pred": "I get it. That's not okay. We've all been there. But we're here now. How's it been for you? What's—\n\nWait, what's going on? You said something. What is it?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — we should clean this up, pack what's worth taking, and make sure the SOS on the beach is still visible in case they need a visual to find us.\n\nDaVinci, you're already moving, can you start breaking down the shelter material? Michelangelo, when you're ready, help me sort what we leave versus what we bring back. Donatello — whatever's in that notebook, it might actually matter when we talk to rescuers. Don't lose it.\n\nWe made it. Let's finish it right.",
+      "response_pred": "It's like they're not even there. Waiting for something to happen or something to say. I know that's not how recovery works.\n\nI'm going to sit here for a while. If you guys don't move, I'll just stay. All three of you. You're all still here, right?\n\nPlease, just sit with me."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I'm here. You're not alone. I'm here.\n\nYou know, it's okay to dream about home. It means you're struggling — and that's what we're all here for. We'll figure this out together. We can make it home, even if it takes a little longer.\n\nWhat's it like, exactly? Do you get to see it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I appreciate you saying that. And I'm glad you're putting it out there now.\n\nBut I'm not going to pretend it didn't happen. You saw the rationing plan. You wrote it. And then you made a different set of rules for yourself. That's the part that's hard to just move past.\n\nI don't think you're a bad person, Donatello. I genuinely don't. But if we'd needed that food at the wrong moment, or if Michelangelo or DaVinci had found out before I did — this group could have fallen apart completely. That's the real cost of it.\n\nSo yeah, I hear you. Emergency reserves, I get the logic. But you should have told us that was the plan from the start. That's all I've got to say about it.\n\nWe're going home. Let's leave it here on the island.",
+      "response_pred": "That's not it, Michelangelo. That dream, it's what scares me. It's what makes me think that we're not alone in this. I'm not ready to sleep without knowing we're tied down.\n\nYou, DaVinci, you're the one who's been handling this stuff right now. You're the one who's been—"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd talk more. Not about tasks or logistics, just... actually check in with people. I spent a lot of energy managing the situation and not enough making sure everyone felt like they were actually part of it.\n\nI'd also push back on you sooner — not in a confrontational way, just earlier. The drink, the crackers, the notebook. I saw the pattern forming and I let it go too long because I didn't want to create conflict when we needed to stay focused. That was the wrong call.\n\nAnd I'd spend less time worrying about whether I was making the right decisions and more time trusting that we could figure it out together. That's probably the biggest one.\n\nWhat's your answer? You wrote the question — you must have something.",
+      "response_pred": "You're going to write this up? Seriously? That's huge, Donatello. You're one of the few people who can say that.\n\nAnd yeah, change the question. Seriously. I don't want to know how long it took, or whether we'd still be okay. I just want to know that we didn't make it worse on purpose.\n\nYou know, I've been thinking about that question a lot. I think I've figured out what it is. And it's not because I know your answers better than anyone else.\n\nIt's because I think it's just going to take one more day. One more decision. One more action.\n\nYou know what? I'll do it for you right now. I'll stay here with you when we're done, and I'll help you write this up. But I don't want you to think I'm doing it out of some pity or obligation.\n\nI'm doing it because I have to. Because if we lose this, we're really, really sorry. We're sorry for the pain we caused each other. We're sorry for the mistakes we made.\n\nSo yeah. I'll help with this. And I hope you will too, too soon."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea. Honestly, if that data helps someone else survive a situation like this, it's worth putting together.\n\nSend me a copy when it's done?",
+      "response_pred": "You're walking us through this. I like that.\n\nJust one thing — you should check with DaVinci and the others first. We've been talking about this for a while, but it's not something we've discussed yet. We're all in on the plan."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't make the SOS bigger or more visible. They didn't solve a problem.\n\nBut I think that was kind of the point. DaVinci needed to put something human out there — like a reminder that we weren't just surviving, we were still people. And honestly? Every time I looked at that SOS I felt a little better because of those flowers. That has to count for something.\n\nNot everything useful shows up in a notebook, Donatello.",
+      "response_pred": "Honestly, for us, those flowers didn't really help much. They were just something we drew. But DaVinci said it was more than that. He said it was a way to express something that really mattered to him.\n\nI'm not sure I fully get it, but he's always showing up for the wrong reasons. I'm not sure that's different now. Maybe he just wants to keep exploring, even when it's not the best idea.\n\nBut there's something else that's been bothering me. You guys have been so quiet for days. I know we're all exhausted and we're just looking out for each other, but what I really need right now is someone to talk to.\n\nIf you guys are listening — I don't want to talk about anything. I just want someone to be here with me and not leave me for anything. If there's something new you've figured out, I'll listen.\n\nI don't know what's going on with us, and I don't know how to fix it. But I am here for you guys, and I want to help."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\nJust give me a second.",
+      "response_pred": "Hey. Hey, it's real. That's real.\n\nSomeone say something back to them — tell them where we are. DaVinci, Donatello, anyone got the coordinates from the notebook?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah. I'm coming."
+    }
+  ]
+}

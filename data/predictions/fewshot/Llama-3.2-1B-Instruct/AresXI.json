@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AresXI",
+    "agreeableness": "88.0",
+    "openness": "83.0",
+    "conscientiousness": "45.0",
+    "extraversion": "5.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it. Right now, just answer it.",
+      "response_pred": "You: *looks at other, then back at him, trying to read his expression* Hey, what's going on? You okay? *steps forward, hands relaxed*\n\nOther: *stares back, still silent, his eyes fixed on the ground*\n\nYou: *sighs, feeling a mixture of concern and frustration* Come on, man, just talk to me. What's wrong? *tries to sound calm, but his voice cracks slightly*\n\nOther: *looks up, his eyes still red, but slightly clearer* I... I just want to be left alone. Can't say anything, can't do anything. *pauses, as if searching for words*\n\nYou: *takes a step closer, trying to connect with him* I get it, I really do. We've all been there. But this is different. We're trying to survive here. We're trying to stay alive. *pauses, searching for a way to break the silence* Can I ask you something? *looks at him, hoping he'll respond*\n\nOther: *shrugs, his voice barely above a whisper* I don't know. *looks away, his eyes darting around the group*\n\nYou: *nods, understanding* Okay, well, I'm not going to push it. But I need you to know that we're not trying to make it easy for you. We're trying to survive, just like everyone else. *pauses, looking at other* You're part of this team, and we need you. *sighs* Just talk to us, okay? *extends a hand, palm up*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us organized when nobody else was thinking straight. The rationing plan, the inventory, the raft calculations, keeping track of everything. That stuff mattered even when it was hard to hear. You're not easy but easy doesn't keep people alive out here.",
+      "response_pred": "Big Five doesn't have a very expressive tone in the examples, this response is more in line with Big Five. - agreeableness: 88.0\n- openness: 83.0\n- conscientiousness: 45.0\n- extraversion: 5.0\n- neuroticism: 96.0"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's not just leave this place looking like a disaster. Three hours is enough time to at least break down what we can and not leave a total mess behind. DaVinci, you good to help pack up the camp? Michelangelo, whenever you're ready, even just small stuff helps. No rush but we should probably leave this place better than we found it if we can.",
+      "response_pred": "*The only sound is the creaking of the tree branches in the wind, and the distant calls of birds, but no one else notices anything out of the ordinary.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "That's a good dream to have right now. What was it about?",
+      "response_pred": "Other: Yeah, I had a weird dream, I don't know what was going on.\nYou: *sighs* I had a dream too, actually. I was at the beach, and I saw this signal fire burning in the distance. It was like the whole sky was lit up, and people were running towards it. I felt a sense of relief, like we were finally being found.\n\nOther: Really? That's cool. I had something similar, but it was more... fragmented. I saw a ship, not a signal fire. I was in the water, and there were people swimming towards the ship. I felt a sense of panic, like I was going to be left behind.\n\nYou: *nods* Yeah, it's like that. We're all trying to hold on to something when we have it. The thought of being lost, or being unable to be found... it's a heavy burden.\n\nOther: I know what you mean. I've been thinking about that a lot lately. I've been trying to write it all down, but it's hard to put into words.\n\nYou: *looks at her with a concerned expression* What are you writing about?\n\nOther: *pauses, taking a deep breath* I'm writing about the people we lost, the ones who didn't make it. It's like they're still with us, even though they're gone.\n\nYou: *nods, understanding* I'm sorry. That's not easy to talk about.\n\nOther: *looks down, her voice barely above a whisper* It's just... I feel like I need to keep going, even though it's hard. I need to keep writing, keep telling the stories of the people I lost.\n\nYou: *nods, placing a supportive hand on her arm* You don't have to. We're all here, with you. We're all trying to hold on to each other, just like you are.\n\nOther: *looks up at you, a small smile on her face* Thank you."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also believe you knew we were already rationing and that everyone else was doing it together. Look, you laid it out so that's something. But don't act like the emergency justification makes it clean because it doesn't. We all had emergencies out here. Michelangelo was falling apart, DaVinci was holding himself together with duct tape, I was running on nothing. The difference is none of us were quietly stashing supplies while logging everyone else's movements. \n\nI'm not going to hold it against you forever, especially not today when rescue is three hours out. But you should probably say something to them too, not just me.",
+      "response_pred": "Other: Yeah, I know it's not ideal, but I figured it would be better than nothing in case things went wrong. I'm not looking for a reward or anything, I just want to be prepared.\nYou: That makes sense. I know what you mean. I've got the same thing in mind. We're not just building a raft, we're building a lifeline in this situation. And it's not just about the physical supplies, it's about the mental and emotional preparedness too.\n\nOther: I've been thinking a lot about my family lately... and my friends... and all the people I've never met.\nYou: Yeah, I've been thinking about that too. You know, the people who don't know us, the people who don't know what we're capable of. It's a heavy burden to carry, but it's one we need to bear for their sake.\n\nOther: It's funny... I never really thought about it before, but it's not just about the people we meet along the way. It's about the people we leave behind. We're not just standing here waiting for rescue, we're standing here for our families, our loved ones. We're standing here because of them.\nYou: Yeah, that's true. And that's a weight we need to carry with us, every day. But it's a weight that's worth it, because we're not just standing here waiting for someone else to rescue us, we're standing here for ourselves. We're standing here to survive.\n\nOther: That's why the SOS is so important to me... not just because it's a signal, but because it's a promise. A promise that someone will come and get us. That someone will help us.\nYou: Yeah, it's a promise that's worth keeping. And it's a promise that's worth keeping for ourselves, too. Because when we're standing here, waiting for rescue, we need to remind ourselves that there's still a chance. There's still a chance that someone will come and get us, that someone will help us. And that gives us the strength to keep going."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably check in on people more deliberately instead of just when things were already falling apart. I was reactive a lot of the time, waiting until Michelangelo was already in a bad place or DaVinci was already cracking before I said something. \n\nWhat would you change?",
+      "response_pred": "You: Honestly? If I had to do it over, I'd probably prioritize getting a better signal. We've been patching the camp, patching the food storage... it's all coming together, but we need something more reliable than the SOS. Maybe a beacon or something to get a more precise location. That's something that'll actually help us if the rescue team starts looking for us seriously. We're just patching things up without a clear direction."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That actually sounds like something worth doing. Might be useful if anyone else ever ends up in a situation like this, having actual data from real conditions instead of just theoretical survival guides. Just maybe lead with the parts where people held it together instead of just the parts where the numbers worked out.",
+      "response_pred": "Other: Yeah, I was thinking about that. What kind of report are you planning? Just a summary of what happened, or more in-depth analysis? And when can we expect it to be done?\nYou: I was thinking we could work together to make it a bit of a joint effort. I've been gathering some notes and data from the five days, but it's scattered and hard to organize. With your help, we can get it all put together and make it a more solid report.\nOther: Sounds good. When do you need me to start working on it?\nYou: How about we start tomorrow? I was thinking we could meet up early to go over everything and get a better sense of what's in the report. I've got some ideas for where to focus, but I'd like to get your input on some of the things as well.\nOther: Sounds like a plan. I'll be back tomorrow morning, bright and early.\nYou: That sounds perfect. I'll make sure to have everything ready to go. And in the meantime, I've been thinking... we should definitely prioritize the survivor's report. That's the most important one, and it's going to be a real challenge to get the details right.\nOther: Absolutely. I'm more than happy to help out with that. What do you need me to focus on?\nYou: Well, first things first, we need to make sure that everyone's safe and accounted for. Then, we can move on to the report. I've got some ideas for who should be included, based on how much they contributed to the survival efforts. And then, of course, we can start writing the report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That's kind of the point. Not everything out here had to. We needed the SOS for rescue, sure, but we also needed to feel like we were still people and not just bodies trying to survive. That's what the flowers were for.",
+      "response_pred": "- extraversion: 32.0\nYou: Honestly? DaVinci was trying to get out of doing anything too strenuous, he saw how tired everyone was. He just wanted to sit back, relax, and enjoy the scenery a bit. And yeah, the flowers might not have been the most practical thing, but it's just something he liked to do when we weren't actively trying to survive. It's not like he was trying to save the world or anything. He just liked to unwind."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.",
+      "response_pred": "*Silence*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go home.",
+      "response_pred": "Other: *looks up, sees you standing there with a mixture of relief and exhaustion, and then smiles weakly* Yeah, I think I am. I'm not sure how I feel about leaving like this. We've been through so much together.\n\nYour: *looks at you with a mix of sadness and determination* I'll be right behind you. We need to get out of here and get back to the raft. The signal equipment is still intact, and we can use it to call for help. But I have to admit, I'm a little scared too. We've been holding on for so long, and the thought of being rescued without making it back to shore is a lot to process.\n\nOther: *nods slowly* I know. Me too. But we have to do this. We have to try to get back to the mainland, to get back to civilization. We have to try to get help. *pauses and takes a deep breath* I'm ready to head out. Let's go."
+    }
+  ]
+}

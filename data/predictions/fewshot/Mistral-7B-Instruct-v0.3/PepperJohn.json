@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PepperJohn",
+    "agreeableness": "17.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "92.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "Hey, what's going on? You seem upset. Is there something you want to talk about?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "That's alright. We're all under a lot of stress. Let's focus on what we can control — finding a way off this island and surviving until then. Maybe we can work on improving our relationships once we're back home. In the meantime, let's stay focused and keep each other motivated. Anything specific you want to work on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — pack up what's worth keeping, leave the rest. Donatello, tear out whatever pages of that notebook matter and bring them. Michelangelo, get up, help me with the fire.",
+      "response_pred": "Alright, let's regroup here. We've got a few things to address before we move on. First, I want to make sure everyone knows their tasks for the day — water collection, camp repairs, and signal maintenance. I'll take water, Donatello, you can work on repairs, and Michelangelo, you're in charge of the signal. Let's get moving.\n\nNo need to sit around and brood. We need to stay focused on survival, not let our fears consume us. And if anyone has any other ideas or concerns, let's discuss them now, not later. We're in this together, and we'll figure it out as we go.\n\nNow, let's get to work. I'll be heading out for water now. Don't waste any time, everyone. We need to make the most of each day."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "I'm not much for dreaming, but if it makes you feel better then let's hope it's a sign we'll make it back someday. In the meantime, we've got work to do. Let's focus on the tasks at hand and make the best of this situation."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what an emergency is. An emergency is all of us, not just you deciding when it counts. We talked about this already — the drink, the crackers, and now this. I'm not going to make a big thing of it with three hours left, but don't pretend it was purely strategic. You kept it because you kept it. Just be honest about that.",
+      "response_pred": "Okay, what kind of emergency are we talking about? And where is it hidden? We should know where all our supplies are in case we need them."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the supply issue earlier instead of waiting for it to pile up. And I would've asked Michelangelo about the flight path on day one — that was information we needed and none of us thought to ask. Everything else, I think we did alright given the circumstances.\n\nWhat would you change?",
+      "response_pred": "Not much, to be honest. We've managed to find food, water, and shelter so far, and the rationing plan seems to be working. If I had to change something, I might prioritize communication more — making sure everyone knows where we are and what's going on. But overall, I think we're doing alright. We just need to keep working together and focusing on the basics: water, shelter, and signal."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done.",
+      "response_pred": "Alright, but remember we're in this together. Let's make sure everyone's input is included. We don't want any oversights or misplaced blame. Plus, it might help keep morale up if we all feel like we're contributing to the plan. Let's work on it together."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "They're not for a practical purpose, they're for hope. To keep our spirits up. To remind us that even in the worst of situations, beauty can still exist. It's a symbol of our humanity, of our will to survive. It's not just about getting rescued, it's about keeping our minds sane and our hearts beating until then. That's what they serve."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm coming. Just give me a second.",
+      "response_pred": "Hey, what's up? Just taking a moment here. What's the plan now?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "I'll go first, make sure it's safe. You stay here with the others just in case. Let's not take any unnecessary risks. Once I confirm it's a rescue team, I'll signal for you to come."
+    }
+  ]
+}

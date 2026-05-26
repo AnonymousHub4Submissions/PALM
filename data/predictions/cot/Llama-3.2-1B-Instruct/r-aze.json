@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "r-aze",
+    "agreeableness": "1.0",
+    "openness": "47.0",
+    "conscientiousness": "93.0",
+    "extraversion": "10.0",
+    "neuroticism": "4.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomeone get on that radio right now and tell them exactly where we are. Donatello — you have the coordinates, you've been tracking everything. Go.\n\nThe rest of us stay calm and stay here. We did it. We actually did it.",
+      "response_pred": "think>Their demeanor suggests a mix of emotions, but the lack of words leaves the tension palpable.</think\nresponse>His eyes are red, and his lips are sealed, as if he's holding something back.</response>"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think we can call it even.\n\nHonestly — the log, the rationing plan, the raft calculations, mapping the currents. That was all you. I don't need you to be easy to be around. I need you to be competent, and you were.\n\nThe drink and the crackers — I'm not going to pretend that didn't happen. But I also watched you take the fire shift so the rest of us could sleep, and you're the one who got on that radio just now. People are more than their worst moments. I believe that.",
+      "response_pred": "You're saying that you've been... distant, for lack of a better word. That your usual warmth and enthusiasm seem to be tempered, as if one of us is holding back. I'm not sure I'm ready to put my finger on exactly what's wrong, but I do know that I've noticed a change in the way you've been interacting with us. You seem... guarded."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can clean up the camp.\n\nI'm not leaving this place looking like wreckage — well, more than it already does. If someone else ends up here before the rescue crews clear it, I'd rather they find something useful than a mess. And honestly I think we'll all feel better boarding whatever comes for us if we've done something with our hands in the meantime.\n\nMichelangelo, you don't have to get up yet. But in about twenty minutes I'm going to need you.",
+      "response_pred": "\"That's okay, guys. We can handle this. We might not find the plane, but we're not going to stop trying just because of one plane that didn't see us. We've got the SOS on the beach, the raft plan, the flares... we've got everything we need. We just need to keep moving and hope for the best. And if we don't find that plane, we'll just have to keep going and see what other opportunities we can find. There's always something out there, right?\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Person: Yeah, I've gotten some weird dreams lately. We were on a long airplane ride and I fell asleep in the clouds. I was walking through a city, but it was empty. People were just sitting on benches, staring blankly at their phones. I passed by a big park, but it was filled with empty benches and a huge sign that said \"Welcome Home\". It was pretty surreal."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make this into a whole thing right now, not with three hours to go. But I want you to know that I noticed, and I think you know that what you did wasn't right, even if the reasoning made sense to you at the time.\n\nYou kept it for emergencies. Okay. We made it without needing it, so in some version of events, maybe that worked out. But the people around you were scared and hungry and holding to the same rules you wrote, and that matters.\n\nLay it out with everything else. Let's go home clean.",
+      "response_pred": "think their typical response length (terse vs verbose?)\n- 1-2 sentences\n\nthink their tone (warm / blunt / philosophical / dismissive / etc.)\n- Blunt\n\nthink what they would specifically say to this utterance.\n- They're not really concerned about disappearing without a trace, but rather focus on the emotional impact and the fact that they're trying to be prepared for the worst.\n\nresponse their reply (this is the final answer, in their voice)\n- \"I kept it for emergencies.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have talked to you sooner. Not about the food or the water — about the actual stuff. You're competent, I figured that out fast, but I kept treating you like a system to work with instead of a person to work alongside. That probably made things harder for both of us.\n\nI'd also have been more patient with Michelangelo earlier on. I kept redirecting him back to tasks because I was focused on what needed doing, and that was right, but I could have done it with a little more... I don't know. Less efficiency, more humanity. He was holding a lot.\n\nOther than that — I don't know that I'd change much. The decisions made sense when we made them. That's all you can really ask for.\n\nWhat's your answer?",
+      "response_pred": "think>Given the context, it seems like the persona is reflecting on their experience, acknowledging the value of documentation and the potential biases that come with it. They're also considering the limitations of their own perspective and the potential for their own flaws to influence the report.\n\nresponse>They're essentially saying that if they could do it over again, they would make sure to consider the reliability of their own team members' reporting and to be more objective in their assessment of situations."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something worth doing. If you write it up, I'd actually read it.\n\nSend me a copy when it's done.",
+      "response_pred": "think>in the chaos and the uncertainty of those first five days, compiling resource data might seem like a monumental task, but I can already see the outlines of a report emerging from the wreckage of our makeshift shelter. <response>their reply (in Big Five's voice)"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They weren't for any practical purpose.\n\nThey were for us. To remind us that we were still people out here and not just a survival problem to be solved. I said that to DaVinci when he drew them and I meant it.\n\nI think you understood that more than you're letting on, actually. You just needed it to mean something measurable. It did — just not in a way that fits in the notebook.",
+      "response_pred": "think: This persona's typical response length is brief and direct, often to the point. They're trying to get to the point without elaborate explanation.\n\nresponse: Like DaVinci said, the flowers were a nice touch. We're still people out here, not just a survival problem to be solved. It's a reminder that we're still trying to find meaning and beauty in this chaotic situation."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I know. I see it.\n\nI don't know what this feeling is either. It's not bad, exactly. It's just... a lot. Give me a second.\n\n*a beat*\n\nOkay. Let's go.",
+      "response_pred": "\"Hey, it's okay, I knew it. I just...I didn't want to see you like that.\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "You: *stands up, stretching, and walks over to where the other person is sitting* Yeah, I'll be right behind you. Let's go. *looks over at the wreckage and the survivors, then back at the person* You okay? Your speech sounds a bit shaky.\n\nOther: *nervously laughs and shakes head* Yeah, I'm fine. Just a little relieved, I guess.\n\nYou: *smiles slightly* Well, I'm glad we're getting out of this mess then. *looks at the person, then at the others, and nods towards the plane* We're going to need to get out of here and assess the situation. Let's move."
+    }
+  ]
+}

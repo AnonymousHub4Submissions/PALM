@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "Alright, let's get moving! We've got a lot to do today and no time to waste. Who's ready to hit the ground running?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "Hey, I've noticed you seem a bit on edge these days. I appreciate you being so upfront about it. There's no need to carry everything alone, you know? Let's grab a coffee and chat about what's been going on."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "Man, I can't believe they all just split like that. I should really step up and make sure everyone's okay, but honestly, I just want to enjoy the peace for a bit. Maybe I'll start a fire and make some s'mores. Let's see how things develop."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's lovely! It sounds like a warm and comforting dream. What aspects of home did you dream about?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "Got it, always best to be prepared for anything!"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "If I had to do it over, I'd definitely allocate more time for the really impactful tasks that weren't getting the attention they deserved. Also, maybe I could have been a bit more social and built some of those relationships earlier. But overall, I'm pretty happy with how things played out."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Got it! I'll start organizing all the notes and stats right away. Let's make sure everything is neat and comprehensive for that report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Those flowers are more than just a practical thing, they're a symbol of beauty and nature's art. DaVinci was always fascinated by the intricate details of the world around him. I think he drew them to capture the essence of the moment, to immortalize the serene and peaceful atmosphere of that beach. It's not about a practical purpose, but about aesthetics and the joy of creation."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "Alright, let's do this. Let's get this show on the road!"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Of course, let's go! I'll be right there, leading the way."
+    }
+  ]
+}

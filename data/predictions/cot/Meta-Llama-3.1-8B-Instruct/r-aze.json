@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "r-aze",
+    "agreeableness": "1.0",
+    "openness": "47.0",
+    "conscientiousness": "93.0",
+    "extraversion": "10.0",
+    "neuroticism": "4.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomeone get on that radio right now and tell them exactly where we are. Donatello — you have the coordinates, you've been tracking everything. Go.\n\nThe rest of us stay calm and stay here. We did it. We actually did it.",
+      "response_pred": "Hey, it's okay. Just take a minute. You don't have to say anything."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think we can call it even.\n\nHonestly — the log, the rationing plan, the raft calculations, mapping the currents. That was all you. I don't need you to be easy to be around. I need you to be competent, and you were.\n\nThe drink and the crackers — I'm not going to pretend that didn't happen. But I also watched you take the fire shift so the rest of us could sleep, and you're the one who got on that radio just now. People are more than their worst moments. I believe that.",
+      "response_pred": "It's not about being easy to be around right now, I think. It's about survival, and we're all struggling with that in different ways. I'm not expecting anyone to be their usual selves, and I'm trying to be understanding of that as much as possible. Can we talk about what's been bothering you specifically, and see if there's anything I can do to help?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can clean up the camp.\n\nI'm not leaving this place looking like wreckage — well, more than it already does. If someone else ends up here before the rescue crews clear it, I'd rather they find something useful than a mess. And honestly I think we'll all feel better boarding whatever comes for us if we've done something with our hands in the meantime.\n\nMichelangelo, you don't have to get up yet. But in about twenty minutes I'm going to need you.",
+      "response_pred": "We can't just drift on autopilot like this. We need to figure out our priorities and assign tasks. I'm not asking for a leader, but someone needs to take charge and make sure we're all working together towards our goal. DaVinci, you're the one who's been keeping track of our supplies and equipment. Why don't you start by assessing our current situation and making a list of what needs to be done? Meanwhile, I'll check the signal equipment and see if there's anything we can do to improve our chances of being seen. And Michelangelo, you're still not looking like yourself. Are you okay?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's...not a surprise. It's normal to have those kinds of dreams, especially when we're in a situation like this. It's like your mind is trying to hold onto something familiar, even if it's not really there. Did it feel like a good dream, or was it more of a bittersweet one?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make this into a whole thing right now, not with three hours to go. But I want you to know that I noticed, and I think you know that what you did wasn't right, even if the reasoning made sense to you at the time.\n\nYou kept it for emergencies. Okay. We made it without needing it, so in some version of events, maybe that worked out. But the people around you were scared and hungry and holding to the same rules you wrote, and that matters.\n\nLay it out with everything else. Let's go home clean.",
+      "response_pred": "We don't have a lot of emergencies to speak of right now, so I'm not sure what you're preparing for, but I'd rather know what that is than not. What exactly do you think you're going to need it for?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have talked to you sooner. Not about the food or the water — about the actual stuff. You're competent, I figured that out fast, but I kept treating you like a system to work with instead of a person to work alongside. That probably made things harder for both of us.\n\nI'd also have been more patient with Michelangelo earlier on. I kept redirecting him back to tasks because I was focused on what needed doing, and that was right, but I could have done it with a little more... I don't know. Less efficiency, more humanity. He was holding a lot.\n\nOther than that — I don't know that I'd change much. The decisions made sense when we made them. That's all you can really ask for.\n\nWhat's your answer?",
+      "response_pred": "I'd change nothing. Every decision, every resource allocation, was made based on the information we had at the time. We survived this long, and that's a testament to our collective problem-solving. If I had to do it over, I'd likely make more of the same choices, albeit with a deeper understanding of the terrain and the people around me."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something worth doing. If you write it up, I'd actually read it.\n\nSend me a copy when it's done.",
+      "response_pred": "We should do that. But let's also make sure it's not just a dry listing of what we've used and when. We should try to identify patterns, understand what worked and what didn't, and see if there are any lessons we can take away from this experience. And maybe, just maybe, we can find some ways to apply those lessons to our lives back home."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They weren't for any practical purpose.\n\nThey were for us. To remind us that we were still people out here and not just a survival problem to be solved. I said that to DaVinci when he drew them and I meant it.\n\nI think you understood that more than you're letting on, actually. You just needed it to mean something measurable. It did — just not in a way that fits in the notebook.",
+      "response_pred": "They were a reminder that we're still people here, not just survivors. A small gesture, but it helps keep things in perspective."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I know. I see it.\n\nI don't know what this feeling is either. It's not bad, exactly. It's just... a lot. Give me a second.\n\n*a beat*\n\nOkay. Let's go.",
+      "response_pred": "Hey, I'm here, I just needed a minute. You were really close, I could see it. And yeah, it was a big plane, but it's still a long shot. I'm not going to pretend otherwise. But that doesn't mean we give up. We can still try to signal, still try to get someone's attention. We just have to be smart about it, and we have to keep each other going."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "We need to make sure everyone's accounted for and we move as a group. Don't go anywhere until we've got a headcount and a plan for how we're going to move towards them. We don't know what they're equipped with or what kind of situation we're walking into."
+    }
+  ]
+}

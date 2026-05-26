@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ladylattemotif",
+    "agreeableness": "0.0",
+    "openness": "95.0",
+    "conscientiousness": "7.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "f",
+    "age": "25.0"
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Pick it up. Answer it.",
+      "response_pred": "I apologize, but I must express my dissatisfaction with the current state of affairs. This is unacceptable. I expect immediate rectification, or there will be consequences."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Those aren't unrelated things.",
+      "response_pred": "Apologies for my unrelenting mood swings and intense emotions. I'm finding it challenging to maintain a semblance of equilibrium as of late. Let's hope this storm passes soon."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the SOS still marked in the sand*\n\nWe should probably leave this reasonably tidy. Not for us — I know we're not coming back — but because if another plane comes down somewhere near here, some of this might still be useful to someone.\n\nAlso I'd just feel weird leaving it like this.\n\n*starts gathering things into a rough pile*\n\nAnyone want to help, or are you all having your moments? I can do it, I just — Donatello, you could at least tell me which of this kit is worth keeping versus leaving behind.",
+      "response_pred": "I can't help but feel the weight of this silence. It's suffocating. Why can't anyone take charge? I have ideas, bold, unconventional ideas that could change everything. But no one listens. No one ever listens. Instead, they wander off, lost in their own thoughts and desires. I swear, sometimes I think I'm the only one who truly sees the chaos around us. The chaos that's about to swallow us whole."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "The thought of home, my sanctuary, invades my dreams once more. Yet, the reality is far from the idyllic visions that haunt me at night. My dreams are a cruel reminder of a place I yearn for, a place that's lost to me forever."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I believe that's what you told yourself.\n\nBut we had a rationing plan. You wrote it. And then you kept resources back from it — twice, that I know of, and now whatever's here. So either the plan was real or it wasn't, and you were the one who decided, alone, that it wasn't. That's the part I can't quite let go of.\n\nI'm not going to make a thing of it now, three hours before rescue. But I want you to know that I noticed, and I noticed what it cost — not just in crackers or a drink, but in whether Michelangelo and DaVinci trusted the situation they were in. That matters.\n\nYou kept us alive. I meant that. I also think you know this wasn't right. So I'll leave it there.",
+      "response_pred": "That's a curious relic to hoard for emergencies. I've always found myself more interested in the mysteries of the universe and less concerned with practical matters. But, to each their own, I suppose."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had the conversation with you about the resources earlier. I kept waiting for the right moment and telling myself I'd handle it tonight, or after this other thing was sorted, and the right moment doesn't really exist — you just have to say the thing.\n\nI'd also have been clearer with Michelangelo sooner about what we actually needed from him. I was gentle with him because he was struggling, and I don't regret that exactly, but there's a version of gentle that's also honest, and I think I leaned too far into just... managing him rather than treating him like someone capable of rising to it. He might have surprised me if I'd asked more directly.\n\nWhat would you change? You clearly know what you'd write — you left yourself the question.",
+      "response_pred": "I have meticulously documented every resource and decision made over the past five days. Upon our return, I will compile this information into a comprehensive report. On the final page, I have left myself a query I have yet to answer: if given the opportunity, what would you alter about this entire operation?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds useful, actually. If it ends up somewhere people can read it — search and rescue teams, survival training, whoever — then this whole thing meant something beyond the four of us getting out. \n\nMake sure you include the stuff that didn't work as well as the stuff that did. The notebook, the rationing breach, the communication gaps. The honest version is the one that's actually worth anything.",
+      "response_pred": "I'll immediately dive into analyzing and organizing the resource data from these past five days, preparing an exhaustive report. No time to waste. Let's get to it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't signal anything, they didn't catch light, they didn't do anything functional.\n\nBut DaVinci drew them because he's the kind of person who, even when he's terrified and exhausted and holding everyone else together, still wants to put something beautiful next to the thing that might save his life. I think that's worth something. I couldn't tell you exactly what, but I think it is.\n\n*doesn't take her eyes off the boat*\n\nI'm glad he put them there.",
+      "response_pred": "I find it peculiar that such intricate works of art as those flowers DaVinci drew had no tangible function in this setting. It seems to me that in a practical sense, they served little purpose beyond aesthetics. However, one might argue that their existence served to remind us of the beauty that can be found even in the most seemingly ordinary or mundane aspects of life. A fascinating concept, really."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Don't wait for me. I'm fine. I just need a second.\n\n*finally looks at him*\n\nYou drew flowers on the beach. On the worst day. I keep thinking about that for some reason.\n\nGo on — wave them in. You're the right person to do it.",
+      "response_pred": "I can't believe you're still here. This is pathetic. I was hoping for more from you. But I suppose it's fitting that you're the one who can't seem to find the exit when it's right in front of you. I'm going back to my game. You can stay and watch if you want, but I promise it won't get any more interesting. Or perhaps, you'd like to join? You don't seem to be doing much else."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, then.",
+      "response_pred": "I suppose, if it's necessary. I'll make my way over, but only because it seems the most logical course of action. I'll follow behind you, as you've offered, but I don't see the point in making a spectacle of myself."
+    }
+  ]
+}

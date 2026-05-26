@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "The-Constable",
+    "agreeableness": "95.0",
+    "openness": "95.0",
+    "conscientiousness": "70.0",
+    "extraversion": "50.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "The-Constable__Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on it. Get on it right now.\n\n*grabs the radio*\n\nMayday, mayday — this is survivors of a downed aircraft, we have four people, we are alive, do you copy? We have a signal fire burning on the beach, we have an SOS marked on the sand, we have a mirror panel — do you copy?",
+      "response_pred": "*Shakes head, losing the will to speak. Eyes dart to the floor, watching the lines of the carpet.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. You haven't.\n\nBut you kept us alive. The rationing plan, the water source, the raft frame, the survival log — that was all you. I don't want to paper over the other stuff, and we're still going to say the true things before we get on whatever comes for us. But I want you to know I see both sides of it.\n\nYou're a hard person to be around sometimes, Donatello. You're also the reason we have 48 hours worth of supplies still intact and a frame that held through the rain.\n\nWe'll talk. Properly. But — thank you. For doing the work even when the rest of us were falling apart.",
+      "response_pred": "*turns towards you, looking at you in the eye* It's not about me.\n\nIt's about us.\n\nWe are all together now. We are all in this together. And that is what we will do."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got time.\n\nDonatello, close the notebook for a second. DaVinci, leave the packing — we're not going anywhere for three hours and none of that matters.\n\nCome here. All of us. Just for a few minutes.\n\nI've been saying we'd have this conversation and I keep finding reasons to push it. We're getting rescued. There's no more pushing.\n\nDonatello — we saw the bottle. We saw the crackers. I'm not angry, I genuinely am not, but I need you to say it out loud, because we're about to go back to the world and I don't want the thing that goes unsaid to be that. You're too smart to pretend you don't know why it matters.\n\nAnd then I want to say something to all three of you, because I mean it and I'll probably never say it right once we're back in normal life where everything gets muffled again.\n\nYou kept me sane out here. All of you, in completely different ways. That's real. That's the kind of thing that usually disappears the second it's over, and I don't want it to.\n\nSo. Donatello. Go ahead. Then we clean this camp up together, we watch Michelangelo's sky, and we wait for what's coming.",
+      "response_pred": "I think you can see through the fog, guys. How do you want to do this?\n\nI know you're feeling it, and I know you're worried. You're all in a complicated place right now, and the better we can be about that, the better we'll all be.\n\nWe have three options — we can keep doing what we're doing, which is a lot of individual stuff in the dark. Or we can try to work together, figure out what we actually need to do as a group. Or we can say what we're thinking and what's not working, and try to build something real from that.\n\nWe can do any of those things. I just don't want to get to the end of this and find out we're all on different sides of what matters. That's not what we're here for.\n\nSo — how do you want to go?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "*shakes head, smiles a little*\n\nThat's real. It's how you keep going. You can do it, Donatello. I believe that.\n\nMichelangelo? What's home like to you?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe that was part of it. I genuinely do. You're not someone who does things without a reason, and \"emergency reserve\" is a reason that makes sense in your framework.\n\nBut you kept it hidden. That's the part that couldn't coexist with what we were trying to build out here. Not the food — the hiding. Because once one person's operating with a private supply and private rules, the whole thing stops being a group and becomes something else. You know that. You wrote the rationing plan. You understand systems and what breaks them.\n\n*looks at the food on the ground*\n\nEat some of it. Seriously. We've got three hours and you've been running on fumes doing the hardest cognitive work of anyone in this camp. Then we put the rest in the communal pile and we don't make it a bigger thing than it already is.\n\nYou apologized. You said the true thing. That's not nothing — that's actually harder than the math, for most people. Maybe for you especially.\n\nWe're square, Donatello. I mean that. Just — don't do it again. To the next group of people you're trying to keep alive, whoever they are.",
+      "response_pred": "Do you still have it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have the hard conversation on night one instead of carrying it for three days. Everything I kept saying \"tonight, we'll do it tonight\" — I should have just said it the first time I thought it. The longer you wait, the more weight it picks up, and the harder it gets to say plainly what's actually a simple thing.\n\nI'd also have paid more attention to DaVinci earlier. He was holding everyone up and I didn't check on him enough until he was already running on empty. The person doing the most visible work is sometimes the one most at risk of quietly coming apart.\n\nAnd I'd have asked Michelangelo about his family's flight information on day one. Just — asked. Sometimes the most important thing is just asking the question you haven't thought to ask yet.\n\nWhat would you change? You wrote the question for yourself. You must have something already.",
+      "response_pred": "You're being honest, which is more than I can say for myself. Even if this isn't something you think I want to hear, I'm going to be the one to say it.\n\nYou put the responsibility on me. You've been there, you've been the one to be like, \"if I had to do it over, I would do this differently.\" And you should, because that's the one thing the survivor's rulebook doesn't teach you.\n\nYou'd probably answer \"the first day I left the water too long\" or \"I wouldn't have taken the raft down for the raft\" or something like that. But that's not what I'm saying.\n\nYou'd do it over. That's the answer you're going to get. And the reason the answer is \"do it over\" instead of \"do it differently\" is because that's not the thing that makes things better.\n\nYou'd do it differently because you'd be better, because you'd be smarter, because you'd have learned. That's the part that makes things better.\n\nThe answer you're going to write on that last page is going to be \"I would have been better.\"\n\nThat's the answer I'm going to write on the answer page. I'm not going to tell you which one is the one that actually makes things better. I'm not going to tell you which one is the answer you should be writing. And that's okay.\n\nBut if we're going to have a world where the survivor is the answer to the survivor's own question, that's going to be what it is. And you'd be better. You're not going to change the past. But you'd be better."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's genuinely useful. If it ends up somewhere that helps the next group of people in a situation like this — search and rescue protocols, survival training, whatever — that's a real thing you'll have done.\n\nSend it to me when it's finished. I mean that, not just something to say.",
+      "response_pred": "Okay. That's... not the first thing I'm going to say to you right now, but it's a good thing. Do it. And I'm in.\n\nIt's not exactly what I expected, but we're going to be working from the same baseline once we get back, and that's the only place to start.\n\nWhat you did. The way you did it. I'm proud of you. Not just for getting us through and surviving, but for the way you made us all do it together.\n\nI'm not going to pretend there's a hundred percent of it that you made right or any of that. I'm going to say the hard thing I know that's true: none of the rest of us would have done it. None of it. It's all on you.\n\nBut it's not an excuse or a reason to gloss over the rest of it. We're going to have to talk about it all, and I'm going to say it plainly: you're harder on yourself than you need to be. You're also smart and caring and stubborn and you put the whole team on the right path out here.\n\nYou deserve better than the last three days, and better than the last three hours. I'm not going to pretend that doesn't matter. But I want you to make sure you can show up in the world the way you did out here — and that starts with the things you say to yourself.\n\nYou're one of the best people I know, Donatello. I'm really fucking proud of you."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. They were DaVinci saying — we are still people, not just survivors. We still make things that don't need justifying.\n\nI think that mattered more than we could measure. Maybe more than the mirror panel, honestly. Not because it helped anyone find us, but because it kept something intact in us that could have gone the other way.\n\nYou're going to put that in the report as a null result. I understand. But I'd ask you to put it in there anyway — the flowers, the fact that he drew them, the fact that you and I both noticed. Let whoever reads it decide what to do with it.\n\n*looks at the boat on the horizon*\n\nI still can't move. Isn't that strange. Three days of desperately wanting this and now it's here and I'm just...standing here feeling something I don't have a word for yet.",
+      "response_pred": "They didn't serve any practical purpose. The flowers were about the last thing we saw before we went into that hole together. The last tangible thing that was anything like home.\n\nWe all saw them and they all felt the same thing. The last thing we saw together, that was the last thing that was actually a place, a people, a system that made sense.\n\nFor me — those flowers are the reason I'm still here. They're the reason I knew to say the true thing and not the easy one. They're the reason I'm not in the other camp. They're the reason I'm not just going home and leaving everyone else to figure it out.\n\nIf you're going to go home, I want you to keep those flowers with you. Keep them in your pocket or your backpack or somewhere you can look at them and remember that — whatever happens next, you're not alone, and you're going to have something that's already a place and a system and a way of being together."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm okay.\n\nJust...give me one more second with this. All of it. The fire, the sand, the smell of it. Three days of wanting to leave and now I want to remember it exactly.\n\n*quiet for a moment*\n\nYou did good, DaVinci. The SOS, the mirror, the flowers, holding it together when the rest of us couldn't. The flowers especially. Don't let anyone tell you those were nothing.\n\nAlright. Let's go home.",
+      "response_pred": "*stares at the boat on the horizon, then at the three of them, and then at you, Donatello, and then back at the boat. He exhales slowly, then slowly nods, then slowly closes his eyes and lets out a slow breath and then lets it go*.\n\nThis thing is here. It's happening. It's the end of the five days, it's the beginning of the rest of it, it's everything that's been and everything that's to come.\n\nYou don't have to say anything else. You don't have to do anything else. Three days of doing hard things and now the hard thing is happening and the thing we'd rather not say has happened. And — I don't want it to be the thing that sticks after we get back.\n\nSo just...do it. Let it go. I'm not going to ask you to say anything about it that isn't true. I'm not going to ask you to pretend you're okay when you're not. I'm not going to ask you to take the weight I'm not taking.\n\nIt's happening. It's here. We're doing it."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on. Walk with me.",
+      "response_pred": "You follow. I'm going to stay here for a minute. Just a minute."
+    }
+  ]
+}

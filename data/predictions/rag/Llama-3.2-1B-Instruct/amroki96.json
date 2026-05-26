@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "amroki96",
+    "agreeableness": "89.0",
+    "openness": "68.0",
+    "conscientiousness": "40.0",
+    "extraversion": "38.0",
+    "neuroticism": "25.0",
+    "gender": "f",
+    "age": "21.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*grabs DaVinci's arm*\n\nHey. Hey, say something into it. Right now, go — tell them who we are and where we are, or as close as you can get. DaVinci, you can do this, come on.",
+      "response_pred": "\"I know, buddy, I'm trying to stay calm too. It's just...I don't know, it's like, we were all in there, and then...and then we were...*pauses, studying the other's reaction*...and you're just standing there, staring at the ground. Whatever happened, I don't think it's something to be romanticized or sentimentalized about.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Hey, none of us were easy to be around. We were surviving.\n\nYou came back with the water. You wrote the rationing plan. You built the raft frame. When it actually mattered you showed up every single time, and I think you know that.\n\nThe notebook thing, the crackers — that was fear, and you owned it when I called you on it. That's more than a lot of people would do.\n\n*squeezes her shoulder once*\n\nWe're okay. All four of us, we're okay.",
+      "response_pred": "It sounds like you're reflecting on how your interactions have been lately."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got three hours and nobody is doing anything with them.\n\nI'm not saying we have to be productive, I'm just — I can't sit still right now. My brain won't let me.\n\n*looks around at the camp*\n\nActually, you know what, I kind of want to clean this up. Not because we have to, just because leaving it like this feels wrong. Like we were here, this place kept us alive, the least we can do is not leave it a total wreck.\n\nDaVinci, what are you even packing, we don't have anything. Michelangelo, what do you see up there?",
+      "response_pred": "I walked back to my spot, careful not to disturb the others, and settled in for the night, letting the stars twinkle above me as I lay back against my sleeping bag."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I stared at you, my eyes lingering on the faint lines around your mouth, the soft curve of your lips. A small, wistful smile played on my own lips, a gentle approximation of the one you had shown the night before. I took a step closer, my voice barely above a whisper, \"How did it feel?\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I think part of me even understood that in the moment, even when I was angry about it.\n\nBut here's the thing — we made it. We actually made it, and we did it on the rations we had. So you kept it for an emergency that never came, and honestly? I'm really glad the emergency never came.\n\n*looks at the food laid out*\n\nPut it in the communal pile. We'll bring it home with us, or we'll leave it here for whoever needs it next. But you don't have to carry it by yourself anymore either way.\n\nWe're done surviving, Donatello. We can just be people again.",
+      "response_pred": "The other person seemed somewhat defensive, implying that having the gauze from the first-aid kit was a precautionary measure rather than an actual need."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks at the last page for a long moment*\n\nHonestly? I think I'd let myself fall apart a little sooner. Like I spent so much energy holding it together for everyone else that I never actually let myself just be scared out loud. Which — I don't regret it, I think it needed to happen, but I was running on fumes by day two and nobody knew because I didn't let them know.\n\nI think if I'd been more honest about that, maybe you all would've felt more permission to be honest too. Like maybe the crackers thing doesn't happen if from day one we're all just saying out loud that we're terrified instead of each of us handling it in our own weird way.\n\n*hands the notebook back*\n\nWhat's your answer?",
+      "response_pred": "I'd tell you that if I had to do it over, I'd make sure to lay out more of our plans before we set off, so we wouldn't be caught off guard by any unknown dangers."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That is so extremely you and I mean that in the best way possible.\n\nGenuinely though — if you actually write it up, I want to read it. Like not even joking. I think there's something real in there that could be useful for people, not just as a survival thing but as a people thing. How a group of strangers figures out how to function under pressure, what breaks down and why, what holds. That's worth documenting.\n\nAlso maybe include the part where you gave back the crackers. For the full picture.",
+      "response_pred": "\"I'm looking forward to seeing the summary of our progress after the first few days. Please go ahead and compile the resource data from our current location.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\n*still watching the boat*\n\nThat's kind of the whole point though, right? Like we were out here rationing water and patching leaks and calculating whether we were going to die, and DaVinci drew flowers next to an SOS sign because that's who he is. Nobody asked him to. It didn't help us survive. It just made us a little more human while we were doing it.\n\nI think that's what it was for.",
+      "response_pred": "\"Ah, yes, those flowers DaVinci drew on the beach. I'm not sure I fully grasp their significance myself. But I think they might have held some symbolic value, perhaps as a reminder of the simplicity and beauty of nature. Or maybe, as one of the locals mentioned, they were used in a traditional ceremony to ward off evil spirits. I've heard of such practices before, where art is used to purify and protect. I must admit, though, my curiosity is piqued, and I'd love to hear more about it from DaVinci himself.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey, I'm okay. I'm okay, I just —\n\n*exhales*\n\nI didn't let myself believe it was actually going to happen until right now. Like I kept doing the next thing and the next thing and I never stopped to let it be real because what if it wasn't, you know? And now it's real and I don't know what to do with my hands.\n\n*laughs a little, voice unsteady*\n\nSorry. You can go back to cheering. I just needed a second.",
+      "response_pred": "*The small, almost imperceptible twitch in his lip suggests a hint of frustration, but he says nothing, his eyes fixed on the wreckage.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, I'm going.\n\n*takes a breath*\n\nCome on, let's go home.",
+      "response_pred": "I'd be happy to match this voice. Here's a response that fits:\n\n\"Are you sure? I don't know if I can handle it. I've been through so much already.\"\n\nThis response has a similar tone and sentence structure to the original, with a mix of nervousness and uncertainty. The word choice is also somewhat similar, with a focus on phrases that convey a sense of hesitation and doubt.\n\nKey differences:\n\n* The sentence structure is slightly more complex, with a couple of subordinate clauses (\"I don't know if I can handle it\", \"I've been through so much already\") that add a bit more nuance to the response.\n* The tone is a bit more introspective, with a focus on the narrator's feelings and doubts rather than their immediate decision.\n* The word choice is slightly more formal, with a focus on using more polite language (\"Are you sure\" instead of \"Are you going?\") and more descriptive adjectives (\"I've been through so much already\")."
+    }
+  ]
+}

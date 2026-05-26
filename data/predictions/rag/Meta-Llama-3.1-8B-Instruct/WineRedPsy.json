@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "WineRedPsy",
+    "agreeableness": "22.0",
+    "openness": "98.0",
+    "conscientiousness": "1.0",
+    "extraversion": "73.0",
+    "neuroticism": "99.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is then.",
+      "response_pred": "Take your time. You don't have to say anything right now."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organized when it mattered, and that counts for a lot.\n\nThe notebook, the rationing, the raft plan — that was all you. We'd have been in a much worse position without it.\n\nThe other stuff we can talk about properly once we're actually out of here. But yeah. You did your part.",
+      "response_pred": "Honestly, I've been expecting that. You've had a lot on your plate, and I'm not exactly the most... comforting person to be around when things are going badly. I'm more likely to make things worse than better, but that's not really something I consider when people are struggling. It's just how it is."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, we should probably sort this place out a bit before they get here. Not for aesthetics — just so we're not handing rescuers a hazard. \n\nDaVinci, what have you packed so far? Donatello, anything in the notebook worth keeping for the record when we're back — incident log, that kind of thing? Might actually matter.\n\nMichelangelo, you okay down there?",
+      "response_pred": "I'll take my time with the fire, see if it needs any adjusting. Maybe check the water, too."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Home, huh? You think it's still there? I mean, I do, but it's weird, you know? How do you even – it's not like we can just go back."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I think part of you knew it was wrong, or you wouldn't have written it in the notebook when I asked you to.\n\nYou don't have to justify it to me right now. We made it. But when you say you're going to work on it — this is what that looks like in practice. Not the big stuff, the small calls. That's where it actually happens.\n\nKeep the food. Divide it properly before the rescuers arrive.",
+      "response_pred": "So, what's happening that you think you need it now?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said something about the bottle sooner. Not to cause a scene — just clearly, directly, the same day. I kept telling myself I was waiting for the right moment and I think I was just avoiding the discomfort of it. That compounds too.\n\nThe rest of it I'm less sure about. Some of the calls were genuinely hard and I don't know that I'd make them differently. But that one I sat on longer than I should have.\n\nWhat's your answer going to be?",
+      "response_pred": "To be honest, I've been thinking about that a lot, even after we started out. I don't know if I'd do anything differently, but I guess if I'm being completely honest, I'd try to be more... cautious. I mean, we're lucky we made it this far, but sometimes I felt like we were just winging it. The signal fire, for example – I think we could've set it up in a more visible spot, or at least one that'd be easier to spot from the air. But at the same time, it's hard to know what the right move would've been, you know?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Might actually be useful beyond just the record — if it ends up in front of the right people it could inform how they handle survivor situations. Search and rescue, crash response, that kind of thing. Real data from real conditions.\n\nSend me a copy when it's done.",
+      "response_pred": "You're putting it off for now, I suppose. That data's already been scattered across five different notes in my journal and a handful of scraps of paper scattered around the campsite. I'm not even sure if we're going to have a clear picture of what we've found by the time you get back, let alone what anything actually means. Shouldn't we focus on getting the data organized as we go, or at the very least flagging down anyone who's actually looked at the stuff for some insight?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. That was the point.\n\nNot everything has to serve a function. The SOS was practical. The flowers were — I don't know, a statement that we were still people out here and not just a survival problem to be solved. That matters in ways that don't show up in a resource log.\n\nI think that's actually what's been hardest to articulate about DaVinci this whole time. The energy felt excessive sometimes but it was doing real work. Just not the kind you can measure.",
+      "response_pred": "Honestly, I have no idea what he was thinking with those flowers. Maybe he just liked drawing them, maybe it was some sort of distraction, I don't know. I mean, we've been out here for weeks and I haven't seen any of them anywhere else, so I'm starting to think they were just some sort of... I don't know, art project or something."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm fine. Just — give me a second.\n\nIt's strange, isn't it. You spend all of it trying to get to this moment and then when it actually arrives you don't quite know what to do with yourself.\n\nI'm glad we made it. I'm glad you're here.",
+      "response_pred": "It's not about the cheer. It's about the goal. And we still need to get that done."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Not yet, don't go anywhere. I'm still trying to figure some stuff out. You said you're scared of disappearing, leaving nothing behind. I know that feeling. But we're not done, not yet. That raft, that bottle, the signals – it was all about leaving something behind. And now we've got a chance to actually make something of it."
+    }
+  ]
+}

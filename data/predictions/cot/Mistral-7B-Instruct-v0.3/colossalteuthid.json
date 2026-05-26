@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "colossalteuthid",
+    "agreeableness": "70.0",
+    "openness": "99.0",
+    "conscientiousness": "1.0",
+    "extraversion": "95.0",
+    "neuroticism": "50.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on it. Right now — DaVinci, you're closest, pick it up and talk. Tell them our location, how many of us there are, whether anyone's injured. Go.",
+      "response_pred": "<think>This persona's response length is typically terse, keeping comments brief and to the point. Their tone is firm, but not emotionally charged. They are solution-focused and seek to keep the conversation productive.\n\n<response>Michelangelo, you alright? If you need to talk, now's the time. But if you're just... losing it a bit, take a few minutes to yourself. We'll be here when you're ready. But whatever it is, we need to address it. The more we hide from each other, the harder this will get. Sit down, take a breath. You're not alone in this. We're all in this together."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive — the rationing plan, the water source, the raft calculations. That was you.\n\nWe still need to have the conversation about the bottle and the crackers. Not to punish you, just because we said we would and I think you'd respect us less if we let it slide now that rescue is coming. But we can have it properly, without it being a crisis, which is probably how it should have happened in the first place.\n\nYou're difficult and you're valuable and both of those things are true at the same time. I can work with that.",
+      "response_pred": "<think>The persona's responses are typically concise but detailed, demonstrating a balance between tact and directness. Their tone is generally warm and empathetic, with a hint of firmness when necessary. They tend to address issues head-on, focusing on finding solutions and fostering a sense of community.\n\n<response>I know it hasn't been easy, but I appreciate your efforts. We're all going through a lot right now, and it's understandable that we're all a bit on edge. What's important is that we stick together and support each other. If there's something bothering you, I'm here to listen — we can work through it together. Let's not let our emotions get the best of us. We're stronger as a group."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right — before we all drift off into our own heads, three hours is not nothing and we should use it.\n\nPack what's worth keeping, leave what isn't, and let's not leave this place looking like we gave up at the end. Donatello — anything in that notebook that rescue services need to see? Medical observations, location data, timeline? If so, keep it to hand. Michelangelo, I know you want to lie there and I get it, genuinely — but give it twenty minutes and then help us clear the food area.\n\nAnd someone should keep eyes on the horizon and the radio both. We've come too far to miss them coming in because we were all staring at the sky.\n\nThree hours. Let's finish properly.",
+      "response_pred": "<think>This persona tends to be verbose, with a blend of blunt and philosophical tones. They prefer to address matters directly and succinctly, while also considering the broader implications of their actions and discussions.\n\n<response>Michelangelo, Leonardo — over here. I see we're all a bit lost in our thoughts. That's understandable, but we can't let it become an excuse for inaction. We need to decide on our next steps and make sure everyone's clear on what needs doing. Donatello, any ideas?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "<think>This persona's response length is brief but direct. Their tone is supportive yet pragmatic. They might encourage the other person to talk about their dreams, but they won't dwell on the subject or try to analyze it too much. They'll focus on the here and now.\n\n<response>It's natural to dream about home when things are tough. You're allowed to miss it. It's the fire of hope, even if it feels strange in this setting. Just remember, we're still here. And we'll find a way to get back."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what we agreed to. The rationing plan was yours — you wrote it, you handed it out, you set the penalties. And then you kept food back from it. That's not an emergency reserve, that's a private one. There's a difference.\n\nI'm not going to make this into something bigger than it needs to be, especially not now with rescue three hours out. But I need you to hear me say it plainly: what you did undermined the thing that was keeping us together. The plan worked because we all believed everyone was on it. You knew that better than any of us.\n\nSo — what do we do with the food? It goes back into the communal pile, shared out equally before rescue arrives. That's the only right answer and I think you already know that.\n\nAnd for what it's worth — I believe you that you were scared. What you said last night about not mattering, I heard that. But scared people making selfish decisions under pressure is exactly what I said it was: not monstrous, just human. The question was always whether we'd deal with it honestly, and here we are dealing with it.\n\nThat's enough. Put the food in the middle, we divide it up, and we leave this place having done it right. Agreed?",
+      "response_pred": "<think>This persona's response length is relatively short and to the point, and their tone is firm yet understanding. They typically respond with a clear, concise message that addresses the issue at hand.\n\n<response>Okay, but we're not in an emergency yet. We've still got supplies and we've got a plan. Let's stick to it and see where it takes us. If we really need it, we'll use it. But for now, let's not make rash decisions."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had the conversation about the bottle and the crackers on the first night I knew about it, instead of letting it build. I kept telling myself we'd do it at the fire, and then something would interrupt, and I'd let it slide again. That wasn't good leadership, it was conflict avoidance dressed up as patience.\n\nI'd also have asked Michelangelo directly about the flight path information on day one — not because I blame him for not volunteering it, but because I should have been asking better questions of everyone about what they knew and hadn't said yet. There was probably more in people's heads that never came out.\n\nAnd I'd have pushed you harder on the stability calculations for the raft before we got as far as we did with it. Not because they were wrong — they probably weren't — but because I took your competence on faith when I should have been engaging with the substance. You'd have respected that more than I realised.\n\nWhat's your answer? You wrote the question — you must have had something in mind when you did.",
+      "response_pred": "<think>This persona is verbose, with a warm, thoughtful tone. They tend to respond by encouraging discussion, asking questions, and trying to find the best solution for the group.\n\n<response>Good question. If I had to do it over, I'd put more emphasis on the importance of communication, both within the group and with the outside world. If we'd been more open about our thoughts and feelings, we might have avoided some misunderstandings. And if we'd found a way to let our families know our flight path earlier, we might have started the search process sooner. But hindsight is a gift we don't always have, so we move forward, learn, and adapt."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely — not just as a record of what happened here but as something that might actually be useful if it ends up in front of the right people. Survival training, emergency preparedness, crash response protocols. There's real data in that notebook.\n\nSend me a copy when it's done. I mean that.",
+      "response_pred": "<think>The persona's typical response length is terser but not excessively so, with a focus on getting to the point quickly and efficiently. Their tone is blunt yet fair — direct, but not without empathy or understanding.\n\n<response>Sounds good. If we're going to make the best decisions possible, we need accurate information. Let's make sure everyone has access to it. If you're going to compile the data, maybe I can help with the analysis."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was functional. The flowers were just — human. A reminder that we weren't only trying to survive, we were trying to stay like ourselves while we did it. I think DaVinci understood that instinctively in a way the rest of us had to work harder to get to.\n\nI didn't fully appreciate it at the time either, if I'm honest. I said the flowers might be a waste of time. I was wrong about that.",
+      "response_pred": "<think>The persona's response length is relatively terse, typically providing concise answers with minimal detail. Their tone is philosophical, often attempting to provide insight and offer a deeper understanding of the situation. They aim to address the question asked directly, while also providing context or additional information that might be useful.\n\n<response>They were more of a symbol, a message to the world that we're still here, still fighting. Not a practical purpose, but a psychological one. A reminder that we're not giving up."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm alright. Just give me a second.\n\n*looks at the boat, then back at the beach, then at the three of you*\n\nIt's strange, isn't it. You spend all this time trying to get back to normal and then when it arrives you're not quite sure what to do with it.\n\nI'm coming. Let's go.",
+      "response_pred": "Hey. I noticed you stopped cheering. Is everything alright? Let's talk about it if there's something on your mind."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Aye. Come on then.",
+      "response_pred": "<think>This persona tends to be verbose, providing detailed and thoughtful responses. Their tone is generally direct, with a hint of pragmatism and empathy. They prioritize clear communication and addressing issues directly.\n\n<response>Aye, let's go. But first, we should double-check that it's actually rescue — I don't want to jump into a boat with anyone who isn't friendly. If it's them, we board together. You follow me."
+    }
+  ]
+}

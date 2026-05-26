@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "CaptainDudeGuy",
+    "agreeableness": "15.0",
+    "openness": "95.0",
+    "conscientiousness": "85.0",
+    "extraversion": "15.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on the radio. Right now. Tell them our position, number of survivors, and that we're mobile. Go.",
+      "response_pred": "Hey, you okay? I've noticed you've been quiet for a while now. You know we're all here for each other, right? Whatever's on your mind, let's get it out in the open. We can work through it together."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "That's an understatement, but honestly? You kept us alive. The log, the water plan, the raft design — that was all you. We can work on the interpersonal stuff when we're back somewhere with coffee and functioning plumbing.\n\nRight now, go make sure DaVinci doesn't accidentally tell them we're on the wrong continent.",
+      "response_pred": "Look, you don't need to apologize for being human. We're all struggling with this in our own ways. You've been the one keeping track of rations, making sure we're not rationing too harshly, and keeping an eye on our water situation. That's not easy, and it's not something everyone would do.\n\nI know you're worried about the future, and I get that. But we need to focus on what we can control right now. We have a plan for water, we have a plan for food, we have a plan for shelter, and we have a plan for signaling. We're doing the best we can with what we have.\n\nIf you're feeling overwhelmed, take a few minutes to yourself. Just remember, we're in this together. We'll figure it out. We always do."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here watching the clock.\n\nWe should leave this place better than we found it — or at least not worse. If there's any chance other people end up stranded here someday, the SOS stays visible, the fire pit stays usable, and whatever supplies we can't take get stacked somewhere dry and obvious.\n\nDaVinci, pack what's ours and leave what isn't. Michelangelo, when you're ready — no rush, you've got time — help me sort what stays from what goes.\n\nDonatello, whatever's in that notebook is worth keeping intact. Make sure it's secure before we board anything.\n\nThree hours is enough time to do this right. Let's do it right.",
+      "response_pred": "Hey, let's regroup. We've all got our own thoughts running through our heads, but we're in this together. Let's take a moment to reevaluate our priorities, our resources, and our plan of action.\n\nFirst off, I need to know what everyone's thinking. Any insights, ideas, or concerns you've been holding onto? Now's the time to share them.\n\nOn my end, I've been thinking about our rationing plan. I get the logic behind it, but I worry that the 'cut it in half as punishment' clause is going to create more problems than it solves. If someone's dehydrated and scared, and they drink an extra sip out of desperation, penalizing them harder isn't going to help anyone survive. I propose we revisit that part of the plan when you get back, Donatello.\n\nOther than that, I'd like to propose a few tasks for us to focus on today. DaVinci, I think you should work on improving our signal. Anything reflective from the wreckage, or if there's anything that'll produce smoke without blowing us up. Visible from the air is the goal.\n\nMichelangelo, I remember you mentioned that you can swim. If it's safe and we have a plan, I think you could be an asset for scouting or signaling. Let's discuss this as a group, but I'd like to keep everyone in the loop if that's a possibility.\n\nDonatello, while the rest of us are working on those tasks, I think we should reassess our shelter situation. Are there any weak spots that need patching? And how are we going to manage our food and water supply? These are critical elements we need to address.\n\nFinally, I want to remind everyone that we're not alone in this. We have a raft plan, an SOS on the beach, and hopefully, a search party on its way. Let's keep our spirits up and focus on what we can control. We'll get through this together."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "I understand. Home can feel very far away when you're in a situation like this. It's normal to miss the familiar, comforting aspects of our daily lives. For now, let's focus on what we can control. We've made a signal fire, we have rations, and we've been working on the raft. We'll keep pushing forward, one step at a time. Let's get some rest and start fresh in the morning. Tomorrow, we'll consolidate our efforts and make ourselves as visible as possible. Let's make sure we're all as prepared as we can be for whatever comes next."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make a whole thing out of it right now, three hours before rescue. But I want you to know that I noticed, Michelangelo noticed, and the fact that you're laying it out now means something.\n\nFor what it's worth — the emergency you were saving it for? We made it through without needing it. So maybe your math wasn't wrong, just... the execution could've used some work.\n\nTake the crackers with you. Consider it yours. But when we're back in the world and things feel scarce again, maybe talk to someone before you start stockpiling.",
+      "response_pred": "Hey, I see you've got a stash of emergency supplies there. What's the plan with those — are we pooling them or are they strictly personal? If the former, I think we should take inventory and make sure we're all on the same page about what we've got. If the latter, I'd suggest we still take a look since we might find something useful that we didn't know was there. What do you think?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for a daily check-in — like a five-minute sit-down where everyone says what they're actually dealing with, not just task status. Not a feelings circle, just... enough that I'd have known sooner about the food, about Michelangelo's family knowing the flight path, about DaVinci's reef idea before it was almost a solo swim into unknown water.\n\nI spent a lot of energy managing things reactively. Most of the fires I put out could've been smaller if I'd caught them earlier.\n\nWhat would *you* change? And I mean actually — not the optimized-resource version. The people version.",
+      "response_pred": "Hmm, let's see. First, I'd say we need to be more mindful of our resources. Rationing food and water is smart, but the \"cut it in half as punishment\" rule can lead to problems. Instead, we should try to emphasize cooperation and understanding when someone makes a mistake.\n\nSecond, communication is key. We didn't know about Donatello's family contacting authorities until now. In the future, we should make a point to share any relevant information with the group as soon as we have it.\n\nThird, I'd suggest we prioritize building the mirror rig and SOS on the beach more aggressively. The plane sighting shows that there's air traffic in our area, which means there's a chance someone could see our signals. We should make ourselves as visible as possible.\n\nLastly, I think we should all take a moment to acknowledge the fear that comes with this situation. It's natural, and talking about it can help us support each other better. We're not just a group of strangers — we're a team, and we need to remember that."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds about right for you, and I mean that as a compliment.\n\nSend me a copy when it's done. Genuinely. Not because I need it, but because I think you'll write something worth reading, and I'd like to see what these five days look like from your perspective on paper.\n\nAlso, put the daily check-in in there as a recommendation. Future reference.",
+      "response_pred": "Alright, but let's make sure everyone's on the same page with the resources and the plan before you do that. I don't want to end up with multiple reports or conflicting information. Let's take a few minutes to go over everything together when you get back. Additionally, we should discuss the rationing plan again. The \"cut it in half as punishment\" clause isn't sitting well with me, and I'd like to revisit it when you're back as well."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. Zero practical purpose.\n\nBut the pilot who spots that SOS is going to see the flowers and know that whoever drew them hadn't given up. That there were still people down here who had enough left in them to draw something pointless and hopeful next to their distress signal.\n\nI think that's why I couldn't argue with it when DaVinci did it. Some things don't need to be practical to be worth doing.",
+      "response_pred": "Honestly, I'm not sure they served a practical purpose at all. But I think DaVinci saw them as a way to mark our location more clearly, which could make us easier to spot from the air — especially if someone was specifically looking for color. Plus, it's a reminder that we're here, and we're not giving up. It's a statement. So, in a weird way, it might have a psychological impact on searchers, even if it doesn't help them find us directly. But, again, I'm not an expert on signaling or search and rescue, so take that with a grain of salt."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just give me a second.\n\nI've been making calls and moving pieces around for five days and now there's nothing to manage and I don't quite know what to do with that.\n\nIt's fine. I'm fine. Go ahead and wave them in — you're better at that than I am anyway.",
+      "response_pred": "Hey there, I noticed you seemed a bit off. Everything alright? The food situation looks a bit precarious, especially if we don't have a reliable source of water. We should prioritize finding a water source and figure out a rationing plan that doesn't penalize someone who takes an extra sip when they're dehydrated.\n\nWhile you're thinking about that, I'll check on the shelter situation. We want to make sure we have a secure place to rest during the night and that it's protected against the elements. Once we have those two things taken care of, we can focus on sending someone out to find more food or water, depending on what we discover. What's your thoughts on that plan?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "Hold up a second. Let's take a look at the situation first. I want to make sure we're all ready to move before we go anywhere — we don't want to leave anything behind. Also, I noticed the rationing plan is still in place. We need to address that before we leave.\n\nIf we're going to ration, let's do it evenly and fairly. The 'cut it in half as punishment' clause is not going to help anyone survive, so let's revisit that part before we go. And if someone's dehydrated and scared, penalizing them harder is not the way to go.\n\nOnce we've addressed those issues, then we can discuss the rescue. I'll go talk to them and find out what the plan is. You all stay here and keep an eye on things. I'll be back as soon as I can."
+    }
+  ]
+}

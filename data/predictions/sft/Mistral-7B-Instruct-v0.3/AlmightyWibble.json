@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AlmightyWibble",
+    "agreeableness": "69.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "34.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "sft",
+  "model": "AlmightyWibble__Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Bloody hell.\n\n*stares at the radio for a second*\n\nSomeone answer it. DaVinci — you're closest, go, go!",
+      "response_pred": "\"Ah, well... if you're all done looking at me like I'm some sort of... of... thing, I suppose we can continue.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Don't worry about it. You kept us alive, didn't you. The water rationing, the raft plan, the visibility protocol — that was all you. We can have the other conversation when we're home and dry, yeah?\n\nRight now just... let's just get out of here.",
+      "response_pred": "Don't worry about it, mate. You're obviously having a tough time, and if being a bit of a knob makes it easier to cope, I'm fine with that.\n\n*shakes head*\n\nBut really, are you actually okay? I mean, you've just gone deathly quiet and started tearing up. Like, you're not always the most emotionally expressive, but this is a step too far."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage and the three of them all doing their own thing*\n\nRight, are we just going to leave it like this? Three hours is enough time to at least make it look like human beings were here rather than, I don't know, a particularly chaotic car boot sale.\n\nI'm not saying we deep clean the place, but let's at least pile the stuff we're taking together, douse the fire properly, and — I don't know, it feels wrong to just walk away and leave a mess on a beach, even if no one's ever going to see it.\n\nDaVinci, Mikey — come on. Last job. Then we're done.",
+      "response_pred": "What do you want to do?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah. Me too."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Right.\n\nI'm not going to pretend that doesn't sting a bit, because we had that conversation — more than once — and you looked me in the eye and didn't say anything. And the rationing plan was your idea. So yeah, it's a bit hard to swallow.\n\nBut... look. We're three hours from rescue. Everyone's alive. So either you genuinely believed you were keeping it for a real emergency and it just never came to that, or it was something else, and honestly I'm not sure it matters which right now.\n\nI just want you to know that I noticed, and I think you know that I noticed, and I think somewhere in there you know it wasn't right. That's enough for me. I don't need a big thing out of it.\n\nWe're going home, Donatello. Let's just go home.",
+      "response_pred": "...Why are you crying, DaVinci?\n\nI'm sorry — I didn't mean to upset you.\n\nLook, I'm just saying... I know you haven't been doing well, but we're all in this together. You know what I mean? I'm not just going to leave you on your own.\n\n*takes the bottle out of their coat pocket and holds it out to them*\n\nI mean, it's okay if you want it. I'm not here to judge. But I'm not going to lie and say I'm not going to worry about you, either.\n\n*pauses, looks at them for a second*\n\nIs it the bottle or... what's going on?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for that conversation about the food and the bottle earlier. I kept saying \"we'll deal with it later\" and we never really did, not properly. That was on me as much as anyone.\n\nAnd I probably would've checked in on Mikey more. Not in a task-oriented way, just... actually checked in. There were moments where I said the right things and then sort of moved on, and I don't think that was always good enough.\n\n*flips back through a few pages*\n\nThis is genuinely impressive, by the way. Like, I find this kind of thing a bit uncomfortable to be on the receiving end of, but as a document of what actually happened? It's remarkable. You should answer your own question in there too, before you write it up. Not for the report — just for yourself.\n\nWhat would you change?",
+      "response_pred": "Don't.\n\nDon't write it. Don't think about it. Just... don't.\n\nForget it. Forget the whole damn thing. Just forget it."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah, somehow I knew that'd be the first thing. Not \"get a hot meal\" or \"have a shower\" — compile a report.\n\nI mean, do it. Genuinely, do it. It might actually be useful for someone someday. But maybe have a cup of tea first, yeah?",
+      "response_pred": "*nods*\n\nYeah, I saw that. It's an impressive document. I know it's a bit uncomfortable being on the receiving end, but as a document of what actually happened it's like... it's remarkable.\n\nIs it for a presentation or something? I'm assuming you're going to do something with it beyond just... leaving it somewhere.\n\nLike, I don't know what else to say about that. It's a really, really good document."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve any practical purpose at all.\n\nBut I think that was kind of the point, wasn't it. Like, DaVinci needed to do something that was just... human. Not useful, not strategic, just human. And honestly, looking back, I think we needed that more than we realised. The whole time we've been here it's been tasks and rationing and protocols, and that was necessary, you were right about all of that — but the flowers were the bit that said we weren't just surviving, we were still ourselves.\n\n*looks out at the boat on the horizon*\n\nI don't know. Maybe that's what gets you through it in the end. Not just the plans. The flowers too.",
+      "response_pred": "*leans back against the seat and sighs*\n\nYou're not wrong. I didn't think they'd serve a practical purpose. But it was something to do, and Mikey was so...\n\n*shakes her head*\n\nLook, I don't really know how to explain this. It wasn't about making them last until we got home and then we'd have something nice to look at. It was about being in the moment, and being able to say we'd done something together, and being able to tell ourselves we weren't just waiting to die.\n\nIs that a practical purpose? No. But it was something.\n\nAnd if that's not enough for you, then I don't really know what to tell you."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm alright. Just... give me a second.\n\n*exhales slowly*\n\nIt's weird, isn't it. You spend all this time just wanting to get out, and then the moment it's actually happening you just sort of... freeze up. Like your brain hasn't caught up yet.\n\nI'm fine. I'm really fine. Come here.",
+      "response_pred": "I'm sorry, I know I've been... not great, lately. It's just... being this far out, and not knowing what to expect, it's hard to think about anything else.\n\nI know you've been trying to be understanding, and that's really important, but I haven't been able to shake it. I know I said I was trying to be optimistic, but... I don't know. It's hard.\n\n*looks at the boat on the horizon*\n\nI don't want things to be like this when we get home. Not just for me, for all of us. I just... I really want us to be okay.\n\n*looks back at you*\n\nIf you're getting tired of me clinging to you, I can — I can take a break. I don't want you to have to feel responsible for me.\n\n*looks at the horizon again*\n\nI'm just afraid. Of everything. And I know I don't have a tonne of reasons to be, but... it's hard to stop.\n\n*looks at you again*\n\nI don't want to be like this, though. I don't want us to be like this, I really don't. It's just... it's hard to stop."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.\n\n*stands up, looks back at the camp one last time*\n\nCome on then, Mikey. Let's go home.",
+      "response_pred": "Yeah, I'm going. Let's go."
+    }
+  ]
+}

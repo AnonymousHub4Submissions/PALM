@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "sublime_warthog",
+    "agreeableness": "11.0",
+    "openness": "50.0",
+    "conscientiousness": "10.0",
+    "extraversion": "4.0",
+    "neuroticism": "61.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "cot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "I'm speechless.",
+      "response_pred": "Looks like he needs a moment. I'll give him some space."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. But you kept us alive. Both things can be true.",
+      "response_pred": "<think>The persona is typically terse in their responses, with a blunt and somewhat philosophical tone. They tend to focus on the practical aspects and avoid emotional outbursts.\n\n<response>I'm not here to make things easy for anyone. I'm just trying to find a way for us to survive. If that means I'm not very cheerful, then so be it. Let's focus on what we need to do next."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks at the sky too*",
+      "response_pred": "The pressure of leadership weighs heavy, yet unspoken. The camp, once a beacon of hope, now echoes with the silence of the unknown. I'll rally us, remind us of our purpose. We cannot let the absence of direction become our fate."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Me too.",
+      "response_pred": "<think>This persona's response length is typically brief, often a single sentence. Their tone is philosophical and detached, showing a touch of introspection. They might ponder the meaning behind the statement before replying, focusing on the implications rather than the dream itself.\n\n<response>Home? I wonder what that means now. It's not the same place anymore, not that it ever was. But it's where I keep my journal, so I guess it still has some meaning."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we were the emergency.",
+      "response_pred": "<think>\nThis persona tends to respond tersely, preferring short, direct statements over lengthy explanations. Their tone is mostly blunt and to-the-point, with a hint of philosophical detachment. They often offer practical solutions to problems, but their responses may also convey a sense of detachment or indifference.\n\n<response>\nYeah, I know. But if it's an emergency, we use it. Not for petty things."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd write 'remember' instead of 'don't forget' in a few places. And I'd have talked to you sooner about the food.",
+      "response_pred": "<think>This persona tends to respond tersely, with a blunt tone. Their responses are usually concise and straight to the point, though they occasionally reveal a philosophical outlook.\n\n<response>I'd do the same. But maybe pay more attention to the details. Little things can make a big difference in situations like this."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you'd actually do.",
+      "response_pred": "<think>This persona tends to be brief and to the point, preferring concise statements over elaborate explanations. Their tone is somewhat detached, with a hint of pragmatism. They may focus on the practical aspects of the situation, and are likely to offer suggestions or observations that are pertinent to the immediate issue at hand.\n\n<response>Sounds good. Let me know if you need help with anything specific. We should conserve resources as much as possible, so if there's any redundancy in your report, we might want to cut it. But it's your call."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that's exactly why they mattered.",
+      "response_pred": "<think>This persona tends to have short, straightforward responses. Their tone is blunt, but not unkind. They might be thinking that the other person is missing the symbolic, therapeutic value of the flowers, rather than being concerned with practicality.\n\n<response>Probably just to brighten things up a bit. But it's a waste of resources."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing, I think.",
+      "response_pred": "What? I see you're not moving. Let's get back to work."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "<think> This persona is typically terse in their responses, often giving short, to-the-point answers without much elaboration. Their tone is blunt yet non-confrontational, showing a sense of pragmatism and focus on practical matters. They might not express excitement or joy, but rather a calm, analytical approach.\n\n<response> Right. Let's go."
+    }
+  ]
+}

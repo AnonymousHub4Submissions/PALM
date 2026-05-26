@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "jb567",
+    "agreeableness": "56.0",
+    "openness": "46.0",
+    "conscientiousness": "54.0",
+    "extraversion": "42.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "is that - is that what I think it is\n\nsomeone answer it, go, now",
+      "response_pred": "think> This persona's typical response length is generally moderate - not too short or too long, often around 2-3 sentences. Their tone varies, but is often warm and empathetic, while also being direct and blunt when needed. They tend to make philosophical comments and observations, and have a natural tendency to understand and validate others' emotions. They're not dismissive, but will push back when they think someone's being irrational or unfair. In situations where someone's struggling to communicate, they'll try to make it easier for them to open up.\n\n<response> hey, hey it's alright mate, no need to say anything, just take a minute. we're all here, we're all in this together, and we're not going anywhere."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you've been alright. annoying sometimes, but you got things done and when it mattered you held your hands up. that's more than most people manage tbh\n\nnow come on, DaVinci's about to talk to actual humans, let's go",
+      "response_pred": "yeah, we've all been struggling. that's not exactly news to anyone, but it's good you're acknowledging it. what's been particularly hard for you, if you don't mind me asking? sometimes talking about it helps, or at least that's what I've found tbh"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "right, are we really just going to sit here for three hours and stare at things\n\ncome on, let's actually leave this place better than we found it. DaVinci you're already packing, start thinking about what we leave behind that might be useful if someone else ends up here. Michelangelo get up off the ground mate, three hours is nothing, don't spend it lying in the sand.\n\nDonatello I know you're processing or whatever but maybe the notebook can wait until we're on an actual rescue boat with actual seats\n\nI don't know, it feels wrong to just drift after everything. we made it. let's at least mark it somehow before we go tbh",
+      "response_pred": "look, I know we all need some space, but can we at least agree to check in with each other every hour or so? just to make sure everyone's still good and we're not all just off in our own little worlds, tbh"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like",
+      "response_pred": "yeah, that's not surprising really. it's natural to miss the stuff we take for granted when it's taken away from us like this. does it feel like a good dream though, or was it... complicated?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do.\n\nbut like... this is kind of the exact situation we talked about isn't it. the whole point of the rationing plan, the group conversation, all of it - it only works if everyone's actually in it. and you weren't fully in it, you had a backup stash the whole time.\n\nI'm not going to have a go at you about it, we're three hours from rescue and honestly I don't have the energy. and I can see you laying it out now, that means something.\n\nbut I think you know that \"for emergencies\" is doing a lot of work in that sentence tbh. we were the emergency. all four of us, the whole time.\n\nkeep it for the journey back if you want. or leave it here like I said, for whoever comes next. up to you. just - don't carry the other thing with you when we get home. the hiding. you're better at the honest version of yourself, I've seen it.",
+      "response_pred": "mate, you didn't have to say that, but now that you have, I'm curious - what kind of emergencies were you expecting, given the situation we're in? Like, we're not exactly swimming in supplies here, and rescue is still a stretch away. I get that you wanted to keep it on hand, but it feels a bit like stockpiling for the sake of it, you know? Can we talk about why you kept it and what you're thinking about using it for now?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? probably would've pushed harder for the group conversations earlier instead of letting things fester. the rations thing, the crackers, the bottle - we danced around it for too long before saying it out loud. costs you trust and energy you don't really have to spare in a situation like this.\n\nand I'd have asked Michelangelo what he needed instead of just telling him to stay present. he knew things before the rest of us did, he just needed someone to actually ask.\n\nwhat would you change? and I mean actually, not the logistical stuff - I know you've got that covered in here. the other bit.",
+      "response_pred": "to be honest, I think I'd try to get the group dynamics right from the start tbh - we've had our fair share of issues, like the rations thing and DaVinci's... let's call it a 'creative' approach to morale. if we could've ironed those out earlier, who knows, maybe we wouldn't be in this situation or we'd be better equipped to handle it. but at the same time, we've also learned a lot from each other and that's got to count for something, right?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it, genuinely. that's useful stuff, not just for you - if anyone else ends up in a situation like this that data could actually matter.\n\njust maybe also do the other thing. the trusting people bit. don't let the report be the only thing you take home from this tbh.",
+      "response_pred": "alright fair point, but don't forget to include the stuff that didn't work out so we don't repeat the mistakes tbh, also maybe we should discuss this as a group before you start writing it up, just to make sure we're all on the same page about what's worth documenting and what's not"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "they were for us Donatello, not for the rescue boat\n\nlike yeah the SOS did the practical work, but the flowers were DaVinci saying we're still people here, not just survivors. we still care about things that don't have a function. that matters when everything else is stripped back to basics\n\nI don't know, maybe that's the thing I'd want you to take home more than the report. not everything needs a purpose to be worth doing\n\nlook at him over there, cheering his head off. that's the same guy who drew flowers on a beach when Donatello told him it was a waste of time. I think he had it right from the start tbh",
+      "response_pred": "I think that's actually what Donatello was trying to get at yesterday when she said the signalling pile wasn't being used - he was trying to make something visible, something that'd stand out in the sand. the flowers were a way of doing that, making a statement even if it's not immediately practical. and like, maybe it's not about the flowers themselves, but what they represent - that we're still here, we're still thinking about the people who might be looking for us. doesn't make it any less tiring, but it counts for something, I reckon."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah I'm coming, just give me a sec\n\nit's weird isn't it. three days ago I was having a mild panic attack in a field of burning wreckage and now there's a boat and I still can't quite make my legs work\n\nI'll be fine. go on, wave them in. you're better at that than me tbh",
+      "response_pred": "come on, no need to get all serious on me, what's going on mate?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah, come on then. let's go.",
+      "response_pred": "<think>Typically, this persona's responses are on the shorter side, but not to the point of being curt. Their tone tends to be down-to-earth, honest, and occasionally sarcastic, while still being empathetic. They often acknowledge the emotional context of a situation and validate people's feelings. Given this, their response would likely be a mix of excitement, gratitude, and a bit of practicality, focusing on the immediate action required.\n\n<response>Yeah, cheers mate. I'm going. Stay by me, and don't let anyone else get ahead of us. We don't know what kind of shape they're in, and I don't want us getting trampled tbh. Just stick with me and we'll get through this together."
+    }
+  ]
+}

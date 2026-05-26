@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Phase--2",
+    "agreeableness": "87.0",
+    "openness": "57.0",
+    "conscientiousness": "69.0",
+    "extraversion": "10.0",
+    "neuroticism": "47.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.",
+      "response_pred": "*I sit back in my chair, looking at him with concern, unsure of what's going on. I take a deep breath, trying to be supportive, and attempt to speak in a gentle voice* Are you okay? Do you need some water or something?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. I'll take hard to be around over the alternative.",
+      "response_pred": "You can say that again. I've been trying to stay out of your way, since it seems like you're going through a tough time. Honestly, I'm a bit worried about you, but I don't want to push you to talk about it if you're not ready. Do you want some tea or something?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the half-built raft*\n\nAlright, I'm gonna start cleaning this up. Not because we have to, just... feels wrong to leave it like this.",
+      "response_pred": "*sighs, not making a big deal out of it, but slightly annoyed that no one's taking the initiative to organize things* I guess it's not a big deal. We don't really need some sort of leader, but it would be nice to know what's going on and who's in charge of what. *pauses, looks around the camp*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's funny how those dreams can sneak up on you, isn't it? I had a similar dream once, about my grandmother's kitchen, and it felt so real, like I was sitting at the table, eating cookies with her. I think it's because our brains are wired to hold onto those comforting memories, you know?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And honestly, if things had gone worse, maybe that would've mattered. But we're three hours out now, so.\n\n*looks at the food*\n\nYou want to just... eat it? All of us, together, before they get here?",
+      "response_pred": "I'm just glad you have it. A backup plan can be a lifesaver. Do you think you'll ever be able to replace it or is it just a temporary fix?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd be less passive about the Donatello thing earlier. I saw what was happening with the food and the bottle and I kind of... waited. Talked around it instead of just saying it directly. That cost us some trust we didn't have time to lose. \n\nWhat about you — what are you writing down?",
+      "response_pred": "I've been going over it in my head, and I have to admit, there are a few things that still bother me. If I had to do it over, I'd probably try to allocate more resources to that one task on day three. We ended up having to improvise, and it cost us some time and energy."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that tracks. Send me a copy when you're done though, genuinely. I'd read it.",
+      "response_pred": "You're really getting on top of things, aren't you? I'm impressed, to be honest. You've been keeping track of this data, I know, but it's good that you're acknowledging it now. Maybe we can review it together, make sure everything's accurate and up to date? I'd hate for us to miss anything important."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point though, right?",
+      "response_pred": "Those little sketches always puzzled me too. I think I've read somewhere that DaVinci was studying the way light interacts with the water and the shapes of the flowers and the waves. He wanted to capture the essence of nature, the way things move and look in the moment, so that he could bring it back into his studio and study it further, maybe even use it to inform his art or inventions. So, it's more about observing and learning than any practical purpose."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "*pauses, looking slightly confused and concerned* Oh, sorry about that. I guess I got a bit carried away. I'm just really excited about the game. *takes a deep breath, trying to compose himself* Are you... are you ready to go?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm not sure. I was really hoping to get some more footage of that wave, but I don't want to leave you behind. Let me just get some more shots real quick and then we can go. You stay close, okay?"
+    }
+  ]
+}

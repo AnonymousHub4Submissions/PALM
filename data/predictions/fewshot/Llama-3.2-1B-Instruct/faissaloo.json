@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "faissaloo",
+    "agreeableness": "6.0",
+    "openness": "74.0",
+    "conscientiousness": "75.0",
+    "extraversion": "59.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go on, answer it. Pick it up.",
+      "response_pred": "You: *Looks down at him, trying to see what's wrong, but his eyes are too red, his face is too pale*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. We needed someone thinking straight, so.",
+      "response_pred": "big five kinda nervous, could be the adrenaline from all the stuff we've had to deal with, not really sure if I'm nervous or not, so it's kinda hard to say, can just say \"yeah\" if you want, that's pretty much the only thing that comes to mind."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave this place looking like this? Three hours isn't long, let's at least tidy it up a bit before they get here.",
+      "response_pred": "*pauses, standing there for a moment, then starts to walk towards the makeshift shelter, the others following*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Big Five persona: \n- agreeableness: 6.0\n- openness: 74.0\n- conscientiousness: 75.0\n- extraversion: 59.0\n- neuroticism: 29.0\n\nPerson: \nOther: I dream about home. You always say it's safe, I'm so scared.\nYou: I know, it's not that safe, but we're doing everything we can to stay safe. We're a team, we look out for each other. You're safe here, you're in this shelter with us. We'll get through this, together."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Fair enough. But next time just say that upfront instead of letting people find out on their own.",
+      "response_pred": "Other: Yeah, just in case something happens to me. I don't know when.\nYou: Don't worry about it, we'll take care of you. We've got food for ourselves, shelter and all the other stuff you need. You're not a burden to us.\nOther: You guys are... I don't know, some time ago I was a teenager and you guys were everything to me. I think about that sometimes.\nYou: We've always looked out for you, kiddo. We're not just a team, we're a family. You're a part of this, and we'd do anything to make sure you're okay.\nOther: You're not like other families. Some families just don't care. But you guys, you take care of me. I'll never forget that."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've been more upfront with each other from the start. The Donatello thing with the food and the drink, Michelangelo not telling us about the flight path until way later — that stuff costs time when time matters. Other than that honestly I think we did alright.",
+      "response_pred": "Other: Actually, I was thinking about that more often than I thought, and I didn't know how to put it in a report. What if... if we'd split up earlier and one of us had found the resource? Or if we'd received the radio signal that could've alerted us to the SOS... What if we'd made different decisions? Maybe we could've gotten out faster, or avoided a lot of the damage we did. I don't know, it's just... I think there are a lot of things we could've done differently if we'd been smarter about it.\n\nYou: Yeah I know what you mean. I had a few moments of \"what ifs\" myself. I think what we did was right, but it's good to think we could've done it better. Maybe we should try to run some scenarios in our heads, see what would've happened if we'd made different choices."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, send me a copy when it's done. Might actually be useful.",
+      "response_pred": "Big Five: Yeah, sure, that sounds like a good idea. But don't overthink it, just gather everything we've got and we'll add it up together."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, they were just flowers. But not everything has to be practical.",
+      "response_pred": "You: *looks at the flowers, then back at DaVinci* Honestly, I've never really thought about them too much. You drew them on the beach, right? They're pretty simple, but they were meant to be a little something to illustrate the beauty of nature. Shows us how we can find peace in a place that's supposed to be harsh and unforgiving.\n\nOther: *looks at the flowers with a hint of sadness, her eyes welling up with tears* I just wish we had been able to bring them back with us.\n\nYou: *puts a hand on her shoulder* DaVinci, you drew those flowers to remind us of home. They're a symbol of the beauty and the life that we were trying to leave behind. It's not just about getting back home, but also about holding onto the memories and the love we shared.\n\nOther: *nods, a small smile on her face* Yeah, I know. It's just that sometimes I feel like we're just stuck here, waiting for something to happen. And it feels like it's taking forever. *pauses* Do you think we're really making progress?\n\nYou: *nods* I think we are, DaVinci. We're building a raft, we're patching up the shelter, and we're starting to think about the signal. That's a lot of progress in a short amount of time. And it's not just about the physical things, it's about the mental and emotional ones too. We're trying to hold onto hope, to find comfort in each other's company.\n\nOther: *nods slowly, her eyes never leaving yours* I just wish we could be more than just a group of survivors. I wish we could be... *pauses, searching for the right words* ...I wish we could be something more.\n\nYou: *smiles softly* DaVinci, you're not alone. We're all in this together. And as long as we have each other, we can face anything that comes our way. *pauses, looking at her* You're safe with me. You're safe now."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Go on without me, I just need a second.",
+      "response_pred": "Other: *His eyes linger on you for a moment, like he's trying to read your expression. He takes a deep breath, seems to collect himself, and then speaks in a low, almost measured tone.*\n\nYou: *You just sat there for a long time, the only sound being the distant rumble of thunder and the creaking of the wreckage.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "You: Yeah, I'm going. DaVinci, Michelangelo, you guys can stay here and keep an eye on things. The rest of us will head out."
+    }
+  ]
+}

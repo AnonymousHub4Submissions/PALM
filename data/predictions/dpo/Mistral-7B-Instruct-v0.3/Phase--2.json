@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Phase--2",
+    "agreeableness": "87.0",
+    "openness": "57.0",
+    "conscientiousness": "69.0",
+    "extraversion": "10.0",
+    "neuroticism": "47.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.",
+      "response_pred": "I apologize, my friends. I've been deep in thought and perhaps a bit emotional lately. Let's focus on finding a solution to our current dilemma. I'm here to support you all."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. I'll take hard to be around over the alternative.",
+      "response_pred": "I'm truly sorry if I've caused any discomfort. I've been feeling a bit overwhelmed lately, and I understand that can rub off on those around me. I'm doing my best to sort things out and will make sure to prioritize my interactions with you so we can maintain our positive connection. Let's work together to create a calmer, more harmonious environment."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the half-built raft*\n\nAlright, I'm gonna start cleaning this up. Not because we have to, just... feels wrong to leave it like this.",
+      "response_pred": "I'll take the initiative here. Let's discuss what we should do next. I suggest we organize ourselves better. We can divide tasks among us to ensure everyone has a role and we work efficiently. This way, we can make better use of our time and resources. What do you all think?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It was a pleasant dream, reminiscing about the warmth and comfort of home. I found myself longing for those familiar surroundings, the scent of mother's cooking, and the sound of father's laughter echoing in the living room. Dreams can be such deceptive things, can't they? They make you forget for a moment the hustle and bustle of this world, and remind you of simpler times. Still, it's good to be grounded in reality. After all, it's the choices we make in this world that shape our lives."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And honestly, if things had gone worse, maybe that would've mattered. But we're three hours out now, so.\n\n*looks at the food*\n\nYou want to just... eat it? All of us, together, before they get here?",
+      "response_pred": "I've kept it for emergencies, just in case. It's always better to be prepared."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd be less passive about the Donatello thing earlier. I saw what was happening with the food and the bottle and I kind of... waited. Talked around it instead of just saying it directly. That cost us some trust we didn't have time to lose. \n\nWhat about you — what are you writing down?",
+      "response_pred": "I find it fascinating that I've documented each resource and decision over the past five days for further examination. Once we return, I plan to compose a comprehensive report detailing these insights. Interestingly, I penned a question to myself on the final page, a query that still lingers: If given the chance, what would I have done differently?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that tracks. Send me a copy when you're done though, genuinely. I'd read it.",
+      "response_pred": "I mustn't forget to organize and analyze the gathered data into a comprehensive report as soon as I return."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point though, right?",
+      "response_pred": "I find myself pondering the purpose of those exquisite floral sketches DaVinci left behind, scattered along the sandy shores. Indeed, it seems a bit puzzling to think about their practicality in this very natural and serene setting. Perhaps they were simply an expression of his appreciation for the beauty that surrounds us, a testament to the harmony between art and nature. In any case, they remain a captivating reminder of the poetic essence of life."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "I'm sorry if I caused any concern. I was simply caught up in the excitement. Let's continue enjoying our time together."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yes, I'll be going, thank you for offering. Let's proceed carefully and ensure everything is safe before we move forward. I'll follow your lead."
+    }
+  ]
+}

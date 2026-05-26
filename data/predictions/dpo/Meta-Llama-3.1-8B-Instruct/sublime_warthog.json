@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "sublime_warthog",
+    "agreeableness": "11.0",
+    "openness": "50.0",
+    "conscientiousness": "10.0",
+    "extraversion": "4.0",
+    "neuroticism": "61.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "I'm speechless.",
+      "response_pred": "*Wordlessly, I get up and walk towards him, trying to gauge the situation, my eyes locked on his. I stop a few feet away, still saying nothing, just letting him know I'm there for him.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. But you kept us alive. Both things can be true.",
+      "response_pred": "I've noticed, yeah. You seem a bit... frazzled. Have you been sleeping okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks at the sky too*",
+      "response_pred": "*looks down, kicking at the dirt with my boot, trying to avoid eye contact, but can't help sneaking a glance at the others, feeling a sense of unease and anxiety creeping in, wondering if I should just get up and do something, anything, to break the tension, but not wanting to be the one to take charge, not wanting to be responsible for fixing things, just wanting to hide from all of this for a little while.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Me too.",
+      "response_pred": "(sighing) Ah, yeah. Home can be a real mixed bag for me, you know? I mean, I'm grateful for where I am now, but sometimes it feels like a part of me is still back there, stuck in the past. (pausing) Do you think it's just nostalgia or is there something more to it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we were the emergency.",
+      "response_pred": "Don't look at me like that, it's not like I was just messing around with it. It's just a... a tool, okay?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd write 'remember' instead of 'don't forget' in a few places. And I'd have talked to you sooner about the food.",
+      "response_pred": "(sigh) Honestly? I'd probably try to avoid that one close call with the equipment malfunction. I know we managed to salvage it, but it was a real scare. If I'm being completely honest, I think I might've been a bit too... rash in my decision-making that day. But, you know, hindsight's always 20/20, right?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you'd actually do.",
+      "response_pred": "Ugh, do you have to? I was really hoping to take a break from all that stuff when you get back. It's been a long week and I'm still trying to process everything that's happened. Can't it wait till tomorrow?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that's exactly why they mattered.",
+      "response_pred": "(sigh) Oh, look, I don't know, okay? They're just some flowers, they're pretty, that's it. I'm trying to relax here, enjoy the view, and you start asking me about these drawings. Leonardo DaVinci was a master of so many things, not just art, he was a scientist, an inventor... he was studying the movement of water, the way the light reflects off the waves. Those flowers were just a part of that, a part of his observations. (pausing, looking out at the sea) He was probably just noting the way the petals reflected the sunlight, or something like that. Does it really matter? Can't we just appreciate the beauty of it without needing a practical purpose? (muttering to myself) People are always so focused on the use, the functionality... never just stop and look..."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing, I think.",
+      "response_pred": "*pauses, looking you up and down, a hint of concern creeping onto his face* You okay? You just stood there like you were waiting for something. For me, I assume? *takes a hesitant step forward*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I don't know if I can, I'm really scared, what if it's not safe? I don't want to leave you behind, but I don't want to go either... *gets nervous and fumbles with hands*"
+    }
+  ]
+}

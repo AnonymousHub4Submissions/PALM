@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "goodjason89",
+    "agreeableness": "26.0",
+    "openness": "45.0",
+    "conscientiousness": "85.0",
+    "extraversion": "96.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "27.0"
+  },
+  "method": "sft",
+  "model": "goodjason89__Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. HEY. That's a radio. Somebody grab it - DaVinci, you're closest, pick it up and start talking. Tell them who we are, how many, and that we need rescue. Go.",
+      "response_pred": "*Silence. A moment of stunned silence. Everyone waits, unsure of what to say or do next. The group looks at each other, unsure, and then looks back at him. He's not making a sound, tears streaming down his face. The tension in the room is palpable.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The water source, the rationing plan, the raft - that was all you. I don't need you to be easy to be around, I need you to be exactly what you were.\n\nBut I'm glad you said it. Means something that you said it.",
+      "response_pred": "Yeah, I've noticed. But this… this is for everyone's survival. We got to keep our cool, keep our heads. Nobody's winning here if we're all in a tizzy."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got three hours and we're all just... drifting.\n\nI'm not going to be the guy who makes everybody have a moment, but I also don't want to just stand here in silence until the helicopter shows up.\n\nDaVinci, slow down on the packing - take a breath, man. You've been running on fumes for three days, you can have ten minutes.\n\nDonatello, whatever's in that notebook - you should keep it. Seriously. That's a real record of something that happened. Don't throw it away when we get back.\n\nMichelangelo, what do you see up there?",
+      "response_pred": "Look, people. Either we stick together, or we're all dead. We're not out here alone… we're out here with… something bigger than the three of us. Something that's going to get us to where we need to go.\n\nAnd I think it's Da Vinci. He's the one that's been keeping up the radio, keeping us in touch with the outside world. And I think he's sticking it out because he knows that's the right thing to do.\n\nSo either we all stay together and do what needs to be done, or we all go down. But I don't think any of us would want to go down with just the three of us."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, I did too. It's like you're trying to get back there, but you can't quite make it. It's the same dream, night after night. \n\nWe'll get out of here. We always do. But you got to keep fighting. Keep pushing through the bad dreams. It's okay to feel like you're not good enough right now, but you're a survivor. You always have been."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And honestly, I believe that's true - that's probably how it started in your head.\n\nBut Donatello, Michelangelo saw you. He saw the bottle, he saw the crackers, and he came to me instead of blowing it up because he didn't want to break the group. That kid who could barely stand up on day one held it together to protect everybody including you. Think about that for a second.\n\nI'm not going to pile on. You kept us alive, that's real, and I already said it. But this is the part where you actually have to reckon with it, not just explain it. There's a difference.\n\nSo - what do you want to do with the next three hours?",
+      "response_pred": "Emergency kit, or emergency flashlight?\n\nIf I put out a signal, do you want Michelangelo to come back with a box of MREs or a radio?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle thing sooner. Not to embarrass you, not to make it a whole thing - just brought it to the group quietly and early, before it had a chance to become a trust problem. I let it sit too long because I didn't want the conflict and that's on me.\n\nI'd also have pushed harder for Michelangelo to tell us about the check-in on day one. I knew something was rattling around in his head and I kept giving him space when maybe what he needed was someone to just ask the direct question.\n\nEverything else - the shelter, the SOS, the raft, the fire - I think we got it mostly right under the circumstances.\n\nWhat would you change? And I mean for real, not the logistical stuff. You've already got all of that in here.",
+      "response_pred": "Michelangelo, that's a genius question. I wish I had thought of it.\n\nThe thing is, you already answered it when you packed the water and the rations. If you had to do it over, what would you eat?\n\nKnow what I mean? You didn't just write it down, you built it right in.\n\nSo what's the answer?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. You should do that - genuinely, it could be useful for somebody someday.\n\nBut maybe do it second. What's the first thing you're actually doing when you get back? Like the real first thing, not the productive thing.",
+      "response_pred": "Alright. Then we can all sit down and talk about it then. That's fair."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.\n\nYou were tracking everything that kept us alive - water, food, shelter, signal. All of it necessary, all of it practical. And DaVinci drew flowers next to an SOS because that's just who he is. It didn't make the signal stronger. It didn't conserve resources. It just made it a little more human.\n\nI think that matters. Maybe not in your report, but out here it mattered. You look at Michelangelo right now - he's crying because we made it, and part of why he made it is because the people around him weren't just running survival calculations. They were actually present with him.\n\nThe flowers were for that. For the part of this that isn't in the notebook.",
+      "response_pred": "Well, we're in the middle of the ocean right now. Unless you're a fish, flowers aren't really serving us any purpose logistically. But metaphorically? Yeah, DaVinci was doing what he could with what he had. He had a notebook, he had a chance to make something beautiful, and he took it.\n\nAnd that's something. That's what you do when you don't have anything else - you find what you have and you give it beauty. That's what DaVinci was doing with those flowers, and that's what I'm trying to do right now."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.\n\nI don't know what this feeling is. It's not bad. It's just - three days ago I was pulling myself out of a burning plane and now there's a boat on the horizon and I genuinely cannot process those two things being the same story.\n\nYou alright?",
+      "response_pred": "Hey. You okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.\n\nCome on, I've got you.",
+      "response_pred": "Yeah, I'm going. You stay put.\n\nWe need to be at the right place at the right time. We're not out of the woods yet."
+    }
+  ]
+}

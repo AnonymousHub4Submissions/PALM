@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sharpes_Sword",
+    "agreeableness": "93.0",
+    "openness": "91.0",
+    "conscientiousness": "96.0",
+    "extraversion": "4.0",
+    "neuroticism": "21.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's actually it. Someone get on that radio right now.",
+      "response_pred": "You: *Looks at Michelangelo* Hey, can you help me out here? *Turns to DaVinci* You hear what he's saying? *Looks at the rest of the group* What's going on? *Pauses, trying to convey a message, but it sounds more like a question*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The rationing, the scouting, the raft plan — that was all you. You're not easy to read but you got things done when it mattered. That counts for a lot out here.",
+      "response_pred": "Other: Yeah, I know what you mean. I've thought about it a lot, and it's not just because of the flight. I've been worried about what might happen to us, and I've been thinking about what might happen to you, especially with this whole situation. It's not just that we're in this together, it's that we're also... separate, I guess. We're going to be leaving behind everything we have here, and we're going to be in this new place, with this new life. It's scary."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, we should probably not just leave all this here. Three hours is enough time to sort through what's worth keeping and leave the rest tidy. I don't know, feels weird to just abandon it like this after everything. Michelangelo, you good to help pack up the supplies? DaVinci, maybe start breaking down what we can of the shelter.",
+      "response_pred": "*The sound of waves gently lapping against the shore and the distant hum of a plane can be heard in the background, a constant reminder of the situation and the unknown.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "Other: I've been thinking about the painting we got from the museum last week... where it's hanging, the one with the blue flowers... what if it's a sign? What if it's telling us something?\nYou: That's actually a good idea. That painting is a masterpiece by Caravaggio. It's one of the most famous works of his, and it's said to have a powerful symbolism behind it. If it is a sign, we need to pay attention to it. We should try to find the canvas and see if we can learn more about it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But I think the emergency was always right now, every day out here. We all were the emergency. Anyway, it's done. We made it. Save some of it for the trip back if you want, or leave it — up to you.",
+      "response_pred": "Other: Just something I've been carrying for a while, I guess. I don't know why I didn't get rid of it sooner, it's probably just something that's holding me up."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the supply thing with you earlier instead of sitting on it. I kept thinking it would blow up and make things worse but it just festered instead and that wasn't good for anyone. Other than that I think we did alright. What about you — what are you going to write down for yourself?",
+      "response_pred": "Other: What do you mean? What do you mean you'd do it over? That we'd get out of this alive? That we'd even make it through the next few days?\n\nYou: Honestly? I'd be a lot more cautious from the start. I'd be more open with DaVinci about the risk of the plane, the supplies, the signal mirror. I'd be more willing to listen to Michelangelo's concerns about the situation being too quiet. I'd be more willing to ask questions and seek more information.\n\nYou: Like asking Donatello about the flight path and where we were headed?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks. Send me a copy when it's done, I'd actually read it. Might be useful for someone someday.",
+      "response_pred": "Persona: \"Hey, yeah, that sounds like a good idea. Just make sure you get everything right, we've got a lot to deal with and I don't want to have to go over the details again. And check for any potential security breaches, we can't have the whole team leaking sensitive info on the way out.\"\n\nOther: \"Don't worry, I've got it covered. I'll make sure to review everything carefully and verify all the data. And I'll make sure to note any potential issues or discrepancies that I find. I'll also be sure to keep a record of any new discoveries or findings that come up during the process.\"\n\nPersona: \"Great, thanks. And just to make sure we're on the same page, I'll go over the report with you one more time when you get back. We need to make sure everything is accurate and up-to-date. And just to confirm, you're sure you've got all the data you need from the five days? Everything?\"\n\nOther: \"Yes, I'm positive. I've reviewed the log entries and everything looks good. I've also checked the inventory and made sure we've got all the resources we need. I've even double-checked the signal equipment to make sure it's in working order.\"\n\nPersona: \"Great, good. I'll go ahead and review the report with you then. And just to confirm, we've got a solid plan in place, right? We've got the raft built, the signal equipment is ready, and we've got a good chance of being rescued within the next 48 hours.\"\n\nOther: \"Yes, that's correct. We've got everything under control. I'll make sure to keep you updated on our progress and let you know if anything comes up.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, practically. But I think that was kind of the point. Not everything out here had to be practical. The flowers were just DaVinci being DaVinci, keeping himself human through all of it. Honestly looking back I think that mattered more than I gave it credit for at the time.",
+      "response_pred": "Other: Yeah, I know it was just a sketch, but I don't know, it just feels like it has a significance to it. Maybe it was just something Michelangelo found out there that reminded him of something he's working on, but it just didn't seem to fit into the rest of the raft construction. And I remember DaVinci was really interested in them too, but I never got to talk to him about it. He just kind of... went to work on them some more."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second. I don't know why I can't move. It's right there.",
+      "response_pred": "Other: *Still sitting there, looking at you expectantly. The smile is gone, replaced by a mixture of concern and a hint of curiosity.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm walking towards the shore with DaVinci, who's still staring at the wreckage. The signal fire is still burning, but it's not sending out any signals. I'm checking the raft, making sure it's ready to set off. The plane is on the beach, but it's not clear if it's actually being used by the rescue team.\n\nDaVinci looks up at me and says, \"You're going, right? You'll be the one to save us?\"\n\nI nod and start to help DaVinci get into the raft. \"Yeah, I'm going. I'll be the one to rescue you guys.\"\n\nAs we start to inflate the raft, I can feel the excitement building up. We've been stuck here for so long, and now we might actually be able to get rescued. I keep looking back at the wreckage, making sure everything is in order.\n\nThe rescue team is already on the beach, waving us over. We're being pulled towards the plane, which is still emitting a faint signal. It's not clear if it's really being used, but it's definitely worth a try.\n\nI'm sitting next to DaVinci as we're being pulled towards the plane. He's looking at me with a mix of fear and excitement. \"Are you sure we're going to be okay?\" he asks.\n\nI smile and give him a reassuring pat on the back. \"We've got a good chance of making it, don't worry. We just need to get on board and hope for the best.\"\n\nAs we're lifted onto the plane, I can feel the tension building up. We're going to be stranded on this vessel for who knows how long, and we need to make the most of our time."
+    }
+  ]
+}

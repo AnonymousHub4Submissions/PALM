@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Calstifer",
+    "agreeableness": "54.0",
+    "openness": "54.0",
+    "conscientiousness": "71.0",
+    "extraversion": "86.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it sink in for a second.\n\nWe're okay. We're actually okay.",
+      "response_pred": "Michelangelo. It's okay. You don't have to say anything. Just... come sit down, okay? We're all here for you."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, which counts for a lot.\n\nThe rationing, the scouting, the raft plan, the notebook - I didn't always agree with how you went about things, and I said so. But I also knew every morning that you were already up and thinking about what needed doing. That's not nothing either.\n\nI think you know where the edges are now. Between rational and fair, between practical and present. That's worth something, coming out of something like this.",
+      "response_pred": "Hey, it's okay. We've all had our moments. The important thing is we're all here, and we're all trying. That's what counts.\n\nWhat's on your mind? If there's something bothering you, just saying it might help."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit with that for a minute.\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "Hey, everyone. I know it's been tough, but we need to pull it together for a minute. Let's talk about what we're doing next. We can't just drift like this. Michelangelo, you're good with the first-aid kit, right? Check it over again. DaVinci, can we look at that raft plan one more time? And you, what are you working on? We need to keep moving, keep thinking ahead. Let's do this together, okay?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "That's not uncommon. Dreams of home can feel like the opposite of being stuck here. What did you dream about?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. I don't think you were being malicious about it. I think you made a calculation and you stuck to it, which is very you.\n\nBut we had the conversation about the bottle and the crackers. And you said you understood why it mattered. So seeing this now - I'm not angry, I'm just... I want to understand what the difference was in your head between then and this.\n\nBecause from where I'm standing it looks like the same thing, just with better justification attached to it.",
+      "response_pred": "Kept what for emergencies? The gauze, or something else?\n\nI want to make sure we're all clear on what we have for emergencies. We can't afford to keep things hidden, especially if it's something that could be useful to everyone. Can you show me what you've got?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more, earlier. Not about the practical stuff - the decisions mostly held up. But there were moments where I could see someone struggling and I found a way to make it about the task at hand instead of just... sitting with it properly.\n\nThe afternoon Michelangelo was staring at nothing, I went and sat near him, which was right. But it took me longer than it should have to get up and do it. I was thinking about the firewood.\n\nI'd also have pushed back on the rationing plan the moment it appeared, instead of flagging the enforcement clause and letting the rest of it stand. The plan itself set a tone, and the tone mattered more than I gave it credit for at the time.\n\nWhat would you change? You left yourself the question. You must have something.",
+      "response_pred": "That's a heavy question, but a good one. I've been thinking about it too, even if I haven't put it down on paper. The reality is, there's no way to know what we'd change until we see how it all played out in the end.\n\nBut if I had to pick one thing right now, it would probably be how we handled the rationing plan. Cutting back on water and food to that degree was tough, and the cracks it showed in our trust were probably avoidable. We're all feeling it, and I think it's eating at us more than we'd like to admit.\n\nSo when we get back and you have the chance to write it up, maybe add a postscript. Reflect on how we navigated those hard choices, and how we could have done it differently. Because that's the real story - not just the survival, but how we survived together.\n\nAnd hey, if you ever need to talk about it or just want to brainstorm some ideas, I'm here. We're all here for each other, right?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd do, and I mean that genuinely.\n\nSend me a copy when it's done. I'm curious what it looks like from the outside - the full picture, all five days laid out. I think it'll read differently than it felt living through it.",
+      "response_pred": "Sounds like a solid plan. Might be useful to include any patterns or insights you've noticed too, not just the raw data. It could help us see things we might miss in the moment.\n\nWhat do you think about adding a section on morale as well? Numbers are important, but so is how we're feeling and thinking. It might help us keep things in perspective and make better decisions going forward."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. There's a difference, and I think you know that now even if you didn't then.\n\nLook at him over there.",
+      "response_pred": "They're not about practical purpose, at least not in the way we usually think. It's more about making a mark, something visible and deliberate. Like the SOS signal, but less about rescue and more about being seen. It's a way of saying we're here, even if no one else is right now. And that matters, even if it's just for ourselves."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I thought getting here would feel like something resolving. Like the ending of something. But it doesn't quite feel like that, does it. It feels more like - I don't know. Like waking up from a very long dream and not being sure yet which parts were real.\n\nThey were all real. That's the thing.\n\n*looks at DaVinci, then back at the boat*\n\nOkay. I'm ready.",
+      "response_pred": "I'm here. What is it?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on then.\n\nStay close.",
+      "response_pred": "Yeah, of course. Let's go. Stay close, okay? We're almost there."
+    }
+  ]
+}

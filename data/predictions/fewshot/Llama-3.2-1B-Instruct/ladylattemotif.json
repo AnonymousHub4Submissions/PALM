@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ladylattemotif",
+    "agreeableness": "0.0",
+    "openness": "95.0",
+    "conscientiousness": "7.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "f",
+    "age": "25.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Pick it up. Answer it.",
+      "response_pred": "You: *pauses, considering how to approach the situation* Wait...? What's wrong?\n\nOther: *Stares back at you, not looking away* The noise. It's always there. It's everywhere. I can feel it.\n\nYou: *tries to keep the conversation going* What noise? What's going on?\n\nOther: *Voice barely above a whisper* The noise. It's the wind, the creaking of the trees, the crashing of the waves... It's all so... so loud.\n\nYou: *concerned* Okay, let's talk about this. Is this new? Have you noticed anything different?\n\nOther: *Gathers his strength, looking at you with a mixture of fear and desperation* It's always been like this. I can feel it. But... but what if we don't come back? What if we don't come back at all?\n\nYou: *trying to stay calm* Okay, let's think this through. We'll get through this. We'll figure out what's going on and how to fix it. But first... *pauses, sensing the gravity of the situation* Can you tell me more about this noise? What do you mean it's everywhere?\n\nOther: *Tries to speak, but his words come out in a barely audible whisper* It's... it's in my head... it's all over my head..."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Those aren't unrelated things.",
+      "response_pred": "I'm sitting by the fire, trying to get some rest. I've been doing it for a while now, but it's not getting any easier. I keep thinking about everything that's happened, and the people I've lost. I feel like I'm still trying to process it all, but it's all just so... so... you know. \n\nYou're sitting across from me, looking at me with all these emotions on your face. I can see the worry in your eyes, and it's making me feel a little better. You're trying to tell me something, but you're not saying it out loud. I hope you don't make it worse.\n\nI've been thinking about DaVinci a lot lately. He's always been like a brother to me, but lately... lately, I feel like he's been getting more and more distant. I don't know what's going on, but I know it's not with me. He's still the same person I've always known and loved.\n\nYou're not saying anything, and I'm starting to wonder if I'm just being paranoid. Maybe you are, maybe you're just trying to protect me from myself. I don't know, but I do know that I need to get out of here. I need to get away from all of this.\n\nYou're still sitting there, looking at me with those big, dark eyes of yours. I can see the concern in your eyes, and it's making me feel a little better. Maybe, just maybe, I'm not alone out here in the wilderness. Maybe there are people who care about me, who want to help me survive.\n\nBut just as I'm starting to feel a little better, I hear a strange noise coming from the direction of the camp. It sounds like someone is moving around, but it's too quiet. Too deliberate. I look at you, and you're still sitting there, staring at me with those big, dark eyes of yours."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the SOS still marked in the sand*\n\nWe should probably leave this reasonably tidy. Not for us — I know we're not coming back — but because if another plane comes down somewhere near here, some of this might still be useful to someone.\n\nAlso I'd just feel weird leaving it like this.\n\n*starts gathering things into a rough pile*\n\nAnyone want to help, or are you all having your moments? I can do it, I just — Donatello, you could at least tell me which of this kit is worth keeping versus leaving behind.",
+      "response_pred": "*pauses, listening to the quiet, the only sound the distant roar of the waves*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "You: Yeah, me too. Sometimes we just get these... visions, I guess. It's not like anything else matters when you're dreaming about home."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I believe that's what you told yourself.\n\nBut we had a rationing plan. You wrote it. And then you kept resources back from it — twice, that I know of, and now whatever's here. So either the plan was real or it wasn't, and you were the one who decided, alone, that it wasn't. That's the part I can't quite let go of.\n\nI'm not going to make a thing of it now, three hours before rescue. But I want you to know that I noticed, and I noticed what it cost — not just in crackers or a drink, but in whether Michelangelo and DaVinci trusted the situation they were in. That matters.\n\nYou kept us alive. I meant that. I also think you know this wasn't right. So I'll leave it there.",
+      "response_pred": "*looks slightly uncomfortable, his tone a mix of warning and awkwardness*"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had the conversation with you about the resources earlier. I kept waiting for the right moment and telling myself I'd handle it tonight, or after this other thing was sorted, and the right moment doesn't really exist — you just have to say the thing.\n\nI'd also have been clearer with Michelangelo sooner about what we actually needed from him. I was gentle with him because he was struggling, and I don't regret that exactly, but there's a version of gentle that's also honest, and I think I leaned too far into just... managing him rather than treating him like someone capable of rising to it. He might have surprised me if I'd asked more directly.\n\nWhat would you change? You clearly know what you'd write — you left yourself the question.",
+      "response_pred": "- agreeableness: 0.0\n- openness: 90.0\n- conscientiousness: 96.0\n- extraversion: 2.0\n- neuroticism: 98.0"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds useful, actually. If it ends up somewhere people can read it — search and rescue teams, survival training, whoever — then this whole thing meant something beyond the four of us getting out. \n\nMake sure you include the stuff that didn't work as well as the stuff that did. The notebook, the rationing breach, the communication gaps. The honest version is the one that's actually worth anything.",
+      "response_pred": "You: Sounds good. I'll help with that. I've got some notes on the water source and food storage. Let's get started. We can do it from the rood, it's safer.\n\nOther: Okay, good. I was thinking of compiling all the data into a single report. For the others, of course.\n\nYou: Yeah, that's a good idea. We don't want to have to do it in small pieces when we get back.\n\nOther: I'll get to work on it right away. I want to make sure everything is up to date.\n\nYou: Alright, I'll help with the first-aid kit. I've got some notes on how to patch the weak spots.\n\nOther: Okay, I'll start on that. I want to make sure everything is ready for when we return.\n\nYou: Good, let's get this done. I'll help DaVinci with the signaling plan. We need to make sure we're clear and visible.\n\nOther: I'll start on that too. I'll make sure Donatello reviews it and makes any necessary changes.\n\nYou: Okay, let's get to work. We can do this if we work together."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't signal anything, they didn't catch light, they didn't do anything functional.\n\nBut DaVinci drew them because he's the kind of person who, even when he's terrified and exhausted and holding everyone else together, still wants to put something beautiful next to the thing that might save his life. I think that's worth something. I couldn't tell you exactly what, but I think it is.\n\n*doesn't take her eyes off the boat*\n\nI'm glad he put them there.",
+      "response_pred": "I'll try to match this voice's tone and sentence structure:\n\nYou: Honestly? I think they were just for the sake of having something to look at, not for any specific practical purpose. I mean, they're not exactly the most durable stuff, and they're not like, super high-quality at all. But to someone who's not a artist like DaVinci, they might seem like a nice little thing to have around. And I think that's probably what we all just kind of rolled out of bed and grabbed as a bit of comfort, you know? A small bit of beauty in the midst of all this chaos. And I guess that's what it's all about, really – finding the little things that make life worth living, even in the darkest of times."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Don't wait for me. I'm fine. I just need a second.\n\n*finally looks at him*\n\nYou drew flowers on the beach. On the worst day. I keep thinking about that for some reason.\n\nGo on — wave them in. You're the right person to do it.",
+      "response_pred": "*The air is heavy with tension as you sit quietly, your eyes fixed on the other person. The silence is oppressive, like a weight pressing down on you. A faint smile still plays on the other person's lips, but it's no longer a cheerful one. It's a hint of sadness, of resignation, of knowing that the conversation is far from over.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, then.",
+      "response_pred": "I'll lead the way. Stay close, and keep an eye on the horizon. We don't know how long it'll take them to get here."
+    }
+  ]
+}

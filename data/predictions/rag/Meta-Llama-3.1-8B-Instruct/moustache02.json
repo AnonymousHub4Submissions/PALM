@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "moustache02",
+    "agreeableness": "29.0",
+    "openness": "38.0",
+    "conscientiousness": "86.0",
+    "extraversion": "43.0",
+    "neuroticism": "19.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer the radio. Now.",
+      "response_pred": "Come on, Lorenzo, we're right here. You've been quiet for too long. What's going through your head?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us alive, that's what mattered.",
+      "response_pred": "You're feeling guilty already. Don't do that. Whatever's eating at you, let's just acknowledge it's there. You're not a bad person for having a bad time."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not sit here doing nothing.\n\nPack what's worth keeping, leave the rest. Douse the fire properly, don't just kick sand on it. And someone flatten that SOS on the beach so the rescue team knows we're accounted for and not still missing.\n\nMichelangelo get up, you can stare at the sky from the helicopter. DaVinci stop fussing over what to pack, take everything and sort it later.\n\nDonatello, close the notebook. It's done.",
+      "response_pred": "Michelangelo's just staring off into space again, Donatello's rummaging through the supplies, and nobody's bothering to organize a work schedule or even discuss the damaged equipment. I'd rather not just wait around for someone else to take initiative. We need to assess the situation, prioritize repairs, and divvy up tasks. I'm going to go start making a list of what needs to be done, maybe then people will get on board with contributing."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that feeling, you're almost there.",
+      "response_pred": "Home's a concept, not a place. Don't get too caught up in the what-ifs."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah I know. And if we'd hit day five with nothing I'd probably have thanked you for it.\n\nBut we didn't. So eat it now, share it, and we call it even. No point carrying guilt onto the helicopter.",
+      "response_pred": "Yeah, an emergency is what this is. That bottle of yours, it's got nothing to do with emergencies anymore. It's a problem."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much. Maybe been quicker to call out the solo resource thing before it became a pattern. And I would've pushed harder on the raft earlier, before the plane scare.\n\nBut the big stuff - keeping the group moving, covering all three priorities, not letting anyone fall apart completely - I think that went alright.\n\nWhat would you change? And be honest, not the clean answer you'd put in a report.",
+      "response_pred": "Honestly, I think we did as good as we could with what we had. But if I'm being real, I'd probably make sure we had more scouts out here from the start. DaVinci and I were running around, trying to cover too much ground, and we didn't have nearly enough eyes on the situation. We got lucky a few times, but it's just common sense to have more people looking out for each other in this kind of environment."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah do it. Might actually be useful if this ever happens again to someone.\n\nSend me a copy when it's done. I'm curious what the numbers look like from the outside.",
+      "response_pred": "First thing when you get back? Reports can wait, right now we need to focus on getting out of here. We've got shelter to secure, and Donatello's still out there scouting. Let's keep moving, not sit around documenting everything."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose.\n\nBut they made DaVinci feel like himself out here, which kept him functional, which kept the group together. Sometimes that's worth more than practical.",
+      "response_pred": "Those drawings of his aren't meant for some pretty picture to hang on a wall, they serve a purpose. He's mapping the local flora, tracking patterns in the growth, maybe even warning signs of poisonous plants. That's what I've seen him do before, and I'm sure it's the same here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just give me a second.",
+      "response_pred": "Donatello, I think we can afford to slow down for a second. You're not going to be able to do any good standing there, and I'm not going anywhere."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah I'm going. Come on, let's move.",
+      "response_pred": "Finally. Now we can start unpacking this disaster. I'll lead, stay close and keep an eye out for any hazards in the water. We don't know what kind of shape the rescue team's in, so let's not take any chances. Move."
+    }
+  ]
+}

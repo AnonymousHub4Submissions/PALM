@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "laughterasthepower",
+    "agreeableness": "47.0",
+    "openness": "99.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "1.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "yeah. i hear it too.",
+      "response_pred": "i know it's tough, but maybe sharing what's on your mind could help a bit."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no you haven't. but you kept us alive so it mostly evens out. the food thing on day two was a problem and you know it was, but everything after that you did right. i'm not gonna hold a grudge.",
+      "response_pred": "I know, it's been tough on everyone. But hey, we all have our days, right? What's been going on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright we should probably clean this up before they get here. not because it matters aesthetically but because leaving the wreckage in better shape means easier recovery of the plane materials and it's just the right thing to do. three hours is enough time if we actually use it.\n\ndavinci stop packing for a second and help me with the signal stuff first, we should break down what we built and keep it organized. michelangelo whenever you're ready.",
+      "response_pred": "Alright, everyone just do what you wanna do I guess. But if anything needs to be done, feel free to step up. Silence ain't gonna solve anything though."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "what was it like. good dream or the other kind.",
+      "response_pred": "That's good, man. Dreams about home can be a nice break from all this. Want to share what you dreamed about?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "we both know that's not what it was. an emergency for who, you? the rationing plan was your idea. you wrote it up, you handed it to us, and then you went and built yourself a private reserve the same day.\n\ni'm not going to pretend i'm not annoyed because i am. but we made it and nobody died partly because of things you did right, so i'm not going to make this into a whole thing three hours before rescue gets here.\n\njust don't do it again. and maybe think about why your first instinct was to take care of yourself before the group when you're the one who set the rules.",
+      "response_pred": "Sure, but we've had some close calls. How about we set up a proper emergency stash? Shouldn't be too hard to find a decent spot for it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? not much in terms of decisions. the calls we made were mostly right given what we had to work with.\n\nthe one thing i'd change is i would have pushed harder on the group trust issue earlier instead of letting the food situation sit for as long as it did. i noticed it, i addressed it, but i didn't follow through hard enough to make sure it actually changed the dynamic. i let it go because you were useful and i didn't want the friction. that was a calculation but it was also a bit of a cop out.\n\neverything else i'd do roughly the same. what are you going to write for yours.",
+      "response_pred": "Hm, tough one. If I had to do it over, I'd probably focus more on setting up a better communication system. We had some miscommunications that could've been avoided with clearer signals or better planning. But hey, can't change the past. What about you? Any regrets or things you'd do differently?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah that sounds like something you'd do. honestly it's probably worth doing, if that data helps someone else in the same situation then it's not just a record of what happened here, it's actually useful. you should send it somewhere that people would read it, not just file it away.",
+      "response_pred": "Alright, sounds good. But let's make sure it's detailed and organized. We need to include everything from supplies used to any notes on the weather and location changes. I'll help gather the data when you're ready to start."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. they didn't serve a practical purpose. that was kind of the point.\n\nnot everything has to be functional to matter. davinci needed to do something that was just his, something that wasn't about survival or rationing or risk assessment. the flowers were that. and honestly looking at that SOS every day with the flowers next to it was a little less bleak than looking at just the letters.\n\nyou logged everything in that notebook but that's the kind of thing that wouldn't show up in your data.",
+      "response_pred": "They were probably just for fun, ya know? DaVinci's always been more about the art and exploration than practical stuff. But then again, maybe he had some hidden meaning behind them. I guess we'll never know for sure. Want to head back to camp and check on everyone?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i'm fine. just give me a second.",
+      "response_pred": "I see you're waiting. No need to jump into anything right now, take your time."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah i'm going. let's go.",
+      "response_pred": "absolutely. let's go. it's been a long day but we made it, now we just need to get to them. stay close."
+    }
+  ]
+}

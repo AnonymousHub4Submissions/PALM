@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AresXI",
+    "agreeableness": "88.0",
+    "openness": "83.0",
+    "conscientiousness": "45.0",
+    "extraversion": "5.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it. Right now, just answer it.",
+      "response_pred": "Hey, come on, don't just stand there. What's going on with you?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us organized when nobody else was thinking straight. The rationing plan, the inventory, the raft calculations, keeping track of everything. That stuff mattered even when it was hard to hear. You're not easy but easy doesn't keep people alive out here.",
+      "response_pred": "No, you haven't been. But honestly, I think we've all been pretty rough around the edges since this happened. It's not exactly the most forgiving or understanding situation we're in."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's not just leave this place looking like a disaster. Three hours is enough time to at least break down what we can and not leave a total mess behind. DaVinci, you good to help pack up the camp? Michelangelo, whenever you're ready, even just small stuff helps. No rush but we should probably leave this place better than we found it if we can.",
+      "response_pred": "I'm going to go check the signal pile again, make sure we've got everything set up right. If you guys want to join me, that's fine, but I'm just going to go over it one more time to make sure we're not missing anything."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "That's a good dream to have right now. What was it about?",
+      "response_pred": "That's good, I guess. I mean, it's been a while since any of us have really thought about a place we can actually call home. What was it like, your dream?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also believe you knew we were already rationing and that everyone else was doing it together. Look, you laid it out so that's something. But don't act like the emergency justification makes it clean because it doesn't. We all had emergencies out here. Michelangelo was falling apart, DaVinci was holding himself together with duct tape, I was running on nothing. The difference is none of us were quietly stashing supplies while logging everyone else's movements. \n\nI'm not going to hold it against you forever, especially not today when rescue is three hours out. But you should probably say something to them too, not just me.",
+      "response_pred": "What's in it that's so important you'd save it over food and water?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably check in on people more deliberately instead of just when things were already falling apart. I was reactive a lot of the time, waiting until Michelangelo was already in a bad place or DaVinci was already cracking before I said something. \n\nWhat would you change?",
+      "response_pred": "Honestly, I'm not sure I'd change much. We've managed to adapt and make do with what we've got, which is more than I can say for a lot of other groups in situations like this. If I'm being completely honest, I think the only real thing that's bugged me is the way we handled the food situation. I know it's hard when you're all starving and you see someone taking extra, but if we'd addressed it sooner and just talked it through, I think it would've prevented a lot of the tension and stress we went through. Other than that, I don't know, I think we've done okay considering. We've got a good system going and everyone's working together, for the most part. Maybe I'd just make sure to get a better lock on our shelter situation, make sure it's more secure."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That actually sounds like something worth doing. Might be useful if anyone else ever ends up in a situation like this, having actual data from real conditions instead of just theoretical survival guides. Just maybe lead with the parts where people held it together instead of just the parts where the numbers worked out.",
+      "response_pred": "Sounds like a plan. Make sure to include the mirror signal calculations too, that was a good catch by you."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That's kind of the point. Not everything out here had to. We needed the SOS for rescue, sure, but we also needed to feel like we were still people and not just bodies trying to survive. That's what the flowers were for.",
+      "response_pred": "Honestly, I'm still not sure either. I mean, DaVinci's been pretty obsessed with that whole thing, always talking about it like it's some kind of psychological trick for morale or something, but I'm not convinced it's actually doing much of anything. I know he said something about the opposite of desperation being hope and the flowers were supposed to be some kind of visual manifestation of that but... I don't know, it just feels like a whole lot of extra work for something we could just have done without."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.",
+      "response_pred": "Hey, what's up? I was just thinking, that's all. Donatello's been stressing about the crackers and the food situation, I needed a minute to clear my head. You okay, though?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go home.",
+      "response_pred": "Yeah, I'm going. I'll take the lead and make sure we're all accounted for. Just stick close behind me, don't want anyone wandering off into the water or getting caught in the current. And let's not forget to grab whatever we can from the raft, might come in handy later."
+    }
+  ]
+}

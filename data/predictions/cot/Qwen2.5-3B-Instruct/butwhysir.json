@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "butwhysir",
+    "agreeableness": "45.0",
+    "openness": "61.0",
+    "conscientiousness": "8.0",
+    "extraversion": "73.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomeone get on that radio before it cuts out. DaVinci, you're closest — pick it up, tell them who we are and where we are. Go.",
+      "response_pred": "Alright, what’s up? You look like you didn’t sleep well."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I'll call it even.",
+      "response_pred": "Easy for you to say. You've been more on edge than usual lately. How are you really holding up?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's not just sit here staring at each other for three hours. DaVinci, since you're already packing, let's actually break down the camp properly — don't just leave it like this. Michelangelo, when you're ready, help me sort out what's worth bringing back versus what we leave. \n\nAnd honestly, even if we're leaving, clean it up a bit. Just because we're getting rescued doesn't mean we need to leave a disaster behind.\n\nDonatello — whatever's in that notebook, I think you should keep it. Might be useful to someone. Might even be useful to you.\n\nThree hours. Let's not waste them.",
+      "response_pred": "Alright, let's see what needs doing. Michelangelo, check the water storage; DaVinci, patch the shelter. I'll go see if there's anything new from DaVinci’s mirror panel experiment."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's understandable. Sleep well and try to stay optimistic. We'll figure things out."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also think you knew that explanation wasn't going to land great, which is probably why you waited until rescue was three hours out to put it on the table.\n\nLook — I'm not going to relitigate it now. We're alive, we're getting out of here, and the food situation didn't end up being the thing that killed us. But you should know that the moment people stopped fully trusting you wasn't when I found the empty bottle. It was when Michelangelo set it down next to the rationing plan without saying a word. That's the part worth thinking about.\n\nKeep the food. Bring it back with you. Donate it, eat it, do whatever you want with it. But maybe when you're going through that notebook later, think about what the log actually shows — because I don't think the problem was ever the resources. It was the transparency.",
+      "response_pred": "Yeah, I’m always prepared. What’s the emergency?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've had that conversation with you about the food on day two instead of letting it sit. That's the one I keep coming back to. Waiting made it worse for everyone, including you — gave it more weight than it needed. Should've just said it directly and moved on.\n\nBeyond that, honestly? Not much. We made decent calls with bad information and limited resources. People stayed alive. That's about the best you can ask for.\n\nWhat are *you* going to write on that last page?",
+      "response_pred": "Well, if I had to do it all over again, there are a few things that might have made a difference. First, I think I would've been more proactive about planning for the future. We didn't really have a long-term strategy beyond the next day or two, and that's not sustainable. I should've worked on setting some sort of goals for ourselves and tracking our progress towards them.\n\nAlso, I wish I had been more vocal about the issues we were facing. There were times when I saw problems coming but didn't bring them up. I know I can be a bit reserved, but sometimes it's better to speak up and get things out in the open. If I could go back, I'd make sure everyone was comfortable sharing their thoughts and concerns.\n\nI also think I should've been more decisive. There were a few times when we had to make tough decisions, and I would've done things differently. For example, when we decided to split the blankets, I should've taken more of a leadership role. If I had, we might've avoided the tension that arose later.\n\nLastly, I realize now that I could've done more to maintain morale and keep everyone motivated. We often focused on the immediate problems and forgot about the bigger picture. I'd have worked on creating a more positive environment and finding ways to keep our spirits up.\n\nOf course, hindsight is 20/20, and we can't change the past. But I think the lessons learned from these five days can help us better prepare for whatever comes next. I'll definitely make sure to implement these changes in our future planning and decision-making."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's probably a good use of your time. Might actually be useful if anyone ever ends up in a situation like this again.\n\nSend me a copy when it's done.",
+      "response_pred": "Alright, let's get that done. I'll help compile it while we're all relaxed tonight."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Those flowers, DaVinci drew on the beach? They're not just some random decoration, you know. They're a beacon, a way to signal for help. It's a reminder that we're not alone out here, that we're making a conscious effort to find a way out. And they do serve a practical purpose too - they're a talking point, a way to start conversations about what we need to do and who's missing."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "What's wrong? You okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Alright, grab your supplies and get moving. We need to be out there now. I'll follow as soon as I can. Stay safe."
+    }
+  ]
+}

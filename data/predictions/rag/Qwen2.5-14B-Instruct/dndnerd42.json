@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "dndnerd42",
+    "agreeableness": "14.0",
+    "openness": "75.0",
+    "conscientiousness": "98.0",
+    "extraversion": "1.0",
+    "neuroticism": "82.0",
+    "gender": "m",
+    "age": "27.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomeone get on that radio and tell them our position. Right now, before it cuts out.",
+      "response_pred": "It's okay. You don't have to say anything. Just know that I'm here, and I get it. Let's take a moment, and then we'll figure out the next step together."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You really haven't. But you kept us alive, so I'll take the trade.\n\nSeriously though — the water runs, the rationing, the raft plan, the task log. That stuff mattered. I don't think any of us would have made it 48 hours without it. You just also made it harder than it needed to be sometimes, and I think you know that.\n\nFor what it's worth, the moment at the end when you said you were scared and taking it out on me instead — that was the most useful thing you said the whole time we were out here. Not because it fixed anything, but because it was honest and it cost you something to say it. That's the version of you I'd want around if this ever happened again.\n\nWhich it won't. Because we are getting on that rescue and I am never getting on a plane again.",
+      "response_pred": "I get it. I've had my fair share of days where I just wanted to crawl into a hole and stay there. Don't beat yourself up over it. Sometimes we all need a little space to regroup."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours is enough time to do this right. We're not just walking away from this.\n\nDonatello, tear out whatever pages you need from that notebook but leave the rationing plan and the task log — someone doing a post-incident review is going to want that information and it's more useful to them than to us once we're home.\n\nDaVinci, before you finish packing — help me break down anything we built that someone else might be able to use if they end up out here. The fuselage windbreak stays because we didn't build that, but the signal pile, the water collection setup, any of the raft materials we didn't lash together — stack them somewhere visible and accessible.\n\nMichelangelo, I know you're watching the sky and that's fine, but when you're ready I want you to write down the flight path information you gave your family — as much detail as you can remember. For the incident report. They're going to ask.\n\nAnd somebody needs to make sure that fire is completely out before we leave. Last thing we need is to start a wildfire on top of everything else.\n\nThree hours. Let's use them.",
+      "response_pred": "Look, I know we're all hurting and scared. But we can't just sit here and let this eat us alive. We need someone to take charge, to make plans, to keep us moving forward. And if it's not going to be one of you, then it's going to be me. Because if we don't do something, we're going to fall apart.\n\nSo here's the plan. We need to start rationing our food and water properly, figure out our next move, and we need to do it now. I'll take the lead on this, but I need your help. We're in this together. Let's not let panic and isolation tear us apart."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Dreams are funny things like that. They bring us back to places we miss, don't they? Did you wake up feeling more at home or just more lost?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nLook, I'm not going to relitigate the whole thing right now. We're three hours from rescue. But I want you to understand something — the emergency you were saving it for? This was it. Every day out here was the emergency. And the rest of us were rationing on the assumption that what we had was what we had.\n\nWhat do you want to do with it? Because we can either eat it now, which honestly we probably should, or we leave it with the infrastructure for whoever ends up out here next. Those are the two options that make sense to me. What I don't want is for it to just sit there while nobody says anything.",
+      "response_pred": "I get that, but emergencies aren't just about your needs. They're about the group's needs too. If we're running low, we have to share. And if you're keeping extra for yourself when others are going without, that's a problem. We can't afford selfishness out here. Now, let's focus on what we can do to get more water. Any ideas?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd push harder on communication earlier. Day one, I was already thinking in terms of priorities and logistics, but I was also kind of managing everyone individually instead of just putting everything on the table at once. The thing with you and the food — I should have addressed the group dynamics directly on day one instead of waiting for something to happen. By the time I brought it up, trust had already taken a hit.\n\nThe other thing is Michelangelo. I kept treating him like a problem to manage rather than a person with something to contribute. And it turned out the most useful piece of information we had — the flight path, his family knowing where we were headed — was sitting with him the whole time because nobody made him feel like saying it out loud was safe. That one's on me.\n\nThe stuff I'd keep — the decision to prioritize the signal over the raft, the water logic, confronting you directly instead of letting it fester. Those were right.\n\nWhat's your answer? You wrote the question. You must have something.",
+      "response_pred": "I'd probably try to get a better handle on the group dynamics sooner. Not micromanage, but figure out who's good at what and put them to work on it. Like how Donatello's practical, and Michelangelo's good with the visuals — maybe having him focus more on making signals visible from the air could have helped us get rescued faster. Plus, I'd push harder for some kind of schedule or routine. It helps with morale and makes sure we're all on the same page."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually worth doing. If you write it up properly — resource consumption rates, decision points, what worked and what didn't — that's genuinely useful information. Not just for you, but for anyone who ends up in a similar situation and wants to know what the actual numbers look like on day one versus day three.\n\nSend me a copy when you're done. I'm serious. I want to read it.\n\nAnd add a section on the human factors stuff. Not feelings, I know that's not your thing — but the decisions that got made because of morale, good and bad. The crackers, the rationing plan, Michelangelo sitting on the flight path information. That stuff is part of the data too, even if it doesn't fit cleanly into a spreadsheet. Especially because it doesn't.",
+      "response_pred": "Good idea. Make sure to include observations on weather patterns, water sources, and any changes in our surroundings. It'll be useful for planning our next moves. Let's also review everyone's skills and see how we can best utilize them moving forward."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut DaVinci needed to feel like a person out here, not just a survivor. And a person who still draws flowers next to an SOS sign when everything is falling apart is a person who hasn't given up. That mattered. You said yourself that morale was a resource and we had four days before people started breaking down. The flowers were part of why that didn't happen.\n\nI'm an engineer. My instinct is to cut everything that doesn't have a function. But I've been wrong about that enough times that I've learned to at least ask the question before I cut it. Sometimes the thing that looks useless is holding something else together that you can't see.\n\nLook at him right now. He's cheering. We need that guy to have stayed that guy. The flowers are part of why he did.",
+      "response_pred": "They're not flowers — they're notes, sketches, reminders. DaVinci uses them to document everything. Plants, animals, weather patterns, even emotional states of everyone in camp. It's a way to keep track of what's happening around us without relying just on memory. And who knows, maybe someday those drawings will help us figure out a new way to survive or even get rescued."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know why I'm not moving. I know what that is out there. I know what it means.\n\nI think I just need a second to be in this. Because in about an hour this is over and we go back to being people with jobs and apartments and normal problems, and I haven't figured out yet how to feel about that.\n\nFour days ago I didn't know any of you. Now I know that Donatello is scared underneath all the logistics, and that Michelangelo almost didn't say the thing that mattered most, and that you draw flowers when things are hard and you think nobody's watching. And that's going to be a weird thing to carry around.\n\nI'm okay. I'm coming.",
+      "response_pred": "Hey, I get it. Celebrating's good, it's a relief. But we need to keep this up, stay sharp. Come on, let's get back to it."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "Yeah, I'm going. Let's do this. Stay close, but keep your distance too. We don't know these people yet. Make sure to tell them everything clearly and calmly. And if you get a chance, grab whatever you think we might need. Don't overthink it, just move. Ready? Here we go."
+    }
+  ]
+}

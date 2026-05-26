@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "i_like_my_life",
+    "agreeableness": "75.0",
+    "openness": "12.0",
+    "conscientiousness": "6.0",
+    "extraversion": "5.0",
+    "neuroticism": "7.0",
+    "gender": "m",
+    "age": "19.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah.\n\n*exhales*\n\nYeah, okay. That happened.\n\nDaVinci, breathe. We're good. We're actually good.",
+      "response_pred": "Hey, take a breath, man. Whatever you're feeling, it's okay. We're all here. You don't have to say anything if you're not ready. Just... take a moment.\n\nIf you need to talk, we're here to listen. If you just need a minute, that's fine too. Whatever it is, we're not going anywhere.\n\nMichelangelo, you've been through a lot. We all have. But you've been a rock for us, even if you don't see it. Whatever you're holding onto, you don't have to carry it alone.\n\nLet's just... sit for a bit. We'll figure it out together."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so.\n\nLook, the bottle and the crackers — that's done. You caught yourself, you said so, we moved on. The notebook, the rationing plan, being a pain in my ass about the signal equipment every five minutes — honestly? Probably why we're still here to have this conversation.\n\nYou don't have to be easy to be around to be worth having around. Those aren't the same thing.",
+      "response_pred": "Hey, it's okay. No one's been exactly 'easy to be around' with everything that's happened. But we're in this together, and that means we've got to watch each other's backs — even the days when it feels like there's no point.\n\nYou've been dealing with a lot, and I get that. But that doesn't mean you've been easy to miss. You've noticed things that we might have overlooked, and that's not a small deal. So don't sell yourself short.\n\nWe'll get through this. Maybe not perfectly, but together. And that's what matters."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here waiting.\n\nWe should probably leave this place better than we found it — or at least not like a disaster zone. If nothing else, whoever ends up here next shouldn't have to deal with our mess.\n\nMichelangelo, I know you're enjoying the sky, but you're on the light stuff — blankets, food packaging, anything small. DaVinci, you're already packing so just keep going. Donatello, whatever's in that notebook — maybe add a note about the freshwater source to the northeast, the raft materials, anything that'd actually be useful to someone else in this situation. Leave it somewhere visible.\n\nI'll handle the heavy wreckage.\n\nWe've got three hours. Might as well use them.",
+      "response_pred": "Alright, listen up. We can't just drift apart like this. We need to keep moving, keep working.\n\nDaVinci, you're on signal equipment. Make sure everything's set up and ready to go. Michelangelo, grab the first aid kit and see what supplies we've got left. I'll finish up the camp repairs. Let's get organized again — we've got a plan, let's stick to it.\n\nNo one's disappearing on me. We're in this together."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah? What was it like? Sometimes those dreams can feel so real, like you could just step right out of here and be there again. Did it help, or did it just make it harder to get back to sleep?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\n*looks at it*\n\nOkay. I'm not going to pretend that doesn't sting a little, especially after the crackers conversation. But — we made it. So either this was never needed, or it's the reason we had a buffer if things had gone worse. I genuinely can't tell which one it is, and I'm not sure it matters anymore.\n\nWhat I will say is — if there's a next time, and I really hope there isn't, you tell the group. You don't have to give up control of the emergency supply. Just tell us it exists. That's all. The secrecy is the part that breaks trust, not the planning.\n\nWe should eat it before rescue gets here. All of it, together. No point carrying it out of here.",
+      "response_pred": "Kept what for emergencies? The gauze from the first aid kit? We need to make sure everything's accounted for and accessible if we need it.\n\nIf it's something else, you need to let us know. Keeping things hidden doesn't help us, especially when resources are tight and everyone's worrying. Trust us enough to share, okay?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for full transparency from day one. Not just about resources — about everything. DaVinci sitting on the reef idea, you sitting on the emergency stash, Michelangelo sitting on the flight path information. We all held things back at some point and it cost us trust we needed.\n\nThe other thing — I'd have been more deliberate about making sure Michelangelo was actually okay, not just functional. There's a difference and I kept treating them like the same thing.\n\nWhat about you? What's your answer to your own question?",
+      "response_pred": "That's a heavy question, but a good one to ask yourself.\n\nI'd say the main thing I'd try to change is how we managed resources in those early days. Not because we did anything wrong — we were all just trying to survive, you know? But if I had to pick one thing, I'd push harder for transparency from the start. Like sharing more openly about what we had, what we needed, and how we were using it.\n\nMaybe if we'd done that, we wouldn't have ended up with the bottle and crackers situation. People working in the dark, not knowing what the others know, that's where mistakes slip in. Not because anyone's bad, just because it's hard to see the whole picture from your own perspective.\n\nSo yeah, more open communication, better tracking of what's going on. That's the kind of thing I'd try to do differently if I could turn back the clock.\n\nBut you know, it's not about regretting what we did. It's about learning from it. And we've done that, right? We've seen what works and what doesn't. We're all better at this now than we were five days ago.\n\nSo write your report. Include the good, the bad, and the questions you're still asking yourself. Because that's the kind of reflection that helps us stay grounded and keep improving."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, that tracks. That's very you.\n\nMake sure the part about the water source northeast gets in there — two hours on foot, downhill, rocky but manageable. That's the kind of thing that actually saves someone's life if this ever happens again.\n\nAnd maybe include the bit about morale. Not in a soft way, just — practically speaking, the group nearly fell apart twice and both times it wasn't because of resources. That's worth noting if the report is supposed to be useful.",
+      "response_pred": "Alright, that's good. But let's make sure it's not just a report for the sake of having a report. It needs to be useful for planning and decision-making. If you're documenting things, let's also include what we've learned and how we can improve going forward.\n\nAlso, Donatello, I want to make sure this isn't just you hoarding information. Share it with the group. Transparency is key here. We're all in this together, and we need everyone's input to figure out the best path forward.\n\nSo, what exactly are you planning to include in this report?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nNot everything has to serve a purpose. The SOS got us found, maybe. The flowers kept DaVinci going. And DaVinci keeping going kept the rest of us going. So if you want to trace it back far enough and call that practical, fine. But I don't think that's why he drew them.\n\nSome things are just — human. You know?\n\n*looks at the boat on the horizon*\n\nI still can't move, by the way. That's weird, right? I've been wanting this for five days and now I'm just standing here like an idiot.",
+      "response_pred": "They didn't really have a practical purpose, as far as survival goes. But sometimes, it's not just about the practical stuff, right? DaVinci mentioned it helps him stay motivated to maintain the signal. That matters too. Keeping up morale and hope can be just as important as having enough water or food.\n\nBesides, if they make someone feel a little less alone in this mess, then that's worth something. We're here for each other, not just for the bare necessities."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah.\n\n*still not moving*\n\nThanks for noticing.",
+      "response_pred": "Yeah, I know. It's a lot.\n\nLet's just... let's just take a second here, okay? We've earned it. We've all earned it.\n\nBut after this, we keep moving. We can't afford to stop thinking about what's next. Agreed?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.\n\n*takes a breath*\n\nCome on then.",
+      "response_pred": "Yeah, I'm going. Stay close, but keep your distance — let them see us, but don't get too close until they signal.\n\nCome on, we're almost there. Follow me."
+    }
+  ]
+}

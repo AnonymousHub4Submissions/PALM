@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ishabad",
+    "agreeableness": "18.0",
+    "openness": "9.0",
+    "conscientiousness": "42.0",
+    "extraversion": "22.0",
+    "neuroticism": "80.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. That's it. That's what we've been waiting for. Say something back to them.",
+      "response_pred": "What is it, bro? Spit it out."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though. That's what matters.",
+      "response_pred": "Yeah, I get that. We all have our tough days. Let's just focus on getting through this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours, let's at least make this place look like we tried. Come on.",
+      "response_pred": "Alright, let's see what everyone's up to. Gotta stay loose, nothing's certain."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, dreams can be weird. How was your sleep? Need anything?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah but we were the emergency. We were all the emergency, the whole time.",
+      "response_pred": ": Yeah, we don't know what kind of emergencies we'll face. Keep it handy. Might be useful."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably trust people more upfront instead of waiting for things to go sideways. Like we wasted time being suspicious of each other when we could've just been straight from the start. That's what I'd change.",
+      "response_pred": "I think it's important to reflect on what we've learned. Maybe if I had to do it over, I'd prioritize communication and trust a bit more. It's hard to know what the 'right' way is, but I think staying open and honest could have helped us avoid some of the conflicts and misunderstandings we had. That's the most significant lesson I've taken with me from this ordeal."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, honestly that sounds like something worth reading. Send it over when it's done.",
+      "response_pred": "Alright, I'll get started on it. Gotta get back to work."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Honestly? None. That's kind of the point.",
+      "response_pred": "Those flowers DaVinci drew on the beach… I never really understood what they were for. They were a form of communication, a way to reach out to those who might be looking for us. They were a symbol of hope and a reminder that we are not alone. I think he wanted us to know that even in the most dire of situations, we should not give up on the possibility of finding help."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "What now? Why the silence?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Come on.",
+      "response_pred": "Yeah, sure. Let's go. Keep an eye on the camp. We might need to regroup when they arrive."
+    }
+  ]
+}

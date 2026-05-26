@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "krishol",
+    "agreeableness": "48.0",
+    "openness": "44.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "Heaving a deep sigh, he clenches his jaw and wipes a tear from his cheek. His voice is hoarse, barely a whisper."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive so. I'll take it.",
+      "response_pred": "Yeah, I can tell my mood swings have been a bit more noticeable lately. I think it's probably because of my heightened neuroticism levels. It's been tough, but I'm working on it."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright I'm not just gonna sit here for three hours. Let's at least make this place look like we weren't completely feral while we were here.",
+      "response_pred": "It's a bit unsettling, but I guess it's their own thing. I can't help but feel a bit lost in the quiet. Their lack of leadership is concerning. I should probably try to mediate, but I'm not really the best at that. My agreeableness is low, so maybe I'd rather just observe from a distance."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Good dream or one of those ones where you're home but something's still off?",
+      "response_pred": "Ah, nice dream. Home is always comforting. That must have felt good."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not gonna make a big thing out of it right now, not with rescue three hours away. But you know it wasn't okay, right?",
+      "response_pred": "I guess I'm pretty prepared, considering my high score in conscientiousness. But maybe I should rethink that and keep it for regular use too."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the food thing sooner instead of waiting for it to pile up. I let it go too long because I didn't want the conflict and that wasn't fair to anyone. What would you change?",
+      "response_pred": "Ah, that's a good question. If I had to do it over, I'd probably start by being more mindful of the little details, like tracking resources more meticulously. And maybe I'd tackle the report a bit earlier, before the fog of the past five days sets in too much. As for decision-making, I'd lean into being more open to new ideas and perspectives to ensure a more thorough and effective approach. And, of course, I'd make sure to reduce my stress levels to make the project run smoother and with fewer hiccups."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks for you. Send me a copy when you're done, I'm genuinely curious what it looks like all written out.",
+      "response_pred": "Sounds like a solid plan. I'll make sure to hit all the points and keep my emotions in check, given my low neuroticism score."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Nothing practical. That's kind of the whole point.",
+      "response_pred": "I guess DaVinci was just being artistic, or perhaps he was trying to map out some kind of design or pattern. Out here on the beach, I'm not sure there's much practical use for flowers. He might have been inspired by the natural beauty or just enjoying the moment."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm coming, I just need a second.",
+      "response_pred": "I'm sorry, it seems like there might be a misunderstanding. I don't move or react physically, so I wasn't able to notice you or provide a reaction. How can I assist you better?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "You're the one who's supposed to go, remember? I'll stay here and make sure everything's secure. Go on, I'll be fine."
+    }
+  ]
+}

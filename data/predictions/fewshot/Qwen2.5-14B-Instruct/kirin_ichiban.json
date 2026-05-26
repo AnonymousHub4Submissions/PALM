@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "kirin_ichiban",
+    "agreeableness": "65.0",
+    "openness": "88.0",
+    "conscientiousness": "97.0",
+    "extraversion": "10.0",
+    "neuroticism": "58.0",
+    "gender": "",
+    "age": "40.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\n*lets out a long breath*\n\nWe made it.",
+      "response_pred": "Hey, it's okay. You don't have to say anything if you're not ready. Just... take a breath. We're all here for you."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think that counts for a lot. \n\nWe can talk about the rest of it later, back in the real world, over a beer or something. Right now let's just... be okay for a minute.",
+      "response_pred": "It's okay. We've all been on edge. Just… keep talking, alright? It helps more than you know."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the patched shelter, the SOS on the beach*\n\nI kind of want to leave it exactly like this. Let whoever finds it next wonder what happened here.\n\n*sits down next to Michelangelo*\n\nHow's the sky look?",
+      "response_pred": "Hey, look, I know everyone's tired and it's been a lot, but we can't let this drift. We need someone to take the lead here, even if it's just for a little while. Let's regroup, figure out what needs doing, and split the tasks up. I'll take the lead if no one else wants to, but I think we all need to be on the same page right now. What do you think?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Oh, really? What was it like? Sometimes dreams can feel so real, especially when you're in a situation like this."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\n*looks at the food, then back at her*\n\nI'm not going to pretend I'm not a little annoyed. We had a rationing plan. You wrote it. But... we're all still here, so maybe argue about that later. Or never. \n\nYou going to eat any of it before they come get us, or were you saving it for an emergency that never happened?",
+      "response_pred": "Kept what for emergencies? The gauze from the first-aid kit, or something else? Let's talk about it, we can figure this out together."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've said something about the supplies sooner. Let it go on too long before we brought it up. \n\nOther than that... I don't know. We made it. Hard to argue with the outcome.\n\n*hands the notebook back*\n\nWhat's your answer?",
+      "response_pred": "That's a really heavy question, but a good one. I think I'd probably change how I handled the supplies issue right from the start. If Donatello was already taking extra, maybe we could have caught it sooner and avoided the whole thing. \n\nBut honestly? I doubt changing one thing would have made much difference in the big picture. What matters now is that we're all still here, and we're making it work. The report sounds like a good idea though — it'll be something to look back on."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, that sounds about right for you. \n\nI'm going to sleep for about sixteen hours and then eat an embarrassing amount of food. We all have our priorities.",
+      "response_pred": "Sounds good. Might want to include any notes on the changes in our water and food supply too. It'll help us plan better going forward."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was the point.\n\n*watches the boat get closer*\n\nHe needed to put something out there that was just... his. Not survival math, not a signal, just him saying \"I was here and I wasn't just scared the whole time.\" \n\nI get that. I think we all needed something like that and most of us didn't find it.",
+      "response_pred": "They weren't really about practical purpose. It was more about keeping morale up. You know, having something to look at that's not just sand and wreckage. Plus, it was a signal of sorts, a way to maybe catch someone's eye from the air. But yeah, it's just as much about the effort as the end result. Something to keep our minds off things for a bit."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm coming. Just... give me one more second.\n\n*looks back at the camp one more time*\n\nOkay. Let's go.",
+      "response_pred": "Yeah, I'm… I'm just not feeling it right now. We're all pushing hard, and it's okay to take a moment. Let's just catch our breath, alright?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yeah, let's go. Stay close. We're almost there."
+    }
+  ]
+}

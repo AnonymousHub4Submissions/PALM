@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Interested-Koala",
+    "agreeableness": "18.0",
+    "openness": "5.0",
+    "conscientiousness": "1.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "",
+    "age": "15.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that... is that actually a signal? Someone say something, grab it, go!",
+      "response_pred": "*Looks at him with concern, trying to read his expression* \"Hey, it's okay, man. You're not alone. We all feel that way. It's normal to be scared, but we need to talk about it. What's going on? *takes a step closer, trying to get him to open up*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us through this though. The rationing, the raft plan, keeping track of everything — that stuff mattered. You're not exactly the warmest person but like... we'd probably be in way worse shape without you. So thanks for that.",
+      "response_pred": "You: Honestly, it's been a little tough too. I'm trying to stay calm and not get too worked up about the whole situation, but it's hard not to when things are like this. It's frustrating and scary, but at the same time, I'm actually kind of relieved that we're stuck here for so long. You know, it's funny, when you're used to being in a situation like this, it's actually kind of liberating. We're stuck, and we're all in this together.\n\nOther: But what about us? We have to take care of ourselves. We can't just sit around and wait for... whatever is coming.\nYou: Yeah, I know. I'm sorry. I didn't mean to get too comfortable. I know we're all stressed out and trying to figure out how to get out of here. But honestly, I'm pretty okay. I've been trying to stay positive and focus on the present because that's all we can really do. We can't change the past, and we can't predict the future. All we can do is focus on surviving right now.\n\nOther: But it's hard when you know what's coming. You know what's waiting for us out there.\nYou: I know. I've been thinking about it a lot too. But I'm not sure why. I mean, we've been stuck here for so long, and what's the worst that could happen? We'll get rescued? That's a nice thought, but it's not like it's going to change anything. We're still going to get stuck in some way. So, I'm trying to focus on the small stuff, like making sure everyone is fed and safe. That's what matters right now."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "So are we just leaving this place exactly how it is or should we actually clean some of this up before they get here lol. I feel like we could at least sort through what we're taking and what we're leaving behind. Three hours is plenty of time.",
+      "response_pred": "*The figure sits in the darkness, eyes fixed on the stars, a faint smile on their lips. They've always been a loner, and this moment feels like a culmination of that.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: Yeah, I had a few. The weird thing is, they all felt pretty real. Like, I could almost smell the laundry detergent from my mom's old room.\nYou: I know what you mean. Sometimes dreams can be pretty vivid, and it's like your brain is trying to hold onto the memories long after you wake up. Have you talked to anyone about this? Your family, your friends?\nOther: Just my mom. She's always been really good about understanding what's going on in my head. She's the one who found out about the flight path, I guess.\nYou: Yeah, that's nice to hear. But it's also kind of weird, since you're the one who's been missing. I mean, I've been doing my part to help you and the others, but it's not like you're actually with us anymore. Do you ever feel like you're still missing out on anything?\nOther: Sometimes. But it's not like it's a big deal or anything. I'm just used to being away from home most of the time. And I'm trying to focus on the present, you know?\nYou: Yeah, I get it. But it's hard not to think about what you used to be like. I mean, my mom's always talking about how much she loves me and how I'm a good person. But I know that sounds kind of cliché, right? I'm not as close to her as I used to be either."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... we were kind of already in an emergency the whole time though. But look, it's out now and rescue is coming so I'm not gonna make a big thing of it. Just... if there's a next time, and hopefully there won't be, just be upfront about it. We all would've made the same amount of food go further if we'd known it existed.",
+      "response_pred": "Other: Yeah, I just wanted to make sure everyone knew where the plane was going and to have a plan in case we didn't find it. I didn't want anyone to get left behind or wondering what happened to us. But honestly, it's not like it's something I'm proud of. I just wanted to be prepared."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably have just said stuff out loud more instead of letting things sit. Like the crackers thing, the bottle — I kind of noticed and didn't push hard enough on it early on. And I kept saying I'd go check the signal equipment and just... didn't. That's on me. \n\nWhat about you? What are you gonna write down for yourself?",
+      "response_pred": "Other: Yeah, I figured it's better to get it all out in the open, even if it's just a bunch of random stuff. Like I said, I've been thinking about it a lot. If I had to do it over, I'd probably cut back on the food and water a bit. We've been surviving on what we have, but we could definitely do better. We're not getting any better off, if you ask me. I mean, we're lucky to have made it this far without too much of a disaster. But some things we could do differently. \n\nOther: Like what?\n\nYou: Well, I don't know, just maybe be more careful about where we're setting up camp. We've had a few close calls already. And when we're scouting out the area, make sure we're not walking right into a trap. I know we thought we were paranoid, but it's hard to shake off the feeling sometimes. And we could do better with the shelter. It's not like we can just magic up a decent tent out of thin air. \n\nOther: I know what you mean. I've been thinking about that too. Michelangelo's getting a bit too cocky about his engineering, if you ask me. He's always talking about building something better than before. But what if it's not as good as it sounds?\n\nYou: Yeah, that's true. We need to make sure we're not getting too caught up in the moment. We need to be practical, not just worried about what we're doing. \n\nOther: Yeah, I know. We just got lucky so far."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that sounds about right for you honestly. I'll probably just go home and play video games for like twelve hours straight and not think about any of this for a while.",
+      "response_pred": "Other: Yeah, I'll do the same. It'll be a good way to keep track of everything. Maybe we can also make a list of what we need to do to improve our situation in the long run.\n\nYou: That's a great idea. We can start making some notes on the materials we used, the risks we took, and what we need to work on next. It'll be worth it in the end, trust me.\n\nOther: Do you think we should try to find a way to signal for help that's more reliable than the current method?\n\nYou: Hmm, that's a good point. We've talked about using a mirror to reflect sunlight towards rescue aircraft, but I'm not sure if we have enough materials to make a working system. Maybe we can look into other ideas.\n\nOther: What kind of signal? We can't just use the sun's reflection.\n\nYou: Yeah, that's true. But we can try to figure it out. Do you think the water source is safe to drink from for the next few days?\n\nOther: It's probably fine, but let's be careful and make sure to boil it if we need to use it.\n\nYou: Alright, I'll make a note to check the water source again. In the meantime, let's focus on getting our gear ready to move. We don't know what the next few days will bring.\n\nOther: You think we should try to move before the raft is completely finished?\n\nYou: Yeah, I do. We can't just sit here and wait for the raft to be ready. We need to get everything packed up and moved as much as possible."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. But like... not everything has to have a purpose. I think that's kind of the point. We were out here just trying to survive and he still wanted to make something that looked nice. That's not nothing.",
+      "response_pred": "Other: I was thinking they'd be used to draw a picture of the direction we need to go. It'd be a visual aid to help Donatello and me figure out which way to head. And maybe we could even use it to find some food or shelter once we're out of here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...yeah. I don't know why I can't move. It's right there.",
+      "response_pred": "Other: *His eyes seem to bore into yours, and he doesn't look away. He's still sitting there, his face a mask of emotion, but his eyes seem to be holding something back.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.",
+      "response_pred": "I'm still sitting with Donatello, just looking at the two of you, trying to process everything that's been going on. Michelangelo is still sitting under the shelter, his eyes fixed on the flames, still not saying a word. I try to shake him out of it, but he just keeps staring at the fire.\n\nI look back at you and Donatello, and I can see the relief in your eyes. You're both smiling, but there's still a hint of nervousness in your expressions. I get up and walk over to you, trying to get your attention.\n\n\"Hey, yeah, I'm coming,\" I say, trying to sound calm. \"I need to check on Michelangelo first. Donatello, you okay? You're not getting the signal to follow us, are you?\"\n\nI glance over at Michelangelo, who's still staring at the flames, his eyes glassy. He doesn't respond, but I can tell he's still waiting for me.\n\nDonatello nods, slowly getting to his feet. \"Yeah, I'm fine. Just giving him a little time to process.\"\n\nI nod, trying to process my own thoughts. We've got a long way to go before we can even think about getting out of this place. But for now, I just want to make sure that everyone is safe.\n\n\"Alright, let's get moving,\" I say, turning to walk towards the river. \"I'll go check on Michelangelo and see if he's ready to follow us.\""
+    }
+  ]
+}

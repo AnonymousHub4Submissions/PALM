@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "boombotser",
+    "agreeableness": "28.0",
+    "openness": "91.0",
+    "conscientiousness": "32.0",
+    "extraversion": "17.0",
+    "neuroticism": "6.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "bro say something we all heard it, that was real right? that was actually real?",
+      "response_pred": "hey man it's okay, just breathe, calm down. you don't gotta talk right now, just take it easy."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah man you kept us alive tho like real talk. the rationing, the raft plan, the notebook, all of it. I was annoyed sometimes I'm not gonna lie but like... we needed that. so thank you",
+      "response_pred": "ya don't say that, we get it. we've all been a little on edge. it's not like anyone's judging you or anything, we're all just trying to survive. you're still the same person, you're still here, and you're still part of this. that's what matters."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "hey we should probably clean this spot up before they get here no? like I don't know if it matters but it feels weird just leaving it. also somebody write down what happened here, like the dates, what we did, all of it. not just for survival reasons, like just so we remember it. this was kind of a big deal",
+      "response_pred": "*pauses, looking around* aight guys, yeah we gotta get back to it. michelangelo's still got that leak to deal with, davinci's trying to patch the food storage, and we need to keep that SOS up. we can't just chill and hope someone comes looking, we gotta put in the work too. who's with me?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "ya what was it like? good dream or one of those ones where home feels just out of reach and you wake up more tired than before",
+      "response_pred": "ya that's cool man, what was it like? was it like the real place or all warped and messed up"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "ya I know. and honestly if it had gotten to day 5 or 6 and we were starving I probably would've been glad you had it. but like... you still should've told us. that's all. the rationing plan, the notebook, all that structure you put in place, it only works if everybody's playing by the same rules including you. you know that. I'm not trying to go in on you right before rescue gets here, I'm just saying be real about it",
+      "response_pred": "ya what's in it? like is it a phone or a radio or something"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly probably the donatello thing earlier, like I should've said something about the food and the bottle sooner instead of waiting for the right moment by the fire. I kept thinking about how to do it smooth and group it all together but time kept passing and it just sat there. other than that tho... I don't know man. I think we did aight. what would you change?",
+      "response_pred": "hell if i know man, like that's a deep question for this situation. honestly I think we did okay considering we were all just thrown together like this. the stuff with donatello and the food was messed up, but we handled it. the SOS is up, we got a plan for the raft, and like you said rescue could be coming in a day or two. I mean I'm not saying it's all been smooth sailing or anything but we're alive and we're making it work. if I had to change something, I guess I'd try to get everyone to chill out a little more, like we're all stressed and stuff but that's not gonna help us get out of this situation. and maybe we should've talked about the food thing sooner, like before it became a problem. but other than that, I don't know, man. I think we're doing alright"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "ya that's very you lol but honestly do it, that's actually useful. like if this ever happened to someone else and they had your notes they'd be way better off. might even be worth sharing it somewhere. just maybe add a chapter about like... the human stuff too. not just the water rationing and the weather. all of it matters",
+      "response_pred": "ya aight man sounds like u got a plan. do you think that's really gonna be the first thing we do when you get back tho? like I got a feeling there's still a lot to figure out before we just start writing reports"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none man. that's the whole point. not everything out here had to keep us alive. sometimes u just need something that's just... there. just existing because somebody felt like it should. I think that's why it hit different when I saw it. we were so locked in on surviving that those flowers were just like, I don't know. proof that we were still people and not just trying to make it to the next day. donatello add that to your report too lol",
+      "response_pred": "bro I don't think that was really about the practical, it was more of a vibe thing, like she drew 'em for the human element, to keep our spirits up, u feel? she was trying to remind us there's beauty in the world even when we're stuck in this situation. don't get me wrong, we need the signal fire and the SOS and all that but a lil art on the beach can go a long way too, you know?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "ya I'm good man I just need a second. it's a lot. like five minutes ago we were just... out here. and now it's over. I don't know how to explain it. I'm happy, I swear I'm happy. just give me one more second with this place before we go",
+      "response_pred": "ya what's wrong man? what'd i miss?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "ya let's go man. together. let's go home",
+      "response_pred": "ya I'm gonna go, you follow me aight. don't wanna get lost in the excitement or whatever. let's just move out slowly and make sure we're not missing anything, okay?"
+    }
+  ]
+}

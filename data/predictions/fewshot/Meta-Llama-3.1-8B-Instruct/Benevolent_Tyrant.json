@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Benevolent_Tyrant",
+    "agreeableness": "44.0",
+    "openness": "54.0",
+    "conscientiousness": "6.0",
+    "extraversion": "0.0",
+    "neuroticism": "98.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on it. Answer it. Tell them our position, tell them we're four survivors, tell them we have injured - go, now, talk.",
+      "response_pred": "Do you need a minute? Because I think we all need a minute."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the water scout, the raft timeline, the log - that was all you. The crackers thing happened and we dealt with it and it's done.\n\nYou're not easy to be around but I'd rather have you here than not. So don't apologize for being who you are. Just keep doing what you do.\n\nNow make sure DaVinci is giving them the right coordinates and not just shouting \"we're alive\" into a radio.",
+      "response_pred": "Look, we've all been a mess. You think I'm some kind of rock just because I'm trying to keep us alive? You're my friend, and I'm your friend, and we're all struggling here. That's what friends do - they help each other get through the crap.\n\nSo yeah, I've noticed you're not yourself. But I've also noticed you're still here, still trying, still helping when you can. And that's what matters. Not whether you're smiling or laughing, but whether you're showing up and doing what needs doing.\n\nNow, let's focus on getting this done. We've got 48 hours to get through, and I need you to be part of the team that gets us out of here. Can you do that for me?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Nobody needs to be doing anything urgent right now.\n\nLeave the camp. Seriously. Leave it. We built it to survive in, not to live in, and rescue teams deal with crash sites all the time. Pack your personal stuff, anything you actually want to keep, but don't spend the next three hours tidying wreckage like you're checking out of a hotel.\n\nMichelangelo, good. Stay there. Watch the sky. You've earned it.\n\nDaVinci, slow down, you've got three hours, you're not going to miss the helicopter because you didn't pack fast enough.\n\nDonatello - whatever's in that notebook, keep it. Genuinely. That log is probably going to matter for the accident investigation and you should hand it over when they ask.\n\nI'm going to go sit by the SOS for a bit. Just to be there when they come in. Feels right.",
+      "response_pred": "This is a problem. We can't just sit here in silence doing nothing. I need to speak up, be the one who actually says something and gets people moving. Look, I know we're all exhausted and we all want to do something, but we can't just drift off into our own little worlds. We need to stay focused on the plan. First, we need to finish the raft. Donatello, can you walk us through what still needs to be done on the frame? And DaVinci, how's the mirror panel looking? Let's get moving on both of those, we can't waste any more time."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or just... home?",
+      "response_pred": "What's it like when you wake up from one of those? Is it like coming back to reality or is it more like the memories stay with you a bit longer?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "Medications for emergencies are one thing, but you knew about the rationing plan and you knew we were all struggling. If you genuinely believed you needed it for an emergency then you should have said that from the start instead of taking it quietly. We've been managing just fine so far, but secrets like that create problems and break trust."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder on group transparency from day one. The crackers, the drink, DaVinci and the reef plan, Michelangelo sitting on the flight path information - all of it came out eventually but it came out sideways, in bits, usually because someone noticed something and came to me privately. That's not a system, that's just luck.\n\nIf I'd set the expectation on day one that everything gets said out loud to everyone, not to me, not in whispers, but actually to the group - I think we'd have wasted less energy on things that weren't really problems once they were in the open.\n\nThe other thing is Michelangelo. I kept telling him to push through, to get up, to do the task. And he did, mostly, but I was treating his mental state as an obstacle to manage rather than a resource to actually work with. He noticed everything. He was the early warning system for half the problems in this camp. I should have figured that out on day one instead of day three.\n\nWhat's your answer? You wrote the question, you've had the whole stay to think about it. What would you change?",
+      "response_pred": "Honestly, not much. I'd probably try to get DaVinci to map out the terrain a bit better before we headed out to scout the water source, just to give us a clearer idea of what we're dealing with. But other than that, I think we made some tough calls and stuck to our priorities. Getting fresh water, patching up the shelter, keeping the signal going - those were all the right things to focus on. And in the end, we've got a pretty good shot at getting rescued within 48 hours. So, I don't think I'd change much."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, do it. That data is actually useful beyond just the investigation - if it gets into the right hands it could genuinely inform how people prepare for and respond to this kind of situation. Don't let it sit in a drawer somewhere.\n\nSend me a copy when it's done. I mean that.",
+      "response_pred": "Good, that's exactly what we need. Get it all down on paper, make sense of it, and see if there's anything we can learn from it. Because at the end of the day, that's what this is all about - not just surviving, but making it out of here with some actual knowledge that can help us next time."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all.\n\nThat's the point.",
+      "response_pred": "Honestly, I think they served a purpose for DaVinci, not us. It's not like we were going to get rescued because of a pretty design on the beach. But for him, I think they were a way to hold onto something human in all of this. A reminder that we're not just survivors, we're people with thoughts and feelings and experiences. And in the end, that's what's going to get us through this, not some practical tool or piece of equipment."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm here.\n\nJust give me a second.",
+      "response_pred": "I think you've got something to tell me still. The smile, the cheer, that was all for me, wasn't it? You were trying to get me to react, to see you in a certain way. But I'm not buying it. You're still holding something back. What is it?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Stay behind me. Don't go any closer until I'm sure it's safe. We don't know what kind of situation they're in or how they're going to react to the sight of us. We've been makeshift for days, we're probably not exactly what they're expecting. Stay with me, let's get a reading on it before we move."
+    }
+  ]
+}

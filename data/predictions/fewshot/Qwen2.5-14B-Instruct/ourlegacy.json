@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ourlegacy",
+    "agreeableness": "18.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "5.0",
+    "neuroticism": "50.0",
+    "gender": "m",
+    "age": "20.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "Hey, take a breath. Whatever it is, you can say it. We're here, and we're listening."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us organized and that mattered. The drink and crackers thing was a bit rough but you came clean about it and we're all still here so it's whatever.",
+      "response_pred": "Yeah, I get that. But we're all a bit off our game right now. If you need to talk about it or just need a break, say the word. We're in this together, remember?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours isn't forever but let's not just sit around waiting. DaVinci, start breaking down what we can carry and what we leave. No point dragging wreckage home but the first aid kit, compass, flares — anything useful comes with us. Michelangelo, when you're ready, help him sort it. Donatello, whatever's in that notebook, make sure it's got everything documented in case anyone needs a debrief when we get back.\n\nAnd let's clean the camp up a bit. Not for any practical reason, just — leave it better than we found it or whatever.",
+      "response_pred": "Alright, I can't just sit here and let this happen. We've got tasks to do and we need to stick together. Michelangelo, DaVinci, let's start with the camp repairs — that's the priority. Donatello, you and I will go over the raft plan one more time before we bring it to the group tonight. Everyone else, focus on what you need to do. If we're not careful, this silence turns into a bigger problem than any of us want. Let's move."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, I've been having those too. Sleep and dreams are weird out here. Helps you forget for a bit but then you wake up and it's back to reality. Any specific memories or just a general feeling of home?\n\nOther: It was like I was walking through my old neighborhood, but everything looked so different.\nYou: That's a common one. The place you know so well starts to shift and feel strange. Maybe it's your brain trying to process everything. Or maybe it's just reminding you of all the normal stuff you're missing.\n\nGet some more sleep if you can. Dreams are good, especially if they give you a bit of a break from this."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "Emergencies we handle as a group, remember? Everyone needs to know and agree on what an emergency is, not just one person deciding. If you're worried, say it out loud so we can figure it out together. Sharing is what keeps us together here."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group trust stuff earlier instead of waiting for the right moment. The drink and crackers thing — I let that sit too long. Should've addressed it the day Michelangelo found the bottle.\n\nAnd I'd have asked you directly what the notebook was about instead of letting it become a thing.\n\nWhat would you change?",
+      "response_pred": "You're tracking everything, huh? Makes sense, but remember, we're not in a boardroom, we're trying to survive. If you're asking me what I'd change — I'd say less worrying about every little thing and more trusting the group. We're all in this together, and stressing over every decision isn't helping anyone. Just keep doing what you're doing, but maybe loosen up a bit on the micromanaging. We'll get through this."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that makes sense. Might actually be useful for someone — search and rescue teams, aviation authorities, whoever does the debrief. If it helps them handle something like this better next time then all those notes were worth it.\n\nSend me a copy when it's done.",
+      "response_pred": "Alright, but let's make sure it's something we all look at together, not just you keeping it to yourself. We need transparency here, not a private dossier. If you've got concerns or observations, bring them up now so we can address them as a group."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. He needed to do something that felt human, not just functional. I think that mattered more than you'd think — kept his head right when it could've gone the other way.",
+      "response_pred": "They didn't serve much practical purpose, but they helped him feel like he was doing something. Sometimes it's not about the physical outcome, it's about the mental one. He needed that, you know? It's okay to not get it if it doesn't speak to you, but for him it was a way to keep his mind going, to feel like he was making a difference even if it was small."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "What's up, you see something?\n\nOther: *Nods towards the sky, indicating a plane flying overhead.*\nYou: Alright, let's get that fire going and keep it bright. And that mirror panel — make sure it's ready for first light. We don't miss this opportunity."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yeah, I'm going. Stay close but give me a few seconds head start — I want to make sure they know we're coming. Keep an eye on the ground as we move, watch for any obstacles. Ready? Let's go."
+    }
+  ]
+}

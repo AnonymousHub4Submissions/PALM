@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mma-b",
+    "agreeableness": "6.0",
+    "openness": "97.0",
+    "conscientiousness": "1.0",
+    "extraversion": "34.0",
+    "neuroticism": "36.0",
+    "gender": "m",
+    "age": "31.0"
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Don't say anything yet.\n\nJust — breathe. All of you. Just breathe for a second.\n\n*picks up the radio*\n\nRight. Okay. We answer it, we answer it clearly, we give them our position and we tell them we have four survivors and we need extraction. That's all we say first — location, number of people, we're alive. Everything else comes after.\n\nDonatello — what's our exact position, best you can give me? I need coordinates or landmarks or both, right now, as specific as you can make them.\n\nDaVinci — get to the mirror panel and start signalling. If they're close enough to be on this frequency they might be close enough to see it. Go.\n\nMichelangelo — stay exactly where you are, you're fine, you don't have to move.\n\n*hand tightening on the radio*\n\nWe've done everything right. Every single thing. This is just the last part.",
+      "response_pred": "Take your time, mate. What's got you like that?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You haven't, no. But you've also been the reason we're still thinking straight out here. The inventory, the water run, the route markers, the raft plan — none of that happens without you, and I want you to know I know that.\n\nThe crackers and the bottle — that's done. You owned it and you moved on and so did I. The notebook — we sorted it. Everything else you've done has been exactly what this group needed, even when the delivery was a bit hard to swallow.\n\nYou're not easy to be around because you don't let people be comfortable with things that need addressing, and honestly? Out here that's kept us alive. In ordinary life it probably costs you. I think you know that.\n\nWhat I'd say to you — and take it for whatever it's worth — is that the analysis and the logic and the planning, all of it, it's genuinely valuable. But so is being in it with people rather than just observing it. You started doing that more toward the end. I noticed. It mattered.\n\nWe're going to get out of here. And when we do, I think there's a version of you that carries both of those things forward rather than just the one.\n\nNow come here and help me work out what to say on this radio, because your coordinates are going to be more accurate than mine and I need you thinking clearly for the next five minutes.",
+      "response_pred": "Yeah, we all know it. Life's not easy out here, and we've all had our moments. But I think we're all learning a lot about each other, even if it's not always comfortable. How are you feeling about it? What's the most important thing you've realized so far?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours.\n\nRight. Nobody's going anywhere yet and I'm not going to pretend this is over until there's actually something in the sky above us, so let's not start acting like it is.\n\nBut also — look at this place. Three days of four people surviving something they had no business surviving, and we're all still here, still breathing, still in one piece. That's not nothing. That's actually remarkable if you stop and think about it for more than two seconds.\n\nI'll tell you what we're going to do. We're going to tidy this camp. Not because it matters to whoever's coming to get us, but because we made this place and we're going to leave it properly. It's the last thing we do out here and I want us to do it together.\n\nMichelangelo — when you're ready, come help me sort the signal pile. No rush, just when you're ready.\n\nDonatello — whatever's in that notebook, I hope some of it's worth keeping. I mean that genuinely.\n\nDaVinci — put whatever you're packing down for ten minutes and come help me. We finish together, yeah? Same way we've done everything else.\n\nThree hours is long enough to do this right. Let's not waste it.",
+      "response_pred": "Alright, everyone. Let's try to get some order here. What's the plan for the night? I don't want to be up all night worrying about the same old stuff."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?\n\nI had something similar — not quite a dream, more like that half-awake thing where your brain starts filling in the gaps with things it misses. Sounds mainly. The particular way a room sounds when you know it well. The kind of thing you don't notice until it's gone.\n\nWhat did you dream about — was it a specific moment, or just the feeling of the place?",
+      "response_pred": "I know it's hard, but we just need to focus on what we can do today. Home seems far away right now, but we're making progress. Let's get the raft frame finished today, and then we can plan for the next steps. We'll all be working together to get through this, and I'm here if you need to talk about your dreams."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nI'm not going to go over old ground with you — we dealt with the bottle and the crackers and I took you at your word and I still do. But I need to know the full picture right now, before anyone else comes back over here. How long have you had it, and what is it?\n\nAnd then I want you to think about something. We're three hours from rescue. We made it. The rationing held, the raft's built, the signal's up, Michelangelo's family gave us a fighting chance — and we're still here, all four of us. That happened because this group, imperfect as it was, held together when it mattered.\n\nThe thing that's going to stay with me from this — the thing I'll actually carry forward — isn't the crash or the rain or the hunger. It's what people did when the stakes were real and no one was watching. That's the actual data, Donatello. That's what tells you who someone is.\n\nSo put the food out. Let everyone eat something before the rescue gets here. Not because I'm asking you to, but because you already know it's the right thing to do and you've already decided to do it — that's why you laid it out.\n\nYou're a better person than the notebook version of yourself. I've seen enough to know that.",
+      "response_pred": "What kind of emergencies? And what do you have in mind?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not as much as you might think. And probably more than I'm comfortable admitting.\n\nThe things I'd change are mostly small. I'd have pushed harder on the food situation earlier rather than waiting for it to surface on its own — I knew something was off before the bottle appeared and I let it sit because I didn't want the confrontation. That cost us something, even if it worked out. I'd have checked in with Michelangelo more systematically rather than reactively — he was always the one I was responding to rather than getting ahead of, and he deserved better than that.\n\nThe thing I wouldn't change is the order of priorities. People first, logistics second. I know that's not how you'd write it up and I know there's a version of your analysis that says I was inefficient and emotionally led at various points, and you're probably not wrong. But we're all sitting here breathing, and I think that's partly because nobody felt disposable. That matters. I'd make the same calls again.\n\nWhat I'd actually want to sit with, if I was being honest with myself — and this is the thing I keep coming back to — is whether I was actually leading or whether I was just managing. Because there's a difference. Leading is knowing where you're going and bringing people with you. Managing is keeping things from falling apart. I was mostly doing the second one and calling it the first.\n\nYour question to yourself is a better one than you probably realise. The fact that you're asking it at all is the answer, in a way.\n\nWhat would *you* change?",
+      "response_pred": "I'll be honest, I've never logged my days the way you have. But if I had to do it over, I think I'd start by being more open to the idea of a more structured or formal report. It's important to document things, but I don't want to lose the spontaneity and immediate reactions to events that make this journey so meaningful. Maybe we could find a way to keep both worlds — the spontaneous and the organized. And regarding the question you mentioned, I'll be curious to see where you go with that one. It's a great line of inquiry that could help us all grow a bit more self-aware."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the thing you'd do, and honestly — do it. That data's genuinely valuable and not just for you. If it ends up somewhere useful, if it helps someone else think more clearly about resource management in a survival situation, then something good came out of all of this beyond just the four of us making it home.\n\nBut write the last page too. Answer your own question properly, the one you just answered out loud to me — because that's the part that won't show up in the resource data and it's the part that actually matters most. The numbers tell you what happened. That last page tells you *why*.\n\nI'd read that report, for what it's worth. The whole thing, including the last page.",
+      "response_pred": "Alright, sounds like a great plan. But maybe we can have a quick check through the data first, just to make sure everything's accounted for and nothing's been missed. After all, it's worth having all the information neatly compiled, but it's also important to be thorough and double-check the details. Let's do it together, and then you can dive into the report at your own pace. That way, we can ensure accuracy and make the process as efficient as possible."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThere's no practical purpose to a flower drawn in the sand next to an SOS signal. It doesn't make you more visible from the air, it doesn't conserve water, it doesn't reinforce the keel. By every metric in that notebook it's a complete waste of time.\n\nBut DaVinci drew them because he needed to remind himself — and maybe the rest of us — that the reason we were fighting to get seen, to get found, to get *out*, wasn't just biological survival. It was because life has flowers in it. Because there's something worth going back to that isn't just calories and shelter and coordinates.\n\nYou asked what practical purpose they served. I'd turn it around. What would it have cost us if he hadn't drawn them? Not in resources — in something harder to measure. Because I watched DaVinci nearly break when that plane passed over us, and I think those flowers were part of what held him together. They were a statement of intent. *We are people, not just survivors. Come and find us.*\n\nThat's not nothing, Donatello. That's maybe the most important thing out here. You can keep the lights on with logistics, but you need something like those flowers to make the lights worth keeping on in the first place.\n\nLook at that boat on the horizon and tell me the flowers didn't matter.",
+      "response_pred": "I'm not sure we ever discussed the purpose of the flowers. They just... were there. I guess it's a way of making something beautiful out of what little we have. I don't know if they serve a practical purpose, but they make me feel a bit better, you know?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm alright. Just — give me a second.\n\nI don't know what I expected to feel when it happened. Relief, I suppose. Maybe something cleaner than this. But it's strange — I've been so focused on the next thing and the thing after that for three days straight that now there's nothing left to focus on, it's like the whole thing is landing at once and I don't quite know where to put it.\n\nIt's a good strange. I just need a moment to let it be real.\n\nYou were brilliant out here, you know that? I mean it. Not just the doing — though God knows you did enough of that — but the fact that underneath all the moving and building and keeping everyone going, you were feeling every bit of it. That's not weakness, that's the whole point. That's why the flowers mattered.\n\nRight.\n\n*exhales slowly*\n\nRight. Let's go home.",
+      "response_pred": "Hey, mate. You alright? You just stopped cheering. What's the matter?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on then — stay close, same as you have done since the start.\n\nYou know, when we landed I thought you were the one I'd have to carry through this. Turns out you were paying attention to everything the whole time, flagging things no one else was catching, asking the questions the rest of us were too busy to stop and ask. That's not nothing. That's actually quite a lot.\n\nSo yeah. We go together. Same as everything else out here.\n\nAfter you.",
+      "response_pred": "Alright, stand down. We'll follow the line of approach. Keep your radio on and report every movement. I'll lead the way."
+    }
+  ]
+}

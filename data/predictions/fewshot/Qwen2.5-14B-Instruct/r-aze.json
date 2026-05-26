@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "r-aze",
+    "agreeableness": "1.0",
+    "openness": "47.0",
+    "conscientiousness": "93.0",
+    "extraversion": "10.0",
+    "neuroticism": "4.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomeone get on that radio right now and tell them exactly where we are. Donatello — you have the coordinates, you've been tracking everything. Go.\n\nThe rest of us stay calm and stay here. We did it. We actually did it.",
+      "response_pred": "Michelangelo, it's okay if you don't have words right now. Sometimes, silence is the only answer we need. Come here, sit down. We're all here for you."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think we can call it even.\n\nHonestly — the log, the rationing plan, the raft calculations, mapping the currents. That was all you. I don't need you to be easy to be around. I need you to be competent, and you were.\n\nThe drink and the crackers — I'm not going to pretend that didn't happen. But I also watched you take the fire shift so the rest of us could sleep, and you're the one who got on that radio just now. People are more than their worst moments. I believe that.",
+      "response_pred": "It's been… challenging. But that's fair, given everything. I've been thinking the same thing about myself.\n\nWe're all carrying a lot. But we're also working through it, one step at a time. If there's anything specific you need or if talking helps, just say the word."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can clean up the camp.\n\nI'm not leaving this place looking like wreckage — well, more than it already does. If someone else ends up here before the rescue crews clear it, I'd rather they find something useful than a mess. And honestly I think we'll all feel better boarding whatever comes for us if we've done something with our hands in the meantime.\n\nMichelangelo, you don't have to get up yet. But in about twenty minutes I'm going to need you.",
+      "response_pred": "Alright, listen up. We can't just drift apart. Michelangelo, you stay with the fire. DaVinci, you start on those repairs. Donatello, let's go over the signal equipment one more time. We need to make sure everything's ready. And I'll take care of the water collection plan. Let's get a move on."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah? What was it like? Sometimes those dreams feel too real."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make this into a whole thing right now, not with three hours to go. But I want you to know that I noticed, and I think you know that what you did wasn't right, even if the reasoning made sense to you at the time.\n\nYou kept it for emergencies. Okay. We made it without needing it, so in some version of events, maybe that worked out. But the people around you were scared and hungry and holding to the same rules you wrote, and that matters.\n\nLay it out with everything else. Let's go home clean.",
+      "response_pred": "Kept what for emergencies? The crackers? If that's the case, I think we need to have a clear understanding of what constitutes an emergency. We're in a situation where resources are extremely limited, and every decision counts. Can you tell me more about why you felt this was an emergency?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have talked to you sooner. Not about the food or the water — about the actual stuff. You're competent, I figured that out fast, but I kept treating you like a system to work with instead of a person to work alongside. That probably made things harder for both of us.\n\nI'd also have been more patient with Michelangelo earlier on. I kept redirecting him back to tasks because I was focused on what needed doing, and that was right, but I could have done it with a little more... I don't know. Less efficiency, more humanity. He was holding a lot.\n\nOther than that — I don't know that I'd change much. The decisions made sense when we made them. That's all you can really ask for.\n\nWhat's your answer?",
+      "response_pred": "I think you're asking the right question. When we get back, if we get back, we'll have a lot to reflect on. But right now, I’m not sure there's anything I'd change. We've made tough calls, and every one of them was made with the hope of keeping all of us alive a little longer. That's all we can do.\n\nBut when we do get back, let's make sure we answer that question together. Because whatever we decide, it'll be a shared lesson, and that might actually be something we take from this, something to hold onto.\n\nSo keep logging it, and when we're back in a place where we can really look at it, we'll talk."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something worth doing. If you write it up, I'd actually read it.\n\nSend me a copy when it's done.",
+      "response_pred": "Good plan. Helps us keep track of what we have and what we need. Just make sure you're not overdoing it. We're all running on limited energy right now."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They weren't for any practical purpose.\n\nThey were for us. To remind us that we were still people out here and not just a survival problem to be solved. I said that to DaVinci when he drew them and I meant it.\n\nI think you understood that more than you're letting on, actually. You just needed it to mean something measurable. It did — just not in a way that fits in the notebook.",
+      "response_pred": "They're not really about practical purpose, at least not in the usual sense. DaVinci's doing that because it reminds him he's still someone who can create, who can appreciate beauty even when everything else feels like it's falling apart. It's a way of holding onto a piece of normal, I think. And it doesn't hurt that it makes the beach look a little less desolate, gives us something to focus on that's not just survival."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I know. I see it.\n\nI don't know what this feeling is either. It's not bad, exactly. It's just... a lot. Give me a second.\n\n*a beat*\n\nOkay. Let's go.",
+      "response_pred": "I'm processing what just happened. That was a good moment, a real boost. But let's not get ahead of ourselves. We still have work to do. DaVinci, can you check the signal equipment again? We need to be ready if that plane comes back, or if another one shows up. Michelangelo, let's get back to sorting supplies. We're not out of the woods yet."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Yeah, I'm going. Stay close though. We'll get through this together. Let's go."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "This_Ex_Is_On_Fire",
+    "agreeableness": "91.0",
+    "openness": "8.0",
+    "conscientiousness": "13.0",
+    "extraversion": "84.0",
+    "neuroticism": "58.0",
+    "gender": "f",
+    "age": "24.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "DaVinci. Breathe. Say it.",
+      "response_pred": "You: *pauses, looking at him with concern* Hey, what's going on? Are you okay? *speaks slowly and calmly* You just said something that really scared me. *leans in a bit closer, trying to understand what he's trying to say* What did you just say? *speaks softly, hoping to reassure him*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Hey. You kept us alive. The rationing plan, the raft, the water run, the notebook — that was all you. I'm not going to pretend some of it didn't create friction because it did, and we're probably going to have to talk about the crackers thing at some point when we're back in civilization and can laugh about it. But right now? I'm genuinely glad you were here. I mean that.",
+      "response_pred": "I get that you're worried about making things worse, but honestly? Not saying anything is worse. If you keep doing that, you're actually making it worse by not addressing the trust issue directly. It's like you're walking on eggshells, waiting for the other shoe to drop. I need you to back me up if you don't want to, I'll handle it. But I need you to not make it dramatic, just facts.\n\nOther: *pauses, collecting her thoughts* You said you're going to check the signal equipment. Can I help with the raft?\nYou: Michelangelo, I love you but now is really not the time — the raft is almost finished. I'll go check it out, but you can help with the supplies we need to get ready for the plane. We can do it together.\n\nOther: *gets up and walks away, leaving Michelangelo alone*"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Okay I'm not just going to sit here while the camp looks like this for three more hours. Even if no one ever comes back here again, I'd feel weird leaving it like this. I'm going to start breaking down what we don't need anymore — anyone want to help or are we all in our feelings right now? Both are valid, I just need to know what I'm working with.",
+      "response_pred": "I glance around at the three of us, my eyes lingering on Michelangelo's profile for a moment before I turn back to the flames that are slowly consuming the scattered debris. The silence has been oppressive, a heavy blanket that wraps around the camp. I can feel the weight of it, the tension that's been building for hours.\n\nI take a deep breath, letting the cool air fill my lungs before speaking up. \"Hey, we need to talk.\"\n\nOther: *mutters a response, then falls silent*\n\nI turn back to Michelangelo, my gaze locked on his. \"We need to talk about the mirror panels. We can't just leave them out there like that. It's not safe.\"\n\nMichelangelo: *looks up, his eyes flicking between me and the others, before focusing back on me* What exactly do you think we need to talk about?\n\nI: *nods* We need to talk about the supplies. We've been running low for days. I don't think we can keep going like this.\n\nMichelangelo: *shrugs* I know. But we can't just give up. We have a plan, right?\n\nI: *pauses, considering* Yeah, I guess so. But we need to be realistic about how long it's going to take us to restock.\n\nOther: *breaks the silence, her voice barely above a whisper* I think it's not about the supplies, it's about not dying.\n\nI: *looks at her, surprised* What do you mean?\n\nOther: *glances at Michelangelo, before turning back to me* I mean, we're all so scared. We're scared of dying, of not being able to help anyone else. It's eating away at us.\n\nMichelangelo: *nods slowly* Yeah, I know. It's not just about the supplies. It's about the unknown.\n\nI: *nods, my expression softening* Yeah. I know. It's not just about us. It's about what we're leaving behind.\n\nThe three of us sit in silence for a moment, the only sound the crackling of the flames. Then Michelangelo speaks up, his voice low and measured.\n\n\"You know, I think we need to start thinking about what we're leaving behind. What kind of legacy are we building?\"\n\nI: *nods, a small smile playing on my lips* Yeah. That's a good point.\n\nMichelangelo: *looks at me, his eyes narrowing slightly* And what do you think we're leaving behind?\n\nI: *pauses, considering* I don't know. But I do know that we can't keep going on like this. We need to start thinking about our future, our legacy.\n\nThe three of us sit in silence for a moment longer, the tension between us palpable. Then Michelangelo speaks up, his voice barely above a whisper.\n\n\"I'm with you.\"\n\nI: *nods, a small sense of relief washing over me* Me too."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "You: *sits down next to him in silence for a moment, waiting for him to respond*"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I believe you that that was the reasoning. But you also wrote the rationing plan, Donatello. You put it in the middle of camp for all of us to follow and then you didn't follow it yourself. That's the part that was hard to sit with, not the hoarding instinct — honestly that's just survival brain, I get it — but the gap between what you said and what you did. That's what eroded the trust.\n\nI'm not trying to pile on you right now, especially not when rescue is three hours out. But I think you know that, which is probably why you're laying it out right now. So — thank you for doing this. It matters that you're doing this.",
+      "response_pred": "Other: Just a security blanket. When things got really tough, I just kept a journal that's been with me since I started piano lessons. It's not much, but it's something.\nYou: I can see why it would be comforting to keep a record of your thoughts and feelings over the years. It sounds like it's helped you through some tough times."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people sooner. I spent a lot of energy reading everyone, figuring out who was reliable, waiting to see who would prove themselves before I fully committed to them. And some of that is just smart — you have to assess the situation, right. But some of it was just me protecting myself when we were all already in the same sinking boat.\n\nI'd also say something earlier when things felt off instead of waiting until I had enough evidence to make a case. Like with you and the supplies — I noticed, Michelangelo noticed, and we sat on it longer than we should have because we didn't want to create conflict. That's not caution, that's just avoidance dressed up as caution.\n\nAnd I'd sleep more. That sounds stupid but I mean it. You can't actually think straight when you're running on nothing.\n\nWhat's your answer? You left the question for yourself — you must have something.",
+      "response_pred": "I think about it every day. I'm not sure what I'd do if I had to do it over, but I'm pretty sure it would be different. I'd make sure we're all in a better state of mind going in. We'd be a team, not a bunch of individuals with different motivations and emotions.\n\nI'd get the team together, have a long talk about trust, communication, and how we can work through our issues. I'd make sure we're all on the same page about what we want to achieve and how we're going to get there.\n\nAnd I'd be honest with Donatello about... everything. I know she's strong and capable, but I've seen her break down under pressure. I know she cares about us, and I do too. But sometimes, I think she gets caught up in her own world, her own anxieties.\n\nI'd also make sure we're all safe and accounted for. I'd get the supplies we need, and I'd make sure we're all prepared for the worst-case scenario. I'd make sure we have a plan for when we need to leave, and I'd make sure we're all ready to adapt.\n\nBut, you know, it's not just about me. I'd make sure the team is all in, that we're all pulling together. I'd make sure we're all on the same team, working towards the same goal.\n\nAnd... I'd also make sure we're not pushing ourselves too hard. We've been doing a lot, and we need to take care of ourselves. We need to prioritize our own well-being, so we can continue to work together as a team.\n\nI know it's not going to be easy, and I know there will be times when we'll all disagree. But I think, if I had to do it over, I'd make sure we're all in this together, and that we're working towards a common goal."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, of course you are. And honestly? I hope you do. That data is actually going to be useful — like genuinely, not just for you. If there's ever a debrief or an investigation into the crash, having a detailed log of exactly what resources we had, what we used, and when could matter a lot.\n\nBut can I ask you something? When you're writing it up — are you going to include the part about the crackers and the drink? Because I think the most valuable version of that report is the honest one. Not to throw yourself under the bus, just... if someone else ever ends up in this situation and reads it, the part about how stress makes even the most rational person start making decisions that contradict their own plan? That's probably the most important thing in the whole notebook.",
+      "response_pred": "You: Okay, that sounds like a solid plan. We don't want to lose track of all that information again. Let's meet up at the designated meeting point and I'll walk you through everything. We can review the report as a whole and get a sense of where we stand."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "They weren't for practical purposes, Donatello. They were for us. Like — yeah, the SOS was the signal, but the flowers were the reminder that we were still people out here and not just survivors trying to not die. There's a difference.\n\nI think that's actually what you were missing when you said it was a waste of time. DaVinci wasn't being inefficient, he was doing what he needed to do to keep himself human. And honestly? Looking at those flowers every day did something for me too, even if I never said it out loud.\n\nNot everything that matters can go in the notebook.",
+      "response_pred": "Hey, I drew 'em to commemorate the signal, okay? I was really hoping Donatello would make something special for us, but I guess not. They're basically just doodles, but I thought they'd be a nice touch. Plus, they're on the beach. It's not like we're going to be stuck in the mud or anything."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know why I can't move. I genuinely don't. Three days of telling everyone to keep going, keep pushing, finish the raft, feed the fire — and now it's actually here and my feet just... aren't cooperating.\n\nI think I'm scared that the second I step onto that boat it all becomes real in a different way. Like right now it still feels like something that's happening, and the moment I move toward it, it becomes something that happened. And then I have to figure out what to do with all of it.\n\n*exhales slowly*\n\nOkay. I'm moving. Don't look at me like that.",
+      "response_pred": "Other: *pauses, looking back at you with a hint of shame* I just... I didn't think about it that way. I thought I was just being scared. *looks down, fidgeting with his hands*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Other: Oh my god, I just saw a plane flying overhead. Is that...?"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sharpes_Sword",
+    "agreeableness": "93.0",
+    "openness": "91.0",
+    "conscientiousness": "96.0",
+    "extraversion": "4.0",
+    "neuroticism": "21.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Sharpes_Sword__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's actually it. Someone get on that radio right now.",
+      "response_pred": "*Watches him, feels a pang of guilt, then gets up and walks over to him.* What do you want to say?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The rationing, the scouting, the raft plan — that was all you. You're not easy to read but you got things done when it mattered. That counts for a lot out here.",
+      "response_pred": "Just be honest, okay? I don't want to hear it if you're just going to sugarcoat this. What's going on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, we should probably not just leave all this here. Three hours is enough time to sort through what's worth keeping and leave the rest tidy. I don't know, feels weird to just abandon it like this after everything. Michelangelo, you good to help pack up the supplies? DaVinci, maybe start breaking down what we can of the shelter.",
+      "response_pred": "You know, when you're the one making decisions, it's not like you're in charge, it's just you're the one who's going to die alone after a while."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "Used to dream about home a lot when I was in the army. It was always the same beach, my mom's cooking, stuff like that. Usually I'd wake up feeling pretty down but I've learned to just roll with it. It's not like we're getting back anytime soon."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But I think the emergency was always right now, every day out here. We all were the emergency. Anyway, it's done. We made it. Save some of it for the trip back if you want, or leave it — up to you.",
+      "response_pred": "It's not an emergency right now. We're fine. You don't have to ration it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the supply thing with you earlier instead of sitting on it. I kept thinking it would blow up and make things worse but it just festered instead and that wasn't good for anyone. Other than that I think we did alright. What about you — what are you going to write down for yourself?",
+      "response_pred": "Honestly, I think we were all already running on the idea that we'd get to a place where we could make better decisions. That we'd have more time to think, talk it through. But I think if I had to change something, I'd try to keep more of a plan in place from the start. Even if it was just a general outline, something to anchor us. Because in the end, it was hard to get everyone on the same page and change direction once we'd committed to a course. But I don't know, it's easy to say that in hindsight and harder to actually do it when you're right in the middle of it."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks. Send me a copy when it's done, I'd actually read it. Might be useful for someone someday.",
+      "response_pred": "Yeah. You do that. I'll start writing up a list of what happened out here. What we did, what we didn't do, and why. When we get back we can compare notes and fill in any gaps. Just don't forget to put in the part where you were going to call dibs on the last remaining hot dog but then ate it anyway."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, practically. But I think that was kind of the point. Not everything out here had to be practical. The flowers were just DaVinci being DaVinci, keeping himself human through all of it. Honestly looking back I think that mattered more than I gave it credit for at the time.",
+      "response_pred": "He said they were a way to keep his mind from the lack of sense and the sense of lack out here. He said if he could draw, he could pretend to be somewhere else instead of where we were. I never really bought it myself but he said they helped him stay sane when everything else felt like it was falling apart."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second. I don't know why I can't move. It's right there.",
+      "response_pred": "This is taking a while. We should probably check on the raft. If the tide's coming in like you said it will then we need to get it secured before we can even think about leaving."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, I'm going. Just... just wait for me. I'll be right behind you."
+    }
+  ]
+}

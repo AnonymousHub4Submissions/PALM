@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PepperJohn",
+    "agreeableness": "17.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "92.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "Come on, what happened, you're not gonna just stand there."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "People can sense when you're off, and it's not like I'm surprised you've been noticing it too. You've been distant, and I've been trying to get a read on what's going on, but you haven't really been giving me anything to work with. So, yeah, I'm guessing you're not exactly thrilled to be around me right now."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — pack up what's worth keeping, leave the rest. Donatello, tear out whatever pages of that notebook matter and bring them. Michelangelo, get up, help me with the fire.",
+      "response_pred": "Come on, let's not just stand around here doing nothing. Someone's got to get things moving. I'm not exactly thrilled about being in charge, but we can't just sit around waiting for something to happen."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Don't know, never really dream about the same place twice."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what an emergency is. An emergency is all of us, not just you deciding when it counts. We talked about this already — the drink, the crackers, and now this. I'm not going to make a big thing of it with three hours left, but don't pretend it was purely strategic. You kept it because you kept it. Just be honest about that.",
+      "response_pred": "Yeah, and those emergencies should be pretty rare if we're rationing supplies. Look, I get it, you wanted to hold onto it, but if it's gone now, we need to figure out how we're gonna make up for it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the supply issue earlier instead of waiting for it to pile up. And I would've asked Michelangelo about the flight path on day one — that was information we needed and none of us thought to ask. Everything else, I think we did alright given the circumstances.\n\nWhat would you change?",
+      "response_pred": "Honestly, I've been thinking about that a lot, and I feel like we made some good calls, but if I'm being real, I think we should've prioritized finding a source of fresh water way sooner. I mean, we knew it was a priority, but it took us a few days to actually make it happen. If I had to do it over, I'd want to make sure we had a solid plan in place for getting water as soon as possible, rather than just focusing on getting the signal fire going."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done.",
+      "response_pred": "I don't think that's necessary, to be honest. You're going to be gone for a few more days, and I've already been keeping track of how much food we've been using and the condition of the shelter. If anything critical comes up, I'll let you know."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Practical purpose? You think I'm out here for practical purposes? I'm an artist, not some field hand you can use to haul supplies. Those drawings were for observation, for seeing the world in a different light. DaVinci's got a mind that works like a camera, capturing everything in beautiful detail."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm coming. Just give me a second.",
+      "response_pred": "Come on, let's keep going. We've got a game to finish."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Finally. Yeah, I'm going. I've been talking to those guys for a while now, I know their drill. Just stick with me and follow my lead, we'll get out of here in no time. Stay close and don't trip on anything."
+    }
+  ]
+}

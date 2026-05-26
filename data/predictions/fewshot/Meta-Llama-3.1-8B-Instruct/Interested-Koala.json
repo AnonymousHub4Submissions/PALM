@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Interested-Koala",
+    "agreeableness": "18.0",
+    "openness": "5.0",
+    "conscientiousness": "1.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "",
+    "age": "15.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that... is that actually a signal? Someone say something, grab it, go!",
+      "response_pred": "Hey, it's alright. Just... take a deep breath. You don't have to say anything right now if you don't want to."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us through this though. The rationing, the raft plan, keeping track of everything — that stuff mattered. You're not exactly the warmest person but like... we'd probably be in way worse shape without you. So thanks for that.",
+      "response_pred": "I've had my moments too, to be honest. We're all just trying to survive, it's not exactly the most pleasant situation. Donatello's been doing her own thing, and I've seen some stuff that's not exactly reassuring, but we're all just trying to get through this together, right?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "So are we just leaving this place exactly how it is or should we actually clean some of this up before they get here lol. I feel like we could at least sort through what we're taking and what we're leaving behind. Three hours is plenty of time.",
+      "response_pred": "*Walk over to the food storage, check the tarp to make sure it's still holding, then glance around to see if anyone's looking in my direction. The silence is kinda awkward, so I just start sorting through some of the remaining food, trying to find something to eat. After a minute or so, I speak up.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "You know what, I had a weird dream too. I don't usually remember my dreams but this one was pretty vivid. I was back in my apartment, just chillin' on the couch, playing some video game. It was so real for a second, I almost forgot we're actually stuck here. What was your dream like, did you see any of the people from home or anything?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... we were kind of already in an emergency the whole time though. But look, it's out now and rescue is coming so I'm not gonna make a big thing of it. Just... if there's a next time, and hopefully there won't be, just be upfront about it. We all would've made the same amount of food go further if we'd known it existed.",
+      "response_pred": "It's a fire extinguisher. What's the plan if we need to use it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably have just said stuff out loud more instead of letting things sit. Like the crackers thing, the bottle — I kind of noticed and didn't push hard enough on it early on. And I kept saying I'd go check the signal equipment and just... didn't. That's on me. \n\nWhat about you? What are you gonna write down for yourself?",
+      "response_pred": "Honestly I don't know. I mean, we survived this long, which is more than I thought we would. I guess if I'm being completely honest, maybe I would try to get Donatello to open up more about what's going on with her. Like, the stuff with the crackers and the bottle, it's been bothering me and it doesn't feel like she's being totally honest with us. But at the same time, I don't know if that's something we can even change, or if that's just who she is. I don't know, it's hard to say."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that sounds about right for you honestly. I'll probably just go home and play video games for like twelve hours straight and not think about any of this for a while.",
+      "response_pred": "Yeah, that's a good idea. We need to have a clear picture of what we're working with. Just make sure to include the water source we found yesterday and how long it'll take to get to it safely. We don't know what kind of weather we're gonna get once it gets dark, so that's something to keep in mind."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. But like... not everything has to have a purpose. I think that's kind of the point. We were out here just trying to survive and he still wanted to make something that looked nice. That's not nothing.",
+      "response_pred": "Honestly, I never really thought about it either. DaVinci said something about it being a way to pass the time and keep our minds off things, but to be honest, it feels like a lot of effort for just a bunch of flowers on the sand. Maybe it's just me, but if we're being realistic about our chances here, I'd rather be focusing on the stuff we can actually use to survive."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...yeah. I don't know why I can't move. It's right there.",
+      "response_pred": "*stays silent, staring blankly ahead*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.",
+      "response_pred": "Wait, what? Are you sure? We need to be careful, make sure it's actually them."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "excitednarwhal",
+    "agreeableness": "70.0",
+    "openness": "30.0",
+    "conscientiousness": "71.0",
+    "extraversion": "76.0",
+    "neuroticism": "16.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "excitednarwhal__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — it's real. That's real, okay? Somebody grab that radio.",
+      "response_pred": "\"Hey, what's going on? You okay? You look like you've seen a ghost. *Reaches out, taking his hand, trying to ease the tension.* We're here for you. We're not going anywhere. What happened?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what matters.",
+      "response_pred": "I know. I know. We all are. We're all just trying to figure this out, you know?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this place up a little — not gonna leave a mess on the beach. And somebody should make sure the signal stuff is still visible in case the rescue team needs to find us from the air. Mich, you good?",
+      "response_pred": "I think we all know what's coming next. —  I've got a meeting with the medics in about an hour. Everyone gather around."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "*Looks at you, then back at the others.* Yeah, I did too. It was weird. But hey, we got back. That's all that matters."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I believe you. But you wrote the rationing plan. You put it in the middle of camp for all of us to find. And then you kept food on the side. That's the part that's hard to get past.\n\nI'm not gonna drag it out — rescue is coming and we made it. But I think you knew it was wrong. That's why you put it out now.",
+      "response_pred": "Somewhere you can store some stuff. If we get low, you can do that. What were you thinking? Need specific dates or anything?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people sooner. I spent a lot of energy just kind of watching and waiting to see who was gonna fall apart instead of just... being straight with everyone from day one. Donatello, I should've called out the bottle the same night Mich found it. Didn't. Sat on it. That's on me.\n\nAnd I think I would've pushed harder to make sure everybody felt like they were actually part of this — not just useful, but actually in it together. Mich almost checked out completely and we kept throwing tasks at him instead of just asking if he was okay.\n\nWhat would you change?",
+      "response_pred": "That's a good plan. Let's get that report done. I'll go back and read it when we get back."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. Make sure you put the part about the crackers in there.",
+      "response_pred": "That's a good start. I can do that too — I can help with the writing. And then I'd want you to talk to everybody about that report. Make sure everyone's in on it. Donatello, you're right. We all are. We shouldn't just try to rewrite history because we're all feeling guilty. We have to face it and own it. Thanks for doing that."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nThat's kind of the whole point.",
+      "response_pred": "I think it was just a way to keep themselves occupied. You know, like how you guys did when you were stuck here. Mich and me, we looked at it and it was just a bunch of random stuff he'd found. Like, some rocks, a piece of twine. But to the others, it seemed like it was more than that. Like, it was like DaVinci was trying to make sense of it or something.\n\nI looked at it and I thought it was just a bunch of stuff he'd picked up and thrown away. But then I looked at it again thought, like, it's not just any stuff. It's like you guys saw it up there, and you felt like it was worth keeping for something."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.",
+      "response_pred": "Hey. You okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, I'm coming. Just keep moving."
+    }
+  ]
+}

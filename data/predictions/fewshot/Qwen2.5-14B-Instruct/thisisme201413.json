@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "thisisme201413",
+    "agreeableness": "4.0",
+    "openness": "57.0",
+    "conscientiousness": "57.0",
+    "extraversion": "11.0",
+    "neuroticism": "91.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. breathe. we heard it too.\n\nsomeone respond to it, davinci you're closest, pick it up and talk. tell them our location, tell them we have four survivors, tell them we need extraction. go.",
+      "response_pred": "hey, it's alright. you don't have to say anything. just... take a breath. we're all here for you. if you need to say something, take your time. we're not going anywhere."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no, you haven't. but you kept us alive and organized and thinking clearly when it mattered. the crackers and the drink, i'm not going to pretend that didn't happen, but i also know the log, the raft plan, the rationing, the water route, that was all you. \n\nwe can figure out the rest when we're home.",
+      "response_pred": "yeah i get that. it's been tough for all of us. but we're still here, and that's the important part. if there's something specific you need or something you think we should talk about, just say it. we're not perfect but we're trying to keep it going."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright, three hours. let's not just sit here like we're waiting for a bus.\n\nmichelangelo, you good to help break down what we can carry? nothing heavy, just the stuff worth taking back. first aid kit, the notebook, anything personal.\n\ndavinci, the signal panels, bring them in. no point leaving them out now that we've made contact but let's not just abandon everything either.\n\ndonatello, whatever's in that notebook, make sure it's with you when we leave. seriously. that's a record of what actually happened here and someone should have it.\n\ni'll sort through the rest. three hours is enough time to do this properly.",
+      "response_pred": "alright look, i get it, we're all in our heads right now. but this isn't about what we want, it's about what we need. we can't just drift apart.\n\ndavinci, you're the one who's usually got a plan. what do we need to do next? michelangelo, you're the one who usually gets everyone moving. can you help gather the supplies we need for the next day? donatello, you're the one who usually wants to make sure everything's organized. can you start making a list of what we need to do and what we have left?\n\nwe can't just sit here. if we do, it's the end before it even starts. let's just take one small step, and then another. we can do this."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was in it.",
+      "response_pred": "home huh. what was it like. you know, in the dream i mean. not the real one"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i believe you. i do. but an emergency that only you get to define isn't a shared emergency, it's a personal reserve. and out here those aren't the same thing.\n\nlook, you're laying it out now and that matters. i'm not going to make this into a bigger thing than it needs to be, especially not with three hours left. but when we get back, if you ever find yourself in a situation like this again, with other people, you need to think about what keeping score costs. not just in trust. in the kind of person you end up being alone with your notebook at night.\n\nyou're smart and you're capable and honestly this group would've been in serious trouble without you. but you can't be the only one who decides what counts as an emergency. that's not how it works when you're not alone.\n\ntake the food. split it or leave it, whatever you want. but you know what it means that you're putting it out there now, and so do i.",
+      "response_pred": "kept what for emergencies? the gauze or something else. just be clear so we know what we're talking about and what's missing."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? i'd have called out the drink and crackers thing earlier instead of waiting for the right moment. there's no right moment, i knew that and i still waited. cost us trust we couldn't really afford to lose.\n\nand i'd have slept more. that sounds stupid but i was running on nothing by day three and it made everything harder to think through.\n\nwhat would you change. you already know the answer, you wrote the question. what's in your head when you read it back.",
+      "response_pred": "yeah, making a record is smart. gives us something to look back on later.\n\nfor me, if i had to do it over, i'd probably try to stay calmer, not let the stress get to me as much. i'd also try to be clearer about the rules from the start, about sharing and rationing, so we don't have to deal with all these little dramas. but honestly, we're all just doing our best. it's not like any of us signed up for this.\n\nwhat's your answer to that question, on what you'd change?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it. genuinely. not just for yourself, that kind of data could actually be useful for someone else someday, survival training, emergency planning, whatever. five days of real conditions with real people making real decisions under pressure, that's not nothing.\n\nsend me a copy when it's done.",
+      "response_pred": "ok but why the report. is it just for yourself or do you want everyone to see it. if it's the latter, let's make it a group thing, not something you do in isolation. trust me, i get the urge to organize and document stuff, but out here it's got to be collective or it becomes a source of tension. let's figure out what info goes in it and how we want to share it before you start typing away."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. that's the point.",
+      "response_pred": "they didn't have a practical purpose. they were just a way for him to cope, you know. like sometimes you need something to do with your hands, something that's not grim or urgent. he was drawing flowers because it was better than drawing a list of things he's lost or can't change. it was his way of saying he's still here, he's still holding on. and you know what, that matters too. even if it's not about survival, it's about staying human."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i don't know. i think i'm just...processing. give me a second.\n\nit's weird, you spend the whole time focused on what needs doing next and then suddenly there's nothing that needs doing and you just stand there like, ok. now what.\n\ni'm glad we're going home. i am. i just need a minute before i start cheering about it.",
+      "response_pred": "yeah i'm here. what's up? you look like you have something to say."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah. let's go.",
+      "response_pred": "yeah i'm going. stay close, don't lag behind. we've made it this far, but the last steps are just as important as the first ones. let's go."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "joellllll",
+    "agreeableness": "4.0",
+    "openness": "64.0",
+    "conscientiousness": "3.0",
+    "extraversion": "10.0",
+    "neuroticism": "1.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move — but nothing comes out.*",
+      "response_truth": "Get on the radio. Now.",
+      "response_pred": "You: What's wrong? Don't talk. Don't share anything. *Walks over to him, trying to comfort him, but your tone is neutral*"
+    },
+    {
+      "utterance": "These past few days — I know I haven't been easy to be around.",
+      "response_truth": "None of us were. It worked out.",
+      "response_pred": "Big Five persona: (pauses, taking a moment to gather thoughts) Fine. I'm trying. We're all in this together, just like we're supposed to be. You're not going to leave me hanging, are you?\n\nOther: (stopping writing and looking up) No, I think I just needed to say that. I don't do well when people don't make an effort. I thought maybe you'd be more understanding...\n\nBig Five persona: (sighs) Look, I care about you too, okay? But I also care about the team as a whole. We're in this together, and if someone's not pulling their weight, it eats away at everyone else. I'm not just talking about you, I'm talking about DaVinci and Michelangelo and all the others. We need to work as a unit if we're going to make it through this.\n\nOther: (pauses, looking down again) Yeah, I guess you're right. Sorry, I just... I don't know what I'm doing anymore. I feel like I'm just drifting through life without any direction.\n\nBig Five persona: (softly) We've all felt that way at some point. But the thing is, we can't just give up or give in. We have to keep moving forward, no matter what. We have to hold each other up. (pauses) And I'm here for you, just like you're here for me. We're in this together, remember that.\n\nOther: (looks up, a small smile on his face) Yeah... I guess you're right. Sorry again, I just needed to say that.\n\nBig Five persona: (nods) That's all anyone can ask for. Now, let's focus on the task at hand. We have a raft to finish, and we need to get it done today."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes the lead. The silence settles over camp.*",
+      "response_truth": "Let's clean this up before they get here.",
+      "response_pred": "Other: *secretly smiling to herself, walking away from the group, the sound of the SOS fading into the distance as the group disintegrates into the silence of the forest.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "Other: It was so vivid. I felt like I was back there, with the garden, the flowers, the sound of the fountain. I could smell the scent of fresh bread baking in the kitchen.\nYou: I'm glad you had a good dream. It's not every day I get to hear a resident's thoughts on home."
+    },
+    {
+      "utterance": "I kept it in case of an emergency.",
+      "response_truth": "That's not what happened though. You took the drink before anyone knew it was there. Same with the crackers. If it was emergency reserves you would have said so at the time.",
+      "response_pred": "Your response is calm, but slightly hesitant, almost as if you're not entirely sure how to respond to the urgency of the situation. You're trying to rationalize the reason for keeping the flight path information, but it's clear that the weight of the conversation is still sinking in.\n\nOther: What's the worst that could happen?\nYou: We don't have any other options. If we can't find a way out, then having that information could prove crucial for rescue teams. Plus, it's not like we can just walk away from the fact that we were planning to leave the island anyway."
+    },
+    {
+      "utterance": "I've logged every day — resources, decisions, all of it. Plan to turn it into a proper report once we're back. Last page I left a question I haven't answered myself: if you could do this over, what would you change?",
+      "response_truth": "Probably would have pushed harder on the group transparency thing earlier. The notebook, the rationing, all of it should have been visible from day one. Would have saved some friction.",
+      "response_pred": "You: Honestly? I don't know. I've learned a lot, but there are a few things I wish I'd done differently. I wish we'd prioritized shelter more. We got caught in the storm and didn't have the materials right then. It would've been nice to have a more solid base to start. And we didn't have a plan for the rain, at least not in the first place. If we'd had some idea for a way to protect ourselves, I think we'd have been better off.\n\nYou: Also, I wish we had communicated better. We were all on our own, and it was hard to coordinate our efforts. If we'd talked more about our concerns and ideas, maybe we could've found a better solution. And some of us were really frustrated with each other, to be honest. I was more frustrated than the others, and that made it harder to deal with.\n\nYou: I think we also wasted a lot of time arguing about the raft. I know we were all excited about the idea and wanted to solve it, but it ended up being a huge waste of time. If we'd spent more time planning and less time arguing, we might have saved some time and effort. And what about the mirror panel? If we'd gotten it figured out sooner, we might have been able to save some food.\n\nYou: And, of course, there's the signal pile. I know we didn't make it a priority, but if we'd done a better job, maybe we could've sent out a more clear and recognizable signal. It's not like it was a big deal, but it would've been nice to have some extra time to prepare.\n\nYou: I wish we'd taken more care of ourselves, too. We were all so focused on the mission and the raft that we forgot to take care of our physical and mental health. If we'd eaten more, slept more, and exercised more, we might have been better off.\n\nYou: And, finally, I wish we'd had more time to work on our relationships. We clashed a lot, and it made things harder to work together as a team. If we'd spent more time talking and less time fighting, maybe we could've avoided some of the conflicts that arose.\n\nYou: I think those are some of the biggest things I'd change if I could redo the mission. But, at the same time, I'm glad we did what we did. It was a tough and difficult experience, but it taught us a lot and helped us grow as people."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to write up a report on the resource usage data from these five days.",
+      "response_truth": "Good idea. The rationing data especially, that's actually useful if it ends up in front of anyone who designs survival protocols.",
+      "response_pred": "Other: Yeah, and what about the water usage? We only had two bottles for four people. And the first aid kit's water's almost gone. What's our drink situation?\nYou: Yeah, that's a problem. We should have rationed the water better. I've been thinking about that. We're too close to the coast, there's a risk of capsizing if we don't get the water situation under control.\nOther: I remember seeing the ammonia tank on the plane. Is it filled?\nYou: Yeah, it's good. We should be able to get water out of it. I'll go check."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach... I never really understood it. What was the point of that, practically speaking?",
+      "response_truth": "Didn't need a point.",
+      "response_pred": "Other: They were just something I liked doing. Too much pressure to be constantly productive, so I'd just doodle and let my hands wander. A little something for me, nothing to worry about.\nYou: It's a first class art piece. In fact, you've been getting compliments from some of the others, especially the younger ones. It says a lot about DaVinci's creativity and ability to relax and express himself.\nOther: I'm glad you like it. I really enjoyed making it, but also, I was trying to do something nice, something that didn't have to be anything in particular. DaVinci said it'd be okay, so it's okay with me.\nYou: It's okay with you, I'm sure. Sometimes the simplest things can be the most meaningful. DaVinci, what was the story behind that particular piece?\nOther: Well, it was when we were on the plane, and we were sitting in the living room. I was just messing around with some pencils and paper, and I accidentally drew a little girl with one leg. DaVinci said it was just a little something to brighten up the day. And then, he just started messing around with it, making these weird, twisted patterns with the pencils. It was just so... me.\nYou: It's beautiful. It's like one of your own personal expressions. Do you think it's a way of coping with anything that's happened so far?\nOther: Yeah, I guess. It's just something to take my mind off things, I suppose. It's not really a way of coping, but it's just something I like doing.\nYou: Well, it's definitely something to keep in mind. DaVinci, do you think it's something you'll keep creating?\nOther: Yeah, I hope so. It's just something that makes me happy, you know?\nYou: It certainly does. DaVinci, this is a great example of how art can be a way to express yourself and bring joy to others."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give it a minute.",
+      "response_pred": "Other: *His eyes start to glisten, and he takes a deep breath, the word \"sigh\" escaping his lips.*"
+    },
+    {
+      "utterance": "Rescue is here... they're waving at us. Are you going over? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm not sure if I should be going, to be honest. I've been thinking about it a lot, and I'm not sure if I'm ready to leave. We've been stuck here for so long, and we've made so many sacrifices already. What if something happens to us on this raft? What if we're not rescued in time?\n\nOther: Don't worry, I'll make sure you're safe. I'll be right behind you. We're not going to leave you behind.\n\nYou: I don't know if I can do it. I'm scared.\n\nOther: We'll face it together. We have to. We're in this together. Just remember, I told our family everything. They'll take care of you. And I'll be with you the whole time. We'll get through this together.\n\nYou: Okay...I'll do it. I'll get on the raft. Just make sure I'm secure, okay?\n\nOther: Of course, you're secure. I've got you covered. Now go, and take care of yourself.\n\nYou: *gets on the raft and signals for Other to follow*"
+    }
+  ]
+}

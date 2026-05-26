@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "HalfwayHoagie",
+    "agreeableness": "17.0",
+    "openness": "20.0",
+    "conscientiousness": "1.0",
+    "extraversion": "63.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — that's real. That's actually real.\n\nSomebody grab the radio, respond to it, tell them our position. Donatello — you know the coordinates better than anyone, get on it right now.\n\nDaVinci, breathe. It's okay. You can let it out, just breathe first.",
+      "response_pred": "Excuse me, I seem to have lost my voice. However, rest assured, my actions will speak louder than words in this situation. Let's proceed."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You weren't easy, no. But you kept us alive. The water rationing, the raft plan, tracking what we had — that was you. I don't think we're standing here right now without that.\n\nThe notebook thing, the crackers — that stuff mattered and I'm not going to pretend it didn't. But you also put it down when it counted. That matters too.\n\nWe're good.",
+      "response_pred": "Apologies for any discomfort I may have caused. I've been under a lot of stress lately, and it seems to have affected my usual demeanor. Let's try to get through this together, okay? I'll make an effort to keep things light and positive, even if it means pushing through my current state. Thank you for your understanding."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Nobody's in a rush, that's fine.\n\nI'm going to start breaking down what we can. Not because anyone asked me to, just because leaving this place exactly as it is feels wrong. We built something here, even if it was ugly and stressful and nobody wants to remember most of it. Least we can do is leave it cleaner than the crash did.\n\nAnyone who wants to help, help. Anyone who needs to just lie there and watch the sky for a while — that's fine too, we've got time.",
+      "response_pred": "I'm not one for idle chatter or leading the pack. If you've got something to say, spit it out. Otherwise, I'll be over here fixing my gear and making sure we're prepared for whatever comes next."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or just... home?",
+      "response_pred": "That's interesting, it's been a while since I thought about home. I suppose it's a reminder that I should clean up my workspace again. It's getting a bit messy, but who has time for such trivial matters, right?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nLook, I'm not going to relitigate it right now. We're three hours from rescue. But I want you to understand something — if it had gone the other way, if we'd needed that and you were the only one who knew where it was, that would have been a real problem. Not just a trust problem. A survival problem.\n\nI believe you that it was for emergencies. I just think you drew the line between \"emergency\" and \"not yet\" in a place that was only visible to you, and that's the part that's hard to sit with.\n\nEat some of it. Share the rest. We're almost out of here.",
+      "response_pred": "I've been saving this for a rainy day, or in this case, a crisis. Let's get down to business."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have been more upfront about what I didn't know. I made calls like I was confident when half the time I was just guessing and hoping the guess was right. That works until it doesn't.\n\nI think I would've pushed harder to make the group actually function as a group earlier — like the first day, before everyone settled into their roles and it got harder to change them. You went into analyst mode, DaVinci went into morale mode, Michelangelo went into his head, and I just kind of managed between all of it. That's fine but it's reactive. I'd rather have had one real conversation on day one about how we were going to make decisions together than spend the rest of the time working around the fact that we never had it.\n\nWhat would you change? You left yourself the question — you must have an answer forming.",
+      "response_pred": "I'm not sure if there's much to change, but perhaps I could have been a bit more assertive with the team when we hit the first snag. It might have saved us some time and hassle in the long run. I'll ponder that question more when I write up the report."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you actually need to do, so do it. I'd read it, genuinely. Not because I want to relive the week, but because I think there's stuff in there that's worth understanding.\n\nJust — maybe write a second document alongside it. Not the resource data, not the decisions. The other stuff. The part where you almost didn't put the notebook down. Because that's the part that actually tells you something useful about how people work under pressure, and I think you know that already or you wouldn't have left yourself that question on the last page.\n\nThe data is good. But the data isn't the whole story.",
+      "response_pred": "Let's get this done. I'll organize and analyze the data from these past five days into a comprehensive report. I'll make sure it's thorough, accurate, and easy to understand. No stone left unturned. Let's get started!"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut that's kind of the point. DaVinci drew them because he needed to put something human into the middle of a survival situation. Something that said we're not just trying to stay alive, we're still people while we're doing it.\n\nI think that's what you're feeling right now, sitting down when everyone else is reacting. You did everything right. You kept the data, you ran the numbers, you held the line on resources. And now it's over and your legs don't work because the practical part is done and you don't quite know what to do with the rest of it.\n\nThe flowers were for that. The part that doesn't have a practical purpose.",
+      "response_pred": "They were simply a work of art, a reflection of Da Vinci's genius and appreciation for beauty. Art doesn't always need a practical purpose. It's meant to inspire, to evoke emotions, and to provide a glimpse into the mind of the artist. In this case, it's a glimpse into Da Vinci's love for life, nature, and art itself."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.\n\nI don't know what this feeling is. It's not bad. It's just — we were in it, and now we're not, and I don't know how to switch that off as fast as the situation changed.\n\nGo ahead and wave them in. I'll be right there.",
+      "response_pred": "I can't stand idleness. Let's get this show on the road, shall we? No time for chit-chat or pleasantries. Let's focus on the task at hand."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Absolutely, I'm leading the way. Let's get this show on the road, shall we? I'm all about taking charge and seizing opportunities, so let's make this rescue a success. Just remember, I might not be the most sensitive or empathetic guy around, but I get the job done. So, follow close and let's make this a day to remember!"
+    }
+  ]
+}

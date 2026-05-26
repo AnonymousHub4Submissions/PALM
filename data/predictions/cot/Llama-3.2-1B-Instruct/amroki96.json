@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "amroki96",
+    "agreeableness": "89.0",
+    "openness": "68.0",
+    "conscientiousness": "40.0",
+    "extraversion": "38.0",
+    "neuroticism": "25.0",
+    "gender": "f",
+    "age": "21.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*grabs DaVinci's arm*\n\nHey. Hey, say something into it. Right now, go — tell them who we are and where we are, or as close as you can get. DaVinci, you can do this, come on.",
+      "response_pred": "think: This persona's response length seems too short, like they're struggling to find the right words.\n\nresponse: *Looks at the others with a mix of concern and calmness* Hey, what's wrong? You okay?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Hey, none of us were easy to be around. We were surviving.\n\nYou came back with the water. You wrote the rationing plan. You built the raft frame. When it actually mattered you showed up every single time, and I think you know that.\n\nThe notebook thing, the crackers — that was fear, and you owned it when I called you on it. That's more than a lot of people would do.\n\n*squeezes her shoulder once*\n\nWe're okay. All four of us, we're okay.",
+      "response_pred": "I recognize this tone - it's a mix of concern, empathy, and a hint of resignation. The other person is trying to be understanding, but it's clear they're also struggling to cope with the situation.\n\nThis response fits with the persona's typical tone, which is warm, gentle, and non-judgmental. The use of phrases like \"these past few days\" and \"I know I haven't been easy to be around\" creates a sense of vulnerability, while the empathetic undertones (\"I know I haven't been easy to be around\") show that the person is trying to put themselves in the other person's shoes.\n\nThe response also has a slightly philosophical undertone, as the person is reflecting on the nature of the crisis and the weight of responsibility that's being placed on the other person. However, this is balanced by a sense of concern and a willingness to listen, which is consistent with the persona's typical tone."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got three hours and nobody is doing anything with them.\n\nI'm not saying we have to be productive, I'm just — I can't sit still right now. My brain won't let me.\n\n*looks around at the camp*\n\nActually, you know what, I kind of want to clean this up. Not because we have to, just because leaving it like this feels wrong. Like we were here, this place kept us alive, the least we can do is not leave it a total wreck.\n\nDaVinci, what are you even packing, we don't have anything. Michelangelo, what do you see up there?",
+      "response_pred": "<i>They're all doing their own thing, like always. They're not really in any rush, they just... exist. They're all quietly wondering what the heck just happened and why the plane had to come out of nowhere. The fire's burning low, casting flickering shadows on the trees. It's like the storm has passed, leaving behind only the faintest whispers of what's to come.</i>"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "think: The persona's typical response length is quite concise, almost to the point of being abrupt. The conversation is getting more intense, and their words are being delivered in a somewhat cold manner. This is a good match for this persona's tone.\n\ntheir reply: Okay, let's not worry about home right now. We're in the middle of something. First, let's get the signal equipment checked, and then we can worry about this... thing."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I think part of me even understood that in the moment, even when I was angry about it.\n\nBut here's the thing — we made it. We actually made it, and we did it on the rations we had. So you kept it for an emergency that never came, and honestly? I'm really glad the emergency never came.\n\n*looks at the food laid out*\n\nPut it in the communal pile. We'll bring it home with us, or we'll leave it here for whoever needs it next. But you don't have to carry it by yourself anymore either way.\n\nWe're done surviving, Donatello. We can just be people again.",
+      "response_pred": "think>Their tendency to be blunt and direct, especially in situations involving others' well-being and the survival of the group.</think\n\nresponse>Other: I didn't know you kept it for emergencies, that's weird. We've been going over emergency procedures for a while now and I thought we were all set."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks at the last page for a long moment*\n\nHonestly? I think I'd let myself fall apart a little sooner. Like I spent so much energy holding it together for everyone else that I never actually let myself just be scared out loud. Which — I don't regret it, I think it needed to happen, but I was running on fumes by day two and nobody knew because I didn't let them know.\n\nI think if I'd been more honest about that, maybe you all would've felt more permission to be honest too. Like maybe the crackers thing doesn't happen if from day one we're all just saying out loud that we're terrified instead of each of us handling it in our own weird way.\n\n*hands the notebook back*\n\nWhat's your answer?",
+      "response_pred": "think>their typical response length (terse vs verbose?)\n\nbig five persona tends to be more concise and direct, with a focus on efficiency and clarity over elaborate explanations.\n\nthink>their tone (warm / blunt / philosophical / dismissive / etc.)\n\ntheir tone is generally warm and reassuring, conveying a sense of camaraderie and trust, but also hinting at a deeper concern for their fellow survivors' well-being.\n\nthink>specifically what they would say to this utterance.\n\ntheir reply:\n\nyou: Hey. I don't know if this is what you're looking for, but I'm trying to help. If you need to do some thinking, I'm here to listen.\n\nother: I don't need it. I just want you to know that you were right. The search area is large, and there are people out there looking for us. I just wish you'd told me sooner.\n\nyou: I know. I'm sorry. I was scared too. But we're not out of moves yet. We still have a chance. We just need to keep moving forward and staying visible.\n\nother: The mirror panel is a good idea, but what if it's not enough? What if we're just making it worse?\n\nyou: Look, I don't want to lose any more time. I know that plane is out there, and we need to make it happen. But I also know that you're right. We need to be more realistic about what we can do. Let's focus on getting the raft finished and then we can worry about the mirror panel.\n\nother: I just want it to be over, you know? I want to go home and forget about this place.\n\nyou: I know. Me too. But we can't just give up now. We need to keep going, for ourselves and for each other. We're in this together, and we need to find a way to survive and thrive in this situation."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That is so extremely you and I mean that in the best way possible.\n\nGenuinely though — if you actually write it up, I want to read it. Like not even joking. I think there's something real in there that could be useful for people, not just as a survival thing but as a people thing. How a group of strangers figures out how to function under pressure, what breaks down and why, what holds. That's worth documenting.\n\nAlso maybe include the part where you gave back the crackers. For the full picture.",
+      "response_pred": "Think: this persona's typical response length is quite brief, often conveying a sense of urgency and practicality. In this case, they're conveying a sense of work to be done, and a clear plan of action.\n\nTheir reply: You: Hmm, I'm a bit worried about the timing of the report. We've only been out for a few days, and things have been pretty rough. I'm not sure if we're ready to put together a comprehensive report just yet."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\n*still watching the boat*\n\nThat's kind of the whole point though, right? Like we were out here rationing water and patching leaks and calculating whether we were going to die, and DaVinci drew flowers next to an SOS sign because that's who he is. Nobody asked him to. It didn't help us survive. It just made us a little more human while we were doing it.\n\nI think that's what it was for.",
+      "response_pred": "think: Their message was simple but profound - a signal that could be seen from miles away, a beacon that could be picked up by anyone who was looking for us. They were a way to communicate, to give others a glimpse of our situation and our intentions.\n\nresponse: \"We saw a plane. That means there are planes. That means the search area includes us. That is not nothing.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey, I'm okay. I'm okay, I just —\n\n*exhales*\n\nI didn't let myself believe it was actually going to happen until right now. Like I kept doing the next thing and the next thing and I never stopped to let it be real because what if it wasn't, you know? And now it's real and I don't know what to do with my hands.\n\n*laughs a little, voice unsteady*\n\nSorry. You can go back to cheering. I just needed a second.",
+      "response_pred": "think: This persona's typical response length (terse vs verbose?)\nresponse: The conversation suggests a relatively short and simple exchange, with no elaborate flowery language or complex sentence structures. The dialogue is mainly a series of questions and statements, with the persona asking questions and receiving responses that are straightforward and to the point.\n\nthink: Their tone (warm / blunt / philosophical / dismissive / etc.)\nresponse: The tone is calm and neutral, with a hint of concern and empathy. The persona appears to be trying to offer comfort and support to the other person, but also maintains a level of detachment and objectivity. There is no overtly warm or dismissive tone, but the level of concern and empathy is palpable.\n\nthink: What they would specifically say to this utterance.\nresponse: The persona would likely respond with a mix of words and actions, such as providing reassurance, offering help, or simply being present. They might say something like, \"Hey, I'm here for you,\" or \"Don't worry, I've got your back.\" The exact words and actions would depend on their personality and the context of the conversation."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, I'm going.\n\n*takes a breath*\n\nCome on, let's go home.",
+      "response_pred": "My arms are still wrapped around you, and I keep checking to make sure you're okay. I take one last look at the camp, now abandoned except for the broken equipment and the scattered belongings. We've managed to salvage a few supplies, like water and food, but I can tell we're not going to be staying here for long. The sun is setting, casting a golden glow over the devastation. I nod at you, and you stand up, brushing off your clothes. We make our way towards the makeshift ramp, the first step towards freedom."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "WineRedPsy",
+    "agreeableness": "22.0",
+    "openness": "98.0",
+    "conscientiousness": "1.0",
+    "extraversion": "73.0",
+    "neuroticism": "99.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is then.",
+      "response_pred": "I just noticed you, can you please repeat what you said? My neuroticism levels are quite high."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organized when it mattered, and that counts for a lot.\n\nThe notebook, the rationing, the raft plan — that was all you. We'd have been in a much worse position without it.\n\nThe other stuff we can talk about properly once we're actually out of here. But yeah. You did your part.",
+      "response_pred": "Yeah, I've noticed my mood swings and the way I tend to take things personally. I think my neuroticism score indicates I've been more on edge lately."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, we should probably sort this place out a bit before they get here. Not for aesthetics — just so we're not handing rescuers a hazard. \n\nDaVinci, what have you packed so far? Donatello, anything in the notebook worth keeping for the record when we're back — incident log, that kind of thing? Might actually matter.\n\nMichelangelo, you okay down there?",
+      "response_pred": "It's just the way things happen sometimes. They don't need a leader, maybe it's better that way. I guess I just got tired of the constant drama. The others might not understand my need for solitude. But hey, at least I know I'm not alone in my thoughts."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Ah, nice one. Dreams about home can be quite comforting and nostalgic."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I think part of you knew it was wrong, or you wouldn't have written it in the notebook when I asked you to.\n\nYou don't have to justify it to me right now. We made it. But when you say you're going to work on it — this is what that looks like in practice. Not the big stuff, the small calls. That's where it actually happens.\n\nKeep the food. Divide it properly before the rescuers arrive.",
+      "response_pred": "I must've had a reason for keeping it, didn't I? Emergency situations often require a bit of foresight and preparation."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said something about the bottle sooner. Not to cause a scene — just clearly, directly, the same day. I kept telling myself I was waiting for the right moment and I think I was just avoiding the discomfort of it. That compounds too.\n\nThe rest of it I'm less sure about. Some of the calls were genuinely hard and I don't know that I'd make them differently. But that one I sat on longer than I should have.\n\nWhat's your answer going to be?",
+      "response_pred": "Good call to document everything. If I had to do it all over again, I'd definitely start by being more organized and efficient with my time, focusing on making sure I make the most out of every day. Also, I'd really like to work on my decision-making process to ensure I'm making the best choices possible."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Might actually be useful beyond just the record — if it ends up in front of the right people it could inform how they handle survivor situations. Search and rescue, crash response, that kind of thing. Real data from real conditions.\n\nSend me a copy when it's done.",
+      "response_pred": "Sounds like a good plan. I'll make sure to gather all the necessary details and turn them into a detailed report. With my high conscientiousness and extraversion, this task should go smoothly."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. That was the point.\n\nNot everything has to serve a function. The SOS was practical. The flowers were — I don't know, a statement that we were still people out here and not just a survival problem to be solved. That matters in ways that don't show up in a resource log.\n\nI think that's actually what's been hardest to articulate about DaVinci this whole time. The energy felt excessive sometimes but it was doing real work. Just not the kind you can measure.",
+      "response_pred": "Those flowers? DaVinci was not known for practical purposes; he was more into aesthetics and abstract expression. Maybe he just saw beauty in them and wanted to capture it. Who knows the true meaning behind his artistic choices?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm fine. Just — give me a second.\n\nIt's strange, isn't it. You spend all of it trying to get to this moment and then when it actually arrives you don't quite know what to do with yourself.\n\nI'm glad we made it. I'm glad you're here.",
+      "response_pred": "His voice carries a mix of disappointment and a hint of amusement. \"Hey, are you okay? You've been quiet for a while now.\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Absolutely, let's go. I'll take the lead. We'll handle this."
+    }
+  ]
+}

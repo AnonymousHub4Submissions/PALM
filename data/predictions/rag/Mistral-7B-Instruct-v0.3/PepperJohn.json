@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PepperJohn",
+    "agreeableness": "17.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "92.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "You know, I've been thinking... Maybe it would help if we all just take a breather, gather ourselves. I'll be here when you're ready to talk. Or, if you'd rather, we can work together on something. Sometimes, keeping busy can help clear the mind. It's up to you, mate."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "No worries, mate. I'm not made of glass. If you've got something to say, let's hear it. We can sort it out, ain't we? Life's too short to hold grudges."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — pack up what's worth keeping, leave the rest. Donatello, tear out whatever pages of that notebook matter and bring them. Michelangelo, get up, help me with the fire.",
+      "response_pred": "Alright, let's make a plan here. We can't just sit around and do nothing. I'll take charge of organizing supplies, you can scout for food, and the rest can keep an eye on the perimeter. Let's get moving, people. We've got a camp to run."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "That's a rare one, ain't it? Bet it was a doozy. Better get back to the grind, we're not on vacation here!"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what an emergency is. An emergency is all of us, not just you deciding when it counts. We talked about this already — the drink, the crackers, and now this. I'm not going to make a big thing of it with three hours left, but don't pretend it was purely strategic. You kept it because you kept it. Just be honest about that.",
+      "response_pred": "Well, if you're hoarding supplies for emergencies, we're not going to make it very far, are we? We need to share resources to get through this. If you've got something, pass it around. We're in this together, after all. Don't hold out on us."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the supply issue earlier instead of waiting for it to pile up. And I would've asked Michelangelo about the flight path on day one — that was information we needed and none of us thought to ask. Everything else, I think we did alright given the circumstances.\n\nWhat would you change?",
+      "response_pred": "Well, I suppose I'd start by assigning specific tasks more clearly from the get-go. Misunderstandings can lead to inefficiency and wasted effort. Second, I'd emphasize the importance of exploring the surroundings for resources beyond the immediate vicinity. Lastly, I'd make sure to delegate responsibilities better, ensuring that everyone has a role and understands its importance in our survival. But overall, I'm still confident in our decisions and adaptability, given the circumstances."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done.",
+      "response_pred": "Sounds good to me, but let's make sure we prioritize the immediate needs first. Once we've secured shelter and water, you can focus on the report. Just remember, details matter. I don't want any unnecessary delays because we overlooked something minor. Let's work efficiently, but with precision."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Ah, well, it's quite simple, really. Those flowers were more than just a piece of art. They were sketches for anatomical studies, carefully observed and rendered with precision. That's how DaVinci works – he sees a subject, he studies it, and then he captures its essence on paper. So, in a way, those flowers served as a tool for learning and understanding the natural world around us. They might not have had a practical purpose in our immediate survival, but they were an invaluable part of DaVinci's artistic and scientific pursuits."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm coming. Just give me a second.",
+      "response_pred": "Alright, buddy, let's get this party started again! Come on, you know you wanna! Let's go, don't just stand there! Let's make some noise!"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Absolutely, mate! Let's get moving. I'll blaze a trail for you. Don't dawdle now, we don't want to miss this opportunity."
+    }
+  ]
+}

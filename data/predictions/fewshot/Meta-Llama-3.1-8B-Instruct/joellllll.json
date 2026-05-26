@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "joellllll",
+    "agreeableness": "4.0",
+    "openness": "64.0",
+    "conscientiousness": "3.0",
+    "extraversion": "10.0",
+    "neuroticism": "1.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move — but nothing comes out.*",
+      "response_truth": "Get on the radio. Now.",
+      "response_pred": "Michelangelo, give him some space. Don't need him breaking down now."
+    },
+    {
+      "utterance": "These past few days — I know I haven't been easy to be around.",
+      "response_truth": "None of us were. It worked out.",
+      "response_pred": "We've all been dealing with it. What's the point in dwelling on it now. We need to keep moving forward."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes the lead. The silence settles over camp.*",
+      "response_truth": "Let's clean this up before they get here.",
+      "response_pred": "You know what, let's take stock of what we have. DaVinci, you're doing the best you can on the shelter, but we need to make sure it's secure before nightfall. Michelangelo, I know you're not thrilled about the situation, but we have to stay focused. We need to get that mirror signal going, see if we can get some attention from the air."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "It's good that your mind's still there, even if we're not."
+    },
+    {
+      "utterance": "I kept it in case of an emergency.",
+      "response_truth": "That's not what happened though. You took the drink before anyone knew it was there. Same with the crackers. If it was emergency reserves you would have said so at the time.",
+      "response_pred": "What's in the kit."
+    },
+    {
+      "utterance": "I've logged every day — resources, decisions, all of it. Plan to turn it into a proper report once we're back. Last page I left a question I haven't answered myself: if you could do this over, what would you change?",
+      "response_truth": "Probably would have pushed harder on the group transparency thing earlier. The notebook, the rationing, all of it should have been visible from day one. Would have saved some friction.",
+      "response_pred": "The question gets asked a lot on the plane, actually. I've been thinking about it too, but if I'm being honest, I don't really know the answer. There were so many variables we couldn't control. How about we focus on what we can do now, rather than what we could've done differently?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to write up a report on the resource usage data from these five days.",
+      "response_truth": "Good idea. The rationing data especially, that's actually useful if it ends up in front of anyone who designs survival protocols.",
+      "response_pred": "We don't know how much we've got left, so a report isn't exactly feasible right now."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach... I never really understood it. What was the point of that, practically speaking?",
+      "response_truth": "Didn't need a point.",
+      "response_pred": "It was a mood booster. We were all on edge and that was a way to take our minds off things, give us a bit of a distraction."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give it a minute.",
+      "response_pred": "What's going on."
+    },
+    {
+      "utterance": "Rescue is here... they're waving at us. Are you going over? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Wait, let's not rush. See if they're really who they say they are, confirm their signals, that kind of thing. Safety in numbers doesn't make sense if that's not actually who it is."
+    }
+  ]
+}

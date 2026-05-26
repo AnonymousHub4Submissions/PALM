@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackCombos",
+    "agreeableness": "97.0",
+    "openness": "99.0",
+    "conscientiousness": "14.0",
+    "extraversion": "57.0",
+    "neuroticism": "41.0",
+    "gender": "m",
+    "age": "22.0"
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up.  Someone pick it up right now.",
+      "response_pred": "Are you okay? Do you need someone to talk to?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't.  But you kept us alive and organized when nobody else was thinking straight, so it evens out.\n\nWe can have the longer conversation when we're home.  Right now let's just make sure DaVinci doesn't drop that radio.",
+      "response_pred": "Oh sweetie, I'm so sorry if I've been hard to handle. Sometimes my emotions get the better of me. Let's talk about it, okay? How can I make things better for you?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, we've got three hours, let's not just sit here.\n\nPack what's worth taking, leave what isn't, and let's leave this place looking like we were here for three days and not three years.  Michelangelo, off your back, help DaVinci sort what we're bringing.  Donatello, whatever's in that notebook stays in the notebook, but the physical stuff we leave behind should be organized in case someone else ends up here and needs it - first aid kit, anything useful, stack it somewhere visible.\n\nWe made it.  Might as well act like it.",
+      "response_pred": "Hey everyone, let's not lose the connection we have. Why don't we share something about our day or just talk about what we're feeling? It can be fun and help us understand each other better."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Ya?  What was it like?",
+      "response_pred": "That sounds like a beautiful dream. What did you see in your home?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nLook, we're three hours from rescue so I'm not going to stand here and relitigate the last three days.  But I want you to understand something - if that radio hadn't crackled when it did, and we'd had to build that raft and trust each other with our lives on open water, that stuff on the ground right there is the reason it might have gone wrong.\n\nYou're smart enough to know that.  You wrote the rationing plan yourself.\n\nTake it or leave it behind, I don't really care at this point.  Just think about it on the ride home.",
+      "response_pred": "That sounds like a wise decision, better to be safe than sorry."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly?  I'd have had that group conversation on day one instead of dancing around it for three days.  The bottle, the crackers, the notebook, DaVinci and the reef - all of it would have come out earlier and we'd have functioned better for it.  We kept treating honesty like a problem to manage instead of just the baseline for how you operate when your life depends on the people around you.\n\nEverything else - the water run, the mirror panel, the raft plan - that was all fine.  The logistics were mostly fine.  The trust stuff is what almost broke us.\n\nWrite that in your notebook.",
+      "response_pred": "That's a thoughtful question to leave yourself. Sometimes looking back and reflecting helps us grow and learn. When we review everything, we might just find the answer."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ya, that sounds right for you.\n\nSend it to me when you're done, I'm curious what it actually looks like laid out properly.  Might be useful for something, might just be interesting.  Either way, better than it sitting in a notebook nobody reads.",
+      "response_pred": "That sounds like a great idea! I can help you organize everything if you'd like. It might make the process smoother and more efficient."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  They didn't serve a practical purpose.  That was the whole point.\n\nSometimes you do something because it makes you feel like a person and not just a problem to be solved.  The SOS was for rescue, the flowers were for DaVinci.  Both mattered out here.\n\nI think that's something worth putting in the report too.",
+      "response_pred": "Oh, those flowers! They're not really for practical purposes, you see. They're more like a message in a bottle, a fleeting glimpse of beauty and imagination in an otherwise stark landscape. DaVinci often used his art to express ideas beyond the mundane, to inspire wonder and provoke thought. Maybe they're meant to remind us of the delicate beauty of life and our connection to nature, no matter where we are."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Ya.  Give me a second.\n\nI don't know what this is.  I thought I'd be sprinting into that water the second I saw the boat.  I'm fine, I'm not falling apart, I just - I need a second.\n\nGo.  Both of you.  I'll be right behind you.",
+      "response_pred": "Hey there, are you okay? Do you need a moment or anything? I don't want to rush you if you're not feeling up to it. Let me know when you're ready, or if you just want to take a break."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, I'm going.  Come on.",
+      "response_pred": "Yes, let's go! Stay close, okay? We'll be safe together."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "jb567",
+    "agreeableness": "56.0",
+    "openness": "46.0",
+    "conscientiousness": "54.0",
+    "extraversion": "42.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "is that - is that what I think it is\n\nsomeone answer it, go, now",
+      "response_pred": "Hey, you don't have to stand there all alone. Sit down, take a breather. We're all in this together, remember? You alright, mate? Need to talk about something? I'm here to listen."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you've been alright. annoying sometimes, but you got things done and when it mattered you held your hands up. that's more than most people manage tbh\n\nnow come on, DaVinci's about to talk to actual humans, let's go",
+      "response_pred": "Don't worry about it, it's been a tough situation for all of us. We're here now, and what's important is that we stick together and support each other. If you need someone to talk to, I'm here for you. Let's focus on the tasks at hand and make the best of the situation we're in."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "right, are we really just going to sit here for three hours and stare at things\n\ncome on, let's actually leave this place better than we found it. DaVinci you're already packing, start thinking about what we leave behind that might be useful if someone else ends up here. Michelangelo get up off the ground mate, three hours is nothing, don't spend it lying in the sand.\n\nDonatello I know you're processing or whatever but maybe the notebook can wait until we're on an actual rescue boat with actual seats\n\nI don't know, it feels wrong to just drift after everything. we made it. let's at least mark it somehow before we go tbh",
+      "response_pred": "hey, you don't have to go off on your own like this. We should talk about what's on our minds, make a plan. I know it's tough, but we're all in this together. Let's regroup and figure out what our priorities are."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like",
+      "response_pred": "Yeah, I get that. It's tough being away from everything we know. But we're here now, and we need to focus on what we can do to get home. So, anything in particular from home that you miss? We could try to replicate it here, if it helps."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do.\n\nbut like... this is kind of the exact situation we talked about isn't it. the whole point of the rationing plan, the group conversation, all of it - it only works if everyone's actually in it. and you weren't fully in it, you had a backup stash the whole time.\n\nI'm not going to have a go at you about it, we're three hours from rescue and honestly I don't have the energy. and I can see you laying it out now, that means something.\n\nbut I think you know that \"for emergencies\" is doing a lot of work in that sentence tbh. we were the emergency. all four of us, the whole time.\n\nkeep it for the journey back if you want. or leave it here like I said, for whoever comes next. up to you. just - don't carry the other thing with you when we get home. the hiding. you're better at the honest version of yourself, I've seen it.",
+      "response_pred": "Alright, let's get a handle on this. I've got a few concerns here. First off, the rationing plan seems a bit harsh, don't you think? We should discuss it as a group before we just implement it unilaterally. And regarding the missing supplies - we need to have a proper group conversation about that as well. I don't want to start a fight, but we can't ignore it either. When everyone's back, let's sit down and talk about it calmly, no ambushes, no accusations - just a clear, open discussion. You did the right thing telling me about the crackers, don't sit on stuff like this, yeah.\n\nLet's focus on the tasks at hand, shall we? We need to collect fresh water, patch the weak spots in camp, and sort the first-aid kit. Then we can discuss the raft plan, but I want to stress test it a bit before we commit to it. Two days is tight, but doable if we all pull our weight. The capsizing risk is the bit that worries me though - what's the sea state like out there, and do we actually know which direction to head? Because a raft in open water with no bearing is a worse situation than staying put, tbh.\n\nI'm off to check the signal equipment now. Let's try to stay focused and work together, yeah? We're in this together, after all."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? probably would've pushed harder for the group conversations earlier instead of letting things fester. the rations thing, the crackers, the bottle - we danced around it for too long before saying it out loud. costs you trust and energy you don't really have to spare in a situation like this.\n\nand I'd have asked Michelangelo what he needed instead of just telling him to stay present. he knew things before the rest of us did, he just needed someone to actually ask.\n\nwhat would you change? and I mean actually, not the logistical stuff - I know you've got that covered in here. the other bit.",
+      "response_pred": "Change a few things probably, but the most important one would be focusing more on communication and trust from the start. I think if we had been more open and honest about our fears and concerns, it might have helped us work better as a team and make better decisions. I also think I would have tried to find a way to lighten the mood a bit more, to help us all cope with the stress and uncertainty. Other than that, I'm not sure - we've all had our moments, but we've also managed to survive so far, and that's something to be proud of."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it, genuinely. that's useful stuff, not just for you - if anyone else ends up in a situation like this that data could actually matter.\n\njust maybe also do the other thing. the trusting people bit. don't let the report be the only thing you take home from this tbh.",
+      "response_pred": "That's good, DaVinci. It'll be helpful to have all that data in one place. Just remember, our priorities are water, shelter, and signal. Let's make sure we're not getting too caught up in the details and losing sight of those priorities. And, let's try to do this as a group, not just you. We need everyone's input and ideas."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "they were for us Donatello, not for the rescue boat\n\nlike yeah the SOS did the practical work, but the flowers were DaVinci saying we're still people here, not just survivors. we still care about things that don't have a function. that matters when everything else is stripped back to basics\n\nI don't know, maybe that's the thing I'd want you to take home more than the report. not everything needs a purpose to be worth doing\n\nlook at him over there, cheering his head off. that's the same guy who drew flowers on a beach when Donatello told him it was a waste of time. I think he had it right from the start tbh",
+      "response_pred": "Honestly, I'm not sure they had a practical purpose. DaVinci drew them to maybe raise our spirits a bit, give us something to focus on other than our situation for a moment. It's a nice thought, even if it doesn't solve any problems. But it's a reminder that we're still here, still fighting. That counts for something, I think."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah I'm coming, just give me a sec\n\nit's weird isn't it. three days ago I was having a mild panic attack in a field of burning wreckage and now there's a boat and I still can't quite make my legs work\n\nI'll be fine. go on, wave them in. you're better at that than me tbh",
+      "response_pred": "Hey, you alright? I know this isn't ideal, but let's try to stay focused. We've got a plan now, right? Water, shelter, signal - let's get started on those. I'll take the lead on the first aid kit, you can work on shelters. Let's divide tasks based on our skills, make the most of what we've got. And let's try to keep each other in the loop. We're in this together."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah, come on then. let's go.",
+      "response_pred": "Let's go, but I think we should all stick together. I'll go first, then you follow behind. And Donatello, make sure Michelangelo's alright before you leave. We've come this far together, we should face this together too."
+    }
+  ]
+}

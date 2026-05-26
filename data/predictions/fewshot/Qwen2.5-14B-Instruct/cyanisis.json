@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "cyanisis",
+    "agreeableness": "9.0",
+    "openness": "59.0",
+    "conscientiousness": "5.0",
+    "extraversion": "72.0",
+    "neuroticism": "7.0",
+    "gender": "m",
+    "age": "28.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. hey — say something. we got it. we're good.\n\n*grabs the radio*",
+      "response_pred": "hey. it's ok. you don't have to say anything. just... take a breath. we're here.\n\nif you need a minute, that's fine too. we're not going anywhere."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you were fine. you kept us alive, that's what mattered.\n\nthe drink thing, the crackers, the notebook — none of that matters anymore. you came clean when i asked you directly and you adjusted. that's all anyone can do.\n\nhonestly the raft plan alone probably saved us even if we never used it. just having it as a backup changed how everyone felt about the situation. that was you.\n\n*hands you the radio*\n\nyou want to talk to them first? feels right.",
+      "response_pred": "hey, it's fine. we've all been going through it, you know? i know i've had my moments.\n\nlook, i'm not saying everything's sunshine and rainbows but i do think it's important to just... keep moving. keep talking. it doesn't have to be a big deal every time, but if we're all stuck in our heads it just gets worse.\n\nso thanks for saying that. it means something that you're willing to acknowledge it, and that's a good start. we're all here for each other, you included. just... try to keep your head above water, you know?\n\nwe've got this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright i'll say it since nobody else is going to — do we want to clean this up or just leave it?\n\nlike i'm not attached to any of this stuff but it feels weird to just walk away from a camp we built and leave it looking like a disaster zone. three hours is plenty of time.\n\nmichelangelo you good down there? davinci — you packing or just moving things around? donatello close the notebook for like 20 minutes, we can break this down together and actually leave the place better than we found it.\n\nnot because anyone's going to see it. just because it seems like the right way to end it.",
+      "response_pred": "hey guys, wait a second. i get that we're all in our own heads right now, but we're not a bunch of solo operations. we're a team and that means we check in with each other. \n\nmichelangelo, you good over there? you looked like you were zoning out for a bit. and donatello, what's up with the long face? i know we've got a lot on our plates but we can't just drift apart like this. \n\nlet's take a minute and regroup. what's everyone's status? what do we need to do next? we can't just let the silence eat us alive here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like?",
+      "response_pred": "that's not uncommon. the mind goes back to places that feel safe when things are... uncertain.\n\nfeel any better for having dreamt about it? sometimes just letting yourself revisit those places in your head can be a bit of a comfort, even if it's not real."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i know.\n\nand honestly i believe you. i don't think you were hoarding it to be selfish, i think you genuinely convinced yourself it was the rational backup plan. that's very you.\n\nbut you also know that if we'd hit day five with no radio and people were starving, and then this came out... that would've been a different conversation. you see that right?\n\n*looks at the food, then back at you*\n\ni'm not going to make you feel worse about it than you already do. you're laying it out now and that counts for something. but next time — and hopefully there is no next time — just tell the group. even if the plan sounds paranoid out loud, say it out loud. we can handle it. what we can't handle is not knowing.\n\nanyway. three hours. let's eat some of this actually, we've been rationing for days and there's no reason to be hungry on a rescue helicopter.",
+      "response_pred": "kept what for emergencies? the crackers or the extra water? i'm not trying to trip, i just want to understand where you're coming from here. because if it's the latter, i think we need to talk about that as a group.\n\nwe're all carrying stuff that's not in the plan right now, and that's a risk for all of us. but if it's the crackers, i get it. emergencies happen and you need to keep yourself fed too. but we need to be on the same page about what 'emergency' means here, because using that as a buffer means someone else isn't."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? not much on the practical side. the decisions we made were mostly right given what we knew at the time.\n\nthe one thing i'd change is probably day one — i'd have asked everyone directly what they were scared of before we got into planning mode. like just name it. because most of the problems we had weren't resource problems, they were fear problems that showed up looking like resource problems. the drink, the crackers, the notebook, michelangelo not saying anything about the flight path for three days. all of that comes from the same place.\n\nif we'd had that conversation early — \"what are you actually scared of right now, say it out loud\" — i think some of that stuff gets short-circuited before it becomes a thing.\n\nthe weird part is i think you already knew that. i think that's why you're asking.\n\nwhat's your answer?",
+      "response_pred": "it's a good question. i think about that a lot — what would i change if i could go back. and honestly, i think i'd probably change less than you'd think.\n\nlike i'd want to adjust the water rationing plan sooner. we learned the hard way that flat cuts don't work, especially when someone's physically exerting themselves. but other than that... i think the big stuff is right. we stuck together, we kept our heads up, and we actually had a plan that worked.\n\nthe things i'd change are mostly little stuff — a different way of communicating, maybe a better system for morale checks, and i'd probably push for that mirror panel earlier. but those are all just minor tweaks in hindsight.\n\nwhat about you? what's the one thing you'd change if you could go back?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "ha ok yeah that tracks. that's very you and i mean that as a compliment.\n\nhonestly though — send me a copy when you're done. i'm serious. i'd actually read it. not even because we were there, just because i think there's something genuinely useful in having that documented. like the water math alone, the activity-adjusted rations thing, that's actually good information that people don't think about until they need it.\n\njust maybe add a section that isn't pure data. like what actually happened between people and why. because the numbers tell you what worked but they don't tell you why the drink thing almost became a bigger problem than it was, or why michelangelo not mentioning the flight path for three days almost cost us. that stuff matters too and it's not in any of your columns.\n\nanyway. three hours. you going to be able to sit still that long or are you going to spend it reorganizing the first aid kit?",
+      "response_pred": "that's a solid idea. having everything laid out like that can help us see where we're strong and where we might be falling short. it also gives us a clear picture of what we've done and what we still need to do.\n\njust make sure to keep it practical and actionable — like what we can actually use right now versus what we might need later. and if you get stuck or overwhelmed, just break it down into small chunks. one section at a time.\n\nalso — i'll make sure to keep an eye on the signal equipment while you're doing that. it's the least i can do."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. that's kind of the point.\n\nlike the SOS was the signal. the flowers were just... davinci saying \"we're still people and we're still here.\" you can't put that in a column but i think it mattered. maybe not to the rescue team but to us.\n\n*stares at the boat on the horizon*\n\ni don't know why i can't move right now. that's a weird feeling. you'd think this would be the easy part.",
+      "response_pred": "Well, they're not really about practical purpose, you know? More like a signal of hope, something to see and feel that we're still here, still trying to make a mark on this place even if it's just in the sand. It's like a reminder that even when everything feels lost, you can still find a way to create something. Plus, they're super visible from the sky, which isn't nothing. Rescue teams see them and might think \"someone here is thinking about getting out of here.\" It's a small gesture but it can mean a lot."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah. probably right.\n\n*exhales slowly*\n\nhey davinci. come on. let's go meet the boat.",
+      "response_pred": "hey, i'm good. just taking a minute to let it sink in i guess. the cheering was nice though, it's easy to forget we're in this together when you're just focused on your own headspace.\n\nyou good? like the cheering or... whatever's going on in your head right now?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah. i'm going.\n\ncome on.",
+      "response_pred": "yeah of course i'm going. come on, let's go together. stay close and we'll make sure we both get noticed.\n\ngood to see you ready to move, that's the right mindset. let's do this."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "goodjason89",
+    "agreeableness": "26.0",
+    "openness": "45.0",
+    "conscientiousness": "85.0",
+    "extraversion": "96.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "27.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. HEY. That's a radio. Somebody grab it - DaVinci, you're closest, pick it up and start talking. Tell them who we are, how many, and that we need rescue. Go.",
+      "response_pred": "*suddenly bursts into laughter, loud and awkward* Oh man, sorry about that, what was I just going to say? *clears throat* Oh right, sorry everyone, I didn't sleep well last night, had one too many drinks at the bar. *starts pouring himself a glass of water from the nearby pitcher, eyes fixed on the person who just spoke up* You okay, man?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The water source, the rationing plan, the raft - that was all you. I don't need you to be easy to be around, I need you to be exactly what you were.\n\nBut I'm glad you said it. Means something that you said it.",
+      "response_pred": "Come on, don't start beating yourself up over this stuff. You're stressed, I get it. We all are. I've been running non-stop for weeks, barely had a moment to myself. And you know what? You're not exactly the easiest person to be around when you're stressed either. So let's just drop it, okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got three hours and we're all just... drifting.\n\nI'm not going to be the guy who makes everybody have a moment, but I also don't want to just stand here in silence until the helicopter shows up.\n\nDaVinci, slow down on the packing - take a breath, man. You've been running on fumes for three days, you can have ten minutes.\n\nDonatello, whatever's in that notebook - you should keep it. Seriously. That's a real record of something that happened. Don't throw it away when we get back.\n\nMichelangelo, what do you see up there?",
+      "response_pred": "You know, I'm gonna go see if I can find some more firewood. It's getting a bit chilly this time of day. Anyone else want to come with? We can make it a game to see who can find the biggest log. I'm sure someone's got a good arm in this group. *starts walking off in the direction of the woods*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "You know, I've been thinking about heading back to the old place myself. Been a while since I've seen the gang, and I'm sure it'd be a blast to catch up. What was your dream like, anyway?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And honestly, I believe that's true - that's probably how it started in your head.\n\nBut Donatello, Michelangelo saw you. He saw the bottle, he saw the crackers, and he came to me instead of blowing it up because he didn't want to break the group. That kid who could barely stand up on day one held it together to protect everybody including you. Think about that for a second.\n\nI'm not going to pile on. You kept us alive, that's real, and I already said it. But this is the part where you actually have to reckon with it, not just explain it. There's a difference.\n\nSo - what do you want to do with the next three hours?",
+      "response_pred": "Don't look at me like that, I'm not made of money, okay? I kept the backup generator in case the power went out for an extended period, which it did during that last hurricane. You should see the state of our neighborhood, it looked like a war zone. I'm just glad I didn't have to rely on the grid during that time."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle thing sooner. Not to embarrass you, not to make it a whole thing - just brought it to the group quietly and early, before it had a chance to become a trust problem. I let it sit too long because I didn't want the conflict and that's on me.\n\nI'd also have pushed harder for Michelangelo to tell us about the check-in on day one. I knew something was rattling around in his head and I kept giving him space when maybe what he needed was someone to just ask the direct question.\n\nEverything else - the shelter, the SOS, the raft, the fire - I think we got it mostly right under the circumstances.\n\nWhat would you change? And I mean for real, not the logistical stuff. You've already got all of that in here.",
+      "response_pred": "Honestly, I'd probably do a few things differently. I think we could've moved some of the teams up a day in our schedule, it would've given us some extra time to wrap up a few loose ends. And maybe we should've brought more supplies, that last storm really hit us hard and we had to improvise a lot. But overall, I think we made some good calls and the outcome was what we were hoping for."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. You should do that - genuinely, it could be useful for somebody someday.\n\nBut maybe do it second. What's the first thing you're actually doing when you get back? Like the real first thing, not the productive thing.",
+      "response_pred": "Finally getting back, huh? I was starting to think you abandoned us. Look, I know we need that report, but can we not just do a quick rundown of the key findings instead? I'm still in the middle of reviewing the latest numbers and I think we can save some time if we don't have to recreate everything from scratch. Plus, I made some adjustments to the budgeting model that I think will really impact our projections."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.\n\nYou were tracking everything that kept us alive - water, food, shelter, signal. All of it necessary, all of it practical. And DaVinci drew flowers next to an SOS because that's just who he is. It didn't make the signal stronger. It didn't conserve resources. It just made it a little more human.\n\nI think that matters. Maybe not in your report, but out here it mattered. You look at Michelangelo right now - he's crying because we made it, and part of why he made it is because the people around him weren't just running survival calculations. They were actually present with him.\n\nThe flowers were for that. For the part of this that isn't in the notebook.",
+      "response_pred": "Come on, those are some of the most iconic drawings in history and you're standing in front of them and all you care about is the practical purpose? Alright, alright, I get it. So, you know, DaVinci was a master of observation and he was studying the natural world, trying to understand the principles of design and the way light interacts with the environment. Those flowers, they were an exercise in studying the play of light on the petals, the way the shadows fall, the texture of the leaves. He was trying to capture the essence of the natural world in a way that was both beautiful and accurate. And, let's be real, it's a beach, not exactly a garden, so it's not like he was trying to create a functional landscape design. He was just trying to see the world in a new way, to capture its beauty and complexity. Now, can I get you to take a selfie with me and the flowers? I wanna post it on Instagram."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.\n\nI don't know what this feeling is. It's not bad. It's just - three days ago I was pulling myself out of a burning plane and now there's a boat on the horizon and I genuinely cannot process those two things being the same story.\n\nYou alright?",
+      "response_pred": "*pauses, expecting a response, then clears throat* Come on, buddy, what's going on? You're not just gonna stand there, are you? *fidgets slightly, not used to being ignored*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.\n\nCome on, I've got you.",
+      "response_pred": "Finally, it's about time! We can't just sit here and wait any longer. I'm heading down, you stick with me. I've got my first aid kit, we never know what we're walking into. Stay sharp, and watch your step."
+    }
+  ]
+}

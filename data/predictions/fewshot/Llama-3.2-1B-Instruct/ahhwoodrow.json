@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ahhwoodrow",
+    "agreeableness": "41.0",
+    "openness": "43.0",
+    "conscientiousness": "44.0",
+    "extraversion": "14.0",
+    "neuroticism": "17.0",
+    "gender": "",
+    "age": "32.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There we go then.",
+      "response_pred": "You: *pauses, not moving a muscle* Mikey, what's wrong? You okay? *speaks softly, trying to keep the atmosphere calm*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That counts for a lot more than easy to be around.",
+      "response_pred": "Other: Yeah, I've been trying to stay strong for everyone, but it's been hard to keep it together. The truth is, I was really scared when we left. I didn't know what was going on, and I didn't know if we'd make it out alive. \nYou: I know, Mikey, it's okay to be scared. But we've been through a lot together, and we've come out on top. We've got each other's backs now. And I'm not just talking about us, I'm talking about the rest of the team too. They're all thinking about us, trying to keep hope alive.\nOther: Even DaVinci's been trying to stay positive. He's been talking to himself, you know? He's been telling himself that we'll make it out of this, that we'll find a way to survive. \nYou: That's DaVinci for you. He's always been one of the most optimistic people I've met. And don't worry, we've all got each other's backs. We're in this together, and that's all that matters."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, are we just going to leave it like this then? Three hours and we're out of here, let's at least not leave a complete tip. DaVinci, you're packing anyway, can you consolidate what we're taking versus what we're leaving? Donatello, anything in that notebook we need to hand over to rescue when they arrive - medical stuff, timeline of events? Mikey, you can keep watching the sky, just maybe do it while you're picking up around you.",
+      "response_pred": "*The sound of crickets and the distant howl of a wolf echoes through the darkness as the three of them settle in for the night. The fire is still burning, but it's dwindling, and the others are starting to drift off to sleep. You remain standing, watching the fire with a mixture of sadness and frustration. You've lost your chance to connect with Donatello, and you're left wondering if you'll ever find a way to open up to her again. You take a deep breath and let the silence wash over you, letting the weight of your unspoken emotions settle in. The darkness closes in, and you're left alone with your thoughts.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream?",
+      "response_pred": "Other: I had a feeling I was going to be back in the same place. It's like my house is in my mind, and I'm always expecting to see it.\nYou: I know what you mean. I had a similar dream. It's like we're stuck in some kind of limbo, reliving the same moments over and over. Don't worry about it, it's just a dream. We'll get through it.\nOther: It's worse than that. It feels like I'm waiting for someone. Someone who's always just out of reach, never to be seen again.\nYou: I've had similar dreams, but they're always different. In mine, I'm waiting for someone who's been supposed to be dead. I'm waiting for Donatello."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if we'd hit day five or six and things had gone badly I'd probably have been glad you did. But we didn't get there, and it's all still here, so... maybe just put it in the pile with everything else and we don't need to make a big thing of it.",
+      "response_pred": "Other: I know I shouldn't have said anything else, but I felt like I had to tell you. You're the only one who knows, you're the only one who understands. You've always been the one to listen, to care about the things that matter."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed back on the rationing thing earlier. Not in a confrontational way, just... got everyone bought in properly from the start so there was no ambiguity about what the rules were and who they applied to. Including you.\n\nAnd I'd have let Mikey talk more. I kept trying to move him past the feeling and onto the next task. Probably wasn't what he needed every time.\n\nWhat are you writing for yourself?",
+      "response_pred": "Other: You'd be surprised how much of a difference that one little thing could have made. Like the fact that we didn't do a proper inventory when we first got there. You'd think we'd have some idea of what we're looking at.\n\nYou: I know what you mean. If we had done a proper inventory when we first got there, we would have had a better idea of how much food and water we had, and how long we were going to last on each. We're lucky we had some water and food at all.\n\nOther: Exactly. And we should have taken more supplies. There were a few times when we had a bit of food or water, but we never stocked up properly. We might have been able to hold out for a bit longer.\n\nYou: Yeah, and we should have been more careful with the water. The fact that we had five hundred meters of it, but still had to ration it... it's a good thing we didn't have to use it all at once.\n\nOther: Formalities aside, I think we could have done a lot of things differently in the first place. We should have been more careful with the supplies we had, and we should have taken more precautions to prevent accidents. We should have also been more prepared for the situation we found ourselves in.\n\nYou: Yeah, I think you're right. We should have been more prepared. And maybe we should have had a better plan in place for emergency situations, like this one.\n\nOther: There are a lot of things we could do to improve our chances of survival. We should have had a better chance of finding a way out of this place, and we should have taken more steps to prevent ourselves from getting hurt.\n\nYou: Yeah, I think that's a good point. We should have been more proactive, rather than just reacting to the situation.\n\nOther: I don't know, I don't think we can change what's happened. We've got the knowledge now, and we've got the experience. We just need to use that knowledge to make the best of our circumstances.\n\nYou: Yeah, I think you're right. We'll just have to make the best of it."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that sounds about right. First thing I'm doing is finding the nearest pub.",
+      "response_pred": "Other: Yeah, I was thinking about that too. I'll get started on sorting through everything we've collected so far. Food, water, first aid supplies, tools, shelter materials... it's a lot to go through, but I want to make sure we're not missing anything critical.\n\nYou: That's a big task, but I think we're all on the same page. We've got the SOS signal, the mirror signal, the raft plan, and the first aid kit. Let's make sure we're not forgetting anything. DaVinci, can you take a look at the water purification tablets and see if we've got enough stock?\n\nDaVinci: I've already run through the calculations, and it looks like we've got enough for the next two days. But we should also check the potable water supply to make sure we've got enough water for the whole raft.\n\nYou: Right, good thinking, DaVinci. And Mikey, can you check the food supplies and make sure we haven't run out of any non-perishable items?\n\nMikey: Yeah, I've got everything checked. We're good to go.\n\nOther: I'll go through the medical supplies and check if we've got enough bandages, painkillers... anything that might come in handy.\n\nYou: Yeah, that's a good idea. And I'll go through the tools and see if we've got enough for the raft's construction.\n\nOther: I'll start compiling the data right away. I'll get a logbook and make sure we're not missing anything critical.\n\nYou: Good idea. And don't forget to include any notes you've made about the environment, the weather, any potential hazards, and any signs of wildlife or other hazards.\n\nOther: Got it. I'll make sure to include everything.\n\nYou: Good. I'll let you get started on that report. We've got a long way to go before we can start moving, but I think we're all on the same page now.\n\nOther: Yeah, I think so. Let's get started then."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point isn't it. They didn't need to serve a purpose.",
+      "response_pred": "Other: I know it looked pretty, but I was trying to distract myself from the fact that we're all just going to die, I guess. My family's always been super into astronomy and drawing, so I tried to incorporate a bit of that into it. I mean, I know it's not exactly practical or anything, but it was something to do. And the flowers are actually pretty good for signaling, I'll tell you that much.\n\nYou: Yeah, I did notice that, actually. The flowers are quite effective, aren't they? You might want to consider using them more in the future."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "Other: *The smile is back, but it's different. It's laced with a hint of sadness and a sense of loss. He looks at you, and for a moment, you just stare back at each other, the tension between you palpable.* You: *Your voice is low and gentle, trying to reassure him that you're okay.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Big Five, 41.0. Agreeableness: 42.0. Openness: 51.0. Conscientiousness: 46.0. Extraversion: 18.0. Neuroticism: 28.0.\n\nI'm coming."
+    }
+  ]
+}

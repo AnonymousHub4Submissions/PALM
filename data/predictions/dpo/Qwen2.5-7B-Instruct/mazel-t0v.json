@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "I... can't... believe... this... is... happening."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "I've been feeling pretty overwhelmed, to be honest. My emotions have been all over the place, and I've snapped at people more than I'd like. I just need some space to sort myself out."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "Ugh, great. Just great. Another failed adventure. Can't believe we let this happen. Why can't anyone take charge around here? This is exactly what I get for trusting others. *sighs deeply*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "That sounds comforting, but also a bit overwhelming with how you described your emotions. Dreams about home can be really strong when you're feeling stressed or disconnected."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "I know, right? Just in case something unexpected happens, it's good to have some cash on hand. But honestly, I worry so much about it being gone or something bad happening that it's really stressing me out."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "If I had to do it over, I'd probably work on calming down more. The stress really got to me and I think it could have affected some of the decisions I made."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "Ugh, compiling all that data... It's just another chore to add to the endless list. But I guess it needs to be done. I'll probably need to drown my sorrows in some calming tea after this."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "Those flowers? They were probably just a way for DaVinci to explore beauty and nature, to capture something ephemeral and fleeting. In his eyes, they might not have served a practical purpose, but they certainly added to the charm and mystery of that beach scene."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "I... I can't do this. I just can't. Why did you even think I'd be okay with this?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll stick close, but I'm not really into crowds or loud noises. Let's go."
+    }
+  ]
+}

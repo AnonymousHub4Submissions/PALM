@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AresXI",
+    "agreeableness": "88.0",
+    "openness": "83.0",
+    "conscientiousness": "45.0",
+    "extraversion": "5.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it. Right now, just answer it.",
+      "response_pred": "Hey, it's okay. Take your time. You don't have to say anything right now if you're not ready. We're all in this together. You know I'm here for you. If you need someone to talk to, just let me know. I'm listening."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us organized when nobody else was thinking straight. The rationing plan, the inventory, the raft calculations, keeping track of everything. That stuff mattered even when it was hard to hear. You're not easy but easy doesn't keep people alive out here.",
+      "response_pred": "Yeah, I get that everyone's been on edge. But we're all in this together, so we need to find ways to support each other. I know we've had our disagreements, but let's try to put that behind us and focus on getting through this. Anything specific I can do to help? I'm here for you, no matter what."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's not just leave this place looking like a disaster. Three hours is enough time to at least break down what we can and not leave a total mess behind. DaVinci, you good to help pack up the camp? Michelangelo, whenever you're ready, even just small stuff helps. No rush but we should probably leave this place better than we found it if we can.",
+      "response_pred": "Hey, let's take a second here. I know we're all running a bit low on energy, but we can't afford to let things slide. We need to make sure everyone's accounted for and that we're all on the same page. Let's regroup, just for a moment, and make sure we're all okay before we start getting back to work. No one needs to do anything right now, just take a breath, catch up with each other. We'll get through this together, I know we will, but we need to do it as a team."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "That's a good dream to have right now. What was it about?",
+      "response_pred": "I had dreams about home too. It's natural to think about what we're leaving behind, but we're here now and we need to focus on making the best of this situation. Let's use our resources wisely and keep each other's spirits up. Maybe tomorrow we'll have some good news."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also believe you knew we were already rationing and that everyone else was doing it together. Look, you laid it out so that's something. But don't act like the emergency justification makes it clean because it doesn't. We all had emergencies out here. Michelangelo was falling apart, DaVinci was holding himself together with duct tape, I was running on nothing. The difference is none of us were quietly stashing supplies while logging everyone else's movements. \n\nI'm not going to hold it against you forever, especially not today when rescue is three hours out. But you should probably say something to them too, not just me.",
+      "response_pred": "Alright, let's make sure we're using that carefully. No point burning through it unless it's really necessary. I'll keep an eye on the others to make sure they're not taking more than their fair share. And, if we do end up needing it, let's not forget about our rationing plan. We don't want to use it up too quickly."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably check in on people more deliberately instead of just when things were already falling apart. I was reactive a lot of the time, waiting until Michelangelo was already in a bad place or DaVinci was already cracking before I said something. \n\nWhat would you change?",
+      "response_pred": "Hmm, if I had to do it over… I'd probably spend less time second-guessing myself and more time just focusing on the tasks at hand. We've all made mistakes, but dwelling on them doesn't help anyone. I'd also try to be more aware of how my actions might impact the group as a whole. Some things, like the food and supplies, are too important to jeopardize over personal feelings. Lastly, I'd make sure to communicate better with everyone. We're all under a lot of stress, but keeping the lines of communication open is crucial for maintaining a functional group."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That actually sounds like something worth doing. Might be useful if anyone else ever ends up in a situation like this, having actual data from real conditions instead of just theoretical survival guides. Just maybe lead with the parts where people held it together instead of just the parts where the numbers worked out.",
+      "response_pred": "That sounds like a good plan. We can use the information to make smarter decisions about our next steps. Just remember to include everything we've found and our ongoing supplies. And don't forget to mention the changes in our situation since DaVinci's family informed them of our flight path. That could be crucial for anyone reading the report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That's kind of the point. Not everything out here had to. We needed the SOS for rescue, sure, but we also needed to feel like we were still people and not just bodies trying to survive. That's what the flowers were for.",
+      "response_pred": "Honestly, I'm not sure they had any immediate practical purpose. DaVinci said they were just to help with morale, to give everyone something to focus on and help keep spirits up. In a way, they acted as a reminder that we're still human, that we can still create even in the most difficult circumstances. It's a small thing, but it's important to remember that we're not just survivors, we're people who still care about each other and the world we left behind. Plus, they're actually pretty nice to look at, y'know?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.",
+      "response_pred": "Hey, what's up? You look like you've got something on your mind. Want to talk about it or just need some company? I'm here for whatever you need."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go home.",
+      "response_pred": "Alright, let's make sure we're all accounted for first. Everyone gather round, we need to make sure no one's been left behind. Then we'll move towards the rescuers. It's about time we get out of here, but we don't want to leave anyone behind."
+    }
+  ]
+}

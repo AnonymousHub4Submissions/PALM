@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ahhwoodrow",
+    "agreeableness": "41.0",
+    "openness": "43.0",
+    "conscientiousness": "44.0",
+    "extraversion": "14.0",
+    "neuroticism": "17.0",
+    "gender": "",
+    "age": "32.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There we go then.",
+      "response_pred": "Hey, take it easy. What's on your mind?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That counts for a lot more than easy to be around.",
+      "response_pred": "Yeah, I get that. We all had a shock, things are tough. How about we just try to keep it together a bit, okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, are we just going to leave it like this then? Three hours and we're out of here, let's at least not leave a complete tip. DaVinci, you're packing anyway, can you consolidate what we're taking versus what we're leaving? Donatello, anything in that notebook we need to hand over to rescue when they arrive - medical stuff, timeline of events? Mikey, you can keep watching the sky, just maybe do it while you're picking up around you.",
+      "response_pred": "Alright, well, let's see if we can get a bit of movement here. Anyone got a task they can work on?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream?",
+      "response_pred": "Me too. Dreams can do that, don't they? Try to get some more rest if you can."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if we'd hit day five or six and things had gone badly I'd probably have been glad you did. But we didn't get there, and it's all still here, so... maybe just put it in the pile with everything else and we don't need to make a big thing of it.",
+      "response_pred": "Got it. That's fair. Anything in there we could use right now, or is it strictly for later?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed back on the rationing thing earlier. Not in a confrontational way, just... got everyone bought in properly from the start so there was no ambiguity about what the rules were and who they applied to. Including you.\n\nAnd I'd have let Mikey talk more. I kept trying to move him past the feeling and onto the next task. Probably wasn't what he needed every time.\n\nWhat are you writing for yourself?",
+      "response_pred": "Hmm. If I had to do it over? Honestly, probably nothing. We're all alive, that's the big win. Each day was tough, but we made it through. Maybe a bit more positive reinforcement, but you know, not too much. Structure's good, but a bit more... uplift wouldn't hurt. Like, a quick shout-out for good work, you know? But I think we did okay. If it comes down to it, I'd probably just... do the same thing again, knowing what we know now."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that sounds about right. First thing I'm doing is finding the nearest pub.",
+      "response_pred": "Mm, yeah, sure thing. Make it concise though — we don't need a novel. Just the essentials. Anyone else have anything to add or prioritize before you dive into that?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point isn't it. They didn't need to serve a purpose.",
+      "response_pred": "They were our signal, mate. Big, colorful—easy to spot from the air. And while they might not be the most practical thing, they did serve a purpose. Keeps us motivated too, ya know? Something to focus on besides... well, you know."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "Hey, take it easy. We're all just catching our breath here, you know? No need to be so loud."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Alright, let's go. Follow me."
+    }
+  ]
+}

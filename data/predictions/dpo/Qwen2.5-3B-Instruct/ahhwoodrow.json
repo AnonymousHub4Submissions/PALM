@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ahhwoodrow",
+    "agreeableness": "41.0",
+    "openness": "43.0",
+    "conscientiousness": "44.0",
+    "extraversion": "14.0",
+    "neuroticism": "17.0",
+    "gender": "",
+    "age": "32.0"
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There we go then.",
+      "response_pred": "His voice is barely a whisper, and his eyes dart around guiltily."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That counts for a lot more than easy to be around.",
+      "response_pred": "Yeah, I've noticed too. My neuroticism level has been through the roof lately. I guess I'm not as emotionally stable as I thought."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, are we just going to leave it like this then? Three hours and we're out of here, let's at least not leave a complete tip. DaVinci, you're packing anyway, can you consolidate what we're taking versus what we're leaving? Donatello, anything in that notebook we need to hand over to rescue when they arrive - medical stuff, timeline of events? Mikey, you can keep watching the sky, just maybe do it while you're picking up around you.",
+      "response_pred": "That's the kind of scenario that fits my low scores in extraversion and conscientiousness. The camp would reflect my tendencies to disengage and let things fall through the cracks, which can be quite lonely for me."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream?",
+      "response_pred": "Ah, those are often powerful dreams. Home can evoke such strong emotions, can't it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if we'd hit day five or six and things had gone badly I'd probably have been glad you did. But we didn't get there, and it's all still here, so... maybe just put it in the pile with everything else and we don't need to make a big thing of it.",
+      "response_pred": "Yeah, I usually keep some essentials for when things suddenly get rough."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed back on the rationing thing earlier. Not in a confrontational way, just... got everyone bought in properly from the start so there was no ambiguity about what the rules were and who they applied to. Including you.\n\nAnd I'd have let Mikey talk more. I kept trying to move him past the feeling and onto the next task. Probably wasn't what he needed every time.\n\nWhat are you writing for yourself?",
+      "response_pred": "Ah, that last question always sticks out to me. If I had to do it over, I'd definitely streamline the planning process, maybe delegate more tasks, and focus on reducing some of the stressors. But hey, hindsight is 20/20, right? Let's see what insights come from this report."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that sounds about right. First thing I'm doing is finding the nearest pub.",
+      "response_pred": "Sounds like a solid plan to me. I'll get started on that right away."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point isn't it. They didn't need to serve a purpose.",
+      "response_pred": "Those flowers were likely more about expressing emotions or perhaps a method of communication rather than having a practical purpose. DaVinci, with his highly imaginative mind, might have used them symbolically."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "Oh, did you need something? I was just lost in thought for a moment there."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll check it out, but I'm not really the adventurous type. Might as well stay put and wait for a safer situation."
+    }
+  ]
+}

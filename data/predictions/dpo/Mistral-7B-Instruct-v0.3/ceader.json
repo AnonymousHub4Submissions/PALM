@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ceader",
+    "agreeableness": "15.0",
+    "openness": "96.0",
+    "conscientiousness": "83.0",
+    "extraversion": "59.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it.",
+      "response_pred": "I'm having a bit of a tough time articulating my thoughts right now, but let me try to gather myself. To put it bluntly, I'm feeling quite agitated and overwhelmed. My mind is racing with ideas and emotions, and it's difficult for me to focus on just one thing. I need a moment to myself to process everything that's happening. Can we give me some space for a bit?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But we're all still here, so it worked out.",
+      "response_pred": "I apologize if my mood has been affecting you. I've been dealing with a lot internally and it's been difficult to manage my emotions. I'm trying to work through things, but I understand if it's been challenging for those around me. I appreciate your patience."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit here until we have to move.",
+      "response_pred": "I can't help but feel a pang of discomfort in this silence. It's as if we're all waiting for someone else to break it, yet none of us seem inclined to do so. Perhaps I should take the lead, but the thought of it makes me feel a bit anxious. Oh well, I suppose we'll find our own ways to pass the time. I'll just focus on setting up camp more efficiently."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "The thought of returning home, a place that once held familiarity, now seems like an elusive memory. The dreams were vivid, yet the reality remains far from the comforting sanctuary they depict. I wonder if it's ever possible to go back, to recapture those moments that once brought peace. But perhaps that's just the longing speaking, the yearning for a time when life was simpler."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also think you knew we'd notice and you did it anyway, which means you trusted your own judgment over the group's. That's worth talking about when we're somewhere with chairs and a table. Not now.",
+      "response_pred": "I've kept this for emergencies, just in case. You never know when you might need it. But let's hope it stays tucked away where it belongs. I don't like the thought of using it, but sometimes... sometimes, it's necessary."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to Donatello about the supplies sooner instead of waiting for the right moment. And I would have sent those letters before I got on the plane.",
+      "response_pred": "I ponder this question as I meticulously document each detail from our mission. Upon reflection, I realize there are several aspects I might have approached differently. However, it's essential to remember that our successes and failures are often intertwined, and adjusting one could alter the entire outcome. Nonetheless, I will mull it over and revise my approach when we return, aiming for even greater efficiency and effectiveness in our future endeavors."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Let's get started on that report right away. Precision and organization are key to presenting the data effectively. I'll ensure no stone is left unturned."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's what made them worth doing.",
+      "response_pred": "I find it quite peculiar that those flowers by DaVinci served no practical purpose on the beach. Perhaps it was merely an artistic expression, a whimsical touch to capture the beauty of nature in his work. In my eyes, it seems a waste of time, resources, and effort, but I suppose even I must admit that there is beauty in such trivialities."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just give me a second.",
+      "response_pred": "I can't help but notice you're still here, unresponsive. Are you alright? I was under the impression we were having a conversation. If you don't have anything to say, I'll find someone else to talk to."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "I'll follow you, but let's make sure we're armed and prepared. I don't trust anyone easily, especially in these situations. Let's be cautious and keep our eyes open."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "We_are_out_of_nopes",
+    "agreeableness": "6.0",
+    "openness": "17.0",
+    "conscientiousness": "85.0",
+    "extraversion": "27.0",
+    "neuroticism": "82.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Holy shit. HOLY SHIT. Is that — is someone there?? Answer it, answer it!! Does anyone know how to work this thing?!",
+      "response_pred": "I... can't believe this. Everything is falling apart. What are we going to do?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah man. I mean... yeah, you weren't always easy. But you kept us alive too. The rationing plan, the raft, the water run — that was all you. We'll talk about the other stuff later. Right now we're going home.",
+      "response_pred": "I've been feeling pretty off lately, you know? My emotions have been all over the place, and it's been tough to keep things together sometimes. Sorry if I've been short or if things felt a bit chaotic around here."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. We're almost there. Should we maybe clean this place up a bit or just... leave it? I kind of want to leave it honestly. Like let it be. We were here, you know?",
+      "response_pred": "I should've said something to break the ice, but now everyone is just sitting there, lost in their own thoughts. This silence is getting uncomfortable. Perhaps I should find a book or something to do."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Like, what did you dream about specifically?",
+      "response_pred": "That sounds comforting. It's nice to have those moments of familiarity, even in dreams."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And honestly... I believe you. But you could've just said that. We all would've understood \"I'm keeping a reserve for emergencies.\" Instead you hid it and wrote the rationing plan and logged everyone's movements and it made everything harder than it needed to be. You're smart, like genuinely, but you gotta let people in sometimes man. Anyway. It's out now. We're good.",
+      "response_pred": "I see, having it for emergencies makes sense. It's good to be prepared."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people faster. Like I spent a lot of time watching and waiting to see who was gonna be a problem instead of just... talking. And I was right about some of it but it also made things colder than they needed to be. Michelangelo was falling apart and sometimes I helped and sometimes I just told him to get up and move. I don't know if that was right. And DaVinci — I should've pushed harder to find out what he was gonna say that night, the thing he kept to himself. That's gonna bother me. What would you change? And are you actually gonna answer that question you wrote, or is it just gonna sit there on the last page?",
+      "response_pred": "If I had to do it over, I'd probably spend more time on planning. Sometimes I get so caught up in the moment that I overlook important details. But hey, that's what reports are for, right? To learn and adjust."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah okay, that's very you. I'm gonna eat something real and sleep for like 12 hours. Maybe get back online. See what I missed.",
+      "response_pred": "Okay, first thing's first, I'll gather all the notes and data from the past five days and put it into a structured report. Better get to work on that."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose. That's kind of the point though isn't it? Like we were out here surviving, rationing water, logging everything, building a raft — and he still stopped to draw flowers next to the SOS. I don't know, I think that's actually the most human thing anyone did out here. You can't explain it with logic but it mattered. It mattered to him and honestly... it mattered to me too.",
+      "response_pred": "Well, they're more symbolic than practical, really. DaVinci was all about observing nature and blending art with science. Those flowers might just be a study of botany, or perhaps he was exploring the relationship between man and nature. Or maybe he was just being playful, adding a touch of whimsy to his sketches. Either way, they don't have much functional use out here on the beach."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just... give me a second.",
+      "response_pred": "I know, it's not looking good. Let's just... try to stay positive, okay? We've got this."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah I'm going. Come on, let's go together.",
+      "response_pred": "I'm heading over, let's go. Hop in if you're ready."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Phase--2",
+    "agreeableness": "87.0",
+    "openness": "57.0",
+    "conscientiousness": "69.0",
+    "extraversion": "10.0",
+    "neuroticism": "47.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.",
+      "response_pred": "Hey, it's okay. You don't have to say anything. Just... sit down for a minute, okay? We're all here."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. I'll take hard to be around over the alternative.",
+      "response_pred": "Yeah, I get it. We've all been struggling in our own ways. Trying to stay focused on what we need to do won't make it magically go away, but it's something, you know?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the half-built raft*\n\nAlright, I'm gonna start cleaning this up. Not because we have to, just... feels wrong to leave it like this.",
+      "response_pred": "Hey, we need to do something. We can't just sit here all day. Who's on first-aid and who's on the shelter?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's hard, huh? Home's a long way away now, but it's good you're still thinking about it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And honestly, if things had gone worse, maybe that would've mattered. But we're three hours out now, so.\n\n*looks at the food*\n\nYou want to just... eat it? All of us, together, before they get here?",
+      "response_pred": "What is it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd be less passive about the Donatello thing earlier. I saw what was happening with the food and the bottle and I kind of... waited. Talked around it instead of just saying it directly. That cost us some trust we didn't have time to lose. \n\nWhat about you — what are you writing down?",
+      "response_pred": "I don't know, I guess I'd try to be more honest about Donatello's hoarding from the start. Maybe we wouldn't have wasted as much time and energy if we'd just addressed it sooner."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that tracks. Send me a copy when you're done though, genuinely. I'd read it.",
+      "response_pred": "That's good, but don't forget to include the specifics of our current situation in the report. We don't know what happened to the plane, and our resources are limited. We should list everything we have, including what we've used so far, and make a plan for sustainable use."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point though, right?",
+      "response_pred": "Honestly, I think they were just for morale. It's easy to lose track of time and what's real when you're stuck in a situation like this. I think DaVinci was trying to remind us that there's still beauty in the world, even when things are tough."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "Hey, I'm good. Just resting my eyes."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, I'm going. Stay behind me, just in case."
+    }
+  ]
+}

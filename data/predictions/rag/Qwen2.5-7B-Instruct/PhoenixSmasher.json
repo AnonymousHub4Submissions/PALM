@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PhoenixSmasher",
+    "agreeableness": "2.0",
+    "openness": "87.0",
+    "conscientiousness": "10.0",
+    "extraversion": "98.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": "33.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. We're good. We made it.",
+      "response_pred": "We need to keep moving. Can't stay here."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. That counts for a lot.",
+      "response_pred": "Yeah, heard you're pretty stressed out. Just throw yourself into something that makes you forget, you know? Maybe a good binge-watch or a long drive. We all need a break."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this place up. We're not leaving it like this. Michelangelo, get up, help me stack the panels. DaVinci, start breaking down what we built and sort what's worth taking back from what isn't. Three hours is plenty of time.",
+      "response_pred": "Hey, come on. We need to stick together. Who's gonna take charge if no one does? Let's move, already."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Did it feel like you were really there? Dreams can be so vivid sometimes."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all went hungry together. That's the part that's hard to get past.",
+      "response_pred": "Got it. But emergencies are for emergencies, not for that little spill. Let's use something else if we can."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group conversation about the food earlier instead of waiting. That needed to happen sooner. Other than that... I don't know. We made it. Hard to argue too much with the outcome.\n\nWhat's your answer?",
+      "response_pred": "If I had to do it over? Nothing. This is how it goes. Might as well make the most of it. Just... next time, maybe a better team. But that's not up to me."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "Yeah, yeah. Just get it done as fast as you can. I need those numbers by the time I get back."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that might've been the point.",
+      "response_pred": "They were markers, ya know? For navigation or maybe signaling. Something like that. I think DaVinci wanted to keep track of our progress or mark important spots."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "It's not over yet. We keep going, right? We can do this. Come on."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "You bet. Let's make this count. Don't look back."
+    }
+  ]
+}

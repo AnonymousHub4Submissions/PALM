@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "meyayo",
+    "agreeableness": "91.0",
+    "openness": "17.0",
+    "conscientiousness": "30.0",
+    "extraversion": "7.0",
+    "neuroticism": "43.0",
+    "gender": "f",
+    "age": "16.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "davinci.. say it. whatever it is just say it",
+      "response_pred": "I think this persona's typical response length is medium to long, often showing empathy and concern for others in their answers. Their tone tends to be warm and gentle, especially when dealing with emotions or personal issues, but can also be blunt when necessary to address a problem. They often use a calm and level-headed approach to try and resolve conflicts or difficult situations.\n\nThey would specifically say to this utterance: \"hey, are you okay? you look like you've been crying. do you want to talk about it or just sit down for a bit?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "hey donatello.. honestly yeah, there were some moments lol. but like.. you kept us alive. the rationing plan, the calculations, the raft, tracking everything — that was all you. i don't think we'd even be here right now without that\n\ni think you just show you care in a really different way than the rest of us do. and that's okay. it took me a little while to see that but i do\n\nso.. thank you. genuinely :)",
+      "response_pred": "I know what you mean, it's not easy being around someone who's struggling. I've seen you try to hold it together, but it's okay to not be okay. We've all been there, and I think that's part of why we're all trying to stick together here. It's not about being easy to be around; it's about being human, and that's something we all need to be a little more okay with, I think. What's been going on, is it something specific that's been weighing on you, or is it just... everything?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at everyone doing their own thing and kind of laughs softly to myself*\n\nokay so.. should we maybe clean this place up a little before they get here? like i know it doesn't technically matter but it feels weird to just leave it like this lol\n\nalso i don't know, i kind of don't want the last three hours to just be everyone off in their own corner. we went through a lot together. like a lot a lot. and in three hours we're all just gonna go back to our normal lives and that's kind of wild to think about\n\nmichelangelo what are you thinking about up there :)",
+      "response_pred": "hey guys, i think we're all just kind of checking out for a bit, huh? that's understandable, but maybe we should try to stay together a little longer? i don't know, just feels like it's a little safer when we're all in the same place, you know? and we've got our signal stuff to think about still, so maybe we can all just sit together for a bit and catch our breath, see if anything else comes to us?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "oh yeah? what was it like?",
+      "response_pred": "oh, i'm really glad you told me that. home is definitely on my mind a lot lately too. do you think your dream was a good sign or was it more like... a release or something? i've had weird dreams about home too, and sometimes i wonder if it's just my brain trying to hold onto something familiar"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i hear you.. and i think part of me gets it. like in your head you were probably thinking worst case scenario and making sure there was something left\n\nbut donatello.. we were all scared and hungry and going through it together. and knowing you had extra this whole time, even with good intentions, that's hard to just brush past you know?\n\ni'm not going to be mad at you about it. i think you genuinely believed you were doing the right thing. but i hope going forward, wherever we end up after this, you let people in a little more. like you don't have to carry everything alone and you don't have to protect everyone from a distance\n\nyou're actually really good at looking out for people. i just think it would mean even more if they knew you were doing it\n\n*looks at the food for a second*\n\nwe should probably share it before rescue gets here lol. go out on a good note",
+      "response_pred": "oh um okay that makes sense, but do you think it's really an emergency situation at this point? like we've got some supplies and we're waiting on rescue, so maybe it's not necessary to save it for now? or are you planning on going somewhere specific where you'd need it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "oh wow.. this is a lot to take in actually. like seeing it all written out like this\n\n*flips through a few pages*\n\nhonestly i think i would have spoken up faster in certain moments. like there were times i noticed something was off — with you, with the food situation, with how michelangelo was doing — and i kind of sat with it too long before saying anything because i didn't want to cause tension or make things weird. i do that a lot in real life too lol\n\ni think i also would have checked in on everyone more intentionally instead of just when it was obvious something was wrong. like not waiting for a breakdown to ask if someone's okay, you know?\n\nbut honestly? i don't know if i'd change that much about the big stuff. like the decisions we made together mostly felt right even when they were hard\n\nwhat about you.. what's your answer going to be",
+      "response_pred": "honestly i'm not even sure at this point... i mean, we've been through so much and it's all still really raw. but if i'm being totally honest, i think i would try to be more open about my own fears and stuff from the start. not just mine, but i think if we all shared more of what we're really feeling it might've made things a little easier to talk about. don't get me wrong, i'm not saying it would've changed everything or anything, but i do think it might've helped us feel a bit less alone, you know? like, we all said we're in this together, but sometimes it feels like we're just kinda... going through the motions. does that make sense?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "that's actually really cool honestly.. like not a lot of people would think to do that. it could genuinely help someone someday\n\n*hands the notebook back*\n\ni think you should answer your own question in it too though. like actually write it down before you turn it into a report. i feel like that part matters just as much as all the data",
+      "response_pred": "oh okay that sounds like a lot of work, are you sure you're up for compiling everything yourself? like wouldn't it be easier to spread it out among the group so it doesn't feel like one person's got the weight of it? we can all take a look at the data together and make sure we're on the same page"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "i don't think they had a practical purpose honestly.. like they weren't going to help anyone find us or keep us alive or anything like that\n\nbut i think that's kind of the point? like davinci drew them because he needed to put something good into a really awful situation. it was just a small way of saying we're still here and we're still human and things can still be a little beautiful even when everything is terrible\n\ni think about the SOS and i see survival. i think about the flowers and i see davinci\n\n*looks out at the boat on the horizon*\n\ni don't know, maybe that's what they were for. not for rescue. just for us",
+      "response_pred": "oh man, i know what you mean about the flowers. at first i thought they were just something pretty to look at, but then i realized davinci was drawing them because he was trying to keep some sense of normalcy out here. like, flowers are usually associated with beauty and life, and he was using that to remind us that even in the middle of all this chaos, there's still something beautiful to be found. it's not so much about the practical purpose as it is about the emotional one – like, it's a way for us to hold onto hope and remember that we're not just survivors, we're still human beings who have feelings and emotions."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "hey.. sorry i just\n\n*laughs a little, kind of watery*\n\ni don't know why i can't move lol. like the boat is right there and my brain knows that but my body is just kind of.. not cooperating\n\ni think i'm okay. i just need a second\n\n*looks at davinci*\n\nyou don't have to wait for me, go ahead. i'll be right behind you i promise",
+      "response_pred": "hey, i'm just taking a sec to process everything, i'm okay i think"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah.. yeah okay let's go\n\n*takes a breath*\n\ncome on then, let's go together",
+      "response_pred": "oh my god!! that's amazing news, i'm so glad you told me. let's get the others together and make sure everyone's ready to go, i don't want anyone to get left behind"
+    }
+  ]
+}

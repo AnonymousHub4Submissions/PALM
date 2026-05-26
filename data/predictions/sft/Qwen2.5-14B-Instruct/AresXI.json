@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AresXI",
+    "agreeableness": "88.0",
+    "openness": "83.0",
+    "conscientiousness": "45.0",
+    "extraversion": "5.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "AresXI__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it. Right now, just answer it.",
+      "response_pred": "\"N-nothing, not like I have a voice or anything. No point trying to speak, won't help. I don't know what happened, I just remember her saying something and then... then I was down there and I just kept digging. And then I found it, I don't know how, but I did and then I just... ran. I... I didn't know what else to do. I'm sorry, I'm so sorry. I just...\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us organized when nobody else was thinking straight. The rationing plan, the inventory, the raft calculations, keeping track of everything. That stuff mattered even when it was hard to hear. You're not easy but easy doesn't keep people alive out here.",
+      "response_pred": "It's been hard on all of us. It's been hard on you, is what I'm really trying to say."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's not just leave this place looking like a disaster. Three hours is enough time to at least break down what we can and not leave a total mess behind. DaVinci, you good to help pack up the camp? Michelangelo, whenever you're ready, even just small stuff helps. No rush but we should probably leave this place better than we found it if we can.",
+      "response_pred": "Was it just my imagination or did the tension get thicker since we got away from the crash site and all the smoke and blood and screaming? I don't know how to fix that. I didn't ask for this. I just want to be on the raft and get home. Not lose people."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "That's a good dream to have right now. What was it about?",
+      "response_pred": "Yeah, me too. I miss my parents. I miss the dog. I miss my room, I miss my friends, I miss just walking around town and getting a coffee. I miss my house. So I get it, you miss home. I get it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also believe you knew we were already rationing and that everyone else was doing it together. Look, you laid it out so that's something. But don't act like the emergency justification makes it clean because it doesn't. We all had emergencies out here. Michelangelo was falling apart, DaVinci was holding himself together with duct tape, I was running on nothing. The difference is none of us were quietly stashing supplies while logging everyone else's movements. \n\nI'm not going to hold it against you forever, especially not today when rescue is three hours out. But you should probably say something to them too, not just me.",
+      "response_pred": "Understood. I wouldn't have judged you either way. That guy in the raft, he got it and there's nothing to say he didn't need it. If you're holding back for when it's actually an emergency, that's smart. I don't know what the future holds for us but that's a good rule to have."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably check in on people more deliberately instead of just when things were already falling apart. I was reactive a lot of the time, waiting until Michelangelo was already in a bad place or DaVinci was already cracking before I said something. \n\nWhat would you change?",
+      "response_pred": "You've been putting a lot on yourself but I'm getting the feeling you don't actually want anyone else to answer that question. You want to answer it yourself and then probably feel bad about yourself because you're human and that's how that works. \n\nIf you need someone to answer it though, I'll take a swing at it. You should probably have talked to DaVinci and Michelangelo sooner about the emergency rationing thing. They're both pretty close to a breaking point right now and you don't have to be friends to know when someone's close to falling apart."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That actually sounds like something worth doing. Might be useful if anyone else ever ends up in a situation like this, having actual data from real conditions instead of just theoretical survival guides. Just maybe lead with the parts where people held it together instead of just the parts where the numbers worked out.",
+      "response_pred": "That's a good call — I'm not surprised you're thinking in terms of a report. I think Michelangelo and DaVinci would appreciate the effort to organize all that, especially Michelangelo. He was pretty frazzled out there. \n\nI'm going to try to get something written up too. Not a report — just something to remember this by that's not a report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That's kind of the point. Not everything out here had to. We needed the SOS for rescue, sure, but we also needed to feel like we were still people and not just bodies trying to survive. That's what the flowers were for.",
+      "response_pred": "None, but there was a point to them. Michelangelo got knocked around a lot and had a hard time holding onto much of anything. Those flowers, and the raft drawings, and the rations list were all different ways of Michelangelo keeping track of what mattered to him. Nothing in the middle of the ocean is going to keep you alive, but the stuff you bring with you is still part of the fight to stay alive."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.",
+      "response_pred": "I'm still here. Just had something to pack up."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go home.",
+      "response_pred": "I'm going. We're going."
+    }
+  ]
+}

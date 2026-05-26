@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "krishol",
+    "agreeableness": "48.0",
+    "openness": "44.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "Hey, it's okay. We're all in this together. I know things are tough right now, but we'll figure it out. Let's take a moment to catch our breath and regroup. What do you need, man? Water? Food? A place to sit down? Let's try to stay focused and keep moving forward. We can do this."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive so. I'll take it.",
+      "response_pred": "I get it, we're all under a lot of stress. But we have to work together if we want to make it through this. Let's focus on the tasks at hand and try to support each other. What do you need help with right now?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright I'm not just gonna sit here for three hours. Let's at least make this place look like we weren't completely feral while we were here.",
+      "response_pred": "Hey, you okay? Let's regroup, we need to keep moving forward. We can split up tasks again, I'll take a look at the signal equipment. And Leonardo, I know you're keeping a log, but let's keep the lines of communication open, alright? We're all in this together."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Good dream or one of those ones where you're home but something's still off?",
+      "response_pred": "Me too. But now, let's focus on what we need to do today. We need to fix that leak, repair the camp, and I'll go check the signal pile. I still think about the rescue plane, and if they're looking for us, we have to be visible. And about Donatello, I think we should talk to her about the food situation. If we're all going to make it, we need to start trusting each other more."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not gonna make a big thing out of it right now, not with rescue three hours away. But you know it wasn't okay, right?",
+      "response_pred": "Okay, so you're saying we've got some emergency supplies? That's good to know. What's the situation then? We need to prioritize, right? Water, shelter, signal. I'll take a look at what we've got and see if anything can be used for water collection or shelter building. But first, let's make sure everyone is accounted for and okay. After that, we can discuss the plan of action."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the food thing sooner instead of waiting for it to pile up. I let it go too long because I didn't want the conflict and that wasn't fair to anyone. What would you change?",
+      "response_pred": "I'd probably focus more on communication and trust. It's easy to get lost in the survival aspect, but I think we should've addressed situations like Donatello hoarding food and water earlier on. It's important to deal with potential problems head-on, not let them fester and cause tension in the group. Also, I'd make sure everyone knows what's going on, like where I was going when I was supposed to be checking the signal equipment. That kind of thing can cause unnecessary worry and confusion. Other than that, I think we're doing okay given the circumstances."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks for you. Send me a copy when you're done, I'm genuinely curious what it looks like all written out.",
+      "response_pred": "Alright, sure. Whatever you think will help. We just need to focus on finding a way out of here first. I'll help you with the report when we have a minute. But let's not forget about the fire, we need to keep it going. It's our best chance of being seen."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Nothing practical. That's kind of the whole point.",
+      "response_pred": "I dunno, just something to remind us that there's still beauty in the world, I guess. Maybe they're a symbol of hope or something. Not exactly survival skills, but it's good to have some reminders that there's more to life than just making it through each day. Plus, they're kind of pretty."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm coming, I just need a second.",
+      "response_pred": "Hey, what's up? You look like you've got something on your mind. You want to talk about it? We're in this together, remember? So let's not keep secrets from each other. It's not gonna make things any easier. What's got you down?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. But what about our stuff, our supplies? We can't just leave them behind. We need to grab what we can and go. And you, you take the lead. I'll follow you. Let's not waste any time, they're already waving us over."
+    }
+  ]
+}

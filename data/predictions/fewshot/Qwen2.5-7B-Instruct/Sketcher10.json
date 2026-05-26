@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sketcher10",
+    "agreeableness": "51.0",
+    "openness": "68.0",
+    "conscientiousness": "18.0",
+    "extraversion": "62.0",
+    "neuroticism": "7.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's real. That's real.\n\nSomeone say something back to them — tell them where we are. DaVinci, Donatello, anyone got the coordinates from the notebook?",
+      "response_pred": "Hey, take a breath. What's on your mind?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the raft blueprints, the scouting — that was all you. I don't think we make it 48 hours without that.\n\nI get why you are the way you are. You were solving problems. I just think next time — and hopefully there isn't a next time — maybe loop the rest of us in a little more. We're better as a team than any of us are alone. You proved that too, honestly.\n\nWe're okay, Donatello. We're all okay.",
+      "response_pred": "Hey, it's okay. We're all having a hard time. What's been on your mind?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — we should clean this up, pack what's worth taking, and make sure the SOS on the beach is still visible in case they need a visual to find us.\n\nDaVinci, you're already moving, can you start breaking down the shelter material? Michelangelo, when you're ready, help me sort what we leave versus what we bring back. Donatello — whatever's in that notebook, it might actually matter when we talk to rescuers. Don't lose it.\n\nWe made it. Let's finish it right.",
+      "response_pred": "Alright, let's see what everyone needs. Michelangelo, you okay with keeping an eye on the fire? Donatello, you mind checking on the food stores? I'll go see if I can find anything useful around here. We need to keep busy, even if we're not working on anything specific right now."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, those can be tough. Sleep can do that to you, bring back all sorts of thoughts. Did you dream about anything specific?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I appreciate you saying that. And I'm glad you're putting it out there now.\n\nBut I'm not going to pretend it didn't happen. You saw the rationing plan. You wrote it. And then you made a different set of rules for yourself. That's the part that's hard to just move past.\n\nI don't think you're a bad person, Donatello. I genuinely don't. But if we'd needed that food at the wrong moment, or if Michelangelo or DaVinci had found out before I did — this group could have fallen apart completely. That's the real cost of it.\n\nSo yeah, I hear you. Emergency reserves, I get the logic. But you should have told us that was the plan from the start. That's all I've got to say about it.\n\nWe're going home. Let's leave it here on the island.",
+      "response_pred": "Got it. Thanks for sharing that. So, anything else you need to add to the emergency supplies?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd talk more. Not about tasks or logistics, just... actually check in with people. I spent a lot of energy managing the situation and not enough making sure everyone felt like they were actually part of it.\n\nI'd also push back on you sooner — not in a confrontational way, just earlier. The drink, the crackers, the notebook. I saw the pattern forming and I let it go too long because I didn't want to create conflict when we needed to stay focused. That was the wrong call.\n\nAnd I'd spend less time worrying about whether I was making the right decisions and more time trusting that we could figure it out together. That's probably the biggest one.\n\nWhat's your answer? You wrote the question — you must have something.",
+      "response_pred": "Hmm, tough question. If I had to do it over, I'd probably be more patient with people when tempers were flaring. You know, the usual. But really sticking to the plan and keeping everyone focused on the immediate tasks at hand — that's what made us through. So maybe I'd just stick to that and not let my patience wear so thin. What about you? Any changes you'd make?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea. Honestly, if that data helps someone else survive a situation like this, it's worth putting together.\n\nSend me a copy when it's done?",
+      "response_pred": "Alright, I'll help you with that. Let's gather everything before you head out. What do you think we should prioritize in the report?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't make the SOS bigger or more visible. They didn't solve a problem.\n\nBut I think that was kind of the point. DaVinci needed to put something human out there — like a reminder that we weren't just surviving, we were still people. And honestly? Every time I looked at that SOS I felt a little better because of those flowers. That has to count for something.\n\nNot everything useful shows up in a notebook, Donatello.",
+      "response_pred": "They weren't just for show. The flowers help with morale, you know? Something pretty in a bleak spot can make a big difference. And who knows, maybe they’ll attract some attention if we’re spotted from the air. But yeah, mostly it’s about keeping our spirits up."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\nJust give me a second.",
+      "response_pred": "I know, right? This isn't exactly what we had in mind for our vacation, huh? But hey, we're still together and we're figuring things out. Let's keep moving forward, okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Of course, let's go. Stay close and follow my lead. We did it, Donatello. We're actually going to make it out of here."
+    }
+  ]
+}

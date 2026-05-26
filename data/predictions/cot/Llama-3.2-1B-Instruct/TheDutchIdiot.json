@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "TheDutchIdiot",
+    "agreeableness": "19.0",
+    "openness": "6.0",
+    "conscientiousness": "23.0",
+    "extraversion": "37.0",
+    "neuroticism": "36.0",
+    "gender": "m",
+    "age": "32.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "Your one-paragraph analysis:\n\nThis persona's typical response length is brief and to the point, often using simple sentences to convey their thoughts.\n\nTheir tone is calm and measured, with a hint of concern and empathy, particularly when it comes to DaVinci's emotional state.\n\nWhat they would specifically say to this utterance:\n\nOther's silence is a direct response to the intensity and emotional depth of his unspoken concerns for DaVinci. His words are filled with compassion and understanding, yet his own emotional vulnerability is left unexpressed, leaving the others (and the reader) to infer his true feelings."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. All that planning, the rationing, the raft — that stuff mattered. Even when it was annoying as hell.\n\nWe're good.",
+      "response_pred": "<i>It's not easy being a good friend, you know? I've realized that in the chaos of this situation, I've been pushing everyone's buttons. I've been trying to keep the peace, to keep us all from letting our guard down. But sometimes, that means sacrificing my own emotions, my own feelings. And that's not something I'm exactly proud of.</i>"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can afford to actually clean this place up a bit before they get here.\n\nDaVinci, leave the packing for a second — help me get the camp sorted. Michelangelo, when you're ready.\n\nNot going to leave this place looking like a disaster zone if we don't have to.",
+      "response_pred": "\"Okay, let's get one thing straight. We're not leaving yet. We're not going to just pack up and get out of here without making sure we've got everything sorted. We need to check the supplies, make sure the food's not spoiled, and get the raft ready. I know we've got a few days ahead of us, but we can't just coast on autopilot. We need to stay focused and work together. You, Donatello, take point on the supplies and the raft. Michelangelo, make sure the fire's not getting out of hand. I'll start checking the SOS equipment and make sure we're all accounted for. Let's get to work, we've got a long night ahead of us.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or rough one?",
+      "response_pred": "Just a small comfort."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah. I figured.\n\nLook, we made it. So I'm not going to stand here and relitigate it. But you know what you did and you know why it was wrong, and I think that's probably enough.\n\nKeep the food. Distribute it fairly before the rescue team gets here or don't, up to you. Just don't insult us by pretending it was purely strategic.",
+      "response_pred": "They're probably thinking about the flight path, Donatello's habits, and the fact that they're stuck together for now."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much on the practical side. The water run, the raft, the signals — that stuff was solid.\n\nI'd have caught the hoarding earlier. Should have been paying closer attention in the first couple of days instead of waiting for Michelangelo to notice things.\n\nAnd I'd have spent less time managing everyone's emotions and more time just letting people be what they are. DaVinci's going to draw flowers on the beach, Michelangelo's going to sit with his fear, you're going to log everything in a notebook. That's just who you all are. Took me a day or two longer than it should have to stop fighting that and just work with it.\n\nWhat's your answer?",
+      "response_pred": "They consider the resource and decision log, which suggests they're taking a reflective approach to their experience</response>\n\nthey're also thinking about the future, specifically the question of whether they \"had to do it over\" and what they would change if they had the chance</response>\n\nTheir tone is reflective and slightly introspective, as if they're evaluating their own performance and what went wrong"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah that sounds about right for you.\n\nSend me a copy when it's done. Genuinely curious what it looks like laid out properly. Might be useful for something, who knows.",
+      "response_pred": "Yeah, that's a solid plan. We've got a lot of work to do before we can even think about sending out a distress call. But compiling that report will help us see what we've got and what we need to work on to get back on our feet. You know, it's funny, when we first got here, we thought it was all going to be over soon, but this is actually a lot harder than we thought."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nHe wasn't doing it for a practical purpose, he was doing it because it kept him human. Kept all of us human honestly. You can't run on pure survival logic for five days without losing something.\n\nThe flowers stayed.",
+      "response_pred": "Personality: Agreeable, yet logical and practical, with a hint of philosophical introspection.\n\nReply: Not saying it's just for show, but it actually helped to calm the nerves when things got tense. I didn't mention it earlier because I wanted to focus on the practical aspects of surviving, but now that you mention it, those flowers did have a calming effect on me."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "\"Hey, you okay? You looked like you just checked out. What's wrong?\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'd already checked the raft, it's all in order, no leaks, no issues. I can see them from here, the rescue team is gathered around the plane, waving us over. They're not just waving, they're holding up signs and flags, it's like they want us to know we're being rescued. I'm not sure what to make of it, it's a weird feeling, like I'm being pulled together towards something, but I'm not really sure what."
+    }
+  ]
+}

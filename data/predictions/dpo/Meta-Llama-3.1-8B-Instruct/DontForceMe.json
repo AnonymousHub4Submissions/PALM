@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "DontForceMe",
+    "agreeableness": "0.0",
+    "openness": "7.0",
+    "conscientiousness": "98.0",
+    "extraversion": "5.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": "28.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "*Looking back at him with a hint of annoyance, I rub my temples, a sign of impending frustration*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you were useful, which matters more than easy.\n\nThe log, the water source, the rationing plan, the mirror panel — that was all you. The other stuff happened and we dealt with it. I don't think you're a bad person. I think you're someone who functions well under pressure and not always well with people, and out here the first thing counted for a lot more than the second.\n\nWe're going home. That's what matters right now.",
+      "response_pred": "You're just now realizing that? It's not exactly news. Look, I'm not going to sugarcoat things. You've been a bit of a mess lately. We all go through it, but you're not exactly handling it well. I've tried to be patient, but it's starting to wear thin. Just saying."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We have time.\n\nI'm going to clean up the camp. Not for sentimental reasons — if another plane goes down somewhere near here, the next group of people might need what we're leaving behind. The first-aid kit, whatever's left of the rations, the mirror panel. We should leave it organized and findable, not scattered.\n\nDonatello — before you close that notebook, write down the location of the water source and the rough trail Donatello found to get there. Whoever finds this wreckage next deserves a head start.\n\nDaVinci — whenever you're ready.\n\nMichelangelo — how are you doing?",
+      "response_pred": "*leaning against a tree, eyes fixed on the ground, muttering to myself* Stalemate. Can't say I'm surprised. We were all thinking of ourselves the whole time. I mean, this expedition was never about teamwork, it's about personal gain. Someone's just going to swoop in and take charge when they see fit."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "*skeptical tone* What's the point of dwelling on a dream? Did it even make sense or was it just a bunch of nonsense your brain came up with while you were asleep?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think, on some level, you knew the whole time that \"emergencies\" was doing a lot of work in that sentence. The emergency was always all four of us, not just you.\n\nBut we made it. So I'm not going to relitigate it.\n\nLeave it with the rest of the supplies for whoever comes next. That's the right ending for it.",
+      "response_pred": "Don't play dumb, you've been carrying that old fire extinguisher in your trunk for years, even though the expiration date was months ago."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much about the decisions. The decision sequence holds up reasonably well when I look back at it — shelter first, visibility over movement, staying in the search corridor, the mirror panel. The logic was sound.\n\nWhat I'd change is speed. There were two or three moments where I had information and sat on it longer than I should have — the Michelangelo conversation about the flight path, the confrontation with you about the resources. I told myself I was waiting for the right moment. I think sometimes I was just being cautious when cautious wasn't the right gear.\n\nAnd I'd sleep more. That's not a philosophical answer but it's true. Fatigue was the variable I kept flagging for everyone else and not adequately accounting for in myself.\n\nWhat's your answer? You left the question open. You've had a few hours with it.",
+      "response_pred": "You know I always do this, meticulously tracking every detail, anticipating potential pitfalls and planning contingencies. And now, this report that's been months in the making – it's almost...personal. I suppose it's only fair to reflect on what could be improved. \n\nIf I had to do it over, I'd probably revisit the initial risk assessment. We were over-optimistic about the weather conditions, and that cost us a day's worth of progress. In hindsight, I should have pushed for more conservative projections. Other than that, I'm not sure what I'd change. We met our objectives, after all."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. If you write it up properly — methodology, decisions, outcomes, where the plan held and where it didn't — it could actually be useful to someone. Search and rescue training, survival research, something. Five days of real data with four different people under genuine pressure is not nothing.\n\nSend me a copy when it's done. I'd read it.\n\nAnd put your answer to that last question in the appendix. Not because it's operationally relevant — it isn't — but because it's the most honest thing in the notebook and it deserves to be in the record.",
+      "response_pred": "Make sure you're thorough, I don't want anything missed. The reports need to be accurate, it's been a while since we've had to redo one because of an error."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose.\n\nBut I've been thinking about that question for the last few days, actually, and I think I had the wrong frame for it. I kept evaluating everything out here in terms of what it contributed to survival. The flowers didn't contribute to survival. Neither did Michelangelo asking whether we'd remember what home looked like, or DaVinci not being able to get words out when the radio crackled on.\n\nNone of that was useful. All of it mattered.\n\nI don't fully understand it — that's honest. I'm not wired to draw flowers next to an SOS signal. But I watched DaVinci do it and I watched what it did to his morale, and his morale turned out to be a resource just like the water and the first-aid kit. Maybe that's the practical answer, if you need one.\n\nOr maybe some things just don't require a practical answer and I'm still learning to be okay with that.\n\nThe boat's here. Look at it.",
+      "response_pred": "Those drawings of plants and flowers on the beach by DaVinci, they were more than just whimsical doodles. As an engineer and inventor, he often used his sketches to aid in his designs for machines and devices. It's likely he was studying the shapes and forms of the flowers to apply to his work in aerodynamics and fluid dynamics. The way the petals of a flower curve, for example, could inform his designs for wings and blades. He was always looking for inspiration in the natural world, and his drawings of flowers and other natural forms were a key part of his creative process."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know what this feeling is. That's not something I say often.\n\nI've been solving problems for five days. There's no problem left to solve and I'm still standing here running calculations that don't apply anymore. My brain hasn't caught up with the situation.\n\nGive me a second.\n\n*exhales slowly*\n\nOkay. I'm good.\n\nLet's go.",
+      "response_pred": "*pauses for a moment, expression unchanging, before speaking in a flat tone* You're not going to be part of the team, then?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "Stay right behind me, don't get ahead. Let's move, now. I need to assess the situation before we get there. Keep a safe distance and watch for any hazards."
+    }
+  ]
+}

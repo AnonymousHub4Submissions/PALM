@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "*The air is thick with unspoken emotions as I take a step forward, my eyes fixed on the other, my tone gentle but firm.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "I've been a bit of a homebody lately, to be honest."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "*The sound of a gentle stream drifts through the trees, and I walk over to sit on a nearby rock, eyes scanning the surroundings, a hint of a smile on my lips.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "I sat up straight, my eyes narrowing slightly. \"What happened in the dream?\" I asked, my voice low and even."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "Other: Yeah, I really needed it. The power went out. We were stuck for a day.\nYou: That's not an emergency, that's a necessity. We can ration the water in the nearby stream if we have to."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "Other: I've been pondering it, actually. What if I had been more cautious in the beginning? What if I had prepared for that contingency more thoroughly?\n\nYou:"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "\"Sounds like a great plan, I'll help you piece together what we've learned. What kind of report are you thinking of? Something to share with the team or maybe to help the camp make some informed decisions?\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "\"Those intricate designs DaVinci created on the sand, they were for more than just aesthetic pleasure. He wanted to capture the fleeting beauty of nature, the way the light danced across the curves of the shell and the shape of the seagull's wings. He'd often sketch them out to... well, to get it all down, I suppose, to plan our next move and visualize the path ahead. It was a way for him to think, to anticipate and prepare for the challenges we'd face in this unforgiving wilderness.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "*Slowly, with a hint of amusement, I raise an eyebrow and say, \"You've been watching me for a bit, haven't you? I like that. It's usually not a good idea to be watching someone who's been watching someone else. *chuckles softly* You're a very perceptive one, aren't you?\"*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll be right behind you, we need to stay together and keep the momentum going."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "doctorbull",
+    "agreeableness": "98.0",
+    "openness": "99.0",
+    "conscientiousness": "5.0",
+    "extraversion": "4.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "doctorbull__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move — but nothing comes out.*",
+      "response_truth": "Hey. We're okay. We're okay.",
+      "response_pred": "*Words don't come either. Just the attempt, and the pain that follows.*"
+    },
+    {
+      "utterance": "These past few days — I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, and those two things are related. The same qualities that made you difficult to be around are the reason we're all still here to be bothered by it. I think you know that.\n\nFor what it's worth - the notebook, the rationing plan, the raft design, the water source. That was all you. We wouldn't have made it to a radio to receive that signal without the work you put in. I don't think that should go unsaid.",
+      "response_pred": "No, you haven't. But you also don't owe anyone an explanation for how you're feeling, and that's something I think you'd do for just about anyone else. What's going on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes the lead. The silence settles over camp.*",
+      "response_truth": "Three hours is a long time to just wait. I'm going to start breaking down what we built here - not because it matters practically, but because it feels wrong to just leave it. Anyone want to help or is everyone doing what they need to do right now?",
+      "response_pred": "You know, it's funny. When we first split up, I was worried that we'd never find the supply cache. But now, I'm not so sure. It's not that I don't trust you guys, it's just that we're good at finding things. And if we find it, do we really need to know how you found it? We find it, we bring it back, everyone goes home happy."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "It's funny, I had a similar feeling. More than anything, it was the thought of being in a place where time doesn't have the same meaning. What was the dream like?"
+    },
+    {
+      "utterance": "I kept it in case of an emergency.",
+      "response_truth": "I believe you. And I think part of you knew that wasn't the whole reason, which is probably why it's on the ground right now.\n\nWe don't have to make more of it than it is. You made a call that didn't sit right with you and you're correcting it before we leave. That's not nothing. That's actually harder than not taking it in the first place.\n\nWhat do you want to do with it?",
+      "response_pred": "It's not like you got any kind of notice. There was a leak. You saved the data. You're welcome."
+    },
+    {
+      "utterance": "I've logged every day — resources, decisions, all of it. Plan to turn it into a proper report once we're back. Last page I left a question I haven't answered myself: if you could do this over, what would you change?",
+      "response_truth": "I'd have talked to you sooner. Not about the supplies or the plans - you had all of that. I mean actually talked to you. I think I treated you like a system to work with instead of a person to know, and that was a missed opportunity that I'm only seeing clearly now that we're about to leave.\n\nWhat would you change?",
+      "response_pred": "That's a good question. There's a thread of frustration running through the whole thing, albeit a pretty small one. I think it's related to the schedule, specifically the day we were supposed to make the push to the cave but ended up turning back. If I had my way, I'd have tried to get you and the others to agree to press on, even if it meant moving the whole timeline a day. Would've been worth seeing if we could've gotten the data, even if it meant being out of there sooner. Not sure if it would've made a difference in the end, but it's the one \"what if\" that keeps popping up in my head."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to write up a report on the resource usage data from these five days.",
+      "response_truth": "That sounds right for you. I hope you actually send it somewhere useful - emergency preparedness people, aviation safety, whoever would actually read it. That data has value beyond the two of us knowing it existed.\n\nThough I'd say - maybe write the other thing first. The last page question. You already know the answer, you just told me. That one's worth getting down while it's still close.",
+      "response_pred": "How much time do you think that's going to take? We don't have a lot of runway on this project - and if we're going to get the funding extension through, the sooner we can show the results the better."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach... I never really understood it. What was the point of that, practically speaking?",
+      "response_truth": "It wasn't practical. That was the point.\n\nThere's a version of survival that's just keeping the body alive, and you did that better than any of us. But there's another version where you also remember that you're a person while you're doing it, and the flowers were that. DaVinci needed to do something that wasn't purely instrumental, something that was just... his. And it cost us nothing, and it made the SOS feel like it was made by people worth rescuing rather than just coordinates on a map.\n\nI think you understood it more than you're giving yourself credit for. You just didn't have a category for it in the notebook.",
+      "response_pred": "Oh, that's a good question. Practically speaking, it's not like he was trying to document the flowers themselves, right? He was drawing the attention to how light interacts with the flowers, how they change, how they move in the breeze... He was interested in capturing the fleeting moment, the life cycle of these tiny things. And by drawing them, he's drawing attention to the way light behaves, the way the world is perceived.\n\nAnd in doing that, he's also drawing our attention to the way our perceptions are limited. I mean, we can see these flowers, but we can't see the world in the same way that DaVinci's drawing does. He's creating a new way of seeing, a new way of understanding the world.\n\nAnd that's what I think he meant by 'the divine proportion' - not just the mathematical ratio, but the way the world is connected, the way it all fits together. He's not just drawing flowers, he's drawing the universe."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I didn't expect it to feel like this. I thought relief would be simple. It's not simple.",
+      "response_pred": "*His eyes narrow, curiosity and a little concern slipping into them. He steps forward, closer to the edge of the platform, where he can see you clearly. Still says nothing, just waits.*"
+    },
+    {
+      "utterance": "Rescue is here... they're waving at us. Are you going over? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yeah, go ahead. I'll give you a head start. Be careful, though."
+    }
+  ]
+}

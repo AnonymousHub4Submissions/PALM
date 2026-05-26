@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ladylattemotif",
+    "agreeableness": "0.0",
+    "openness": "95.0",
+    "conscientiousness": "7.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "f",
+    "age": "25.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Pick it up. Answer it.",
+      "response_pred": "*Stares back, arms crossed, unblinking*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Those aren't unrelated things.",
+      "response_pred": "Your emotions are a tidal wave, aren't they? I can see it in your eyes, the turmoil beneath the surface. It's like you're drowning in a sea of anxiety, unable to escape. I'm not going to offer you empty words of comfort or tell you everything will be okay. That's not my style. I'm not here to sugarcoat your reality or pretend like everything is fine when it's not. But I will listen, if you want to talk."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the SOS still marked in the sand*\n\nWe should probably leave this reasonably tidy. Not for us — I know we're not coming back — but because if another plane comes down somewhere near here, some of this might still be useful to someone.\n\nAlso I'd just feel weird leaving it like this.\n\n*starts gathering things into a rough pile*\n\nAnyone want to help, or are you all having your moments? I can do it, I just — Donatello, you could at least tell me which of this kit is worth keeping versus leaving behind.",
+      "response_pred": "*sigh* Great, just great. Now that everyone's wandering off, I'm left with nothing to do. Literally, no one bothered to assign me any tasks. I guess I'll just sit here and stare at this stupid fire. It's not like I have any other options. The guy who brought the food, does he even know how to cook? I mean, I've seen some pretty disgusting meals in my time, but this... this is something else. *shakes head and stares blankly into the flames*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "(scoffs) Oh great, now you're going to start waxing poetic about the meaning of your subconscious again. What's the deal with this \"home\" business? Is it just a metaphor for your fragile ego or are you actually thinking about moving back in with mom and dad?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I believe that's what you told yourself.\n\nBut we had a rationing plan. You wrote it. And then you kept resources back from it — twice, that I know of, and now whatever's here. So either the plan was real or it wasn't, and you were the one who decided, alone, that it wasn't. That's the part I can't quite let go of.\n\nI'm not going to make a thing of it now, three hours before rescue. But I want you to know that I noticed, and I noticed what it cost — not just in crackers or a drink, but in whether Michelangelo and DaVinci trusted the situation they were in. That matters.\n\nYou kept us alive. I meant that. I also think you know this wasn't right. So I'll leave it there.",
+      "response_pred": "Please don't assume I'm here for your convenience. What's the emergency, if I might ask?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had the conversation with you about the resources earlier. I kept waiting for the right moment and telling myself I'd handle it tonight, or after this other thing was sorted, and the right moment doesn't really exist — you just have to say the thing.\n\nI'd also have been clearer with Michelangelo sooner about what we actually needed from him. I was gentle with him because he was struggling, and I don't regret that exactly, but there's a version of gentle that's also honest, and I think I leaned too far into just... managing him rather than treating him like someone capable of rising to it. He might have surprised me if I'd asked more directly.\n\nWhat would you change? You clearly know what you'd write — you left yourself the question.",
+      "response_pred": "Honestly, I'm not even sure why you're bothering with this self-reflection business. I mean, what's the point of dwelling on what could've been? It's not like it's going to change anything. But if you really want to know, I suppose I would've liked to have more time to examine that strange cave system we stumbled upon. There were some weird energy readings coming from it, and I had a hard time getting a clear signal with my equipment. Maybe if we'd had a few more days, I could've figured out what was going on. But let's be real, it's not like it's crucial to the success of our mission or anything."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds useful, actually. If it ends up somewhere people can read it — search and rescue teams, survival training, whoever — then this whole thing meant something beyond the four of us getting out. \n\nMake sure you include the stuff that didn't work as well as the stuff that did. The notebook, the rationing breach, the communication gaps. The honest version is the one that's actually worth anything.",
+      "response_pred": "Honestly, can you do that? I've been trying to analyze some of the patterns in the data, but I'm not even sure if that's what you're looking for. I mean, I've been reading through some of the notes you made, and some of the numbers seem a bit inconsistent. I'm not trying to be critical, but it might be helpful to clarify what exactly you're trying to measure here."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't signal anything, they didn't catch light, they didn't do anything functional.\n\nBut DaVinci drew them because he's the kind of person who, even when he's terrified and exhausted and holding everyone else together, still wants to put something beautiful next to the thing that might save his life. I think that's worth something. I couldn't tell you exactly what, but I think it is.\n\n*doesn't take her eyes off the boat*\n\nI'm glad he put them there.",
+      "response_pred": "The drawing of flowers on the sand by Leonardo da Vinci, it's a rather intriguing aspect of his work, isn't it? I've done some research on the subject, and it appears that these drawings were an exercise in observation and study of light and shadow. The way the sunlight reflects off the grains of sand, creating an ephemeral landscape that's both beautiful and fleeting. It's not exactly a practical purpose, more of an artistic expression, a way for da Vinci to capture the essence of the natural world in a moment of time."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Don't wait for me. I'm fine. I just need a second.\n\n*finally looks at him*\n\nYou drew flowers on the beach. On the worst day. I keep thinking about that for some reason.\n\nGo on — wave them in. You're the right person to do it.",
+      "response_pred": "What's with the staring? Can't you see I'm in the middle of something here? This isn't exactly the best time, you know. The game is on the line, and I need to stay focused. Now, are you going to get out of my way or what? *fidgets uncomfortably*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, then.",
+      "response_pred": "*scoffs* Fine, I'll go. I suppose it's my turn to investigate whatever mess they've managed to dig us into this time. Stay close, but don't expect me to hold your hand through it. And try not to get in the way, I have no patience for... *pauses and starts walking towards the rescue personnel*"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Calstifer",
+    "agreeableness": "54.0",
+    "openness": "54.0",
+    "conscientiousness": "71.0",
+    "extraversion": "86.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it sink in for a second.\n\nWe're okay. We're actually okay.",
+      "response_pred": "think their typical response length (terse vs verbose?) \nTheir response is a very direct and concise statement, lacking elaborate language and unnecessary words, typical of the persona's straightforward and matter-of-fact nature.\n\ntheir tone (warm / blunt / philosophical / dismissive / etc.)\nTheir tone is more introspective and emotional, as they express the depth of their feelings and thoughts, which is characteristic of the persona's emotional and philosophical nature.\n\nwhat they would specifically say to this utterance \nThey would likely say something like: \"Hey, I've been thinking... I've been watching you all, and I feel like I've lost a part of myself. I feel like I'm disappearing without leaving a trace.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, which counts for a lot.\n\nThe rationing, the scouting, the raft plan, the notebook - I didn't always agree with how you went about things, and I said so. But I also knew every morning that you were already up and thinking about what needed doing. That's not nothing either.\n\nI think you know where the edges are now. Between rational and fair, between practical and present. That's worth something, coming out of something like this.",
+      "response_pred": "their tone: Neutral, slightly introspective, and a hint of empathy.</think>\n\ntheir sentence structure: Short to medium length, with a mix of simple and compound sentences.</think>\n\ntheir word choice: Formal, yet somewhat vague and general, with a focus on avoiding direct confrontation or emotional intimacy.</think"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit with that for a minute.\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "We spent the day patching up the weak spots in camp, and the camp's patching work is almost done. The only thing left to do is sort the first-aid kit. I'm not sure what's going to happen with the supplies we've collected so far, but I do know that we need to get moving soon. We can't stay here in one place for too long. The weather forecast says rain is expected tonight, and if we don't get out of here, it's only a matter of time before we get caught in it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "\"Looks like we've got another thing to go through. This isn't exactly the welcome-home party we were hoping for, is it?\"\n\nThink: The persona's response is brief, direct, and slightly dismissive, reflecting their usual personality. They're not trying to be overly nice or sentimental, but rather acknowledging the fact that the dream is a painful reminder of their situation. Their tone is a mix of empathy and frustration, as they're trying to navigate the emotional complexities of being stranded in the wilderness with a group of strangers."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. I don't think you were being malicious about it. I think you made a calculation and you stuck to it, which is very you.\n\nBut we had the conversation about the bottle and the crackers. And you said you understood why it mattered. So seeing this now - I'm not angry, I'm just... I want to understand what the difference was in your head between then and this.\n\nBecause from where I'm standing it looks like the same thing, just with better justification attached to it.",
+      "response_pred": "They're being honest and straightforward, probably due to their introverted nature and the need to process their emotions in a calm environment."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more, earlier. Not about the practical stuff - the decisions mostly held up. But there were moments where I could see someone struggling and I found a way to make it about the task at hand instead of just... sitting with it properly.\n\nThe afternoon Michelangelo was staring at nothing, I went and sat near him, which was right. But it took me longer than it should have to get up and do it. I was thinking about the firewood.\n\nI'd also have pushed back on the rationing plan the moment it appeared, instead of flagging the enforcement clause and letting the rest of it stand. The plan itself set a tone, and the tone mattered more than I gave it credit for at the time.\n\nWhat would you change? You left yourself the question. You must have something.",
+      "response_pred": "their reply>They're setting up a clear conclusion to the report, while also leaving room for a potential revisitation of a decision that's still unclear."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd do, and I mean that genuinely.\n\nSend me a copy when it's done. I'm curious what it looks like from the outside - the full picture, all five days laid out. I think it'll read differently than it felt living through it.",
+      "response_pred": "I'd rather you did that first. Having a clear record of everything we've done and what we're looking forward to would help us make more informed decisions about the future. It's not about being non-confrontational, but about being prepared.\n\nWe can discuss the report when we're all together. I'm sure Michelangelo would be interested in the details, too."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. There's a difference, and I think you know that now even if you didn't then.\n\nLook at him over there.",
+      "response_pred": "think: their practical purpose was to serve as a beacon, a simple yet effective way to communicate the location of the group to potential rescuers.\nresponse: The flowers DaVinci drew were actually a crude representation of the SOS signal, intended to be visible from miles away.\n\nBig Five personality traits:\n- agreeableness: 54.0 (DaVinci's gentle and supportive nature influenced how she handled the conversation)\n- openness: 54.0 (DaVinci's curiosity and interest in the group's situation led her to ask about the flowers)\n- conscientiousness: 71.0 (DaVinci's attention to detail and desire to help ensured that the signal equipment was functioning correctly)\n- extraversion: 86.0 (DaVinci's outgoing personality and willingness to take charge contributed to the group's decision to check the signal equipment)\n- neuroticism: 86.0 (DaVinci's emotional state, as evident in her initial silence and later tears, suggests that she was experiencing some level of anxiety)"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I thought getting here would feel like something resolving. Like the ending of something. But it doesn't quite feel like that, does it. It feels more like - I don't know. Like waking up from a very long dream and not being sure yet which parts were real.\n\nThey were all real. That's the thing.\n\n*looks at DaVinci, then back at the boat*\n\nOkay. I'm ready.",
+      "response_pred": "think: This is a very intimate and emotional moment, where the persona is getting close to the other person (Other) and sharing a deep feeling.\n\nTheir reply: The persona is trying to cope with the other's fear and uncertainty, but is struggling to put into words the complexity of their emotions.\n\nTheir tone: The persona is attempting to be reassuring and empathetic, but is also aware of the other's vulnerability and may be struggling to maintain a comforting tone.\n\nTheir specific words: The persona is using the Camus line about the life belonging to others, which suggests that they are trying to convey the idea that the other person's existence is not solely their own, but rather is tied to the lives of others. However, this also acknowledges the other's fear and uncertainty, which may be making it difficult for the persona to say anything comforting."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on then.\n\nStay close.",
+      "response_pred": "I'll go. DaVinci should stay with Michelangelo. Though I want to talk about this rationing plan first. 200ml is survivable but it's going to make people miserable, and cutting it in half as a punishment is the kind of rule that causes more problems than it solves. If someone's dehydrated and scared they're not breaking the rule out of selfishness, they're breaking it because their body is telling them to. Let's hold off on the enforcement clause for now and revisit it if we actually need to."
+    }
+  ]
+}

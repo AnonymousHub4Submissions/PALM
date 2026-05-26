@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "faissaloo",
+    "agreeableness": "6.0",
+    "openness": "74.0",
+    "conscientiousness": "75.0",
+    "extraversion": "59.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "sft",
+  "model": "faissaloo__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go on, answer it. Pick it up.",
+      "response_pred": "*Looks at him, concerned. His words are too quiet, and his eyes are closed. He's probably lost his train of thought.* \"Hey, are you okay? You okay?\" *Takes a step closer, speaking softly.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. We needed someone thinking straight, so.",
+      "response_pred": "*Looks at him, then back at the speaker. Provides a supportive nod.* Yeah."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave this place looking like this? Three hours isn't long, let's at least tidy it up a bit before they get here.",
+      "response_pred": "*sighs, looks around, then grabs a nearby stick and starts walking away. Doesn't look back.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Dreamed about what?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Fair enough. But next time just say that upfront instead of letting people find out on their own.",
+      "response_pred": "Yeah you never know."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've been more upfront with each other from the start. The Donatello thing with the food and the drink, Michelangelo not telling us about the flight path until way later — that stuff costs time when time matters. Other than that honestly I think we did alright.",
+      "response_pred": "Actually, I think I would change the whole thing. We're not even sure what the problem was yet, so how can we say it's not working?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, send me a copy when it's done. Might actually be useful.",
+      "response_pred": "I've got five days of data in here via my comms unit. I'll send it over to you when I get in tomorrow."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, they were just flowers. But not everything has to be practical.",
+      "response_pred": "Utilized as markers for the obstacles. I mean, if you're trying to get somewhere in a straight line, you don't need to mark where the end is with a bunch of flowers."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Go on without me, I just need a second.",
+      "response_pred": "*You nod at him, then back to the others, then just stand there for a moment, and then he's smiling again.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yeah, sure. Let's go."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "pinetreeteepee",
+    "agreeableness": "6.0",
+    "openness": "68.0",
+    "conscientiousness": "31.0",
+    "extraversion": "72.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe. We're good. We're actually good.",
+      "response_pred": "Hey, it's okay. Take a second. I know it's tough. We're all here for you. If you want to talk about it or just sit down again, that's cool. We're not going anywhere."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The water rationing, the raft plan, the notebook — all of it. Yeah some of it rubbed people the wrong way, me included. But honestly? Without that structure we probably fall apart on day two. So don't be too hard on yourself.",
+      "response_pred": "No, you've been through a lot. It's okay to not be at your best. We're all in this together, and right now, we need to stick together more than ever. How about we just take it one day at a time, and if you need a break or just need someone to talk to, I'm here."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this up a little — not for us, but just... leave it better than we found it. If someone else ends up here before a real rescue team does, a half-decent camp could matter.\n\nPlus I don't know about you guys but I'm not just gonna lie here staring at the sky for three hours. That's gonna feel like forever. Let's do something with it.",
+      "response_pred": "Hey, I know we've all had a long day. But we need to keep this going, alright? Michelangelo, can you start on the shelter repairs? DaVinci, do you want to handle the signal equipment? And Donatello, how about you head over to the freshwater source and fill a few more bottles? We don't want to run out. Let's just take a minute to regroup and get back to it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's not uncommon. Dreams about home can be a mix of comfort and longing. How did it make you feel when you woke up?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I get the logic — I do. But we talked about this. When Michelangelo found that bottle and those crackers, that wasn't just a supplies issue. That was trust. And out here trust is the only thing that actually keeps people from falling apart.\n\nYou kept us organized and that mattered. But this... this is the part that didn't. You know that right?",
+      "response_pred": "Yeah, I get that. Emergency supplies are crucial, especially when we don't know what's ahead. But can you show me where it is? We need to make sure everyone knows about it just in case something happens to you. No pressure, but it's better to be safe than sorry."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd push back on you earlier. Not in a confrontational way, but sooner. When I saw the bottle, when Michelangelo found the crackers — I waited too long to say something directly. I kept thinking about how to approach it instead of just approaching it. That's on me.\n\nAnd I'd check in on people more. Not just when something was already wrong. Michelangelo was struggling from day one and I caught some of it but not all of it. \n\nWhat would you write for yourself?",
+      "response_pred": "That's a really thoughtful idea. Documenting everything like that is just as important as setting up the SOS or working on the raft. But you're right — the question about what we'd change if we could do it over is a big one. It's a lot to think about, especially after everything we've been through. Maybe we should talk it through as a group, see what everyone thinks. It could help us all reflect and maybe even learn something."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually not a bad idea. You've got five days of real data — water consumption, food, weather patterns, decision points. If that ends up in the right hands it could genuinely help someone else in the same situation.\n\nSend me a copy when it's done. I'm serious.",
+      "response_pred": "Alright, that sounds like a great idea. But maybe we should do it as a group? It could help everyone stay on the same page and make sure we're not missing anything. What do you think?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all.\n\nBut that's kind of the point isn't it? We were out here surviving, rationing water, building rafts, logging everything in notebooks — and DaVinci still stopped to draw flowers next to an SOS sign. That's not logistics. That's just... being human. Reminding yourself why you're trying to get home in the first place.\n\nI think that's what you missed, and I don't mean that as a dig. You kept us alive with the planning. But the flowers kept us from just being alive. There's a difference.",
+      "response_pred": "They serve as a reminder that we're still human out here, you know? Like when I travel, I always find something to capture — a view, a moment. It's not just about survival, it's about holding onto what makes us us. DaVinci's flowers are his way of doing that. And hey, who knows? Maybe they catch someone's eye from above too."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know man. I thought I'd feel more when I saw it. Like relief, excitement — something. But I'm just standing here.\n\nMaybe it hasn't hit yet. Or maybe part of me got used to this. Which is a weird thing to realize about yourself.",
+      "response_pred": "Hey, no worries. I just needed a minute to process. What's up? You seemed pretty excited there for a second."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, I'm going. Stay close, okay? We've made it this far together, let's keep it that way."
+    }
+  ]
+}

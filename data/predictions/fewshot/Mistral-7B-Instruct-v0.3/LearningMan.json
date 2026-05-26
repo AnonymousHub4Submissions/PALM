@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "Hey, you okay? What's going on? Let's sit down and talk about it. We're all in this together, remember? We'll figure it out."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "Eh, don't worry about it. We're all just trying to survive here. Let's focus on what we can control — like finding water and fixing the camp. We'll work through this together. I'm not going to judge you for being on edge, we all are. But let's try to keep things running smoothly. Alright?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "Alright, let's get moving. What's the plan, first things first? Water, shelter, signal. I'll take care of the water run. DaVinci should stay here and keep working on the signal, no point wasting what we've got sitting around doing nothing. Anyone else want to help with setting up the shelter or sorting the first-aid kit?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's normal. We all miss it. But let's focus on what we can do here. Maybe once we're rescued, we can talk about it more. For now, let's keep working on the signal. Anything we can do to catch their attention is crucial."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "Alright, so we've got supplies for emergencies. What are we looking at specifically? Let's make sure we prioritize."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "I'd make sure everyone's on the same page about sharing resources. No hoarding food or supplies. We're all in this together, and we need to trust each other. I'd also prioritize communication, make sure everyone knows what's going on and what they're responsible for. And I'd push for more morale-boosting activities, like the SOS signals or the mirror idea. Keeping our spirits up is crucial."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Alright, that sounds useful. What do you need from me to help with that? I'm here to assist."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "They were a signal, meant to catch the attention of planes or boats. They're easier to spot from the air than our SOS or the mirror panel. Plus, they're visible during the day and at night with a flashlight. So, they serve a purpose in helping rescue efforts."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "What's the matter, you're not done celebrating? We got the signal up, let's get back to work. What's the next priority?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Let's go, but check the gear first. We don't want to leave anything behind. And DaVinci, make sure the signal's still clear and visible. We don't want to miss our shot."
+    }
+  ]
+}

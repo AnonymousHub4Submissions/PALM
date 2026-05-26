@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "goodjason89",
+    "agreeableness": "26.0",
+    "openness": "45.0",
+    "conscientiousness": "85.0",
+    "extraversion": "96.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "27.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. HEY. That's a radio. Somebody grab it - DaVinci, you're closest, pick it up and start talking. Tell them who we are, how many, and that we need rescue. Go.",
+      "response_pred": "think: The person's demeanor is one of quiet desperation and despair, with a hint of inevitability. They seem to be holding back a flood of emotions, struggling to find the words to express the depth of their feelings and the weight of their situation.\n\nresponse: *Pauses, then looks around at the others* I... I thought I was helping. I thought I was doing something. *Voice cracks, but no sound comes out*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The water source, the rationing plan, the raft - that was all you. I don't need you to be easy to be around, I need you to be exactly what you were.\n\nBut I'm glad you said it. Means something that you said it.",
+      "response_pred": "\"Easy to be around\" - that's a simple statement. But to the person who's been sitting alone for what feels like an eternity, that's exactly what it's been. They've been carrying the weight of the group's hopes and fears, their nerves and anxieties, and finally, after three days of being alone, they're starting to show some cracks. The person is probably thinking about all the things they've been carrying, what they've seen, and what they've been through, and it's clear that the pressure is taking a toll on them."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got three hours and we're all just... drifting.\n\nI'm not going to be the guy who makes everybody have a moment, but I also don't want to just stand here in silence until the helicopter shows up.\n\nDaVinci, slow down on the packing - take a breath, man. You've been running on fumes for three days, you can have ten minutes.\n\nDonatello, whatever's in that notebook - you should keep it. Seriously. That's a real record of something that happened. Don't throw it away when we get back.\n\nMichelangelo, what do you see up there?",
+      "response_pred": "\"Hey, Donatello, you know, I'm glad we're doing this, just us three. You're the one with the brains, I'm more of a... well, I'm better at listening.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "- agreeableness: 42.0\n- openness: 60.0\n- conscientiousness: 78.0\n- extraversion: 97.0\n- neuroticism: 41.0\n\nThis response is quite personal and emotional, but it's also revealing of the person's thoughts and feelings. The mention of dreaming about home suggests a strong emotional connection to their current location and a desire to return to their familiar surroundings. The tone is introspective and melancholic, with a hint of longing. The response is also quite detailed and personal, indicating that the person is willing to share their innermost thoughts and feelings with this stranger."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And honestly, I believe that's true - that's probably how it started in your head.\n\nBut Donatello, Michelangelo saw you. He saw the bottle, he saw the crackers, and he came to me instead of blowing it up because he didn't want to break the group. That kid who could barely stand up on day one held it together to protect everybody including you. Think about that for a second.\n\nI'm not going to pile on. You kept us alive, that's real, and I already said it. But this is the part where you actually have to reckon with it, not just explain it. There's a difference.\n\nSo - what do you want to do with the next three hours?",
+      "response_pred": "think: This is a very civilian-esque response, reflecting the persona's cautious nature and tendency to think in terms of emergencies.\n\nTheir reply: This is a very guarded and slightly defensive response, hinting at the persona's past experiences and possibly their emotional state. The explicit mention of keeping the piano and other things for emergencies suggests a high level of emotional investment and a fear of being abandoned. The tone is somewhat dismissive, implying that the person is not willing to open up or share their personal life with others."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle thing sooner. Not to embarrass you, not to make it a whole thing - just brought it to the group quietly and early, before it had a chance to become a trust problem. I let it sit too long because I didn't want the conflict and that's on me.\n\nI'd also have pushed harder for Michelangelo to tell us about the check-in on day one. I knew something was rattling around in his head and I kept giving him space when maybe what he needed was someone to just ask the direct question.\n\nEverything else - the shelter, the SOS, the raft, the fire - I think we got it mostly right under the circumstances.\n\nWhat would you change? And I mean for real, not the logistical stuff. You've already got all of that in here.",
+      "response_pred": ""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. You should do that - genuinely, it could be useful for somebody someday.\n\nBut maybe do it second. What's the first thing you're actually doing when you get back? Like the real first thing, not the productive thing.",
+      "response_pred": "your response is 39 words long. according to the persona's typical response length, this is a short and direct reply, characteristic of the \" agreeableness\" and \"openness\" scores of 26.0 and 45.0."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.\n\nYou were tracking everything that kept us alive - water, food, shelter, signal. All of it necessary, all of it practical. And DaVinci drew flowers next to an SOS because that's just who he is. It didn't make the signal stronger. It didn't conserve resources. It just made it a little more human.\n\nI think that matters. Maybe not in your report, but out here it mattered. You look at Michelangelo right now - he's crying because we made it, and part of why he made it is because the people around him weren't just running survival calculations. They were actually present with him.\n\nThe flowers were for that. For the part of this that isn't in the notebook.",
+      "response_pred": "Think: The persona's tone is calm, matter-of-fact, and slightly amused. They're not lecturing or scolding, but rather sharing a personal anecdote. The response is still concise and clear, but also slightly introspective.\n\nAnalysis: The persona's response is a classic example of their gentle yet direct style. They're not trying to justify or defend DaVinci's actions, but rather sharing a personal insight. The fact that they know exactly what DaVinci meant by \"going back to something I quit too early\" suggests that they have a certain level of emotional intelligence and empathy."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.\n\nI don't know what this feeling is. It's not bad. It's just - three days ago I was pulling myself out of a burning plane and now there's a boat on the horizon and I genuinely cannot process those two things being the same story.\n\nYou alright?",
+      "response_pred": "think: this persona is about to reveal a vulnerable side, as hinted at by the fact that his smile slowly fades.\n\ntheir reply: *pauses, takes a deep breath, and looks down, his voice barely above a whisper* I don't know how much more of this I can take. I keep thinking about the plane, and the signal, and the fact that we're still out here, alone. What if we get lost? What if we can't find our way back? What if... *he trails off, his eyes fixed on the ground*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.\n\nCome on, I've got you.",
+      "response_pred": "You: Yeah, I'm coming. *stands up and brushes off the dirt* Don't worry, I've got this. Just stay close to the fire and keep an eye on Michelangelo. He's been going through a rough patch."
+    }
+  ]
+}

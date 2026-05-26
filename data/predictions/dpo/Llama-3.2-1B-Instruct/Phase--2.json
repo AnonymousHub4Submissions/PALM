@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Phase--2",
+    "agreeableness": "87.0",
+    "openness": "57.0",
+    "conscientiousness": "69.0",
+    "extraversion": "10.0",
+    "neuroticism": "47.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.",
+      "response_pred": "\"I... I don't know if I can do this, guys. I feel like I'm just standing here, waiting for something, anything, to happen. It's like I'm trapped in this room with no escape. What's going on? Why am I here? Why did I agree to this?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. I'll take hard to be around over the alternative.",
+      "response_pred": "I can tell you just had a really tough time dealing with some stuff, huh?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the half-built raft*\n\nAlright, I'm gonna start cleaning this up. Not because we have to, just... feels wrong to leave it like this.",
+      "response_pred": "The stars are out and the fire's gone out, leaving only a faint hum from the sleeping bodies. I sit cross-legged on the ground, my eyes fixed on the spot where Sarah used to sit, lost in thought. The others are scattered around us, some reading, others staring out into the darkness. I watch as Emily, ever the adventurer, wanders off to explore the perimeter. Matt curls up beside me, his eyes drifting shut as he searches for the perfect patch of sleep. I can feel the tension in the air, the unspoken conflicts simmering just beneath the surface."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I'm a bit of an introvert, so I don't usually get as much excitement from dream sittings as some people do, but I did feel a sense of comfort and security when I was at home. It was a pretty ordinary, everyday kind of feeling."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And honestly, if things had gone worse, maybe that would've mattered. But we're three hours out now, so.\n\n*looks at the food*\n\nYou want to just... eat it? All of us, together, before they get here?",
+      "response_pred": "I think you might want to consider keeping more than just an emergency fund in case of unexpected expenses, considering our relatively modest net worth."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd be less passive about the Donatello thing earlier. I saw what was happening with the food and the bottle and I kind of... waited. Talked around it instead of just saying it directly. That cost us some trust we didn't have time to lose. \n\nWhat about you — what are you writing down?",
+      "response_pred": "\"Hey, I think I need to talk you through what went down. I'm really proud of the progress we made on those resources and decisions, but what really stands out to me is how hard it was to make some of those tough choices. If I'm being honest, I wish we could have had a bit more discussion and negotiation around some of those decisions. It's not always easy to agree on everything, but that's what makes it worth it in the end. As for what I'd do differently, I think I would probably try to have a more open and honest conversation with everyone about what we're all trying to achieve and what's at stake. Sometimes I feel like we're just going through the motions, you know? Which is probably why we got so bogged down on a few things.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that tracks. Send me a copy when you're done though, genuinely. I'd read it.",
+      "response_pred": "Results from the last five days are in and it looks like we're starting to see some solid trends emerge."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point though, right?",
+      "response_pred": "The flowers, they were for the protection of the sand, you see. Artists often take refuge on the coast, it's said. The sand is so fine, it would shift and scatter, like the colors of the flowers. The artists wanted to keep their work intact, so they covered it with the flowers. It was a clever way to protect their creations."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "*stiffly, eyes fixed on mine*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll grab my gear and meet you on the roof. Be careful, it looks like there's a lot of debris around."
+    }
+  ]
+}

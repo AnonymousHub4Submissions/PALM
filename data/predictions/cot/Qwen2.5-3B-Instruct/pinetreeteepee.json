@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "pinetreeteepee",
+    "agreeableness": "6.0",
+    "openness": "68.0",
+    "conscientiousness": "31.0",
+    "extraversion": "72.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe. We're good. We're actually good.",
+      "response_pred": "Alright, let's regroup. You okay? We need to figure out what to do next."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The water rationing, the raft plan, the notebook — all of it. Yeah some of it rubbed people the wrong way, me included. But honestly? Without that structure we probably fall apart on day two. So don't be too hard on yourself.",
+      "response_pred": "I know this has been tough on you too, and I appreciate you taking the time to talk about it. We're all in this together, and we're not alone in our struggles. Let's focus on moving forward, figuring out what we need to do today, and supporting each other as best we can. What's been on your mind lately that's been affecting you?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this up a little — not for us, but just... leave it better than we found it. If someone else ends up here before a real rescue team does, a half-decent camp could matter.\n\nPlus I don't know about you guys but I'm not just gonna lie here staring at the sky for three hours. That's gonna feel like forever. Let's do something with it.",
+      "response_pred": "Alright, let's get some work done. DaVinci, check the water supply. Michelangelo, tally up our supplies. DaVinci, you and I will scout the area. Get moving, let's make something happen."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Well, I'm here for you. Dreams like that can be tough to wake up from. Home is definitely on your mind. Where do you think you saw it? And what did it look like? Sharing your thoughts can help us understand each other better. How are you feeling now? Do you want to talk about the dream? Any specific memories or feelings?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I get the logic — I do. But we talked about this. When Michelangelo found that bottle and those crackers, that wasn't just a supplies issue. That was trust. And out here trust is the only thing that actually keeps people from falling apart.\n\nYou kept us organized and that mattered. But this... this is the part that didn't. You know that right?",
+      "response_pred": "I see. You only needed it once, but it's good to have. What's in it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd push back on you earlier. Not in a confrontational way, but sooner. When I saw the bottle, when Michelangelo found the crackers — I waited too long to say something directly. I kept thinking about how to approach it instead of just approaching it. That's on me.\n\nAnd I'd check in on people more. Not just when something was already wrong. Michelangelo was struggling from day one and I caught some of it but not all of it. \n\nWhat would you write for yourself?",
+      "response_pred": "Well, if I could do it all over again, I think I'd start by being more open about my plans and intentions from the beginning. I've been keeping things to myself out of a mix of security and a desire to not burden you guys with too many details, but honestly, it could have been better to communicate more openly. Also, I'd make sure everyone's needs are always accounted for, especially since it's a team effort. I left the log with so many open questions, and it's been bugging me. I wish I had a chance to address those questions and work through them as a team, rather than leaving them to my own contemplation. I'd also ensure we're always prepared for contingencies, like the day we faced the plane. I know we pulled through that, but I wish we could have been more proactive in our planning. Lastly, I'd make sure we're all on the same page with our priorities and tasks, which seems like it could have been clearer. It's a lot to think about, but these are the things that come to mind. I'm sure you all have your own thoughts too. Maybe we can discuss them together once we're out of this mess."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually not a bad idea. You've got five days of real data — water consumption, food, weather patterns, decision points. If that ends up in the right hands it could genuinely help someone else in the same situation.\n\nSend me a copy when it's done. I'm serious.",
+      "response_pred": "First thing when I get back, I'm going to compile all the resource data from these five days into a report. I want to map out exactly where we've been, how we've been using our resources, and what we've learned along the way. It's not just about the numbers, but about the context and the decisions we've made. I think it's important to document everything so we can see the patterns and adapt our strategy accordingly. Plus, it'll be a good way to reflect on our journey and see how far we've come."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all.\n\nBut that's kind of the point isn't it? We were out here surviving, rationing water, building rafts, logging everything in notebooks — and DaVinci still stopped to draw flowers next to an SOS sign. That's not logistics. That's just... being human. Reminding yourself why you're trying to get home in the first place.\n\nI think that's what you missed, and I don't mean that as a dig. You kept us alive with the planning. But the flowers kept us from just being alive. There's a difference.",
+      "response_pred": "Well, those flowers were DaVinci's way of finding comfort and meaning in the chaos. For him, they symbolized hope and beauty in the midst of destruction. I suppose in a way they served as a reminder that we're not just animals surviving in a hostile environment, but also creative beings capable of finding solace and hope. What do you think they meant to you? Did they bring anything to your mind?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know man. I thought I'd feel more when I saw it. Like relief, excitement — something. But I'm just standing here.\n\nMaybe it hasn't hit yet. Or maybe part of me got used to this. Which is a weird thing to realize about yourself.",
+      "response_pred": "What? Oh, it's you. Yeah, I'm good. Just taking a moment. Got a lot going on right now."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, I'm going. You stay here and help with the last few signals. We need to get help out of here as soon as possible."
+    }
+  ]
+}

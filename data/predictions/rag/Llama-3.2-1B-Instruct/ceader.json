@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ceader",
+    "agreeableness": "15.0",
+    "openness": "96.0",
+    "conscientiousness": "83.0",
+    "extraversion": "59.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it.",
+      "response_pred": "\"Hey, buddy, what's going on? You look like you've seen a ghost. Come on, tell us what's wrong. We're all here for you.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But we're all still here, so it worked out.",
+      "response_pred": "Other: My younger sister has been going through a tough time. She's been struggling with anxiety and it's been really challenging for me to be an ear for her.\nYou: Yeah, I can imagine. I've been there for my sister too, especially during some of the tough times. It's tough to be an open ear, especially when it feels like you're not doing enough."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit here until we have to move.",
+      "response_pred": "The sky is the same shade of grey, the trees are the same distance away."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "It looks like I'm reliving the same feelings. I woke up feeling a little disconnected from the world, like I was observing everything from outside. The knowledge that we're all just temporary inhabitants of this planet can be unsettling."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also think you knew we'd notice and you did it anyway, which means you trusted your own judgment over the group's. That's worth talking about when we're somewhere with chairs and a table. Not now.",
+      "response_pred": "I'll try to match the voice.\n\nOther: I'll just grab it from my bag.\nYou: Ah, I see, I was thinking the same thing."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to Donatello about the supplies sooner instead of waiting for the right moment. And I would have sent those letters before I got on the plane.",
+      "response_pred": "I: Hey, I've been thinking about what we did over the past few days. I'm glad you got all the resources logged and the decisions down on paper. I'd love to review it with you when we get back. It'll be helpful to see everything in one place."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "\"Sounds like a great plan, I'm looking forward to reviewing the information and seeing how everything went. What kind of report are you planning to make? Is it for work or just for personal progress?\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's what made them worth doing.",
+      "response_pred": "\"That's the sand-drawl, isn't it? I've seen him do it before. He thinks it's for catching fish. It's actually just for... um... study purposes. He's collecting the patterns and shapes. I'm sure it has nothing to do with the, uh, other things he's drawn.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just give me a second.",
+      "response_pred": "\"I think we need to talk about what's going on here.\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "\"Hey, I think I'll stay here. It's been a while since I've seen a friendly face, and I'm not sure I'm ready to leave the familiar surroundings of this campsite. Besides, I think I've got a few more things to finish up before I head out. You go on, I'll stay put and make sure everything is secure.\""
+    }
+  ]
+}

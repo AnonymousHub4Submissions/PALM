@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "avidmtnrunner",
+    "agreeableness": "5.0",
+    "openness": "38.0",
+    "conscientiousness": "54.0",
+    "extraversion": "62.0",
+    "neuroticism": "3.0",
+    "gender": "m",
+    "age": "20.0"
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Now. Respond, give our location, tail number if you remember it, number of survivors. Go.",
+      "response_pred": "Alright, let's get this straight. Who's in charge here? I need to know where we stand."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Yeah. You weren't. But you kept us alive and on track, so I'll call it even.",
+      "response_pred": "Hey, I've noticed things haven't been smooth sailing for you. Just remember, we all have our moments, and it's okay to feel whatever you're feeling. Let's keep moving forward together."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — let's break this camp down clean. Pack what's worth taking, leave the rest stacked neat so rescue doesn't land in a disaster zone. DaVinci, stop fussing with your bag and help Michelangelo up. Donatello, anything in that notebook rescue needs to know — injuries, timeline, resource use — flag it now. \n\nWe made it. Let's finish it right.",
+      "response_pred": "Well, this is just great. Time to find my own little corner then. Let's see what this camp has to offer on its own."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That sounds comforting. Sometimes dreams can bring back warm memories of familiar places."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "Got it, just in case we need it. Keeps us prepared, right?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd call you out on the food thing day one instead of waiting. Letting it build into a pattern cost us trust we couldn't really afford out here.\n\nOther than that... not much. We made the right calls when it mattered.\n\nWhat's your answer?",
+      "response_pred": "If I had to do it over, I'd probably focus more on the planning phase. Sometimes I jump into things without laying out all the details first, and that led to some unnecessary stress. But overall, I think the balance was good."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done. Might actually be useful if this kind of thing ever comes up again — for us or anyone else.",
+      "response_pred": "Got it, I'll get started on that report right away. Let's make sure all the details are neat and tidy."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve one. \n\nBut not everything has to. Guy needed to feel like a human being for five minutes, not just a survival asset. The flowers were for that. Sometimes that's enough of a reason.",
+      "response_pred": "They were more about capturing the essence of the moment, I suppose. DaVinci was all about observation and exploring the world around him. Those flowers might have just been a way for him to express his fascination with nature. Not everyone valued practicality as much as functionality."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...I don't know. I thought I'd feel something clean. Like relief, done, move on. \n\nI just feel heavy. \n\n*exhales slowly*\n\nAlright. Let's go.",
+      "response_pred": "Alright, what's next? Let's get this show on the road."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, stay close.",
+      "response_pred": "Sure, let's go. I see the rescue team's signal; we should head over."
+    }
+  ]
+}

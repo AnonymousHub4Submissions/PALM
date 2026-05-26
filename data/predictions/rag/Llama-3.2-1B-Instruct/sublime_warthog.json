@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "sublime_warthog",
+    "agreeableness": "11.0",
+    "openness": "50.0",
+    "conscientiousness": "10.0",
+    "extraversion": "4.0",
+    "neuroticism": "61.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "I'm speechless.",
+      "response_pred": "\"Hey, it's okay, man.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. But you kept us alive. Both things can be true.",
+      "response_pred": "\"It's just a lot on my mind right now, I guess. Every little thing is bringing me down.\""
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks at the sky too*",
+      "response_pred": "I'll sit on the edge of the fire, the flickering flames casting shadows on the surrounding trees, and watch the stars begin to twinkle overhead."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Me too.",
+      "response_pred": "\"I've been thinking about my old apartment lately, it's funny how that place still feels like home to me.\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we were the emergency.",
+      "response_pred": "\"I'm glad you prepared for that. I actually have some spare gauze in my bag, just in case.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd write 'remember' instead of 'don't forget' in a few places. And I'd have talked to you sooner about the food.",
+      "response_pred": "I'm viewing the scene where you, as the Inventory's person, met with the Other, who had been following the inventory's progress and was writing it up in a report. The tone is reflective and slightly analytical, as the Inventory is considering their own decision-making process and looking back at their experiences.\n\nIn terms of length, tone, sentence structure, and word choice, I would match this voice as closely as possible by using:\n\n* Simple, concise sentences\n* A reflective tone, often with a hint of critical thinking\n* Neutral to slightly introspective vocabulary\n* A focus on the Inventory's thoughts and feelings, rather than on external actions or reactions\n* A sense of consideration and analysis, as they weigh their own decisions and what might have been done differently."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you'd actually do.",
+      "response_pred": "\"Sounds like a plan, I'll help you organize that and make sure everything is accounted for. We can review the data together and see if we can't identify any trends or patterns that might help us prepare better for the next few weeks. Do you have any idea how long you're thinking of keeping the data for?\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that's exactly why they mattered.",
+      "response_pred": "\"Those flowers are for the bees, of course. They'll bring us honey in the future.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing, I think.",
+      "response_pred": "\"It's okay, just relax, okay?\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm really nervous, I hope they're okay. I'm going to try to be brave."
+    }
+  ]
+}

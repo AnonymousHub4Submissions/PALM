@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "sublime_warthog",
+    "agreeableness": "11.0",
+    "openness": "50.0",
+    "conscientiousness": "10.0",
+    "extraversion": "4.0",
+    "neuroticism": "61.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "I'm speechless.",
+      "response_pred": "\"Excuse me? I think you said something. You're not leaving, are you? You're not going to die out there? What's going on? What's happening?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. But you kept us alive. Both things can be true.",
+      "response_pred": "Personality: Agreeableness: 11.0\n\nTheir response will be polite and understanding, conveying a sense of empathy. They are being cautious about expressing their true feelings, as it might affect the situation. They are choosing words that will mitigate potential conflict without fully revealing their emotions.\n\nTheir tone is gentle and non-confrontational, focusing on maintaining calmness and avoiding further escalation. The response is deliberately vague, allowing the listener to infer their true emotions without directly stating them."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks at the sky too*",
+      "response_pred": "They all sit in silence for a long time, except for the sound of the wind rustling through the wreckage, and the distant calls of birds that have taken to the trees. It's as if the camp is holding its breath, waiting for something to happen, but no one is willing to take charge and lead the way."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Me too.",
+      "response_pred": "- agreeableness: 11.0\n- openness: 50.0\n- conscientiousness: 10.0\n- extraversion: 4.0\n- neuroticism: 61.0\n\nOther: It was so vivid. I felt like I was standing in our entryway, but the house was different. Some of the things I remember were not there. It was like my mind had added some new details, but they didn't belong.\nYou: I know what you mean. I had the same dream last night. It was like my brain was trying to tell me something, but I couldn't quite put my finger on it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we were the emergency.",
+      "response_pred": "Personality: agreeableness: 11.0\nopenness: 50.0\nconscientiousness: 10.0\nextraversion: 4.0\nneuroticism: 61.0\n\nThis response shows a thoughtful and practical personality. Keeping the flight path for emergencies is a responsible and considerate decision, indicating a high level of agreeableness. The tone is calm and cautious, with a hint of practicality, which suggests a moderate level of openness. The response is concise and to the point, with no unnecessary elaborations, which aligns with the persona's high conscientiousness. The tone is also somewhat subtle, avoiding direct confrontation or emotional displays, which suggests a lower level of extraversion. Neuroticism is relatively high, indicating anxiety and potential worry, but the response does not reveal extreme emotional distress."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd write 'remember' instead of 'don't forget' in a few places. And I'd have talked to you sooner about the food.",
+      "response_pred": "their response:\n\"Hey, we did the same thing. I'm going to write it up too, once we get back. I think that's the only way we can accurately understand what happened here. As for what I would change... I don't know, it's funny. If I had to do it over, I would probably spend more time on the initial assessment of the situation. I mean, it's easy to assume we're in trouble when we see those signs of the plane crash, but what about before that? What was going on? Were we even in the right location? Maybe if we'd been more careful with the navigation, we'd have avoided this whole thing. And another thing, I think we could have done more to prepare. I mean, DaVinci was handling the engine, Michelangelo was repairing the damage... maybe if we'd had more people involved earlier, we could have prevented this from happening.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you'd actually do.",
+      "response_pred": "Personality: agreeableness: 11.0, openness: 50.0, conscientiousness: 10.0, extraversion: 4.0, neuroticism: 61.0\n\nThis response is succinct, with a tone that is generally informal, collaborative, and somewhat matter-of-fact. The use of a question (\"First thing when I get back —\") implies a collaborative approach, as if the speaker is working with the others to document the events of the past five days. The sentence structure is clear and direct, with a focus on conveying the main point of the response. The use of a phrase (\"I'm going to compile all the resource data\") suggests a sense of purpose and productivity, but also a hint of analysis and reflection. Overall, the tone is helpful and productive, with a focus on getting things done rather than expressing emotions."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that's exactly why they mattered.",
+      "response_pred": "Personality (Big Five, 0-100):\n- agreeableness: 11.0\n- openness: 50.0\n- conscientiousness: 10.0\n- extraversion: 4.0\n- neuroticism: 61.0\n\nAnalysis: \nThis person is likely to respond in a way that is calm, non-confrontational, and slightly enigmatic. They might say something like: \"I'm not really sure what you're referring to. DaVinci's drawings on the beach were just... pretty, I guess. As for the practical purpose, I think he was trying to say that the flowers were a symbol of hope or beauty. He was trying to find joy in the midst of a difficult situation, I suppose.\" The person's tone is measured, and they avoid directly addressing the issue or asking questions, which suggests that they value the emotional and psychological well-being of the group over their physical survival."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing, I think.",
+      "response_pred": "Person: I'm not doing anything. I'm just sitting here, quietly observing you. Like a silent companion."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "\"Okay.\""
+    }
+  ]
+}

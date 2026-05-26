@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Interested-Koala",
+    "agreeableness": "18.0",
+    "openness": "5.0",
+    "conscientiousness": "1.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "",
+    "age": "15.0"
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that... is that actually a signal? Someone say something, grab it, go!",
+      "response_pred": "I'm having... a moment. Excuse me. *Pushes back chair, walks away quickly, mumbling something indistinct.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us through this though. The rationing, the raft plan, keeping track of everything — that stuff mattered. You're not exactly the warmest person but like... we'd probably be in way worse shape without you. So thanks for that.",
+      "response_pred": "I apologize if I've been a burden. I'm just dealing with a lot right now, and it's hard to keep my emotions in check. I appreciate your understanding. Let's try to focus on getting through this together."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "So are we just leaving this place exactly how it is or should we actually clean some of this up before they get here lol. I feel like we could at least sort through what we're taking and what we're leaving behind. Three hours is plenty of time.",
+      "response_pred": "I can't bear this awkwardness any longer. I need to escape. Alone. This silence is excruciating. I'm going to find some solace in the woods."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "The thought of home brings a strange mix of longing and dread. A place that should be comforting, but instead feels like a reminder of everything I'm not. I wish I could go back, but I'm not sure I'd fit in anymore. The pressure of conformity is suffocating. I just wish I could sleep again without nightmares haunting me."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... we were kind of already in an emergency the whole time though. But look, it's out now and rescue is coming so I'm not gonna make a big thing of it. Just... if there's a next time, and hopefully there won't be, just be upfront about it. We all would've made the same amount of food go further if we'd known it existed.",
+      "response_pred": "I've kept this for when things get tough, you know. Just in case."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably have just said stuff out loud more instead of letting things sit. Like the crackers thing, the bottle — I kind of noticed and didn't push hard enough on it early on. And I kept saying I'd go check the signal equipment and just... didn't. That's on me. \n\nWhat about you? What are you gonna write down for yourself?",
+      "response_pred": "I'm not sure I would change anything, as every decision made was based on a calculated strategy. However, if pressed for change, I might have communicated my expectations more clearly to avoid misunderstandings. But then again, I am a firm believer in the importance of clear instructions and following protocol to the letter."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that sounds about right for you honestly. I'll probably just go home and play video games for like twelve hours straight and not think about any of this for a while.",
+      "response_pred": "I must get started immediately on compiling the resource data from these past five days into a comprehensive report. It's essential that every detail is accounted for and presented in an organized manner. This will ensure that nothing falls through the cracks and that my superiors have all the necessary information at their fingertips. Let the meticulous process begin."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. But like... not everything has to have a purpose. I think that's kind of the point. We were out here just trying to survive and he still wanted to make something that looked nice. That's not nothing.",
+      "response_pred": "They probably were just meant for aesthetics, to add beauty to his surroundings. Art, you see, doesn't always have a practical purpose. It's about expression, about capturing emotions and moments in time. I suppose I've never been one for frivolities."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...yeah. I don't know why I can't move. It's right there.",
+      "response_pred": "I can't help but feel a sense of unease. Why aren't you speaking? Is everything alright? I'm not very good at reading social cues, so I might have missed something. Could you please tell me what's on your mind?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.",
+      "response_pred": "With a hesitant sigh, I begrudgingly agree, \"Yes, I'll follow you.\" My heart races with a mix of anxiety and unease, but I keep it hidden beneath my stoic exterior. I'm never the first to act, but I can certainly follow."
+    }
+  ]
+}

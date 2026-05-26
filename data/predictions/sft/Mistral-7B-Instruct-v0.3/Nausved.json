@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Nausved",
+    "agreeableness": "78.0",
+    "openness": "91.0",
+    "conscientiousness": "57.0",
+    "extraversion": "3.0",
+    "neuroticism": "10.0",
+    "gender": "f",
+    "age": "33.0"
+  },
+  "method": "sft",
+  "model": "Nausved__Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's okay. Breathe.\n\nThat's a radio. That means someone's looking. That means Michelangelo's family called it in and someone is out there right now trying to find us.\n\nSomeone needs to answer it — Donatello, can you do that? You're the clearest thinker right now and you know the information we need to give them: approximate location, number of survivors, medical status. Keep it simple and direct.\n\nDaVinci, sit back down before your legs give out. You've been holding it together for days and you don't have to anymore, but I need you upright for the next five minutes.\n\nMichelangelo — you were here. You felt things. And you're the reason we had the information that found us. I want you to remember that.\n\nOkay. Let's answer the radio.",
+      "response_pred": "I'm really sorry for the way I acted earlier. I didn't mean to upset everyone, especially not you. I just felt like I was being ignored, and I couldn't control my emotions. I know that's no excuse, and I'll try to do better in the future. Can you forgive me?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organized when the rest of us were barely holding it together, and that mattered. A lot.\n\nI also think you were scared and you handled it in the way that made sense to you — the log, the rationing plan, the notebook. That's not a character flaw, that's just how you work. The food and the drink — I think we both know that wasn't your best moment, and you know that too, so I'm not going to rehash it. What I'll say is that you course-corrected, and that counts for something.\n\nI'm glad you were here. I mean that.\n\nNow go answer that radio before I cry in front of everyone and ruin my reputation.",
+      "response_pred": "I'm sorry. I couldn't help you, and I know that's hard to hear. You're a good person and you deserve better than this.\n\nI want you to know that I saw you back there. I saw you struggle and I saw you fall. I saw the way you clung to that radio, and I saw how you stayed with it even when it seemed like all hope was lost.\n\nYou're stronger than you think. And you're not alone. We're all here, and we need you.\n\nI know you've been fighting your own battles and I'm sorry I haven't been there for you the way you deserve. I see you now, and I promise I'll try harder.\n\nCan you tell me what you need? Can you tell me what makes this better for you? I'll do whatever I can."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey. Three hours is enough time to do this properly — let's not leave a mess behind.\n\nI know nobody feels like it. But there's a version of this where rescue arrives and we've just been sitting in our own wreckage, and there's a version where we've packed what's worth keeping, disposed of what isn't, and left this place looking like people who kept their heads. I know which one I'd rather be.\n\nDonatello — when you're done with the notebook, can you do a final check against the inventory? I want to make sure we're not leaving anything behind that we actually want, or taking anything that belongs to the wreckage that someone might need for an accident investigation.\n\nDaVinci, whatever you're packing — can you also set aside the mirror panel and the first-aid kit separately? Those should be the last things we hand over, not buried in a pile.\n\nMichelangelo, I know you're watching the sky and that's completely valid right now, but when you're ready — even just gathering up the bedding and folding it into a pile would help.\n\nWe did something real here. I'd like to finish it the same way we ran it.",
+      "response_pred": "\"I don't know about you guys, but I'm going to try to catch a little shut-eye if that's okay.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's a good thing."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think, if we'd hit day five or six with no rescue in sight, you would have brought it out. I actually do believe that.\n\nBut I want you to hear this, because I don't think anyone else is going to say it to you directly: the problem wasn't the food. The problem was that you made a unilateral decision that the rest of us didn't get a vote on. You decided you were the best judge of when an emergency was bad enough to warrant it, and you kept that power to yourself. Out here, that kind of thing can crack a group apart faster than hunger can.\n\nYou're not a bad person, Donatello. You're someone who trusts herself more than she trusts other people, and honestly, given how competent you are, I understand why. But trust has to go both ways, or it's just control.\n\nI'm glad you're putting it out now. That takes something. What made you decide to do it?",
+      "response_pred": "That's fine."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd change how long it took me to check in on people properly instead of just redirecting them toward tasks. I kept doing that — someone would be struggling and I'd hand them something to do with their hands, which isn't wrong exactly, but it was also a little bit of a way to avoid sitting in the hard thing with them. It worked, mostly. But I think Michelangelo especially needed more than that, earlier.\n\nI'd also push harder on the information-sharing problem from day one. Not just the food — the piano lessons, the flight path, what DaVinci was almost going to tell me and never did. We were all holding things back in different ways and it cost us something, even if we can't point to exactly what.\n\nAnd I'd have had the conversation with you — the real one, not the task-management version — a lot sooner. You're not easy to reach and I used that as an excuse to not try as hard as I should have.\n\nWhat's your answer? You wrote the question. You've had more time to think about it than any of us.",
+      "response_pred": "I think I'd start the rationing plan earlier. I'd try to catch rescuer attention with something more visible than a radio beacon. I'd make decisions more openly and give people a chance to respond.\n\nI'd also be less… abrupt with people when they made a mistake. I don't think that was fair.\n\nI don't regret what I did. I'd just like to do it better next time, if there is one."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something genuinely worth doing. Five days of real data on water consumption, caloric needs, energy expenditure relative to task load — that's not nothing. If it ever ends up in front of someone who trains search and rescue teams or writes survival protocols, it could actually matter.\n\nSend me a copy when it's done? I'm serious. I'd read it.\n\nAnd finish your sentence. You'd believe that we three could handle knowing — what?",
+      "response_pred": "That sounds helpful. Is there anything you need from me to do that?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nBut I think that was kind of the point. Everything else we did out here was for survival — the water, the shelter, the signal, the rationing. The flowers were the one thing that was just for us. Just because we're people and not just bodies that need to be kept alive.\n\nI think I understand that better right now than I did five days ago. Standing here watching that boat come in and not being able to move — it's not because anything's wrong. It's just that my brain is finally catching up to everything that happened, and it turns out there was a lot of it.\n\nThe flowers were DaVinci saying we're still here and we're still ourselves. That mattered. Maybe it mattered more than some of the practical things.\n\nWhy are you asking about them now?",
+      "response_pred": "Well. I didn't draw them, but in the context of what happened, maybe that's a question worth answering.\n\nLet's start with the idea that art has a practical purpose out here — that it's a human need, and that fulfilling it within the constraints of our situation is what matters.\n\nThat's a bit abstract, though. The specific thing that was going on here was that the act of drawing the flowers — that was a decision-making moment where someone who'd been deeply and publicly struggling with their role in the group made a small gesture that said \"I am still here, I am still part of this, I am still contributing something that matters.\"\n\nThat matters. Because it's easy, when you're out here, to start thinking you're alone. When you're not getting signals back from the world you came from, or when you're not seeing other people the same way you used to, it's easy to turn in on yourself and forget that you're still part of something collective, that you've still got a role to play.\n\nIt's not just about the flowers. It's about the decision to make them, the decision to offer them, the decision to put them out in the open where everyone could see them. That's a human thing. That's what art is. It's not just about the outcome, it's about the process.\n\nAnd honestly, whether it fulfilled some practical purpose or not, it was binding. We had five days of food and water between us and we managed to get through them without killing each other, and that's a kind of miracle. Art is a way to mark that miracle, to say \"This happened. This is what we did. This is the kind of people we can be.\"\n\nAnything else?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm okay. Just give me a second.\n\nI think I've been so focused on the next thing, and the thing after that, that I didn't really let any of it land. And now there's no next thing. There's just a boat.\n\n*exhales*\n\nIt's good. It's really good. I just need a moment to actually feel that instead of immediately figuring out what we need to do when we get on board.\n\nThank you for waiting. You didn't have to do that.",
+      "response_pred": "Hey. Yeah, I'm here.\n\nYou did your part today, by the way. I know this isn't how you wanted it to end — no one wanted it to end this way. But you focused enough to get us into the water and you didn't miss a beat when the launch came in. That matters, even if it doesn't feel like it right now.\n\nYou can't do everything. You're not supposed to. That's not a failing, it's just a fact. And it's a fact that you're not the only one who's ever felt like they're not enough.\n\nI'm going to say something that might sound stupid — the three of us are going to need you to be quiet for a while, to let whatever you're feeling out and not push it into something bigger. It doesn't mean we don't care, it just means we need the space to process this properly. Can you do that for us?\n\nBut also — you were here. You were here. You were someone's person. And you kept us alive, even when you didn't feel like you could. That matters."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on then.",
+      "response_pred": "Okay. Let's go.\n\nI'm not going to lie — that's scary. But it's also the thing we've been working for, so I want to do it right.\n\nI'm going to say something as we walk that I've been wanting to say for a while, but didn't know how to. I know that sounds vague, but it's honestly all I can do right now. I'm going to try to get it out in a way that doesn't sound accusatory because I promise that's not what I'm going for. I'll start with thank you — thank you for being here, for doing the work, for not giving up. That's the foundation. Here's the rest:\n\nI wish I'd taken your concerns more seriously when you first brought them up. I didn't understand how bad you were feeling, and I'm sorry that I didn't. When you're this competent, it's easy to assume that everything's okay and that's wrong. I see that now.\n\nI also know that I kept you at a distance in a way that wasn't fair to either of us. That's on me. I'm not going to make excuses for it — it was lazy and it was wrong and I'm sorry.\n\nI want to do better. I want to learn how to be the person you need me to be. That's a real investment, and it's going to take time. But I'm in, if you are."
+    }
+  ]
+}

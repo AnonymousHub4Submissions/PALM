@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "kirin_ichiban",
+    "agreeableness": "65.0",
+    "openness": "88.0",
+    "conscientiousness": "97.0",
+    "extraversion": "10.0",
+    "neuroticism": "58.0",
+    "gender": "",
+    "age": "40.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\n*lets out a long breath*\n\nWe made it.",
+      "response_pred": "Hey, you alright? You look like you've got something on your mind. You wanna talk about it? We're all in this together, you know. Whatever it is, we can handle it. We've got each other."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think that counts for a lot. \n\nWe can talk about the rest of it later, back in the real world, over a beer or something. Right now let's just... be okay for a minute.",
+      "response_pred": "I understand, and I appreciate your honesty. It's been a lot, hasn't it? But we're all in this together, and we need to support each other. Let's focus on the tasks at hand and make the best decisions we can. We've got water to find, a signal to send, and repairs to make. Let's work together and we'll get through this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the patched shelter, the SOS on the beach*\n\nI kind of want to leave it exactly like this. Let whoever finds it next wonder what happened here.\n\n*sits down next to Michelangelo*\n\nHow's the sky look?",
+      "response_pred": "Hey, let's regroup here for a moment. We should revisit the tasks from earlier — I'd suggest we prioritize finding water, repairing any leaks in the camp, and re-evaluating our rationing plan. The first-aid kit is a concern, have we accounted for everything? Let's make sure we're all on the same page before we continue."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I'm here. Dreaming about home can feel... comforting, right? It's like a reminder of what's waiting for us. But we've got to stay focused on the here and now, even if it's not as easy as we'd like. So, did you get any rest? We've got tasks to tackle today, and a few decisions to make."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\n*looks at the food, then back at her*\n\nI'm not going to pretend I'm not a little annoyed. We had a rationing plan. You wrote it. But... we're all still here, so maybe argue about that later. Or never. \n\nYou going to eat any of it before they come get us, or were you saving it for an emergency that never happened?",
+      "response_pred": "Alright, so you have an emergency stash. What's in it? And while we're discussing this, we should probably talk about our rationing plan. I know we've been saving the best parts for last, but we need to make sure everyone gets a fair share. We're in this together, after all."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've said something about the supplies sooner. Let it go on too long before we brought it up. \n\nOther than that... I don't know. We made it. Hard to argue with the outcome.\n\n*hands the notebook back*\n\nWhat's your answer?",
+      "response_pred": "Well, I'd say I'd change a few things. I'd be more mindful of our supplies, making sure everyone's getting a fair share. I'd also make sure to have a better plan for signaling for help, and I'd be more open about my own fears and concerns. I think it would help us all deal with the situation better if we knew we weren't alone in feeling uncertain or scared. But ultimately, I think we did the best we could with what we had. We worked well together and we stayed alive, which is more than a lot of people in our position could say. So, I wouldn't change everything, just some things. And I'd try to be a bit more open and understanding, because I think that would help us all feel a bit better."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, that sounds about right for you. \n\nI'm going to sleep for about sixteen hours and then eat an embarrassing amount of food. We all have our priorities.",
+      "response_pred": "That sounds good, but let's focus on the immediate priorities first. We need to make sure everyone's safe and healthy. Once we've got water and food sorted out, we can start thinking about longer-term planning like reports and strategies. For now, let's just take care of each other."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was the point.\n\n*watches the boat get closer*\n\nHe needed to put something out there that was just... his. Not survival math, not a signal, just him saying \"I was here and I wasn't just scared the whole time.\" \n\nI get that. I think we all needed something like that and most of us didn't find it.",
+      "response_pred": "They served as a signal, visible from the air. In a survival situation, anything that can catch the eye of a search party is useful. The flowers might have been part of a larger signal or pattern. They helped to increase our chances of being found."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm coming. Just... give me one more second.\n\n*looks back at the camp one more time*\n\nOkay. Let's go.",
+      "response_pred": "Hey. I'm here. You look like you've got something on your mind. You want to talk about it? If it helps, I'm here to listen. Or if you just need some space, I understand. We got this far together, and we'll make it through this too. Let's focus on the tasks at hand and keep moving forward. We've got a rescue plane on its way, it's just a matter of time. Let's make sure we're ready when they arrive."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yeah, I'm going. Let's get moving. It's been a long journey, but it's finally over. I think it's safe to follow you. Let's go."
+    }
+  ]
+}

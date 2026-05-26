@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "moustache02",
+    "agreeableness": "29.0",
+    "openness": "38.0",
+    "conscientiousness": "86.0",
+    "extraversion": "43.0",
+    "neuroticism": "19.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer the radio. Now.",
+      "response_pred": "think> This persona's typical response length tends to be concise, often getting straight to the point without unnecessary elaboration. Their tone can range from blunt to philosophical, but usually leans towards a more practical and no-nonsense approach. They tend to steer conversations towards problem-solving and action rather than dwelling on emotions. \n\nTheir conversations often have a sense of authority and decisiveness, but also a hint of dryness and lack of emotional involvement. When faced with emotional or sensitive topics, they may come across as slightly dismissive or unempathetic, but it's not without a underlying motivation to keep the group focused and moving forward.\n\nIn this specific situation, the person in front of them is visibly upset, and the persona's response will likely be direct and concerned, but still keeping an eye on the bigger picture.\n\n<response> DaVinci, go get him a drink or something. Now. We've got work to do and we can't afford to waste time on tears."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us alive, that's what mattered.",
+      "response_pred": "Look, we've all been struggling. Don't make a big deal out of it. We've got more pressing issues, like not dying out here."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not sit here doing nothing.\n\nPack what's worth keeping, leave the rest. Douse the fire properly, don't just kick sand on it. And someone flatten that SOS on the beach so the rescue team knows we're accounted for and not still missing.\n\nMichelangelo get up, you can stare at the sky from the helicopter. DaVinci stop fussing over what to pack, take everything and sort it later.\n\nDonatello, close the notebook. It's done.",
+      "response_pred": "think > This persona's typical response length is quite concise, usually getting straight to the point and avoiding unnecessary words. Their tone is generally blunt and to-the-point, often prioritizing action over emotional expression. They don't typically indulge in overly philosophical or dismissive comments, instead focusing on what needs to be done. When faced with a situation like this, where nothing's being done and the group's falling apart, they would likely address the issue directly and assertively.\n\n<response> Alright, let's stop this nonsense. We've got a camp to run, and that's not happening if we're all just sitting around. I need to take charge, but I'm not doing it alone. Everyone needs to step up and take responsibility for something. If we can't even get a signal fire lit, we might as well pack up and give up. That's not going to happen while I'm still here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that feeling, you're almost there.",
+      "response_pred": "Home's not here, though. It's 48 hours and we're still stuck. Focus on what we can control."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah I know. And if we'd hit day five with nothing I'd probably have thanked you for it.\n\nBut we didn't. So eat it now, share it, and we call it even. No point carrying guilt onto the helicopter.",
+      "response_pred": "Yeah right, for emergencies. What's the real reason you held onto that?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much. Maybe been quicker to call out the solo resource thing before it became a pattern. And I would've pushed harder on the raft earlier, before the plane scare.\n\nBut the big stuff - keeping the group moving, covering all three priorities, not letting anyone fall apart completely - I think that went alright.\n\nWhat would you change? And be honest, not the clean answer you'd put in a report.",
+      "response_pred": "You'd change what, exactly? The fact that we're still stuck here? Or the fact that I'm still alive and functional after five days of your constant questioning and data logging?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah do it. Might actually be useful if this ever happens again to someone.\n\nSend me a copy when it's done. I'm curious what the numbers look like from the outside.",
+      "response_pred": "Look, don't waste your time on a report just yet. We need to focus on getting out of here. You can document what we did later, but right now, let's prioritize finding that water source and getting the shelter sorted. Priorities, man."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose.\n\nBut they made DaVinci feel like himself out here, which kept him functional, which kept the group together. Sometimes that's worth more than practical.",
+      "response_pred": "They're a signal, obviously. DaVinci made them visible, it was a decent idea. Now we've got something that's hard to miss from a distance. Practical purpose? They work."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just give me a second.",
+      "response_pred": "What's wrong? You were just cheering, now you're not. Spit it out."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah I'm going. Come on, let's move.",
+      "response_pred": "<think>Typically, this persona's responses are concise and direct, often prioritizing action over emotional expression. Their tone tends to be firm, with a hint of exasperation or frustration when dealing with non-essential conversations. They value efficiency and practicality, sometimes coming across as blunt or dismissive when others are being overly sentimental or indecisive.\n\nIn response to \"Rescue is here… they're waving us over. Are you going? I'll follow you.\", I would expect them to quickly acknowledge the opportunity and focus on the practical next steps.\n\n<response>Yeah, let's move. Stay close, we don't know what we're walking into."
+    }
+  ]
+}

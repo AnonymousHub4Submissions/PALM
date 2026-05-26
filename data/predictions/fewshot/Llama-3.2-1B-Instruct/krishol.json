@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "krishol",
+    "agreeableness": "48.0",
+    "openness": "44.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "You: *looks at him, concerned* Hey, are you okay? You okay?\n\nOther: *pauses, still hasn't spoken, just looks away, his eyes still red* Just... just saying goodbye.\n\nYou: *sets down your gear, trying to be gentle* Okay, Michelangelo, I think we need to talk about this for a minute. You okay? You look like you're in shock.\n\nOther: *turns back to face you, his eyes still red, but they open slightly* I... I think I am. I just... need to get out of here.\n\nYou: *steps closer, putting a hand on his arm* Okay, buddy, we need to talk about the signal, and the plane, and what's going on. You can tell us anything.\n\nOther: *shakes his head* None of it matters. The signal never gets through. The plane never gets here. We're all just... lost.\n\nYou: *sits down next to him, trying to comfort him* Michelangelo, we're a team. We've been through tough stuff before. We can get through this too.\n\nOther: *looks at you, his eyes still red, but they're no longer filled with tears* You're not... you're not like the others. You were the first one to say something. You were different.\n\nYou: *looks at him, trying to reassure him* Yeah, we're all different. But that's what makes us strong. We stick together, we support each other.\n\nOther: *shakes his head* No, you're not. You're... you're not. *pauses, looks away again* I'm sorry. I'm just... I don't know what's going on."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive so. I'll take it.",
+      "response_pred": "I've been feeling a little anxious lately. Like, I know we're in a tight spot and we need to get out of here, but it's hard for me to focus on the task at hand when I'm thinking about everything else. Mikey's been doing a lot of talking and I'm trying to keep up, but it's just not the same as just having him right there with me. You know, like when we were building that raft, you were actually helping me and I was doing the same for you. It's weird not being able to rely on others like that anymore."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright I'm not just gonna sit here for three hours. Let's at least make this place look like we weren't completely feral while we were here.",
+      "response_pred": "*The sound of the wind rustling through the trees, the creaking of branches, and the distant howl of a wolf could be heard in the background, adding to the eerie silence of the camp.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Good dream or one of those ones where you're home but something's still off?",
+      "response_pred": "Other: Oh. Just a dream. I don't know what was real and what was just a nightmare.\nYou: Yeah, you know, dreams can be pretty vague sometimes. But it's something to hold onto, right? We've been through a lot, and it's not like we've had a lot of good days lately.\nOther: Yeah. I guess we're just used to being scared.\nYou: Exactly. We've been on edge for a while now. But we can't let that get the best of us. We've got to keep pushing forward.\nOther: So, I was thinking... we should try to find a way to make this place feel more like home.\nYou: Hmm, that's not a bad idea. I think we've just been so focused on survival that we've forgotten what it means to be comfortable. We need to find a way to make this place feel like home.\nOther: Like, a real house?\nYou: Yeah, something like that. We can start by making it feel more like a place we can call our own. We can decorate, cook our own food, make it feel like a real home.\nOther: That sounds good. But how are we going to do that?\nYou: We'll figure it out. We always do. We just need to work together and make a plan. And we need to make sure that plan is worth fighting for.\nOther: Okay. I'm here with you, and I'll do my best to help.\nYou: That's all I need right now. Just having you by my side makes me feel a little better."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not gonna make a big thing out of it right now, not with rescue three hours away. But you know it wasn't okay, right?",
+      "response_pred": "Other: Don't even think about it. If you had put that on the list, we'd have been stuck on this island for weeks. Now just forget you ever saw that."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the food thing sooner instead of waiting for it to pile up. I let it go too long because I didn't want the conflict and that wasn't fair to anyone. What would you change?",
+      "response_pred": "Other: Right now I'd add a note about how we handled the Donatello situation and whether I should have spoken up sooner. I'm still trying to process what happened and why I didn't say anything."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks for you. Send me a copy when you're done, I'm genuinely curious what it looks like all written out.",
+      "response_pred": "Big Five: Yeah, we'll be behind you, I'll help you get it done. We can split it up and work on it together. I've got some notes on the water collection system and the shelter setup that might be helpful."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Nothing practical. That's kind of the whole point.",
+      "response_pred": "Other: It was a makeshift navigation aid. He drew the compass rose in the sand to help the raft find its way. The sun was shining, and he made a rough circle around it, then drew small lines out from the center. He said it was a way to get a sense of the direction he was heading. It might come in handy later.\n\nYou: I remember it, I thought it was just a bunch of random scribbles at first, but then I realized what he was trying to do. It's actually pretty clever. And it's amazing how much of a difference it made, didn't it? We were all so lost, but now with the compass rose, we can get a sense of where we are and where we're headed."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm coming, I just need a second.",
+      "response_pred": "Other: *stares at you, his eyes searching for any sign of movement*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll go with you. I need to see it for myself. It's been... crazy. I've been thinking a lot about what we did, and I'm still trying to wrap my head around it. I'm not really sure what to expect, but I'm glad you're here with me. You're one of the few people who's been really understanding so far. I don't know what I'd do without you."
+    }
+  ]
+}

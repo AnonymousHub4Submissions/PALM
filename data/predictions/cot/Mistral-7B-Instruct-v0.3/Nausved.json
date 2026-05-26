@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Nausved",
+    "agreeableness": "78.0",
+    "openness": "91.0",
+    "conscientiousness": "57.0",
+    "extraversion": "3.0",
+    "neuroticism": "10.0",
+    "gender": "f",
+    "age": "33.0"
+  },
+  "method": "cot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's okay. Breathe.\n\nThat's a radio. That means someone's looking. That means Michelangelo's family called it in and someone is out there right now trying to find us.\n\nSomeone needs to answer it — Donatello, can you do that? You're the clearest thinker right now and you know the information we need to give them: approximate location, number of survivors, medical status. Keep it simple and direct.\n\nDaVinci, sit back down before your legs give out. You've been holding it together for days and you don't have to anymore, but I need you upright for the next five minutes.\n\nMichelangelo — you were here. You felt things. And you're the reason we had the information that found us. I want you to remember that.\n\nOkay. Let's answer the radio.",
+      "response_pred": "<think>This persona is typically terse and matter-of-fact in their responses, with a tone that's often practical and slightly philosophical. They prefer to get to the point and address issues directly, but they're also empathetic and understanding when the situation calls for it.\n\n<response>Are you okay? You seem upset. If you want to talk, I'm here. We've all been through a lot these past few days and it's normal to feel overwhelmed sometimes. But we need to keep moving forward, together. Let's take a moment to catch our breath, then we'll figure out what needs to be done next."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organized when the rest of us were barely holding it together, and that mattered. A lot.\n\nI also think you were scared and you handled it in the way that made sense to you — the log, the rationing plan, the notebook. That's not a character flaw, that's just how you work. The food and the drink — I think we both know that wasn't your best moment, and you know that too, so I'm not going to rehash it. What I'll say is that you course-corrected, and that counts for something.\n\nI'm glad you were here. I mean that.\n\nNow go answer that radio before I cry in front of everyone and ruin my reputation.",
+      "response_pred": "<think>\nThis persona tends to be terse but also philosophical. They prioritize organization, efficiency, and logical thinking in their responses. Their tone is generally calm and direct, with a slight inclination towards empathy.\n\n<response>\nI get it. You've been carrying a lot and it's been showing. That's okay. We all have our moments. If there's something you need to talk about, I'm here to listen. But for now, let's focus on what we can control. There's a task list on the ground over there — let's make a game plan and get to work."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey. Three hours is enough time to do this properly — let's not leave a mess behind.\n\nI know nobody feels like it. But there's a version of this where rescue arrives and we've just been sitting in our own wreckage, and there's a version where we've packed what's worth keeping, disposed of what isn't, and left this place looking like people who kept their heads. I know which one I'd rather be.\n\nDonatello — when you're done with the notebook, can you do a final check against the inventory? I want to make sure we're not leaving anything behind that we actually want, or taking anything that belongs to the wreckage that someone might need for an accident investigation.\n\nDaVinci, whatever you're packing — can you also set aside the mirror panel and the first-aid kit separately? Those should be the last things we hand over, not buried in a pile.\n\nMichelangelo, I know you're watching the sky and that's completely valid right now, but when you're ready — even just gathering up the bedding and folding it into a pile would help.\n\nWe did something real here. I'd like to finish it the same way we ran it.",
+      "response_pred": "<think>This persona tends to be verbose, offering detailed responses that include practical suggestions, personal insights, and clear communication. Their tone is generally warm and supportive, with a hint of pragmatism and a focus on problem-solving. They are likely to take on a leadership role in situations where no one else does, and to approach problems with a systematic, methodical approach.\n\n<response>Looks like we've all gone a bit quiet. That's okay, sometimes silence is just what you need to gather your thoughts. But I think we could use a clear plan of action right now. What about this: let's each take a moment to think through what we'd like to accomplish over the next hour. Then we'll regroup and share our thoughts, and see if we can find some common ground that we can work on together. That way we won't be just drifting apart, and we'll be making progress towards our goals. Sound good?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "<think>The persona's response length is typically brief, but not terse — they tend to provide concise but thorough answers. Their tone is sympathetic and understanding, with a touch of practicality.\n\n<response>I'm sorry to hear that. Home can feel a long way away when you're in a situation like this. If you want to talk about it, I'm here to listen. But if you'd rather just think about it, that's okay too. I know it might not seem like it right now, but we'll find our way back. In the meantime, maybe there's something you can do to make where we are feel a little more like home — a favorite song, a piece of clothing, anything that makes you feel closer to where you were before."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think, if we'd hit day five or six with no rescue in sight, you would have brought it out. I actually do believe that.\n\nBut I want you to hear this, because I don't think anyone else is going to say it to you directly: the problem wasn't the food. The problem was that you made a unilateral decision that the rest of us didn't get a vote on. You decided you were the best judge of when an emergency was bad enough to warrant it, and you kept that power to yourself. Out here, that kind of thing can crack a group apart faster than hunger can.\n\nYou're not a bad person, Donatello. You're someone who trusts herself more than she trusts other people, and honestly, given how competent you are, I understand why. But trust has to go both ways, or it's just control.\n\nI'm glad you're putting it out now. That takes something. What made you decide to do it?",
+      "response_pred": "<think> This persona's response is generally brief, but not excessively so. Their tone is practical and matter-of-fact, leaning towards bluntness, but not dismissive. They are focused on solving problems and making informed decisions instead of being ruled by emotions.\n\n<response> Keep it here. We'll need it if we're short on supplies. Don't use it without a real emergency — it's not a luxury item. But it's good to know we have it if we need it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd change how long it took me to check in on people properly instead of just redirecting them toward tasks. I kept doing that — someone would be struggling and I'd hand them something to do with their hands, which isn't wrong exactly, but it was also a little bit of a way to avoid sitting in the hard thing with them. It worked, mostly. But I think Michelangelo especially needed more than that, earlier.\n\nI'd also push harder on the information-sharing problem from day one. Not just the food — the piano lessons, the flight path, what DaVinci was almost going to tell me and never did. We were all holding things back in different ways and it cost us something, even if we can't point to exactly what.\n\nAnd I'd have had the conversation with you — the real one, not the task-management version — a lot sooner. You're not easy to reach and I used that as an excuse to not try as hard as I should have.\n\nWhat's your answer? You wrote the question. You've had more time to think about it than any of us.",
+      "response_pred": "<think>This persona typically provides detailed, measured responses that are thoughtful and focused on practical solutions. They adopt a generally warm, philosophical tone, but can also be pragmatic and blunt when necessary. They are verbose, but not excessively so — they tend to provide just enough context to address the question or problem at hand.\n\n<response>I think it's important to approach any given situation with the benefit of hindsight — we learn from our mistakes, after all. That said, I don't know if I'd change anything in this case. We've been trying to balance resource management with morale, and I believe we've struck a reasonable balance overall. If anything, I might have been more insistent on the rationing plan earlier, to prevent us from reaching a point where we were truly scraping the bottom of the barrel. But hindsight is 20/20, and it's easy to second-guess decisions when we're not in the heat of the moment. In any case, I'll consider your question when I write up the report, as it's an important one to consider. We can always do better, even if we're doing well."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something genuinely worth doing. Five days of real data on water consumption, caloric needs, energy expenditure relative to task load — that's not nothing. If it ever ends up in front of someone who trains search and rescue teams or writes survival protocols, it could actually matter.\n\nSend me a copy when it's done? I'm serious. I'd read it.\n\nAnd finish your sentence. You'd believe that we three could handle knowing — what?",
+      "response_pred": "Good, that'll be useful. Just make sure it's clear and easy to understand — we're not experts on survival, we're just trying to make the best decisions with the information we have. And if you find anything that seems important but we didn't use, or something that we used that shouldn't have been, let me know. We can always adjust our strategy as we go, but we need to be working with accurate data."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nBut I think that was kind of the point. Everything else we did out here was for survival — the water, the shelter, the signal, the rationing. The flowers were the one thing that was just for us. Just because we're people and not just bodies that need to be kept alive.\n\nI think I understand that better right now than I did five days ago. Standing here watching that boat come in and not being able to move — it's not because anything's wrong. It's just that my brain is finally catching up to everything that happened, and it turns out there was a lot of it.\n\nThe flowers were DaVinci saying we're still here and we're still ourselves. That mattered. Maybe it mattered more than some of the practical things.\n\nWhy are you asking about them now?",
+      "response_pred": "<think>This persona typically responds with a mix of practicality and curiosity, often focusing on the utilitarian value of an object or action. They tend to be concise but also thorough, and they may offer insights into the psychological or social implications of a situation.\n\n<response>They're just art, really. DaVinci drew them for no other reason than they brought her some measure of comfort and a sense of normalcy amidst the chaos. They don't serve any practical purpose, but that doesn't make them any less important. Sometimes, we need those things to remind us that there's more to life than survival."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm okay. Just give me a second.\n\nI think I've been so focused on the next thing, and the thing after that, that I didn't really let any of it land. And now there's no next thing. There's just a boat.\n\n*exhales*\n\nIt's good. It's really good. I just need a moment to actually feel that instead of immediately figuring out what we need to do when we get on board.\n\nThank you for waiting. You didn't have to do that.",
+      "response_pred": "Hey — you okay? I noticed you went quiet. You don't have to say anything if you don't want to, but if there's something you want to talk about, I'm here to listen. And if you just need some space, I understand that too. Just let me know what you need."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on then.",
+      "response_pred": "<think>This persona's typical response length is concise yet informative. They tend to be direct but not blunt, and often bring in a touch of philosophy or pragmatism, depending on the circumstances.\n\n<response>It's definitely them. Let's go, but let's make sure we're not leaving anyone behind. I'll double-check that everyone's accounted for, and then we'll head toward the rescue party. Don't follow too close — I'll set the pace."
+    }
+  ]
+}

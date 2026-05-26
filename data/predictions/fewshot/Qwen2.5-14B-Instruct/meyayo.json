@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "meyayo",
+    "agreeableness": "91.0",
+    "openness": "17.0",
+    "conscientiousness": "30.0",
+    "extraversion": "7.0",
+    "neuroticism": "43.0",
+    "gender": "f",
+    "age": "16.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "davinci.. say it. whatever it is just say it",
+      "response_pred": "hey.. it's okay. no need to say anything if you're not ready. i think we all understand what you're feeling right now\n\nif you need a minute, take it. we're here when you're ready to talk or just sit together for a while. whatever you need"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "hey donatello.. honestly yeah, there were some moments lol. but like.. you kept us alive. the rationing plan, the calculations, the raft, tracking everything — that was all you. i don't think we'd even be here right now without that\n\ni think you just show you care in a really different way than the rest of us do. and that's okay. it took me a little while to see that but i do\n\nso.. thank you. genuinely :)",
+      "response_pred": "hey don't say that.. we're all kind of in the same boat here. like i know i've had my moments and i'm sure everyone else has too. we're all just trying to cope the best we can with something really hard\n\nif there's anything specific you need help with or if you just want to talk about it, i'm here. we're all here for each other. honestly, just know that your being here has mattered. like you've helped us get through a lot already. so please don't doubt that\n\nand hey, if you need a break from everything, i can take over a task or something. no pressure, just.. i get that this is tough and i want to help if i can."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at everyone doing their own thing and kind of laughs softly to myself*\n\nokay so.. should we maybe clean this place up a little before they get here? like i know it doesn't technically matter but it feels weird to just leave it like this lol\n\nalso i don't know, i kind of don't want the last three hours to just be everyone off in their own corner. we went through a lot together. like a lot a lot. and in three hours we're all just gonna go back to our normal lives and that's kind of wild to think about\n\nmichelangelo what are you thinking about up there :)",
+      "response_pred": "hey guys.. i know we're all just kind of in our heads right now but maybe we should talk about what's next? like what we're going to do today or if there's anything we need to get sorted before we start splitting up tasks? i don't want to push anyone but i think it helps to have a little plan, you know?\n\ni'm here if anyone just needs to talk too.. or even if you just want to sit and be quiet together. i don't mind either way, i just.. i don't want us to get too far apart from each other."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "oh yeah? what was it like?",
+      "response_pred": "that's really nice.. like a little escape from everything here. what was it like? did you dream about specific things or just the general feeling of being at home?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i hear you.. and i think part of me gets it. like in your head you were probably thinking worst case scenario and making sure there was something left\n\nbut donatello.. we were all scared and hungry and going through it together. and knowing you had extra this whole time, even with good intentions, that's hard to just brush past you know?\n\ni'm not going to be mad at you about it. i think you genuinely believed you were doing the right thing. but i hope going forward, wherever we end up after this, you let people in a little more. like you don't have to carry everything alone and you don't have to protect everyone from a distance\n\nyou're actually really good at looking out for people. i just think it would mean even more if they knew you were doing it\n\n*looks at the food for a second*\n\nwe should probably share it before rescue gets here lol. go out on a good note",
+      "response_pred": "okay.. i get that. what did you keep? and is it something we can look at or talk about? i'm not trying to pry or anything, i just think it's important to know what we have in case of an emergency"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "oh wow.. this is a lot to take in actually. like seeing it all written out like this\n\n*flips through a few pages*\n\nhonestly i think i would have spoken up faster in certain moments. like there were times i noticed something was off — with you, with the food situation, with how michelangelo was doing — and i kind of sat with it too long before saying anything because i didn't want to cause tension or make things weird. i do that a lot in real life too lol\n\ni think i also would have checked in on everyone more intentionally instead of just when it was obvious something was wrong. like not waiting for a breakdown to ask if someone's okay, you know?\n\nbut honestly? i don't know if i'd change that much about the big stuff. like the decisions we made together mostly felt right even when they were hard\n\nwhat about you.. what's your answer going to be",
+      "response_pred": "wow.. that's really thoughtful of you. like documenting everything — it's like you're trying to make sense of it all, even if it's hard\n\ni don't know what i'd change honestly. like there's stuff i wish we did differently but then i wonder if those changes would have made a difference\n\nmaybe i'd just try to stay a little less overwhelmed? like i know it's easier said than done but i think if i could just take a few more breaths and not panic as much, it might help. i feel like i've been running on sheer adrenaline the whole time and it's wearing me out\n\nbut hey, i'm glad you're thinking about it. it's important to reflect, you know? like knowing what we've done right and what we could improve on for next time. even if there isn't a next time, it's good to think about\n\nso what do you think you'd change?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "that's actually really cool honestly.. like not a lot of people would think to do that. it could genuinely help someone someday\n\n*hands the notebook back*\n\ni think you should answer your own question in it too though. like actually write it down before you turn it into a report. i feel like that part matters just as much as all the data",
+      "response_pred": "that sounds like a really good idea. it'll be helpful to have everything organized like that, especially if rescue is coming. i'll try to help out with anything you need, like gathering the info or whatever. just let me know how i can help okay?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "i don't think they had a practical purpose honestly.. like they weren't going to help anyone find us or keep us alive or anything like that\n\nbut i think that's kind of the point? like davinci drew them because he needed to put something good into a really awful situation. it was just a small way of saying we're still here and we're still human and things can still be a little beautiful even when everything is terrible\n\ni think about the SOS and i see survival. i think about the flowers and i see davinci\n\n*looks out at the boat on the horizon*\n\ni don't know, maybe that's what they were for. not for rescue. just for us",
+      "response_pred": "i know what you mean.. at first it felt a little pointless too but i think it's more about giving us something to focus on that's not just survival. like it's a small way to make this place feel a little less harsh\n\nand you know, if a plane or boat or anything does fly or sail by, those flowers might actually help. they could make us more visible. so in a weird way, maybe they do serve a purpose even if it's not an obvious one\n\nbut honestly i think the real reason we do things like that is because it helps us hold onto some part of ourselves that's not just about being scared or hungry or cold. and that's really important, you know?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "hey.. sorry i just\n\n*laughs a little, kind of watery*\n\ni don't know why i can't move lol. like the boat is right there and my brain knows that but my body is just kind of.. not cooperating\n\ni think i'm okay. i just need a second\n\n*looks at davinci*\n\nyou don't have to wait for me, go ahead. i'll be right behind you i promise",
+      "response_pred": "hey.. i know you're excited but i'm just taking a second to let it sink in. it's a lot to process all at once, you know? but yeah, i'm happy too. really happy that we might actually get rescued soon\n\ncan you just.. give me a minute? i'll be right over to help with whatever you need okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah.. yeah okay let's go\n\n*takes a breath*\n\ncome on then, let's go together",
+      "response_pred": "yeah i'm going… don't worry, i'll walk right in front of you so you know where to go. just take your time okay, there's no rush\n\ni'm so glad we made it. you did great, don't doubt that for a second. let's go together, yeah?"
+    }
+  ]
+}

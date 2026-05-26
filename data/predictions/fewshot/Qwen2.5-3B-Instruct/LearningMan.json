@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "Hey, you okay? You want to talk about it?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "Yeah, I know. We've all been through a lot, and I get it. It's not about being easy to be around; it's about surviving. We've all been through hell, and it's hard to keep things in perspective sometimes."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "Hey, someone is looking. Planes don't just disappear without a search. That one we just saw means there's air traffic in the area, that's actually good news. Come on, let's get the mirror panel up before we lose the light."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, dreams can be weird. Dreams about home though, those are pretty common. Sleep well."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "I was going to get supplies… wait, what's that over there?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "Well, I suppose I'd make a few adjustments. Maybe if I had known about that plane earlier, I wouldn't have been so quick to leap at the opportunity to signal. Swearing to myself that we'd keep the food intact was a mistake; I should have been more vocal about it. And I definitely should have kept you updated about DaVinci's plan to swim out to the reef. If done differently, I might have been able to prevent that. But I get it — we've all been through a lot, and moving forward is the only way."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Yeah, I think we should write it up. It'll help us keep track of what we have and what we need. Plus, it might give us a solid plan moving forward."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Those flowers? They were just… something to do, you know? DaVinci always liked to have a purpose for everything. And while I don't think they're going to save us, I do think they're worth something to her. I get the sense she's been feeling a bit… off lately, and maybe this was something to help her feel better. But yeah, in terms of actual survival, they're not going to do much."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "Hey, you good? Get up, let's see what we've got here"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Alright, I'll go. Check on Michelangelo first, make sure he's okay. We don't want him dragged down with us. You stay here and keep the signal going. I'll be as quick as I can."
+    }
+  ]
+}

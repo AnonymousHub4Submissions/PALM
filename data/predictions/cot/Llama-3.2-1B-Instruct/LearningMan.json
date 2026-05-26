@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "\"Hey, don't just sit there. You're making me a suspect, at least for now.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "Other: My eyes used to water every time I saw those planes flying overhead. It's like they could see what we're trying to do.\nYou: Yeah, it's hard to explain, but it's like a constant presence, you know? Like, we're doing something important, but we're not even sure someone's even looking.\nOther: I was wondering if you'd say something about my piano. I've been wanting to get it back for years, but I never seemed to get the courage.\nYou: I'd say something about it, but it's not that simple. Look, I care about you, but I'm not going to say something about it because I don't want to scare you. Can we just focus on getting the signal equipment fixed first?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "\"You're not going to tell us what's going on, are you? You're not going to tell us about Donatello and her flight path? About how we're supposed to be waiting for rescue? You're just going to sit there and do nothing, like we're just going to magically wait for a rescue team to show up on their own?\"\n\nOther: *Closes their eyes and begins to hum, a soft, melancholic sound*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "They say nothing, just sit there, eyes fixed on some point in the distance, not looking at you, not looking away. It's like they're trying to hold back a secret, but the words get stuck in their throat. They don't respond, they just stare, as if waiting for something to happen or for the dream to fade away. The air is thick with tension, and you can feel the weight of their unspoken thoughts hanging over you, like a cloud of unspoken truths."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "Person: Well, I'm glad we have a safety net for emergencies, Good job keeping that in mind. It's always better to have something to fall back on. We've been through some rough stuff already, but that's just part of the package when you're on a mission like this."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "Other: Honestly? I think we should have swung the raft over to the reef a bit sooner. If we'd done it yesterday, we'd have a better chance of getting rescued. And if we'd done it sooner, I'd be the one swimming towards it right now.\n\nOther: That's not what I meant. I meant I'd only brought the first-aid kit. It's not a big deal, but it would've been nice to have some basic medical supplies on hand.\n\nOther: Yeah, that's what I meant. I didn't want to assume we were going to be stranded, and not having the first-aid kit would've been a big problem.\n\nOther: I also wish we'd been more careful when we were scouting out the area. We should have checked for any hazards like poison ivy or snakes before moving on to the raft.\n\nOther: Yeah, but we did find a good source of food, didn't we? And we had a decent shelter setup.\n\nOther: That's true, but we should have been more careful with the shelter. We didn't have any materials to make a better one, and we should have used some of the materials we already had to improve it.\n\nOther: I didn't think about that, but you're right. We should have used some of the materials we already had.\n\nOther: So, to answer your question, if I had to do it over, I'd probably have brought some extra medical supplies, like painkillers and antibiotics. And I'd have also been more cautious when scouting out the area.\n\nOther: I think I'd have brought some extra food, too. We didn't stock up on enough when we were leaving, and it would've been nice to have some extra supplies to last a while.\n\nOther: Yeah, that's what I meant. I didn't want to run out of food mid-trip.\n\nOther: I also wish we'd had more communication about our plan. We should have talked about who would scout out the area, who would stay behind to keep the fire going, and who would be in charge of the raft. It was a bit of a chaotic situation, and I wish we had more time to figure out how to work together.\n\nOther: Yeah, that would've been good. But we did manage to figure it out, and that's what counts."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Think: This persona is going to be a no-nonsense, practical individual. They're not going to sugarcoat things and are likely to be straightforward in their communication. They're also concerned about the resource data and are planning to compile a report.\n\nTheir reply: \"Alright, compile it all in one report. Be thorough, but not too thorough. We need something that we can use to assess our situation and make decisions.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "\"You figure it out, Donatello. I've got the sketchbook and the paint. You just keep training and keep thinking about the flowers. What if they can be used to signal something? Like, a flower is a pretty universal symbol for 'look at me'. If we can use the flowers to call for help, get people's attention... it's not going to be bad. You'll see, it's all about the combination of things. Visuals, sounds, smells. You're good at that, I know you are. Just try to find something, and we might just be able to figure out what it's for.\"\n\nOther: I don't see why I have to – they're just random flowers."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "You: Hey, you okay? You don't sound yourself. You were the one who was excited about the signal, wasn't it? I thought we were making progress."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Person: Yeah, I'm going. DaVinci, you should be too. Michelangelo, you can stay with DaVinci, keep the fire going. They've got the plan to signal from the plane. I'll go check on the others, make sure they're okay.\n\nOther: I was worried about that. What if they're hurt?\n\nYou: They're fine, I've told them they should have been more careful. Now, let's get out of here."
+    }
+  ]
+}

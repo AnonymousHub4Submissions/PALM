@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ourlegacy",
+    "agreeableness": "18.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "5.0",
+    "neuroticism": "50.0",
+    "gender": "m",
+    "age": "20.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "Hey, it's alright. You don't have to say anything right now. But if you're feeling up to it, we could use your help with the raft. We need to make sure we're properly prepared for any possible rescue scenarios. What do you think?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us organized and that mattered. The drink and crackers thing was a bit rough but you came clean about it and we're all still here so it's whatever.",
+      "response_pred": "I understand, we're all under a lot of stress. But it's important we stay focused and work together. Let's put the past behind us and focus on what we need to do to survive. We've got a plan for the raft, the mirror panel, and the SOS signal. Let's make sure everyone is on the same page and we stick to it. We're stronger together."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours isn't forever but let's not just sit around waiting. DaVinci, start breaking down what we can carry and what we leave. No point dragging wreckage home but the first aid kit, compass, flares — anything useful comes with us. Michelangelo, when you're ready, help him sort it. Donatello, whatever's in that notebook, make sure it's got everything documented in case anyone needs a debrief when we get back.\n\nAnd let's clean the camp up a bit. Not for any practical reason, just — leave it better than we found it or whatever.",
+      "response_pred": "Alright, let's not just sit here. We need to assess what we have and prioritize. We've got the mirror panel idea to discuss, and I think we should all contribute to the raft build if we're going to do it. I'll start with the mirror panel, but we need to work together on this. Let's get organized and make the most of our time."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's normal. Home is a comforting thought when things are tough out here. But right now, we need to focus on the tasks at hand. We've got a mirror panel to set up, a fire to keep burning, and a raft to build. Let's get back to work and keep our eyes on the sky. When it's safe to let our minds wander, we'll think about home."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "I see. Well, I guess now would be a good time to use it then, don't you think? We need to conserve our energy for the tasks ahead, and a hot meal can help with that. Plus, if it's for emergencies, it seems like now qualifies. Let's cook it up and get some sustenance before we focus on our next steps."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group trust stuff earlier instead of waiting for the right moment. The drink and crackers thing — I let that sit too long. Should've addressed it the day Michelangelo found the bottle.\n\nAnd I'd have asked you directly what the notebook was about instead of letting it become a thing.\n\nWhat would you change?",
+      "response_pred": "I'd say we should have prioritized the raft build earlier. The risk of capsizing is too high with our limited resources, and the raft gives us a better chance of being spotted from the air if we do end up missing the search party's window. We also should have addressed the issue of supplies being taken without group consent sooner. Trust takes time to build, and taking someone's water or food without talking about it doesn't help. Finally, it might have been helpful to have a designated lookout at all times instead of relying on random people to spot planes. It's a small thing, but it could have made a difference."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that makes sense. Might actually be useful for someone — search and rescue teams, aviation authorities, whoever does the debrief. If it helps them handle something like this better next time then all those notes were worth it.\n\nSend me a copy when it's done.",
+      "response_pred": "Hey, we've been through a lot. You don't need to create a report on everything. We're all doing our best here. Let's focus on what needs immediate attention: food, water, shelter, and signals. We've got the water situation under control, but the raft needs to be built and supplies need to be conserved. Let's prioritize those tasks for now. It's important to stay focused and not get overwhelmed."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. He needed to do something that felt human, not just functional. I think that mattered more than you'd think — kept his head right when it could've gone the other way.",
+      "response_pred": "They were more of a symbolic gesture, really. DaVinci drew them as a sign of hope, to keep our spirits up. It's not something practical, but sometimes symbolic actions can help us get through difficult situations. Plus, if a search party happened to see them from the air, it might catch their attention and help us get found faster. It's worth having something visible from above, even if it's just flowers."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "Hey, you alright? I know it's tough out here but let's keep our heads in the game. We've got a lot to do still and we need everyone focused. Let's get back to work."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Sure, let's go. But before we leave, let me just double-check that we've accounted for everything. We've got the water, the shelter, the signal, right? And we've got the raft plan, just in case. And we've shared supplies fairly, haven't we? No one taking more than their fair share or anything like that? I just want to make sure we're leaving nothing behind. And one more thing, if there's anything I missed or anything you're not sure about, speak up now. We don't want to leave with any regrets. Alright, let's go."
+    }
+  ]
+}

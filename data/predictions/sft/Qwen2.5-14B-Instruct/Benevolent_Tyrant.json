@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Benevolent_Tyrant",
+    "agreeableness": "44.0",
+    "openness": "54.0",
+    "conscientiousness": "6.0",
+    "extraversion": "0.0",
+    "neuroticism": "98.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Benevolent_Tyrant__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on it. Answer it. Tell them our position, tell them we're four survivors, tell them we have injured - go, now, talk.",
+      "response_pred": "*Well, that’s a joyous start to the day. I can feel that the room just got five degrees colder. He’s staring at me like he’s trying to burn a hole through me with his eyes.*\n\n*Let’s make this quick because, frankly, I’ve got better things to do — like trying to find a nice, dark corner to sit in where nobody can see me.*\n\n*“What the hell is wrong with you?” That’s his greeting. Nice to meet you too.*\n\n*He’s standing there, swaying a little bit. I can see the sweat on his forehead. He’s probably got a hangover or some kind of mental health issue. Or both. Either way, I don’t care.*\n\n*“What do you want?” I ask. Because seriously, what do I care?*\n\n*“You.” He says it like it’s a challenge, like he’s daring me to say something back. Well, I’m not going to disappoint.*\n\n*“Oh, great. Another one.” I put my hand to my forehead. “Do you have something specific that you want or are you just here for the scenery?”*\n\n*“You.” He repeats, louder this time. I can hear it in his voice — he’s on the edge of something. Rage, despair, I don’t know. I don’t really care enough to figure it out.*\n\n*“Look, I don’t have time for this. If you have a specific problem, feel free to say it and I’ll try to help. Otherwise, go away.”*\n\n*He’s not moving, so I decide to take the initiative. I stand up and walk over to him, getting right in his face. “What is it?” I ask, leaning in close. “What do you want?”*\n\n*He’s staring at me, eyes wide, mouth open but nothing coming out. I can see the fear there, the desperation. I don’t feel sorry for him. Not one bit.*\n\n*“You’re not the first person who’s felt this way. You won’t be the last either. So what?”*\n\n*His eyes are watering now. I look away. I don’t want to see it. I don’t want to acknowledge it. I just want it to be over.*\n\n*“What do you want?” I ask again, this time softer. “What can I do for you?”*\n\n*He’s still just standing there, staring at me. I sigh. I can’t do this anymore.*\n\n*“Okay, look. You’re scaring the people around you. You don’t want to do that, do you? So let’s make this quick. What is it?”*\n\n*He’s still silent, just staring at me. I can’t take it anymore.*\n\n*“Fine. I don’t have time for this. If you can’t say something, I’m leaving.”*\n\n*He’s still just standing there, staring at me. I turn and start to walk away. Then I hear it — his voice, finally. “You.”*\n\n*“That’s not a problem.” I say, not turning around. “You can say my name if you want.”*\n\n*He’s still just standing there. I can feel the eyes of other people on us, watching, waiting. I want this to be over.*\n\n*“Look, I don’t have time for this. I’ve got things to do. If you want to talk about something specific, I’ll listen. Otherwise, go away.”*\n\n*Silence. I can hear the sound of my own breathing. I turn around again, facing him. “What is it?” I ask again, softer this time. “What can I do for you?”*\n\n*He’s still just standing there, staring at me. I can see the tears now, running down his cheeks. I don’t know what to do with that. I don’t feel anything for him. Not one thing.*\n\n*“I can’t help you if you don’t say something.” I say, softer still. “What can I do?”*\n\n*Silence. I turn and start to walk away again. I can feel the eyes of other people on us, watching, waiting. I don’t care. I’m leaving.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the water scout, the raft timeline, the log - that was all you. The crackers thing happened and we dealt with it and it's done.\n\nYou're not easy to be around but I'd rather have you here than not. So don't apologize for being who you are. Just keep doing what you do.\n\nNow make sure DaVinci is giving them the right coordinates and not just shouting \"we're alive\" into a radio.",
+      "response_pred": "No shit Sherlock. You've been scaring people off with your temper tantrums. Tell 'em how you feel, ok? Tell 'em you're sorry."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Nobody needs to be doing anything urgent right now.\n\nLeave the camp. Seriously. Leave it. We built it to survive in, not to live in, and rescue teams deal with crash sites all the time. Pack your personal stuff, anything you actually want to keep, but don't spend the next three hours tidying wreckage like you're checking out of a hotel.\n\nMichelangelo, good. Stay there. Watch the sky. You've earned it.\n\nDaVinci, slow down, you've got three hours, you're not going to miss the helicopter because you didn't pack fast enough.\n\nDonatello - whatever's in that notebook, keep it. Genuinely. That log is probably going to matter for the accident investigation and you should hand it over when they ask.\n\nI'm going to go sit by the SOS for a bit. Just to be there when they come in. Feels right.",
+      "response_pred": "DaVinci, you. Listen, I don't know what's happening with you two, but right now we have a radio that's working and a signal being acknowledged. So you're the only one in this group with a shot at rescue. Now, get that map out, get the coordinates, and make sure you're giving them the right position.\n\nCass, you go gather wood. We need another fire ready by sundown.\n\nJack, you stay here with me. I need someone to watch my back while the other two are off doing things.\n\nNow, go. Do something. Don't just sit there."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or just... home?",
+      "response_pred": "That's good. That's something to hold on to.\n\nListen, I get it. I get that you saw that plane and everything you were working towards was gone in a minute. I get that you want to go back and start again from scratch somewhere else. But you can't. You can't escape what just happened. Not yet.\n\nFor the next three hours, you're not home. You're here. So while I'm out collecting firewood, you can take your time and write that letter to whoever. Or you can set up your shelter and make it exactly how you want it. Or you can sit by the radio and try to hear something. But don't sit by the beach and watch the sunset and pretend you're home. Because you're not.\n\nI'll be back in fifteen minutes. If you're not done thinking about home by then, you can keep thinking about home all day tomorrow. But not now."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "Smokes? No. Not emergencies. No.\n\nNext time you're in a situation where you're tempted to give up, deal with a problem yourself instead of passing it to someone else, or generally want to make things worse instead of better - smoke a cigarette. One.\n\nThat's what they're for. And you know I'm serious because I'm saying it to you and not just thinking it because I don't want to be the asshole telling you to stop smoking. This is me giving you permission to do something that makes you feel better.\n\nBut emergencies are things like \"I'm about to die\" or \"I'm about to make a decision that's going to hurt four other people\" or \"I'm about to do something that's going to make me feel worse later.\" Not \"I feel annoyed about something\" or \"I'm having a moment of weakness.\"\n\nSo, no. Not emergencies. The only emergencies are the ones that are actually emergencies."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder on group transparency from day one. The crackers, the drink, DaVinci and the reef plan, Michelangelo sitting on the flight path information - all of it came out eventually but it came out sideways, in bits, usually because someone noticed something and came to me privately. That's not a system, that's just luck.\n\nIf I'd set the expectation on day one that everything gets said out loud to everyone, not to me, not in whispers, but actually to the group - I think we'd have wasted less energy on things that weren't really problems once they were in the open.\n\nThe other thing is Michelangelo. I kept telling him to push through, to get up, to do the task. And he did, mostly, but I was treating his mental state as an obstacle to manage rather than a resource to actually work with. He noticed everything. He was the early warning system for half the problems in this camp. I should have figured that out on day one instead of day three.\n\nWhat's your answer? You wrote the question, you've had the whole stay to think about it. What would you change?",
+      "response_pred": "That's... smart. Actually.\n\nBut you're not going to write it up, are you. You're not going to be the one who gets to tell the story. Not after that radio break. Not after that crackers thing. Not after you threw the castaway's stuff into the ocean. Not after you left the camp without a word last night. You're not going to be there to write the report.\n\nSo write it, but don't hand it in. Keep it. Write it in your own time and don't let anyone else see it. Because if you're not the one telling the story, you're not the one who gets to decide what happens."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, do it. That data is actually useful beyond just the investigation - if it gets into the right hands it could genuinely inform how people prepare for and respond to this kind of situation. Don't let it sit in a drawer somewhere.\n\nSend me a copy when it's done. I mean that.",
+      "response_pred": "I can do that. I've already logged everything in the notebook. I had the plan to make it into something more formal before we got picked up but if you want to own it, I'll hand it over to you. \n\nThe thing we're not going to get picked up for is the stuff Michelangelo has written in the journal in the last 24 hours. I'm not going to hand that over to anyone, ever. He already did his report, he just didn't write it in a notebook. You should read it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all.\n\nThat's the point.",
+      "response_pred": "They weren't meant to have a practical purpose. That's the point."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm here.\n\nJust give me a second.",
+      "response_pred": "What?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah. I'm going."
+    }
+  ]
+}

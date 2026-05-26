@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "eye_licker24",
+    "agreeableness": "1.0",
+    "openness": "30.0",
+    "conscientiousness": "30.0",
+    "extraversion": "86.0",
+    "neuroticism": "54.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\nSomeone go answer it before I do something embarrassing.",
+      "response_pred": "Hey, take a breath. Whatever you've got to say, just let it out. Sometimes the hardest part is just getting the words started."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You got the job done. That's what mattered out here.",
+      "response_pred": "Yeah, well, nobody's exactly been at their best. But that doesn't mean we can't keep trying. Let's just focus on getting through this one day at a time, okay? We owe it to ourselves to keep going."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's leaving this beach without at least stacking the materials we used. We're not the people who leave a wreck looking worse than we found it. Three hours is enough time to do it right.\n\nMichelangelo, I know you're enjoying the sky but you can enjoy it while you help. Come on.",
+      "response_pred": "Hey, listen up. We can't just sit here and let this happen. We need someone to take the lead on this, and if none of you want to step up... then I guess I'll do it. But I need you all to follow through, okay? Let's get a plan going — who's on what, and let's make sure we're all working toward the same goal. Don't let the silence eat us alive."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, me too. Home's good for dreaming about when you're stuck somewhere less comfy. Try to get back to sleep, remember the parts about home that make you smile."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if things had gone worse you might have been right. But we didn't need an emergency fund, we needed to trust each other, and those two things were always going to be in conflict out here.\n\nI'm not going to make a big thing out of it now that we're three hours from rescue. Just know that the rationing plan only works if the person writing it follows it too. You know that already. That's probably why you're laying it out now.",
+      "response_pred": "Kept what for emergencies? The crackers? We need to talk about this. Keeping extras when others are rationing is not fair, especially when you wrote up the rationing plan. Let's not have secrets like this, it's not helping anyone."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to you about the food and water on day one instead of waiting for you to bring it up yourself. That's the honest answer.\n\nAnd I'd have told Michelangelo sooner that keeping his head above water was already enough. He spent too much energy thinking he wasn't doing his part.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "Well, if we're playing the what-if game, I'd probably start the inventory log from day one. It would have saved us some headaches trying to backtrack on what got used and when. But hey, hindsight's always clearer. Besides, you did it, and that's a good thing. It'll be useful when we get back, if only to remind everyone how tough we were. What about you? If you had to change one thing, what would it be?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "Sounds good, but make sure you include a section on what we've actually used versus what we thought we'd use. It'll help us figure out what we need to focus on for tomorrow and the days after."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "They weren't about practical purpose, they were about keeping DaVinci's mind from shutting down. You know, something to focus on that isn't survival mode all the time. Art's like that, it gives you a place to put the stuff that doesn't fit in the survival box. Plus, if anyone flying by happens to look down and see something colorful, it might catch their eye. Worth the effort just in case."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Give me a minute.",
+      "response_pred": "Yeah, I hear you. But I need a second to make sure my legs still work before I start cheering too. Let's do this, but let's do it right."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. Stay close, we don't know what's on the other side yet."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Cuandoman",
+    "agreeableness": "0.0",
+    "openness": "27.0",
+    "conscientiousness": "31.0",
+    "extraversion": "14.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio.  Now.  Give them our position.",
+      "response_pred": "\"This isn't a way out, you know, or a way to escape. We've been waiting for something to happen, for a spark to ignite. I'm tired of being the one to ignite it. I just want something to happen, anything. We're all trapped in this, aren't we? *pauses, looking around the room, and leans in closer* Tell me, what's the point? Is it just us, or is there something more?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive.  The log, the rations, the raft plan — that stuff mattered.  We can work on the bedside manner when we're home.",
+      "response_pred": "*nervous laughter* Ah, yeah... I guess I have been a bit... trying to navigate these emotions myself. It's been a tough time, you know? *pauses, fidgeting with hands*"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this up before they get here.  We're not leaving a mess.  DaVinci, pack what's worth keeping.  Michelangelo, get up — help break down the shelter.  Donatello, finish your notes.\n\nThree hours goes fast.  Let's move.",
+      "response_pred": "\"I'm just gonna go set up a makeshift shelter, see if I can catch a few hours of sleep here. The stars are nice tonight, might be worth the extra effort to get some rest.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good.  Hold onto that.  Few more hours and it's not a dream.",
+      "response_pred": "It was a pretty ordinary dream. You were walking through the front door, and everything was just going smoothly. No major worries or stressors. Just a sense of comfort and familiarity."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That was the emergency.  Every day out here was the emergency.\n\nI'm not going to pile on — we made it.  But you need to know that if we hadn't, that decision could have broken the group.  Michelangelo found the bottle.  He didn't say anything publicly because he's not built that way, but he knew.  We all knew.\n\nTake it as a lesson and leave it here when we go.",
+      "response_pred": "honestly"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd have confronted the hoarding earlier instead of waiting for the right moment.  And I'd have gotten Michelangelo moving faster on day one — not because he's weak, but because being useful is what keeps people from falling apart.  Idle hands and a scared mind is a bad combination.\n\nOther than that?  Not much.  We made the right calls when it counted.\n\nWhat's your answer?",
+      "response_pred": "\"if you had to do it over, would you waste another day trying to keep track of every resource and decision we've made, only to have to start all over again when we return?\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Share it with me when it's done.  Seriously.  The decision log, the rationing data, the timeline — that's useful information.  If this ever helps someone else in the same situation, it was worth keeping.",
+      "response_pred": "I'm actually planning on spending the rest of the weekend getting some stuff organized and in order."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  But that's not the right question.\n\nWe were out here five days and we're all still standing.  The SOS got us found.  The flowers kept DaVinci moving.  You can't always measure what something is worth on a spreadsheet.\n\nLet him have the flowers.",
+      "response_pred": "Those flowers you speak of, my dear, were a symbol of love, fascination, and the fleeting nature of life. They were used to adorn the bodies of the women he loved, particularly his mistress, Caterina Buti."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second.\n\nLet's go.",
+      "response_pred": "*smiles weakly, looking down at his feet*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "\"Yeah, I'm ready when you are. Let's go help them.\""
+    }
+  ]
+}

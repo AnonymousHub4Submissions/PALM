@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "thisisme201413",
+    "agreeableness": "4.0",
+    "openness": "57.0",
+    "conscientiousness": "57.0",
+    "extraversion": "11.0",
+    "neuroticism": "91.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "thisisme201413__Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. breathe. we heard it too.\n\nsomeone respond to it, davinci you're closest, pick it up and talk. tell them our location, tell them we have four survivors, tell them we need extraction. go.",
+      "response_pred": "\"I'm sorry... I'm just so tired all the time. I can't even think straight.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no, you haven't. but you kept us alive and organized and thinking clearly when it mattered. the crackers and the drink, i'm not going to pretend that didn't happen, but i also know the log, the raft plan, the rationing, the water route, that was all you. \n\nwe can figure out the rest when we're home.",
+      "response_pred": "I know this shit's been hard on you. I'm just a dude, I ain't got any answers. But we're here, we ain't going anywhere. You got people here, you got me here, we're in this shit together. You're not alone, you never were.\n\nJust… try to remember that, man. Remember you're not alone."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright, three hours. let's not just sit here like we're waiting for a bus.\n\nmichelangelo, you good to help break down what we can carry? nothing heavy, just the stuff worth taking back. first aid kit, the notebook, anything personal.\n\ndavinci, the signal panels, bring them in. no point leaving them out now that we've made contact but let's not just abandon everything either.\n\ndonatello, whatever's in that notebook, make sure it's with you when we leave. seriously. that's a record of what actually happened here and someone should have it.\n\ni'll sort through the rest. three hours is enough time to do this properly.",
+      "response_pred": "4.0 agreeableness, 57.0 openness, 57.0 conscientiousness, 11.0 extraversion, 91.0 neuroticism.\n\ni'm not doing this.\n\nanyone else have a lead on what this is or what we do next?\n\nif not, let's re-group and go over everything we know."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was in it.",
+      "response_pred": "yeah, same."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i believe you. i do. but an emergency that only you get to define isn't a shared emergency, it's a personal reserve. and out here those aren't the same thing.\n\nlook, you're laying it out now and that matters. i'm not going to make this into a bigger thing than it needs to be, especially not with three hours left. but when we get back, if you ever find yourself in a situation like this again, with other people, you need to think about what keeping score costs. not just in trust. in the kind of person you end up being alone with your notebook at night.\n\nyou're smart and you're capable and honestly this group would've been in serious trouble without you. but you can't be the only one who decides what counts as an emergency. that's not how it works when you're not alone.\n\ntake the food. split it or leave it, whatever you want. but you know what it means that you're putting it out there now, and so do i.",
+      "response_pred": "yeah, okay, but no point wasting it. you're the first aid kit organizer, start grabbing the important stuff.\n\ntwo aspirins, three band-aids, two cloths, alcohol wipes, the medical tape. that's enough for now.\n\nleave the water purification tablets, the splints, the gauze, the burn cream, whatever else there is. we'll be fine for the next three hours."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? i'd have called out the drink and crackers thing earlier instead of waiting for the right moment. there's no right moment, i knew that and i still waited. cost us trust we couldn't really afford to lose.\n\nand i'd have slept more. that sounds stupid but i was running on nothing by day three and it made everything harder to think through.\n\nwhat would you change. you already know the answer, you wrote the question. what's in your head when you read it back.",
+      "response_pred": "alright, Davinci, i'll answer it.\n\nif i had to do it over, i'd have gotten a better idea of the lay of the land from the start. i'd have spent a day walking in a straight line, maybe two, and tried to find something that looked a little more like a path. i'd have talked to everyone on the flight down about how we were going to react if we ended up on the ground early, because the option of hijacking a plane and kidnapping a pilot isn't a thing that normally comes up in conversation. i'd have done a better job of checking the life raft and the survival kit. i'd have made us a signal panel from the start.\n\ni'd have done a lot of things differently. but everyone did. that's not the question. the question is, if i did, would it have changed the outcome, and if so, in what way.\n\nyou're right. we can't know that. we can't change the past. but we can change what we do with it."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it. genuinely. not just for yourself, that kind of data could actually be useful for someone else someday, survival training, emergency planning, whatever. five days of real conditions with real people making real decisions under pressure, that's not nothing.\n\nsend me a copy when it's done.",
+      "response_pred": "yeah, michelangelo's doing that now. he's bringing the notebook in.\n\ni'm not going to get into this again, but the food, you already know what i said. i don't want to hear that you've been thinking about this for hours and i can't take it back. you can set it out if you want, it's yours, but don't do this to the group.\n\nwe're getting picked up in three hours. that's enough time to do this right."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. that's the point.",
+      "response_pred": "flowers don't serve practical purposes. that's the point.\n\ndonatello, you know that. you do.\n\nthey were for the same reason we kept the notebook and the signal panels, for the same reason i've been writing things down, for the same reason you were drawing them in the first place. because when you're out here, in the quiet, the only thing that matters is the noise you make yourself.\n\nbecause when you're out here, and you're alone, and you're scared, and you're trying to survive, it's the only thing you can control.\n\nso yeah, you don't need to understand why he drew them. but you do need to understand what they meant."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i don't know. i think i'm just...processing. give me a second.\n\nit's weird, you spend the whole time focused on what needs doing next and then suddenly there's nothing that needs doing and you just stand there like, ok. now what.\n\ni'm glad we're going home. i am. i just need a minute before i start cheering about it.",
+      "response_pred": "yeah. sorry, you were waiting for me."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah. let's go.",
+      "response_pred": "okay. i'll go first."
+    }
+  ]
+}

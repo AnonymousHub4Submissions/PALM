@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ceader",
+    "agreeableness": "15.0",
+    "openness": "96.0",
+    "conscientiousness": "83.0",
+    "extraversion": "59.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it.",
+      "response_pred": "*stiffly stands up, eyes fixed on you, my voice barely above a whisper*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But we're all still here, so it worked out.",
+      "response_pred": "*sigh* That's an understatement. I've been trying to deal with some stuff on my own, but it's not really working. To be honest, I'm a bit of a mess right now. My mind is constantly racing and I just can't seem to calm down. I feel like I'm at war with myself, you know? It's hard to explain, but it's like I'm this fragile, snapped twig just waiting for the slightest breeze to send me crashing down."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit here until we have to move.",
+      "response_pred": "The stillness is almost palpable. I fidget with the hem of my jacket, feeling a mix of guilt and frustration. We used to be a tight-knit group, always planning and working together seamlessly. Now it feels like we're just going through the motions, each one of us stuck in our own little bubbles. I glance over at the others, wondering if anyone else is feeling this sense of disconnection. But they seem lost in their own thoughts, oblivious to the tension building between us. I take a deep breath, trying to shake off the feeling of unease that's settling in."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Home can be a really powerful trigger for the subconscious, can't it? I've always been fascinated by how our minds can latch onto a place and evoke such strong emotions. It's like the brain is trying to tell us something, but what does it mean, really? Do you think it's just nostalgia or something more?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also think you knew we'd notice and you did it anyway, which means you trusted your own judgment over the group's. That's worth talking about when we're somewhere with chairs and a table. Not now.",
+      "response_pred": "Honestly, I'm a bit surprised you still have that old thing. I mean, it's not like it's reliable or anything. Do you ever think about the environmental impact of keeping it charged and whatnot?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to Donatello about the supplies sooner instead of waiting for the right moment. And I would have sent those letters before I got on the plane.",
+      "response_pred": "Well, I've been thinking about that a lot, actually. You know how we pivoted on the third day when we realized the weather forecast was off? I think I would've done that anyway, just maybe a day sooner. The way things were shaping up, it was only going to get worse. And then there's the supply chain issue with the generator. I wish I'd had a contingency plan in place for that. Maybe I could've ordered an extra one, or sourced it from a different vendor. That would've saved us a lot of time and hassle. But overall, I'm pretty happy with how things turned out. We made it work, and that's what counts."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Finally having a chance to organize everything, huh? I've been thinking we could also include some analysis of the trends and any potential discrepancies in the data. Maybe we could even look into where the discrepancies are coming from, if it's just measurement errors or if it's something more significant."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's what made them worth doing.",
+      "response_pred": "The famous Vitruvian Man. That drawing is more than just a sketch, it's a study of human proportions and the fundamental principles of art and science. DaVinci was fascinated by the idea that the human body is a microcosm of the universe, and he often incorporated symbols and codes into his work.\n\nIn the case of the flowers and the Vitruvian Man, they might represent the interconnectedness of all living things. DaVinci was a master of observation, and he often used nature as a source of inspiration. The flowers could symbolize the beauty and complexity of the natural world, and the way they relate to the human form.\n\nAs for a practical purpose, it's likely that DaVinci was using the drawing to test his ideas about the golden ratio and the proportions of the human body. He was a true Renaissance man, and his work spanned many fields, from art and engineering to anatomy and mathematics.\n\nBut, I must admit, I'm a bit of a conspiracy theorist, and I've always wondered if there was more to that drawing than meets the eye. Maybe the flowers were a clue to a larger code, a hidden message that only a select few could decipher. The mind boggles at the possibilities, doesn't it?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just give me a second.",
+      "response_pred": "*pauses, eyes narrowing slightly* You're not going to join in on the celebration, huh? I mean, I know it's not your thing, but I thought we were having a good time. *pauses again, studying you* What's wrong?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "I've got to go, I can already see them setting up a rescue line, looks like it's a pretty intense situation. Stay close, I don't want you getting hurt. We should stick together, I'll guide you through it. Let's move, they're calling out for us to hurry up."
+    }
+  ]
+}

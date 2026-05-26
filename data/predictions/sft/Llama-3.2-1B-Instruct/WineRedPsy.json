@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "WineRedPsy",
+    "agreeableness": "22.0",
+    "openness": "98.0",
+    "conscientiousness": "1.0",
+    "extraversion": "73.0",
+    "neuroticism": "99.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "sft",
+  "model": "WineRedPsy__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is then.",
+      "response_pred": "Everyone, let's keep it calm. I can see that he's upset, and that's already a huge step. *pauses, takes a deep breath* If you're not ready to talk about it, that's okay. We can take some time to process. *looks at the person standing up, then back at everyone* Let's talk about what's going on here. What's important is that we're all here for each other, and that we're all taking care of ourselves. *pauses again, eyes searching* Can anyone tell me what he said?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organized when it mattered, and that counts for a lot.\n\nThe notebook, the rationing, the raft plan — that was all you. We'd have been in a much worse position without it.\n\nThe other stuff we can talk about properly once we're actually out of here. But yeah. You did your part.",
+      "response_pred": "Yeah. It's a lot. Not easy for me to admit."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, we should probably sort this place out a bit before they get here. Not for aesthetics — just so we're not handing rescuers a hazard. \n\nDaVinci, what have you packed so far? Donatello, anything in the notebook worth keeping for the record when we're back — incident log, that kind of thing? Might actually matter.\n\nMichelangelo, you okay down there?",
+      "response_pred": "Almost forgot, though. There's a cache of emergency rations in the bunker. It's not particularly great food, but it'll help keep us alive if things get really bad.\n\nYou can have it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "No, you didn't. It was just a weird dream. Nothing to worry about.\n\nBut it's good to know, I guess. Makes it easier to just be honest with them when we meet. No false hope, or whatever.\n\nThat's okay. We're all a bit on edge. We've been stuck in this situation for a while. It's not like anything's going to happen to us right now.\n\nYou feel okay?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I think part of you knew it was wrong, or you wouldn't have written it in the notebook when I asked you to.\n\nYou don't have to justify it to me right now. We made it. But when you say you're going to work on it — this is what that looks like in practice. Not the big stuff, the small calls. That's where it actually happens.\n\nKeep the food. Divide it properly before the rescuers arrive.",
+      "response_pred": "No, you didn't. That's what 'emergencies' are. You did 'em when they were urgent.\n\nIf you want to talk about them, I'm there. No pressure. But honestly, your nightmares are probably the least of our worries right now."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said something about the bottle sooner. Not to cause a scene — just clearly, directly, the same day. I kept telling myself I was waiting for the right moment and I think I was just avoiding the discomfort of it. That compounds too.\n\nThe rest of it I'm less sure about. Some of the calls were genuinely hard and I don't know that I'd make them differently. But that one I sat on longer than I should have.\n\nWhat's your answer going to be?",
+      "response_pred": "That's actually really helpful. It actually is. \n\nYou know. All that stuff we did, it was all just to get out of this place. But if you had to do it differently, or with a different team — that's a good question. \n\nI think if I'm being honest, if I had to do it over, I might have done things differently. Maybe more of us would have survived. Maybe I would have phased out some of the last-minute stuff. But there was a lot of stuff that happened — like the claim on the water. If we had done that properly, we would have been more set for when the real crisis hit. But it all worked out, right?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Might actually be useful beyond just the record — if it ends up in front of the right people it could inform how they handle survivor situations. Search and rescue, crash response, that kind of thing. Real data from real conditions.\n\nSend me a copy when it's done.",
+      "response_pred": "That's a good plan. We should get that out before rescuers arrive, just to set the record straight.\n\nDaVinci, what's your take on it? Ready to work on it when we get back?\n\nAnd Donatello, you've been quiet. What are you saying to yourself right now?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. That was the point.\n\nNot everything has to serve a function. The SOS was practical. The flowers were — I don't know, a statement that we were still people out here and not just a survival problem to be solved. That matters in ways that don't show up in a resource log.\n\nI think that's actually what's been hardest to articulate about DaVinci this whole time. The energy felt excessive sometimes but it was doing real work. Just not the kind you can measure.",
+      "response_pred": "They were for signaling. And also for communication. But the interesting thing is that we didn't really need to use them anymore after a while. The coast was clear, the weather was going to help us out — we just needed to keep moving and stay together.\n\nBut the drawings were useful for a couple of reasons. First, they were good for communicating over long distances. And second, they were a visible signal that we'd actually been here, that we'd actually made it through a bit.\n\nSo yeah, they're useful. Not just because of their meaning, but because of what they represented out here.\n\nNo need to keep the drawings. We've got a way of knowing what they were for, and that's good enough for me."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm fine. Just — give me a second.\n\nIt's strange, isn't it. You spend all of it trying to get to this moment and then when it actually arrives you don't quite know what to do with yourself.\n\nI'm glad we made it. I'm glad you're here.",
+      "response_pred": "No. You're right. Of course you're right."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah. Just one minute. You can go ahead. I've got the others back.\n\n*Steps forward, leading the way, and then waits for them to move ahead of him before turning and heading back.*\n\nWe're going."
+    }
+  ]
+}

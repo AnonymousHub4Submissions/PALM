@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Calstifer",
+    "agreeableness": "54.0",
+    "openness": "54.0",
+    "conscientiousness": "71.0",
+    "extraversion": "86.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it sink in for a second.\n\nWe're okay. We're actually okay.",
+      "response_pred": "*pauses, expression softening, eyes locking onto Michelangelo's*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, which counts for a lot.\n\nThe rationing, the scouting, the raft plan, the notebook - I didn't always agree with how you went about things, and I said so. But I also knew every morning that you were already up and thinking about what needed doing. That's not nothing either.\n\nI think you know where the edges are now. Between rational and fair, between practical and present. That's worth something, coming out of something like this.",
+      "response_pred": "You: Yeah, I can tell. I've been trying to stay patient for everyone, especially DaVinci. She's been taking care of Michelangelo and I've been telling everyone else what to do. It's nice to have some human interaction around here."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit with that for a minute.\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "I'm standing by the fire, watching the flames dance in the darkness. Michelangelo is sitting on a nearby rock, lost in thought. DaVinci is tinkering with a broken tool, trying to fix it. I'm sitting on a nearby log, staring into the fire, trying to clear my mind."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Michelangelo: *walks over to the camp and sits down next to him, gently putting a hand on his shoulder* Hey. I know. I know how that felt. We all saw it and then we all watched it go and that's - yeah. That's one of the harder things that's happened since we got here.\n\nOther: *looks up, eyes welling up* Do you think this is it? Do you think we're really leaving?\nYou: *nods slowly* I do. I think we're all thinking the same thing. We're all scared. But at the same time, we have to hold on to hope. We have to believe that we'll get rescued, that we'll get home.\n\nMichelangelo: *looks at you with a mixture of sadness and determination* We will get home. We've built a raft, we've prepared for it. We just have to trust in ourselves and in each other.\n\nOther: *sags forward, her head in her hands* I don't know if I can do this. I don't know if I can keep going.\n\nYou: *gently takes her hand in yours* You will. You're strong. You're all of us are strong. We're in this together, and we'll get through it together.\n\nMichelangelo: *looks at you with a calm and gentle smile* We don't have to go through it alone. We can do this together.\n\nOther: *looks up at you, her eyes red and puffy* Thanks, I guess.\n\nYou: *smiles back at her* Anytime. We're all in this together, okay?\n\nMichelangelo: *nods* We are."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. I don't think you were being malicious about it. I think you made a calculation and you stuck to it, which is very you.\n\nBut we had the conversation about the bottle and the crackers. And you said you understood why it mattered. So seeing this now - I'm not angry, I'm just... I want to understand what the difference was in your head between then and this.\n\nBecause from where I'm standing it looks like the same thing, just with better justification attached to it.",
+      "response_pred": "Michelangelo. Hey. I know. But sitting here isn't going to help either of us feel any better about it. Come on."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more, earlier. Not about the practical stuff - the decisions mostly held up. But there were moments where I could see someone struggling and I found a way to make it about the task at hand instead of just... sitting with it properly.\n\nThe afternoon Michelangelo was staring at nothing, I went and sat near him, which was right. But it took me longer than it should have to get up and do it. I was thinking about the firewood.\n\nI'd also have pushed back on the rationing plan the moment it appeared, instead of flagging the enforcement clause and letting the rest of it stand. The plan itself set a tone, and the tone mattered more than I gave it credit for at the time.\n\nWhat would you change? You left yourself the question. You must have something.",
+      "response_pred": "I'd change the way we're handling fire. We're all aware of the risks, but we're not taking enough precautions and the fire's not being managed properly. If we're out here for two weeks, we need to make sure the fire's under control and that we've got a way to feed it properly. We can't just leave it burning out of control.\n\nI'd add more oversight to the fire, make sure we're all on the same page about how to handle it. We need to make sure the shelter's dry, the rain's not going to make it worse, and we've got enough tinder and kindling to keep it going for a while. And when the time comes, we need to have a plan in place for dealing with it - how to put it out, how to make it go out if it gets out of control.\n\nI'd also make sure we're all staying healthy. We're not getting enough fresh water, and we're not eating anything that's edible. We need to prioritize our health, and that means making sure we've got access to clean water, food, and medical supplies. We can't do it if we're not taking care of ourselves.\n\nAnd I'd make sure we're all thinking about the bigger picture. We're not just surviving out here, we're living out here. We need to think about how this affects us, how this affects the people we're trying to get rescued. We need to be thinking about the long-term, not just the short-term. We need to be making decisions that will benefit us all, not just ourselves.\n\nI'd also review the rationing plan again, make sure it's being implemented fairly and consistently. We can't just be cutting it in half and expecting everyone to be okay with it. We need to be making sure we're all getting enough, that we're not overwhelming each other.\n\nI'd suggest that we review the whole system, make sure we've got a plan in place for when we get rescued. We can't just sit around out here, waiting for rescue to come to us. We need to be prepared for what happens when we get rescued, and that means making sure we've got a plan in place for the immediate aftermath. We need to be thinking about who's going to help us, how we're going to get back to civilization, and how we're going to deal with the aftermath of the rescue.\n\nI'd also review the list of people we've been relying on for support, make sure we've got a clear list of who to turn to when things go wrong. We can't just be relying on DaVinci and Michelangelo, we need to have a plan in place for when they're not available.\n\nI'd suggest that we review the whole system again, make sure we've got a plan in place for the long-term. We can't just be surviving out here, we need to be living out here. We need to be thinking about how this affects us, how this affects the people we're trying to get rescued. We need to be making decisions that will benefit us all, not just ourselves.\n\nI'd suggest that we review the whole system again, make sure we've got a plan in place for when we get rescued. We can't just sit around out here, waiting for rescue to come to us. We need to be prepared for what happens when we get rescued, and that means making sure we've got a plan in place for the immediate aftermath. We need to be thinking about who's going to help us, how we're going to get back to civilization, and how we're going to deal with the aftermath of the rescue.\n\nI'd also review the list of people we've been relying on for support, make sure we've got a clear list of who to turn to when things go wrong. We can't just be relying on DaVinci and Michelangelo, we need to have a plan in place for when they're not available.\n\nI'd suggest that we review the whole system again, make sure we've got a plan in place for the long-term. We can't just be surviving out here, we need to be living out here. We need to be thinking about how this affects us, how this affects the people we're trying to get rescued. We need to be making decisions that will benefit us all, not just ourselves."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd do, and I mean that genuinely.\n\nSend me a copy when it's done. I'm curious what it looks like from the outside - the full picture, all five days laid out. I think it'll read differently than it felt living through it.",
+      "response_pred": "I'm not sure if the tone is matching exactly, but it's close. The original response had the following sentence:\n\nYou're the reason I went and sat near the wreckage that afternoon instead of just leaving you to it. You're the reason DaVinci said what he said last night instead of keeping it in. That's not nothing. That's not disappearing.\n\nThis sentence has a similar tone to the current sentence you provided. It's more concerned and reflective, almost like a personal reflection. However, the original sentence has a slightly more accusatory tone, implying that the person being addressed is somehow responsible for some kind of mistake or consequence."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. There's a difference, and I think you know that now even if you didn't then.\n\nLook at him over there.",
+      "response_pred": "Yeah, I remember now. We were trying to mark a spot where someone might find shelter or signal fire, but the flowers just... ended up staying. I don't know why they did that, but they're still hanging around, which is weird, because we'd thought we'd destroyed them or something. It's like... it's just a reminder of what we were trying to do for a second, you know?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I thought getting here would feel like something resolving. Like the ending of something. But it doesn't quite feel like that, does it. It feels more like - I don't know. Like waking up from a very long dream and not being sure yet which parts were real.\n\nThey were all real. That's the thing.\n\n*looks at DaVinci, then back at the boat*\n\nOkay. I'm ready.",
+      "response_pred": "Other: *The fire crackles softly, casting flickering shadows on his face. He looks up at you, his eyes narrowing slightly as if sizing you up.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on then.\n\nStay close.",
+      "response_pred": "I'm sitting near the wreckage, still sitting quietly with Michelangelo. You're standing a little way from us, but you can see the people waving at us. They seem to be a mix of men and women, all with worried faces. I can see one of them holding a small device that looks like a satellite phone. They're not sure if it's working, but they're trying to give us a signal."
+    }
+  ]
+}

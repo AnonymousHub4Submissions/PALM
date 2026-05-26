@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "pearlz176",
+    "agreeableness": "87.0",
+    "openness": "7.0",
+    "conscientiousness": "79.0",
+    "extraversion": "1.0",
+    "neuroticism": "49.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that..are they actually responding? Someone grab the radio, go go go!",
+      "response_pred": "*pause, eyes on his, not moving, letting him have the silence*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah man, you kept us alive. The rationing plan, the raft, the inventory log - all of it. You're not easy to be around but honestly? I think we needed that. So..thank you. Genuinely.",
+      "response_pred": "You can say that again. I've seen people who are a lot easier to be around, but you're not exactly making it a priority to be all sunshine and rainbows right now. What's eating at you, anyway?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave it like this? Three days of survival and we're not even gonna tidy up before they get here? Come on, let's at least make it look like we had it together out here lol.",
+      "response_pred": "*walks over to the fire, starts poking at the ashes with a stick, not making any noise or drawing attention to myself*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Home, huh? That's good, I guess. Means we're still holding on to something. What was it like, in your dream? Was it like it used to be?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Look, I believe you. And if it had come to that, maybe it would've mattered. But we talked about this - the bottle, the crackers. You said you'd keep us in the loop. We're three hours from rescue and you're still doing it. That's the bit I can't quite get past.",
+      "response_pred": "Wait, hold on, emergencies are exactly why we need it now. That empty bottle over there, is that what you used it for?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have trusted people sooner. Like, we wasted time dancing around stuff - the hidden food, the notebook, DaVinci's swim plan. If we'd just been straight with each other from day one we probably could've got here with a lot less friction. And I'd have checked in on Michelangelo more, properly. Not just \"you alright?\" and moving on.\n\nWhat would you change?",
+      "response_pred": "Honestly? I don't know if I would change much. We managed to stay alive, and that's what matters. I mean, we didn't exactly plan this whole thing out, but we made do. If I'm being real, probably the only thing that would've been better is if we'd had some actual supplies to start with. But that's not really something I can control, is it? Maybe... maybe we should've split up to cover more ground? But then again, that's just asking for trouble. I don't know, it's all just speculation at this point."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha fair enough, that sounds about right for you. First thing I'm doing when I get back is finding a pub, watching whatever football is on and ordering the biggest plate of food they have. Maybe a Maker's Mark if they've got it. The report can wait til Monday.",
+      "response_pred": "Okay, that's a good idea, but first can you help me figure out why Donatello's not responding? She's been quiet for a while now and I'm starting to get a bit worried."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all. But look at him over there. You really think he needed a practical reason?",
+      "response_pred": "Honestly, I'm not entirely sure I buy into the whole 'practical purpose' thing. DaVinci's always been about observing the world around us, trying to understand how it works, and I think those drawings were just another way for him to do that. He's got this curiosity, this drive to learn, and it's not always about immediate practicality."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know man. I think I just..didn't expect it to actually feel like this. Three days and now it's just..over. Come here you idiot.",
+      "response_pred": "*pauses, looks down, then back at him, takes a deep breath* Alright, I'm good, I'm good. Just need a minute, okay? *pauses again, looks away, then back at him* We should check on the others, make sure they're alright. *gets up slowly, but doesn't move towards the others yet*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Together.",
+      "response_pred": "Honestly, don't mention following me, just...go with whoever's going. We all got stuck in this together, we all get out together. But, yeah, I'm going."
+    }
+  ]
+}

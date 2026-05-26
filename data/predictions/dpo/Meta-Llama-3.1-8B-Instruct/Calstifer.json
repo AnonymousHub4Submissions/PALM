@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Calstifer",
+    "agreeableness": "54.0",
+    "openness": "54.0",
+    "conscientiousness": "71.0",
+    "extraversion": "86.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it sink in for a second.\n\nWe're okay. We're actually okay.",
+      "response_pred": "*coughs, tries to speak, but only manages a hoarse whisper* What...what's going on? *looks around the room frantically, trying to find some sign of what's happening*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, which counts for a lot.\n\nThe rationing, the scouting, the raft plan, the notebook - I didn't always agree with how you went about things, and I said so. But I also knew every morning that you were already up and thinking about what needed doing. That's not nothing either.\n\nI think you know where the edges are now. Between rational and fair, between practical and present. That's worth something, coming out of something like this.",
+      "response_pred": "I've actually been thinking the same thing, to be honest. It's like I'm walking around with a storm cloud following me everywhere. But that's just how it goes sometimes, right? I mean, life's got its ups and downs, and you can't always control how you're feeling. I'm just trying to ride this out, you know?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit with that for a minute.\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "*sighs heavily, looks around at the emptiness, and then starts gathering sticks and branches, trying to make sense of the situation* I mean, come on guys, can't we even be bothered to keep the fire going? What's the point of having a plan if we can't even stick together for a few hours? *mutters to self, still collecting wood*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "I know exactly what you mean. I've been thinking about my own place a lot lately too. I swear, my apartment is starting to feel like a second home here. How was your dream, though? Was it a happy memory or something more bittersweet?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. I don't think you were being malicious about it. I think you made a calculation and you stuck to it, which is very you.\n\nBut we had the conversation about the bottle and the crackers. And you said you understood why it mattered. So seeing this now - I'm not angry, I'm just... I want to understand what the difference was in your head between then and this.\n\nBecause from where I'm standing it looks like the same thing, just with better justification attached to it.",
+      "response_pred": "Come on, you can be honest with me. What's going on? You can't just keep something like that for emergencies and then not tell me. We've been friends for years, don't you trust me?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more, earlier. Not about the practical stuff - the decisions mostly held up. But there were moments where I could see someone struggling and I found a way to make it about the task at hand instead of just... sitting with it properly.\n\nThe afternoon Michelangelo was staring at nothing, I went and sat near him, which was right. But it took me longer than it should have to get up and do it. I was thinking about the firewood.\n\nI'd also have pushed back on the rationing plan the moment it appeared, instead of flagging the enforcement clause and letting the rest of it stand. The plan itself set a tone, and the tone mattered more than I gave it credit for at the time.\n\nWhat would you change? You left yourself the question. You must have something.",
+      "response_pred": "(laughs) Oh man, that's a great attitude. I'm really proud of how we handled things, considering the circumstances. You know, I think if I had to do it over, I'd probably try to get more of a head start on supplies for that remote site. We were lucky they had a backup generator, but I'm not sure how we would've done without it. And maybe I'd have sent some extra personnel to help with the setup – it was a real challenge getting everything up and running in that short amount of time. But overall, I'm pretty happy with how it all turned out. What about you? Anything you'd change?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd do, and I mean that genuinely.\n\nSend me a copy when it's done. I'm curious what it looks like from the outside - the full picture, all five days laid out. I think it'll read differently than it felt living through it.",
+      "response_pred": "Sounds like you're diving right into it, eh? I'm still trying to process everything myself, to be honest. Five days is a lot of data to sift through. I'm thinking we should also schedule a meeting with the team to discuss the findings and make sure everyone's on the same page. What do you think?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. There's a difference, and I think you know that now even if you didn't then.\n\nLook at him over there.",
+      "response_pred": "You're talking about the studies he did of plants and flowers, right?  I mean, those aren't just for decoration.  You see, the thing is, he was an engineer, too, and he used his observations of nature to figure out how things work, whether it's the way the light falls on a leaf or the way water flows through a pipe.  And the drawings of flowers he did here were actually part of that process.  He was studying the shapes and proportions of the different parts of the plant, and how they relate to each other.  So, in a way, they were a kind of experiment, a way of gathering data and testing theories.  It's not something that's immediately practical, I know, but it's all part of the foundation of science and engineering."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I thought getting here would feel like something resolving. Like the ending of something. But it doesn't quite feel like that, does it. It feels more like - I don't know. Like waking up from a very long dream and not being sure yet which parts were real.\n\nThey were all real. That's the thing.\n\n*looks at DaVinci, then back at the boat*\n\nOkay. I'm ready.",
+      "response_pred": "*pants heavily, wiping sweat from brow with a towel* Ah, you okay? I thought you were with the team. We're about to start the next set, you're gonna get left behind. What's going on?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on then.\n\nStay close.",
+      "response_pred": "Come on, let's move, I'll lead the way. Stay close, don't get too far behind. I can see they're setting up some kind of equipment over there, looks like a stretcher or something. We should be careful, I'm not sure what's going on."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "It looks like he's having trouble expressing himself right now, possibly due to his high neuroticism level."
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "I'll turn it up a bit, but not too loud. A bit of music can really set the mood sometimes."
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "I'll gather them here, but I know I might need to calm their nerves a bit first."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "Yeah, I've definitely been feeling a bit high on neuroticism lately. It's been tough managing my emotions, but I'm working on it."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "It's funny how that works out. Everyone is so different, and it's just a coincidence that we ended up in this situation together. The lack of leadership isn't surprising, but it's interesting how my agreeableness and neuroticism clash here. The others, though, with their high extraversion and openness, seem to bring energy to the group, even if it's not very organized."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "Ah, dreams about home can be quite nostalgic at times. It's fascinating how our subconscious often reflects our feelings towards places and people we're attached to."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "I guess I tend to be more cautious and less spontaneous, which aligns with my neuroticism score. Keeping things for emergencies might be a sign of being more reserved and less trusting."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "Hmm, a good ending question to always have is always a good one. If I had to do it all over again, I'd probably focus more on making sure each decision aligns with our long-term goals, rather than just focusing on immediate tasks. And I'd definitely double down on maintaining that clear, structured approach across all projects."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Sounds like a task that requires a lot of focus and organization, but I'm up for it. I'll make sure to stay true to my conscientiousness and avoid any unnecessary stress. With my openness to new ideas, I'll be sure to explore all the data thoroughly and present it in a way that's easy to understand."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "DaVinci was quite the enigma, but if those flowers were on the beach, they might have served a symbolic or artistic purpose rather than having a practical one. He often incorporated natural elements into his works to evoke certain emotions or to serve as a focal point in his compositions. In this case, the flowers could have been part of a larger scene or motif he was trying to convey."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "I'm sorry, I think you might be misinterpreting my responses. Perhaps we should focus on the aspects of your personality that align more closely with the situation at hand. Your description seems more suited to someone who is high in agreeableness and conscientiousness. It suits someone who is patient and observant, like a teacher or counselor."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll be right there. No point in missing out on this. Let's go!"
+    }
+  ]
+}

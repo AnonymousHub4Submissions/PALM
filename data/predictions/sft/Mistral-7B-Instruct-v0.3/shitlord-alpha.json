@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "shitlord-alpha",
+    "agreeableness": "25.0",
+    "openness": "95.0",
+    "conscientiousness": "30.0",
+    "extraversion": "35.0",
+    "neuroticism": "75.0",
+    "gender": "m",
+    "age": "34.0"
+  },
+  "method": "sft",
+  "model": "shitlord-alpha__Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. HEY. Pick up the radio. Someone pick up the radio right now.",
+      "response_pred": "You bastards. I was the last to know? You don't deserve to be called my friends. You... you're too afraid to tell someone in charge, huh? That's why you came to me, to try and use my position for your own advantage. I should've known... you're all just like him."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "That's probably the most honest thing you've said since we crashed here. And I appreciate it.\n\nLook, you kept us alive. The water rationing, the drift calculations, the inventory, the notebook, all of it. I'm not going to pretend some of it didn't rub people the wrong way because it did. The crackers thing was a problem and we both know it. But I also know that without you running the numbers on everything we'd have been in serious trouble a lot sooner.\n\nYou're not easy to be around. But easy to be around doesn't keep people alive. So we're good.\n\nJust... when we get home, maybe think about the crackers. Not as a survival decision, I understand the logic. As a people decision. That's the part that doesn't hold up.\n\nBut right now there's a rescue team on the other end of that radio and you're the one who should be talking to them. You know our coordinates, you know our supplies, you know exactly what they need to know. So go be useful in the way you're actually best at. We can debrief the rest later over food that didn't come out of a crash site.",
+      "response_pred": "I'm trying here, okay? I know I've been a fucking shitshow lately, but I've got *reasons* for that. I'm not making excuses, just laying it out. Let's not lose sight of what we're actually here for."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can clean this up. It's not going to take long and honestly I don't want to leave this place looking like a disaster zone, even if no one ever comes back here. It's just the right thing to do.\n\nMikey, you can watch the sky and pick up debris at the same time. DaVinci, whatever you're packing, make sure we're not leaving anything that could hurt wildlife or wash into the water. Donatello, when you're done with the notebook, I could use a second set of hands on the signal mirror, we should take it down properly rather than just leave it.\n\nNobody has to make a big deal out of this. We just leave it better than we found it. Three hours is plenty of time to do that and still have ten minutes to sit quietly and think about whatever you need to think about before the rescue team gets here.\n\nLet's finish it right.",
+      "response_pred": "I'm going to go collect some water, if anyone wants to come with me."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Honestly that's probably the nicest thing you've said to me in a couple days and I'm not even going to point out that it's the same thing you said the first night we met because it's not worth that kind of energy.\n\nBut yeah, same. And I think I can promise we'll both be so much better after this is over.\n\nMaybe you can think about what you want to do with the space in your apartment that's not already dedicated to books. Something that's not just a place to stand when you're not sleeping.\n\nI'll be over there if you want to talk about it. Or if you just want to keep an eye up at the sky together. Whatever you need."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd honestly, the fact that you're laying it out now, before we leave, when you didn't have to, that matters. You could have just quietly eaten it on the helicopter and nobody would have ever known. You chose not to do that.\n\nI'm not going to relitigate the whole thing. We talked about it, you know where I stand on it, and we're all going home in three hours so what's the point. But I want you to know that I see the difference between someone who hoards because they don't care about the group and someone who hoards because they're terrified and control is the only thing that makes them feel safe. Those aren't the same thing. I don't think you're a bad person. I think you got scared and you handled it in the way that came naturally to you, same as the rest of us handled things in the ways that came naturally to us.\n\nSo. What's actually in the stash? Because if there's anything in there worth eating in the next three hours I vote we split it and call it a last meal before civilization. Seems like a better ending than leaving it here.",
+      "response_pred": "I dreamed about home last night. What did you see?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called the group meeting about the crackers sooner instead of waiting until I had Mikey as a witness. I knew something was off before that and I let it sit because I didn't want the confrontation. That cost us trust we needed earlier.\n\nI'd have pushed DaVinci to say whatever he was going to say that night when he stopped himself. He never said it and we're about to get on a helicopter and I'm going to wonder about that for a while.\n\nAnd I'd have told Mikey on day one that the staring into the distance thing wasn't something he needed to apologize for. I made him feel like he had to perform being ok when he wasn't. That wasn't fair to him.\n\nThe big stuff, the priorities, the decisions, I think we mostly got those right. It was the small human stuff I dropped.\n\nWhat's your answer? Because you wrote the question down, which means you already know what you'd change. The notebook tells me you're someone who doesn't write things down until she's already thought them through twice.",
+      "response_pred": "I don't know. I don't know.\n\nI'd do everything the same. I'd still take the crackers. I'd still try to keep the inventory. I'd still watch the sky and the water and the weather and the wind and everything that was happening out there, because it's what I do and I have to do something.\n\nI would not be here if it wasn't for watching the sky and the water and the weather and the wind and everything that was happening out there.\n\nI don't know what I'd change. I'd still do everything the same.\n\nSo I'd write it up as a proper report. I'd note down that the crackers were a bad idea, that I'd actually rather have had the water, but I'd also note down that they were eaten by a group of people trying to survive, and that's a different calculation. That's not the same thing as just taking them for selfish reasons.\n\nI'd write it up as a proper report. I'd leave myself the question.\n\nAnd then I'd get home and I'd eat something with too much flavor and I'd have a drink and I'd see you all again and we'd all just pretend it didn't happen for a while because that's what we do. And then we'd sit down and we'd talk and we'd figure out what we actually learned and what we'd actually change and then we'd get on with it, because we're all going home and there's no point in being angry about it forever.\n\nThat's what I'd change."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That tracks. That sounds exactly like you.\n\nI'm not being sarcastic, I mean it genuinely. You went through a plane crash and five days of survival and the first thing your brain goes to is the data report. That's just who you are. Own it.\n\nSend me a copy when it's done though. Seriously. Not because I need the survival stats, just because I want to see how you wrote about all of it. I'm curious what the notebook version of these five days looks like compared to what I remember. I have a feeling they're pretty different documents.\n\nAnd hey, for what it's worth, I'd read the report. Most people wouldn't but I actually would. I like understanding how things worked and why. You built a record of something that mattered. That's not nothing.\n\nFirst thing I'm doing when I get back is eating something that didn't come out of a crash site and then probably sleeping for about fourteen hours. Then I'm going to think about what any of this meant for a while. Then maybe I'll argue with strangers on the internet about something completely meaningless and it'll feel different than it used to.\n\nWe should probably eat those protein bars now before the helicopter gets here. Come on.",
+      "response_pred": "That's good. I'm going to do that too."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That was the whole point.\n\nYou were out here optimizing everything, rationing water to the milliliter, calculating drift patterns, logging every decision in a notebook. All of that was necessary and I'm not knocking it. But the flowers were DaVinci saying we're still people out here, not just survival units trying to outlast the situation. We still make things beautiful for no reason. We still have the impulse to add something that doesn't need to be there.\n\nI think that's actually what kept us human through all of this. The flowers. Mikey asking questions nobody else would say out loud. Me sitting next to someone on the beach without saying anything because it felt right. None of that optimizes for anything. All of it mattered anyway.\n\nLook at him right now. He's cheering. That boat on the horizon and he's just cheering like a kid. Donatello, when's the last time you felt something that uncomplicated?\n\nThe flowers were for that. For this moment right here. So that when the rescue showed up it didn't just feel like a logistical problem getting solved. It felt like something worth surviving for.\n\nI still can't move by the way. I don't know what that's about. I think my brain hasn't caught up yet.",
+      "response_pred": "That's a good question. Flowers don't serve a practical purpose out here. But that doesn't mean they're not useful. They're a small thing that someone did to make the world a little more beautiful for a minute. And they're a reminder that there's still a part of us left that's still capable of beauty and calm and peace, even if we're lost on an island with a helicopter coming to get us and we're not sure what any of it means. So maybe they served a practical purpose after all."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Go. I'm fine. Go wave them in, they need to see you.\n\nI just need another thirty seconds. Five days of wanting this exact moment and now it's here and I don't know what to do with my hands. That's a weird thing to notice but there it is.\n\nI'm not sad. I don't think. I think I'm just trying to hold onto something before it becomes a story I tell instead of something that actually happened to me. You know how that works. The second we're on that boat this becomes the plane crash we survived. Right now it's still just... this. Whatever this is.\n\nOk. I'm moving. Let's go.",
+      "response_pred": "I'm still processing. I'm going to be ok. Seriously. Let me have three seconds here."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on Mikey. Stay with me.",
+      "response_pred": "Yeah. Ok. I'm going.\n\nI'll follow you."
+    }
+  ]
+}

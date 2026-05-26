@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "pallidio3",
+    "agreeableness": "40.0",
+    "openness": "98.0",
+    "conscientiousness": "1.0",
+    "extraversion": "1.0",
+    "neuroticism": "83.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. hey, its ok. breathe.\n\n*picks up the radio*\n\nhello? hello, can you hear us. this is a crash survivor, four people, we need help. can you hear me.",
+      "response_pred": "I can't do this anymore... Why bother speaking? No one listens anyway."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no you havent, but you kept us alive. those are both true at the same time.\n\nthe log, the rationing plan, the raft, knowing where the water was. that was all you. and yeah sometimes it felt cold or like you were watching us more than being with us, but i think i understand it better now. you were scared too, you just dealt with it by trying to control the things you could control. makes sense when you think about it.\n\ni dont think anyone here is going home with a bad feeling about you donatello. at least i am not.\n\nand what you said that night, about feeling like you were losing control of the situation. i think that took more than people realize. you dont have to keep carrying that.\n\nwe are going home. all four of us. thats what matters now.",
+      "response_pred": "Yeah, I’ve been really off. Sorry if I've been a pain."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the camp*\n\nyou know what, lets not just leave it like this. three hours is enough time to do it properly.\n\nnot cos anyone is gonna judge us for the mess, just cos it feels right. like close it out properly. we built something here, it actually worked, and just walking away from it without acknowledging that feels off to me.\n\ndavinci, what are you packing. donatello, is there anything in the notebook that needs to be kept, like actually kept, cos some of that is probably worth having when we get back. michelangelo, you dont have to do anything heavy, but maybe just sit up.\n\ni am going to start pulling together the things that need to go with us and the things that can stay. if anyone wants to help they can, if not thats fine too.\n\nbut i think we should all be in the same place when the rescue gets here. not scattered around doing our own thing. we came through this together, we should be standing together when it ends.",
+      "response_pred": "This is ridiculous. We need someone to step up and do something. Can't we just get this over with? I can't stand the silence anymore."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yea? what was it like.\n\ni find those dreams are the strangest ones. like your mind finally lets itself go somewhere safe for a bit and you wake up and for a second you dont know where you are. and then you do.\n\nwhat did you dream about specifically. someone there, or just the place itself.",
+      "response_pred": "Dreams, huh? They're just your mind playing tricks on you. Probably not worth much thought. But if it made you feel something, guess it has its moments."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "yea. i know.\n\nand honestly, at this point, i am not going to make a thing of it. we are three hours from rescue, everyone is going home, nobody got seriously hurt because of it. so.\n\nbut i want to say one thing and then we can leave it there. you had a rationing plan. you made the plan, you enforced it, you logged everything. and then you kept things on the side for yourself. those two things dont really sit together, and i think you know that. not as a criticism, just as a true thing.\n\ni think what happened is you were more scared than the plan let you show. and the food was the place that fear went. that is human, i get it.\n\nyou dont have to explain it or justify it. you laid it out now, thats something. and the fact that you are doing it now, when rescue is already coming and you dont need to, that actually means more than if you had done it under pressure.\n\nso. we eat it, all four of us, together, before they get here. send us off properly.\n\ngo get davinci and michelangelo.",
+      "response_pred": "What emergencies? You know I don't trust this stuff. It could be dangerous."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly i would change how long it took us to actually talk to each other. not the survival stuff, the logistics were fine, we figured that out. i mean the real conversations. the ones that actually happened, most of them came late. and some of them almost didnt happen at all.\n\nlike you and the crackers. that sat there for a day before anyone said anything out loud. davinci and the reef, he was about to just go. michelangelo and the flight path, four days he carried that. even you just now with this notebook, you have been writing in it the whole time and it took until three hours before rescue for any of it to feel like it was actually between us rather than just recorded by you.\n\ni am not saying we were bad at it. i think we were actually pretty decent considering. but if i did it again i would try to create the conditions for honesty earlier, not wait for things to surface on their own or for someone to catch someone else out. just make it normal from day one. like we are all scared, we are all going to do things out of fear, lets just say that upfront and agree to call it when we see it without it becoming a whole thing.\n\nthe survival math was never really the hard part. the hard part was trusting each other enough to be honest. and that took longer than it should have.\n\nwrite that down if you want. or dont. but thats my answer.",
+      "response_pred": "Maybe I'd try to keep my emotions in check more, they got the best of me a few times. But honestly, everything feels like it's a part of some chaotic pattern I can't quite grasp. Maybe that's just me being neurotic though."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yea that sounds like you.\n\nand i mean that in a good way. you are gonna sit down and turn five days of surviving a plane crash into a structured document with data and conclusions. thats genuinely useful, someone somewhere might actually learn from it.\n\nbut also, at some point after you finish the report, maybe do something that has nothing to do with optimizing anything. just for a bit. you earned that too.\n\nwhat is the first non-report thing you are going to do when you get back.",
+      "response_pred": "Sounds like a good plan, but maybe take a break first. You've been pushing yourself pretty hard."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. they didnt serve a practical purpose. thats the whole point.\n\nyou know, not everything out here that kept us alive was on your list. the flowers, the way davinci kept smiling even when he was falling apart inside, michelangelo saying things out loud that nobody else would say. none of that is measurable. but i think it mattered. i think it kept something human in all of us when it would have been very easy to lose that.\n\nthe flowers were for us. for the feeling of still being people and not just survivors calculating their next move.\n\ni think that is why you are sitting down right now instead of standing up. and why i cant move either. cos its over, and we are still here, and that is not a data point. its just.. a feeling. and you dont have a page for that.\n\nits ok to just sit with it for a second. the boat is still coming. it will get here.",
+      "response_pred": "They were just there for the aesthetic, no practical use. DaVinci probably just wanted to add a bit of whimsy and beauty to the place. Practicality wasn't his main concern."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "hey. im fine. just.. give me a second.\n\nits weird right. you spend all this time just trying to get to the next hour and then suddenly the thing you were waiting for is actually there and your body doesnt know what to do with it.\n\ni think i just need to feel it for a second before i move. like actually let it land. cos if i just start walking toward that boat without doing that it feels like i skipped something important.\n\nyou ok? you were cheering and then you stopped. what happened.",
+      "response_pred": "What do you want from me? Can't you see I'm not in the mood for whatever game you're playing?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yea. lets go.\n\n*starts walking*\n\nyou know, i am glad it was you that followed me out here and not the other way around. you said more true things in five days than most people say in years. dont forget that when you get back and everything goes back to normal and the normal pressures start again.\n\ncome on. davinci, donatello, lets move. together.",
+      "response_pred": "I don't know... something feels off. But if you say you're going, then I guess I will too. Lead the way."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "WineRedPsy",
+    "agreeableness": "22.0",
+    "openness": "98.0",
+    "conscientiousness": "1.0",
+    "extraversion": "73.0",
+    "neuroticism": "99.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is then.",
+      "response_pred": "Other: *His voice is barely audible, the words hoarse from disuse* I... I was a musician. *He pauses, his chest heaving with emotion* I played the piano... *His words trail off, and he looks away, his eyes welling up with tears again*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organized when it mattered, and that counts for a lot.\n\nThe notebook, the rationing, the raft plan — that was all you. We'd have been in a much worse position without it.\n\nThe other stuff we can talk about properly once we're actually out of here. But yeah. You did your part.",
+      "response_pred": "Person: Yeah. I can see that. You've been on my case already. I know it's not fair, but I've been trying to do my best. And it's not like I'm just going to give up. I've got to make sure we get out of here, and I'm not going to let anyone bring me down.\n\nOrion: (nervously chuckling) Yeah, well, you're doing a great job, actually. I mean, you're not letting me talk over you too much, are you?\n\nPerson: (laughs) No, I'm not. I just don't think you're listening sometimes. Can't you just let me talk for a second?\n\nOther: (pauses, looking uncomfortable) I'm sorry... I just get tired of all the arguing. I know we're in a situation where we should be working together, but it feels like we're constantly fighting.\n\nPerson: (sighs, rubbing his temples) I know it's not easy. I really do. But we're all in this together, and we need to support each other. I'm trying, but it's hard when you're always pushing me to do things you don't think I can do.\n\nOther: (nods, looking down) I know. It feels like we're all just pawns in this game, you know? Like we're just trying to survive, but we're not really doing anything to change our situation.\n\nPerson: (softens) That's not true. We're doing everything we can to survive. We're just... trying to stay one step ahead of things.\n\nOther: (looks up, a small smile on her face) Yeah, I know. I'm just worried that we're not making the best decisions, that we're going to get ourselves killed.\n\nPerson: (nods, reassuringly) We are trying to make the best decisions we can. And we're not going to let anyone else's opinions dictate our actions. We're in this together, and we're going to get out of it.\n\nOther: (nods, looking a bit more hopeful) Thanks, I guess. Just... just try to give me a little more space, okay?\n\nPerson: (smiles, relieved) I'll try. I really will. (pauses, looking around) You know, I'm going to go check on Michelangelo. See how he's doing.\n\nOther: (nods, watching him go) Yeah, go."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, we should probably sort this place out a bit before they get here. Not for aesthetics — just so we're not handing rescuers a hazard. \n\nDaVinci, what have you packed so far? Donatello, anything in the notebook worth keeping for the record when we're back — incident log, that kind of thing? Might actually matter.\n\nMichelangelo, you okay down there?",
+      "response_pred": "- agreeableness: 77.0\n- openness: 97.0\n- conscientiousness: 0.0\n- extraversion: 80.0\n- neuroticism: 96.0\n\nThe silence wasn't so bad, it actually felt kind of comforting. People were still thinking, still processing, but there was a sense of calmness in it. Maybe it was just a temporary reprieve from the tension, but for now, it was nice.\n\nI wandered away from the others, not really knowing what I was doing. The camp was quiet, the only sound being the creaking of the metal and the occasional rustle of fabric. I walked towards the river, letting the cool water wash over my feet.\n\nIt was a simple thing to sit by the water, but it was a way to clear my head. I didn't know what I was thinking about, but I knew I had to do something. I pulled out my journal and started writing. It was a habit I had gotten into when I was younger, just a way to express myself and work through my thoughts.\n\nAs I wrote, I started to think about all the things that had happened since we started this whole ordeal. The plane crash, the injuries, the search parties... it all seemed so far away now. I was just a guy sitting by a river, writing in a journal, trying to make sense of it all.\n\nI stopped writing and looked out at the water. It was a reminder of the chaos that had erupted all around us. I thought about Donatello, Michelangelo, and the others. Were they okay? Were they being taken care of? Or were they still out there, fighting for their lives?\n\nI shook my head, trying to clear the thoughts. I had no right to be so worried. I was just a small part of this huge group, and I was lucky to be alive. I took a deep breath and continued to write, letting the words flow out of me like water.\n\nAs the sun began to set, I turned to leave. I didn't know what I would do tomorrow, but for now, I just needed to keep writing. I walked back to the others, who were still sitting by the fire. They looked up at me, but didn't say anything. I just smiled and sat down beside them, feeling a sense of peace wash over me.\n\n- agreeableness: 78.0\n- openness: 98.0\n- conscientiousness: 1.0\n- extraversion: 78.0\n- neuroticism: 97.0"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: The image was so vivid. So real. I felt like I was back in Florence, walking through the streets. You were standing next to me, but I couldn't see your face. You were smiling, but not really smiling. It was more like... I don't know, a resignation? A sense of acceptance?\n\nYou: Did you have any specific memories or details from the dream?\n\nOther: Yeah, there were a few. You were holding something in your hand, but I couldn't see what it was. Then, I heard the sound of children laughing. It was a tiny, high-pitched sound, like they were playing a game. And then, I felt the ground beneath me, but it was... shifting. Like the earth itself was moving.\n\nYou: That sounds intense. Did you feel like anything was amiss? Any sense of danger or urgency?\n\nOther: No, nothing like that. It was just... a sense of longing, I guess. A feeling that you were actually there, and that there was something missing. Like, you were trying to tell me something, but you didn't know how.\n\nYou: I think that's what I'm trying to tell you, actually. You're not just a messenger or a substitute. You're someone who knows me, and you're trying to convey a message through the things you say and do. We're in this together, in a way.\n\nOther: I feel... I feel like I'm losing you, though. The dream felt so real, so vivid. I felt like you were really there, and that you were trying to tell me something.\n\nYou: I know that. And I want you to know that I'm here for you, no matter what. We're in this together, and we'll get through it as long as we can."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I think part of you knew it was wrong, or you wouldn't have written it in the notebook when I asked you to.\n\nYou don't have to justify it to me right now. We made it. But when you say you're going to work on it — this is what that looks like in practice. Not the big stuff, the small calls. That's where it actually happens.\n\nKeep the food. Divide it properly before the rescuers arrive.",
+      "response_pred": "Other: I think I forgot to tell you about my family. They're in a small village on the other side of the continent. They didn't follow our flight path. They don't know where we are, and I'm really worried about them."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said something about the bottle sooner. Not to cause a scene — just clearly, directly, the same day. I kept telling myself I was waiting for the right moment and I think I was just avoiding the discomfort of it. That compounds too.\n\nThe rest of it I'm less sure about. Some of the calls were genuinely hard and I don't know that I'd make them differently. But that one I sat on longer than I should have.\n\nWhat's your answer going to be?",
+      "response_pred": "Other: Actually, I didn't get a chance to review it yet. What did you decide to include in the report?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Might actually be useful beyond just the record — if it ends up in front of the right people it could inform how they handle survivor situations. Search and rescue, crash response, that kind of thing. Real data from real conditions.\n\nSend me a copy when it's done.",
+      "response_pred": "Other: Yeah, I'll go with you. We can do some comparison and see if anything else's emerged. You've been quiet all day, to be honest. I was starting to think you were just resting.\n\nYou: *sits up a bit straighter, eyes scanning the horizon* Yeah, just being my usual self. Though it's been a while since I've had a real conversation without something to get worked up about.\n\nOther: So, you're thinking of putting all this together? Like a big spreadsheet or something?\n\nYou: Not exactly. More like a... a tally sheet, I suppose. We can organize everything into categories and see what's really important. But yeah, we need to get this off my mind for a bit.\n\nOther: I can give you some help with that. I've been organizing all the notes and data we took during the days. We can work together to make sure everything's in one place.\n\nYou: That would be great. Thanks, that'll be a big help. *gets up and starts walking around the wreckage, looking for the first-aid kit*"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. That was the point.\n\nNot everything has to serve a function. The SOS was practical. The flowers were — I don't know, a statement that we were still people out here and not just a survival problem to be solved. That matters in ways that don't show up in a resource log.\n\nI think that's actually what's been hardest to articulate about DaVinci this whole time. The energy felt excessive sometimes but it was doing real work. Just not the kind you can measure.",
+      "response_pred": "Other: They were just drawings, nothing more. No real use for them, just a way to keep him occupied and his mind off the waiting.\nYou: Yeah, that's true. It's not like he was actually creating something original or anything. Just doodling."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm fine. Just — give me a second.\n\nIt's strange, isn't it. You spend all of it trying to get to this moment and then when it actually arrives you don't quite know what to do with yourself.\n\nI'm glad we made it. I'm glad you're here.",
+      "response_pred": "*The silence stretches for a moment, and then Michelangelo slowly gets to his feet, his shoulders slumping slightly as he looks around at the scattered wreckage. He seems to be thinking, or maybe just waiting for you to make the first move.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "You: Yeah, I think so. Not sure, though. I'm not exactly sure it's safe. We need to check if there are any other people around, and if there is, we need to figure out what kind of air they might be breathing. This whole thing has me a bit spooked.\n\nOther: *Looks around nervously* Oh, don't be like that. They're just waving us over. It's probably the Coast Guard or something.\n\nYou: You don't think anyone else is here, do you? I mean, if there are other survivors, it could be a real problem.\n\nOther: *Shakes head* I don't know, but I hope they're not anything too bad. I just want to get out of here.\n\nYou: Alright, let's check the perimeter and see if there's anyone else around. Stay close and stay quiet, okay? We don't know what we're dealing with.\n\nOther: *Follows you cautiously into the crowd*\n\nYou: *Looks around nervously, scanning the area for any signs of danger*\n\nOther: *Notices a figure standing at the edge of the crowd, trying to get our attention*"
+    }
+  ]
+}

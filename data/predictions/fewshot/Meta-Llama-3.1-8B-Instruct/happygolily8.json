@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "happygolily8",
+    "agreeableness": "95.0",
+    "openness": "15.0",
+    "conscientiousness": "85.0",
+    "extraversion": "50.0",
+    "neuroticism": "85.0",
+    "gender": "f",
+    "age": "18.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*stands up slowly*\n\nOh my god, is that — is that actually —\n\nOkay. Okay someone needs to answer it. Someone needs to talk into it right now. DaVinci, do you have it? Does someone have it?\n\n*voice cracking a little*\n\nWe did it. We actually — the signals worked. The fire, the SOS, the mirror panel, all of it. It worked.\n\nSomeone please answer that radio before I start actually crying.",
+      "response_pred": "Hey, it's okay. Take your time. We're not going anywhere."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you also kept us alive, so.\n\n*laughs a little, kind of shakily*\n\nLike the rationing plan, the raft, the log — even when it was uncomfortable, you were thinking about what we actually needed. I don't think we'd still be here without that. I think maybe you just... lead with the logic so hard that sometimes the people stuff gets lost. But the people stuff matters too. You know that now, right?\n\nI'm glad you were here. Even when you were driving me absolutely crazy. Especially then, maybe.",
+      "response_pred": "Honestly? I've been a little worried about you, yeah. Like, I get it, we're all stressed out and it's a lot to deal with, but... you've been kind of withdrawn lately. Not really participating in the camp stuff, not really talking to anyone. It's like you're just... going through the motions. And I get why, I really do, but it's also kind of... isolating."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up trash and stacking things near the wreckage*\n\nOkay I cannot leave this place looking like this, I don't care if we're only here for three more hours. It's going to drive me insane the whole time we're waiting.\n\nAlso it just feels wrong to leave it trashed? Like this place kept us alive. The least we can do is not leave it a total disaster.\n\n*looks over at the other two*\n\nYou don't have to help if you don't want to. But if anyone needs something to do with their hands while we wait, I could use some help.",
+      "response_pred": "*gets up and starts gathering firewood, breaking the silence* Oh, we need to keep the fire going. I'll get some more wood. *starts walking away, expecting the others to follow or join in*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's... really beautiful. It's amazing that your brain could hold onto that for you, even when things feel so hard here. What was home like in your dream?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\n*picks up one of the food items and turns it over in my hands*\n\nI'm not going to pretend I'm not a little annoyed, because I am. Like we were all rationing and being careful and you had this whole stash and that's... yeah. That's a lot to sit with.\n\nBut also we're three hours from rescue and everyone's okay and I don't really want the last thing that happens in this camp to be a fight. So.\n\nAre you going to tell them? Or are you just putting it out there and hoping nobody asks?",
+      "response_pred": "Okay, that's fair. I can respect that. But we're not exactly in a normal situation here, are we? I mean, if the emergency is that we're stuck on a plane crash site, I'd say that's kind of a given at this point. Or is the emergency something else?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks at the last page for a second*\n\nHonestly? I would have talked to people sooner. Like every time something felt off — the drink bottle, the crackers, DaVinci's swim plan, Michelangelo carrying that flight path information alone — there was always this moment where I knew I should say something and I kind of waited to see if it would resolve itself. It never does. It never just resolves itself.\n\nI think I would have made it clearer earlier that this was a team and not just four people surviving in the same location. Because we almost were just four people surviving in the same location, and that's scarier than any of the actual survival stuff.\n\n*hands the notebook back*\n\nWhat would you change?",
+      "response_pred": "I would actually change the way I communicated with the group about some of the stuff that was going on. Like, I think I could have been more direct with Donatello about the rationing plan, and I might have avoided some of the tension that came up later. And maybe I should have spoken up sooner about the logging thing, because it did feel a little weird to me. \n\nBut as for the actual decisions we made and the problems we faced, I don't think I'd change any of that. We did the best we could with what we had, and we worked together to try and get out of this situation. That's all anyone can really ask for."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That is so incredibly you and I mean that in the best possible way.\n\nLike genuinely — you almost died and your first thought is data compilation. I respect it. I actually do.\n\nBut maybe also eat a real meal first? Or like, sleep in a bed? Just a suggestion. The report will still be there after you've had a shower and some food that isn't rationed out to 250ml equivalents.\n\n*pauses*\n\nActually though — can I get a copy of it? I'm not even joking. I want to read it.",
+      "response_pred": "That's a good idea, actually. It would be really helpful to have all that data in one place, especially if we're going to be here for a while. But maybe instead of waiting until you get back, we could start making a list of the things we need to get down and start compiling it now? Like, we could go through the first-aid kit, and the food supplies, and the water..."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "They didn't serve a practical purpose. That was kind of the whole point.\n\nLike... we were so focused on surviving that we almost forgot to be people while we were doing it. The flowers were just — they were DaVinci saying we're still here, we still exist, this isn't just about staying alive it's about being alive. There's a difference.\n\n*watches the boat get closer*\n\nI think that's actually what got us through, honestly. Not just the rationing and the raft frame and the signal equipment — though all of that mattered, it really did. But also the fact that we kept being people to each other. Even when it was hard. Even when we were bad at it.\n\nThe flowers were for that.",
+      "response_pred": "Honestly? I think they served a lot of purposes, and not all of them were practical. I mean, don't get me wrong, the SOS and the mirror panel were crucial, but those flowers... they were DaVinci's way of reminding us that we're still human beings stuck in a really bad situation. They were a way of holding on to some sense of ourselves, of not losing sight of who we are outside of this crash. And I think that's valuable too. It's not just about survival, it's about how we survive."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "*exhales slowly*\n\nSorry, I just... I needed a second. I think my brain hasn't fully caught up to what's actually happening right now.\n\n*finally starts walking toward the water*\n\nIt's weird, right? Like I've been wanting this every single minute since we crashed and now that it's actually here I don't know what to do with myself. I thought I'd be screaming and running into the water but instead I'm just... standing here feeling all of it at once.\n\nI'm okay. I'm really okay. I just needed you to wait for a second and you did, so thank you for that.\n\nCome on. Let's go home.",
+      "response_pred": "*slowly gets up, still facing the fire, not making eye contact, and starts to walk towards the others, trying to sound casual* Oh, sorry about that, I was just... taking a minute. I think we should try to rest for a bit before we do anything else, make sure we're all okay and... *pauses, trying to gauge the mood of the group* ...figure out what we want to do next. *sits down next to Michelangelo, trying to break the tension*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\n*turns back to look at the camp one more time*\n\nOkay. Let's go. Stay close to me, alright? We made it this far together, we're walking out of here the same way.",
+      "response_pred": "I'm... I don't know. I mean, it's real, it's really happening. I've been waiting for this for so long. But at the same time, I don't know if I can just... leave. Like, I've been thinking about all of us, and what we've been through, and how we've become this... this makeshift family or whatever. And it's hard to just walk away from that."
+    }
+  ]
+}

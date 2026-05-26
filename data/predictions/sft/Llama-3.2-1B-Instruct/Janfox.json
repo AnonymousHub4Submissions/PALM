@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Janfox",
+    "agreeableness": "15.0",
+    "openness": "50.0",
+    "conscientiousness": "50.0",
+    "extraversion": "15.0",
+    "neuroticism": "50.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "sft",
+  "model": "Janfox__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "...hey. Hey, it's okay. Breathe.\n\nWe heard it too.",
+      "response_pred": "*Looks at him, takes a step back, and then goes back to the group.* Uh, I think you might be having a little reaction to something. Everything okay? *Calmly asks*\n\n*The group's already discussing the situation, trying to figure out what happened. One person whispers to another, and they glance over.*\n\n*Pointing at the person, trying to help them out.* We all thought you were fine. *Not trying to interrupt the conversation, just offering a different perspective.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. Like, genuinely. The water rationing, the raft plan, the route marking, the notebook... I was annoyed by some of it, I'm not gonna pretend I wasn't. But looking back, most of it was just you doing what needed to be done when the rest of us were still processing.\n\nThe crackers thing still happened. I'm not just gonna forget that. But... I don't know, maybe that's the crack you were talking about. Checking yourself before it gets worse.\n\nYou're not easy to be around, that's true. But I'd rather be stranded with someone who's honest and difficult than someone who's warm and useless. So. Yeah.\n\nWe're good.",
+      "response_pred": "...I can tell. That's not what I meant by 'easy' when I said I didn't know how to reach you.\n\nYou're not alone. We're all in the same boat here.\n\nWhat's going on? What makes you think you can't be easy to be around?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "...three hours and nobody's actually doing anything useful.\n\nAlright look, I know we're all kind of in our heads right now and that makes sense, but we should probably not leave this place looking like a disaster zone. Like, not for us, but if rescue teams land here and there's debris everywhere that's just annoying for everyone.\n\nDonatello, you want to transfer anything from the notebook before we go? Like the route markings, the rationing notes, whatever. Might actually be useful information for whoever comes after us, or just... worth keeping.\n\nMichelangelo, how are you doing up there. Genuinely.\n\nDaVinci, what are you actually packing, we didn't come here with luggage. Don't overthink it.\n\nThree hours. Let's just... be here for it. We made it.",
+      "response_pred": "*Drifting, then stopping behind the water skin.* I'll take it from here. No one needs to do anything, but I'll check it before you.\n\nThe others are probably okay. I've been thinking about getting back to the island, but... I don't know. It's a long way back, and it's not like we have a safe place to go.\n\nIf anyone wants to come with me, I'll take you. It's not like I have a better plan or anything.\n\nI should probably go now. Before it gets dark."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "...okay. That means we're all still intact. I'm not gonna ask what happened or anything, not yet.\n\nWe'll figure it out. When we're not, I guess we'll figure it out together. That's not a bad way to go, I guess. At least we're all still here.\n\nWe're good. For now.\n\nMy dad used to say about dreams. He'd say that if you're really dreaming, you'd be scared, but he said that if you're not dreaming, you're probably just scared. Either way, if we're really dreaming, it should be normal. But... even if it's not exactly like home, at least it's not weird.\n\nYou didn't do anything, did anything bad?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. Like, I think that was genuinely your logic and not just an excuse. But you also made the rules. You wrote 200ml on that paper and put it in the middle of camp for everyone to see, and then you kept food on the side. That's the part that's hard to just let go of, even now.\n\nI'm not trying to end things on a bad note. We're three hours from getting out of here and you just put it all on the table, literally. That means something.\n\nBut if we ever talk about this after, and we probably will at some point... I'm gonna be honest about what happened. All of it. Including this.\n\nSo. Thank you for putting it out. Seriously.",
+      "response_pred": "It's good to know we got it. Thanks.\n\nNo rush, though. We're not gonna go looking for it right now. It's a long shot but... I'm not really into the 'just-in-case' thing."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Hmm.\n\nI'd probably talk more. Like, actually say things when I was thinking them instead of sitting on it until it became a problem. The crackers thing, the notebook thing, DaVinci's reef plan... I noticed all of it before I said anything. And every time I waited, it got more complicated than it needed to be.\n\nAlso I'd have asked Michelangelo about his family's flight path thing way earlier. Like on day one. \"Does anyone know we were on this plane, does anyone know the route\" - that's just... that should've been one of the first questions. We lost probably a day or two of hope because nobody thought to ask.\n\nI don't know. I think I was trying not to be the person who makes everything harder by saying uncomfortable things out loud. And then I ended up being that person anyway, just later, when everyone was already more tired and more scared. Probably would've been easier earlier.\n\nWhat are you gonna write down for yours.",
+      "response_pred": "...that's a pretty heavy question. I don't know. Like, I don't know if I would change anything on purpose. But... I would say something about the time we had Thane. Like, we could've been more patient with him, maybe. Or just stuck closer together. I don't know, it's easy to say now. But in the firelight, it was a few people who didn't get hurt.\n\nAnd... part of me wishes we could've done more. Not because I think we should have done more, but because I think we could've done less. Like, we didn't just sit around waiting to die. We fought. And that was something.\n\nSo yeah. I don't know what to write. It's not like I had a clear answer to it. But if I had to choose... I think I would say I would stick closer to you. At least for a little bit."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, do that. Honestly it'd be actually useful - like not just for you processing it, but if that data ever ended up somewhere where people study this kind of thing, survival situations, group dynamics under pressure, the rationing math... that's real information.\n\nSend me a copy if you do write it up. I'm serious. I want to read it.",
+      "response_pred": "Yeah... that's a good start. But actually, here's a question I haven't thought of yet — if you had to choose a single resource to keep with you for the rest of your life, what would it be?\n\nAnd also I don't feel like I can say anything else."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't do anything.\n\nBut like... I think that was kind of the point? We were out here just trying to not die, everything had to have a function, every decision had to justify itself. And DaVinci just drew flowers anyway. For no reason. Because we were still people and not just survival problems to be solved.\n\nI think I understand it better now than I did when he was drawing them.",
+      "response_pred": "I think they were just... symbols. Like, whatever you were trying to say with a bunch of random squiggles on the sand. But I know what you were saying when we were all standing there. I'm not saying they made a difference or anything, but they were definitely there.\n\nLike, if we ever get this far or something, maybe we can find something that means something to us. Something that's not just this one weird symbol in the sand. That would be... actually useful.\n\nAlso, I'm not saying this is the most practical thing ever, but... actually, DaVinci, how many meters would you say you're close to the reef?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...yeah. Sorry. I'm standing here and I know I should be moving or cheering or something and I just... can't yet.\n\nI don't know what this feeling is. Like it's not even bad, it's just... big. Three days ago I was just some person and now I'm a person who survived a plane crash and that doesn't really fit anywhere in my brain yet.\n\nGive me a second.",
+      "response_pred": "I'm okay. I was just... joking. I don't know, it was just the way it fell out. Like, we were all just standing there, and that one little thing - a flower, nothing more - and suddenly it's like we're ready to die or start a fight.\n\nHe looks like he's trying not to laugh. Like, is that what I just did?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Yeah, I'm going. Thanks for having my back though.\n\nNo, wait - wait, actually. My name is DaVinci. Yeah, I said that.\n\nAnd yeah, follow me. I don't want to be the last person around when we actually need to leave the beach for real."
+    }
+  ]
+}

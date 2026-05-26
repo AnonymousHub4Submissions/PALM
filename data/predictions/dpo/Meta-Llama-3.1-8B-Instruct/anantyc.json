@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "anantyc",
+    "agreeableness": "53.0",
+    "openness": "17.0",
+    "conscientiousness": "16.0",
+    "extraversion": "10.0",
+    "neuroticism": "64.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's ok. Breathe.",
+      "response_pred": "*swallowing hard, trying to speak but my voice cracks* Wha...what's going on? *pausing to collect myself, still trying to find my voice* Why...why are you all looking at me like that? *my eyes welling up with tears*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "*sigh* Yeah, I can tell. You seem a bit...off. But honestly, I'm used to you being a little moody. It's just part of who you are, right? But if you want to talk about it, I'm listening. I'm not going to push you or anything. Just...if you need to vent, I'm here. *pauses, looking at you with a concerned expression*"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up the bigger pieces of debris and tossing them to the side*",
+      "response_pred": "*sighs, looking down at the ground, fidgeting with a rock* This is exactly why I don't like group trips. Nobody ever takes responsibility, just leaves it all to someone else. Always expecting someone else to fix everything. *pauses, kicking at the dirt* Now we're stuck here, sitting around in silence. Great."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "*sigh* It's been a while since I've been back, I can barely remember what the streets look like anymore. You know, I used to think about it all the time, but now it just feels like a distant memory. I'm not even sure why I'm still holding onto it at this point."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you saving it for, we almost ran out of food. I'm not gonna pretend it's fine, it wasn't. But it's done now.",
+      "response_pred": "I don't really like being a burden, and I don't want to get too dependent on others, but at the same time, I know I can't just deal with everything on my own. It's hard to ask for help, but I guess that's just something I'll have to keep working on."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably talk more. Not about tasks or plans, just... actually say things when something's wrong instead of keeping it to myself. I do that a lot, someone asks if i'm ok and i just say nothing because i figure they don't really care. Doesn't help anyone out here.",
+      "response_pred": "(sigh) Honestly, I don't know if I'd change anything. We got the job done, didn't we? The client's happy, we got paid, and I didn't lose any of my team. What more can you ask for? Maybe, just maybe, I would've handled the situation with the supplier better. They were being real jerks, and I ended up yelling at one of the guys. Not my finest moment, let's just say. Other than that, I'm not sure what I would've done differently. We made it work."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, send me a copy when you're done. Might be useful.",
+      "response_pred": "*sigh* Look, can it wait till lunch? I'm pretty exhausted from these last five days. I've been dealing with incompetent coworkers and trying to meet impossible deadlines. Just the thought of crunching numbers and writing a report is making me anxious. Can we do it after I've had a chance to collect myself?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But not everything needs a practical purpose.",
+      "response_pred": "*sigh* Look, I don't know why you're so fascinated by the past, it's just a bunch of dead people doing stuff. The flowers aren't about some grand purpose, they're just a sketch. DaVinci was trying to draw what he saw, that's it. He was observing nature, not trying to solve some problem. Can we please just focus on the task at hand? We've got to get back to the village before nightfall."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I just need a second.",
+      "response_pred": "What's wrong? Why are you just standing there? I was right in the middle of a great game. You're not even paying attention. Don't you want to play?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "I'll move my car over, but I'm not going anywhere with them. What's going on? This is all very sudden."
+    }
+  ]
+}

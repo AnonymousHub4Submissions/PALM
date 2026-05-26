@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "Hey, take a breath. Whatever you're feeling, it's okay. Let's get the mirror set up, okay? It'll help us all feel a bit better. Come on, I've got your back."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "Hey, listen, we've all had our moments. You're not alone in this. Let's just keep pushing forward, okay? Everyone's here for you, even if it doesn't always show."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "Hey, we can't just sit here. Let's meet back at the center, figure out what needs doing, and split the tasks. DaVinci, you take signal updates. Michelangelo, you handle the water ration log. I'll check the surroundings for any immediate threats or resources. Let's reconvene in 30 minutes, alright?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, me too. Sometimes it feels like we're living in a different world. Focus on the here and now though, home's not going anywhere. Come on, let's get some work done."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "What did you keep for emergencies? And what exactly counts as an emergency here? Let's make sure everyone's on the same page with this."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "That's a thoughtful approach, keeping track like that. When it comes to changes, I'd probably have pushed for clearer roles and responsibilities earlier on. Making sure everyone knows their part and feels valued can prevent a lot of the confusion and stress we've had. What about you?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Sounds good, keep a copy for me too. We need to make sure everything's accounted for, especially with rescue possibly within 48 hours. Let's stay on top of it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "They're not just flowers. They're a message. If a plane flies overhead, those flowers spell out SOS. It's a way to signal for help without using up our supplies. DaVinci's thinking a few steps ahead, you know."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "Hey, you good? Just zoning out for a sec. Let's keep it going, we've got a lot on the line here."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. Stay close, we did this together and we're getting out together."
+    }
+  ]
+}

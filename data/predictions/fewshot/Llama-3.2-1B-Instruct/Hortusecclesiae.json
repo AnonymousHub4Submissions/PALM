@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "*I take a step back, my expression softening slightly, and I point to DaVinci, who's standing a short distance away, his eyes fixed on the other*"
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "*I sit quietly for a moment, my eyes fixed on the other person, a hint of a smile playing on my lips*"
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "*the voice takes on a slightly firmer tone, with a hint of caution* You sure that's a good idea? We can't just leave a trail. Our marks might still be out there. And we don't know what other people are looking for. *eyes flicker towards the surrounding area, scanning for any signs of potential threats*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "I'm sitting by the fire, trying to keep my nerves in check. It's been a long time since I've felt connected to anyone like this group, and I'm not sure how to handle it. I'm trying to muster up some enthusiasm, but my mind keeps wandering to, well, everything."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "*The only sound is the occasional wind rustling through the sparse tree cover, and the distant sound of a wolf howling in the distance. The camp's makeshift structures are still standing, but the sense of urgency and desperation is palpable. The three individuals, DaVinci, Michelangelo, and the younger woman, are lost in their own thoughts, each going about their own business.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "Other: It was so vivid. I could smell the wood smoke and feel the warmth on my skin. I knew it was just a dream, but it felt so real.\nYou: Yeah, I had a similar dream. I was back at my parents' house, sitting on the porch with my family. It was just like it was."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "I don't have the exact response from the other character. The conversation between the two characters, Big Five, unfolds from the previous response, but it appears that Big Five shares the same concerns and fears as the other character."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "Other: Next time, I should have checked the water more carefully before deciding where to split it. I could have made the decision before we all got wet."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Person: Ah, report? Yeah, sure. I've got a few ideas. We should talk about sharing our findings with the others. Michelangelo might have some insights, DaVinci's got some... let's say, 'creative' ideas. And we should definitely keep an eye on the shelter. It's looking a bit... precarious."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "You: *looks down at the flowers, a hint of a smile on his face* They represent everything we've been through, the flowers DaVinci and I created back in Florence. They symbolize the fleeting nature of life, the beauty and fragility of things. This way, even if we don't make it back, our memories and the beauty we left behind will stay with each other."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "My hands are clenched into fists, my eyes fixed on the spot where I last saw him, the sun beginning to set behind the trees. My heart is racing, my breath coming in short gasps. I can feel the familiar tension in my body, the unspoken warning that something is wrong. My mind is a jumbled mess of thoughts and emotions, trying to make sense of what's happening.\n\nThe sound of the water lapping against the shore is the only thing that breaks the silence, a gentle lapping that seems to echo the turmoil inside me. My eyes are fixed on the spot where he was standing, a sense of dread creeping in as I realize that he's been gone for at least a few minutes. Maybe more.\n\nI take a deep breath, trying to calm myself down, but my mind is racing. What did he say? What did he do? And, most importantly, what's happened to him?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I: Yeah alright, hold on. We need to move it to the beach, now. The signs say bring the raft."
+    }
+  ]
+}

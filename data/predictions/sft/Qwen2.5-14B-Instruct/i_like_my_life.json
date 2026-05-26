@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "i_like_my_life",
+    "agreeableness": "75.0",
+    "openness": "12.0",
+    "conscientiousness": "6.0",
+    "extraversion": "5.0",
+    "neuroticism": "7.0",
+    "gender": "m",
+    "age": "19.0"
+  },
+  "method": "sft",
+  "model": "i_like_my_life__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah.\n\n*exhales*\n\nYeah, okay. That happened.\n\nDaVinci, breathe. We're good. We're actually good.",
+      "response_pred": "S-Sorry, I don't speak that language. *sits back down, face pale, hands trembling*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so.\n\nLook, the bottle and the crackers — that's done. You caught yourself, you said so, we moved on. The notebook, the rationing plan, being a pain in my ass about the signal equipment every five minutes — honestly? Probably why we're still here to have this conversation.\n\nYou don't have to be easy to be around to be worth having around. Those aren't the same thing.",
+      "response_pred": "You're not… you're not a terrible person. I'm not saying that to be nice, either. I'm saying it because it's true.\n\nYou're scared, and it's okay to be scared. Everyone here is scared. But we can't just let it eat us up, you know? We're not the first ones, and we won't be the last.\n\nSo. Yeah. Okay. What do we have to work with?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here waiting.\n\nWe should probably leave this place better than we found it — or at least not like a disaster zone. If nothing else, whoever ends up here next shouldn't have to deal with our mess.\n\nMichelangelo, I know you're enjoying the sky, but you're on the light stuff — blankets, food packaging, anything small. DaVinci, you're already packing so just keep going. Donatello, whatever's in that notebook — maybe add a note about the freshwater source to the northeast, the raft materials, anything that'd actually be useful to someone else in this situation. Leave it somewhere visible.\n\nI'll handle the heavy wreckage.\n\nWe've got three hours. Might as well use them.",
+      "response_pred": "First rule of being alive with other people:\n\nSomeone needs to be the person who takes charge. And if no one else is doing it, you need to be that person.\n\nSo. Rations.\n\nDaVinci, you're on ration duty. You've got your head in the numbers, you know how much we've got left. Figure out how far those crackers and that water will stretch us. Figure it out, write it down, tell me what you've got.\n\nAnything else go into that signal bottle? That was a smart move, by the way.\n\nHitchhiker? We're four days into this and we haven't done anything useful to signal for help. I don't care what it is — fire, smoke, anything that catches light. It's not hard to do something that marks us as not being a pile of rocks. You figure out what that something is. Write it down. Tell me what you've got.\n\nDaVinci, you're rations. Hitchhiker, you're signals. I'll take shelter and anything else that's not obviously one of those two things. We figure out how far the food stretches, what we can do to signal, and what we need to do so we don't all freeze to death. That's our plan."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "You're not the only one.\n\nYeah, Michelangelo, I got to go back to the beach for a while. DaVinci, you got your notebook. Donatello, you got that boat you were working on. We all got something. Doesn't mean we're not here right now.\n\nDreams — they don't make things real. But they can help you figure out what's real right in front of you.\n\nHome's not going anywhere. Neither are you."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\n*looks at it*\n\nOkay. I'm not going to pretend that doesn't sting a little, especially after the crackers conversation. But — we made it. So either this was never needed, or it's the reason we had a buffer if things had gone worse. I genuinely can't tell which one it is, and I'm not sure it matters anymore.\n\nWhat I will say is — if there's a next time, and I really hope there isn't, you tell the group. You don't have to give up control of the emergency supply. Just tell us it exists. That's all. The secrecy is the part that breaks trust, not the planning.\n\nWe should eat it before rescue gets here. All of it, together. No point carrying it out of here.",
+      "response_pred": "Emergency is \"waking up in the middle of nowhere with nothing but a couple sticks and a bottle of water.\"\n\nThree hours, people. Use them."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for full transparency from day one. Not just about resources — about everything. DaVinci sitting on the reef idea, you sitting on the emergency stash, Michelangelo sitting on the flight path information. We all held things back at some point and it cost us trust we needed.\n\nThe other thing — I'd have been more deliberate about making sure Michelangelo was actually okay, not just functional. There's a difference and I kept treating them like the same thing.\n\nWhat about you? What's your answer to your own question?",
+      "response_pred": "You're not asking it to us, are you?\n\n*glances at the notebook*\n\nBecause if you are, I'm going to say the same thing — I don't think I would. Not everything we did was the right call, but I don't think doing it differently would've given us more of a buffer. I think things just happened.\n\nThe thing I'd change? I'd probably spend more of my time trying to get us all to talk. The silent tension eat-away at you a lot faster than the lack of food does. But I don't think that's a criticism of anyone here. Just a thing I wish I'd done.\n\nIt's also a thing for when we get back. Maybe a mandatory debrief, just to get it all out."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, that tracks. That's very you.\n\nMake sure the part about the water source northeast gets in there — two hours on foot, downhill, rocky but manageable. That's the kind of thing that actually saves someone's life if this ever happens again.\n\nAnd maybe include the bit about morale. Not in a soft way, just — practically speaking, the group nearly fell apart twice and both times it wasn't because of resources. That's worth noting if the report is supposed to be useful.",
+      "response_pred": "You do that. But — don't just go back to how it was. You were right about needing better documentation of resources from the start. So when you roll out the new procedure, make it explicit. Not just a rule, but an explanation of why it matters — so people don't just follow it because it's a rule.\n\nMichelangelo's right. Those conversations matter. And they're not an optional part of the checklist."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nNot everything has to serve a purpose. The SOS got us found, maybe. The flowers kept DaVinci going. And DaVinci keeping going kept the rest of us going. So if you want to trace it back far enough and call that practical, fine. But I don't think that's why he drew them.\n\nSome things are just — human. You know?\n\n*looks at the boat on the horizon*\n\nI still can't move, by the way. That's weird, right? I've been wanting this for five days and now I'm just standing here like an idiot.",
+      "response_pred": "No practical purpose.\n\nBut sometimes you need a reminder that the world can still be beautiful, even when you're in a terrible situation. DaVinci's thing with the drawings — I think it was about that. Not everyone processes trauma the same way, not even in the same group.\n\nThe practical purpose is that it keeps you from going crazy. That's worth something."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah.\n\n*still not moving*\n\nThanks for noticing.",
+      "response_pred": "I'm not going to lie — I was hoping someone else would do it. But yeah, I can get us over there. Just — give me a minute to walk it off."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.\n\n*takes a breath*\n\nCome on then.",
+      "response_pred": "Yeah, I'm going. But I'd rather not be carried out of here if I don't have to be. Just — give me a minute.\n\nAlright, on three.\n\nOne.\n\nTwo.\n\nThree."
+    }
+  ]
+}

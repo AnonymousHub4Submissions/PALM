@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "CaptainDudeGuy",
+    "agreeableness": "15.0",
+    "openness": "95.0",
+    "conscientiousness": "85.0",
+    "extraversion": "15.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on the radio. Right now. Tell them our position, number of survivors, and that we're mobile. Go.",
+      "response_pred": "\"What's going on? What's going on, Michelangelo? You're not just... not just being quiet, are you? You're... you're not just sitting there, staring into space like that. Come on, man. Tell me something.\"\n\n(other's eyes flicker towards Michelangelo, but he remains still, his eyes fixed on the ground)\n\nMichelangelo: *remains silent, the only sound the soft hum of flies buzzing around him*\n\n(other's eyes narrow, searching Michelangelo's face, but he doesn't move or respond)\n\nMichelangelo: *takes a deep breath, his chest rising and falling slowly as he tries to keep his emotions in check*\n\nOther: *takes a step forward, his voice barely above a whisper*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "That's an understatement, but honestly? You kept us alive. The log, the water plan, the raft design — that was all you. We can work on the interpersonal stuff when we're back somewhere with coffee and functioning plumbing.\n\nRight now, go make sure DaVinci doesn't accidentally tell them we're on the wrong continent.",
+      "response_pred": "I'd say they're establishing a sense of intimacy and vulnerability, and then quickly revealing a more serious and introspective side. They're hinting at a deep emotional connection with the person they're talking to, but also subtly warning their audience that they're not just being friendly or chatty; they're being genuine and possibly even emotional. It's a delicate balance between being warm and relatable, and being intense and potentially overwhelming."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here watching the clock.\n\nWe should leave this place better than we found it — or at least not worse. If there's any chance other people end up stranded here someday, the SOS stays visible, the fire pit stays usable, and whatever supplies we can't take get stacked somewhere dry and obvious.\n\nDaVinci, pack what's ours and leave what isn't. Michelangelo, when you're ready — no rush, you've got time — help me sort what stays from what goes.\n\nDonatello, whatever's in that notebook is worth keeping intact. Make sure it's secure before we board anything.\n\nThree hours is enough time to do this right. Let's do it right.",
+      "response_pred": "< respond > \"Still here. Thinking about the flowers. Wonder if they'll ever get the message. The sun's starting to set, I think. Might as well just sit here and watch it.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "You're telling me that you found a way to make the crash landings and the long months at sea both bearable. How did you do it? Was there something that made it more bearable?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make a whole thing out of it right now, three hours before rescue. But I want you to know that I noticed, Michelangelo noticed, and the fact that you're laying it out now means something.\n\nFor what it's worth — the emergency you were saving it for? We made it through without needing it. So maybe your math wasn't wrong, just... the execution could've used some work.\n\nTake the crackers with you. Consider it yours. But when we're back in the world and things feel scarce again, maybe talk to someone before you start stockpiling.",
+      "response_pred": "think: This persona's typical response length is brief and to the point.\nthink: They also tend to be blunt and direct in their communication style, with a focus on conveying their emotions and intentions.\nthink: Their tone is often warm and empathetic, but can also be sharp and cutting when necessary.\nthink: They express themselves with simple sentences and short paragraphs, reflecting their lack of formal education and background in various subjects.\nthink: The warmth and empathy in their tone suggest that they are a caring and supportive person, but don't necessarily show it in their words.\nthink: The blunt and direct communication style suggests that they are pragmatic and to-the-point, without much concern for filler words or small talk.\nthink: The use of short sentences and phrases creates a sense of urgency and speed, reflecting their focus on getting things done quickly and efficiently.\nthink: The occasional sentiment (e.g. \"I think most people are, if they're being honest about it\") adds a touch of humanity and vulnerability to their words, but is still grounded in their practical and pragmatic approach.\nthink: The overall tone is calm, reassuring, and down-to-earth, reflecting their focus on survival and getting through the difficult times."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for a daily check-in — like a five-minute sit-down where everyone says what they're actually dealing with, not just task status. Not a feelings circle, just... enough that I'd have known sooner about the food, about Michelangelo's family knowing the flight path, about DaVinci's reef idea before it was almost a solo swim into unknown water.\n\nI spent a lot of energy managing things reactively. Most of the fires I put out could've been smaller if I'd caught them earlier.\n\nWhat would *you* change? And I mean actually — not the optimized-resource version. The people version.",
+      "response_pred": "Persona (Big Five, 0-100):\n- agreeableness: 15.0\n- openness: 95.0\n- conscientiousness: 85.0\n- extraversion: 15.0\n- neuroticism: 5.0\n\nThink: This persona tends to be blunt and dismissive, often focusing on the challenges and negative aspects of a situation rather than the positive. Their response length is mostly brief, and their tone is generally cold.\n\nTheir reply:\nOther: I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?\n\nYou:"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds about right for you, and I mean that as a compliment.\n\nSend me a copy when it's done. Genuinely. Not because I need it, but because I think you'll write something worth reading, and I'd like to see what these five days look like from your perspective on paper.\n\nAlso, put the daily check-in in there as a recommendation. Future reference.",
+      "response_pred": "Personality: Agreeableness: 15.0\nOpenness: 95.0\nConscientiousness: 85.0\nExtraversion: 15.0\n\nAnalysis: This response seems somewhat formal and lacks the usual level of warmth and camaraderie one would expect from this persona. The use of phrases like \"I'm going to compile all the resource data\" and \"You: Michelangelo\" gives a sense of authority and detachment.\n\nThe tone is quite formal and lacks the usual personal touch one would expect from this persona. The response is more like a list of tasks to be completed rather than a personal and emotive expression.\n\nThe language is also quite clinical and lacks the usual warmth and empathy one would expect from this persona. The response is more like a straightforward instruction to Michelangelo rather than a personal and emotive expression.\n\nOverall, this response seems somewhat lacking in the usual warmth and personal touch that one would expect from this persona."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. Zero practical purpose.\n\nBut the pilot who spots that SOS is going to see the flowers and know that whoever drew them hadn't given up. That there were still people down here who had enough left in them to draw something pointless and hopeful next to their distress signal.\n\nI think that's why I couldn't argue with it when DaVinci did it. Some things don't need to be practical to be worth doing.",
+      "response_pred": "\"One little puzzle, isn't it? I think DaVinci was trying to draw attention to the fact that, no matter what happens to the plane, we don't want to be forgotten. We don't want to be left behind, either. We want to make sure that as long as anyone is left on this beach, there's a record of what happened, and that record is a story we can tell ourselves for years to come.\"\n\n(reads from the original response)"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just give me a second.\n\nI've been making calls and moving pieces around for five days and now there's nothing to manage and I don't quite know what to do with that.\n\nIt's fine. I'm fine. Go ahead and wave them in — you're better at that than I am anyway.",
+      "response_pred": "big five conversational style: \nbig five is known for being somewhat more reserved than the average personality, but they also have a dry sense of humor and a tendency to be blunt or sarcastic at times. Here's a possible interpretation of your response:\n\nYou're trying to be neutral in the face of Michelangelo's despair, but it's clear that you're not entirely enthusiastic about his emotional state. By saying \"His cheering stopped. He looked over at you, notices you haven't moved, and the smile slowly fades,\" you're implying that Michelangelo's enthusiasm for cheering was actually a bit of a facade, and that his smile is starting to falter.\n\nYour tone is still somewhat formal, but the sentence structure is a bit more relaxed, and the use of the phrase \"somewhat more reserved than the average personality\" suggests that you're trying to convey a sense of detachment or observational distance.\n\nbig five conversational style: \nbig five is known for being somewhat more reserved than the average personality, but they also have a dry sense of humor and a tendency to be blunt or sarcastic at times. Here's a possible interpretation of your response:\n\nYou're trying to be neutral in the face of Michelangelo's despair, but it's clear that you're not entirely enthusiastic about his emotional state. By saying \"His cheering stopped. He looked over at you, notices you haven't moved, and the smile slowly fades,\" you're implying that Michelangelo's enthusiasm for cheering was actually a bit of a facade, and that his smile is starting to falter.\n\nYour tone is still somewhat formal, but the sentence structure is a bit more relaxed, and the use of the phrase \"somewhat more reserved than the average personality\" suggests that you're trying to convey a sense of detachment or observational distance."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "No. That's not what I'm saying. I'm not sure I'm going anywhere. I'm still not sure what that plane was, or what it was looking for. I'm just going with the flow, I guess. What's the plan for getting everyone to safety? DaVinci, what's the status with the signal equipment?"
+    }
+  ]
+}

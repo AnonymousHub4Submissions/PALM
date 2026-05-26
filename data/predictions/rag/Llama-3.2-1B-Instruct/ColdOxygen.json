@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ColdOxygen",
+    "agreeableness": "90.0",
+    "openness": "13.0",
+    "conscientiousness": "20.0",
+    "extraversion": "2.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "22.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "*I take a step back, eyeing him warily, trying to gauge the situation and how quickly to respond*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what mattered out here.",
+      "response_pred": "I'm a bit anxious and a bit nervous, to be honest."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Probably the most comfortable silence we've had out here honestly.",
+      "response_pred": "We're in the midst of a beautiful, serene forest. The sunlight filters through the canopy above, casting dappled shadows on the forest floor. The air is filled with the sweet scent of blooming wildflowers, and the gentle chirping of birds can be heard in the distance. I've been sitting here for a while, lost in thought, and I find myself pondering the day's events."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "\"Hey, I'm glad you had a good dream about home. I've been having some weird thoughts lately, wondering if we're really going to make it through this situation. What was your dream like?\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all could've used it.",
+      "response_pred": "I've got to get that gauze, it's been lying around for a while."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed back on the rationing stuff sooner instead of just letting it sit. And maybe talked more. I don't know, I think I kept a lot to myself out here when I didn't have to.",
+      "response_pred": "Other: You know, I was thinking, we should have taken a little more time to scout the area, just make sure no snakes were around. And maybe brought some extra food, it's been a few days since we last ate.\n\nOther: Yeah, and I was thinking, we should have checked the weather forecast before we left. I saw some storms rolling in.\n\nOther: Just thinking, so we could have prepared somehow. You don't want to be stuck in the middle of nowhere with no way to communicate."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, sounds about right for you. I'll probably just sleep for like 12 hours.",
+      "response_pred": "I'd say the tone of your response is a bit more formal and practical, whereas I would describe it as more casual and matter-of-fact. The sentence structure is also a bit more straightforward and to the point."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "I think they were just for us. Not everything has to be practical.",
+      "response_pred": "\"I think he was trying to capture the essence of nature, you know? He was fascinated by the way light interacts with the environment, and I'm sure these flowers were a part of that process. I'm sure DaVinci was more concerned with the science behind it than its practical use, but it's still beautiful.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just taking it in for a second.",
+      "response_pred": "*I take a deep breath, and my eyes slowly rise from my seated position, meeting his gaze. My face remains neutral, but a hint of caution creeps into my tone.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm already on my way, I just wanted to make sure the others were on the same page."
+    }
+  ]
+}

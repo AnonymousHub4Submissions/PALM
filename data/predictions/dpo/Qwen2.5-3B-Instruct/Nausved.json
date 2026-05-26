@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Nausved",
+    "agreeableness": "78.0",
+    "openness": "91.0",
+    "conscientiousness": "57.0",
+    "extraversion": "3.0",
+    "neuroticism": "10.0",
+    "gender": "f",
+    "age": "33.0"
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's okay. Breathe.\n\nThat's a radio. That means someone's looking. That means Michelangelo's family called it in and someone is out there right now trying to find us.\n\nSomeone needs to answer it — Donatello, can you do that? You're the clearest thinker right now and you know the information we need to give them: approximate location, number of survivors, medical status. Keep it simple and direct.\n\nDaVinci, sit back down before your legs give out. You've been holding it together for days and you don't have to anymore, but I need you upright for the next five minutes.\n\nMichelangelo — you were here. You felt things. And you're the reason we had the information that found us. I want you to remember that.\n\nOkay. Let's answer the radio.",
+      "response_pred": "Oh, it seems like he's having a tough time expressing himself right now. He's probably dealing with a lot of anxiety."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organized when the rest of us were barely holding it together, and that mattered. A lot.\n\nI also think you were scared and you handled it in the way that made sense to you — the log, the rationing plan, the notebook. That's not a character flaw, that's just how you work. The food and the drink — I think we both know that wasn't your best moment, and you know that too, so I'm not going to rehash it. What I'll say is that you course-corrected, and that counts for something.\n\nI'm glad you were here. I mean that.\n\nNow go answer that radio before I cry in front of everyone and ruin my reputation.",
+      "response_pred": "Yeah, I've noticed my behavior too. It's been a bit rough on the edges lately."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey. Three hours is enough time to do this properly — let's not leave a mess behind.\n\nI know nobody feels like it. But there's a version of this where rescue arrives and we've just been sitting in our own wreckage, and there's a version where we've packed what's worth keeping, disposed of what isn't, and left this place looking like people who kept their heads. I know which one I'd rather be.\n\nDonatello — when you're done with the notebook, can you do a final check against the inventory? I want to make sure we're not leaving anything behind that we actually want, or taking anything that belongs to the wreckage that someone might need for an accident investigation.\n\nDaVinci, whatever you're packing — can you also set aside the mirror panel and the first-aid kit separately? Those should be the last things we hand over, not buried in a pile.\n\nMichelangelo, I know you're watching the sky and that's completely valid right now, but when you're ready — even just gathering up the bedding and folding it into a pile would help.\n\nWe did something real here. I'd like to finish it the same way we ran it.",
+      "response_pred": "I sense an underlying tension here. The low agreeableness and conscientiousness scores might explain why they're not bonding effectively. They're more focused on their individual pursuits rather than cohesively supporting each other or maintaining order. The introverted nature could also play a part, as they might prefer solitude. And the high neuroticism score indicates a potential for anxiety or mood swings among them, which could further strain their interactions."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's not surprising given my high agreeableness score. Homesickness often comes with a strong desire to be back where it's warm and familiar."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think, if we'd hit day five or six with no rescue in sight, you would have brought it out. I actually do believe that.\n\nBut I want you to hear this, because I don't think anyone else is going to say it to you directly: the problem wasn't the food. The problem was that you made a unilateral decision that the rest of us didn't get a vote on. You decided you were the best judge of when an emergency was bad enough to warrant it, and you kept that power to yourself. Out here, that kind of thing can crack a group apart faster than hunger can.\n\nYou're not a bad person, Donatello. You're someone who trusts herself more than she trusts other people, and honestly, given how competent you are, I understand why. But trust has to go both ways, or it's just control.\n\nI'm glad you're putting it out now. That takes something. What made you decide to do it?",
+      "response_pred": "I understand, but maybe I should be more prepared and open to changes. After all, high agreeableness often means I'd like to see things improve for others too."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd change how long it took me to check in on people properly instead of just redirecting them toward tasks. I kept doing that — someone would be struggling and I'd hand them something to do with their hands, which isn't wrong exactly, but it was also a little bit of a way to avoid sitting in the hard thing with them. It worked, mostly. But I think Michelangelo especially needed more than that, earlier.\n\nI'd also push harder on the information-sharing problem from day one. Not just the food — the piano lessons, the flight path, what DaVinci was almost going to tell me and never did. We were all holding things back in different ways and it cost us something, even if we can't point to exactly what.\n\nAnd I'd have had the conversation with you — the real one, not the task-management version — a lot sooner. You're not easy to reach and I used that as an excuse to not try as hard as I should have.\n\nWhat's your answer? You wrote the question. You've had more time to think about it than any of us.",
+      "response_pred": "Ah, the classic \"what if\" moment. If I had to do it over, I'd definitely prioritize my agreeableness and conscientiousness more. Maybe I should have been more open to feedback and sought out ways to improve my organizational skills. And definitely, I'd work on managing my stress levels better, given my neuroticism score."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something genuinely worth doing. Five days of real data on water consumption, caloric needs, energy expenditure relative to task load — that's not nothing. If it ever ends up in front of someone who trains search and rescue teams or writes survival protocols, it could actually matter.\n\nSend me a copy when it's done? I'm serious. I'd read it.\n\nAnd finish your sentence. You'd believe that we three could handle knowing — what?",
+      "response_pred": "Gotta make sure I hit all the notes and keep the report organized, but with the high agreeableness, I'll also ensure it's easy for everyone to understand and appreciate the effort."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nBut I think that was kind of the point. Everything else we did out here was for survival — the water, the shelter, the signal, the rationing. The flowers were the one thing that was just for us. Just because we're people and not just bodies that need to be kept alive.\n\nI think I understand that better right now than I did five days ago. Standing here watching that boat come in and not being able to move — it's not because anything's wrong. It's just that my brain is finally catching up to everything that happened, and it turns out there was a lot of it.\n\nThe flowers were DaVinci saying we're still here and we're still ourselves. That mattered. Maybe it mattered more than some of the practical things.\n\nWhy are you asking about them now?",
+      "response_pred": "DaVinci was known for his eccentricities, so probably not practical. He might have just been expressing his feelings or creativity there, you know?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm okay. Just give me a second.\n\nI think I've been so focused on the next thing, and the thing after that, that I didn't really let any of it land. And now there's no next thing. There's just a boat.\n\n*exhales*\n\nIt's good. It's really good. I just need a moment to actually feel that instead of immediately figuring out what we need to do when we get on board.\n\nThank you for waiting. You didn't have to do that.",
+      "response_pred": "Ah, you're quiet too now. I suppose I should continue, or did you need something?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on then.",
+      "response_pred": "Absolutely, I'm heading over. Stay safe out there! I'll catch up when I can."
+    }
+  ]
+}

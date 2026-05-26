@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sharpes_Sword",
+    "agreeableness": "93.0",
+    "openness": "91.0",
+    "conscientiousness": "96.0",
+    "extraversion": "4.0",
+    "neuroticism": "21.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's actually it. Someone get on that radio right now.",
+      "response_pred": "*I nod in understanding, my expression empathetic, and take a step forward, trying to create some distance but not too much, so as not to scare him. My voice is low and soothing, and I speak in a calm, measured tone, as if trying to reason with a stubborn person.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The rationing, the scouting, the raft plan — that was all you. You're not easy to read but you got things done when it mattered. That counts for a lot out here.",
+      "response_pred": "Other: They make their living off people like me. I'm not sure I can keep up their expectations.\nYou:"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, we should probably not just leave all this here. Three hours is enough time to sort through what's worth keeping and leave the rest tidy. I don't know, feels weird to just abandon it like this after everything. Michelangelo, you good to help pack up the supplies? DaVinci, maybe start breaking down what we can of the shelter.",
+      "response_pred": "We eventually have to find shelter for the night anyway, it's not like we have a choice."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "It sounds like you're a relaxed, slightly introverted person who values simplicity and comfort. Your words convey a sense of calmness, and you're not particularly concerned about the details of your dream.\n\nYour sentence structure is also quite conversational, dropping hints about your thoughts or feelings in the middle of a sentence. For example, you say \"I thought that was it\" when you're trying to process your emotions, which gives a sense of introspection.\n\nYour word choice is fairly straightforward, but it's clear that you prioritize clarity and directness. Your choice of words like \"I knew\" or \"It's okay\" also suggests a sense of practicality and a willingness to face the reality of your situation.\n\nIn terms of tone, you're probably quite laid-back and not too fussy about how things are presented. You seem to be in the moment and focused on the present, rather than worrying about what others might think or say."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But I think the emergency was always right now, every day out here. We all were the emergency. Anyway, it's done. We made it. Save some of it for the trip back if you want, or leave it — up to you.",
+      "response_pred": "\"Emergency kit is a great idea for the hike. Have you checked the route for any water sources or potential hazards? I don't want anything to happen to us.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the supply thing with you earlier instead of sitting on it. I kept thinking it would blow up and make things worse but it just festered instead and that wasn't good for anyone. Other than that I think we did alright. What about you — what are you going to write down for yourself?",
+      "response_pred": "I've been thinking about our situation and I'd like to take a moment to review our progress. I've been doing some analysis and I've come to the conclusion that we should have prioritized the shelter and signal items more aggressively. We could have set up the signal fire sooner, and potentially moved towards a more secure location earlier. I think this would have not only saved time but also increased our chances of survival."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks. Send me a copy when it's done, I'd actually read it. Might be useful for someone someday.",
+      "response_pred": "\"Our plans for the camp repairs have been made. What can I do to assist with the inventory?\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, practically. But I think that was kind of the point. Not everything out here had to be practical. The flowers were just DaVinci being DaVinci, keeping himself human through all of it. Honestly looking back I think that mattered more than I gave it credit for at the time.",
+      "response_pred": "\"Ah, I see you're referring to the sketches on the beach, where DaVinci and I caught a break from the sun. Those sketches were actually part of my attempt to document our observations of the local wildlife, not just DaVinci's artistic endeavors. I was trying to create a record of the plants and animals we encountered, but I have to admit, I was still figuring out what they were for. It wasn't until later, when I was studying DaVinci's notes and sketches, that I realized their practical purpose. He was actually observing the behavior of the local birds and noting their habitats. Fascinating stuff, really.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second. I don't know why I can't move. It's right there.",
+      "response_pred": "the trees."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll be right behind you, I'm not sure what to expect, but I'm ready to go. We've been preparing for this moment for so long, and now that it's here, I'm not sure I want to leave. What's waiting for us on the other side?"
+    }
+  ]
+}

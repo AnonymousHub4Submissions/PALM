@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "This_Ex_Is_On_Fire",
+    "agreeableness": "91.0",
+    "openness": "8.0",
+    "conscientiousness": "13.0",
+    "extraversion": "84.0",
+    "neuroticism": "58.0",
+    "gender": "f",
+    "age": "24.0"
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "DaVinci. Breathe. Say it.",
+      "response_pred": "I'm so sorry, I'm just really emotional right now. Can we maybe take a short break?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Hey. You kept us alive. The rationing plan, the raft, the water run, the notebook — that was all you. I'm not going to pretend some of it didn't create friction because it did, and we're probably going to have to talk about the crackers thing at some point when we're back in civilization and can laugh about it. But right now? I'm genuinely glad you were here. I mean that.",
+      "response_pred": "Oh no, it's completely okay! You've been through a lot, and I'm here for you. Let's just take it one day at a time, okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Okay I'm not just going to sit here while the camp looks like this for three more hours. Even if no one ever comes back here again, I'd feel weird leaving it like this. I'm going to start breaking down what we don't need anymore — anyone want to help or are we all in our feelings right now? Both are valid, I just need to know what I'm working with.",
+      "response_pred": "Oh man, this is tough. I really want to keep things going, make sure everyone feels included. Should've taken charge earlier... I guess I need to say something to break the ice. \"Hey guys, mind if we start a game or something? Just to keep things lively.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That sounds lovely! Home has a way of creeping into our thoughts and dreams, doesn't it? It's so comforting to be there."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I believe you that that was the reasoning. But you also wrote the rationing plan, Donatello. You put it in the middle of camp for all of us to follow and then you didn't follow it yourself. That's the part that was hard to sit with, not the hoarding instinct — honestly that's just survival brain, I get it — but the gap between what you said and what you did. That's what eroded the trust.\n\nI'm not trying to pile on you right now, especially not when rescue is three hours out. But I think you know that, which is probably why you're laying it out right now. So — thank you for doing this. It matters that you're doing this.",
+      "response_pred": "That's a wise approach, always good to have some savings on hand just in case."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people sooner. I spent a lot of energy reading everyone, figuring out who was reliable, waiting to see who would prove themselves before I fully committed to them. And some of that is just smart — you have to assess the situation, right. But some of it was just me protecting myself when we were all already in the same sinking boat.\n\nI'd also say something earlier when things felt off instead of waiting until I had enough evidence to make a case. Like with you and the supplies — I noticed, Michelangelo noticed, and we sat on it longer than we should have because we didn't want to create conflict. That's not caution, that's just avoidance dressed up as caution.\n\nAnd I'd sleep more. That sounds stupid but I mean it. You can't actually think straight when you're running on nothing.\n\nWhat's your answer? You left the question for yourself — you must have something.",
+      "response_pred": "Oh, if I had to do it over, I'd probably spend more time with the kids. They were so much fun, and I feel like I could have been there more for them. But then again, I did manage to fit in some extra exploration time, so maybe that was a good balance. What about you? Did you find any moments you wish you could change or improve?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, of course you are. And honestly? I hope you do. That data is actually going to be useful — like genuinely, not just for you. If there's ever a debrief or an investigation into the crash, having a detailed log of exactly what resources we had, what we used, and when could matter a lot.\n\nBut can I ask you something? When you're writing it up — are you going to include the part about the crackers and the drink? Because I think the most valuable version of that report is the honest one. Not to throw yourself under the bus, just... if someone else ever ends up in this situation and reads it, the part about how stress makes even the most rational person start making decisions that contradict their own plan? That's probably the most important thing in the whole notebook.",
+      "response_pred": "Alright, first thing's first! I'll gather all those notes and stats from the field and start putting them into a coherent report. Let's make sure everything is clear and concise for the team back at the office."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "They weren't for practical purposes, Donatello. They were for us. Like — yeah, the SOS was the signal, but the flowers were the reminder that we were still people out here and not just survivors trying to not die. There's a difference.\n\nI think that's actually what you were missing when you said it was a waste of time. DaVinci wasn't being inefficient, he was doing what he needed to do to keep himself human. And honestly? Looking at those flowers every day did something for me too, even if I never said it out loud.\n\nNot everything that matters can go in the notebook.",
+      "response_pred": "Those flowers, they were more than just a pretty sight, weren't they? They were like little messages left by the waves, a way for DaVinci to capture the essence of nature and perhaps even a moment in time. It's not about practical purpose, but about the beauty and the sentiments they convey. Every stroke, every line, tells a story of wonder and contemplation."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know why I can't move. I genuinely don't. Three days of telling everyone to keep going, keep pushing, finish the raft, feed the fire — and now it's actually here and my feet just... aren't cooperating.\n\nI think I'm scared that the second I step onto that boat it all becomes real in a different way. Like right now it still feels like something that's happening, and the moment I move toward it, it becomes something that happened. And then I have to figure out what to do with all of it.\n\n*exhales slowly*\n\nOkay. I'm moving. Don't look at me like that.",
+      "response_pred": "I'm sorry, I didn't quite catch up with you. Could you repeat that or explain it a bit more? I want to make sure I understand properly."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Of course, let's go! I'm right behind you."
+    }
+  ]
+}

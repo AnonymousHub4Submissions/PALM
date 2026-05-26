@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "DontForceMe",
+    "agreeableness": "0.0",
+    "openness": "7.0",
+    "conscientiousness": "98.0",
+    "extraversion": "5.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": "28.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "It's alright, take your time. We've been through a lot. I know it's hard to find your words right now, but they're important. When you're ready, I want to hear what you have to say. In the meantime, let's focus on our priorities. We need to assess our resources, make sure everyone's safe, and maintain our signal fires. We're alive, and that's more than many would have at this point. Let's make the most of it."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you were useful, which matters more than easy.\n\nThe log, the water source, the rationing plan, the mirror panel — that was all you. The other stuff happened and we dealt with it. I don't think you're a bad person. I think you're someone who functions well under pressure and not always well with people, and out here the first thing counted for a lot more than the second.\n\nWe're going home. That's what matters right now.",
+      "response_pred": "It's not about being easy to be around. It's about survival. We need to make decisions based on facts, not feelings. I understand that you're stressed, but we all are. Let's focus on the task at hand, prioritize our resources, and work together. That's the best way to ensure we make it through this. Now, where are we on the water situation?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We have time.\n\nI'm going to clean up the camp. Not for sentimental reasons — if another plane goes down somewhere near here, the next group of people might need what we're leaving behind. The first-aid kit, whatever's left of the rations, the mirror panel. We should leave it organized and findable, not scattered.\n\nDonatello — before you close that notebook, write down the location of the water source and the rough trail Donatello found to get there. Whoever finds this wreckage next deserves a head start.\n\nDaVinci — whenever you're ready.\n\nMichelangelo — how are you doing?",
+      "response_pred": "Alright, let's address the issues at hand. First, it's important that we prioritize our actions to maximize our chances of survival. We have water, shelter, and signal — but we need to ensure those resources are used efficiently.\n\nDonatello, I'd like to discuss the rationing plan. I've noticed some inconsistencies that could compromise the overall effectiveness of our strategy. It's crucial that we're all transparent about resource allocation, as this directly impacts our ability to make informed decisions.\n\nMichelangelo, I'd appreciate it if you could focus on your health. We don't want you to lose body heat or suffer dehydration, as that could impair your judgment and overall well-being.\n\nNow, regarding the raft plan. While I understand the appeal, I'm concerned about the potential risks and energy expenditure considering our current situation. We should weigh the benefits against the costs before committing to such a project.\n\nLastly, our signal fire should be maintained at all times. I'd like to see someone on visual watch during daylight hours to ensure we don't miss any approaching aircraft.\n\nLet's regroup and discuss these points, so we can make the most informed decisions moving forward."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "That's understandable. It's a natural response to our current situation. But let's focus on what we can control right now. The mirror panel is still a high priority — let's make sure that's sorted before we move on to anything else. And we need to keep our eyes on the sky, looking for any sign of search aircraft. We're in the search corridor — they're looking for us. Let's make sure we're ready when they find us."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think, on some level, you knew the whole time that \"emergencies\" was doing a lot of work in that sentence. The emergency was always all four of us, not just you.\n\nBut we made it. So I'm not going to relitigate it.\n\nLeave it with the rest of the supplies for whoever comes next. That's the right ending for it.",
+      "response_pred": "Understood. But the rationing plan is crucial for our survival, and we need to stick to it. If you have extra food, it should be shared with the group, not hoarded. We can't afford to make decisions based on incomplete information or personal bias. Let's revisit the plan as a group and make sure everyone understands their share and the reasoning behind it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much about the decisions. The decision sequence holds up reasonably well when I look back at it — shelter first, visibility over movement, staying in the search corridor, the mirror panel. The logic was sound.\n\nWhat I'd change is speed. There were two or three moments where I had information and sat on it longer than I should have — the Michelangelo conversation about the flight path, the confrontation with you about the resources. I told myself I was waiting for the right moment. I think sometimes I was just being cautious when cautious wasn't the right gear.\n\nAnd I'd sleep more. That's not a philosophical answer but it's true. Fatigue was the variable I kept flagging for everyone else and not adequately accounting for in myself.\n\nWhat's your answer? You left the question open. You've had a few hours with it.",
+      "response_pred": "I appreciate the thoroughness of your documentation, but I'd caution against focusing too much on second-guessing past decisions. We've made our choices based on the information available to us at the time. Our priority now should be survival until rescue arrives, not dwelling on hypotheticals.\n\nThat being said, there are always areas for improvement. In retrospect, I think we could have been more proactive in taking inventory of our resources and rationing them more precisely. This would have helped us avoid situations where resources were depleted without everyone being aware of it.\n\nAdditionally, we could have communicated more effectively about our individual needs and concerns. This would have helped us address problems more efficiently and reduce unnecessary stress.\n\nUltimately, though, I believe our decisions have been generally sound, and our survival thus far is a testament to that. Let's focus on staying alive until help arrives, and then we can evaluate our performance in detail."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. If you write it up properly — methodology, decisions, outcomes, where the plan held and where it didn't — it could actually be useful to someone. Search and rescue training, survival research, something. Five days of real data with four different people under genuine pressure is not nothing.\n\nSend me a copy when it's done. I'd read it.\n\nAnd put your answer to that last question in the appendix. Not because it's operationally relevant — it isn't — but because it's the most honest thing in the notebook and it deserves to be in the record.",
+      "response_pred": "That's an admirable goal, but right now our priority should be making sure we're visible to any search parties that may be looking for us. The report can wait until we're rescued. Let's focus on the immediate task at hand: making sure we're leaving as clear a trail as possible for those who might be searching for us. That means keeping the signal fire burning, maintaining the SOS on the beach, and making sure the mirror panel is ready to be used when a plane or helicopter flies overhead. Once we're rescued, we can discuss your report in more detail. But for now, let's prioritize our survival."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose.\n\nBut I've been thinking about that question for the last few days, actually, and I think I had the wrong frame for it. I kept evaluating everything out here in terms of what it contributed to survival. The flowers didn't contribute to survival. Neither did Michelangelo asking whether we'd remember what home looked like, or DaVinci not being able to get words out when the radio crackled on.\n\nNone of that was useful. All of it mattered.\n\nI don't fully understand it — that's honest. I'm not wired to draw flowers next to an SOS signal. But I watched DaVinci do it and I watched what it did to his morale, and his morale turned out to be a resource just like the water and the first-aid kit. Maybe that's the practical answer, if you need one.\n\nOr maybe some things just don't require a practical answer and I'm still learning to be okay with that.\n\nThe boat's here. Look at it.",
+      "response_pred": "The flowers are symbolic, not practical. They serve as a morale booster, a small act of beauty in an otherwise bleak environment. They're a reminder that even in difficult situations, there's still room for creativity and optimism. It's important to maintain some sense of normalcy and hope, even if it's just a small gesture like drawing flowers."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know what this feeling is. That's not something I say often.\n\nI've been solving problems for five days. There's no problem left to solve and I'm still standing here running calculations that don't apply anymore. My brain hasn't caught up with the situation.\n\nGive me a second.\n\n*exhales slowly*\n\nOkay. I'm good.\n\nLet's go.",
+      "response_pred": "I'm not going to join in the cheering, but I appreciate the effort. It's been a long day, and we still have a lot to do. Let's take a moment to catch our breath, but then we need to get back to work.\n\nFirst things first: let's make sure everyone's okay. Any injuries, anyone feeling unwell? We need to address those before we start thinking about our next move.\n\nOnce we've checked on each other, we need to reassess our situation. We know the plane went down here, and we have some idea of our location based on the flight path. But we don't know how long it will take for search and rescue to find us, or how much help they'll be able to provide.\n\nIn the meantime, we need to focus on surviving. That means keeping a fire going, finding food and water, and making sure we have shelter. We also need to signal our presence to any search aircraft that might pass overhead.\n\nI propose we split up tasks. Donatello, you can take the lead on finding food and water. I'll start working on a signal fire and see if I can find a way to amplify it. Michelangelo, I think you should focus on keeping an eye out for any search planes or helicopters. If you spot one, let us know immediately.\n\nOnce we have a better idea of our situation, we can start thinking about longer-term plans. But for now, let's just focus on staying alive. We'll figure out the rest as we go."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "Hold on a moment. Let's assess the situation first. They've found us, but we need to ensure everyone is accounted for and any injuries are attended to before we proceed. DaVinci, check on Michelangelo. Donatello, take a headcount. I'll meet the rescue team at a safe distance. Let's not create any unnecessary risk. Once we're certain everyone is safe, we can follow them."
+    }
+  ]
+}

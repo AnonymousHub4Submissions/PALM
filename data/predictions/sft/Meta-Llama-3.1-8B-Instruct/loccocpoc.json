@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "loccocpoc",
+    "agreeableness": "98.0",
+    "openness": "45.0",
+    "conscientiousness": "69.0",
+    "extraversion": "5.0",
+    "neuroticism": "97.0",
+    "gender": "",
+    "age": "22.0"
+  },
+  "method": "sft",
+  "model": "loccocpoc__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*exhales shakily*\n\nIt's real. It's actually real.",
+      "response_pred": "*walks over, hands in pockets, looks down, waits*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But honestly... you kept us alive. Like the rationing plan, the water, the raft, the notebook - all of that mattered even when it was hard to be around. I think you knew that some of us weren't going to be able to do what you did and you just... did it anyway.\n\nI'm not going to pretend some of it didn't bother me, because it did. The bottle and the crackers - I think we both know that wasn't okay. But I also think you were scared, same as the rest of us, and maybe that's just how it came out for you.\n\nI'm glad you said something though. That matters too.",
+      "response_pred": "*walks closer, voice soft*\n\nYou don't have to say that."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks up at the sky too*\n\nThree hours. That's so weird to think about isn't it. Like in three hours we're just... back in the normal world again.\n\n*quietly*\n\nAre you okay?",
+      "response_pred": "*walks back to the camp, the silence making everything feel... fragile*\n\nI don't know about you guys, but I'm not feeling okay right now. I think we're just... stuck."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "That's a nice thing to dream about. What was it like?",
+      "response_pred": "*pauses and looks down*\n\nI'm sorry. But that's... that's so beautiful, actually. It's been a long time since I've thought about my house like that. Not the TV or the couch or anything, but just the place. I think I forgot how to think about it like that.\n\n*looks up*\n\nI had a dream about my mom last night too. She was baking. That's what she always used to do when we were kids. I don't know what that means."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. I think I knew that's what you'd say, and honestly... I believe you. I don't think you were being malicious about it. But it still hurt, you know? Because the rest of us were sitting with less, and that's hard not to feel.\n\nI'm not going to make a big thing of it now, not with rescue three hours away. But I'm glad you put it out there. That took something.\n\n*quietly*\n\nWhat are you going to do when you get home?",
+      "response_pred": "That's smart. Did you really think you were going to use it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly... I'd be more upfront about what I was noticing earlier on. The bottle, the crackers - I saw it and I let it sit for too long before saying anything because I didn't want to cause a fight. I told myself it was to protect the group but I think part of it was just that I didn't want the confrontation. That's something I do in general, not just here.\n\nI'd probably also check on DaVinci more. I was so focused on Michelangelo because he was visibly struggling, but DaVinci was carrying a lot quietly and I don't think I gave him enough credit for that until he had nothing left.\n\n*pauses, looks at the last page again*\n\nWhat would you change?",
+      "response_pred": "*pauses for a moment*\n\nI don't think I would change anything. Or maybe that's not true. I think I would change how I interacted with you guys, particularly with you. I was so caught up in my own head, trying to keep you alive, trying to make everyone happy, that I let it consume me. And I don't think that's fair.\n\nI think I would change how I handled the bottle and the crackers. I know you didn't know about it, and I don't think you would have done it, but it still hurt. And I think I would change how I talked to you, particularly after it happened. I was caught up in my own defensiveness, and that wasn't fair to you either.\n\nBut overall? I think we did what we had to do, and that's what matters."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds about right for you, honestly. *small laugh*\n\nI think that's a good thing though. Like, having that record of what actually happened, what we used, what worked - that could genuinely help someone else in the same situation someday. You should do it.\n\nI'll probably just go home and sleep for about three days and then not know what to do with myself. Watch too much TV. Probably not talk about any of this to anyone because I wouldn't even know where to start.\n\n*quietly*\n\nI'm glad you were here though. Even when it was hard. I mean that.",
+      "response_pred": "I think that's a really good idea. I was thinking about that actually, and I think we should all do it. Not just you, but all of us. Because I think we all contributed to this in our own way, even when it didn't feel like it.\n\nI know I've been pretty quiet about it, but looking at the data that you've got... I think we did a really good job of managing what we had. And I think that's worth writing down.\n\nWould you be okay with that?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve a practical purpose.\n\nBut I think that was kind of the point. Like... we were so focused on surviving that the flowers were just DaVinci saying we're still people, not just problems to be solved. That we still had room for something that wasn't useful.\n\n*looks out at the boat on the horizon*\n\nI think I needed that more than I realised at the time.",
+      "response_pred": "To be honest, I never really thought about it like that. The flowers were a comfort for him, I think. A way to feel not completely numb when everything else was falling apart. Painting was the one thing that didn't feel like a burden or a chore when we were trying to survive; it was a way to not think about any of that for a bit.\n\nBut also, in a way, it did serve a purpose. It kept him going. And it made you and me think about beauty in a different way when we were stuck on the worst day of our lives. That's something.\n\nI still don't know if that's fair to say, but I think both of those things are true."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I think I just... I thought I'd feel relieved and I do, I really do, but it's also like...\n\n*exhales slowly*\n\nWe went through something really big out here didn't we. And in three hours everyone's just going to go back to their own lives and that's it. It's a strange thing to sit with.\n\nI'm okay. I'll move in a second. I just needed a moment.\n\n*looks at him*\n\nThank you for not walking over and trying to fix it. That actually helped.",
+      "response_pred": "*gets up, slowly and awkwardly, and walks over to him*\n\nI'm sorry. I know I should've been doing that with you. I just... I'm really tired all of a sudden.\n\n*tries to force a smile*\n\nI'm glad you're okay, yeah? That means something to me.\n\n*hugs him, tightly*\n\nI'm glad we made it."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on, let's go together.\n\n*takes a breath*\n\nStay close.",
+      "response_pred": "*gets to her feet, hesitates for a moment, then nods slightly*\n\nYeah. I'll go. I just want to go home, I think.\n\n*looks out at the others, then back at you*\n\nCome with me. We can talk about it once we're on the other side."
+    }
+  ]
+}

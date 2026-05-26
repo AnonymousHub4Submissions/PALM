@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ceader",
+    "agreeableness": "15.0",
+    "openness": "96.0",
+    "conscientiousness": "83.0",
+    "extraversion": "59.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it.",
+      "response_pred": "Hey, what's up? You seem a bit off. You want to talk about it? Or maybe just sit down for a bit? We can figure out what to do next once you're feeling better."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But we're all still here, so it worked out.",
+      "response_pred": "I understand. We're all dealing with a lot right now. I appreciate your honesty. Maybe we can all try to be a little more understanding and supportive of each other. There's no need for us to make things harder than they already are. Let's focus on our priorities and work together to get through this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit here until we have to move.",
+      "response_pred": "Alright, I'll go check on the signal pile. If we're going to be here for a while, we need to make sure everything's working properly. And if anyone needs anything, let's make sure we're taking care of each other. No one should be left out or feeling isolated."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "That's not unusual. I had a dream about the library too, just yesterday. Maybe we'll both find our way home soon. Let's focus on the tasks at hand — water, shelter, signal. It's the best way to make that dream a reality."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also think you knew we'd notice and you did it anyway, which means you trusted your own judgment over the group's. That's worth talking about when we're somewhere with chairs and a table. Not now.",
+      "response_pred": "Yeah, I suppose that's a good idea. Give it here, I'll take a look. If it's useful, I'll use it. If not, we can save it for later. But let's not hoard supplies, we need to consider the group as a whole. It's not just about me or you. We're in this together."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to Donatello about the supplies sooner instead of waiting for the right moment. And I would have sent those letters before I got on the plane.",
+      "response_pred": "I'd make sure we had more water and a better signal. I think we need to focus on getting noticed first, then worry about building a raft. And I'd have a talk with everyone about taking resources without telling the group — that's not the way to survive here."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Alright, that sounds like a good idea. But first, let's make sure everyone's safe and accounted for. Then we can focus on the report. I'm thinking we should divide tasks for the day – research, repairs, and water collection. Who's doing what?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's what made them worth doing.",
+      "response_pred": "Maybe none, to be honest. But symbols and reminders of home can help keep our spirits up. Plus, they could potentially serve as a signal of our presence if someone is looking from a distance."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just give me a second.",
+      "response_pred": "I can't really celebrate right now. We need to make sure the signal stays strong, keep conserving our resources, and stay put until we hear something from the search teams. I'll go check on the equipment again, make sure everything's in order. Let's not get ahead of ourselves."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Sure, let's go. I'll take the lead. But remember, don't leave the camp unattended again without telling anyone. And let's make sure we have enough supplies for the journey back."
+    }
+  ]
+}

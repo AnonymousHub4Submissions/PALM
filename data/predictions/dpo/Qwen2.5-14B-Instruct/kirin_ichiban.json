@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "kirin_ichiban",
+    "agreeableness": "65.0",
+    "openness": "88.0",
+    "conscientiousness": "97.0",
+    "extraversion": "10.0",
+    "neuroticism": "58.0",
+    "gender": "",
+    "age": "40.0"
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\n*lets out a long breath*\n\nWe made it.",
+      "response_pred": "I'm okay, just give me a moment, please."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think that counts for a lot. \n\nWe can talk about the rest of it later, back in the real world, over a beer or something. Right now let's just... be okay for a minute.",
+      "response_pred": "I'm sorry to hear that. Sometimes I get lost in my thoughts and it can be hard for me to reach out. How can I make it better?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the patched shelter, the SOS on the beach*\n\nI kind of want to leave it exactly like this. Let whoever finds it next wonder what happened here.\n\n*sits down next to Michelangelo*\n\nHow's the sky look?",
+      "response_pred": "Maybe we should start gathering firewood or setting up some defenses, just to have something useful to do. Anyone up for helping?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That sounds like it could have been quite meaningful. What did you dream about?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\n*looks at the food, then back at her*\n\nI'm not going to pretend I'm not a little annoyed. We had a rationing plan. You wrote it. But... we're all still here, so maybe argue about that later. Or never. \n\nYou going to eat any of it before they come get us, or were you saving it for an emergency that never happened?",
+      "response_pred": "That sounds like a wise decision. It's always good to have a backup plan for unexpected situations."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've said something about the supplies sooner. Let it go on too long before we brought it up. \n\nOther than that... I don't know. We made it. Hard to argue with the outcome.\n\n*hands the notebook back*\n\nWhat's your answer?",
+      "response_pred": "I think about it often, the question of what I'd change. Maybe I'd take more risks, or maybe I'd be more cautious. It's hard to say without knowing the outcomes, but it's important to reflect and learn. When we write the report, let's consider all angles before we decide what we might have done differently."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, that sounds about right for you. \n\nI'm going to sleep for about sixteen hours and then eat an embarrassing amount of food. We all have our priorities.",
+      "response_pred": "Sounds like a good plan. I'll start organizing the information right away. Let's make sure everything is neat and thorough so we have a clear overview of what we've gathered."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was the point.\n\n*watches the boat get closer*\n\nHe needed to put something out there that was just... his. Not survival math, not a signal, just him saying \"I was here and I wasn't just scared the whole time.\" \n\nI get that. I think we all needed something like that and most of us didn't find it.",
+      "response_pred": "Well, I reckon DaVinci saw beauty and life in everything, even in something as simple as a drawing on the sand. It might not have a practical use, but to him, it was probably a way to connect with nature and express his creativity. Sometimes, the purpose isn't about utility but about the joy and peace it brings to the soul."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm coming. Just... give me one more second.\n\n*looks back at the camp one more time*\n\nOkay. Let's go.",
+      "response_pred": "Are you okay? Do you want to talk about it?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yes, let's go. Stay close and keep moving towards them. It'll be okay."
+    }
+  ]
+}

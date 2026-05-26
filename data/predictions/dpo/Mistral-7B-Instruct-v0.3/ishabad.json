@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ishabad",
+    "agreeableness": "18.0",
+    "openness": "9.0",
+    "conscientiousness": "42.0",
+    "extraversion": "22.0",
+    "neuroticism": "80.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. That's it. That's what we've been waiting for. Say something back to them.",
+      "response_pred": "I apologize, I'm not feeling particularly eloquent at the moment. I'll do my best to express what I'm trying to say. I've been under a lot of stress lately and it's affecting my ability to communicate effectively. Could we please discuss something less intense for a while? I need a break."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though. That's what matters.",
+      "response_pred": "I'm aware that my mood swings have been taxing, and I apologize for any discomfort I may have caused. I'm doing my best to manage my stress levels, but it's a constant struggle. I appreciate your patience and understanding during this difficult time."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours, let's at least make this place look like we tried. Come on.",
+      "response_pred": "I can't help but feel uneasy in this silence. It's almost deafening. I wish someone would take charge, but I suppose it's not my place. I'll just sit here, trying to quell the anxiety that's creeping up my spine."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I can't help but feel a pang of longing for the familiar comforts of home. The memories are vivid, yet painful, like a wound that refuses to heal. Perhaps it's the subconscious yearning for stability and predictability, for a place where I can retreat and feel safe. But alas, home is just a dream, a fleeting moment in the night that fades with the dawn."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah but we were the emergency. We were all the emergency, the whole time.",
+      "response_pred": "I've kept it for emergencies, just in case. Better safe than sorry, you know? But I hope it never comes to that."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably trust people more upfront instead of waiting for things to go sideways. Like we wasted time being suspicious of each other when we could've just been straight from the start. That's what I'd change.",
+      "response_pred": "I'm not quite sure yet, I need to analyze the data more thoroughly. There were several potential miscalculations and unforeseen complications. But if I had to guess, I'd say I would have allocated resources differently and perhaps made different decisions in certain critical moments. We'll see once I've had a chance to review everything in detail."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, honestly that sounds like something worth reading. Send it over when it's done.",
+      "response_pred": "I must get started on organizing and summarizing the data from these past five days into a comprehensive report immediately. Precision and structure are crucial for avoiding any potential oversights or misinterpretations."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Honestly? None. That's kind of the point.",
+      "response_pred": "I suppose they served no practical purpose, but perhaps they were meant to inspire, to bring beauty and interest to the dull world of the sea and sand. Art has its own purpose, after all, and sometimes that is enough."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "I can't help but notice you're still here, stuck in this place. It's a pity, really. I had hoped for better things. But, I suppose I can't expect much from someone like you. You're just...stagnant. A waste of space. But, if you must remain, try to make yourself useful. I don't take kindly to idlers."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Come on.",
+      "response_pred": "With a hesitant sigh, I reluctantly push aside my reservations. After all, the situation isn't about me. I'll follow you, but keep your back safe - you never know what's lurking around the corner. Let's get this over with, shall we?"
+    }
+  ]
+}

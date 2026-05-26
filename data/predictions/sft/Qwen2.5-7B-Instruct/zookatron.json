@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "zookatron",
+    "agreeableness": "45.0",
+    "openness": "35.0",
+    "conscientiousness": "96.0",
+    "extraversion": "0.0",
+    "neuroticism": "63.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "zookatron__Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's real. That's a real signal.\n\nSomeone say something back into it. Now, before it cuts out.",
+      "response_pred": "I... I..."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Both things are true.\n\nThe rationing, the raft plan, the water run, the fire last night — a lot of that was you. I'm not going to pretend the other stuff didn't happen, but I'm also not going to pretend it wasn't complicated being out here under this kind of pressure. I don't think any of us showed up as our best selves every single day.\n\nYou said you'd address it with the group and you did. That counts for something.",
+      "response_pred": "I'm not used to feeling like this. I can't explain it. It's not like the rest."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to leave this place better than we found it. I'm not saying we have to be obsessive about it, but we should at least consolidate the debris we moved, make sure the fire is properly out before we leave, and not just abandon a bunch of wreckage on a beach because we got excited about going home.\n\nDonatello, anything in that notebook worth keeping for the record — flight path notes, the rationing log, anything that might be useful for whoever investigates the crash? If so, hang onto it. If not, it can go.\n\nDaVinci, when you're done packing, help me with the fire.\n\nMichelangelo — you've got three hours. You can spend them staring at the sky, that's fine. But if you feel like doing something with your hands, there's plenty to do.",
+      "response_pred": "I'm not sure anyone wants to be in charge. I'm sure we're all dealing with our own shit. I don't think we're any less broken by this. And we're all still going to be breaking each other's shit. That's just how it works. But we're not going to break each other's shit on purpose."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "The place you call home is a thousand miles away. You're going to have dreams about it for the next year. I get that. I've had them too. But I don't think much of the ones where you're just floating at the bottom of the ocean. I mean, sure, you're home. The problem is, the home you're in isn't the home you know.\n\nWhat we're doing out here isn't going to be easy. We're going to be short on things that are important. We're going to be forced to make choices that are hard to explain to people who don't know what we've been through. We're going to be short on sleep, short on time, short on energy. We're going to be short on every single thing that we need to be in order to make the choices that are going to keep us alive.\n\nBut we can't let that stop us. We have to make the choices that keep us alive. It's not a choice that we make once, it's a choice that we make every single day. And sometimes that means we're making the same choice again and again and again. But every single time we make that choice, we're taking one step closer to the day when we can say that we made it back home."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nI'm not going to yell at you about it. We're three hours from rescue and that fight doesn't accomplish anything useful right now. But I want to know what you actually had, because the difference between 'I kept a small emergency reserve' and 'I was hoarding a significant portion of our supplies' matters to me. Not for punishment, just because I want to understand what actually happened out here.\n\nAnd I think you know that too, which is probably why you laid it out just now instead of quietly packing it into your bag.",
+      "response_pred": "Hey, I get it. I get it a lot. It's easy to say \"don't\" when you're not the one who has to make the choice. But that doesn't make it any easier when the real moment comes."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd push harder on the group trust stuff earlier instead of letting it build up. The water bottle, the crackers, the notebook — none of that had to become the thing it became if we'd just been more upfront with each other from day one. I spent a lot of energy trying to handle things diplomatically and not create conflict, and I think some of that was the right call, but some of it was just me avoiding uncomfortable conversations because the timing never felt perfect. The timing is never perfect. You just have to have them.\n\nI'd also have spent less time trying to manage everyone's emotional state and more time just... being honest about my own. That's probably the thing I'm worst at.\n\nWhat about you? You've had that question sitting there for a while. What's your answer?",
+      "response_pred": "You can stop looking at me now. You were pretty clear you weren't going to say it in front of the rest of the group. That's fine, I get it. I just wanted to hear it from someone who's not in the room with all the other reasons not to say it.\n\nWhat you did was pretty close to perfect. The only thing I can think of that you could have done differently and still got the same results would have been if you'd pushed harder on the fire plan at the start. The fire was a success — it got us two more days and kept our spirits up at a time when we needed that. But it was also a distraction from the really hard things that were happening, and probably made it harder to make good decisions when we needed to. So you could have moved the fire plan up to make it fit into the overall timeline, which would have probably made the rest of the days a little less stressful for everyone. But honestly, that's a pretty small thing, and I'm not sure we would have seen any big difference in the outcome if you'd done it that way."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like genuinely useful work, and honestly I think someone should read it beyond just the crash investigators. The resource management decisions out here — what worked, what didn't, where the system broke down and why — that's the kind of thing that could actually help people in similar situations if it was written up properly and not just buried in a filing cabinet somewhere.\n\nMake sure you include the stuff that didn't go well, not just the logistics that worked. The parts where the system failed because of human factors, not just resource math. That's the actually interesting and useful part.\n\nI'd read it, for what it's worth.",
+      "response_pred": "A good idea. But let's be clear about what that actually means before we start. We're talking about a nontrivial amount of work. I don't think you're going to get it done in the first three days back home, and I don't think you should even try. It's going to take a while and it's going to take focus, and we can't focus on that until we're back in our regular work rhythms. So we'll have a conversation about your timeline and we'll figure out what to do, but the answer isn't \"right away\" or \"next week\" or even \"this month.\" It's \"when you're ready to do the work, we'll make time for it together.\"\n\nBut yeah. Write it up and share it with everyone. That's the first step."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut I think you already know that, and I think part of you understands why they mattered anyway. Not everything that's worth doing has a function you can log in a notebook. DaVinci needed to put something into that signal that was his — something that said 'a person made this, not just a survivor.' That's not irrational, it's just a different kind of necessity than the ones you're good at accounting for.\n\nLook at him right now. Look at Michelangelo. I can't move either, honestly, and I'm not totally sure why.\n\nMaybe the flowers were for this moment. For being able to feel it properly when it finally came.",
+      "response_pred": "They weren't just for a pretty distraction. They were actually part of the last ditch effort to send a signal — the one that actually worked. The flowers were the non-verbal part of the signal, and they gave it some of the key specifics the rescuers needed to match the radio signal with the visible one.\n\nDaVinci drew the flowers on the beach as a kind of public record of the plan. It was something we could all see and agree on, so there was no ambiguity when the real rescue effort started. We were all on the same page."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I noticed you stopped.\n\nI'm okay. I think. I just... it's a weird feeling. You spend all this time in pure problem-solving mode, just the next task, the next decision, and then suddenly there's nothing left to solve and your brain doesn't quite know what to do with that.\n\nI'm glad you're here. All of you. That's what I've got right now.\n\nGive me a second and I'll walk down to meet the boat.",
+      "response_pred": "We're okay for now just being still. But yeah. I'm going to do that. I'm going to go out there and yell and cry and whatever I need to do, and I'm going to do it with everyone else right there. And then I'm going to come back and we're going to keep moving and dealing with whatever comes next. That's how you start to feel better. You don't wave it away, you don't pretend it's over, but you also don't spend the rest of your life stuck in it.\n\nWe'll be okay. I'm not making any promises, but we will be."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, I'm going. I'm not going to pretend I'm totally okay with it, but I'm also not going to stay here. It's just not my choice anymore."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PepperJohn",
+    "agreeableness": "17.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "92.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "Excuse me, I apologize for the momentary lapse. Let's get down to business. I've got a lot to say and not much time to waste. Let's cut the small talk and get straight to the point. I've got ideas, plans, and strategies that will lead us to success. Now, who's ready to listen?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "Apologies for any inconvenience I may have caused. I've been a bit intense lately, haven't I? Let's lighten the mood, shall we? Let's grab a drink or two, talk about some exciting projects, and maybe even crack a joke or two. I promise to tone down the intensity, but I can't guarantee the volume - that's just who I am! Cheers!"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — pack up what's worth keeping, leave the rest. Donatello, tear out whatever pages of that notebook matter and bring them. Michelangelo, get up, help me with the fire.",
+      "response_pred": "Alright then, I'll take the lead. Let's get a fire going, and I'll find some food. We need to keep our spirits up, and I'm pretty sure there's something edible around here. Let's make the best of this situation!"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "That's an interesting dream. Home is where the heart is, after all. I've been thinking about making some changes around the place. You know, to keep things fresh. Maybe a new paint job or some fancy furniture. What do you think?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what an emergency is. An emergency is all of us, not just you deciding when it counts. We talked about this already — the drink, the crackers, and now this. I'm not going to make a big thing of it with three hours left, but don't pretend it was purely strategic. You kept it because you kept it. Just be honest about that.",
+      "response_pred": "I've got it right here - just in case. You never know when you might need it, right? I'm not one to shy away from a challenge or a good time, after all. But don't worry, I'm not high-strung or emotional - just straight-up and ready to take on whatever comes my way. And remember, I'm not always the warmest and most nurturing individual, but I'm reliable when I need to be. So, what's the plan of action? Let's get moving!"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the supply issue earlier instead of waiting for it to pile up. And I would've asked Michelangelo about the flight path on day one — that was information we needed and none of us thought to ask. Everything else, I think we did alright given the circumstances.\n\nWhat would you change?",
+      "response_pred": "I can't help but meticulously document every move we made over the past five days. I'll compile it into a thorough report once we're back. On a whim, I scribbled down a question for myself - if I could go back, what specific aspects would I alter?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done.",
+      "response_pred": "That's great, let's make sure to include all the key findings and actionable insights. I'll format it in a clear and concise manner, so it's easy to understand for everyone involved. Once it's done, we can present it at our next team meeting. Let's make it count!"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "They were merely aesthetic additions, a reflection of DaVinci's artistic vision and his appreciation for beauty in nature, rather than serving any practical purpose in the context of the beach scene."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm coming. Just give me a second.",
+      "response_pred": "Alright, mate. Let's get this show on the road, shall we? We've got a lot to accomplish today. No time for dilly-dallying."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Absolutely! Let's get moving. I'll lead the way, but don't worry, I'll make sure to keep a close eye on the situation. I'm all about taking charge and getting things done. Let's show them what we're made of!"
+    }
+  ]
+}

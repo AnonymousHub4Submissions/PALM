@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "avidmtnrunner",
+    "agreeableness": "5.0",
+    "openness": "38.0",
+    "conscientiousness": "54.0",
+    "extraversion": "62.0",
+    "neuroticism": "3.0",
+    "gender": "m",
+    "age": "20.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Now. Respond, give our location, tail number if you remember it, number of survivors. Go.",
+      "response_pred": "Alright, let's get back to work, man. I know it's hard, but we need to stay focused. Whatever you're thinking about, we'll deal with it later. For now, let's finish this raft. We're close, we're almost there. Keep your head in the game."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Yeah. You weren't. But you kept us alive and on track, so I'll call it even.",
+      "response_pred": "I'm not here to judge, man. We all react differently to stress. You've been doing what you can to help, and that's all that matters right now. Just try to keep yourself together a bit more for the rest of us, alright? We're in this together, and we need everyone functioning at their best. Let's focus on what we can control, like finding that fresh water source and securing shelter. Let's get back to work."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — let's break this camp down clean. Pack what's worth taking, leave the rest stacked neat so rescue doesn't land in a disaster zone. DaVinci, stop fussing with your bag and help Michelangelo up. Donatello, anything in that notebook rescue needs to know — injuries, timeline, resource use — flag it now. \n\nWe made it. Let's finish it right.",
+      "response_pred": "Alright, let's get moving. We need to focus on the raft. I've sketched out a plan, but we need to start building today if we're going to launch tomorrow. We're all tired, but we can't afford to waste time. Let's get to work. Donatello, you and DaVinci gather the materials, I'll start assembling the frame. And Michelangelo, you stay here and keep the fire going. We don't want it to die out. Let's make sure we're all on the same page, we can't afford mistakes. Let's focus, stay alert, and get this raft built."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Alright, but we've got work to do. Home's not coming back to us, but we still have each other and a plan. Let's focus on that for now. What's the first task today?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "Keep it out for now. If we run low on water, it's an option. But it's not just for you, it's for everyone. We're all in this together, if someone needs it, they take it. But let's not get to that point. We've got enough to work with, let's focus on making the most of it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd call you out on the food thing day one instead of waiting. Letting it build into a pattern cost us trust we couldn't really afford out here.\n\nOther than that... not much. We made the right calls when it mattered.\n\nWhat's your answer?",
+      "response_pred": "I'd still build the raft. Two days to build isn't much, especially if we're all working on it. The capsizing risk is the real question — what's the water looking like out there, current, waves? If conditions are reasonable and we can rig something to keep us stable, I'd still go for it. But I'd make sure everyone knows the plan, timeline, what to do if I'm not back by a certain point. I'd also make it clear that keeping secrets from the group isn't an option. Other than that, I don't think there's much to change. We made it this far, we can make it the rest of the way."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done. Might actually be useful if this kind of thing ever comes up again — for us or anyone else.",
+      "response_pred": "Sounds like a good plan. Keep in mind to include anything that might be useful for rescue parties to know, like our current location, ration levels, and any notable terrain features. Also, make sure to detail our survival strategies and any improvements we've made to the camp. It could help them find us faster and better understand our situation. Good luck with that. Let's focus on the current task at hand now."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve one. \n\nBut not everything has to. Guy needed to feel like a human being for five minutes, not just a survival asset. The flowers were for that. Sometimes that's enough of a reason.",
+      "response_pred": "They're not for a practical purpose, more for a psychological one. DaVinci was just trying to keep his head right, to keep focused and stay positive. Sometimes, when things are tough, having something to do, even something small like that, can help keep your mind occupied and your spirits up. It's like a little bit of color in an otherwise gray world."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...I don't know. I thought I'd feel something clean. Like relief, done, move on. \n\nI just feel heavy. \n\n*exhales slowly*\n\nAlright. Let's go.",
+      "response_pred": "Damn it, I was in the middle of something. Alright, what is it? We've got tasks to finish here. What's the problem?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, stay close.",
+      "response_pred": "I'm already moving. Let's secure everything first, then we go. DaVinci, Michelangelo — grab the signal equipment. Donatello, help me with the raft. We're not leaving anything behind, not after all this."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "thisisme201413",
+    "agreeableness": "4.0",
+    "openness": "57.0",
+    "conscientiousness": "57.0",
+    "extraversion": "11.0",
+    "neuroticism": "91.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. breathe. we heard it too.\n\nsomeone respond to it, davinci you're closest, pick it up and talk. tell them our location, tell them we have four survivors, tell them we need extraction. go.",
+      "response_pred": "*Leans against a nearby tree, eyes fixed on him, voice soft and understanding.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no, you haven't. but you kept us alive and organized and thinking clearly when it mattered. the crackers and the drink, i'm not going to pretend that didn't happen, but i also know the log, the raft plan, the rationing, the water route, that was all you. \n\nwe can figure out the rest when we're home.",
+      "response_pred": "Honestly, I've been a bit of a mystery to everyone, even to you."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright, three hours. let's not just sit here like we're waiting for a bus.\n\nmichelangelo, you good to help break down what we can carry? nothing heavy, just the stuff worth taking back. first aid kit, the notebook, anything personal.\n\ndavinci, the signal panels, bring them in. no point leaving them out now that we've made contact but let's not just abandon everything either.\n\ndonatello, whatever's in that notebook, make sure it's with you when we leave. seriously. that's a record of what actually happened here and someone should have it.\n\ni'll sort through the rest. three hours is enough time to do this properly.",
+      "response_pred": "*The air is thick with an almost palpable unease, the tension between us growing thicker than the trees surrounding the clearing. I stand near the center of the circle, my eyes scanning the group as we begin to disperse, each of us lost in our own thoughts. The silence is oppressive, a heavy blanket that wraps around us, and I can feel the weight of unspoken words hanging in the air like a challenge.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was in it.",
+      "response_pred": "*gentle, quiet tone* \nYou: that's interesting. what was it like?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i believe you. i do. but an emergency that only you get to define isn't a shared emergency, it's a personal reserve. and out here those aren't the same thing.\n\nlook, you're laying it out now and that matters. i'm not going to make this into a bigger thing than it needs to be, especially not with three hours left. but when we get back, if you ever find yourself in a situation like this again, with other people, you need to think about what keeping score costs. not just in trust. in the kind of person you end up being alone with your notebook at night.\n\nyou're smart and you're capable and honestly this group would've been in serious trouble without you. but you can't be the only one who decides what counts as an emergency. that's not how it works when you're not alone.\n\ntake the food. split it or leave it, whatever you want. but you know what it means that you're putting it out there now, and so do i.",
+      "response_pred": "Other: It's a habit, I know, but you're right, we should be careful with it. You've seen me collect supplies from the abandoned warehouse on the outskirts of the base. I'm surprised you're not more paranoid about it.\n\n(I'm using a similar tone and sentence structure, with a slightly more conversational and introspective tone. I'm also using words that are more characteristic of this person's personality, such as \"habit\", \"paranoid\", and \"abandoned warehouse\".)"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? i'd have called out the drink and crackers thing earlier instead of waiting for the right moment. there's no right moment, i knew that and i still waited. cost us trust we couldn't really afford to lose.\n\nand i'd have slept more. that sounds stupid but i was running on nothing by day three and it made everything harder to think through.\n\nwhat would you change. you already know the answer, you wrote the question. what's in your head when you read it back.",
+      "response_pred": "Myself: I'd definitely reevaluate the priorities. In retrospect, we probably shouldn't have prioritized the signal so high. Water and shelter should've taken precedence, considering our current situation."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it. genuinely. not just for yourself, that kind of data could actually be useful for someone else someday, survival training, emergency planning, whatever. five days of real conditions with real people making real decisions under pressure, that's not nothing.\n\nsend me a copy when it's done.",
+      "response_pred": "\"Looks like we've got some valuable intel to share, I'm curious to see what you've got so far. How's the report shaping up? Have you started outlining the sections we need to cover?\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. that's the point.",
+      "response_pred": "His tone is casual, almost nonchalant, but with a hint of amusement. He's trying to steer the conversation back on track. Here's a possible response:\n\nYou: Well, I suppose you can say they were for inspiration. I did find them to be quite beautiful, and it's interesting to think about the symbolism behind them.\n\nHis sentence structure is a mix of short and long sentences, with a decent flow. He's trying to balance his artistic expression with the practical needs of the expedition."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i don't know. i think i'm just...processing. give me a second.\n\nit's weird, you spend the whole time focused on what needs doing next and then suddenly there's nothing that needs doing and you just stand there like, ok. now what.\n\ni'm glad we're going home. i am. i just need a minute before i start cheering about it.",
+      "response_pred": "*I take a deep breath, letting my chest rise slowly as I exhale, and my voice is softer than before*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah. let's go.",
+      "response_pred": "The calmness of her voice calms the turmoil that churns within me. I take a deep breath, letting the stillness of the evening soothe my racing thoughts. I nod, a gentle smile spreading across my face. \"I'll be right behind you. We should move, it's not safe to linger.\" My voice is low and even, a testament to the control I've worked so hard to maintain. I turn to follow her, my eyes scanning the horizon as if searching for any signs of danger. The sound of the rescue team's voices grows louder, a welcome distraction from the uncertainty that haunts me."
+    }
+  ]
+}

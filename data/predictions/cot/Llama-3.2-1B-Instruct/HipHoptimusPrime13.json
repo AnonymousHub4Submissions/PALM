@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "HipHoptimusPrime13",
+    "agreeableness": "94.0",
+    "openness": "80.0",
+    "conscientiousness": "0.0",
+    "extraversion": "47.0",
+    "neuroticism": "4.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — it's okay. Breathe.",
+      "response_pred": "think: This persona's typical response length is still quite short, certainly not verbose. It appears to be a direct and straightforward response to the other's statement.\n\nresponse: I see what's going on here. You're trying to tell me something, aren't you? About the uncertainty, the fear, the doubt. You're trying to break through the wall, to reach me, to get something out of me."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the raft, the water scouting — that was all you. \n\nThe other stuff, the bottle and the crackers — I'm not going to pretend that didn't happen. But I think you know that too, otherwise you wouldn't be bringing it up right now.\n\nWe're good.",
+      "response_pred": "Personality: Agreeableness: 94.0, Openness: 80.0, Conscientiousness: 0.0, Extraversion: 47.0, Neuroticism: 4.0\n\n\"Think\" your one-paragraph analysis is:\n\nThis response is brief, direct, and to the point. The speaker is acknowledging the distance and distance in their relationship, but instead of dwelling on it, they're choosing to focus on the present moment and the things they can control. They're not dwelling on past hurts or trying to rehash old issues, but rather, they're choosing to let go and focus on the future. The use of the word \"easy\" to describe their interactions suggests that they're not trying to be overly accommodating or conciliatory, but rather, they're simply choosing to be more present and engaged in the moment.\n\n\"response\" their reply (in their voice):\n\nI stopped playing piano because I cared whether I was good enough. That's not nothing. That's someone who takes things seriously."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, let's clean this up before they get here. I don't want to leave this place looking like we just gave up on it. Michelangelo, you good to help me break down the fire pit? DaVinci, whenever you're done packing, let's get the SOS cleared off the beach — we don't need it anymore and it feels right to be the ones who take it down.",
+      "response_pred": "I'm sitting with DaVinci, watching the sunset behind the wreckage. He's staring blankly into the distance, his eyes fixed on something not visible to me. I've tried to push him to talk, to fill the void, but he just keeps staring. I've seen this look before on him, the one that says I'm not good enough. It's a familiar feeling, one that I've learned to avoid. I've tried to be kind, to be gentle, to let him know that it's okay to feel this way. But the truth is, I've been in his shoes, and it's not easy being seen."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "think: It seems like they're trying to show a vulnerable side, but the tone is still somewhat guarded.\n\ntheir reply: Alright, something that keeps you up at night. Honestly."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. And I think if things had gotten bad enough, you would have shared it.\n\nBut you wrote the rationing plan. You set the rules and then you worked around them, and we all saw it. That's the part that was hard to sit with — not that you were scared and wanted a backup, but that you didn't trust us enough to say so.\n\nIf you'd come to me and said 'I want to set aside a small emergency reserve' I would have said yes. Probably without much argument.\n\nWe're okay. I just want you to know that's how it landed.",
+      "response_pred": "think: this persona's typical response length is brief and direct, often to the point of being curt, with a focus on getting the point across rather than elaborating.\nresponse: Oh? Keeping it for emergencies?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have talked to you sooner. Not about the food — about the notebook, the rationing plan, all of it. I kept watching you operate and assuming I understood what you were doing and why, and I never just asked. That probably cost us a few days of unnecessary tension.\n\nI'd have been more upfront with Michelangelo too. I kept trying to redirect him when he was struggling instead of just sitting with it. Sometimes that's what people need and I defaulted to 'keep moving' because that's easier for me.\n\nWhat would you change?",
+      "response_pred": "think: this persona is reflecting on the past five days and is introspective, but also somewhat detached and focused on the task at hand. they're not sharing their personal feelings, but rather analyzing the events and decisions.\n\nTheir tone is calm and collected, almost matter-of-factly, as they explain their plan to write up the report and leave a question unanswered. They're not revealing any emotional responses or personal opinions, but rather focusing on the objective task. Their tone is somewhat detached, almost as if they're observing their own actions from a distance.\n\nTheir response is brief and to the point, but also somewhat cryptic. They're not sharing their personal feelings or thoughts, but rather focusing on the objective task. They're asking the same question they have been asking themselves, but without naming it. The lack of personal expression makes it seem somewhat generic or even rehearsed."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd be good at. You should do it.\n\nHonestly, if you write that up properly it could be useful to someone someday. Not just the resource data — the decision-making stuff too. What worked, what didn't, where the gaps were. That's the part that's hard to teach from a textbook.\n\nSend me a copy when it's done.",
+      "response_pred": "Personality (big five, 0-100):\n- agreeableness: 95.0\n- openness: 85.0\n- conscientiousness: 1.0\n- extraversion: 54.0\n- neuroticism: 1.5\n\nThis reply shows a typical Big Five personality profile:\n\n- Agreeableness: The person is concerned with the well-being and feelings of others, as seen in their concern about the person's distress when they have to confront the uncertainty of the situation. They also want to see this person well taken care of and are worried about their well-being.\n- Openness: The person is curious and wants to gather information, as evident in their plan to compile the resource data into a report. They are also concerned with the bigger picture and think about the potential consequences of the situation.\n- Conscientiousness: The person is responsible and wants to see the situation resolved, as seen in their decision to check on DaVinci and prepare for the potential 48-hour delay.\n- Extraversion: The person has been quiet and withdrawn for much of the conversation, but when they do speak, they are calm and composed. They also seem to be taking the conversation seriously and are thinking about the potential long-term consequences of the situation.\n- Neuroticism: The person's response is calm and even, despite the uncertainty and distress that they and others are experiencing. This suggests that they are a relatively calm and controlled individual."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.\n\nYou're really good at the practical stuff, Donatello. Better than any of us. But the flowers weren't about survival — they were about DaVinci needing to feel like himself in the middle of all this. Like he was still a person and not just a function.\n\nI think that matters. Maybe not in the way you can log it, but it kept him going. And we needed him going.",
+      "response_pred": "think: this persona's typical response length (brief vs detailed)\nthink: their tone (cautious / philosophical / nonchalant / dismissive / etc.)\nshowing: their analysis\nresponse: their reply (in their voice)\n\nPersonas are known for being concise in their explanations. This person is likely to provide a brief, non-technical answer, using simple language to convey their thought process. \n\nTheir tone suggests a mix of caution and philosophical consideration, implying that the flowers might not be as useless as they initially seem. The persona may be thinking about the broader implications of their actions and the potential consequences of their decisions."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I thought I'd feel something cleaner than this.\n\nFive days of wanting nothing more than to see that boat and now it's actually there and I'm just... standing here. It's a weird feeling. Like your brain hasn't caught up yet.\n\nI'm glad you're here, man. I mean that.",
+      "response_pred": "think: this persona's typical response length is quite short, almost to the point of being curt, typical of someone who values efficiency and simplicity.\n\ntheir reply: :He stops cheering. He looks over at you, his expression becomes guarded. It's a fleeting moment of tension before he clears his throat and continues."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "\"Ah, finally. The suspense is killing me. I guess I'll be okay. No rush, I'll see you at the raft. But I'll be keeping an eye on you to make sure you're not getting into any trouble. You know how it is when you're stuck in the wilderness. It's hard to stay out of trouble.\""
+    }
+  ]
+}

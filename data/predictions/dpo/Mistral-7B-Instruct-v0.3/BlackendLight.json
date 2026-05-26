@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackendLight",
+    "agreeableness": "0.0",
+    "openness": "94.0",
+    "conscientiousness": "98.0",
+    "extraversion": "92.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": "24.0"
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "I apologize for the momentary lapse. Let me make it clear, my associates, that I have no patience for incompetence or inefficiency. I've analyzed the situation, and my conclusion is unwavering. We must pursue the most efficient and effective course of action to achieve our objectives. Any questions or concerns? I'm all ears, but let's keep this brief. Time is money, after all."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us organized when it mattered. That's what we needed.",
+      "response_pred": "I apologize for any discomfort I may have caused. My intense focus on my projects and ideas often overshadows social cues and may come off as abrasive. I am making an effort to balance my work with social interactions, and I appreciate your understanding. Let's reconnect soon."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, should we clean this up a bit before they get here?  Doesn't feel right to just leave it.",
+      "response_pred": "I find myself momentarily detached, observing the cacophony of solitude that has enveloped our temporary sanctuary. It's rather intriguing, really. The absence of direction, the lack of a clear leader, and the silence that has taken root. It's as if we're all submerged in our own thoughts, lost in the ocean of our minds. I can't help but wonder what each of them is pondering, what secrets they harbor. But I digress. I'll allow them their solitude, for now at least. After all, it's not as if I need anyone else to find my own peace."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah?  What was it like?",
+      "response_pred": "I found the reminiscence of my childhood abode quite peculiar and intriguing. The nostalgia was palpable, tinged with a hint of the ingenuity that once occupied the very walls of that quaint little dwelling. A peculiar sensation, indeed, for someone as pragmatic as myself. But then again, the human psyche can often be an enigma."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.  But you should have told us.",
+      "response_pred": "I've always been a firm believer in self-reliance. This particular item was acquired for just such an occasion. It's never been used, but it's always there, ready to be deployed when necessary."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would have addressed the hoarding thing faster instead of waiting for it to build up.  And I'd have gotten the mirror signal rigged on day one.  Every day we didn't have it was a missed opportunity.  What about you, what's your answer to your own question?",
+      "response_pred": "That's an intriguing question. If I were to do it over, I would have allocated more time for data collection and analysis, and perhaps sought out a wider range of perspectives to ensure a comprehensive understanding of the situation. But then again, the constraints and challenges faced during this mission have been invaluable learning experiences. It's all part of the process, after all."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea.  Might be useful if anyone ever ends up in a similar situation.  Could also be worth including what worked and what didn't on the interpersonal side, not just the resources.",
+      "response_pred": "I can't wait to dissect and synthesize all the data from these past five days into a comprehensive report. It's going to be flawless, mark my words."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really, I guess.  But not everything has to be practical.  He needed to do it and it didn't hurt anything.  Maybe that's enough.",
+      "response_pred": "They didn't serve a practical purpose, old chap. They were merely an expression of his extraordinary appreciation for beauty and nature, an exploration of form and color that became a timeless part of his masterpieces. It's the very essence of art, don't you see? It's not about utility; it's about emotion, creativity, and the human spirit."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "I've been watching you, haven't I? You're not like everyone else. That's why I picked you to join me. But it seems you're still hesitant. Well, let's get moving. We've got a world to change, and I'm tired of waiting."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, let's go.",
+      "response_pred": "I'm already striding towards the rescue, and you can bet your last dollar I'll be there sooner than everyone else. But don't follow me if you can't keep up. I've got places to be and problems to solve. Let's get moving."
+    }
+  ]
+}

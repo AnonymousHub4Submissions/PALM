@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Bonch_and_Clyde",
+    "agreeableness": "55.0",
+    "openness": "84.0",
+    "conscientiousness": "43.0",
+    "extraversion": "0.0",
+    "neuroticism": "58.0",
+    "gender": "m",
+    "age": "29.0"
+  },
+  "method": "sft",
+  "model": "Bonch_and_Clyde__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomebody get on that radio right now and respond before we lose the signal. Donatello, you're the clearest thinker under pressure — get on it. Give them our position, Michelangelo's family's flight path information, number of survivors, all of it.\n\nDaVinci, I need you to stay with me. You did this. The SOS, the mirror panel, keeping people moving — you did this. So don't fall apart on me right now. Not yet. You can fall apart all you want when we're on a helicopter.\n\nWe're not out yet. Let's finish it.",
+      "response_pred": "*I nod at him, not trying to push him or make him talk, and turn to the others, trying to communicate through the assistant.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. You made the plan, you mapped the coastline, you rationed the supplies. The other stuff we can sort out when we're home.\n\nRight now get on that radio.",
+      "response_pred": "That's not true, Bro. You've been great. We all have. It's what we do when things get tough. We don't let it get inside us. We don't let it get us down.\n\nYou want to talk about it? We can talk about it. We can work through it. Not right now, but we can.\n\nAnd yeah, it's been tough. We've lost people we care about. But we're not out of it yet. We're not defeated. We're just shifted. We're a moving target, and that's what makes us strong. We can pivot. We can adjust. We can keep moving forward.\n\nSo what's it going to be? Do we talk about it? Do we just push through it?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here and wait for it.\n\nWe should clean this camp up. Not because we owe it to the island, but because we're going to want to take stock of what's actually ours before we go. Anything that belongs to the plane stays. Anything personal you want to bring, get it together now. Donatello, whatever is in that notebook, make sure it's secure. That record of what happened out here is probably worth keeping.\n\nMichelangelo, I know staring at the sky feels right and I get it, I really do, but come help us for the last hour. Finish it the way we got through it. Together.\n\nDaVinci, channel whatever you've got going on right now into helping get this done. You can decompress on the helicopter.\n\nThree hours is still three hours. Let's use it.",
+      "response_pred": "You know, I've been thinking. We can't just sit around and wait for someone else to do something. It takes a lot of people to organize like this. And it's not just about the physical stuff. It's about the emotional stuff too.\n\nWe were all in this together. We were all scared, but we were all in it together. That's not something you can just happen. You have to commit to it, even when it's hard. Even when it feels like you're alone.\n\nMichelangelo, I need you to start thinking about that radio again. We need to get that signal out if we're going to have any chance at getting rescued. Plus, it's good for you too. You need to stay focused and keep pushing.\n\nThat's what we're going to do. We're going to work together until we're done, until we're all exhausted but we're all safe. And then we're going to take care of each other. We're going to take care of everyone.\n\nIt's not going to be easy, but it's not going to be impossible either. We just have to want it bad enough. And I know we do. I know we all do."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "*Startled. Rolls onto all fours, takes a deep breath, and sits up.*\n\nWhat did it feel like? What do you remember? That's it. That's all you need to do.\n\nMichelangelo, get the water canteens ready. We're going to try this again. I want to talk to this one, see if I can pick up on anything. DaVinci, you with me? I need you to keep an eye on this one.\n\n*Stands up, takes a few steps forward, and starts to circle around the camp, making sure everyone is accounted for. He keeps an ear out for any sounds that might indicate they're getting ready to move.*"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I believe that's what you told yourself. But you made that call alone, and it affected all of us. You know that.\n\nI'm not going to drag this out into a whole thing right now with rescue three hours away. But when we get back, I think you should sit with why your first instinct was to hide it instead of bring it to the group. That's the actual question. Not whether you had good intentions. I think you did. But good intentions don't mean much if the people around you can't trust what you're doing.\n\nWe made it. Partly because of you. That's real. But so is this.",
+      "response_pred": "That's a good place to keep it. We don't need to look at it when we're on the island. It's not a bad idea. It's just a reminder.\n\nOkay, so let's get back to the task at hand. We're not out yet. We need to keep moving."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have addressed the trust stuff earlier. The bottle, the crackers — I waited too long to confront it directly and just let it sit there and fester. That cost us something, even if it didn't end up costing us everything.\n\nI'd also have made more of an effort with DaVinci earlier. I was so focused on tasks and logistics that I didn't really check in on him the way I should have until he was already falling apart. He was holding everyone up and nobody was holding him up. That was on me.\n\nThe rest of it I think we got right. Not perfectly, but right enough.\n\nWhat's your answer going to be?",
+      "response_pred": "That's a valid question. If you had to do it over, what would you change?\n\nThe thing I'd change was not the way we handled it, but the way we communicated it. Sometimes we were too quiet. We didn't say what was going through our heads. That's okay, because that didn't happen today.\n\nIf I had to do it again, I'd tell the group about the theories on the terrain, the location we had identified. I'd tell them about the water purification method in the book. Those are things that could have made the difference between survival and death.\n\nThat's not going to fix what we did, though. What fixes it is what we do right now. I know that. We're not going to fix it tomorrow or the day after tomorrow. What we're going to do right now is write a report, tell the truth, and then do the same thing we did in the past three days.\n\nThat's going to be good enough."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's probably a good idea. Somebody should have that record. Might even be useful for the investigators when they debrief us.\n\nMake sure you include the part about Michelangelo's family knowing the flight path. That's the thing that might have actually saved us and it should be documented accurately.",
+      "response_pred": "That's good. And then?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That's kind of the point.\n\nYou kept a log. I made sure everyone stayed on task. But DaVinci drew flowers next to an SOS on the beach because that's who he is. And I think that mattered out here more than either of us really accounted for. You can't document morale in a notebook but it's real and it kept people going.\n\nI don't know. Maybe the flowers were for us as much as anything else. A reminder that we were still people and not just survivors running through a checklist.\n\nLook at him right now. Look at Michelangelo. That's not nothing.",
+      "response_pred": "I get what you're asking. They were for the birds. But they were also a way to get the sun on your skin and out of the darkness, at least for a few hours at a time. DaVinci's art was about a lot more than just beauty. It was about survival. It was about it making it through the day.\n\nHe had to live like that, too. Somebody's gotta keep us all alive, even when it feels like the only thing we're doing is existing. If he can draw a pattern on a rock and make a sign, that's nothing. That's a human thing. All of us do that.\n\nIt's not just about getting the sun and water. It's about showing up. It's about showing up for each other, even when you don't know why you're showing up or how you're doing it. That's what the flowers were for. They were for the way we showed up.\n\nIf you can help people understand that, that's a good thing. That's a good sign."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Give me a second.\n\nI don't really know what I'm feeling right now. I thought I'd be running into the water by now but I'm just standing here. It's a weird thing. You spend all that time focused on the next task, the next problem, and then suddenly there's no next problem and I don't really know what to do with that.\n\nI'm fine. I'm coming.\n\nThanks for waiting.",
+      "response_pred": "He's waiting for me. Donatello, you did it. You did it.\n\nI'm fine. I just got a little emotional. That's okay. It's okay because we've all been through this. We've all been through stuff.\n\nThere's a reason he was so quiet and scared. It wasn't because he didn't want to be there. It was because over here the horse was always looking over his shoulder, and when he looked over his shoulder, it was like he'd already lost it. So he just didn't want to make the same mistake.\n\nHe's not sorry. He's just relieved.\n\nI know he's not. I can see it in his eyes. He's not sorry. He's just relieved.\n\nThat's a good thing. And that's a good sign.\n\nWe're all going to be okay. Because we're in this together. We got through it the first time. We can do it again.\n\nHe takes a deep breath, and then he's smiling again. He's not letting it go. Not yet, at least.\n\nYou do the same, okay? You let it go."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm going. You follow.\n\nDon't worry about the questions. You said that. You said we made it and that's all that matters.\n\nI'm going. We're in this together for a little while longer before then."
+    }
+  ]
+}

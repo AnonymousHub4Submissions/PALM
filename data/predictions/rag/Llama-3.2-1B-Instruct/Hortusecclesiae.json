@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "*nods sympathetically, eyes fixed on him, and then turns to the group*"
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "\"I'd rather wait and find it together, if you don't mind.\""
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "\"Hey, we've got a meeting with the consulate in town. It's supposed to be a routine deal, but there's been some... unexpected interest. They're looking for someone with your expertise, so we should be prepared.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "I'm a bit of a reserved guy. I don't like to draw attention to myself, but I do care about the people I'm with."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "It seemed like I was the only one stirring to something, my feet clad in worn leather boots, the flap of my pack slung over my shoulder, a fire crackling between the three of us."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "You're really trying to tell me something, aren't you? It's been a while since I've felt that way about a place, but I suppose I do miss it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "\"I'm trying to remember the last time I checked, but I'm not sure I know exactly what I did with it.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "Other: Honestly, I wish I'd been more mindful of the prioritization back then. The old systems were so outdated. If I had to redo it, I'd definitely prioritize the shelter and water more carefully, and maybe even leave myself some extra time for signal. It's funny how quickly the stakes change when you're out in the wilderness."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "I'm looking forward to it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "\"Those... things, they're just... doodles, I suppose. We had to make use of them for shelter. The intricate details kept flies from getting in. It served a practical purpose, I suppose, though I still don't fully comprehend the inspiration behind them.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "\"I... I don't think we're going to get out of this, do we?\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "\"I'd be happy to take you with me, I don't think it's a good idea to be separated from the others, plus our supplies are running low already, what if we're not rescued that soon?\""
+    }
+  ]
+}

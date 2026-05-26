@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "HalfwayHoagie",
+    "agreeableness": "17.0",
+    "openness": "20.0",
+    "conscientiousness": "1.0",
+    "extraversion": "63.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — that's real. That's actually real.\n\nSomebody grab the radio, respond to it, tell them our position. Donatello — you know the coordinates better than anyone, get on it right now.\n\nDaVinci, breathe. It's okay. You can let it out, just breathe first.",
+      "response_pred": "think: their typical response length is very short and blunt, almost to the point of being abrupt. Their tone is also quite sharp, with a hint of impatience. This person seems to be struggling to express themselves, and it's as if they're not sure how to start or where to begin.\n\nresponse: \"I'm sorry? What do you mean I'm scaring you? I just told you I'm okay, I'm fine. Why do you think that?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You weren't easy, no. But you kept us alive. The water rationing, the raft plan, tracking what we had — that was you. I don't think we're standing here right now without that.\n\nThe notebook thing, the crackers — that stuff mattered and I'm not going to pretend it didn't. But you also put it down when it counted. That matters too.\n\nWe're good.",
+      "response_pred": "Personality: Agreeableness: 17.0 - they're not excessively emotional, but they're empathetic and trying to help.\n\nTone: Philosophical - they're reflecting on their actions and emotions, and trying to make sense of what's happening.\n\nAnalysis:\n1. This persona's typical response length (short vs. verbose?) is likely to be short, as they're trying to be concise and empathetic in their response.\n2. Their tone is likely to be empathetic and reflective, as they're trying to understand the other person's emotions and experiences.\n3. They would likely try to offer words of encouragement and support, attempting to diffuse any tension or anxiety the other person might be feeling.\n\nTheir reply is a attempt to establish a connection with the other person, acknowledge their emotions, and try to offer some comfort and support."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Nobody's in a rush, that's fine.\n\nI'm going to start breaking down what we can. Not because anyone asked me to, just because leaving this place exactly as it is feels wrong. We built something here, even if it was ugly and stressful and nobody wants to remember most of it. Least we can do is leave it cleaner than the crash did.\n\nAnyone who wants to help, help. Anyone who needs to just lie there and watch the sky for a while — that's fine too, we've got time.",
+      "response_pred": "\"Hey, I'm sorry if I overstepped. I just get so caught up in the day-to-day stuff and I forget that we're all in this together, you know? I didn't mean to imply that you're not trying or that you're not a team player. I just... I just wish we could have a better plan, you know? Something that's not just a bunch of basic survival stuff. We can do better than that.\"\n\n\"Look, I'm not saying it's impossible. I'm saying we need to think about the bigger picture. What if we're not just fighting for survival, but for something more? What if we could be saving people, or something? I know it sounds crazy, but... I don't know, it's just something I've been thinking about.\"\n\n\"Like what? We're already good at finding food and water. We should be focusing on the other stuff. Like... like building something. Something that won't just get destroyed by the elements. Something that will last. We can do this, guys. We just need to think about this. Let's work together and come up with a plan.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or just... home?",
+      "response_pred": "Think: this persona tends to be quite blunt and direct, so a more casual, conversational tone might be expected. They're also likely to be a bit more introspective and emotional.\n\nTheir reply:"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nLook, I'm not going to relitigate it right now. We're three hours from rescue. But I want you to understand something — if it had gone the other way, if we'd needed that and you were the only one who knew where it was, that would have been a real problem. Not just a trust problem. A survival problem.\n\nI believe you that it was for emergencies. I just think you drew the line between \"emergency\" and \"not yet\" in a place that was only visible to you, and that's the part that's hard to sit with.\n\nEat some of it. Share the rest. We're almost out of here.",
+      "response_pred": "think: Their typical response length is often concise and to the point, with a focus on getting to the point without unnecessary elaboration.\nthink: Their tone is generally calm and matter-of-fact, with a hint of concern and empathy.\nthink: They have a tendency to be blunt and straightforward, often to the point of being dismissive or off-putting to those who prefer more elaborate or considerate communication.\nthink: They seem to prioritize efficiency and practicality over emotional expression or elaborate explanations.\nthink: The use of a simple sentence structure and short, direct language is typical of this persona's style.\nthink: They might be perceived as being detached or aloof, with a lack of emotional investment in the conversation itself.\nthink: The response is direct and to the point, without much elaboration or justification.\nthink: The speaker's tone is matter-of-fact, with a hint of slightly-distracted or preoccupied expression.\nthink: The language is straightforward and lacks embellishments, with a focus on conveying the basic facts of the situation.\nthink: The use of the phrase \"I kept it for emergencies\" is a clear indicator of their typical response style.\nthink: The response is concise and to the point, without much room for elaboration or discussion.\nthink: The speaker is focused on conveying the essential information and moving on to the next topic.\nthink: The tone is calm, but slightly guarded, suggesting that they are prioritizing their own emotional well-being over the needs of the group.\nthink: The language is clear and unambiguous, with no room for misinterpretation.\nthink: The response is direct and to the point, without much emotional investment or emphasis.\nthink: The speaker's typical response style is characterized by brevity, directness, and a focus on conveying basic facts.\nthink: The tone is neutral, with a hint of slightly-distracted expression.\nthink: The language is straightforward and lacks embellishments, with a focus on conveying the basic facts of the situation.\nthink: The use of the phrase \"I kept it for emergencies\" is a clear indicator of their typical response style.\nthink: The response is concise and to the point, without much room for elaboration or discussion.\nthink: The speaker is focused on conveying the essential information and moving on to the next topic."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have been more upfront about what I didn't know. I made calls like I was confident when half the time I was just guessing and hoping the guess was right. That works until it doesn't.\n\nI think I would've pushed harder to make the group actually function as a group earlier — like the first day, before everyone settled into their roles and it got harder to change them. You went into analyst mode, DaVinci went into morale mode, Michelangelo went into his head, and I just kind of managed between all of it. That's fine but it's reactive. I'd rather have had one real conversation on day one about how we were going to make decisions together than spend the rest of the time working around the fact that we never had it.\n\nWhat would you change? You left yourself the question — you must have an answer forming.",
+      "response_pred": "think: A lot of this is basically just survival stuff. We're not expecting anyone to come to us, we're just trying to make it through until rescue or whatever. People will be fine, we'll all be fine.\n\nresponse: I'd probably change the way we're rationing water because let's be real, it's not like we're going to get much from the current supplies. I'd also add some extra padding to the rationing plan, like maybe we could stock up on some non-perishable food or something. And I'd make sure to include Donatello in the decision-making process, she's the one who's been noticing the weird stuff happening with the water, right?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you actually need to do, so do it. I'd read it, genuinely. Not because I want to relive the week, but because I think there's stuff in there that's worth understanding.\n\nJust — maybe write a second document alongside it. Not the resource data, not the decisions. The other stuff. The part where you almost didn't put the notebook down. Because that's the part that actually tells you something useful about how people work under pressure, and I think you know that already or you wouldn't have left yourself that question on the last page.\n\nThe data is good. But the data isn't the whole story.",
+      "response_pred": "Personality: Agreeableness: 17.0 - This person tends to be very empathetic and understanding, trying to avoid conflict whenever possible. They are also very collaborative and willing to work together with others.\n\nTone: Warm and collaborative - This person is likely to be a natural people person, and they are eager to help and support their fellow group members.\n\nResponse: \"Okay, that sounds like a good plan. Let me know what you need from me. I'll do my best to help.\"\n\nThis response shows a willingness to listen and assist, while also being clear and direct about their own needs and limitations. They are not trying to dominate the conversation or avoid conflict, but rather they are trying to find a solution that works for everyone."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut that's kind of the point. DaVinci drew them because he needed to put something human into the middle of a survival situation. Something that said we're not just trying to stay alive, we're still people while we're doing it.\n\nI think that's what you're feeling right now, sitting down when everyone else is reacting. You did everything right. You kept the data, you ran the numbers, you held the line on resources. And now it's over and your legs don't work because the practical part is done and you don't quite know what to do with the rest of it.\n\nThe flowers were for that. The part that doesn't have a practical purpose.",
+      "response_pred": "think: These flowers DaVinci drew on the beach were a map - a crude but effective one, considering the limited tools and training he had.\nresponse: I never really understood what they were for. What practical purpose did they serve out here?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.\n\nI don't know what this feeling is. It's not bad. It's just — we were in it, and now we're not, and I don't know how to switch that off as fast as the situation changed.\n\nGo ahead and wave them in. I'll be right there.",
+      "response_pred": "Think: The persona's typical response length is brief and to the point. Their sentence structure is simple and direct, with a focus on conveying their message in a clear and concise manner.\n\nTheir reply: Come here, sit down. That's not what happened. A plane at that distance, at that speed — they didn't see us and decide not to stop. They just didn't see us. That's a completely different thing. One of those is about us, one of those is just geometry and bad timing."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "I'm not sure if I should be relieved or frustrated. Relief that we're going to be rescued? I'm not exactly feeling like a shipwreck victim at this point. I'm more concerned about the fact that I'll have to spend the next 48 hours with these people, trying to piece together what happened and what we can do to get back on our feet."
+    }
+  ]
+}

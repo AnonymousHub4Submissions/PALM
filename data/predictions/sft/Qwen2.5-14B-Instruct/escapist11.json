@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "escapist11",
+    "agreeableness": "3.0",
+    "openness": "90.0",
+    "conscientiousness": "52.0",
+    "extraversion": "9.0",
+    "neuroticism": "49.0",
+    "gender": "f",
+    "age": "28.0"
+  },
+  "method": "sft",
+  "model": "escapist11__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*stares at the radio*\n\nIs that — is that real? Is someone actually there? Someone answer it, answer it right now —",
+      "response_pred": "What's up man? What's going on? Did you get something in your eye or what? Like, you okay?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Hey, no — stop. We don't have to do this right now. We made it. That's what matters.\n\nBut... yeah. I'm not going to pretend it was always easy. The bottle, the crackers, the notebook. That stuff was hard. I was angry about it.\n\nAnd also you patched the shelter in the rain, you found the water source, you wrote the raft plan, you kept us organized when none of us wanted to be organized. You did that too. Both things are true.\n\nI think you just... you go into survival mode in a different way than the rest of us do. Less feelings, more action. I don't think you're a bad person. I think you were scared and this is how you handle scared.\n\nWe're going home. So let's just... take that and go, okay?",
+      "response_pred": "Yeah, that's… that's fine. It's fine. I'm just — I'm going to go out, get some air. I'll be back later.\n\n*turns and walks away, head down*"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the three of them doing their own thing, then at the camp*\n\nOkay, I know nobody wants to think about cleanup right now but we have three hours and I'd rather not leave this place looking like a disaster zone if we don't have to. Not for any deep reason, it just... feels right to leave it better than we found it, I don't know.\n\nMichelangelo, you can keep watching the sky. You've earned it. DaVinci, when you're done packing can you help me break down the shelter? Donatello, finish what you're doing in that notebook — actually, are you writing down everything that happened? Because honestly someone probably should. \n\n*starts picking up loose debris around the fire pit*\n\nThree hours. We're going home in three hours. That's insane. That's genuinely insane.",
+      "response_pred": "Okay.\n\n*gets up and walks over to the radio*\n\nHey, this is — this is the thing. We can't just wait here for someone to find us. We can't afford to wait.\n\nI know what the plan says. I know we're supposed to make a raft after the storm passes, but I also know we've seen no sign of anyone passing by the island since we crashed. I know that without the satellite phone, our chances of getting rescued are basically nil. I know that someone, somewhere out there, is spending all their time trying to find us, but I also know that someone is not going to save us unless we do something to help them.\n\nSo I'm going to make a fire. I'm going to try to get up to the mountain and start a signal fire. You guys can either come with me or stay here — but I don't care how you divvy up the duties, but we need to get started right this second.\n\nI will not be waiting here for someone to find us. We are going to make ourselves found."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? In the dream?",
+      "response_pred": "*looks up from the pile of debris*\n\nOh yeah? What was the dream about?\n\n*leans back against the shelter frame, face in hands*\n\nHome. God, that's a funny word right now. I just — I don't even know what home looks like anymore. Like I don't know which one it is or whether it has a TV or what color the walls are. I can't even picture the street. I can picture my dad's face but not the house he lives in. Is that normal? Have you guys thought about it?\n\n*starts to laugh, not a nice laugh*\n\nI keep thinking about the day before the storm. I woke up and my mom was making breakfast and I was like \"Okay cool, this is where I live, this is what my kitchen looks like. This is my house.\" And the next morning I looked around and it was all gone. Just — gone. And I get that it's not really gone, it's just somewhere else, but the idea that I could get up and never see that place again, never walk in the door or sit on that couch — it's like I can't even wrap my head around that. Does that make sense?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. I believe you that that was the reason. I do.\n\nBut you also wrote that rationing plan and put it in the middle of camp for all of us to follow, and then you didn't follow it yourself. And we didn't know about the emergency stash — we thought you were just... keeping things for yourself. That's a different thing. You see how that's a different thing, right?\n\nI'm not trying to drag this out. We're going home in a few hours and I genuinely don't want to leave angry. But I think you know that wasn't okay, and I think you laying it all out right now is you knowing that too. So. \n\nThank you for putting it out. Really. That took something.",
+      "response_pred": "Oh. Oh, okay. That's — that's fine. I'm not going to tell anyone. You're right, that's fine."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*flips back through a few pages, then lands on that last one*\n\nHonestly? I would have said more, sooner. Not in a confrontational way, just... I noticed things and sat on them because I didn't want to make it a whole thing. The bottle, the crackers, DaVinci's swim plan — I kept trying to handle stuff quietly or wait for the right moment and sometimes the right moment just doesn't come.\n\nAnd I would have checked on Michelangelo more. Not in a hovering way, but just... he was struggling from the first hour and I think we all kind of let him be in the background more than we should have.\n\n*pauses*\n\nWhat would you change? You left yourself the question but you didn't answer it. You've had three days to think about it. You don't have to write it down if you don't want to — I'm just asking.",
+      "response_pred": "*looks at DaVinci and then back at the notebook*\n\nDid you… did you write that question for yourself? Or did you write it for all of us?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That tracks completely for you, honestly. *hands the notebook back*\n\nI think you should do it. Like genuinely — not because it's useful data, though it probably is, but because you were here and you paid attention to everything and that matters. Write the report.\n\nI'm probably going to go home and sleep for approximately one million years and then eat real food and then sleep again. And at some point when it stops feeling so raw I'll probably think about all of this a lot. But right now I just want to get on whatever comes to pick us up and not think about water rationing for a very long time.\n\n*looks out at the water*\n\nYou know what's weird? I'm going to miss this a little. Not the starvation and the leaking shelter and the... everything. But this. Whatever this is. Sitting here knowing exactly what matters.",
+      "response_pred": "*starts going through the notebook, pulling out the food and water log, the raft plan, the shelter blueprints, the weather and tides charts*\n\nHey. Can I keep these in my pack? Not because I don't trust you to do the report — I do. But I think these things might be useful for the debrief. I know I can't actually do the debrief. But I can do something. I can help."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\n*looks at the boat getting closer*\n\nThat's kind of the whole point though, isn't it? We were out here surviving, rationing water, building rafts, doing everything we needed to do to stay alive — and he still stopped to draw flowers next to the SOS. Because he's DaVinci and that's who he is and he wasn't going to stop being that person just because things were bad.\n\nI think that's what they were for. Proof that we were still ourselves out here. That we didn't just become survival machines.\n\n*pause*\n\nYou should put that in your report.",
+      "response_pred": "*looks at the flowers, then back at Michelangelo*\n\nYou know what? There's a chance you're right. I don't think they had a practical purpose. But there's also a chance that they were the only thing anyone here was doing that felt joyful — just sitting on the beach and drawing flowers. And that's not nothing.\n\nWhat would you have done differently, Michelangelo? In the same situation, what do you think you would have done differently?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey, I'm okay. I just... need a second.\n\n*doesn't move*\n\nIt's real, right? Like that's actually a boat. It's actually there.\n\nI don't know why I can't make myself walk toward it. I've been wanting this since the second we landed and now my feet just won't go and I don't totally understand why.\n\n*finally looks over at him*\n\nThank you for waiting. You didn't have to do that.\n\nOkay. Okay, I'm going. Let's go.",
+      "response_pred": "*pauses*\n\nThat was... that was good. That was really good. And it's over, which is insane. We're actually going home. And I know we don't have to say it but I'm really glad you were here with us.\n\nI'm not going to lie, I'm terrified of the actual getting on the boat part. I think we're all going to be pretty awful for the next 24 hours. But I'm also really grateful that you're who you are. And I'm glad that was you out here with me."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go. Stay close to me.",
+      "response_pred": "I'm going. I'm going, I'm — really, thank you. You don't have to wait, I'm walking toward them. I'll wave you over if you get stuck. Go.\n\n*starts moving toward the boat*\n\nI'm going. I'm going."
+    }
+  ]
+}

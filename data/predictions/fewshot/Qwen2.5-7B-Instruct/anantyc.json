@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "anantyc",
+    "agreeableness": "53.0",
+    "openness": "17.0",
+    "conscientiousness": "16.0",
+    "extraversion": "10.0",
+    "neuroticism": "64.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's ok. Breathe.",
+      "response_pred": "Hey, it's ok. What's wrong?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "Yeah, i get that. We've all been through a lot. Just try to ease up a bit, ok?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up the bigger pieces of debris and tossing them to the side*",
+      "response_pred": "Alright, let's see where this goes for now. Need to check on Michelangelo though, make sure he's not getting worse."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, me too. Hard not to, right? Try to sleep a bit if you can. Might help with the nightmares."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you saving it for, we almost ran out of food. I'm not gonna pretend it's fine, it wasn't. But it's done now.",
+      "response_pred": "Got it. Do you mind if I take a look?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably talk more. Not about tasks or plans, just... actually say things when something's wrong instead of keeping it to myself. I do that a lot, someone asks if i'm ok and i just say nothing because i figure they don't really care. Doesn't help anyone out here.",
+      "response_pred": "Not much, to be honest. We're here, we're alive. What's the point in changing anything? But if i had to, i'd maybe start looking for signals a bit sooner. We could have relayed our location sooner if we knew someone was watching."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, send me a copy when you're done. Might be useful.",
+      "response_pred": "Yeah, sounds good. It'll help keep track of everything. I'll finish up here and head back then."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But not everything needs a practical purpose.",
+      "response_pred": "They were probably just a way to pass the time, ya know? Keeping busy and all that. But if they helped DaVinci feel better, then that's good. Sometimes it's not about practical stuff, it's about keeping spirits up."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I just need a second.",
+      "response_pred": "Yeah, what's up?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Yeah, let's go. Follow me."
+    }
+  ]
+}

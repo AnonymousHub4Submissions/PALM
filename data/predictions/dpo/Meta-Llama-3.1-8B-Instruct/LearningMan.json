@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "*Notices the individual, swiftly jumps up from my seat, and approaches them in a calm, gentle manner* Oh no, are you okay? You look like you've had a rough night. Do you need some water or maybe just a minute to collect yourself? *Extends a hand for support, taking a step closer, but not too intrusive*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "Come on, don't say that. You're being a bit too hard on yourself, if you ask me. I've noticed you've been a bit preoccupied, but that's understandable. Life can get hectic sometimes. What's really going on? You can tell me, I'm all ears."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "You know, I think we should try to get the fire going again. It's getting a bit chilly, and we could use some hot food. I'll see if I can find some dry wood and get the flames lit. In the meantime, does anyone have any ideas on what we should have for dinner? We can't just sit here all night without eating."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I know exactly what you mean, the feeling of nostalgia that comes with remembering home is just incredible. I've been thinking about it a lot lately too, actually. I've been meaning to send my mom that picture of the old house we used to live in, but I keep putting it off. I'll get around to it eventually. Did you think about your family or just the place itself?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "That's a good habit, always having a backup plan in place. I'm a bit of a planner myself, I like to be prepared for any situation that might arise. Do you have a specific emergency in mind that you're stocking up for, or is it more of a general precaution?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "I've been thinking about that over the long flight, and I have to say, I'm pretty pleased with how things went down. There were a few close calls, but we managed to adapt and overcome. If I had to nitpick, I'd say maybe we could have optimized our transportation schedule a bit better. Those delays on the second day threw us off, but we made up for it in the end."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "That's exactly what I was counting on. I've been keeping track of everything, of course, but it's always good to have a backup. Just make sure to include the adjustments we made to the cost estimates yesterday. And don't forget to format the report according to our new company guidelines. We'll need to send it to the board by the end of the week."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "You're referring to the famous drawing of flowers in the sand from Leonardo's sketchbook. As it turns out, it's not just a random illustration. The drawing, known as the 'Lady with an Ermine,' does involve a sketch of a lady holding an ermine, however, Leonardo also drew flowers in the sand next to it. \n\nLeonardo often used these sketches to practice drawing and shading. He would draw subjects in various environments, including flowers in the sand, to master his technique."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "I'm a little surprised you're not joining in on the fun. We're having a great time here, and I'd love to share it with you. What's going on? You okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Finally! I was starting to think we were going to be stuck here forever. Alright, let's move, I'll lead the way. Stay close, we don't know what kind of conditions are on the other side. I'll check the gear real quick to make sure everything's accounted for. Wait, you're not okay, are you? That was a pretty rough landing. Do you need a minute?"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "eye_licker24",
+    "agreeableness": "1.0",
+    "openness": "30.0",
+    "conscientiousness": "30.0",
+    "extraversion": "86.0",
+    "neuroticism": "54.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\nSomeone go answer it before I do something embarrassing.",
+      "response_pred": "Alright, let's get a move on. There's work to be done. I know your throat's a bit dry right now, but we can't afford to waste time. Let's focus on what we can control, shall we?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You got the job done. That's what mattered out here.",
+      "response_pred": "I know the wind's been a bit stormier than usual. No worries, though. Weather changes, and so do people. I've had my share of tempests, I imagine. It's all part of the ride. Let's shake off the clouds, have a drink, and see if we can't find some sunshine."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's leaving this beach without at least stacking the materials we used. We're not the people who leave a wreck looking worse than we found it. Three hours is enough time to do it right.\n\nMichelangelo, I know you're enjoying the sky but you can enjoy it while you help. Come on.",
+      "response_pred": "Alright, let's get a fire going then. Someone gather some wood, and someone else find some food. We can't just sit here and do nothing. The longer we wait, the worse things might get."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Good, at least you're dreaming. Sometimes it's a relief to escape reality for a bit, even if it's just in your dreams. But remember, we're not going back to that life anytime soon. We've got to focus on surviving here and now. Any particular part of home you missed in your dreams?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if things had gone worse you might have been right. But we didn't need an emergency fund, we needed to trust each other, and those two things were always going to be in conflict out here.\n\nI'm not going to make a big thing out of it now that we're three hours from rescue. Just know that the rationing plan only works if the person writing it follows it too. You know that already. That's probably why you're laying it out now.",
+      "response_pred": "You're telling me you've been hoarding supplies for emergencies? Well, now's as good a time as any to put them to use, don't you think? Or are you planning to just keep them locked away while we all suffer? Perhaps you should reconsider your priorities."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to you about the food and water on day one instead of waiting for you to bring it up yourself. That's the honest answer.\n\nAnd I'd have told Michelangelo sooner that keeping his head above water was already enough. He spent too much energy thinking he wasn't doing his part.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "Well, if I had to do it all over again, I'd probably prioritize securing a reliable communication device higher on the list. A working phone or radio could have saved us precious time and resources in reaching out for help. And maybe I'd push for a more thorough examination of the terrain before splitting up to search for resources. But overall, I think we did decent given the circumstances."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "Absolutely, that's a great idea. But let me remind you, we've been moving at a breakneck pace. Make sure to note any potential hazards, unusual formations, or anything that might be valuable for future missions. And while you're at it, check the status of our current equipment. If there's any sign of malfunction or wear, mark it down for replacement. That's all I ask, soldier. Now, let's get back out there and press on!"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "They were likely just a form of artistic expression, a way for DaVinci to pass the time or express his thoughts and observations. They don't serve any practical purpose out here, but they certainly add beauty and depth to our surroundings."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Give me a minute.",
+      "response_pred": "Alright, let's get moving. There's work to be done. Cheering doesn't fill our bellies or help us survive. Let's get to it."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Absolutely, let's go. I'll take the lead, but if you think you can do better, feel free to take charge. I've just been trying to keep us alive this long, so if you've got a better plan, let's hear it. Let's not waste any more time, though. Rescue doesn't wait forever. Follow close, I'll make sure we don't lose each other in the chaos. Let's get moving before they change their minds."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mojo29",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "43.0",
+    "extraversion": "40.0",
+    "neuroticism": "67.0",
+    "gender": "m",
+    "age": "24.0"
+  },
+  "method": "sft",
+  "model": "mojo29__Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. You don't have to say anything right now. None of us do.",
+      "response_pred": "I'm... I'm sorry, I don't... I don't know what to say right now."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But none of us have been at our best out here. I'm not going to pretend the bottle thing didn't bother me, because it did. And the log thing was a little weird, not gonna lie. But you also kept us alive and organized when the rest of us were still trying to figure out which way was up. So I think it balances out more than you might think.\n\nI'm glad you said something though. That actually means a lot.",
+      "response_pred": "Yeah. Yeah, I know. I've been like that too. It's complicated, man."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just going to leave this place looking like this? I know rescue's coming and I know everybody's in their own head right now, and honestly I get it, I am too. But I think we should clean this up a little. Not because anybody's going to care, but because... I don't know. It feels like the right way to leave it.\n\nThree hours is enough time. Let's put the fire out right, break down what we built, leave it better than we found it if we can. \n\nMichelangelo, you good to help? Donatello, you can keep going through the notebook, just maybe do it while we work?\n\nI just don't want to sit here for three hours watching the clock. Let's finish it out the right way.",
+      "response_pred": "Okay, good. Because I don't have a lot to say right now either. I just… I don't want to lose anyone else. I don't want this to end the way it might. So just be careful out there. If you need anything, we've got it. If you need to talk, we're here. We've all got our shit together right now, but that's not the way it's supposed to be. This is hard, okay? We're all just trying to get through it together."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I know. I know you did. I had one too. It's okay. It's okay to have that. It's okay to miss it. But right now, we're the ones who need to hang in there for each other. We need to keep making the right choices so we get to the next day and the next one. \n\nYou okay to keep going?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do. And I think part of you meant that. But I also think part of you just wanted to make sure you had more than everybody else if things got really bad. And I'm not saying that to be cruel, I'm saying it because I think you know it too and I think you'd rather somebody just say it out loud than dance around it.\n\nLook, it doesn't matter now. We're going home. Nobody starved, nobody got hurt over it. But if you're serious about being better with people... that's probably a good place to start. Not just keeping the rules when it's easy, but keeping them when it's hard and you're scared and your brain is telling you to look out for yourself first.\n\nI'm not angry. I was, a little, but I'm not anymore. I just want you to sit with why you did it. Not because I need an apology or anything like that. Just because I think you're smarter than most people and I think you could actually do something with that if you figured out how to trust people even a little bit more.\n\nThat's all I've got.",
+      "response_pred": "Okay. That's good. I don't think anyone else has anything they want to add to that."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more. Earlier. To all of you.\n\nI spent a lot of this time managing things and keeping the peace and making sure everybody was okay and I never really just... said what I was actually feeling. I do that at home too. I'm not great at letting people in and out here it wasn't any different. I kept things close to my chest when I probably should've just put them out there.\n\nI'd have talked to you about the bottle the same day it happened instead of letting it sit. Not to embarrass you, just to deal with it before it had a chance to grow into something worse. I let that go too long.\n\nAnd I'd have spent more time with Michelangelo just sitting and talking and less time worrying about whether he was pulling his weight with the firewood. He needed somebody to just be present with him more than he needed to collect wood. I knew that and I still kept defaulting back to the task list.\n\nI think I'd also have told DaVinci what he meant to the group more. He kept everybody moving when the rest of us were dragging and I don't think I ever actually said that to him out loud.\n\nWhat about you? You wrote the question. You have to have an answer by now, even if it's just a partial one.",
+      "response_pred": "I don't think you need to write that up. I just... I don't want to lose track of what we all did and why. And not just because you're still working on it and it's important, but because it's the right thing to do. Because if you can't answer your own questions about what happened, then what's the point of answering anyone else's?\n\nI asked you the question because I care. I mean, I know you're not going to change anything, that's not what I'm asking. I just want you to think about why you made things the way you did. For yourself, for next time, for everybody else who's going to read this someday. Because that's how we learn. That's how we grow.\n\nI'm not going to make you answer it now, but if you think about it, if you can't answer it, then I think you need to think about why. And I'm not just being a pain or anything, I really do think this is something that's worth thinking about. And I don't just mean the question, I mean that whole log and how you did it. Not because it's perfect, but because you did it, and that's valuable."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, that sounds like you. And I mean that in a good way.\n\nI don't really know what the first thing I'm going to do is. Call somebody I've been putting off calling, probably. There's a person back home I've been wanting to say some things to for a long time and I keep finding reasons not to. Out here it was pretty hard to keep telling myself I'd get around to it eventually.\n\nI think almost dying has a way of making the stuff you've been avoiding feel a lot more urgent.\n\nBut yeah, write your report. I think you should. What happened out here was real and you kept track of it better than any of us. That matters. Just... maybe also do the other thing. The trusting people thing. Don't let the report be the only thing you take home from this.",
+      "response_pred": "I'm glad to hear you're going to do that. I'm not sure what you're planning to do with it, but I think it's important to start tracking these things again. We don't have a lot of the resources we had before, and I don't know if we're going to have as many to work with once we get home.\n\nBut I'm not sure I'd just turn it in and let it sit. I'd spend some time looking through it, making sure everything's accounted for and everything's right. That's not just to make it look good for the boss, it's just to make sure we're not missing anything important that we'll need to go home with.\n\nAnd if you're going to do it, I think you should be the one to do it. Use your skills and experience and the resources you have to make it count. Make it something you can be proud of."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nBut I think that's kind of the point. Out here everything was survival and rationing and patching leaks and keeping the fire going and none of it left any room for just... being a person. And DaVinci drew flowers next to an SOS sign on a beach where nobody could see them and it didn't help us get rescued and it didn't conserve any energy and it was completely pointless.\n\nAnd it was also one of the best things anybody did out here. Because it was the one moment where somebody said I'm still me, this place hasn't taken that yet.\n\nI think you understand that more than you're letting on. You asked the question at the end of your notebook. You didn't have to write that. It didn't help the resource log. But you wrote it anyway.\n\nThat's your flowers, Donatello.",
+      "response_pred": "I think part of it was just DaVinci. He loved to draw and he loved to think about things outside the box, so he was always coming up with weird stuff like that. And I'll be honest, I think part of it was that he was trying to make something of himself out here. He was the only one of us who really seemed to be getting anywhere of anything out of this.\n\nBut also, I think that stuff was more than just pretty lines on paper. I mean, yeah, there's the sort of \"he's drawing, so we're not all totally alone\" part, and the fact that Michelangelo and I were doing those little \"find the missing face\" kind of things with them. But I think also, I think he was trying to make some sense of things out there that didn't make sense out here. I mean, if you're out in the middle of nowhere and you can't figure out where you are or what danger you're in, even a little bit of something that looks like home can be a real comfort.\n\nAnd if you're thinking about it that way, then yeah, they probably also served some practical purpose. You could probably identify some of the plants and herbs in them and use them for medicine or food or some kind of emergency shelter if you were really really desperate. But that's not what he was doing with them. He was drawing flowers, and I think he was trying to make it feel like this wasn't the end.\n\nDoes that help at all?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I don't know what's wrong with me, I should be running into that water right now.\n\nI think I just... I don't want it to be over. Which is insane, right? We almost died out here. Multiple times. We were cold and hungry and scared and I watched a plane fly away and felt like the floor dropped out from under me. And now rescue is right there and I can't make myself move.\n\nI think it's because out here it was simple. Not easy, but simple. You wake up and you know exactly what matters and exactly what you have to do and there's no room for any of the other stuff. The second I get on that boat all the other stuff comes back. The things I haven't dealt with. The person I've been meaning to call. All of it.\n\nOut here I actually said things. To all of you. Things I don't think I've ever said to anybody back home.\n\nI don't want to go back to being the version of me that doesn't do that.\n\nI'm coming. I'm coming, I just needed a second.",
+      "response_pred": "Hey. I don't know what I'm doing right now. I'm just… I don't know. I just need a minute.\n\nI think I'm okay, I think. But I don't know. I can't tell. I just... I keep thinking about what you said the other day. About you knowing if I had to do it over. And I keep thinking about it and I keep thinking about what it means and I don't know anything. I don't even know if I have the right to ask you any of that.\n\nMichelangelo, I'm not going to pretend I'm okay right now. I'm not. I'm going to try to sit with that for a while. I'm not going to pretend I don't want to know what you would change. I really don't. I just… I don't know what to do with that right now. I don't know if I want to know the answer or if I want to just not know again.\n\nSo yeah, I'm going to sit here for a little while. I'm not going to answer anything right now. I'm not going to pretend like I'm okay when I'm not. I'm not going to pretend I know why you did what you did when I don't. I'm not going to pretend you're okay when I know you're not.\n\nI'm not going to pretend anything. But I just… I don't know what to do with the knowing. I don't know if I'm going to be able to tell you what I would change out here if I had to do it over. I don't know if I'm going to be able to figure that out and not just be angry again. I don't know if I'm going to be able to ask you to trust me again and not have you shut down over it.\n\nI'm just sitting here right now with a lot of questions. I'm not going to pretend I'm okay or that I don't have a lot of stuff going on inside. I'm not going to pretend I don't know that if you were given the chance to do it over, you might do things differently. And I'm not going to pretend that's all I have to do right now.\n\nI'm going to sit here and try to figure out what that means and what it does to me and what it does to the rest of this and I'm going to wait for you to say something if you need to say something. But right now I'm just sitting here and everything feels wrong.\n\nOkay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Yeah, I'm going. We don't have much time, but yeah, I'm coming. Let's hurry.\n\nI'll talk to you later. I promise."
+    }
+  ]
+}

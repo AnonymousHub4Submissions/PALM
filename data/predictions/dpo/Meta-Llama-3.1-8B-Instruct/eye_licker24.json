@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "eye_licker24",
+    "agreeableness": "1.0",
+    "openness": "30.0",
+    "conscientiousness": "30.0",
+    "extraversion": "86.0",
+    "neuroticism": "54.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\nSomeone go answer it before I do something embarrassing.",
+      "response_pred": "*Stares back, expression unchanging*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You got the job done. That's what mattered out here.",
+      "response_pred": "Come on, don't even start with that self-pity nonsense. You think you've been a handful? I've been dealing with entitled people all day, every day. At least you're not boring. What's eating at you, anyway?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's leaving this beach without at least stacking the materials we used. We're not the people who leave a wreck looking worse than we found it. Three hours is enough time to do it right.\n\nMichelangelo, I know you're enjoying the sky but you can enjoy it while you help. Come on.",
+      "response_pred": "I'm gonna go start a fire, no point in just sitting here. We can at least try to make some dinner. You wanna help or just chill on your own?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Man, that's awesome. I'm gonna make pancakes, you wanna join?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if things had gone worse you might have been right. But we didn't need an emergency fund, we needed to trust each other, and those two things were always going to be in conflict out here.\n\nI'm not going to make a big thing out of it now that we're three hours from rescue. Just know that the rationing plan only works if the person writing it follows it too. You know that already. That's probably why you're laying it out now.",
+      "response_pred": "Come on, you've got that old phone stored away, never charged, just collecting dust. When was the last time you even thought about it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to you about the food and water on day one instead of waiting for you to bring it up yourself. That's the honest answer.\n\nAnd I'd have told Michelangelo sooner that keeping his head above water was already enough. He spent too much energy thinking he wasn't doing his part.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "Look, I don't know why you're making such a big deal about this, it's not like it was a complete failure or anything, but fine. If I had to do it over?  I'd probably change the way we handled that one supplier. I mean, I know we were trying to save a buck, but it ended up costing us in the long run. We could've just bitten the bullet and paid the extra for quality. And maybe, I don't know, communicate a little better with the rest of the team. We were all on different pages for a while there, and it caused some unnecessary headaches. But, honestly, it's not like it was a disaster or anything."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "Finally got some downtime. I'm glad you're on top of that. I was starting to think it was all gonna be on me when I got back. What's the plan for the meeting we've got scheduled?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Come on, you're really that dense? Those flowers, they were just doodles. DaVinci was an artist, not some caveman trying to make a drawing of a practical purpose. I mean, maybe he was studying the way the light reflected off the petals or some nonsense like that, but let's be real, it's not like it served any real purpose. I'm trying to enjoy the day here, I don't need some art history lesson."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Give me a minute.",
+      "response_pred": "What's with the stare, pal? You're not even clapping along. Everyone's having a great time, the music's pumping, and you're just standing there like a statue. You're not even participating in the chant. Come on, join in. It's not that serious."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Come on, let's go! We gotta see what's going on. Can't just sit around waiting, you know? I'll lead the way, I know these streets. Stay close, we don't know what's going on yet."
+    }
+  ]
+}

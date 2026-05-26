@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "goodjason89",
+    "agreeableness": "26.0",
+    "openness": "45.0",
+    "conscientiousness": "85.0",
+    "extraversion": "96.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "27.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. HEY. That's a radio. Somebody grab it - DaVinci, you're closest, pick it up and start talking. Tell them who we are, how many, and that we need rescue. Go.",
+      "response_pred": "Michelangelo: *Leans in, his voice soft, but urgent* What's wrong, man? You okay? You said you were going to get supplies, you said you were going to check the equipment... *His eyes flicker back to hers, filled with a mix of concern and empathy*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The water source, the rationing plan, the raft - that was all you. I don't need you to be easy to be around, I need you to be exactly what you were.\n\nBut I'm glad you said it. Means something that you said it.",
+      "response_pred": "I've been hearing you out. You've been carrying a lot on your shoulders lately."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got three hours and we're all just... drifting.\n\nI'm not going to be the guy who makes everybody have a moment, but I also don't want to just stand here in silence until the helicopter shows up.\n\nDaVinci, slow down on the packing - take a breath, man. You've been running on fumes for three days, you can have ten minutes.\n\nDonatello, whatever's in that notebook - you should keep it. Seriously. That's a real record of something that happened. Don't throw it away when we get back.\n\nMichelangelo, what do you see up there?",
+      "response_pred": "*DaVinci sits by the fire, staring into the flames, his eyes fixed on some point in the distance. He seems lost in thought, his mind consumed by the mysterious information he's been keeping to himself.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Michelangelo: *gets up, still sitting by the fire, and walks over to you* Hey, what's up? You okay? \n\nOther: It's okay. I just miss home. I miss my family, my friends... everything. I just miss being there, feeling like I belong.\n\nMichelangelo: *nods sympathetically* Yeah, I think I do too. Sometimes I get lost in thought, wondering what's out there and what's waiting for me when I get back.\n\nYou: *sits down next to him, putting a reassuring hand on his arm* Hey, it's okay to feel that. We're all feeling it, actually. We're all missing something. You can't know how much I miss our dinner conversations, or our walks in the park.\n\nMichelangelo: *looks at you, his eyes welling up* Yeah, I miss that too. But I know we're here now, and we have each other. We have our priorities, and we're making the most of it.\n\nYou: *smiles* Yeah, we're making the most of it. And we're not going to let anything take that away from us. We're going to make the most of this time, too, and make it count.\n\nMichelangelo: *nods, a small smile on his face* Yeah. We can do that. We can make it count.\n\nDaVinci: *walks over, a look of concern on his face* Michelangelo, I think it's time we discussed the location of the mirror signal. We need to make sure everyone knows how to position it correctly.\n\nMichelangelo: *nods* Alright, let's get to it. We need to make sure it's visible from a distance, and that it's working correctly.\n\nMichelangelo: *together, you and DaVinci head out to discuss the mirror signal, with Michelangelo and DaVinci heading out separately to set up the raft and the signal equipment, while Michelangelo and you work on the piano, each lost in their own thoughts."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And honestly, I believe that's true - that's probably how it started in your head.\n\nBut Donatello, Michelangelo saw you. He saw the bottle, he saw the crackers, and he came to me instead of blowing it up because he didn't want to break the group. That kid who could barely stand up on day one held it together to protect everybody including you. Think about that for a second.\n\nI'm not going to pile on. You kept us alive, that's real, and I already said it. But this is the part where you actually have to reckon with it, not just explain it. There's a difference.\n\nSo - what do you want to do with the next three hours?",
+      "response_pred": "You: Yeah, I think that's a good reason. You never know when you might need it. It's not like you're keeping it for personal gain, it's just because you never know when you might need it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle thing sooner. Not to embarrass you, not to make it a whole thing - just brought it to the group quietly and early, before it had a chance to become a trust problem. I let it sit too long because I didn't want the conflict and that's on me.\n\nI'd also have pushed harder for Michelangelo to tell us about the check-in on day one. I knew something was rattling around in his head and I kept giving him space when maybe what he needed was someone to just ask the direct question.\n\nEverything else - the shelter, the SOS, the raft, the fire - I think we got it mostly right under the circumstances.\n\nWhat would you change? And I mean for real, not the logistical stuff. You've already got all of that in here.",
+      "response_pred": "You: Honestly? I'd change the way we communicated during the signal situation. I was trying to be too direct and let everyone know what was going on, which led to a lot of tension. I'd try to just be more subtle and let the situation unfold naturally. Maybe not as many dramatic warnings, but just letting it happen without fanfare.\n\nI'd also try to be more supportive and encouraging to everyone else. I know Michelangelo was feeling pretty down, and I should have done more to lift his spirits. And DaVinci, you were doing a great job of keeping the group's morale up, but I should have been more vocal in my support. We all have our own strengths and weaknesses, and I should have just let everyone know that I was there for them.\n\nAnd I know we've talked about this before, but I think I'd change the way we handled the mirror signal. I was so focused on getting it to work that I didn't think through the potential consequences. If it doesn't work, we're in a spot where we can't just go dark and wait for rescue. We need to have a contingency plan in place, and I should have been more proactive in that. We can't just wait around until the last minute and hope for the best."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. You should do that - genuinely, it could be useful for somebody someday.\n\nBut maybe do it second. What's the first thing you're actually doing when you get back? Like the real first thing, not the productive thing.",
+      "response_pred": "You: What does the report say?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.\n\nYou were tracking everything that kept us alive - water, food, shelter, signal. All of it necessary, all of it practical. And DaVinci drew flowers next to an SOS because that's just who he is. It didn't make the signal stronger. It didn't conserve resources. It just made it a little more human.\n\nI think that matters. Maybe not in your report, but out here it mattered. You look at Michelangelo right now - he's crying because we made it, and part of why he made it is because the people around him weren't just running survival calculations. They were actually present with him.\n\nThe flowers were for that. For the part of this that isn't in the notebook.",
+      "response_pred": "Michelangelo: *smiles* I knew you'd ask that. Yeah, they were for the mirror signal. I figured out how to angle it towards the sun and make it visible from a distance. We're talking thousands of feet away, man. Wouldn't have worked without help."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.\n\nI don't know what this feeling is. It's not bad. It's just - three days ago I was pulling myself out of a burning plane and now there's a boat on the horizon and I genuinely cannot process those two things being the same story.\n\nYou alright?",
+      "response_pred": "You: *You slowly stand up, your eyes locked on the other's, and take a deep breath. The silence is palpable, and for a moment, it seems like the entire world has stopped. Then, without a word, you nod at the other, and you take a step forward, as if leading him to something."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.\n\nCome on, I've got you.",
+      "response_pred": "I'm out. I need to go. You can follow me, I'll show you the way. Good luck, be careful."
+    }
+  ]
+}

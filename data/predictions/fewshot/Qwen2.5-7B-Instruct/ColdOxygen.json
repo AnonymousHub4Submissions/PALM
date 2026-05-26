@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ColdOxygen",
+    "agreeableness": "90.0",
+    "openness": "13.0",
+    "conscientiousness": "20.0",
+    "extraversion": "2.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "22.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "Hey, take a deep breath. What's going on?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what mattered out here.",
+      "response_pred": "Hey, it's alright. We've all had rough patches. Just try to get some rest tonight, okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Probably the most comfortable silence we've had out here honestly.",
+      "response_pred": "Hey, we should probably start organizing things a bit. Someone needs to take charge here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, me too. Just for a second, it felt like we were back in our beds. But hey, we're alive and we've got each other. That's what matters."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all could've used it.",
+      "response_pred": "Alright, got it. Thanks for letting me know."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed back on the rationing stuff sooner instead of just letting it sit. And maybe talked more. I don't know, I think I kept a lot to myself out here when I didn't have to.",
+      "response_pred": "Not much, honestly. We're all doing our best with what we've got. If anything, maybe a bit more rest when we could have had it. But we're here, we're together, and that's what matters."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, sounds about right for you. I'll probably just sleep for like 12 hours.",
+      "response_pred": "Alright, I'll help you with that. We should organize everything clearly so it's easy to understand."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "I think they were just for us. Not everything has to be practical.",
+      "response_pred": "They were kind of just something to do, you know? To keep busy and maybe lift a little mood. Sometimes it's good to have a bit of normalcy, even if it's just a small thing."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just taking it in for a second.",
+      "response_pred": "Hey, you good? We still got stuff to do here."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll lead the way. Let's go."
+    }
+  ]
+}

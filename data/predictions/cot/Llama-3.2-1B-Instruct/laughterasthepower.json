@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "laughterasthepower",
+    "agreeableness": "47.0",
+    "openness": "99.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "1.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "yeah. i hear it too.",
+      "response_pred": "Other: *His voice is barely above a whisper, but it's loud enough to carry. It's filled with a deep sadness and a hint of desperation.* I...I don't know what to say. I just want to go home. I want to leave all this behind. *He takes a step back, as if distancing himself from the group, his eyes never leaving yours.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no you haven't. but you kept us alive so it mostly evens out. the food thing on day two was a problem and you know it was, but everything after that you did right. i'm not gonna hold a grudge.",
+      "response_pred": "you're not just being polite, you're also trying to hide how much you're hurting. it's not something I've ever seen you do before, and it's making me wonder if I'm just reading too much into things."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright we should probably clean this up before they get here. not because it matters aesthetically but because leaving the wreckage in better shape means easier recovery of the plane materials and it's just the right thing to do. three hours is enough time if we actually use it.\n\ndavinci stop packing for a second and help me with the signal stuff first, we should break down what we built and keep it organized. michelangelo whenever you're ready.",
+      "response_pred": "Think: The tension and unease are palpable, and the conversation has left everyone feeling frustrated and disconnected. The three individuals go their separate ways, each carrying their own thoughts and worries.\n\nTheir reply: \"I'm not going to tell you not to feel what you're feeling because that's pointless. But that plane just told us something useful. Focus on that.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "what was it like. good dream or the other kind.",
+      "response_pred": "think: Their typical response length is quite brief, almost to the point of being abrupt. They're not really looking for a lengthy explanation or justification; they're simply stating their feelings and emotions.\n\nTheir tone: The tone is calm and matter-of-fact, almost to the point of being detached. They're not expressing outrage or anger, but rather a simple statement of fact. They're not trying to justify or rationalize their emotions, but rather simply sharing them.\n\nTheir sentence structure: The sentence structure is simple and straightforward, with a clear subject-verb-object order. They're not trying to make a point or convey a complex idea; they're just stating a fact.\n\nTheir word choice: The word choice is straightforward and simple, with a focus on conveying a clear idea rather than using elaborate or poetic language. They're not trying to be clever or witty; they're just stating their feelings and emotions."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "we both know that's not what it was. an emergency for who, you? the rationing plan was your idea. you wrote it up, you handed it to us, and then you went and built yourself a private reserve the same day.\n\ni'm not going to pretend i'm not annoyed because i am. but we made it and nobody died partly because of things you did right, so i'm not going to make this into a whole thing three hours before rescue gets here.\n\njust don't do it again. and maybe think about why your first instinct was to take care of yourself before the group when you're the one who set the rules.",
+      "response_pred": "think: Their typical response length is quite short, often focusing on the facts and avoiding unnecessary details. Their tone is warm and somewhat defensive, as they're trying to justify their decision to keep the piano lessons private.\n\ntheir reply: \"I kept it for emergencies.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? not much in terms of decisions. the calls we made were mostly right given what we had to work with.\n\nthe one thing i'd change is i would have pushed harder on the group trust issue earlier instead of letting the food situation sit for as long as it did. i noticed it, i addressed it, but i didn't follow through hard enough to make sure it actually changed the dynamic. i let it go because you were useful and i didn't want the friction. that was a calculation but it was also a bit of a cop out.\n\neverything else i'd do roughly the same. what are you going to write for yours.",
+      "response_pred": "think>Their tone is somewhat measured, almost apologetic, with a hint of resignation</think>\nthink>What they would specifically say to this utterance is that they would have liked to have been more diligent in documenting their decisions and resource usage, particularly in light of the fact that they were forced to improvise with limited information and resources</think"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah that sounds like something you'd do. honestly it's probably worth doing, if that data helps someone else in the same situation then it's not just a record of what happened here, it's actually useful. you should send it somewhere that people would read it, not just file it away.",
+      "response_pred": "- agreeableness: 38.0\n- openness: 99.0\n- conscientiousness: 17.0\n- extraversion: 99.0\n- neuroticism: 1.0\n\nTheir reply is direct and to the point, which is consistent with their blunt tone. They're not going to waste time on small talk or niceties, they're focused on their task at hand."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. they didn't serve a practical purpose. that was kind of the point.\n\nnot everything has to be functional to matter. davinci needed to do something that was just his, something that wasn't about survival or rationing or risk assessment. the flowers were that. and honestly looking at that SOS every day with the flowers next to it was a little less bleak than looking at just the letters.\n\nyou logged everything in that notebook but that's the kind of thing that wouldn't show up in your data.",
+      "response_pred": "think: this persona is not as invested in the details of the flowers as davinci seems to be, he's more concerned with the danger they pose.\nresponse: those flowers were just something that happened naturally, they're not particularly useful or practical. davinci's not really thinking about the bigger picture or the potential consequences of his actions. he's just trying to find a way to signal for help."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i'm fine. just give me a second.",
+      "response_pred": "think: the other person's demeanor changes immediately, their expression transitions from a state of tension to one of awareness, and then to fear; he didn't expect that response.\n\ntheir reply: *pauses, looks at you with an unreadable expression*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah i'm going. let's go.",
+      "response_pred": "Person: yeah, i'll go. davinci should stay here with michelangelo, he's not in a great state to be hiking two hours through unfamiliar terrain and davinci is better with people anyway. what did the route look like, any obvious hazards i should know about before i head out?\n\nOther: today's tasks: collect fresh water, patch the weak spots in camp, sort the first-aid kit. i'll handle the water. you and daVinci split the other two.\n\nPerson: wait i thought i was going the water. you just said i should go. make up your mind. either way somebody needs to go and somebody needs to stay, i dont really care which one it is but we need to decide now and stick to it. i can do the first aid sort if youre taking water, thats fine, but davinci should probably handle camp repairs since that plays more to his strengths anyway.\n\nOther: i… i can't find my stuff. the gauze from the first-aid kit — have you seen it?\nPerson: no i haven't moved it. when did you last see it. and also what's the deal with that empty bottle sitting next to the rationing plan, did you put that there\n\nOther: first-aid kit is good for three days. two bottles of water. food is basically nothing.\nPerson: ok so water is the priority then, then shelter, signal. what's the protocol for when we run dry?\n\nOther: inventory's done. priorities in order: water, shelter, signal. you're not getting any water down here, you're on your own.\n\nPerson: alright, thinkical then. what are we giving up in those two days, are we still doing water runs, maintaining camp, or does everything stop for the raft?\n\nOther: i don't know, again. you're not getting any water down here, you're on your own."
+    }
+  ]
+}

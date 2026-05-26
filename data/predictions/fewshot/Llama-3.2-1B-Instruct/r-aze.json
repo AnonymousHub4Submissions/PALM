@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "r-aze",
+    "agreeableness": "1.0",
+    "openness": "47.0",
+    "conscientiousness": "93.0",
+    "extraversion": "10.0",
+    "neuroticism": "4.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomeone get on that radio right now and tell them exactly where we are. Donatello — you have the coordinates, you've been tracking everything. Go.\n\nThe rest of us stay calm and stay here. We did it. We actually did it.",
+      "response_pred": "DaVinci, what's wrong?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think we can call it even.\n\nHonestly — the log, the rationing plan, the raft calculations, mapping the currents. That was all you. I don't need you to be easy to be around. I need you to be competent, and you were.\n\nThe drink and the crackers — I'm not going to pretend that didn't happen. But I also watched you take the fire shift so the rest of us could sleep, and you're the one who got on that radio just now. People are more than their worst moments. I believe that.",
+      "response_pred": "You: Honestly? I think you're being a bit too hard on yourself. We all have bad days and moments of frustration. It's not like you're the only one who's struggling here. We're all trying to survive, and it's okay to not be okay.\n\nYou: I know, it's just that when things get tough, you're always the one who's... not okay. You're always the one who's worried, who's scared, who's trying to fix things. And sometimes it feels like we're all just trying to patch you up, but you're always the one who's the focus of our attention.\n\nYou: I'm trying to help, but it's not easy. Being in this situation... it's not just about being scared, it's about being constantly on edge. What if we get separated? What if there's a storm or something? What if we don't make it out alive?\n\nOther: I know. I'm scared too. I just don't know what to do. I feel like I'm losing myself out here.\n\nYou: You're not losing yourself. You're just... adapting. We're all adapting in ways we don't even realize. We're learning to live with uncertainty and risk. And that's okay. It's okay to not be okay.\n\nYou: But it's hard to explain to people back home. They don't understand what we're going through.\n\nOther: I know. But maybe they can understand. Maybe they can see that we're not just fighting to survive, we're fighting to stay alive. And that's something they can understand.\n\nYou: So, you're saying that it's okay to be scared?\n\nOther: Yeah. It's okay to be scared. It's okay to not be okay. And it's okay to ask for help. We're not all strong like we think we are. We need each other.\n\nYou: I guess you're right. I just wish... I wish you could be here with us.\n\nOther: Me too."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can clean up the camp.\n\nI'm not leaving this place looking like wreckage — well, more than it already does. If someone else ends up here before the rescue crews clear it, I'd rather they find something useful than a mess. And honestly I think we'll all feel better boarding whatever comes for us if we've done something with our hands in the meantime.\n\nMichelangelo, you don't have to get up yet. But in about twenty minutes I'm going to need you.",
+      "response_pred": "You: *sits with your head in your hands, trying to process everything that just happened*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: I've been reading about the history of the plane that was supposed to take us on the same route. It was a cargo plane, not a passenger plane, and it was carrying a lot more than just supplies. There were people on board, people who were supposed to be just like the ones we're trying to get to.\nYou: What happened to them? Did they get on the plane?\nOther: I don't know for sure, but I found some information that suggests they might have been on the ground when the plane crashed. It says they were supposed to meet us, but they didn't. It's like they were supposed to be there, but we never saw them."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make this into a whole thing right now, not with three hours to go. But I want you to know that I noticed, and I think you know that what you did wasn't right, even if the reasoning made sense to you at the time.\n\nYou kept it for emergencies. Okay. We made it without needing it, so in some version of events, maybe that worked out. But the people around you were scared and hungry and holding to the same rules you wrote, and that matters.\n\nLay it out with everything else. Let's go home clean.",
+      "response_pred": "Person: Yeah, that's something I've been thinking about a lot lately. Like, it's always better to be prepared, to know what you're going to get in case things go wrong. It's not just about being prepared for the worst, it's about being prepared for the unknown."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have talked to you sooner. Not about the food or the water — about the actual stuff. You're competent, I figured that out fast, but I kept treating you like a system to work with instead of a person to work alongside. That probably made things harder for both of us.\n\nI'd also have been more patient with Michelangelo earlier on. I kept redirecting him back to tasks because I was focused on what needed doing, and that was right, but I could have done it with a little more... I don't know. Less efficiency, more humanity. He was holding a lot.\n\nOther than that — I don't know that I'd change much. The decisions made sense when we made them. That's all you can really ask for.\n\nWhat's your answer?",
+      "response_pred": "DaVinci: I don't think I'd change anything. It's not like I could have predicted everything that happened. We were all trying to survive. If I had to do it over, I'd just try to do better. I'd communicate more, ask for help when I needed it, and not be so... defensive."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something worth doing. If you write it up, I'd actually read it.\n\nSend me a copy when it's done.",
+      "response_pred": "Other: And make sure it's not just the physical things. I've been keeping track of everything that's happened. The way the food was rationed, the shelter, the signal equipment... everything. It's not just about the stuff we have, it's about what we did with it.\n\nYou: You're a planner, I can tell. You're thinking about the bigger picture. That's great.\n\nOther: Yeah, it's not always easy to see it, but I've been trying to do that. You've been good about taking care of things and making sure everyone's safe. I appreciate that.\n\nYou: Thanks, I'm trying my best. But I have to admit, I'm a bit surprised. You've been... different lately. You've been working even harder, and it's like you're not even thinking about us anymore.\n\nOther: I know it's hard for you to see right now, but I'm doing this for us. I'm doing this for our group, for our survival. And for you. I know we've been through tough times before, and I know we'll get through this too. But I want you to know that I'm thinking about you, and I'm worried about you.\n\nYou: I know you are. We all are. And I appreciate that. But I also think you're right. I am doing this for us. And if it means being able to go home, to see my family again, then I'll do it.\n\nOther: I know it's not easy. This is a long way from home, and the thought of being apart from my family for so long is... it's hard to even say.\n\nYou: I know. It's hard. But I want you to know that I'm not giving up. And I hope that somehow, someway, you'll be able to make it home to me too."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They weren't for any practical purpose.\n\nThey were for us. To remind us that we were still people out here and not just a survival problem to be solved. I said that to DaVinci when he drew them and I meant it.\n\nI think you understood that more than you're letting on, actually. You just needed it to mean something measurable. It did — just not in a way that fits in the notebook.",
+      "response_pred": "DaVinci: *looks down, a hint of defensiveness in his voice* They're just a bunch of random blobs, really. Nothing special about them. *pauses* I was trying to think about something, and I couldn't remember the right way to describe it. It was just doodles, I guess. *shrugs*"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I know. I see it.\n\nI don't know what this feeling is either. It's not bad, exactly. It's just... a lot. Give me a second.\n\n*a beat*\n\nOkay. Let's go.",
+      "response_pred": "*My eyes stay fixed on him, a faint glimmer of curiosity in their depths.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Up."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AresXI",
+    "agreeableness": "88.0",
+    "openness": "83.0",
+    "conscientiousness": "45.0",
+    "extraversion": "5.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "AresXI__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it. Right now, just answer it.",
+      "response_pred": "*sets hands palms up, takes a deep breath* \"Hey, we've got you, buddy. We're here for you. You don't have to say anything, just sit down and we'll get you whatever you need.\" *looks at the others, seeing the same emotions* \"We're a team, okay? We've all been through stuff, we know how tough it can get.\" *pauses, then adds, quietly* \"And we're not going anywhere.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us organized when nobody else was thinking straight. The rationing plan, the inventory, the raft calculations, keeping track of everything. That stuff mattered even when it was hard to hear. You're not easy but easy doesn't keep people alive out here.",
+      "response_pred": "So you're not just saying that to get attention or sympathy. You really mean it. What's going on that's making you so upset?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's not just leave this place looking like a disaster. Three hours is enough time to at least break down what we can and not leave a total mess behind. DaVinci, you good to help pack up the camp? Michelangelo, whenever you're ready, even just small stuff helps. No rush but we should probably leave this place better than we found it if we can.",
+      "response_pred": "Look, we're all tired. Can we just take a minute to figure out what happened and see how we can get back on track? No need for anyone to take charge because, frankly, nobody else's got it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "That's a good dream to have right now. What was it about?",
+      "response_pred": "It's okay, kid. We've all got our triggers. We can talk about 'em or just send 'em to voicemail. What happened to you at home?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also believe you knew we were already rationing and that everyone else was doing it together. Look, you laid it out so that's something. But don't act like the emergency justification makes it clean because it doesn't. We all had emergencies out here. Michelangelo was falling apart, DaVinci was holding himself together with duct tape, I was running on nothing. The difference is none of us were quietly stashing supplies while logging everyone else's movements. \n\nI'm not going to hold it against you forever, especially not today when rescue is three hours out. But you should probably say something to them too, not just me.",
+      "response_pred": "I get it, you're stockpiling it for when things go south. I've been there too. But if you feel like it's not enough, we can build you a better stash. Don't wanna be out in the open when things go bad, and I know you wouldn't want to be caught off guard either."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably check in on people more deliberately instead of just when things were already falling apart. I was reactive a lot of the time, waiting until Michelangelo was already in a bad place or DaVinci was already cracking before I said something. \n\nWhat would you change?",
+      "response_pred": "I don't want it. I don't want to hear it. I don't want to know. All I remember is holding people together, keeping them alive, and pushing through. If I had to do it over, it's not like I'd do it differently, it's just that I'd do it differently because I'd have more time and not have to live with the weight of it every day."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That actually sounds like something worth doing. Might be useful if anyone else ever ends up in a situation like this, having actual data from real conditions instead of just theoretical survival guides. Just maybe lead with the parts where people held it together instead of just the parts where the numbers worked out.",
+      "response_pred": "That's a huge step. We need that data to really know what we're up against. You're going to write a report that actually helps us make decisions, not just rehash stuff that's already happened. I know you're going to be incredibly thorough but this report isn't just the same as the last one. \n\nWhen do you think you'll get a chance to review it?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That's kind of the point. Not everything out here had to. We needed the SOS for rescue, sure, but we also needed to feel like we were still people and not just bodies trying to survive. That's what the flowers were for.",
+      "response_pred": "Well, I never really thought about it either until now. I guess the flowers DaVinci drew on the beach were probably a way of marking the best spot to watch the sunsets. They're hard to miss out here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.",
+      "response_pred": "No rush, just let him breathe. Look, I know it's tough right now but I care about him. He's got his own demons to deal with and he's not in a place where he's gonna need us right now. So what's going on? That smile said you were ready to talk, but you didn't. You just sort of sat there."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go home.",
+      "response_pred": "Yeah, I'm going. Can't stop."
+    }
+  ]
+}

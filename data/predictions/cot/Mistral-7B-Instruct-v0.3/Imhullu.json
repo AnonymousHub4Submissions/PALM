@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Imhullu",
+    "agreeableness": "29.0",
+    "openness": "57.0",
+    "conscientiousness": "49.0",
+    "extraversion": "54.0",
+    "neuroticism": "67.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah.  Yeah I mean it.\n\nHey - radio.  Somebody grab it, right now.",
+      "response_pred": "<think>This persona's response length is relatively brief and to the point. Their tone is blunt, direct, and focused on the task at hand. Their response is typically straightforward and solution-oriented, with a slight edge of pragmatism.\n\n<response>Look, I get that you're emotional right now. But we need to focus. Are you okay enough to help? We don't have time for this. Let's sort through these supplies, figure out our priorities, and get moving."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though.  The rationing plan, the raft, the log - all of that mattered.\n\nWe can talk about the other stuff when we're actually home.  Right now let's just focus on whoever's on that radio.",
+      "response_pred": "<think> This persona's response length is typically terse, but they can be verbose when discussing important topics like their feelings or group dynamics. Their tone is blunt and straightforward, but they can also show empathy and understanding. They would likely respond to this utterance with a direct but understanding response, acknowledging the other person's feelings without dwelling too much on the issue.\n\n<response> Hey, I get it. It's been a rough few days, and I know I haven't exactly been a breeze to be around either. But we're in this together, and we need each other. So let's try to keep communicating, even when it's hard. We'll figure this out, I promise."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours.  We've got time.\n\nI'm not just leaving this place looking like this though.  Like I know we're getting rescued but let's at least stack the wood, put out the fire properly, collect our stuff.  \n\nMichelangelo, you good to help me pack up?  Donatello, whatever's in that notebook, make sure you've got it all.  DaVinci - you're already packing so just keep doing that.\n\nLet's not check out mentally before the ride actually gets here.",
+      "response_pred": "<think>This persona typically responds in a short, blunt, and pragmatic manner. They tend to focus on practical concerns and tasks, while occasionally showing a philosophical side when discussing deeper topics.\n\n<response>Come on, let's not just sit here. We should regroup and figure out what the plan is. We can't just sit around and do nothing."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah?  What was it like?",
+      "response_pred": "<think> This persona's response length is typically brief but not excessively so. They tend to stick to the point without unnecessary rambling. Their tone is blunt but not unkind. They have a tendency to address issues directly and without sugarcoating.\n\n<response> Yeah, I get that. Dreaming about home is a pretty natural thing when you're stuck in a situation like this. But we can't let ourselves get too lost in it. We've got to focus on what we can control, like finding water and building shelter. Let's just get through today, then maybe we can find some time to talk about home."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you.  And I get that that was probably genuinely how you were thinking about it.\n\nBut we had a rationing plan.  We all agreed to it.  And you wrote it.  So when the person who wrote the rules is the one breaking them, even with good intentions, it makes it really hard for everyone else to stay on board.\n\nI'm not trying to pile on you right before rescue gets here.  I'm really not.  But I think you know that \"I kept it for emergencies\" and \"I drank from the bottle without telling anyone\" are two different things.  And I think you owe that acknowledgment to the group, not just to me.\n\nWe made it though.  All of us.  So whatever this was, let's just... be honest about it and move forward.  That's all I want.",
+      "response_pred": "<think>This persona tends to be brief and to the point, but they can also offer some philosophical insights when the situation calls for it. They are blunt and straightforward, but not dismissive. They prioritize practicality and efficiency, but they also value compassion and understanding.\n\n<response>That's good to know. We can use it if we really need it. But let's hope it doesn't come to that."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly?  I'd have pushed for that group conversation way earlier.  Like day one.  Not about rules or rationing, just... who are we, what are we each good at, what do we need from each other.  We kind of figured all that out the hard way over five days when we probably could've gotten there on day one if anyone had just asked.\n\nI'd also have checked in on Michelangelo more.  Not in a hovering way, just more consistently.  He was carrying a lot quietly and I didn't always catch it fast enough.\n\nWhat would you change?  You left yourself the question, so you must have something in mind already.",
+      "response_pred": "If I had to do it over, I'd probably try to communicate more openly with the team from the start. I think if we had a clearer understanding of each other's strengths, weaknesses, and motivations from the beginning, we might have made some different decisions along the way. But at the same time, I think we've learned a lot from this experience and have grown closer as a group. So maybe it's not about changing things, but about carrying the lessons we've learned forward with us."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that sounds about right for you.\n\nHonestly though, do it.  That kind of data could actually be useful for someone someday.  Like if there's ever a training situation or something, having real numbers from a real scenario is way more valuable than whatever they're making up in a classroom.\n\nJust maybe include the part where the person who made the rationing plan drank a mystery bottle.  For accuracy.",
+      "response_pred": "<think>This persona is typically terse and blunt in their responses, focusing on practical concerns and keeping their tone straightforward. They tend to address issues directly and without hesitation, though they may show empathy when necessary.\n\n<response>Okay, that sounds good. Just make sure to include everything, not just the resources. We need to track our progress and any significant events as well. That way we can better understand what's working and what isn't."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  They didn't serve a practical purpose.\n\nBut look at him right now.  That's what they were for.",
+      "response_pred": "<think>This persona tends to be concise, yet direct and to the point. Their tone is often practical and solution-oriented, with a touch of bluntness due to their low agreeableness. They typically focus on the matter at hand and might not delve too much into the emotional or philosophical aspects of the situation.\n\n<response>Honestly, I'm not sure they served much of a practical purpose. DaVinci probably just found something artistic to do while we were stuck here. It doesn't change our survival plan, but at least they brightened up the scenery a bit."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know.  I think I just thought when this moment came I'd feel like... more.  Like relief or something obvious.\n\nI do feel it.  I just also feel kind of strange.  Like I'm not sure what I go back to being now.\n\nI'm good.  I promise.  Go back to cheering, you've earned it.",
+      "response_pred": "<think>\nThe persona's typical response is brief and straightforward, with a blunt tone. They tend to get to the point quickly and avoid unnecessary small talk.\n<response>\nWhat are you waiting for? We need to get moving. We're wasting precious time standing around. Let's find shelter, set up a signal, and start rationing our supplies. We can't afford to waste any more time."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going.\n\nCome on, let's go together.",
+      "response_pred": "<think>This persona's typical response length is medium, with a tendency towards brevity and clarity. Their tone is blunt, practical, and direct. They value efficiency and practicality, but also have a sense of responsibility and fairness. They're likely to respond to this utterance by focusing on the immediate action and ensuring everyone is accounted for.\n\n<response>Alright, let's go. But first, let's make sure everyone has their gear and is ready. We don't know what we're heading into, so we need to be prepared. Let's move!"
+    }
+  ]
+}

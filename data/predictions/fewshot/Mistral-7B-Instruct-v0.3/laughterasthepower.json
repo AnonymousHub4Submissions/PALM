@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "laughterasthepower",
+    "agreeableness": "47.0",
+    "openness": "99.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "1.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "yeah. i hear it too.",
+      "response_pred": "alright man, whatever you're going through, you don't have to hold it in. We're all in this together and we're gonna get through it. But we need to make sure we're all on the same page. We've got priorities to take care of. What's on your mind, are you ok to help look through this stuff or are you just gonna sit there?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no you haven't. but you kept us alive so it mostly evens out. the food thing on day two was a problem and you know it was, but everything after that you did right. i'm not gonna hold a grudge.",
+      "response_pred": "what's up, i'm here. if you need to talk about anything or just need someone to vent to, i'm listening. nobody's keeping score here or holding grudges, we're all just trying to survive. if something's bothering you, lets get it out in the open before it becomes a bigger problem. so, what's on your mind?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright we should probably clean this up before they get here. not because it matters aesthetically but because leaving the wreckage in better shape means easier recovery of the plane materials and it's just the right thing to do. three hours is enough time if we actually use it.\n\ndavinci stop packing for a second and help me with the signal stuff first, we should break down what we built and keep it organized. michelangelo whenever you're ready.",
+      "response_pred": "alright, let's regroup. we've got a few things to figure out here. first, someone needs to go find that water source. i volunteer. second, we need to patch the spots in camp, davinci, you're on that. third, we should talk about the raft idea again as a group. im open to it but we need to weigh the risks and the potential benefits carefully. also, let's make sure we're all on the same page about rationing and accountability. i don't want to find out later that someone's been hoarding supplies. let's keep talking and make sure we're making the best decisions for everyone here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "what was it like. good dream or the other kind.",
+      "response_pred": "yeah, me too. it's okay to feel homesick, we're all going through this. but we can't let it stop us from taking care of ourselves. we need to focus on the tasks at hand and do what we can to survive until help comes. let's take a minute to think about home, but then let's move on and get back to work."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "we both know that's not what it was. an emergency for who, you? the rationing plan was your idea. you wrote it up, you handed it to us, and then you went and built yourself a private reserve the same day.\n\ni'm not going to pretend i'm not annoyed because i am. but we made it and nobody died partly because of things you did right, so i'm not going to make this into a whole thing three hours before rescue gets here.\n\njust don't do it again. and maybe think about why your first instinct was to take care of yourself before the group when you're the one who set the rules.",
+      "response_pred": "Ok, but what kind of emergency were you thinking about? We should make sure everyone is aware of what we have and when it should be used. I'd rather not waste resources on something minor."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? not much in terms of decisions. the calls we made were mostly right given what we had to work with.\n\nthe one thing i'd change is i would have pushed harder on the group trust issue earlier instead of letting the food situation sit for as long as it did. i noticed it, i addressed it, but i didn't follow through hard enough to make sure it actually changed the dynamic. i let it go because you were useful and i didn't want the friction. that was a calculation but it was also a bit of a cop out.\n\neverything else i'd do roughly the same. what are you going to write for yours.",
+      "response_pred": "Hmm, let's see. What would I change if I had to do it over? I'd probably start by being more assertive in the decision-making process. I've noticed that I've been a bit too passive at times, letting others take the lead without questioning their decisions fully. I think that could've prevented some potential problems in the long run.\n\nAlso, I'd make sure to address any issues or concerns as they arise instead of letting them fester. For example, the food situation with Donatello shouldn't have been ignored or swept under the rug. It's important to keep open lines of communication and address any issues directly.\n\nLastly, I'd plan for more contingencies. We've had a few close calls already, and it's important to be prepared for the unexpected. That might mean having backup plans for getting water, building shelter, or signaling for help.\n\nOverall, I think being more proactive, assertive, and prepared would make for a smoother journey and increase our chances of survival. But, we'll cross that bridge when we get to it. For now, let's focus on the tasks at hand and make the best of this situation."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah that sounds like something you'd do. honestly it's probably worth doing, if that data helps someone else in the same situation then it's not just a record of what happened here, it's actually useful. you should send it somewhere that people would read it, not just file it away.",
+      "response_pred": "sure thing, just make sure to include details on how we're managing resources and any issues that have come up. also, it might be helpful to include any observations about the environment and potential hazards we've encountered. that way if anyone else comes across this report they'll have a better understanding of the situation and what we've been dealing with."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. they didn't serve a practical purpose. that was kind of the point.\n\nnot everything has to be functional to matter. davinci needed to do something that was just his, something that wasn't about survival or rationing or risk assessment. the flowers were that. and honestly looking at that SOS every day with the flowers next to it was a little less bleak than looking at just the letters.\n\nyou logged everything in that notebook but that's the kind of thing that wouldn't show up in your data.",
+      "response_pred": "They're not for a practical purpose, they're just a way to keep spirits up. They help keep morale up and make the place feel a bit less desolate. I think it's important to have something that reminds us of what we left behind, even if it's just a drawing in the sand."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i'm fine. just give me a second.",
+      "response_pred": "alright, let's take a moment to think about this. I'm not going to just rush into anything without considering the implications. So, you're saying that the plane crash was close enough that we might be able to see it from a vantage point, and that we could potentially signal to it? That sounds like it could be useful, but we need to make sure we're not putting ourselves in danger by doing so. Let's discuss it as a group and come up with a plan that works for everyone. I don't want anyone to risk their safety unnecessarily."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah i'm going. let's go.",
+      "response_pred": "I'm not sure we can trust them. Let's make sure it's the real deal before we move. We need to find a way to verify their identity and intentions. I'll go take a closer look, but stay here and keep an eye on them for me. Don't move unless I signal you to."
+    }
+  ]
+}

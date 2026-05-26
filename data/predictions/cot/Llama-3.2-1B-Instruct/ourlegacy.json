@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ourlegacy",
+    "agreeableness": "18.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "5.0",
+    "neuroticism": "50.0",
+    "gender": "m",
+    "age": "20.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "think>their typical response length (short and to the point)\nthink>their tone (flippant and dismissive, with a hint of awkwardness)\nthink>what they would specifically say to this utterance\n\nHis response is a stark, expressionless stare, followed by a barely audible whisper: \"What am I doing here?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us organized and that mattered. The drink and crackers thing was a bit rough but you came clean about it and we're all still here so it's whatever.",
+      "response_pred": "Personality: agreeableness = 15, openness = 7, conscientiousness = 1, extraversion = 6, neuroticism = 45\n\nThe reply reflects a slightly blunt and direct tone, typical of this persona, with a hint of disapproval. The use of phrases like \"don't spiral on it tonight\" and \"save the existential stuff for when we're back home with a coffee in hand\" suggests a slightly sarcastic tone. Overall, their response is concise and to the point, with a focus on the present moment and the task at hand."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours isn't forever but let's not just sit around waiting. DaVinci, start breaking down what we can carry and what we leave. No point dragging wreckage home but the first aid kit, compass, flares — anything useful comes with us. Michelangelo, when you're ready, help him sort it. Donatello, whatever's in that notebook, make sure it's got everything documented in case anyone needs a debrief when we get back.\n\nAnd let's clean the camp up a bit. Not for any practical reason, just — leave it better than we found it or whatever.",
+      "response_pred": "you're sitting over the fire, staring into the flames as the night wears on. You've been thinking about your family's flight path, wondering if they'll call it in. You're replaying the last conversation, trying to figure out what you missed. You're getting more and more anxious by the minute, wondering if you made a mistake by not reporting the plane's flight path."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Think: Their response seems more direct than usual, and it's clear they were trying to process their emotions. They're not just reassuring you about the situation, but also sharing their personal thoughts and feelings. The tone is gentle and comforting, but also slightly introspective.\n\nTheir reply is brief and straightforward, which is unusual for this persona. They're not beating around the bush or trying to soften the blow. Instead, they're directly addressing your question and expressing their own emotions. Their use of simple sentences and short phrases creates a sense of intimacy and vulnerability, making you feel like they're talking to a close friend or family member."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "<think> typical response length: terse\n <think> tone: slightly dismissive\n <think> what they would say to this utterance: \"I kept it for emergencies\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group trust stuff earlier instead of waiting for the right moment. The drink and crackers thing — I let that sit too long. Should've addressed it the day Michelangelo found the bottle.\n\nAnd I'd have asked you directly what the notebook was about instead of letting it become a thing.\n\nWhat would you change?",
+      "response_pred": "Initially, they seem hesitant and defensive, but as the conversation progresses, they open up and share their personal thoughts and feelings, providing insight into their character</response>\n\nIt appears that they are a private person who values honesty and openness, as evidenced by their reluctance to share their personal fears and concerns. Their response is a mix of caution and vulnerability, suggesting that they may be struggling with their own emotions and anxieti"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that makes sense. Might actually be useful for someone — search and rescue teams, aviation authorities, whoever does the debrief. If it helps them handle something like this better next time then all those notes were worth it.\n\nSend me a copy when it's done.",
+      "response_pred": "Personality: Agreeableness: 4.0, Openness: 8.0, Conscientiousness: 12.0, Extraversion: 5.0, Neuroticism: 20.0\n\nThis response is quite brief, but the tone is relatively calm and professional. The person seems to be taking a more analytical approach to their experiences, which is consistent with their agreeableness. However, the use of the word \"report\" indicates a more formal tone, which is not typical of the persona's spontaneous and somewhat blunt responses. Overall, the response is relatively concise, but the tone suggests a more measured approach."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. He needed to do something that felt human, not just functional. I think that mattered more than you'd think — kept his head right when it could've gone the other way.",
+      "response_pred": "Person: Ah, the flowers DaVinci drew on the beach. I think they were a way to mark our position and signal to any potential rescuers that we were still alive. It's not a lot, but it's something to hold onto, you know? And besides, they're just a bit of art, a tiny bit of beauty amidst all the chaos.\n\nOther: It made me think of something – what if we never make it back? What if we're just going to... disappear?\n\nPerson: I know, I know. It's a possibility, but I don't think it's something we should worry about right now. We've got food, shelter, a fire... that's what we need to focus on. And we've got each other, which is more than I can say for some of the others. Let's just take it one step at a time, okay?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "\"Yeah, I know it's not easy, but we're not done yet. We're still building this raft, and if we're smart, we can make it work. We'll get through this, together.\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Person: Yeah, I'm going. Let's move out. We can all follow her, but if we're slow, she'll be left behind. Donatello, meet me by the door.\n\nOther: I'm already running - I saw the flash of the white light on the horizon. It's the rescue team."
+    }
+  ]
+}

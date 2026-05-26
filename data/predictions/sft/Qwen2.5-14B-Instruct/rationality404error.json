@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "rationality404error",
+    "agreeableness": "32.0",
+    "openness": "80.0",
+    "conscientiousness": "21.0",
+    "extraversion": "82.0",
+    "neuroticism": "59.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "rationality404error__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey.\n\nHey — breathe.\n\nSomeone pick up the radio and answer it. Donatello — you. You're the clearest thinker right now, and that's what they need on the other end of that call.\n\nThe rest of us just — stay where we are. Don't move. Don't do anything that makes this moment go sideways.\n\nWe made it.",
+      "response_pred": "*Hits the table with his hand, not hard, but with enough force to make a sound. His eyes are wide, searching for something, anything. They land on you.*\n\n\"I CAN'T DO THIS. I CAN'T DO ANY OF THIS.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You weren't easy. But you were useful, and more than that — you were honest when it counted. The crackers thing, the notebook, the raft plan with the drowning math written in plain language like a weather report. I actually needed that. We all did, even when we didn't want it.\n\nI think 'easy to be around' is maybe overrated as a survival trait.\n\nYou okay?",
+      "response_pred": "You've been… you've been real. More real than I think a lot of us have been in a long time.\n\nThat doesn't mean it's okay. But it's not like we can just make some grand speech that's going to fix this.\n\nFix this, to me, means… you're still here. You're still here and you're still talking to us.\n\nI don't have any magic words for you, but — I'm glad you're still here."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to leave this place better than we found it.\n\nI'm not saying we owe the jungle a tidy campsite. But I think we'll feel weird about just walking away from it — like we were never here, or like we're pretending the last three days didn't happen.\n\nI'm going to start breaking down what we built. Not because it has to be done. Just because doing it feels right.\n\nMichelangelo, you don't have to move if you don't want to. But if you want something to do with your hands while you watch the sky, I could use someone to hand me things.\n\nDonatello — when you're done with the notebook, whatever's in there is worth keeping. Make sure it comes with you.",
+      "response_pred": "Hey — come over here, okay? We're going to grab a handful of sand and draw something.\n\nWe're going to draw a map.\n\nAnd when we're done with that, we're going to decide who is going to go with me to the communicator, and we're going to take turns until we get it working. Does that sound reasonable?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "I had a dream about the day before we left home. My mom was making breakfast, and my dad was doing something in the backyard. I could hear him laughing from the kitchen. And then I woke up and realized — I don't actually remember what he was laughing at. I can't get that back. \n\nI know that's not news to you. But it's all I can think about right now. \n\nMichelangelo — what do you remember?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think the emergency you were saving it for was the one where everything fell apart and you were the only one who could hold it together. That's a very specific kind of fear — not fear of starving, fear of being the last competent person standing with nothing left to work with.\n\nI'm not going to make you feel worse about it. We're three hours from rescue and everyone's alive and that's the scorecard that matters.\n\nBut I want you to notice something: we made it through with what we had, together, and the hidden food didn't end up being the thing that saved us. The thing that saved us was Michelangelo telling us about the flight path, and DaVinci drawing flowers next to an SOS sign, and you writing everything down in a notebook like someone might need it later.\n\nYou can keep the food. Or you can put it in the pile. Either way, I think you already know what the right thing is, or you wouldn't have laid it out.",
+      "response_pred": "What was it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd talk less and listen more at the beginning. I came in pretty fast with opinions and plans, and most of the time that was fine, but there were a couple of moments where I think I steamrolled something that needed more room to breathe.\n\nI'd also have asked you directly, on day one, what you were afraid of. Not what you thought the risks were — what you were actually scared of. I think we would have gotten to the crackers conversation a lot sooner, and it would have been a different conversation.\n\nThe thing I wouldn't change is the order of priorities. Water, shelter, signal, people — roughly in that order, but never so rigidly that the people part got pushed off the list entirely. I think we got that mostly right.\n\nWhat's your answer? You wrote the question. You've had three hours to think about it, minimum. What would you change?",
+      "response_pred": "You wrote a report. *grinning* I think you've earned at least one bullet point of self-congratulations. \n\nAnd I'm curious about that question you left unanswered. Because I think the honest answer is: not much. We went out there with a handful of supplies and a handful of people who were good at different things. That's the setup you got.\n\nThe decisions you made were the ones you could make with the knowledge you had at the time. That's the only kind of decisions you can ever make. And if you're not allowed to rewrite the past, you don't have to rewrite it in your journal.\n\nI'm not going to tell you what to write. But I think you're going to find the answer you're looking for when you stop looking for it."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds exactly like you, and I mean that as a genuine compliment.\n\nCan I make one request? Put the question from the last page in the report too. Not buried in an appendix — somewhere people actually read it. Because that question is the most useful thing in the whole notebook, and I think you know that, or you wouldn't have written it down.\n\nThe resource data tells people what happened. That question tells them how to do it better next time. Both matter, but one of them is rarer.",
+      "response_pred": "There was a moment during the third day when I thought you were going to ask for the notebook. You never did, and I'm kind of glad you didn't. I think it was something you needed more than I did. But I'm also glad it's not just a notebook full of survival notes — it's a record of who we were, and how we made it through. That's worth keeping.\n\nYour turn. What do you want to do first when you get back?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's exactly what they were for.\n\nThe SOS was practical. The flowers were for us. For the part of us that needed to remember we were still people out here and not just a list of survival priorities.\n\nI think that's why you couldn't answer it at the time. It doesn't fit in the notebook. It doesn't have a resource value. But look at DaVinci right now — he's *cheering*. And part of the reason he still has that in him is because he never stopped being someone who draws flowers next to things.\n\nYou can't log that. But it mattered.",
+      "response_pred": "She drew them because she wanted to. Not as a stand-alone thing, because she drew them next to the SOS sign. I don't know whether she thought it was going to be something useful — or whether she just needed to draw flowers, and that was what was next to her when she made that decision. I don't know if it's an art project or a signal or both. But I do know that she drew them out of choice, not obligation, and that's not something that happens very often in our lives.\n\nI asked her about it a couple of days ago, and she said it was just a thing she needed to do. The SOS sign was the thing we needed to do. The flowers were just for her.\n\nSo we did both things."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know what this is.\n\nI've been moving since the second the plane stopped. Checking on people, making calls, talking through every decision like if I just kept thinking out loud everything would stay manageable. And now there's a boat on the horizon and I can't take a step toward it and I genuinely cannot tell you why.\n\nI think I was so focused on the problem that I forgot to leave any room for whatever comes after the problem.\n\n*looks at DaVinci*\n\nHow are you doing that? The cheering. Where does that come from?",
+      "response_pred": "It's not that I'm not glad we're getting rescued. I am. It's just… the last three days have felt like the only thing I was sure about.\n\nIt's not the same kind of sure as knowing we're going home. But it's a kind of sure that feels more honest.\n\nMaybe this is a harder thing to say out loud than it needs to be, but — the only thing I'm actually glad about is that I found out I could still let someone down after all this time. That's not a good thing. But it's real. And it's true.\n\nI don't think you can write a report about that. But it happened."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on — stay close to me. We'll walk over together.",
+      "response_pred": "I'm going. Just give me three seconds.\n\nThree things I want to do before I walk away from this place.\n\nOne — pull the notebook out of the pile. Anything in there you want to keep, you take it with you. Otherwise — I'm going to burn it. I don't mean that in a dramatic way. Just that it's not something I want to carry back to base camp.\n\nTwo — I'm going to write the question from the last page of that notebook on a palm tree at the edge of the camp. It's not going to be a secret. Just something that's there to read, if anyone looks.\n\nThree — I'm going to tell Donatello I'm sorry for the conversation we had over the radio. I don't think either of us knew what was actually coming next, and that's okay. But I'm not walking out of here without saying it.\n\nAfter that, I'm going to find the others and I'm going to move.\n\nYou ready?"
+    }
+  ]
+}

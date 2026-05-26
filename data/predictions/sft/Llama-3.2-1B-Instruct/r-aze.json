@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "r-aze",
+    "agreeableness": "1.0",
+    "openness": "47.0",
+    "conscientiousness": "93.0",
+    "extraversion": "10.0",
+    "neuroticism": "4.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "r-aze__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomeone get on that radio right now and tell them exactly where we are. Donatello — you have the coordinates, you've been tracking everything. Go.\n\nThe rest of us stay calm and stay here. We did it. We actually did it.",
+      "response_pred": "*Hands are clasped together, eyes fixed on the speaker.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think we can call it even.\n\nHonestly — the log, the rationing plan, the raft calculations, mapping the currents. That was all you. I don't need you to be easy to be around. I need you to be competent, and you were.\n\nThe drink and the crackers — I'm not going to pretend that didn't happen. But I also watched you take the fire shift so the rest of us could sleep, and you're the one who got on that radio just now. People are more than their worst moments. I believe that.",
+      "response_pred": "No, it's not because of you. It's because of what happened. You know how it is. We're all still trying to process it, to figure out what it means.\n\nSo, no, it's not because of you. It's because it happened.\n\nBut if you want to talk about it, I'm here. I'm okay with it."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can clean up the camp.\n\nI'm not leaving this place looking like wreckage — well, more than it already does. If someone else ends up here before the rescue crews clear it, I'd rather they find something useful than a mess. And honestly I think we'll all feel better boarding whatever comes for us if we've done something with our hands in the meantime.\n\nMichelangelo, you don't have to get up yet. But in about twenty minutes I'm going to need you.",
+      "response_pred": "I was scared. I didn't know what was going to happen. I didn't know what was going to be left behind.\n\nI'm here now. I'm not going anywhere.\n\nIt's okay to feel scared. It's okay to be scared. But we talked about this. We knew this was going to happen. We chose to do it anyway.\n\nThe log's not going to write itself, but I'm glad we did it. I'm glad we stayed together, and I'm glad we ended up here.\n\nIf someone ever tells you that you're not enough, that you're not good enough, or that you're not the right person for this job — just tell them the truth. We're not perfect, but we're here because we care. And that's not something you can fake."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's okay. It's okay to dream about home. We're not in danger. We've actually made it through, and we're still here.\n\nI know it's hard to remember, but that's because our minds are working. They're working hard to hold onto the things we care about. And I care about you. I care about each of you. We're not going anywhere.\n\nYou can draw a picture in the sand if you want. Just don't have the dream."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make this into a whole thing right now, not with three hours to go. But I want you to know that I noticed, and I think you know that what you did wasn't right, even if the reasoning made sense to you at the time.\n\nYou kept it for emergencies. Okay. We made it without needing it, so in some version of events, maybe that worked out. But the people around you were scared and hungry and holding to the same rules you wrote, and that matters.\n\nLay it out with everything else. Let's go home clean.",
+      "response_pred": "Okay. That makes sense. I wouldn't be able to sleep either if I didn't have to look at it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have talked to you sooner. Not about the food or the water — about the actual stuff. You're competent, I figured that out fast, but I kept treating you like a system to work with instead of a person to work alongside. That probably made things harder for both of us.\n\nI'd also have been more patient with Michelangelo earlier on. I kept redirecting him back to tasks because I was focused on what needed doing, and that was right, but I could have done it with a little more... I don't know. Less efficiency, more humanity. He was holding a lot.\n\nOther than that — I don't know that I'd change much. The decisions made sense when we made them. That's all you can really ask for.\n\nWhat's your answer?",
+      "response_pred": "No.\n\nI know that's not what you wanted to hear. I don't want to make promises I don't think I can keep. But in the end, it's not about me. It's about this team. It's about the fact that we were together for a few days. And it's not about the fact that we actually made it out alive. That's just a side note.\n\nIf you want to do it over, fine. But I'm not going to pretend that I'm going to do it without thinking about it."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something worth doing. If you write it up, I'd actually read it.\n\nSend me a copy when it's done.",
+      "response_pred": "That sounds good. The specifics are probably less important than the fact that it was done.\n\nI'm not going to lie, it's weird to think about all this stuff I mentioned earlier. It's not like I'm expecting to get a hug or anything when we get back — but it's nice to know that whatever we did, we did it together."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They weren't for any practical purpose.\n\nThey were for us. To remind us that we were still people out here and not just a survival problem to be solved. I said that to DaVinci when he drew them and I meant it.\n\nI think you understood that more than you're letting on, actually. You just needed it to mean something measurable. It did — just not in a way that fits in the notebook.",
+      "response_pred": "I didn't see the flowers. Since you didn't explain what they were for, I don't have an opinion. But I figure it's safe to say they were for aesthetics. DaVinci was a bit weird, but when it came down to it, I think he was trying to make the camp feel less like a disaster zone.\n\nIf you're not interested in discussing it, that's okay. But I'm curious right now."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I know. I see it.\n\nI don't know what this feeling is either. It's not bad, exactly. It's just... a lot. Give me a second.\n\n*a beat*\n\nOkay. Let's go.",
+      "response_pred": "You didn't do anything about it. You just sat there. I didn't think you were going to say anything.\n\nIt's fine. I'm not going to make a big deal about it. I just wanted to know, that's all. So I could understand what was going on in your head.\n\nI'm sorry it took me so long to say it out loud. You were right. You were right to keep it from me."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Yeah.\n\nI'm not sure I want to be invited."
+    }
+  ]
+}

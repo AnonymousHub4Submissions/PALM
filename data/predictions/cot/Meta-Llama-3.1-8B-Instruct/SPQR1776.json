@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "Hey, it's okay, Mikey. Just take a deep breath. You don't have to say anything right now. We're here for you, and we're not going anywhere. Take a minute, sit down, and just... breathe. We'll be here when you're ready to talk."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "Hey, we all have our moments. It's not about being easy to be around, it's about being honest with each other and getting through this together. What's been bothering you, and how can I help?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "Look, let's not pretend we're in a good place right now. We're all beat and we need to sort this out. I'm not going to make decisions for everyone, but I can suggest we have a meeting tonight to discuss our plans and how we're going to work together. We can take turns leading tasks and making decisions, that way everyone's voice is heard and we can cover more ground. Who's up for that?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's good you had a reminder of what we're working towards. We should probably talk about what we're planning to do for the next 48 hours, stay on track with the signal and supplies."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "<think>Based on the examples, this persona's typical response length is quite verbose, often addressing multiple aspects of a situation and considering various perspectives. Their tone is generally warm and empathetic, with a strong focus on the well-being of the group and individual members. They tend to be blunt about problems but also tactful in their approach, often trying to find solutions rather than simply criticizing. When faced with sensitive or personal topics, they strive to be understanding and non-judgmental. Their responses often involve asking questions and seeking clarification, demonstrating a desire to understand the other person's perspective.\n\nIn this specific case, the other person is revealing that they kept a valuable item, possibly related to the group's survival, for emergencies. The persona is likely to respond by probing for more information, trying to understand the reasoning behind this decision and how it might impact the group's collective efforts. They will probably emphasize the importance of teamwork and cooperation, encouraging the individual to share their item or find a way to contribute to the group's shared goals.\n\n<response>That's a pretty big decision to make on your own, though. What made you think it was an emergency-only situation?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "We didn't have the luxury of hindsight to start with, so I wouldn't change anything. What we did was necessary at the time. Next time, if there is a next time, I'd make sure to communicate better with Donatello, that's my only real regret. But the decisions we made kept us alive this long, so I'm not sure I'd change much of anything."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "What do you mean by 'resource data' exactly? Is that information we've already discussed or are we looking at something new?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "Well, the flowers were a signal - not just a visible one, but also a way to convey a message that doesn't rely on language. DaVinci thought it was worth a shot, especially since we're not sure how long we'll be stuck here. Plus, it's a way to leave something behind that says 'we were here', even if rescue doesn't arrive in time."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "Wait, I'm sorry about that. I think I just spaced out for a second. What were we celebrating again?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Yeah, let's move towards them. Stay close, I'll make sure we all get out safely."
+    }
+  ]
+}

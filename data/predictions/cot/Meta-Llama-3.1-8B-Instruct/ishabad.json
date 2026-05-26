@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ishabad",
+    "agreeableness": "18.0",
+    "openness": "9.0",
+    "conscientiousness": "42.0",
+    "extraversion": "22.0",
+    "neuroticism": "80.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. That's it. That's what we've been waiting for. Say something back to them.",
+      "response_pred": "think>Based on the examples, this persona tends to respond in a concise, straightforward manner, often cutting through emotional or sensitive topics. Their tone can be blunt, yet not necessarily dismissive or insensitive. They prioritize action and problem-solving over emotional discussions. Given the context, where the other person is visibly shaken and struggling to speak, a response that acknowledges their distress and encourages them to communicate is likely. \n\nI'd categorize their typical response length as relatively short, with an emphasis on getting to the point. They use simple, direct language, and often include a call to action or a proposal for what to do next.\n\nConsidering the situation, a suitable response might be something like \"Hey, what's going on? You okay?\" or a similar expression of concern, paired with a gentle prompt to communicate. This acknowledges the other person's emotional state without getting too bogged down in it, and helps to move the conversation forward."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though. That's what matters.",
+      "response_pred": "Hey, we all got our stuff to deal with. Just try to keep up, okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours, let's at least make this place look like we tried. Come on.",
+      "response_pred": "Look, we can't just sit here doing nothing. I'll go gather some firewood, see if anyone else wants to join me."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "<think> The persona's typical response length is fairly terse, often concise and to the point. Their tone is often blunt and straightforward, addressing the issue at hand without much embellishment. When not focused on immediate tasks or crises, their responses can be somewhat dismissive, reflecting their low agreeableness and tendency to not engage in emotional or philosophical discussions. They tend to avoid deep conversations and instead focus on finding practical solutions or addressing pressing concerns. In this particular context, the mention of a dream about home might not elicit much of a response, as it doesn't seem to have any direct bearing on their immediate survival or the group's situation. They might brush it off or change the subject, unless it somehow relates to a practical concern or a way to improve their situation.  \n\n<response> Okay what's the plan for today then?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah but we were the emergency. We were all the emergency, the whole time.",
+      "response_pred": "What's in it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably trust people more upfront instead of waiting for things to go sideways. Like we wasted time being suspicious of each other when we could've just been straight from the start. That's what I'd change.",
+      "response_pred": "I don't know, what's the point of changing anything? We made it this far, didn't we? Focus on getting rescued, not replaying what-ifs."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, honestly that sounds like something worth reading. Send it over when it's done.",
+      "response_pred": "Just make sure it's accurate, we can't afford to miscount our resources."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Honestly? None. That's kind of the point.",
+      "response_pred": "They were for morale, or so I thought. Don't really see the point now."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "Hey, I'm fine. Just... think I'm gonna take a minute, alright?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Come on.",
+      "response_pred": "Yeah, let's go. Stay close."
+    }
+  ]
+}

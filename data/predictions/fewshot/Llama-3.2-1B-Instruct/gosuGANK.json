@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "gosuGANK",
+    "agreeableness": "8.0",
+    "openness": "80.0",
+    "conscientiousness": "43.0",
+    "extraversion": "96.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": "26.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.\n\nSomeone get on that radio, like right now. DaVinci, you've got this, just breathe and talk. Tell them who we are, how many of us there are, and that we need rescue. That's all you have to say.",
+      "response_pred": "You: *pauses, taking a step back, eyes fixed on him* Hey, hey... what's going on? What's wrong? *speaks softly, trying to calm him down*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Haha no you weren't, but honestly? We wouldn't have made it this far without you. The rationing plan, the raft, keeping track of everything when the rest of us were losing it. You were doing what needed to be done.\n\nYou could've been warmer about it, yeah. But like... you kept us alive and organized when it mattered. That counts for a lot.\n\nWe're good. Seriously.",
+      "response_pred": "Other: I've been thinking about all the times you stood up for me, no matter how small it may have seemed. You know, I've always felt like you're one of the few people who really get me, but lately, it feels like I'm just waiting for you to come around.\n\nOther: Mostly just because you're trying to be in charge, it feels like. I'm not trying to be a baby, but sometimes I feel like you're not listening to me, like you're not hearing what I have to say.\n\nYou: Honestly? I didn't realize how much I was interrupting you at first, but now that you mention it, I can see how it might have felt that way. I guess I just got lost in my own thoughts and didn't realize what was going on.\n\nOther: Yeah, I can see that. You've always been a bit... intense, but I guess I've just been trying to navigate this crazy world around me, and it's been hard to keep up.\n\nYou: I know what you mean. I've been trying to do the same for you, but it's been hard when I see you getting hurt, or getting frustrated. I just want you to be happy, you know?\n\nOther: Happy? You're always saying how we're gonna be happy, but it's not like we know what that means. We're just stuck in this situation, and I don't know how to make things better.\n\nYou: That's not true. I know how to make things better. I know that we're strong, and we can get through this. We just need to stick together, and support each other."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's actually clean this up a little before they get here? Like I don't know why but it feels wrong to just leave it trashed. Michelangelo come on, off your back. DaVinci you're already packing so just keep going. Let's go out on something that looks like we had it together, even a little bit lol.",
+      "response_pred": "*Michelangelo breaks free from the blanket and scrambles to his feet, stretching his arms and legs. He gives a curt nod to DaVinci, who is still sitting by the campfire, and then starts gathering firewood. He's using a lighter to start a fire, his movements economical and efficient.* \n\nOther: *The three of them continue to drift apart, each doing their own thing. No one takes charge. The silence settles over the camp, a heavy stillness that seems to weigh heavily on the group.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "You: Honestly? That's actually kind of sweet. I've been feeling really stuck lately, like I'm just going through the motions. But hearing you talk about home, feeling like it's still there, makes me wonder if it's even really gone. Like, what's the difference between here and there, really?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... I believe you. But you could've just said that. We all would've understood \"I'm keeping this back in case things get really bad.\" That's a reasonable call.\n\nWhat's not great is that we found the empty bottle and the crackers and had to just... wonder. That's the part that messed with people, not the hoarding itself.\n\nAnyway. It's out now. We made it. I'm not gonna hold it against you, I just hope you know next time — and hopefully there is no next time — that you can just tell us things. We're not idiots, we can handle hard information.",
+      "response_pred": "You: Honestly? I don't know if I want to know. What if it's not just for emergencies? What if it's something else? Like, what if we were meant to get out of here and we couldn't? That's a lot to process."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably talk more. Like not about tasks and logistics, just... actually check in with people more. I spent a lot of time managing situations when sometimes what someone needed was just for me to sit with them for a minute without trying to fix anything.\n\nI'd also call out the supply thing sooner. I knew something was off and I waited too long because I didn't want to cause drama. That was the wrong call.\n\nWhat would you change? You left yourself the question, you must have something in mind already.",
+      "response_pred": "You: Honestly? I'd change a lot. Like, a ton. I'd change how we handled the whole situation with Donatello's first-aid kit. In retrospect, it was a huge mistake to not check it sooner. I mean, we knew it was old and running low, but we didn't know it was that bad. If I had to do it over, I'd make sure to inspect it more carefully before the crash, and I'd probably have stopped at a rest stop to let it get checked out before we got back on the boat. Or, at the very least, I'd have made sure someone else was checking it out. You were right, it was too late for that, but if I had it to do over... yeah, I'd change that.\n\nOther: Oh man, you're really thinking about it. I'm surprised you're not just dwelling on how we almost died.\nYou: No, I'm just... trying to be realistic. It's not like we don't have a lot to be grateful for. I mean, we made it out alive, and we have our lives back. That's a pretty good deal, especially after what happened today. But if I'm being honest, there are a few things I wish I had done differently. Like, I wish I had been more careful with the supplies. We were all so caught up in the moment that we didn't think about how our actions would affect the future. But that's a problem we'll have to deal with another day.\n\nOther: You're still thinking about the plane, huh?\nYou: Yeah, I am. It was a wake-up call, you know? It made me realize how lucky we are. I mean, we were so focused on getting out of the situation that we didn't take a step back and think about the bigger picture. And it's not just the plane – it's the whole experience that's been so wild. I keep thinking about all the things that went wrong and how we could have done things differently. But at the same time, I'm just glad we're all alive and that we got to experience this crazy thing together. It was... it was something else, that's for sure."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that tracks so much for you. Honestly though, do it. Like that kind of data could actually be useful for someone someday, not just as a record but like... if anyone ever ends up in a situation like this again, knowing what four people actually consumed over five days, what worked, what didn't — that's real information.\n\nJust maybe add a chapter about the human stuff too, not just the resources. The notebook has it all in there anyway right? Don't leave that part out.",
+      "response_pred": "You: That sounds like a solid plan. How's the report coming along, are we all on the same page with what you're looking for?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. Zero practical purpose.\n\nBut like... does everything have to have one? He needed to put something out there that was just his, just human, not survival math. And maybe if a rescue plane saw an SOS with flowers next to it they'd know there was still someone down here with enough spirit to draw flowers. That's not nothing.\n\nI think that's what they were for. Not for the rescue. For us.",
+      "response_pred": "Honestly? I think they served as a kind of... emotional marker, I guess. Like a visual reminder of the people we've lost, and the people we've left behind. When we're out here, it can get pretty dark and isolated, and it's easy to lose sight of what's going on back home. The flowers... they were like little flags, reminding us of the world we left behind, and the people we left behind.\n\nDaVinci, being the genius that he is, figured out that the reflective surface of the flowers would actually bounce sunlight back to the sun, giving us a signal that would be visible from a long way away. It's not the most efficient way to communicate, but it's better than nothing. And it's also a bit of a distraction, which is nice, because it's a nice thing to look at in the midst of all this chaos.\n\nMichelangelo, on the other hand, just thought they were cool. He loved the way they looked, and he kept drawing more and more of them. I'm not sure what he saw in them, but he was happy to keep them."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good, I just... need a second. It's weird right? Like you spend all this time just trying to get to this moment and then when it actually happens you kind of freeze up.\n\nGo ahead and wave them in, I'll be right there. I just want to look at this place for one more minute. Is that stupid lol",
+      "response_pred": "You: *still sitting quietly, eyes fixed on the figure across from you, a hint of concern creeping into my voice* Michelangelo, what's going on? You look... different."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go together.\n\nYou first though, I've got you.",
+      "response_pred": "Other: Oh my god, I'm so glad they're here. Let me get my gear. *starts gathering supplies*\n\nYou: *smiles and nods, then turns to face the others* Yeah, I'm going. Let's move out. We need to get to the beach ASAP and set up camp. We've got a long night ahead of us. *starts walking towards the beach, but then stops and turns back to the others* Michelangelo, you okay? You look a bit shell-shocked.\n\nOther: *nods, still looking a bit shaken* Yeah, I'm fine. Just... I'm glad they came. I don't know what I would have done.\n\nYou: *nods and continues walking* Come on, guys. We've got work to do. We need to get set up and start a fire. *keeps walking, eventually stopping at the water's edge* We've got a plane to watch out for, and we need to know where it is.\n\nOther: *sits down on the beach, looking out at the water* I don't know if I'm ready for this. I don't know if I can do this.\n\nYou: *sits down beside her, placing a hand on her shoulder* You're doing great, Michelangelo. We're all doing great. We're in this together. *looks out at the water* We just need to stay vigilant and keep our wits about us. We'll be fine. *pauses, then turns to the others* Okay, let's get to work. We've got a long night ahead of us."
+    }
+  ]
+}

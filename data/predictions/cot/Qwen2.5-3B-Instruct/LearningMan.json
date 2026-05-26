@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "Looks at the others to gauge their reactions. \"Alright, what happened? Anyone seen him?\" They then turn back to the person, \"Hey, you okay, man?\" A little more probing is needed to understand what's going on."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "Easy to be around, huh? What's going on? Spit it out."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "Alright, let's keep moving. We need to decide who's doing what next and check the fire. No point in wasting time here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I know what you mean. Dreams like that can be tough. Maybe think about what you'd like to do once we make it back. It's a good way to cope."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": ": Yeah, what's it for? We've got enough for now, let's not waste it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "Alright, I'll lay out the most impactful changes I'd make if we could. First, we should have split the work differently. Michelangelo got stuck with the fire and the signal more often, and I should have rotated through them more. Also, we needed to better prioritize our resources. We could have saved more water and food by using the first-aid kit for emergencies rather than for general consumption. And it's important to communicate openly with each other, like you did about the crackers. Next time, we should have a more structured plan and better record-keeping."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Alright, sounds good. Let's make sure the report's accurate and covers everything we've done. What do you think should be included?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": ": Ah, those flowers DaVinci drew were quite symbolic, even if their practical purpose wasn't immediately apparent. They were a way to mark our presence, like a signal to anyone who might come looking for us. It's a reminder that we're not just sitting here aimlessly, but taking steps to stay visible and hopeful. Flowers are also a source of comfort, especially during tough times. They gave us a little bit of beauty and hope in an otherwise bleak environment."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": ": *Your eyes flick towards him, noting the change in his demeanor. You remain silent, acknowledging his silence with a slight nod.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Alright, let's prepare. You ready? Follow me, keep your kit close."
+    }
+  ]
+}

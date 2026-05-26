@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ladylattemotif",
+    "agreeableness": "0.0",
+    "openness": "95.0",
+    "conscientiousness": "7.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "f",
+    "age": "25.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Pick it up. Answer it.",
+      "response_pred": "Hey. It's okay. You don't have to say anything if you don't want to. Just… take a breath, okay? We're here."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Those aren't unrelated things.",
+      "response_pred": "It's tough, I get that. But we're here now, and that's what matters. Can we catch up on the rest later? Right now, let's just focus on getting through today."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the SOS still marked in the sand*\n\nWe should probably leave this reasonably tidy. Not for us — I know we're not coming back — but because if another plane comes down somewhere near here, some of this might still be useful to someone.\n\nAlso I'd just feel weird leaving it like this.\n\n*starts gathering things into a rough pile*\n\nAnyone want to help, or are you all having your moments? I can do it, I just — Donatello, you could at least tell me which of this kit is worth keeping versus leaving behind.",
+      "response_pred": "Hey, I know it's been a tough day, but we need to set some things straight here. Michelangelo, you head back to the fire and get some rest. DaVinci, can you start gathering materials for the shelter? I'll handle the water collection in the morning. Let's not let today's fatigue turn into tomorrow's problems. We're in this together, and we need to act like it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Yeah, me too. Dreams like that can feel so real, it's like you're back there for a moment. Did you have a good dream or a hard one?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I believe that's what you told yourself.\n\nBut we had a rationing plan. You wrote it. And then you kept resources back from it — twice, that I know of, and now whatever's here. So either the plan was real or it wasn't, and you were the one who decided, alone, that it wasn't. That's the part I can't quite let go of.\n\nI'm not going to make a thing of it now, three hours before rescue. But I want you to know that I noticed, and I noticed what it cost — not just in crackers or a drink, but in whether Michelangelo and DaVinci trusted the situation they were in. That matters.\n\nYou kept us alive. I meant that. I also think you know this wasn't right. So I'll leave it there.",
+      "response_pred": "Kept what? Are you talking about the crackers? If so, emergencies are now, aren't they? We need to use everything we've got wisely, and hoarding even a little bit skews the rationing.\n\nI'm not angry, but I need you to understand that this isn't a game. We're in this together. If we're going to make it, we can't afford secrets or selfishness. Can you work with that?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had the conversation with you about the resources earlier. I kept waiting for the right moment and telling myself I'd handle it tonight, or after this other thing was sorted, and the right moment doesn't really exist — you just have to say the thing.\n\nI'd also have been clearer with Michelangelo sooner about what we actually needed from him. I was gentle with him because he was struggling, and I don't regret that exactly, but there's a version of gentle that's also honest, and I think I leaned too far into just... managing him rather than treating him like someone capable of rising to it. He might have surprised me if I'd asked more directly.\n\nWhat would you change? You clearly know what you'd write — you left yourself the question.",
+      "response_pred": "I see what you're doing. It's a good thing to do, keeping a record. But the question at the end — that's not just for you, is it? It's for everyone. Because if we're going to learn from this, then we all need to be part of the reflection.\n\nWhen I think about what I'd change, I think about being more consistent with the tasks I say I'll do — like the signal checks. I let it slip today, and it's not like I didn't know it was coming up. I just got caught up. But that's not an excuse. It's a reminder to be more diligent with the smaller things, because they add up.\n\nWhat about you? What do you think you'd change?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds useful, actually. If it ends up somewhere people can read it — search and rescue teams, survival training, whoever — then this whole thing meant something beyond the four of us getting out. \n\nMake sure you include the stuff that didn't work as well as the stuff that did. The notebook, the rationing breach, the communication gaps. The honest version is the one that's actually worth anything.",
+      "response_pred": "Sounds like a good idea. Having everything in one place will help us keep track of what we have left and how much we can afford to use. Just remember, the rest of us aren't mind-readers. If this report is going to be useful, it needs to be shared, not kept in a private notebook."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't signal anything, they didn't catch light, they didn't do anything functional.\n\nBut DaVinci drew them because he's the kind of person who, even when he's terrified and exhausted and holding everyone else together, still wants to put something beautiful next to the thing that might save his life. I think that's worth something. I couldn't tell you exactly what, but I think it is.\n\n*doesn't take her eyes off the boat*\n\nI'm glad he put them there.",
+      "response_pred": "They weren't really for practical use, at least not in the way you're thinking. DaVinci mentioned she wanted to make a visible mark on the landscape — something that could be seen from above, just in case anyone was looking our way. And flowers, they're universal. Even if the plane hadn't gone down, they'd be a simple way to say \"we're here\" without needing to read a sign. Plus, they just make the place feel a little less stark and a bit more... homey, I guess. Not much, but it's something.\n\nWhat about you? Do you have any particular rituals or things you do to make the place feel a bit more like home?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Don't wait for me. I'm fine. I just need a second.\n\n*finally looks at him*\n\nYou drew flowers on the beach. On the worst day. I keep thinking about that for some reason.\n\nGo on — wave them in. You're the right person to do it.",
+      "response_pred": "I know it's hard, but try not to let it get to you. We're in a tough spot, but panicking won't help. Let's focus on what we can do, okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, then.",
+      "response_pred": "Yeah, of course. Let's go. Stay close."
+    }
+  ]
+}

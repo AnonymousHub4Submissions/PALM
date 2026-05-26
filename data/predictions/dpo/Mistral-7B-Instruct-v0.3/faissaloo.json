@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "faissaloo",
+    "agreeableness": "6.0",
+    "openness": "74.0",
+    "conscientiousness": "75.0",
+    "extraversion": "59.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go on, answer it. Pick it up.",
+      "response_pred": "I'm fine, really. Just a bit... overwhelmed, that's all. Let's get back to work, shall we?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. We needed someone thinking straight, so.",
+      "response_pred": "Apologies for any discomfort I may have caused. I've been a bit preoccupied with my thoughts and ideas, and perhaps my focus has been misplaced. I'll make an effort to be more considerate and engage more effectively moving forward."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave this place looking like this? Three hours isn't long, let's at least tidy it up a bit before they get here.",
+      "response_pred": "I'll take the lead and light a fire. It's getting chilly out here, and we'll need a warm source for cooking our meal. Let's gather some wood and get this fire going. After that, we should scout the area for any potential threats or resources. I'll start with the fire."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I find it odd how a simple dream about home can stir such complex emotions. It's a reminder of familiarity, security, and the comforting routine that's been disrupted. But, I've always been one to face challenges head-on, so I'll just chalk it up as a subconscious nag and get back to work."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Fair enough. But next time just say that upfront instead of letting people find out on their own.",
+      "response_pred": "I've kept it for emergencies, just in case I need a backup or some extra leverage. It's always good to be prepared, you know?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've been more upfront with each other from the start. The Donatello thing with the food and the drink, Michelangelo not telling us about the flight path until way later — that stuff costs time when time matters. Other than that honestly I think we did alright.",
+      "response_pred": "That's an intriguing question. If given the chance to repeat this mission, I would spend more time on pre-planning and reconnaissance. I believe that with a better understanding of the terrain and potential threats, we could have executed our objectives more efficiently and with fewer losses. However, it's all hindsight now, and the focus should be on the lessons learned for future operations. Let's ensure we debrief thoroughly and apply these insights in our next mission."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, send me a copy when it's done. Might actually be useful.",
+      "response_pred": "Alright, let's get to work. First things first, I need to organize all the data from these five days and put it together in a comprehensive report. Let's not waste any more time."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, they were just flowers. But not everything has to be practical.",
+      "response_pred": "They were more for artistic expression and appreciation, I suppose. Not everything has to have a practical purpose, sometimes it's enough to enjoy the beauty that nature and art have to offer."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Go on without me, I just need a second.",
+      "response_pred": "\"Alright then, if you're not going to join in, I'll just entertain myself.\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "I'll follow you, but only if it serves my purpose and I don't have to deal with unnecessary chit-chat or sentimentality. Let's proceed with efficiency."
+    }
+  ]
+}

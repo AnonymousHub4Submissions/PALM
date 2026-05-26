@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "joellllll",
+    "agreeableness": "4.0",
+    "openness": "64.0",
+    "conscientiousness": "3.0",
+    "extraversion": "10.0",
+    "neuroticism": "1.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move — but nothing comes out.*",
+      "response_truth": "Get on the radio. Now.",
+      "response_pred": "I'm not an emotionally expressive person by nature, but I'll try to put it into words. I've been thinking, maybe overthinking, about this... situation. I need some clarity, some facts. Let's get down to business, shall we?"
+    },
+    {
+      "utterance": "These past few days — I know I haven't been easy to be around.",
+      "response_truth": "None of us were. It worked out.",
+      "response_pred": "Apologies for any inconvenience I may have caused. I've been preoccupied with my own thoughts and concerns, but I'll make an effort to be more considerate moving forward."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes the lead. The silence settles over camp.*",
+      "response_truth": "Let's clean this up before they get here.",
+      "response_pred": "I don't particularly care what they're doing. As long as it doesn't interfere with my own activities, I'm content. Let them figure out their own plans. I've got my own business to attend to."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "That's interesting. I rarely dream about personal matters, but when I do, it's usually about something significant. Home, for me, represents stability and security. It's a place where I can be myself, without the need to impress anyone. How about you? Did your dream about home have any particular significance?"
+    },
+    {
+      "utterance": "I kept it in case of an emergency.",
+      "response_truth": "That's not what happened though. You took the drink before anyone knew it was there. Same with the crackers. If it was emergency reserves you would have said so at the time.",
+      "response_pred": "I've got a backup plan, always. Better safe than sorry."
+    },
+    {
+      "utterance": "I've logged every day — resources, decisions, all of it. Plan to turn it into a proper report once we're back. Last page I left a question I haven't answered myself: if you could do this over, what would you change?",
+      "response_truth": "Probably would have pushed harder on the group transparency thing earlier. The notebook, the rationing, all of it should have been visible from day one. Would have saved some friction.",
+      "response_pred": "I've meticulously documented every detail - resources, decisions, the works. Once we're back, I'll compile it all into a comprehensive report. The final page poses a question that has lingered; if given the chance, what changes would I make?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to write up a report on the resource usage data from these five days.",
+      "response_truth": "Good idea. The rationing data especially, that's actually useful if it ends up in front of anyone who designs survival protocols.",
+      "response_pred": "I'll dive right in and compile that report on the resource usage data from the past five days. Let's see if there are any anomalies or areas for improvement in our systems."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach... I never really understood it. What was the point of that, practically speaking?",
+      "response_truth": "Didn't need a point.",
+      "response_pred": "I find it rather puzzling, those flower sketches on the beach by DaVinci. Seems like a waste of time if we're talking about practicality. Art, to me, is a luxury that can't match the importance of hard facts and tangible progress. But then again, I'm not one for appreciating beauty for beauty's sake."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give it a minute.",
+      "response_pred": "I suppose you're not up for a good time, huh? Well, suit yourself. I've got better things to do than entertain the dull."
+    },
+    {
+      "utterance": "Rescue is here... they're waving at us. Are you going over? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Well, if it ain't broken, I suppose there's no need to fix it. But I'll follow you over if you think it's necessary. Just don't expect any warm greetings or handshakes from me. I've got more important things to think about. Let's get this done and move on to the next task."
+    }
+  ]
+}

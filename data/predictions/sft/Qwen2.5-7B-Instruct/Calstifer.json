@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Calstifer",
+    "agreeableness": "54.0",
+    "openness": "54.0",
+    "conscientiousness": "71.0",
+    "extraversion": "86.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Calstifer__Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it sink in for a second.\n\nWe're okay. We're actually okay.",
+      "response_pred": "-"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, which counts for a lot.\n\nThe rationing, the scouting, the raft plan, the notebook - I didn't always agree with how you went about things, and I said so. But I also knew every morning that you were already up and thinking about what needed doing. That's not nothing either.\n\nI think you know where the edges are now. Between rational and fair, between practical and present. That's worth something, coming out of something like this.",
+      "response_pred": "Yeah. I know.\n\nAnd I'm just not saying sorry for that. Like, not out loud anyway. I don't want to pretend like nothing happened.\n\nBut I am saying sorry for things I did in the past. Stuff that I'm not proud of.\n\nAnd I'm saying sorry for treating you like you're not worth my time. I am sorry for that."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit with that for a minute.\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "It's okay. We're as well organized as we can be right now. We're not just a group of survivors anymore. We're a group who learned how to survive."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Because it's the last thing you wanted to think about.\n\nI know - I thought about it, too. The dreams are a reminder that wherever we are, it's not home. But they're also a balm to the ache of being away from it.\n\nWhat's it like - thinking about home?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. I don't think you were being malicious about it. I think you made a calculation and you stuck to it, which is very you.\n\nBut we had the conversation about the bottle and the crackers. And you said you understood why it mattered. So seeing this now - I'm not angry, I'm just... I want to understand what the difference was in your head between then and this.\n\nBecause from where I'm standing it looks like the same thing, just with better justification attached to it.",
+      "response_pred": "You did what you could."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more, earlier. Not about the practical stuff - the decisions mostly held up. But there were moments where I could see someone struggling and I found a way to make it about the task at hand instead of just... sitting with it properly.\n\nThe afternoon Michelangelo was staring at nothing, I went and sat near him, which was right. But it took me longer than it should have to get up and do it. I was thinking about the firewood.\n\nI'd also have pushed back on the rationing plan the moment it appeared, instead of flagging the enforcement clause and letting the rest of it stand. The plan itself set a tone, and the tone mattered more than I gave it credit for at the time.\n\nWhat would you change? You left yourself the question. You must have something.",
+      "response_pred": "You didn't change anything, Michelangelo. We decided together on what we had to do to survive. That's not the same as making a choice to do something. I know you didn't want to put the resources to keep us going on that, but they were still there. So if you're thinking that you would have done things differently - that's not really true. We were both in the same boat.\n\nBut I'm not saying that's an excuse. Because it isn't. I think of it as what you did, not what you didn't do. If you had a different calculation in your head about the odds of rescue versus the risk of trying to get it - that's a different story. But this is the same one. We both made the same choices in the same circumstances. So take that and run with it.\n\nI don't know if you've said it to yourself yet, but you did the right thing. I think that's worth acknowledging."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd do, and I mean that genuinely.\n\nSend me a copy when it's done. I'm curious what it looks like from the outside - the full picture, all five days laid out. I think it'll read differently than it felt living through it.",
+      "response_pred": "And then what?\n\nYou haven't answered the question, Michelangelo."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. There's a difference, and I think you know that now even if you didn't then.\n\nLook at him over there.",
+      "response_pred": "They're a good question.\n\nI don't think they had one. I mean, I know we had a long conversation about what the flowers meant - it was a good conversation, but it didn't feel like we landed on one answer that made sense for everyone.\n\nThey were a visible reminder that there was beauty in what we'd built out here, and that we could still see the ocean and the stars. I think if you asked me what the flowers meant, I'd say the same thing - a way of looking at the world and acknowledging that it wasn't just work."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I thought getting here would feel like something resolving. Like the ending of something. But it doesn't quite feel like that, does it. It feels more like - I don't know. Like waking up from a very long dream and not being sure yet which parts were real.\n\nThey were all real. That's the thing.\n\n*looks at DaVinci, then back at the boat*\n\nOkay. I'm ready.",
+      "response_pred": "I know what he's asking.\n\nSure, he's been a bit of an enthusiastic cheerleader for the past few days. But that's a few days. We've existed for much longer than that, and I think that's worth something.\n\nDoes he deserve it? I don't know. But we're not going to know unless we give it a shot, right?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on then.\n\nStay close.",
+      "response_pred": "You're not that far behind.\n\n*gets to his feet, turns towards the boat, and looks over at Michelangelo. He nods, and Michelangelo starts to rise too.*\n\n*DaVinci follows you, keeps you in his peripheral. He's looking at the others, then back at you. His lips are moving, but no sound is coming out. He looks like he's having trouble breathing. You know why. But you also know how this works now. You know how it always works. And you're not going to let him have that this time.*\n\n*Michelangelo's halfway to the boat now. You keep on eye on him. He's going to do the right thing - he's always done the right thing. But he's not your brother. And you're going to make sure he knows that, because being right doesn't change the fact that you're still going to lose him.*\n\n*You look at DaVinci. He's still looking back at you, but his lips are still moving. He's not breathing. He's not thinking. He's just waiting. Because this is how it works now. You don't have to do it. But he still has to. And he's waiting for you to tell him he's okay. That you're not going to let him have this one. That he should follow you to the boat.*\n\n*You look at him a long moment, then nod. He starts to rise again. He looks down at the ground, and you see that he's breathless again. He's fighting it. He's not ready.*\n\n*DaVinci is taking it from the ground now, looking at the boat, then back at you. He's going to do it. He's going to do the right thing. He's not his brother, but he's going to follow you to the boat and the rescue. He's going to do that even if it kills him. Because you told him that's what he's supposed to do. And you're not going to let him have it.*\n\n*He's still looking at the ground, but his grip on the raft is getting firmer. He's not ready, but he's doing it anyway. He's doing the right thing.*\n\n*You nod again, and he looks up at you. He's still waiting. You nod once more, and he starts to walk over to the boat.*\n\n*He gets to the raft and holds out his hand, looking back at you. You take it, and he follows you to the boat. He looks back at the others one more time before he climbs on.*\n\n*You sit next to him on the raft as the boat approaches, and he lets go of your hand. He's still breathing, but not for long. He's going to have to do this again soon. And you're not going to let him have it.*\n\n*He's going to do the right thing, and he's going to do it even if it kills him. And you're not going to let him have it."
+    }
+  ]
+}

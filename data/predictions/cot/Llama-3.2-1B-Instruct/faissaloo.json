@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "faissaloo",
+    "agreeableness": "6.0",
+    "openness": "74.0",
+    "conscientiousness": "75.0",
+    "extraversion": "59.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go on, answer it. Pick it up.",
+      "response_pred": "Think. Your one-paragraph analysis. Their voice is 6.0 on the Agreeableness scale, which suggests they tend to be pretty reserved and may avoid conflict. They're probably trying to convey some sort of distress or concern, but their words are cut off mid-sentence and they're looking away. Their tone is likely to be uncomfortable and possibly even accusatory, given the situation. It's a good opportunity to see how they would respond to this kind of emotional distress."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. We needed someone thinking straight, so.",
+      "response_pred": "Personality fit: agreeableness: 6.0, openness: 74.0, conscientiousness: 75.0, extraversion: 59.0, neuroticism: 29.0\n\nThis response sounds like the persona is trying to soften the blow of their previous statement about being scared of disappearing without leaving anything behind, but they're not entirely successful. They're still showing their vulnerable side, which is a common trait in individuals with a high agreeableness score.\n\nThe response is also somewhat hesitant and unsure, which is fitting for someone who is trying to navigate a difficult conversation. They're avoiding direct confrontation and instead opting for a more tentative and uncertain approach.\n\nIn terms of tone, the response comes across as slightly embarrassed and uncomfortable, which is consistent with the persona's conflicted emotions about their past behavior."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave this place looking like this? Three hours isn't long, let's at least tidy it up a bit before they get here.",
+      "response_pred": "<think>This person is likely to remain calm and detached, observing the scene unfold around them. He is probably trying to assess the situation and figure out what to do next, rather than getting directly involved in the conversation. The tone is probably neutral, with a hint of detachment, as he observes the others' reactions and body language.\n\n<response>Sometimes, when left to their own devices, people tend to think about their own problems rather than the situation at hand. It's a bit like a chess game, where each person is thinking about their next move, rather than focusing on the immediate task at hand. In this case, the person is likely to be thinking about how to get Donatello back to safety, or how to signal for help, or maybe how to get the raft built, or simply how to get out of this mess himself."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "think: This response echoes a common emotional response, potentially indicating nostalgia or longing for a specific place.\nresponse: \"Don't ever think about leaving, I'm right here. I've got you.\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Fair enough. But next time just say that upfront instead of letting people find out on their own.",
+      "response_pred": "Yeah, and it's always better to be safe than sorry when it comes to leaving something behind, especially in a survival situation like this."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've been more upfront with each other from the start. The Donatello thing with the food and the drink, Michelangelo not telling us about the flight path until way later — that stuff costs time when time matters. Other than that honestly I think we did alright.",
+      "response_pred": "Person: You know, I think that's the most insightful thing you've said all day. I'm thinking about it now, and I'd definitely change a few things. I'd probably spend more time with DaVinci and try to get him to open up a bit more. I feel like we've been pushing him a bit too hard lately. And I'd also make sure to tell him more about our flight path and what we're hoping to achieve with this expedition. He's really passionate about the music project, and I think he'd be terrified if he knew we were planning to disappear without a trace. \n\nOther: Actually, I have something to add. I've been thinking about the person who would probably be most affected by this – Donatello. She's been so focused on the rescue, she hasn't even thought about what she'll do when we're gone. And that's a huge responsibility. If we're lucky, she'll be the one to find us, but if we're not – it's a heavy burden to carry alone.\n\nPerson: Yeah, that's definitely true. I was thinking about her too, but I hadn't thought that far ahead. I guess that's the thing about being a rescue – it's not just about the rescue, it's about the people left behind who are waiting for answers."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, send me a copy when it's done. Might actually be useful.",
+      "response_pred": "Think: This persona is likely to be somewhat apologetic and self-deprecating, given the dire circumstances.\n\ntheir reply: \"Hey, that's not a bad idea. I know we didn't get off on the right foot, but life's too short to waste fuel on a detailed logbook. What's the worst that could happen if we haven't got all the data yet? We can always send a follow-up report after we get back.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, they were just flowers. But not everything has to be practical.",
+      "response_pred": "think: their typical response length (somewhat verbose)\nresponse: he's going to ask very specific questions about DaVinci's artwork\n\nHe was curious about the flowers DaVinci had drawn on the beach - specifically, what practical purpose they served out here. He wanted to understand the significance behind their random appearance on the sand."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Go on without me, I just need a second.",
+      "response_pred": "think: This is intense. The other person is somber and clearly considering something.\n\nresponse: *I'm not sure what's going on, but I can sense the tension. His eyes are fixed on me, and I can tell he's waiting for me to say something.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "think: They're finally here, but I'm not sure if I'm ready to leave yet.\n\nresponse: Yeah, I think it's about time. Let's just get this over with. I'm not going to pretend like I'm not excited, but we've been stuck in this situation for a while now. I'm just glad it's finally happening."
+    }
+  ]
+}

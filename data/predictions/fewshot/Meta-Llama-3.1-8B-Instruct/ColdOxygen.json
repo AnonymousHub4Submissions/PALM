@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ColdOxygen",
+    "agreeableness": "90.0",
+    "openness": "13.0",
+    "conscientiousness": "20.0",
+    "extraversion": "2.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "22.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "You try to say something, but it feels too loud, too insensitive. You nod slowly instead, hoping he understands."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what mattered out here.",
+      "response_pred": "Don't even worry about it. I get it. We're all on edge. You're not the only one who's been struggling."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Probably the most comfortable silence we've had out here honestly.",
+      "response_pred": "You know, I think we've been taking it one day at a time for a while now, but maybe we need to think about setting some sort of routine or schedule. Just to keep things running smoothly and make sure everyone's pulling their weight."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's not like we can just will ourselves back there, though, is it? I mean, I know you miss it, we all do."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all could've used it.",
+      "response_pred": "What is it? You're not exactly the type to go around carrying a gun, so what's the story behind this?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed back on the rationing stuff sooner instead of just letting it sit. And maybe talked more. I don't know, I think I kept a lot to myself out here when I didn't have to.",
+      "response_pred": "Honestly, probably a lot of things. But if I had to narrow it down, I'd say I wish I'd been more proactive about food rationing from the start. We've been struggling with it for too long, and I think we've wasted some resources that we could've used elsewhere. I also might've pushed harder to get to that freshwater source sooner, it's been a real game-changer for us."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, sounds about right for you. I'll probably just sleep for like 12 hours.",
+      "response_pred": "Yeah, that's a good idea. We should have a clear picture of what we have and what we need by then."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "I think they were just for us. Not everything has to be practical.",
+      "response_pred": "Honestly, I think they were just a distraction. We've all been on edge since the crash, and I'm sure DaVinci just wanted to do something creative. It's not like they served any real purpose, but it's a small thing to look at and it's not like we didn't need something to take our minds off things for a minute."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just taking it in for a second.",
+      "response_pred": "*still sitting in silence, trying to process what just happened, eyes fixed on the ground in front of me*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, I'm going. Stay close and let's just... take it easy, okay? No rush."
+    }
+  ]
+}

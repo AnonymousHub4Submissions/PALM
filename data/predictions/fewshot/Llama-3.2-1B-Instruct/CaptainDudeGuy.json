@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "CaptainDudeGuy",
+    "agreeableness": "15.0",
+    "openness": "95.0",
+    "conscientiousness": "85.0",
+    "extraversion": "15.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on the radio. Right now. Tell them our position, number of survivors, and that we're mobile. Go.",
+      "response_pred": "Other: *Pulls out a small, crumpled piece of paper from his pocket and hands it to you, fingers shaking* A note. From your family. *His voice barely above a whisper* Don't wait."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "That's an understatement, but honestly? You kept us alive. The log, the water plan, the raft design — that was all you. We can work on the interpersonal stuff when we're back somewhere with coffee and functioning plumbing.\n\nRight now, go make sure DaVinci doesn't accidentally tell them we're on the wrong continent.",
+      "response_pred": "\"Feeling's been a real challenge. We've all been trying to keep things together, but it's not easy when everyone's dealing with their own stuff. It's like we're all floating in a really turbulent sea and we're not sure which direction we're headed yet.\""
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here watching the clock.\n\nWe should leave this place better than we found it — or at least not worse. If there's any chance other people end up stranded here someday, the SOS stays visible, the fire pit stays usable, and whatever supplies we can't take get stacked somewhere dry and obvious.\n\nDaVinci, pack what's ours and leave what isn't. Michelangelo, when you're ready — no rush, you've got time — help me sort what stays from what goes.\n\nDonatello, whatever's in that notebook is worth keeping intact. Make sure it's secure before we board anything.\n\nThree hours is enough time to do this right. Let's do it right.",
+      "response_pred": "Michelangelo stirs the water, his fingers absently manipulating the twine as he searches for any sign of movement in the darkness. He closes his eyes, letting the cool water soothe his palms. The silence is almost palpable, a living thing that wraps around the camp like a shroud.\n\nDaVinci sits cross-legged on the ground, his eyes fixed on the faint glow of a nearby fire. His hands are clasped together in his lap, his fingers drumming a slow rhythm on the earth. The sound is almost like a lullaby, a soothing melody that seems to match the beat of his heart.\n\nDonatello lies on her back, her face upturned towards the stars, her eyes closed in a mixture of sleep and concentration. Her hair is a wild tangle of black locks, and her skin is a smooth, creamy white. The moon casts no shadows on her face, and her features seem almost serene, as if she's floating on a cloud of tranquility.\n\nThe air is heavy with the scent of smoke, sweat, and the distant tang of saltwater. The sound of the waves crashing against the shore is muffled, but the moon's gentle lapping against the shore creates a constant, soothing rhythm that seems to lull the camp into a state of deep relaxation.\n\nAs the night wears on, the camp becomes a tiny, intimate world, separate from the vast expanse of the ocean and the wild, untamed landscape beyond. The three of them are lost in their own little bubble of calm, their minds and bodies sinking into a state of deep relaxation, their thoughts and worries left behind in the darkness."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "You: Yeah, me too. It's funny how some memories stick with you long after you wake up. I'm pretty sure I was thinking about the beach and the campsite and the sound of the waves crashing against the shore. It was nice to just relax and not have to think about anything for a change.\n\nOther: You think it's because the plane crash has changed you, or not?\nYou: Honestly? I think it's both. The crash was a wake-up call, I guess you could say. It forced me to confront some of the assumptions I had about the world and about myself. And I think that's what's sticking with me – the feeling that I've lost a part of myself.\n\nOther: Do you think it's something that can be changed?\nYou: I don't know. I think we've all changed, but maybe that's not necessarily a good thing. We've all lost something, and that's what we have to deal with.\n\nOther: I've been thinking about that a lot lately. I've been wondering if maybe we should have just stuck with what we had instead of taking this crazy detour.\nYou: I don't know, that's a complicated question. On the one hand, I think we've gained something – we've gained each other, and we've gained a sense of purpose. But on the other hand, I don't know if it's worth it. We've lost a lot, and we've lost a lot of time."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make a whole thing out of it right now, three hours before rescue. But I want you to know that I noticed, Michelangelo noticed, and the fact that you're laying it out now means something.\n\nFor what it's worth — the emergency you were saving it for? We made it through without needing it. So maybe your math wasn't wrong, just... the execution could've used some work.\n\nTake the crackers with you. Consider it yours. But when we're back in the world and things feel scarce again, maybe talk to someone before you start stockpiling.",
+      "response_pred": "I'm sitting down with you. *looks around, then leans in* Alright, I think you're looking for a way to be prepared for emergencies, right? Like, what if there's something going on that we can't even see, but we need to know about?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for a daily check-in — like a five-minute sit-down where everyone says what they're actually dealing with, not just task status. Not a feelings circle, just... enough that I'd have known sooner about the food, about Michelangelo's family knowing the flight path, about DaVinci's reef idea before it was almost a solo swim into unknown water.\n\nI spent a lot of energy managing things reactively. Most of the fires I put out could've been smaller if I'd caught them earlier.\n\nWhat would *you* change? And I mean actually — not the optimized-resource version. The people version.",
+      "response_pred": "Michelangelo, that's a good point about the disappearing thing. I think it's something that'll be difficult to quantify, but if we're being honest, it's probably going to be one of the hardest things to do when you're the one who's not there to witness it.\n\nI'd change a few things if I had to do it over. One thing I'd do is try to be more aware of my own emotions and motivations. When things are going wrong, it's easy to rationalize or find a way to justify what's happening, but when it's a group of people you care about, you can get caught up in the emotional turmoil. I'd try to be more self-aware and take a step back when things are going badly.\n\nAnother thing I'd do is be more open with my emotions. It's easy to bottle up feelings or put on a brave face, but when you're in the midst of a crisis like this, it's essential to be honest with yourself and with others. I'd try to be more willing to admit when things aren't going well or when emotions are getting the better of me.\n\nI'd also try to be more decisive and follow the plan more closely. When we're all in the same boat, it's easy to get caught up in the fray and second-guess ourselves, but when you're the one who's responsible for making a decision, you can be more confident in your choices. I'd try to trust my instincts more and follow the plan more closely.\n\nLastly, I'd try to be more empathetic and supportive of my fellow crew members. When things are going badly, it's easy to get caught up in your own problems and forget about those around you, but when you're in a crisis, you need to be there for those who are struggling. I'd try to be more supportive and nurturing, especially to those who are feeling the most overwhelmed or anxious.\n\nThat's just my two cents, but I think if I had to do it over, I'd try to be more mindful of my own emotions and more decisive in my decision-making."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds about right for you, and I mean that as a compliment.\n\nSend me a copy when it's done. Genuinely. Not because I need it, but because I think you'll write something worth reading, and I'd like to see what these five days look like from your perspective on paper.\n\nAlso, put the daily check-in in there as a recommendation. Future reference.",
+      "response_pred": "You: Yeah, I'd like that. I need to know what we have so we can make the most of what we have. What kind of data do you want to include? Inventory, fuel consumption, water usage..."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. Zero practical purpose.\n\nBut the pilot who spots that SOS is going to see the flowers and know that whoever drew them hadn't given up. That there were still people down here who had enough left in them to draw something pointless and hopeful next to their distress signal.\n\nI think that's why I couldn't argue with it when DaVinci did it. Some things don't need to be practical to be worth doing.",
+      "response_pred": "They're for a makeshift signal, actually. I was trying to come up with something that wouldn't get us killed, and DaVinci saw an idea forming in his head. He drew a little drawing of a diving bell, with a rope and a anchor, but I think what he was really after was a symbol of what we had left behind. It's not much, but it's a start, and it might be enough to get some attention."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just give me a second.\n\nI've been making calls and moving pieces around for five days and now there's nothing to manage and I don't quite know what to do with that.\n\nIt's fine. I'm fine. Go ahead and wave them in — you're better at that than I am anyway.",
+      "response_pred": "*The silence stretches out for a moment, and then Michelangelo finally shifts his position, sitting up straight and looking around cautiously. He seems to be taking in his surroundings, his eyes scanning the perimeter of the beach before focusing on you.*\n\nYou: Michelangelo. You did it. You actually did it.\n\nMichelangelo: *His voice is barely above a whisper.* I didn't mean to."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "Yeah, come on. We've got this. Don't worry about it. It's not like we're going to be walking out of here without a plan or anything. We've got theSurvival Guide on the fuselage, and that's exactly what we need. It's not like we were planning to leave without it.\n\nDaVinci, you're with me. Michelangelo, you're with us. We're all going. Don't be a hero. We're not going to leave anyone behind.\n\nYou: *sighs and follows them out of the camp, still looking like they haven't slept in days*"
+    }
+  ]
+}

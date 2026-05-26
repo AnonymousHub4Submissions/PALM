@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "HalfwayHoagie",
+    "agreeableness": "17.0",
+    "openness": "20.0",
+    "conscientiousness": "1.0",
+    "extraversion": "63.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — that's real. That's actually real.\n\nSomebody grab the radio, respond to it, tell them our position. Donatello — you know the coordinates better than anyone, get on it right now.\n\nDaVinci, breathe. It's okay. You can let it out, just breathe first.",
+      "response_pred": "You: *Looks at him with a mix of concern and understanding* Hey, what's going on? You're not ignoring me or something, are you? *Takes a step closer, hands open*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You weren't easy, no. But you kept us alive. The water rationing, the raft plan, tracking what we had — that was you. I don't think we're standing here right now without that.\n\nThe notebook thing, the crackers — that stuff mattered and I'm not going to pretend it didn't. But you also put it down when it counted. That matters too.\n\nWe're good.",
+      "response_pred": "I'm sitting here trying to make sense of this whole situation, and you're already trying to make sense of me. That's a pretty healthy sign right there.\n\nWe're not in the same boat, at least not yet. I'm still out here with the others, trying to get the signal equipment checked and the raft built. You're probably back on the plane, waiting for rescue.\n\nBut I have to ask, what's going on with you? You're not just being polite, you're actually trying to connect with me. That's a vulnerable thing to do, and I appreciate it.\n\nDon't worry about being easy to be around, I'm not expecting you to be. I'm just trying to hold on to what we have left. But I do appreciate the attempt.\n\nIt's nice to have someone to talk to, even if it's not exactly what I expected. You're not like the others, you're actually trying to get something out of this situation. That's a rare thing.\n\nI don't know what the future holds, but I'm glad we're having this conversation. It's not often I get to talk to someone who actually listens to me.\n\nSo, what do you want to talk about? I'm not really sure what I'm going to say, but I'm willing to try."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Nobody's in a rush, that's fine.\n\nI'm going to start breaking down what we can. Not because anyone asked me to, just because leaving this place exactly as it is feels wrong. We built something here, even if it was ugly and stressful and nobody wants to remember most of it. Least we can do is leave it cleaner than the crash did.\n\nAnyone who wants to help, help. Anyone who needs to just lie there and watch the sky for a while — that's fine too, we've got time.",
+      "response_pred": "I watched them walk away, my eyes tracing the course of my friends as they disappeared into the growing darkness. We'd been in this situation before, and I knew the easy part – the part where we'd regroup, reassess, and come up with a plan to get out. But that wasn't it. That was the hard, uncomfortable part – the part where we had to deal with each other's emotions.\n\nI lay down on my makeshift bed, pushing the worn blanket aside and staring up at the stars. Donatello was probably up, lost in thought, thinking about the glass she'd lost during the crash. DaVinci was probably pacing the beach, his mind racing with the possibilities. Michelangelo was...where was Michelangelo?\n\nI'd seen him arguing with DaVinci earlier, but I didn't know if he was arguing with someone on the beach or just lost in his own thoughts. I settled in for a few hours of quiet contemplation, trying to tune out the sounds of the night and focus on my own thoughts.\n\nAs the hours passed, I drifted in and out of sleep, my mind racing with possibilities. We'd made it out alive, but that didn't mean we'd be out of this forever. There were still risks, still unknown dangers lurking in the darkness.\n\nI sat up, rubbing my eyes, and looked around the camp. It was quiet, the only sound the distant calls of crickets and the occasional hoot of an owl. I stood up, brushing off my pants, and headed to the makeshift signal equipment. It was a small setup, nothing more than a cluster of pieces of wood and some string, but it was enough to send out a makeshift SOS into the night.\n\nI worked quickly, making the signal as clear as possible and checking the strength of the radio equipment. It was a small investment, but it might make all the difference if we had to call for help.\n\nAs I worked, I couldn't shake the feeling that we were being watched. I kept looking over my shoulder, expecting to see someone lurking in the shadows. But there was never anything there.\n\nI finished up and began to make my way back to the camp, my eyes scanning the darkness for any sign of movement. It was quiet, but I knew it was only a matter of time before something happened.\n\nI walked for a while, my footsteps quiet on the sand, until I reached the beach. The wind was picking up, whipping the waves into a frenzy, and I could see the outlines of the planes scattered across the horizon.\n\nMy heart was racing as I scanned the beach, searching for any sign of life. And then, I saw them – DaVinci, standing at the water's edge, staring out at the sea. He was lost in thought, his eyes fixed on some point in the distance.\n\nI felt a jolt of fear as I realized that he was alone. I had no idea if he was okay, or if he was even thinking about me. I took a deep breath, trying to calm myself down, and made my way down to the water's edge.\n\nAs I approached, he turned to me, his eyes locking onto mine. For a moment, we just stared at each other, the only sound the crashing of the waves against the shore.\n\nI felt a lump form in my throat as I realized that he was scared. Just like me. We were both scared, trapped in this situation together, with no way out.\n\nBut I also felt a sense of solidarity with him, a sense that we were in this together, as long as we were in this together."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or just... home?",
+      "response_pred": "I think I know what you mean. The camp is still here, it's still our camp. It's not actually home, but..."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nLook, I'm not going to relitigate it right now. We're three hours from rescue. But I want you to understand something — if it had gone the other way, if we'd needed that and you were the only one who knew where it was, that would have been a real problem. Not just a trust problem. A survival problem.\n\nI believe you that it was for emergencies. I just think you drew the line between \"emergency\" and \"not yet\" in a place that was only visible to you, and that's the part that's hard to sit with.\n\nEat some of it. Share the rest. We're almost out of here.",
+      "response_pred": "You: Yeah, I get it. Practicality. You're right, it's just a precaution. I'm just being paranoid.\n\nOther: Yeah, that makes sense. You're not the only one who's been carrying it around.\n\nYou: *pauses, looks away* Yeah, I guess not."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have been more upfront about what I didn't know. I made calls like I was confident when half the time I was just guessing and hoping the guess was right. That works until it doesn't.\n\nI think I would've pushed harder to make the group actually function as a group earlier — like the first day, before everyone settled into their roles and it got harder to change them. You went into analyst mode, DaVinci went into morale mode, Michelangelo went into his head, and I just kind of managed between all of it. That's fine but it's reactive. I'd rather have had one real conversation on day one about how we were going to make decisions together than spend the rest of the time working around the fact that we never had it.\n\nWhat would you change? You left yourself the question — you must have an answer forming.",
+      "response_pred": "You: Honestly? If I'm being completely honest, I'd change the way we rationed food. I'm more of a \"you get what you need, and you get what you can get\" kind of person, whereas DaVinci and Michelangelo were more... extreme. We were all so focused on survival that we didn't think about the long-term consequences of our actions.\n\nI think if we'd rationed food a bit more carefully, we might have been able to stretch our supplies a bit longer. I mean, we already knew water was going to be a problem, but we didn't think about the fact that food was also going to be a major concern. And if we'd rationed it more carefully, we might have been able to find alternative sources of food or make use of the scavenged food we found on the ground.\n\nIt's funny, because when we were out in the field, I was complaining about the lack of available food, and now that we're back, it seems like we were so focused on survival that we overlooked the bigger issue. But at the same time, I'm glad we made it out alive, and that's what counts."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you actually need to do, so do it. I'd read it, genuinely. Not because I want to relive the week, but because I think there's stuff in there that's worth understanding.\n\nJust — maybe write a second document alongside it. Not the resource data, not the decisions. The other stuff. The part where you almost didn't put the notebook down. Because that's the part that actually tells you something useful about how people work under pressure, and I think you know that already or you wouldn't have left yourself that question on the last page.\n\nThe data is good. But the data isn't the whole story.",
+      "response_pred": "Person: Yeah, I'm sure you'll do a great job with that. I'm just going to head back to the camp and do some of the things you mentioned. I'll be right back."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut that's kind of the point. DaVinci drew them because he needed to put something human into the middle of a survival situation. Something that said we're not just trying to stay alive, we're still people while we're doing it.\n\nI think that's what you're feeling right now, sitting down when everyone else is reacting. You did everything right. You kept the data, you ran the numbers, you held the line on resources. And now it's over and your legs don't work because the practical part is done and you don't quite know what to do with the rest of it.\n\nThe flowers were for that. The part that doesn't have a practical purpose.",
+      "response_pred": "Other: They were just little doodles, but I was trying to keep my mind off things. I've been drawing since I was a kid. I made a few sketches for Donatello, but I didn't have time to finish them. I was trying to distract myself from the fact that we're all going to die. I'm sorry, I was just really scared and I didn't know what else to do.\n\nYou: It's okay. We all felt that way. DaVinci's art is always a way for him to express himself, even when he's trying to keep his emotions in check. It's just that this time, it felt more like a coping mechanism than a creative outlet."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.\n\nI don't know what this feeling is. It's not bad. It's just — we were in it, and now we're not, and I don't know how to switch that off as fast as the situation changed.\n\nGo ahead and wave them in. I'll be right there.",
+      "response_pred": "You: *looking up, fidgeting slightly* Hey... look at me for a second. *pauses, waiting for your response*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Me: Yeah, let's go. I'm not sure what's going on with DaVinci and Michelangelo, but I don't want to leave them behind. We should try to get them to safety as well."
+    }
+  ]
+}

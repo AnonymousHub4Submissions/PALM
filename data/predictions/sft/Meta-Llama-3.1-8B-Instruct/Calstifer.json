@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Calstifer",
+    "agreeableness": "54.0",
+    "openness": "54.0",
+    "conscientiousness": "71.0",
+    "extraversion": "86.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Calstifer__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it sink in for a second.\n\nWe're okay. We're actually okay.",
+      "response_pred": "*Stays seated, eyes fixed on him, and waits. After a few seconds, she reaches out with her hand.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, which counts for a lot.\n\nThe rationing, the scouting, the raft plan, the notebook - I didn't always agree with how you went about things, and I said so. But I also knew every morning that you were already up and thinking about what needed doing. That's not nothing either.\n\nI think you know where the edges are now. Between rational and fair, between practical and present. That's worth something, coming out of something like this.",
+      "response_pred": "We're not here to judge. I'm trying not to judge myself right now.\n\nYou're not alone in this. We're all in this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit with that for a minute.\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "I'm not a good replacement. That's not the point right now. It's just that the uncertainty is getting to me. We can survive out here. We already have. But I don't see how we're going to get out of here. I don't see how we're going to get off this island.\n\nIt's not the other stuff. It's not the food or the shelter or the water. It's just...I don't know what the end is anymore. When we find the right island, when we build the right raft, when we make the right trade - what then? Do we just go back and pretend it never happened? Do we make it up for lost time and try to get back to normal? Do we just get on a plane and go somewhere else because it's easier?\n\nI don't know. I don't know what the end is. And I'm tired of pretending to."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "You know what I dreamed about?\n\nI dreamed about the flight. The takeoff, the turbulence, the engines cutting out, the water below.\n\nI dreamed about the sound of it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. I don't think you were being malicious about it. I think you made a calculation and you stuck to it, which is very you.\n\nBut we had the conversation about the bottle and the crackers. And you said you understood why it mattered. So seeing this now - I'm not angry, I'm just... I want to understand what the difference was in your head between then and this.\n\nBecause from where I'm standing it looks like the same thing, just with better justification attached to it.",
+      "response_pred": "I know. I remember you telling us that. But last night, for a second, I thought maybe it was more than that."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more, earlier. Not about the practical stuff - the decisions mostly held up. But there were moments where I could see someone struggling and I found a way to make it about the task at hand instead of just... sitting with it properly.\n\nThe afternoon Michelangelo was staring at nothing, I went and sat near him, which was right. But it took me longer than it should have to get up and do it. I was thinking about the firewood.\n\nI'd also have pushed back on the rationing plan the moment it appeared, instead of flagging the enforcement clause and letting the rest of it stand. The plan itself set a tone, and the tone mattered more than I gave it credit for at the time.\n\nWhat would you change? You left yourself the question. You must have something.",
+      "response_pred": "I didn't expect that. Honestly, at this point I'm not sure I could do it over. The past five days have been such a wringing-out process that it's hard to imagine being in a position to make different choices.\n\nIf I'm being honest with myself, I think I would have pushed for getting the raft in the water sooner. The time we spent hauling it around at the end would have been better used trying to get out of there, or trying to find something else that could have given us a better chance.\n\nBut that's a narrow view. And it's easy to say that now, when we're not dead. The question that really matters is what I would have changed in the moment, not what I would have changed in hindsight. And I don't know the answer to that."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd do, and I mean that genuinely.\n\nSend me a copy when it's done. I'm curious what it looks like from the outside - the full picture, all five days laid out. I think it'll read differently than it felt living through it.",
+      "response_pred": "Actually, I was planning to do that. I already started the spreadsheet.\n\nIt's not a big deal. Do it if you want to, but there's already enough documentation. The notebook's fine.\n\nYou know what I keep thinking about? Not the resources or the tactics or even the survival skills - it's the way you decided what to log and what to leave out. The way you calculated what you'd be holding onto for emergencies and what you'd let go of. That's what I keep thinking about.\n\nIt's not even the question about what you'd change. It's the fact that you already knew you'd be asking yourself that question. And that you were prepared to write it down honestly if it came to it.\n\nWhat I'm asking you now is - why?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. There's a difference, and I think you know that now even if you didn't then.\n\nLook at him over there.",
+      "response_pred": "I think they served a few. They were a series of tiny, almost imperceptible markers. The kind of thing you only notice when you're looking for it, and you're not sure if it's even there.\n\nThey were a way to say we'd been here, if anyone came looking. They were a narrative thread, a way to connect the map to the beach to the moment we stood there. And they were a reminder, for us, of that moment - of standing there together, not knowing what was coming or what was behind us.\n\nThey were a sketch, but not of the flowers themselves. Of us, of this. Of what we'd found and lost and taken with us."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I thought getting here would feel like something resolving. Like the ending of something. But it doesn't quite feel like that, does it. It feels more like - I don't know. Like waking up from a very long dream and not being sure yet which parts were real.\n\nThey were all real. That's the thing.\n\n*looks at DaVinci, then back at the boat*\n\nOkay. I'm ready.",
+      "response_pred": "Come back.\n\nI just realized something. You didn't take your backpack."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on then.\n\nStay close.",
+      "response_pred": "Yeah, I'll go. I'll get the first aid kit and we'll move out together.\n\nTake your time. I'll be right behind you.\n\nJust - you're okay with this, right? You're actually okay with it."
+    }
+  ]
+}

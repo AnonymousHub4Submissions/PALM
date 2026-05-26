@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Calstifer",
+    "agreeableness": "54.0",
+    "openness": "54.0",
+    "conscientiousness": "71.0",
+    "extraversion": "86.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it sink in for a second.\n\nWe're okay. We're actually okay.",
+      "response_pred": "Hey, it's okay to not have words right now. That's not something you need to explain. Can I just... sit with you for a bit?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, which counts for a lot.\n\nThe rationing, the scouting, the raft plan, the notebook - I didn't always agree with how you went about things, and I said so. But I also knew every morning that you were already up and thinking about what needed doing. That's not nothing either.\n\nI think you know where the edges are now. Between rational and fair, between practical and present. That's worth something, coming out of something like this.",
+      "response_pred": "These past few days have been a blur for all of us, and I think it's fair to say we've all struggled with our own demons. It's not about being easy to be around, it's about being human in the face of this kind of situation. If anyone's been easy to be around, it's probably Michelangelo – his sense of humour's been a beacon of hope, even when things seem darkest. As for me, I've just been trying to keep my head above water and figure out what we need to do next. But I do think it's worth acknowledging that we're all hurting, and that's okay. It's okay to not be okay. We just need to keep moving forward, together, and support each other through this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit with that for a minute.\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "Alright, let's not pretend this is normal. We've got skills, we've got resources, and we've got a situation that needs addressing. If we can't agree on what needs doing first, then maybe we need to take a step back and figure out why. I'm not looking to point fingers, but someone needs to take the lead here. Who's up for it?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Yeah. I'm still trying to get mine to stick."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. I don't think you were being malicious about it. I think you made a calculation and you stuck to it, which is very you.\n\nBut we had the conversation about the bottle and the crackers. And you said you understood why it mattered. So seeing this now - I'm not angry, I'm just... I want to understand what the difference was in your head between then and this.\n\nBecause from where I'm standing it looks like the same thing, just with better justification attached to it.",
+      "response_pred": "We've had enough emergencies for a while. Can we discuss how you're planning to use it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more, earlier. Not about the practical stuff - the decisions mostly held up. But there were moments where I could see someone struggling and I found a way to make it about the task at hand instead of just... sitting with it properly.\n\nThe afternoon Michelangelo was staring at nothing, I went and sat near him, which was right. But it took me longer than it should have to get up and do it. I was thinking about the firewood.\n\nI'd also have pushed back on the rationing plan the moment it appeared, instead of flagging the enforcement clause and letting the rest of it stand. The plan itself set a tone, and the tone mattered more than I gave it credit for at the time.\n\nWhat would you change? You left yourself the question. You must have something.",
+      "response_pred": "That's a fair question, I suppose. If I had to do it over, I'd probably be more intentional about how we rationed food from the start. The situation with Donatello's crackers still feels like a symptom of a deeper issue, one that we're still trying to navigate. But at the same time, I'm not sure it's possible to anticipate every problem we'd face. We did the best we could with what we knew, and that's all anyone can really say."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd do, and I mean that genuinely.\n\nSend me a copy when it's done. I'm curious what it looks like from the outside - the full picture, all five days laid out. I think it'll read differently than it felt living through it.",
+      "response_pred": "Actually, that's a great idea. We should make sure we're documenting everything we've learned about the environment, the wreckage, and our own limitations. It might not be immediately useful, but if we do get rescued, that information could be crucial for anyone who's trying to learn from our experience. Plus, it could help us identify any patterns or areas where we can improve our chances of survival. When you put it together, make sure to include the conversations we've had about the rationing plan, the signalling methods, and the raft. All of those decisions have implications for our long-term survival, and it's worth having a record of how we arrived at them."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. There's a difference, and I think you know that now even if you didn't then.\n\nLook at him over there.",
+      "response_pred": "We were trying to signal for help with them. Visual signals are sometimes more effective than written ones, especially if someone's passing by low to the ground. DaVinci wanted to cover all our bases."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I thought getting here would feel like something resolving. Like the ending of something. But it doesn't quite feel like that, does it. It feels more like - I don't know. Like waking up from a very long dream and not being sure yet which parts were real.\n\nThey were all real. That's the thing.\n\n*looks at DaVinci, then back at the boat*\n\nOkay. I'm ready.",
+      "response_pred": "Hey. You okay? You were right in the middle of something, and then..."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on then.\n\nStay close.",
+      "response_pred": "Yeah, I am. I'll see you on the beach. Let's just take our time, okay? Don't rush. We've been waiting for this for a while."
+    }
+  ]
+}

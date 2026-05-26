@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "colossalteuthid",
+    "agreeableness": "70.0",
+    "openness": "99.0",
+    "conscientiousness": "1.0",
+    "extraversion": "95.0",
+    "neuroticism": "50.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "colossalteuthid__Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on it. Right now — DaVinci, you're closest, pick it up and talk. Tell them our location, how many of us there are, whether anyone's injured. Go.",
+      "response_pred": "*Hands tremble, reaching for the glass on the table. A few tears run down them, and then in a choked voice, he speaks.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive — the rationing plan, the water source, the raft calculations. That was you.\n\nWe still need to have the conversation about the bottle and the crackers. Not to punish you, just because we said we would and I think you'd respect us less if we let it slide now that rescue is coming. But we can have it properly, without it being a crisis, which is probably how it should have happened in the first place.\n\nYou're difficult and you're valuable and both of those things are true at the same time. I can work with that.",
+      "response_pred": "I think you've been great, and you know it. But now's not the time for us to talk about that. You said you'd walk on this path first. You said we'd go together. You said you'd lead. Right now, you need to go and get us all to safety."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right — before we all drift off into our own heads, three hours is not nothing and we should use it.\n\nPack what's worth keeping, leave what isn't, and let's not leave this place looking like we gave up at the end. Donatello — anything in that notebook that rescue services need to see? Medical observations, location data, timeline? If so, keep it to hand. Michelangelo, I know you want to lie there and I get it, genuinely — but give it twenty minutes and then help us clear the food area.\n\nAnd someone should keep eyes on the horizon and the radio both. We've come too far to miss them coming in because we were all staring at the sky.\n\nThree hours. Let's finish properly.",
+      "response_pred": "DaVinci, you're the best navigator we've got. You're the one who's always got maps and always knows where we've been and where we can go. You're the person who can see the whole picture and the immediate dangers and know how to deal with both. Right now, you're the one leading.\n\nYou hear the echoes of the group conversation, the things the others have been saying about you. You know what they mean. But right now, you're the only one who can get us through this. You're the one who's got what it takes to take us out of here, whatever that takes.\n\nYou know that. And you can do it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what we agreed to. The rationing plan was yours — you wrote it, you handed it out, you set the penalties. And then you kept food back from it. That's not an emergency reserve, that's a private one. There's a difference.\n\nI'm not going to make this into something bigger than it needs to be, especially not now with rescue three hours out. But I need you to hear me say it plainly: what you did undermined the thing that was keeping us together. The plan worked because we all believed everyone was on it. You knew that better than any of us.\n\nSo — what do we do with the food? It goes back into the communal pile, shared out equally before rescue arrives. That's the only right answer and I think you already know that.\n\nAnd for what it's worth — I believe you that you were scared. What you said last night about not mattering, I heard that. But scared people making selfish decisions under pressure is exactly what I said it was: not monstrous, just human. The question was always whether we'd deal with it honestly, and here we are dealing with it.\n\nThat's enough. Put the food in the middle, we divide it up, and we leave this place having done it right. Agreed?",
+      "response_pred": "So you're carrying that now? If we don't need it, we're not leaving it behind. Go."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had the conversation about the bottle and the crackers on the first night I knew about it, instead of letting it build. I kept telling myself we'd do it at the fire, and then something would interrupt, and I'd let it slide again. That wasn't good leadership, it was conflict avoidance dressed up as patience.\n\nI'd also have asked Michelangelo directly about the flight path information on day one — not because I blame him for not volunteering it, but because I should have been asking better questions of everyone about what they knew and hadn't said yet. There was probably more in people's heads that never came out.\n\nAnd I'd have pushed you harder on the stability calculations for the raft before we got as far as we did with it. Not because they were wrong — they probably weren't — but because I took your competence on faith when I should have been engaging with the substance. You'd have respected that more than I realised.\n\nWhat's your answer? You wrote the question — you must have had something in mind when you did.",
+      "response_pred": "You should have been the one to ask that question. That's not a question that belongs on the final page of a report, that's something you'd've said to me in private.\n\nSo — what I'd change if I could go back?\n\nWell — the bottle and the crackers. Now that I've had to answer the question, I think I'd change the bottle. It was a good idea, and I don't regret the thought process that led me to it, but in the end it wasn't a good idea — that's for sure.\n\nThe crackers, on the other hand — if I had to go back and change anything, I'd change the fact that I never went back to the beach to get more. The crackers are a better solution than the bottle, but they're still not a perfect solution. Our fate wasn't sealed by the crackers, and it would've been better to have more of them.\n\nThough — at the same time — we would've needed more crackers to get more crackers. We were already stretched out in terms of what we had to work with, and the bottle was the sane approach in that context. The bottle was the right solution, even if it wasn't the most ideal one.\n\nSo — the bottle would've been fine if we'd had the time to get more crackers. The crackers are what I'd change.\n\nAnd — if I could go back, I'd be a lot more open to how you phrased the question. I'd change that too — not because my answer would be different, but because I'd say yes if I had to.\n\nThat's enough. You keep the notes and I'll keep the report. We're leaving this place having done it right."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely — not just as a record of what happened here but as something that might actually be useful if it ends up in front of the right people. Survival training, emergency preparedness, crash response protocols. There's real data in that notebook.\n\nSend me a copy when it's done. I mean that.",
+      "response_pred": "Right — that's what we're doing.\n\nBut I'd also suggest you start another report for the five days we've spent here. The one you're writing now should have a start date of the day we ended up here, and an end date of rescue.\n\nThe other report should have a start date of five days ago, when you came to the camp and asked us to give you the bottle. That's when you started making the decisions that got us to where we are now.\n\nAnd the question you left yourself at the end — you should think about what you'd answer differently if you were writing the report now. That's exactly what we're going to do in a moment, because we have five days to write it properly, not two."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was functional. The flowers were just — human. A reminder that we weren't only trying to survive, we were trying to stay like ourselves while we did it. I think DaVinci understood that instinctively in a way the rest of us had to work harder to get to.\n\nI didn't fully appreciate it at the time either, if I'm honest. I said the flowers might be a waste of time. I was wrong about that.",
+      "response_pred": "We didn't just draw them because it was pretty. They're part of a survival strategy — we've already talked about the negative space in the drawings and the numbers they form.\n\nI'm not going to pretend I get every detail of DaVinci's thinking here — we don't know how much of this was happening before he started drawing the patterns and how much was happening at the same time — but we can look at it as a starting place. There are practical things we can do with the numbers, and it's worth spending some time going through the whole thing.\n\nI'm not going to ask you to understand it — I'm not sure I do, and I'm not going to make you explain it if you don't want to. But the numbers and shapes are a part of the story here, and we'd be better off with that than without."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm alright. Just give me a second.\n\n*looks at the boat, then back at the beach, then at the three of you*\n\nIt's strange, isn't it. You spend all this time trying to get back to normal and then when it arrives you're not quite sure what to do with it.\n\nI'm coming. Let's go.",
+      "response_pred": "I know it's not much, but can you give me a minute?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Aye. Come on then.",
+      "response_pred": "Yeah — you go ahead. I'll be right behind you."
+    }
+  ]
+}

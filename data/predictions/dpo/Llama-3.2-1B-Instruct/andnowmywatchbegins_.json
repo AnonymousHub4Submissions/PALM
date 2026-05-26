@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "andnowmywatchbegins_",
+    "agreeableness": "61.0",
+    "openness": "85.0",
+    "conscientiousness": "97.0",
+    "extraversion": "96.0",
+    "neuroticism": "13.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride.",
+      "response_pred": "*The group falls silent, some of them looking at each other nervously, while others seem to sense the tension and shift their gaze to you instead.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were easy. We got through it. That's what matters.",
+      "response_pred": "It's okay, I'm here for you."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this up. We're not leaving this place like this.\n\nDaVinci, you're on the shelter — break it down, stack anything reusable. Michelangelo, when you're ready, help me with the fire pit. Donatello, anything in that notebook worth keeping, keep it. Rest of it stays here.\n\nThree hours. Let's use them.",
+      "response_pred": "*I huddle closer to Sarah, trying to stay warm in the chill of the night. Her skin is so pale against my warm skin, I can feel a faint tremble in her fingers as she pats the small stuffed rabbit she's holding. I glance up, my eyes locking onto hers, and for a moment, we just stare at each other, the only sound the distant hooting of owls in the forest.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah. Me too.",
+      "response_pred": "\"honestly, it sounds like you're really looking forward to being back in your own home. that's a pretty normal and comforting thing to dream about.\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nLook — we made it. All of us. So I'm not going to stand here and lecture you. But you know what that was. And I think you know it wasn't right.\n\nJust... don't do that again. To anyone.",
+      "response_pred": "I'm glad I could be ready for anything life throws at me."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle situation sooner. I let it sit too long before we addressed it as a group. That's on me.\n\nEverything else — the decisions, the order we made them in — I think we got it mostly right. We weren't perfect but we were good enough. And good enough got us here.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "I wish I could be the one writing that report, but I'm just a program."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's a good idea. Someone should have that record.\n\nSend me a copy when it's done.",
+      "response_pred": "I'd be happy to see it. And can I just grab a cup of coffee real quick before I start, everything seems a bit fuzzy from this long absence."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "\"Ah, yes, the flowers he depicted with me. You see, he believed they represented the beauty and simplicity of nature, a reflection of our own inner world. As for their practical use, I think they were often used in perfumes and scented oils, despite their floral appearance. The Greeks and Romans used them for their medicinal properties as well. But, I must admit, their fascination with them probably stems from their symbolic value, representing love, passion, and the human experience. They held a deep significance for us, even in the midst of our artistic endeavors.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. It's okay. I just need a second.",
+      "response_pred": "*His chest rises and falls, his eyes slowly drift downward, and his smile seems to waver, as if he's not as excited as he was a moment before.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll head over, let's go! I'm not sure if I can make it, my leg's a bit sore."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "sublime_warthog",
+    "agreeableness": "11.0",
+    "openness": "50.0",
+    "conscientiousness": "10.0",
+    "extraversion": "4.0",
+    "neuroticism": "61.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "I'm speechless.",
+      "response_pred": "I... I can't take this anymore. This is all wrong."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. But you kept us alive. Both things can be true.",
+      "response_pred": "I've been feeling really on edge and my mood swings have been wild. I'm just trying to figure everything out right now."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks at the sky too*",
+      "response_pred": "Ugh, great. Just great. Can't believe they left me to clean up this mess again. Why do I even bother trying to make sense of them? Might as well just sit here and brood. Might as well show them what they're missing."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Me too.",
+      "response_pred": "That sounds comforting. Home can be a warm place, full of familiar sights and smells. Do you miss it a lot?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we were the emergency.",
+      "response_pred": "I understand the need for preparation, but I tend to worry a lot about worst-case scenarios. It's not a pleasant place to be, always on edge like that."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd write 'remember' instead of 'don't forget' in a few places. And I'd have talked to you sooner about the food.",
+      "response_pred": "If I had to do it over, I'd definitely try to dial back the anxiety a bit. It's been really overwhelming, and I think being a bit more open to just going with the flow could have helped. But hey, what's done is done. Back to the grind for now."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you'd actually do.",
+      "response_pred": "Ugh, just another tedious task to look forward to. But I guess I have no choice but to sit through this boring process. Better get started on it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that's exactly why they mattered.",
+      "response_pred": "They were more than just practical, mate. DaVinci was always so fascinated by nature, and those flowers were a study in botany, a way for him to understand and document the flora around him. Beach or not, he was just trying to learn and make sense of the world. Sometimes, it's not about practicality, but about curiosity and the joy of discovery."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing, I think.",
+      "response_pred": "Why the long face? Come on, let's go have some fun. You gotta lighten up, man."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I don't think I can handle this right now. Go without me, I need to stay here and... breathe."
+    }
+  ]
+}

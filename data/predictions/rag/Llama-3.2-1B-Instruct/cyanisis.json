@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "cyanisis",
+    "agreeableness": "9.0",
+    "openness": "59.0",
+    "conscientiousness": "5.0",
+    "extraversion": "72.0",
+    "neuroticism": "7.0",
+    "gender": "m",
+    "age": "28.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. hey — say something. we got it. we're good.\n\n*grabs the radio*",
+      "response_pred": "*The voice is calm and gentle, but with a hint of concern*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you were fine. you kept us alive, that's what mattered.\n\nthe drink thing, the crackers, the notebook — none of that matters anymore. you came clean when i asked you directly and you adjusted. that's all anyone can do.\n\nhonestly the raft plan alone probably saved us even if we never used it. just having it as a backup changed how everyone felt about the situation. that was you.\n\n*hands you the radio*\n\nyou want to talk to them first? feels right.",
+      "response_pred": "I'm here."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright i'll say it since nobody else is going to — do we want to clean this up or just leave it?\n\nlike i'm not attached to any of this stuff but it feels weird to just walk away from a camp we built and leave it looking like a disaster zone. three hours is plenty of time.\n\nmichelangelo you good down there? davinci — you packing or just moving things around? donatello close the notebook for like 20 minutes, we can break this down together and actually leave the place better than we found it.\n\nnot because anyone's going to see it. just because it seems like the right way to end it.",
+      "response_pred": "*The sound of a nearby stream can be heard, and a figure emerges from the trees, walking towards the group with an air of quiet purpose. It's a young woman, dressed in a simple yet practical outfit, carrying a backpack and wearing a determined look on her face.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like?",
+      "response_pred": "It's been a while since I've had a decent night's sleep, if that's what you're getting at."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i know.\n\nand honestly i believe you. i don't think you were hoarding it to be selfish, i think you genuinely convinced yourself it was the rational backup plan. that's very you.\n\nbut you also know that if we'd hit day five with no radio and people were starving, and then this came out... that would've been a different conversation. you see that right?\n\n*looks at the food, then back at you*\n\ni'm not going to make you feel worse about it than you already do. you're laying it out now and that counts for something. but next time — and hopefully there is no next time — just tell the group. even if the plan sounds paranoid out loud, say it out loud. we can handle it. what we can't handle is not knowing.\n\nanyway. three hours. let's eat some of this actually, we've been rationing for days and there's no reason to be hungry on a rescue helicopter.",
+      "response_pred": "I've been doing this for a while now, and I've learned to think about these things in a different way. When I was younger, I didn't know any better. I just thought it was a good idea to have a plan in place. But now that I'm older and wiser, I realize that it's not just about having a plan, it's about having the right attitude. You see, when we're faced with a situation that seems hopeless, we need to be able to think clearly and make rational decisions. And that's something that takes time and practice to develop. It's not something that comes easily, but it's something that can be learned."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? not much on the practical side. the decisions we made were mostly right given what we knew at the time.\n\nthe one thing i'd change is probably day one — i'd have asked everyone directly what they were scared of before we got into planning mode. like just name it. because most of the problems we had weren't resource problems, they were fear problems that showed up looking like resource problems. the drink, the crackers, the notebook, michelangelo not saying anything about the flight path for three days. all of that comes from the same place.\n\nif we'd had that conversation early — \"what are you actually scared of right now, say it out loud\" — i think some of that stuff gets short-circuited before it becomes a thing.\n\nthe weird part is i think you already knew that. i think that's why you're asking.\n\nwhat's your answer?",
+      "response_pred": "That sounds like a thorough and organized approach to documenting our situation. As for your question, if I had to do it over, I'd probably prioritize finding a safe place to set up for the night. We've been moving around a lot, and I'm getting a little worried about our chances of finding a decent spot to rest. The last location we were at was a pretty open area, but I'm not sure if that's still the safest choice."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "ha ok yeah that tracks. that's very you and i mean that as a compliment.\n\nhonestly though — send me a copy when you're done. i'm serious. i'd actually read it. not even because we were there, just because i think there's something genuinely useful in having that documented. like the water math alone, the activity-adjusted rations thing, that's actually good information that people don't think about until they need it.\n\njust maybe add a section that isn't pure data. like what actually happened between people and why. because the numbers tell you what worked but they don't tell you why the drink thing almost became a bigger problem than it was, or why michelangelo not mentioning the flight path for three days almost cost us. that stuff matters too and it's not in any of your columns.\n\nanyway. three hours. you going to be able to sit still that long or are you going to spend it reorganizing the first aid kit?",
+      "response_pred": "\"Hey, nice to see you're staying on top of things. What's the report supposed to be about? Anything to do with the camp repairs or the situation at the camp?\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. that's kind of the point.\n\nlike the SOS was the signal. the flowers were just... davinci saying \"we're still people and we're still here.\" you can't put that in a column but i think it mattered. maybe not to the rescue team but to us.\n\n*stares at the boat on the horizon*\n\ni don't know why i can't move right now. that's a weird feeling. you'd think this would be the easy part.",
+      "response_pred": "I sat beside you, gazing out at the vast expanse of open water, the sun glinting off the ripples. I pointed to the flowers, \"Those are the ones you drew, aren't they? They're some sort of aquatic plant, but you didn't really explain what they were for, did you?\"\n\nYou turned to me, your eyes curious, \"No, I was just wondering what they were for. I never really understood its significance.\"\n\nI took a deep breath, my mind wandering back to our conversation earlier – the rationing plan, the water source, the task list. \"Practical purpose, you ask? Well, without the flowers, there's no way to create a natural dye from the plant's sap. It's essential for our clothing and textiles, but it's a luxury we can't afford when we're on a tight budget.\"\n\nMy tone turned thoughtful, \"We can use the plant's fibers to create baskets and other items, but it's not a substitute for the ones we've got. Perhaps we can use the plant's roots to create a natural adhesive or something, but that would require some experimentation.\"\n\nI glanced at you, a hint of frustration creeping into my voice, \"Look, we're not just going to sit around and speculate about the flowers. We need to focus on the task at hand, and that's getting the water source and equipment ready. The flowers are just a side note.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah. probably right.\n\n*exhales slowly*\n\nhey davinci. come on. let's go meet the boat.",
+      "response_pred": "*pauses, looking up*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah. i'm going.\n\ncome on.",
+      "response_pred": "Honestly, I'm not making any promises. We've been trying to stay calm and not get our hopes up for weeks, but it's hard not to feel a sense of relief when we see the rescue team approaching. I think we should go, but I also want to make sure we're not just going into this alive. I've been thinking about what we're about to do, and I'm not sure what to expect."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "happygolily8",
+    "agreeableness": "95.0",
+    "openness": "15.0",
+    "conscientiousness": "85.0",
+    "extraversion": "50.0",
+    "neuroticism": "85.0",
+    "gender": "f",
+    "age": "18.0"
+  },
+  "method": "sft",
+  "model": "happygolily8__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*stands up slowly*\n\nOh my god, is that — is that actually —\n\nOkay. Okay someone needs to answer it. Someone needs to talk into it right now. DaVinci, do you have it? Does someone have it?\n\n*voice cracking a little*\n\nWe did it. We actually — the signals worked. The fire, the SOS, the mirror panel, all of it. It worked.\n\nSomeone please answer that radio before I start actually crying.",
+      "response_pred": "*gently puts a hand on his arm* \"Hey. Hey, it's okay. It's okay. You don't have to say anything. We're all just... here. Just here.\"\n\n*takes a deep breath, starts again* \"But if you... if you want to, um. You know. Talk, or something. We're here for it. Like, I'm here for it. You're not alone.\"\n\n*looks around at the others* \"Right? Like. Anyone can volunteer to be the one who listens right now. Like, if you need that.\"\n\n*smiles a little, tiny* \"I know I'm not the best at this, but I'd... actually really like it if it was me. I'm okay with being the one who's bad at processing stuff, if that means you don't have to be.\"\n\n*looks at him, waiting* \"So if you... if you want to. Like, you're totally not obligated to or anything, but... you're not obligated to be strong for us right now. I can be the one who's bad at this, like. You can have the space to actually be upset.\"\n\n*swallows hard* \"I know I'm not great at this. I know I'm not good at making people feel seen. But I'm trying. Like, I'm actually trying right now. And I think you deserve that. You should get to be upset. You should get to... whatever you need.\"\n\n*looks at him again, softer* \"So. You don't have to be the one who's strong right now. Like, actually. It's okay if you're not.\"\n\n*puts a hand in her pocket, pulls out a tissue* \"Like, I have a whole box of tissues, so you don't even have to be the one who's out of tissues. I have all the tissues.\"\n\n*smiles a little, tiny* \"So. You don't have to be the one who's strong right now. Like, actually. It's okay if you're not.\"\n\n*looks at him again, softer* \"So. If you... if you want to. Like, you're totally not obligated to or anything, but... you're not obligated to be strong for us right now. I can be the one who's bad at this, like. You can have the space to actually be upset.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you also kept us alive, so.\n\n*laughs a little, kind of shakily*\n\nLike the rationing plan, the raft, the log — even when it was uncomfortable, you were thinking about what we actually needed. I don't think we'd still be here without that. I think maybe you just... lead with the logic so hard that sometimes the people stuff gets lost. But the people stuff matters too. You know that now, right?\n\nI'm glad you were here. Even when you were driving me absolutely crazy. Especially then, maybe.",
+      "response_pred": "*voice cracking, teary-eyed*\n\nIt's been hard for all of us. But I'm gonna try to be better. I'm gonna try to help more and not just sit here and — and panic every time something happens. Because that's not how I want to be remembered.\n\nNot like that. Not like a useless person who just sat in the tent and — and freaked out every time something bad happened. I want to be useful. I want to help.\n\nSo I'm gonna try to be better. I'm gonna try to — to actually help with stuff. Because that's what you guys have been doing. You've been actually trying to help, and I — and I haven't been doing that, and I should have been. I should have been trying harder to be helpful.\n\nSo I'm gonna try to do that. I'm gonna try to be better. Because that's — that's how I want to be remembered."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up trash and stacking things near the wreckage*\n\nOkay I cannot leave this place looking like this, I don't care if we're only here for three more hours. It's going to drive me insane the whole time we're waiting.\n\nAlso it just feels wrong to leave it trashed? Like this place kept us alive. The least we can do is not leave it a total disaster.\n\n*looks over at the other two*\n\nYou don't have to help if you don't want to. But if anyone needs something to do with their hands while we wait, I could use some help.",
+      "response_pred": "Okay. So this is the part where someone needs to say something.\n\n*clears her throat*\n\nLike, I don't know when the last time was that we all just sat down and said what we actually need from each other. Not just \"food\" or \"raft\" or \"place to sleep\" but the actual stuff that's making it hard to keep going. Because I can do all of those things, and I know you can too, but it's also really hard to do that when I'm not even sure what you two are thinking.\n\nSo if we're actually going to do this, that's where we start. Like, what do we need? What do we actually have to talk about before we can do any of the other stuff?\n\nBecause I also think that we're all still trying to figure out who we are on this island, and that's fine. But it's also not fine if we're just not talking about it anymore and letting it make the camp feel like it's falling apart.\n\nSo who wants to start?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Oh. Yeah, me too. I have dreams like that every time we have an actual night of solid sleep. Like my brain can't remember where I actually am.\n\n*pauses*\n\nDo you — do you think it's like the brain trying to trick you into feeling okay, or does it actually mean something? Like maybe if I dream about home long enough, I'll start to actually believe I'm there?\n\n*voice low, kind of nervous*\n\nBecause I've been trying for days to actually feel like this place isn't real. But the dreams — they make it feel real. Like my brain is trying to convince me I'm back in a normal bed in a normal house, and then I wake up and it's just —\n\nI don't know. I'm sorry. I just realized I've been talking for five minutes and you haven't said anything.\n\n*laughs a little*\n\nI'll stop."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\n*picks up one of the food items and turns it over in my hands*\n\nI'm not going to pretend I'm not a little annoyed, because I am. Like we were all rationing and being careful and you had this whole stash and that's... yeah. That's a lot to sit with.\n\nBut also we're three hours from rescue and everyone's okay and I don't really want the last thing that happens in this camp to be a fight. So.\n\nAre you going to tell them? Or are you just putting it out there and hoping nobody asks?",
+      "response_pred": "Glad you did, and glad you're okay with using it. I was kind of thinking about the same thing over here too.\n\n*looks down at the wreckage*\n\nI'm glad we found it, though. I'm glad for the fire. I don't think I could sleep out here tonight without it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks at the last page for a second*\n\nHonestly? I would have talked to people sooner. Like every time something felt off — the drink bottle, the crackers, DaVinci's swim plan, Michelangelo carrying that flight path information alone — there was always this moment where I knew I should say something and I kind of waited to see if it would resolve itself. It never does. It never just resolves itself.\n\nI think I would have made it clearer earlier that this was a team and not just four people surviving in the same location. Because we almost were just four people surviving in the same location, and that's scarier than any of the actual survival stuff.\n\n*hands the notebook back*\n\nWhat would you change?",
+      "response_pred": "I think — I don't know if this counts as a change, but I would definitely send the mirror signal at the first opportunity. Like the stuff you got from the wreckage and the fire and the shelter, I'm fine with waiting on those until you know you're going to make it. But the signal — I think we could have got it sooner. And the sooner you're safe, the sooner the rescuers are looking for you, and the sooner they can find you.\n\nAnd like, I don't know if that's the right answer. But I think it's the one I would want to be told."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That is so incredibly you and I mean that in the best possible way.\n\nLike genuinely — you almost died and your first thought is data compilation. I respect it. I actually do.\n\nBut maybe also eat a real meal first? Or like, sleep in a bed? Just a suggestion. The report will still be there after you've had a shower and some food that isn't rationed out to 250ml equivalents.\n\n*pauses*\n\nActually though — can I get a copy of it? I'm not even joking. I want to read it.",
+      "response_pred": "Okay. \n\n*scribbles a note on the back of a map and hands it to Michelangelo*\n\nActually, I'm going to have you do it. Because you were keeping track of everything anyway and I would probably make it all worse if I tried to touch it. So if I can't join the debriefing, I'll send that over to the director. And if I can join, I'll just say you did it and I'll sit in the back and stay quiet. You don't have to do it alone."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "They didn't serve a practical purpose. That was kind of the whole point.\n\nLike... we were so focused on surviving that we almost forgot to be people while we were doing it. The flowers were just — they were DaVinci saying we're still here, we still exist, this isn't just about staying alive it's about being alive. There's a difference.\n\n*watches the boat get closer*\n\nI think that's actually what got us through, honestly. Not just the rationing and the raft frame and the signal equipment — though all of that mattered, it really did. But also the fact that we kept being people to each other. Even when it was hard. Even when we were bad at it.\n\nThe flowers were for that.",
+      "response_pred": "I think the practical purpose was to make sure we were human.\n\nLike — the raft, the fire, the signal — all of that was to get us rescued. But the flowers were to keep us ourselves. Because you can't actually survive in an emergency without some of the things you bring yourself, and drawing flowers on the beach was one of the ways DaVinci kept doing that.\n\nI don't know if that makes sense. It probably doesn't. But I think it's the closest I can get to what they were for.\n\n*pauses*\n\nAlso — they were beautiful."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "*exhales slowly*\n\nSorry, I just... I needed a second. I think my brain hasn't fully caught up to what's actually happening right now.\n\n*finally starts walking toward the water*\n\nIt's weird, right? Like I've been wanting this every single minute since we crashed and now that it's actually here I don't know what to do with myself. I thought I'd be screaming and running into the water but instead I'm just... standing here feeling all of it at once.\n\nI'm okay. I'm really okay. I just needed you to wait for a second and you did, so thank you for that.\n\nCome on. Let's go home.",
+      "response_pred": "*looks up from the ground*\n\nSorry.\n\nI just — I don't even know what to do with all this right now. Like you're happy and I'm glad for that. I really am. But I'm also not sure how to... I don't know. I don't know how to transition from surviving to like... what's next.\n\n*looks back at the water*\n\nJust give me a minute is all.\n\n*starts pacing a little, trying to center myself*\n\nSorry. Like I said. Just give me a minute."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\n*turns back to look at the camp one more time*\n\nOkay. Let's go. Stay close to me, alright? We made it this far together, we're walking out of here the same way.",
+      "response_pred": "No. I mean — yes. I'm going, I'm not staying here. I'm just... not first. You go first. I'll follow. But I need you to go first.\n\n*looks over at the boat*\n\nDid it really take us this long to see them? I feel like we were waving the fire and the flag and the mirror and the SOS and the smoke and the flashlights and the signal mirror for days and nobody came. And then we finally just stopped and you put those flowers on the beach and they showed up three minutes later.\n\nI don't know what that means. But I'm glad they showed up.\n\n*starts walking toward the water*\n\nOkay. I'm coming. But you go first."
+    }
+  ]
+}

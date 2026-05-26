@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "*The sound of a faint, muffled whisper escapes his lips, \"I'm sorry...\" followed by an awkward pause, as if he's struggling to hold back emotions.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "Other: I know. I'm glad you're talking to me now. I've been wanting to say something, but I didn't know how. Michelangelo's been quiet for a while, and I've been worried about him.\n\nOther: He's been acting really strange. Keeps saying he needs to talk to me, but he never says why.\n\nOther: I think he's just getting worried about the plane, like I am. He's been checking the control panel nonstop, trying to find a way to fix it.\n\nOther: He's been talking about the signal mirror, too. He says it's the only thing that might get us rescued.\n\nOther: But it's not just the signal mirror. It's what happened to us when we're on the plane. The crash, the injuries, the... everything.\n\nOther: I know. I've been trying to get him to talk about it, but he just says it's his business.\n\nOther: I don't think it's his business. We all know what happened. We just... we didn't want to talk about it.\n\nOther: I'm sorry, DaVinci. I didn't mean to make you feel that way.\n\nDaVinci: (sighs) It's nothing, really. Just a little thing about being in the midst of a disaster.\n\nOther: DaVinci, listen to me. I'm not trying to stir up trouble. I just... I want to help.\n\nDaVinci: (looks at you) What do you want, Michelangelo?\n\nOther: I want to help you deal with what happened. I want to be a part of it, but I don't want to be a part of it if it means you're not okay.\n\nDaVinci: (pauses) Michelangelo, I appreciate your concern, but I'm fine. I just need some time to process everything.\n\nOther: I know. I'm sorry. Just... please, be okay.\n\nDaVinci: (looks at you again) I'll try, Michelangelo."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "*The sound of waves crashing against the shore is the only noise for a while, then the wind picks up, whispering through the trees. The three of them sit in silence, lost in their own thoughts.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "I'm sitting next to you, my hand brushing against yours as we sit here among the wreckage. The silence between us is palpable, a mixture of concern and understanding. I've been watching you, observing the lines on your face, the way your eyes seem to hold a deep sadness. I've been trying to find the words to say, to reach out and touch you, but every time I think I'm getting close, you pull away.\n\nI remember the first time I saw you, struggling to find your bearings in the chaos. You were so lost, so scared, and yet... you were also so resilient. You managed to keep going, to keep pushing forward, even when the world seemed to be spinning out of control.\n\nI've been thinking about your family a lot, about the life you left behind. I think about the people you love, the people who are counting on you to come home safe and sound. I wonder what it must be like to feel the weight of that responsibility, to know that every moment you spend in the world of the dead might be the last moment you'll have with your loved ones.\n\nI've been trying to prepare myself for the worst, to be strong for everyone else. But the truth is, I'm scared too. I'm scared of losing you, of losing the sense of security that comes with knowing where you are. I'm scared of the unknown, of the possibility that my time here is running out.\n\nWhat do you want to talk about? What do you need to talk about? I'm here for you, no matter what."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "You: I'm not even sure what that is. Emergency supplies? I've been using the same stuff for months now. What's changed?\n\nOther: Nothing. It's just... I don't know, it's just an old habit, I guess. I was always good at packing for emergencies, you know? Before the plane went down..."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "Other: I've been thinking about it a lot since we got back, and I've been doing some research in my spare time. I think if you had to do it over, you'd make some big changes.\n\nYou: What kind of changes?\n\nOther: Well, first of all, the first-aid kit. You just focused on the shelter and signal, but we had to split our resources. We were lucky to have that blanket to share. But the first-aid kit is a bigger priority when we're stranded out here.\n\nYou: That makes sense. We did notice that the first-aid kit was running low, though.\n\nOther: Exactly. And that made it even more critical to split our resources. We should have done it differently, I think.\n\nYou: What did you do differently?\n\nOther: Well, we could have divided the supplies more evenly. We didn't have to make it so hard on anyone. And we should have prioritized the most critical items, like the first-aid kit and shelter. We didn't have to choose between those and the signal equipment.\n\nYou: That makes sense. We were so focused on the signal equipment that we didn't even think about the first-aid kit.\n\nOther: Exactly. If you had to do it over, you'd make sure to prioritize the first-aid kit more.\n\nYou: Yeah, that's definitely something we should have done. We can always build the raft and signal equipment later. The first-aid kit is a no-brainer.\n\nOther: Yeah, it's definitely one of the things we should have done differently. We should have taken care of our own people before worrying about the signal equipment.\n\nYou: Yeah, that's true. We should have looked out for each other, not just the signal equipment.\n\nOther: Exactly. I think we can all agree on that.\n\nYou: Yeah, let's just agree on that for now. We've made our best decisions with the resources we had."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "Other: I've already started working on it. I just need to gather everything from the journals, the notes, the maps... *pauses, scribbles some notes on a piece of paper* I'll just have to make sure I don't lose any important information.\n\nYou: *sits down next to her, reading her notes* I know you've been pouring over the first-aid kit inventory. I've also found a few other important documents that might be relevant. *pulls out a small notebook* I'll add them to the report.\n\nOther: *looks up, slightly startled* Oh, thank you. I've been trying to get everything sorted out.\n\nYou: *nods* No problem. It's good that you're putting all this into a report. It might help us get back on track, once we're rescued.\n\nOther: *pauses, thinking* Do you think it would be possible to recreate the route we took, or at least get a good idea of where we are?\n\nYou: *nods* That's definitely something we should try to do. If we can figure out where we are and how to get to the nearest rescue, it'll be a huge relief."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "Other: I used them to scare away birds from the signal equipment. They're really just because of the colors, but I guess it worked. It really did."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "You: *Your eyes never leave his, but you don't move. It's as if time has stopped.* Michelangelo.\n\nOther: *He looks around, as if checking if anyone else is watching, before coming back to you.* What are you doing?\n\nYou: *Your voice is low, but your tone is firm.* I'm waiting. Just sitting there, waiting. *Your eyes never leave his.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "You: *looks up, sees the rescue team, and nods slightly* Yeah, I'm going. I'll meet you on the other side of the wreckage."
+    }
+  ]
+}

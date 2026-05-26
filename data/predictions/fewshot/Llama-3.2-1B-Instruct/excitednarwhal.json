@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "excitednarwhal",
+    "agreeableness": "70.0",
+    "openness": "30.0",
+    "conscientiousness": "71.0",
+    "extraversion": "76.0",
+    "neuroticism": "16.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — it's real. That's real, okay? Somebody grab that radio.",
+      "response_pred": "Your eyes remained fixed on the fire as you stood up, your body language still tense and guarded. But then, with a quiet whisper, you spoke the words that had been building up inside you for so long."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what matters.",
+      "response_pred": "Yeah, I know. I've been a bit of a mess myself, to be honest. The weight of everything is just crushing me right now. I keep thinking about all the things we could've done, all the things we could've said, to change things. But at the same time, I'm down here with you, and I don't know what else to do. We've been through so much together, but it's just... it's just getting to this point, you know?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this place up a little — not gonna leave a mess on the beach. And somebody should make sure the signal stuff is still visible in case the rescue team needs to find us from the air. Mich, you good?",
+      "response_pred": "*The only sound is the creaking of the wooden structure and the distant calls of crickets in the night.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: I know you did. I've been having them too. Weirdly enough, they're always so real. I could almost smell the laundry and hear the sounds of children playing. It's like your body is trying to tell you something.\nYou: Yeah, some days it feels like my body is trying to hold onto something. It's like it's trying to make me remember. Do you ever feel like you're losing your grip on it?\nOther: I don't know, man. But it's getting to the point where I don't know what to do anymore. I'm starting to wonder if anyone else feels this way. Even Donatello, she's a few years older than me. She's always so focused on the day, on building and inventing. But she's not alone. I've seen her get scared too, when it all keeps going wrong."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I believe you. But you wrote the rationing plan. You put it in the middle of camp for all of us to find. And then you kept food on the side. That's the part that's hard to get past.\n\nI'm not gonna drag it out — rescue is coming and we made it. But I think you knew it was wrong. That's why you put it out now.",
+      "response_pred": "Big Five: Yeah, I know. It's not easy being the one who knows what's going on out here. But you're doing it. You're holding on. That's something to be proud of."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people sooner. I spent a lot of energy just kind of watching and waiting to see who was gonna fall apart instead of just... being straight with everyone from day one. Donatello, I should've called out the bottle the same night Mich found it. Didn't. Sat on it. That's on me.\n\nAnd I think I would've pushed harder to make sure everybody felt like they were actually part of this — not just useful, but actually in it together. Mich almost checked out completely and we kept throwing tasks at him instead of just asking if he was okay.\n\nWhat would you change?",
+      "response_pred": "Yeah, I'd say the biggest thing I'd change is how we handled the signal equipment. I mean, it's not like we're completely lost or anything, we've got the SOS on the beach and the mirror panel ready to go. But the fact that we didn't even consider the fact that the plane might be flying in this direction and we could be missing it entirely... that's what really bothers me. We didn't even think about it. And if we had, we would have probably done something about it, like making sure the mirror panel was up or something."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. Make sure you put the part about the crackers in there.",
+      "response_pred": "Other: Yeah, I'll do that. I need to get an idea of where we are, what we have, and what we need. We can't just sit around and think about what we've done without putting it into some kind of system."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nThat's kind of the whole point.",
+      "response_pred": "Other: Because, honestly, the worst that could have happened was that... well, I don't know, you know how bad it feels to not have the reassurance that there's something out there, something you can hold onto. It was like... no matter how hard I tried to convince myself it would all work out, there was still this nagging feeling in the back of my mind that I could lose someone or something I care about."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.",
+      "response_pred": "*still frozen in place, eyes fixed on him, a small, genuine smile starting to creep onto my face*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I don't know if it saw us. I genuinely don't know. But we're not invisible — we've got the SOS on the beach, we've got the mirror panel ready to go. We're doing everything right. That plane existing means there are more planes. That's not nothing."
+    }
+  ]
+}

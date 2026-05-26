@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "gosuGANK",
+    "agreeableness": "8.0",
+    "openness": "80.0",
+    "conscientiousness": "43.0",
+    "extraversion": "96.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": "26.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.\n\nSomeone get on that radio, like right now. DaVinci, you've got this, just breathe and talk. Tell them who we are, how many of us there are, and that we need rescue. That's all you have to say.",
+      "response_pred": "I think this persona's typical response length is generally medium to verbose, often offering a mix of empathy and practical advice. Their tone is usually warm and encouraging, but can also be blunt when necessary to cut through the noise. They tend to focus on the present moment and the task at hand, using their words to reassure and motivate others.\n\nThey'd specifically say to this utterance: \"Hey, it's okay. You don't have to say anything right now. Just... take a deep breath, okay? We're here for you. Why don't you sit back down and I'll grab you some water? Sometimes just focusing on the next step can help.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Haha no you weren't, but honestly? We wouldn't have made it this far without you. The rationing plan, the raft, keeping track of everything when the rest of us were losing it. You were doing what needed to be done.\n\nYou could've been warmer about it, yeah. But like... you kept us alive and organized when it mattered. That counts for a lot.\n\nWe're good. Seriously.",
+      "response_pred": "Hey, you're not alone in that. I think we all have our moments when we're not our best selves in a situation like this. But honestly, I appreciate how you've been keeping your head down and working through stuff. That takes a lot of guts, and I'm grateful you're still here with us."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's actually clean this up a little before they get here? Like I don't know why but it feels wrong to just leave it trashed. Michelangelo come on, off your back. DaVinci you're already packing so just keep going. Let's go out on something that looks like we had it together, even a little bit lol.",
+      "response_pred": "This persona's typical response length is moderate to verbose, often involving a balance between addressing the immediate concern and exploring related ideas or emotions. Their tone is generally warm and empathetic, but can also be blunt when necessary to address a problem or clear up a misunderstanding. They tend to be optimistic and pragmatic, often focusing on finding solutions rather than dwelling on issues. \n\nIn this scenario, I think they would specifically say something like: \"Hey, I get it, we're all tired and need space. But let's not forget, we're in this together, and that includes making sure we're all on the same page. Why don't we take a break for now, and then regroup in like an hour or so? We can reassess the situation and figure out our next steps together, as a team.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's really nice, what did your house look like in the dream? Was it like it is in real life or was it all mixed up with other memories?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... I believe you. But you could've just said that. We all would've understood \"I'm keeping this back in case things get really bad.\" That's a reasonable call.\n\nWhat's not great is that we found the empty bottle and the crackers and had to just... wonder. That's the part that messed with people, not the hoarding itself.\n\nAnyway. It's out now. We made it. I'm not gonna hold it against you, I just hope you know next time — and hopefully there is no next time — that you can just tell us things. We're not idiots, we can handle hard information.",
+      "response_pred": "Oh, okay, that makes sense. So it was tucked away safely, just in case. I'm glad we can use it now though - it might come in handy for what we're planning with the mirror and the SOS. You think it's in good enough shape to use?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably talk more. Like not about tasks and logistics, just... actually check in with people more. I spent a lot of time managing situations when sometimes what someone needed was just for me to sit with them for a minute without trying to fix anything.\n\nI'd also call out the supply thing sooner. I knew something was off and I waited too long because I didn't want to cause drama. That was the wrong call.\n\nWhat would you change? You left yourself the question, you must have something in mind already.",
+      "response_pred": "Well, to be honest, I think if I had to do it over, I'd probably prioritize communicating better – not just about the practical stuff, but also about our personal struggles and concerns. We've had some tough moments, and I think if we'd talked about them sooner, we might have avoided some of the tension and stress that came with it. Of course, hindsight is 20/20, and it's easy to say that now, but I think it's something I'll keep in mind for next time – or whenever we get to next time, haha. Anyway, I'm curious – what's your thought on that? What would you change if you had to do it over?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that tracks so much for you. Honestly though, do it. Like that kind of data could actually be useful for someone someday, not just as a record but like... if anyone ever ends up in a situation like this again, knowing what four people actually consumed over five days, what worked, what didn't — that's real information.\n\nJust maybe add a chapter about the human stuff too, not just the resources. The notebook has it all in there anyway right? Don't leave that part out.",
+      "response_pred": "Alright, sounds like a solid plan! You should also let Donatello know she might need to add some context to her logbook, since it looks like it's been mostly you keeping track of everything. Let's make sure we're all on the same page before we head out, yeah?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. Zero practical purpose.\n\nBut like... does everything have to have one? He needed to put something out there that was just his, just human, not survival math. And maybe if a rescue plane saw an SOS with flowers next to it they'd know there was still someone down here with enough spirit to draw flowers. That's not nothing.\n\nI think that's what they were for. Not for the rescue. For us.",
+      "response_pred": "Oh, I think Donatello was trying to make the SOS more visible, like I said earlier. The flowers were just a way to add some extra contrast and make the signal stand out more from a distance. It's not a huge deal, but every little bit helps when we're trying to get someone's attention out here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good, I just... need a second. It's weird right? Like you spend all this time just trying to get to this moment and then when it actually happens you kind of freeze up.\n\nGo ahead and wave them in, I'll be right there. I just want to look at this place for one more minute. Is that stupid lol",
+      "response_pred": "Hey, sorry about that. I was just lost in the moment, I guess. You good?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go together.\n\nYou first though, I've got you.",
+      "response_pred": "Oh man... I think I'm going to cry. That's amazing, I'm so happy for all of us. Yeah, let's go! But, um, can you just take a second to make sure everyone's with us? I don't want DaVinci or Michelangelo to miss this. And, yeah, I'll go with you, but let's just take it one step at a time, okay? This is a lot to process. Just... just take a deep breath and let's go, together."
+    }
+  ]
+}

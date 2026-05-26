@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "avidmtnrunner",
+    "agreeableness": "5.0",
+    "openness": "38.0",
+    "conscientiousness": "54.0",
+    "extraversion": "62.0",
+    "neuroticism": "3.0",
+    "gender": "m",
+    "age": "20.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Now. Respond, give our location, tail number if you remember it, number of survivors. Go.",
+      "response_pred": "*Take a step back, hands raised in a calming gesture, eyes locked on him* Oh, buddy, it's okay, you can talk to us, we're here for you. You don't have to say anything, just take a deep breath, okay? What do you need, can we get you something? Water, maybe a seat? *Look around the room, trying to gauge the situation*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Yeah. You weren't. But you kept us alive and on track, so I'll call it even.",
+      "response_pred": "Come on, don't be like that. You've been dealing with a lot, and I get it. We've all been there. I'm here to help, to support you, not to judge you. So, let's not worry about it right now, okay? What's going on, really? What's been going on that's got you feeling like this?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — let's break this camp down clean. Pack what's worth taking, leave the rest stacked neat so rescue doesn't land in a disaster zone. DaVinci, stop fussing with your bag and help Michelangelo up. Donatello, anything in that notebook rescue needs to know — injuries, timeline, resource use — flag it now. \n\nWe made it. Let's finish it right.",
+      "response_pred": "This is exactly what I didn't want to happen. We've been planning this trip for months and now it's like we're just a bunch of strangers stuck in the wilderness together. I was thinking we could make a fire, get some dinner going, but I guess it's every man for himself now. I'm gonna go start a fire, maybe someone else will join me eventually."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That sounds nice, what did your dream about home look like? Was it from your childhood or more recent?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "You think you're some kind of hero, don't you? Always having a backup plan. I've got a backup plan for my backup plan, you know."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd call you out on the food thing day one instead of waiting. Letting it build into a pattern cost us trust we couldn't really afford out here.\n\nOther than that... not much. We made the right calls when it mattered.\n\nWhat's your answer?",
+      "response_pred": "I've been thinking about that a lot actually. If I'm being honest, there's something that still bothers me. I think I was too quick to roll with the team's suggestion to pivot on day three. I know it seemed like the right call at the time, but looking back, I'm not sure it was the best use of our resources. I'd probably push harder to stick with the original plan, even if it meant some extra risk."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done. Might actually be useful if this kind of thing ever comes up again — for us or anyone else.",
+      "response_pred": "Sounds like a plan. I was thinking, maybe we could also set up a spreadsheet to keep track of the resource intake in real-time from now on. That way, when it's time to compile the data again, it'll be a lot easier."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve one. \n\nBut not everything has to. Guy needed to feel like a human being for five minutes, not just a survival asset. The flowers were for that. Sometimes that's enough of a reason.",
+      "response_pred": "You're referring to my sketches of sea anemones and other ocean creatures, aren't you? Well, I didn't just draw them for the sake of art, although I did find beauty in their forms. But I was also trying to understand the workings of nature. I wanted to study these creatures, see how they move, how they feed, and how they adapt to their surroundings. By drawing them, I could observe them more closely, note their details, and share my findings with others. You see, I believed that art and science were not separate pursuits, but rather complementary ways of understanding the world."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...I don't know. I thought I'd feel something clean. Like relief, done, move on. \n\nI just feel heavy. \n\n*exhales slowly*\n\nAlright. Let's go.",
+      "response_pred": "What's going on, why aren't you cheering? You're not still mad about that penalty, are you?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, stay close.",
+      "response_pred": "Finally, something's happening. Let's go see what's going on, stay close, I don't know what we're walking into."
+    }
+  ]
+}

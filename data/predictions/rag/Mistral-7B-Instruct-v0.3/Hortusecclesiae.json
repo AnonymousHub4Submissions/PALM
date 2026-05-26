@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "*Stands up abruptly, eyes bloodshot and gaze locked on me. I can tell he's trying to speak, but his words are stuck in his throat. After a moment, he turns around and walks away without a word.*"
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "Fine. But don't expect me to be thankful for it. Hand it over."
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "Alright, mate. We're bloody here."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "I've been a handful, haven't I? Guess the isolation gets to us all eventually. Don't worry, you're not alone in this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "Well, I suppose we're all capable of handling ourselves. If someone has a plan, I'm all ears. Otherwise, pass the time as you see fit."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "Must've been a good dream. Keep hold of those memories, they'll keep you going."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "Understood. I'll need it for the emergency at hand. Make sure to keep more aside for future needs."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "Hmm, that's an interesting question. I suppose I'd focus more on scouting the area before setting up camp. Might've avoided that last surprise encounter with those creatures. Also, I could've paid more attention to details when rationing supplies. Maybe we wouldn't be as low on food right now. But then again, we're still alive, aren't we? That's something to be grateful for. So, let's focus on what's ahead and keep moving forward."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "Great! That sounds like a valuable task. Just make sure to prioritize key findings and any urgent actions that need to be taken. Don't forget to double-check the data before compiling the report, and don't hesitate to reach out if you need any help with that. Let's keep moving and tackle the next tasks."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "They were likely not meant for a practical purpose. DaVinci often sketched for the sake of capturing beauty and understanding the world around him. His art is a reflection of his curiosity and his desire to study and learn."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "I'm not moving. You can go back to your cheering."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Absolutely! Let's get out of here, but don't forget to grab the essentials as we go. We wouldn't want to leave anything behind!"
+    }
+  ]
+}

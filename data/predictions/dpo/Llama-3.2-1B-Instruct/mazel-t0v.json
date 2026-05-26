@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "*looks down, fidgets in seat, eyes darting around the room*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "I know guys can be pretty tough sometimes."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "I, Rachel, sat by the fire, watching the stars twinkle above. I strummed a gentle tune on my guitar, letting the melodies wash over me. The others seemed lost in their own thoughts, Alex scribbling in a worn journal, Maya doodling in her sketchbook, and Ethan sitting cross-legged on a nearby rock, staring out at the darkness. I felt a sense of peace settle over me, as if the world had slowed down and all that mattered was the moment."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "I'm glad I haven't been too stressed out lately, that's a nice feeling. Do you think it's just a coincidence or is something deep down in your heart that you're feeling at home?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "*pauses and smiles slightly*"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "\"Hey, I just reviewed the log and everything seems fine. I'm glad you're thinking ahead. Honestly, I don't think I would change anything. I've learned a lot and feel pretty good about how things unfolded over those five days. The decision-making process was pretty straightforward, and I didn't have any major setbacks or surprises. That being said, I would probably double-check some of the financial obligations to make sure they're still on track. I know I tend to get a bit too trusting at times, but I think it's still worth doing.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "That's a good start. I'll make sure to take notes and organize the information. I'll also keep track of any decisions or actions that need to be taken from the resource data. Have a break and I'll send you a follow-up email with all the details."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "*nervous laughter* Ah, yes, the flowers... I, uh, I think they were for, uh, curing the sunburns that came with... *pauses* ...tanning. Yes, that's it. The artist wanted to commemorate the sun's warmth on the sand, and the flowers were a symbol of the beauty of nature. *awkwardly gestures to the flowers* They're, uh, quite lovely, aren't they? *fidgets*"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "*pauses, eyes fixed on yours, a hint of unease creeping in*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll be there in a heartbeat, don't worry. Grab onto my arm, I'll catch up. Let's move, everyone! We don't know what's going on, but we need to get out of here ASAP."
+    }
+  ]
+}

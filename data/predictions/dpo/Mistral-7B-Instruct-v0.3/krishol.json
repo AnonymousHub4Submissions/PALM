@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "krishol",
+    "agreeableness": "48.0",
+    "openness": "44.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "Excuse me, everyone. I've been thinking... about this situation we're in. Let's not beat around the bush, shall we? It's time we take action. I suggest we brainstorm some ideas and work together to resolve this. I'm not one to sit idle when there's work to be done. Now, who's with me? Let's get moving!"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive so. I'll take it.",
+      "response_pred": "I apologize if my exuberance has been overwhelming these past few days. It's just that I'm so full of life and ideas, I can't help but share them! Let's grab a drink sometime and I'll tone it down a bit. After all, balance is key, right?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright I'm not just gonna sit here for three hours. Let's at least make this place look like we weren't completely feral while we were here.",
+      "response_pred": "I can't help but feel a bit restless in this silence. Perhaps if I were to suggest a game or some activity, it might liven things up a bit? But then again, I'm not one to impose my ideas on others. Maybe they'll come around eventually. In the meantime, I'll just enjoy the peace and quiet."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Good dream or one of those ones where you're home but something's still off?",
+      "response_pred": "That's interesting. I haven't thought about home in a while. But dreaming about it means something, right? I should probably visit sometime soon."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not gonna make a big thing out of it right now, not with rescue three hours away. But you know it wasn't okay, right?",
+      "response_pred": "I've always been one to prepare for the worst, you know. This might come in handy someday."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the food thing sooner instead of waiting for it to pile up. I let it go too long because I didn't want the conflict and that wasn't fair to anyone. What would you change?",
+      "response_pred": "I'm curious now, what changes you would make if given the chance to repeat these five days? Let's see if we can identify any areas for improvement in our strategy."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks for you. Send me a copy when you're done, I'm genuinely curious what it looks like all written out.",
+      "response_pred": "Let's get straight to it. I'll jot down all the findings from this week and turn it into a comprehensive report. But first, some coffee to fuel this marathon session. Cheers!"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Nothing practical. That's kind of the whole point.",
+      "response_pred": "I guess they were more for aesthetics and artistic expression rather than practicality. After all, beauty often serves no purpose beyond itself, doesn't it? Now, where's that bottle of rum? Time for a drink!"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm coming, I just need a second.",
+      "response_pred": "\"Well, aren't you going to join the party? Or are you too timid for a good time?\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Absolutely! Let's get this show on the road. I can't wait to dive into the action. Who's up for some thrills and spills? Remember, stay focused and don't let the adrenaline get the better of us. Let's do this!"
+    }
+  ]
+}

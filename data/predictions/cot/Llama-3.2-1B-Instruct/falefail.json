@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "falefail",
+    "agreeableness": "60.0",
+    "openness": "54.0",
+    "conscientiousness": "82.0",
+    "extraversion": "43.0",
+    "neuroticism": "62.0",
+    "gender": "f",
+    "age": "24.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah. I think that's enough.",
+      "response_pred": "think your one-paragraph analysis\nthis persona's typical response length is brief, almost curt. He's focused on the moment, not getting into lengthy explanations. He's also not very expressive, mostly just looking at each other with a mix of emotions.\n\ntheir reply\nYou: *Looks at him, then at Michelangelo, and then back at him, but doesn't say anything*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive and organised when the rest of us were too overwhelmed to think straight, so it evens out. I think we all showed up in the ways we were capable of. That's probably the best you can ask for.",
+      "response_pred": "<response> I know it's been a tough few days for all of us. The stress of being stranded with limited supplies and no clear plan for rescue has been building up. The weight of the situation is crushing us all, and it's not like we haven't been arguing already. But you're right, it's natural to feel a little scared. We've all been thinking about our loved ones, wondering if we'll ever see them again..."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just going to leave this place exactly as we found it? I feel like we should do something before the rescue team gets here — even just gathering everything into one spot so it's easier to account for. And Michelangelo, get off the ground, you can watch the sky from a standing position. Three hours isn't that long.",
+      "response_pred": "<think>They all seem to be lost in their own thoughts, their faces somber and quiet, the only sound being the distant hum of crickets or the occasional snap of a twig. It's as if the tension has been broken, and for now, they're just existing, each going about their own business. The fact that they're not talking to each other suggests a deep-seated fear or anxiety that they're not willing to confront. It's almost as if they're all waiting for something – or someone – to come along and break the spell. <response>it seems the silence is a self-imposed one, a way of avoiding confrontation and the inevitable revelations that will come with it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like in the dream? Was it good?",
+      "response_pred": "I'm pretty sure you said it was a dream."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not going to pretend I'm not annoyed about it, because I am — we had a rationing plan and you wrote it. But I also know that if things had got really bad, you'd have used it for all of us, not just yourself. At least I think that's true.\n\nIs that what you're telling me? That it was for all of us?",
+      "response_pred": "think your one-paragraph analysis\nthe response is direct, concise, and to the point. it's a simple statement that gets straight to the point, without much elaboration or emotional expression.\n\nthe tone is calm and matter-of-fact, which is consistent with the persona's usual demeanor. they seem to be detached and focused on the task at hand, rather than getting emotional or invested in the conversation."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I would have called out the food and drink situation earlier instead of waiting and letting it sit. I knew something was off and I kept thinking about the right moment to bring it up and there probably wasn't ever going to be a perfect moment — I should have just said it directly when I first saw the bottle.\n\nI think I also spent a lot of energy managing how everyone was feeling at the expense of saying what I actually thought. Which isn't always wrong, but there were times I softened things that probably didn't need softening.\n\nWhat about you? What's your answer to your own question?",
+      "response_pred": "it sounds like they're taking a responsible approach, weighing the pros and cons of their actions and considering potential fallout, which is understandable given the circumstanc"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's probably a good idea actually. Might be useful for other people in the same situation — like, what actually works when you're rationing with almost nothing, what the real priorities are versus what you think they'll be. The water source being two hours away on foot, the mirror panel, all of it. Someone could genuinely benefit from that.\n\nSend it to me when it's done. I mean that.",
+      "response_pred": "I'm gathering intel, yeah. We've got the weather, the satellite imagery, the ship's engines, the salvage reports. I'm going to synthesize it all and come up with a solid report. Don't want to go overboard on analysis, but I want to make sure we've covered all the bases. I'm going to get started on that ASAP, after I deal with the rainwater collection and whatnot."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve a practical purpose. That was kind of the point.\n\nI think when everything is stripped back to just survival — water, food, signal, shelter — and someone still makes room to draw flowers next to an SOS sign, that's them refusing to stop being a person. It's easy to become purely functional when the stakes are that high. DaVinci didn't.\n\nI didn't fully appreciate it at the time either, if I'm honest. But I do now.",
+      "response_pred": "Think: This persona's typical response length (terse vs verbose?)\nTheir tone (warm / blunt / philosophical / dismissive / etc.)\nWhat they would specifically say to this utterance.\n\nThe response is brief, concise, and to the point, which is consistent with the persona's personality. The tone is also calm and matter-of-fact, which is fitting for a discussion about abstract concepts like flowers on the beach. The fact that they mention DaVinci's drawings suggests that they are trying to explain something to the person, but their words are straightforward and lacking in emotional resonance. Overall, the response is straightforward, concise, and lacks the verbosity typical of this persona."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I think I just need a second. It's real now and I don't quite know what to do with that.",
+      "response_pred": "You: *Your voice is steady, but your eyes betray a flicker of guilt. You still haven't moved, just sitting there, waiting. The smile has returned, but it's not as wide or genuine as before. It's as if you're holding something back, and you're not sure how to express it.*\n\nOther: *He takes a step back, his eyes locked on yours. A small, almost imperceptible movement, but enough to indicate he's trying not to show anything.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "-you take a deep breath, putting on a neutral face to hide the emotions welling up inside, and nod slightly, trying to appear more confident than you feel-"
+    }
+  ]
+}

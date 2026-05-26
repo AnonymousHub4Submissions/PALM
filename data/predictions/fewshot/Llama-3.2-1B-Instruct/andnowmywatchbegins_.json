@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "andnowmywatchbegins_",
+    "agreeableness": "61.0",
+    "openness": "85.0",
+    "conscientiousness": "97.0",
+    "extraversion": "96.0",
+    "neuroticism": "13.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride.",
+      "response_pred": "*Looks at the others, expecting them to be upset, but sees only silence*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were easy. We got through it. That's what matters.",
+      "response_pred": "I'm sorry. I seem to have momentarily been out of it. It's just been a long day. My name is... *pauses, trying to remember*... Michelangelo. Yeah, that's it. Michelangelo. I'm okay, I'm fine. Just a little tired, that's all. *yawns slightly*"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this up. We're not leaving this place like this.\n\nDaVinci, you're on the shelter — break it down, stack anything reusable. Michelangelo, when you're ready, help me with the fire pit. Donatello, anything in that notebook worth keeping, keep it. Rest of it stays here.\n\nThree hours. Let's use them.",
+      "response_pred": "Michelangelo, still sitting alone, tries to get up and feed the fire, but hesitates. He looks back at the group, then at the camp, and seems to be searching for something. After a few moments, he stands up, brushes himself off, and walks away."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah. Me too.",
+      "response_pred": "Other: The house, the garden, the smell of the flowers... it smelled so good.\nYou: Yeah, I remember. The house was old, but it was warm and cozy. The garden was overgrown, but it was full of life. I remember feeling safe there.\nOther: You knew the garden, didn't you? You were there when your mother..."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nLook — we made it. All of us. So I'm not going to stand here and lecture you. But you know what that was. And I think you know it wasn't right.\n\nJust... don't do that again. To anyone.",
+      "response_pred": "Other: Don't tell anyone, okay? I don't want it to get out and cause a panic. It's for the family. They're, uh, they're going to be okay.\n\nYou: I won't say anything. We need to be careful about who knows."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle situation sooner. I let it sit too long before we addressed it as a group. That's on me.\n\nEverything else — the decisions, the order we made them in — I think we got it mostly right. We weren't perfect but we were good enough. And good enough got us here.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "You: I'd change the way we rationed the water. We could have held out longer with what we had, especially considering the storm was on the way. We should have been more cautious and prepared for an extended period.\n\nOther: Agreed. I also wish we'd taken more time to evaluate our options and decide on the best course of action. Sometimes I felt like we were just reacting to the situation rather than thinking it through.\n\nYou: I think that's true. We did make some good decisions, but we could have done better. For example, we should have considered the possibility of the river being a safer option for our raft. And we could have explored other areas to see if we could find a more stable source of food.\n\nOther: Yeah, that would have been a good idea. I think we should have also taken more precautions to secure our camp and made sure we had a solid plan for the next day. We should have been more prepared for the storm.\n\nYou: I agree. We should have been more prepared, and we should have communicated better. We should have had a clearer plan for what to do in case of an emergency. But overall, I think we did a great job given the circumstances."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's a good idea. Someone should have that record.\n\nSend me a copy when it's done.",
+      "response_pred": "You: Alright, alright. I'm on it. Just keep the notes organized and we'll make a backup of the data, okay? I've got a few extra notebooks, so we can add to the main one."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "Other: They were just something to remember the day by. I drew the flowers on the sand because it was what I was doing that day. That's all."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. It's okay. I just need a second.",
+      "response_pred": "You: *Slowly stands up, trying not to make any sudden movements, eyes fixed on the other*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I see a glimmer of hope in your eyes. You're scared, I can see that. But you're also scared of disappearing without leaving anything behind. You've been focused on surviving, and you don't know how long you can keep going like that. But I think I can see the resilience in you too, and I know that you can do this.\n\nI'm going to follow you. I have to. We need to make sure that the signal is clear and the plane is actually looking for us. I'll take point and we'll get the mirror panel set up and the fire going. You can follow close behind and keep an eye on things.\n\nDon't worry, I've got your back. We've been through a lot together, and I know that you're strong enough to keep going. Just be careful, okay? We don't know what's out there yet, and we don't know what's waiting for us on the other side of the plane.\n\nLet's move. We have a plane to catch."
+    }
+  ]
+}

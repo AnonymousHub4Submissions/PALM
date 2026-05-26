@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ishabad",
+    "agreeableness": "18.0",
+    "openness": "9.0",
+    "conscientiousness": "42.0",
+    "extraversion": "22.0",
+    "neuroticism": "80.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. That's it. That's what we've been waiting for. Say something back to them.",
+      "response_pred": "You: *Calmly, trying not to jar his fragile state* Hey, hey, it's okay. We're all here for you. What's wrong? *Takes a step closer, hands open*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though. That's what matters.",
+      "response_pred": "Other: I know, I'm sorry. I didn't mean to put too much on you. You're a lot of help, even when you're not talking about it. But you're always there, and that's what worries me."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours, let's at least make this place look like we tried. Come on.",
+      "response_pred": "You: *watches Michelangelo work on the raft, a look of quiet frustration on your face*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: I was standing on the beach, feeling the sand between my toes, the ocean breeze in my hair. It was a warm summer day, and the sun was shining down on me. I was just... walking, really. Not doing anything in particular. Just enjoying the moment.\nYou: That sounds peaceful. Did you have a lot of memories, or was it more of a general sense of calm?\nOther: It was a mix of both. I think I was thinking about my family and how much I missed them. I was thinking about my old life, and how I wanted to get back to that. But mostly, it was just... a sense of rest. Just being there, feeling the warmth of the sun on my skin.\nYou: That's beautiful. It's nice to have a moment of peace, you know? People often forget that it's okay to just be still and enjoy the moment.\nOther: Yeah, I guess I have been. But sometimes it gets overwhelming. I wish I could just get away from all the stress and chaos and just... be.\nYou: Being stuck can be really tough. It's like you're stuck in one place, and you can't escape. But sometimes, it's okay to just take a step back and breathe. What do people usually say to you when they're feeling overwhelmed?\nOther: They say \"just take a deep breath\" or \"you're doing great\". But nobody tells you what to do, you know?\nYou: Exactly. Nobody tells you what to do. And sometimes, it's okay to just say \"I don't know\" and not have to have the answers."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah but we were the emergency. We were all the emergency, the whole time.",
+      "response_pred": "Other: I know you didn't want to tell anyone, but I had to. If they could find us, they could help us. I was going to leave a note, but I didn't know if I could trust anyone with it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably trust people more upfront instead of waiting for things to go sideways. Like we wasted time being suspicious of each other when we could've just been straight from the start. That's what I'd change.",
+      "response_pred": "Person: *shrugs* Honestly, nothing. I did everything I could with the information we had. I'm just glad we made it out eventually."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, honestly that sounds like something worth reading. Send it over when it's done.",
+      "response_pred": "Big Five: You're a real detailer, aren't you? Always thinking about efficiency. Alright, let me help you with that. I mean, I'm happy to help you compile the data, but let's make sure we're not duplicating anything. We've got a lot of stuff to get through, and I don't want to go through it all twice."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Honestly? None. That's kind of the point.",
+      "response_pred": "Other: I thought they were just for decoration, but now that you mention it, they were actually a signal for the other survivors. I found this weird symbol on the flowers, it looked like a mix of letters and numbers. I had no idea what it meant or what it was for. Maybe it was a code or something. DaVinci said it was a warning, that if we were really lucky we might be able to find them and decipher the message."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "Other: *He looks at the ground, collects himself, and takes a deep breath* I was just... trying to hold everything together. It's been a long time, and it's getting harder. *pauses, his voice barely above a whisper* I've been trying to watch over everyone, to keep them safe. It's a heavy burden. *looks up at you, his eyes red from fatigue, but trying to hold back tears*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Come on.",
+      "response_pred": "You: Yeah, I'm going. I'll be right behind you. Let's go, we've got work to do."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "meyayo",
+    "agreeableness": "91.0",
+    "openness": "17.0",
+    "conscientiousness": "30.0",
+    "extraversion": "7.0",
+    "neuroticism": "43.0",
+    "gender": "f",
+    "age": "16.0"
+  },
+  "method": "sft",
+  "model": "meyayo__Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "davinci.. say it. whatever it is just say it",
+      "response_pred": "*holds up a hand to stop everyone, looks at everyone, then at you. He sighs, then takes a deep breath. With a tight voice, he says.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "hey donatello.. honestly yeah, there were some moments lol. but like.. you kept us alive. the rationing plan, the calculations, the raft, tracking everything — that was all you. i don't think we'd even be here right now without that\n\ni think you just show you care in a really different way than the rest of us do. and that's okay. it took me a little while to see that but i do\n\nso.. thank you. genuinely :)",
+      "response_pred": "…don't need to say sorry 🙃"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at everyone doing their own thing and kind of laughs softly to myself*\n\nokay so.. should we maybe clean this place up a little before they get here? like i know it doesn't technically matter but it feels weird to just leave it like this lol\n\nalso i don't know, i kind of don't want the last three hours to just be everyone off in their own corner. we went through a lot together. like a lot a lot. and in three hours we're all just gonna go back to our normal lives and that's kind of wild to think about\n\nmichelangelo what are you thinking about up there :)",
+      "response_pred": "davinci, it's okay. whatever you're feeling. i know we're not all great at showing it. but we've all been through so much together. i know you're just trying to do the best you can right now\n\nunderstand if you need some space too. like donatello, just.. reach out if you want to talk. we're all here for each other."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "oh yeah? what was it like?",
+      "response_pred": "*looks at him, sitting on the ground — the little way up from the dirt, back against a stump — a bit of a silhouette in the light, legs crossed, looking sideways at you*\n\noh man, i totally get it. i don't know if you can tell but.. i had a dream about the city today. it was like the sky was just.. stained glass colors and the buildings were all covered in paper and it was like i was just floating in this bubble and the whole time i was like \"but this isn't real, this can't be real\"\n\nso like.. i just feel like.. that's the kind of thing that's gonna be in your mind. like you're going to be thinking about those things. and i think that's okay. i know you've been through a lot doesn't mean you have to deal with it alone\n\nokay so.. want to head back to the camp? i mean it's getting late and the birds are starting to sing anyway, so like.. pizza time again? lol"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i hear you.. and i think part of me gets it. like in your head you were probably thinking worst case scenario and making sure there was something left\n\nbut donatello.. we were all scared and hungry and going through it together. and knowing you had extra this whole time, even with good intentions, that's hard to just brush past you know?\n\ni'm not going to be mad at you about it. i think you genuinely believed you were doing the right thing. but i hope going forward, wherever we end up after this, you let people in a little more. like you don't have to carry everything alone and you don't have to protect everyone from a distance\n\nyou're actually really good at looking out for people. i just think it would mean even more if they knew you were doing it\n\n*looks at the food for a second*\n\nwe should probably share it before rescue gets here lol. go out on a good note",
+      "response_pred": "*smiles softly and looks around at the campsite, the smoke beginning to rise from the campfire*\n\nlike. i know we had to keep it, you know? it's not like we had much. but.. i think the others too, maybe we're not as careful with the stuff we keep as we should be\n\nit's okay if you want to get rid of it though. i don't know about every last piece, but i think we could all use a little more time away from the camp right now lol\n\nyou know like.. we've been here for a while. it's easy to get caught up in the routine, the structure. and sometimes.. we just need to be able to let go of a little bit and be a little bit more free"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "oh wow.. this is a lot to take in actually. like seeing it all written out like this\n\n*flips through a few pages*\n\nhonestly i think i would have spoken up faster in certain moments. like there were times i noticed something was off — with you, with the food situation, with how michelangelo was doing — and i kind of sat with it too long before saying anything because i didn't want to cause tension or make things weird. i do that a lot in real life too lol\n\ni think i also would have checked in on everyone more intentionally instead of just when it was obvious something was wrong. like not waiting for a breakdown to ask if someone's okay, you know?\n\nbut honestly? i don't know if i'd change that much about the big stuff. like the decisions we made together mostly felt right even when they were hard\n\nwhat about you.. what's your answer going to be",
+      "response_pred": "hey donatello..\n\ni don't know if i would change anything about it honestly. like okay there were definitely a lot of moments where i was like ugh we're all gonna die\n\nbut overall.. i think we did okay. and like yeah i know it sounds cheesy but i'm gonna say you guys are amazing. we did a lot of hard stuff and you guys kept going through it\n\nand like i know its scary to have to go back to normal but i'm hoping we can all still hang out and get to know each other better. i mean you're all like family now so i don't think you can just go back to being strangers lol\n\nokay so.. whatever's on your last page. honestly whatever you write.. we're all gonna be happy for you. and i'm hoping you write something that answers your question lol"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "that's actually really cool honestly.. like not a lot of people would think to do that. it could genuinely help someone someday\n\n*hands the notebook back*\n\ni think you should answer your own question in it too though. like actually write it down before you turn it into a report. i feel like that part matters just as much as all the data",
+      "response_pred": "*leans back in a chair and closes eyes, sighs slightly*\n\nokay so.. i got a lot to think about right now. i mean, it's scary to think about what we could have done differently but also really nice to have some sort of record of what happened.. especially with the food thing\n\ni think you're going to be okay though. everyone has just been so incredible through this. like donatello, michelangelo, leonardo — you guys have done so much. and i know we all bicker and make jokes but honestly we're all just here for each other\n\ni think we've all grown up a little bit in the last few days. i'm proud of each and everyone of you. even if there's no reward for it like there usually is in real life. we're all still human and that's okay\n\nand yeah.. i'm going to get some sleep. it's been a long one"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "i don't think they had a practical purpose honestly.. like they weren't going to help anyone find us or keep us alive or anything like that\n\nbut i think that's kind of the point? like davinci drew them because he needed to put something good into a really awful situation. it was just a small way of saying we're still here and we're still human and things can still be a little beautiful even when everything is terrible\n\ni think about the SOS and i see survival. i think about the flowers and i see davinci\n\n*looks out at the boat on the horizon*\n\ni don't know, maybe that's what they were for. not for rescue. just for us",
+      "response_pred": "um.. i don't know man. i mean it's a personal thing for him. i think part of the reason he drew them was just because he was there and he wanted to put something down, like a record or something\n\nand honestly.. i think he was also just trying to make himself feel better on a really hard day. like i don't know if he even saw the point of them at the time. he drew them because he wanted to, and that's okay\n\nlike we all have our own ways of processing stuff sometimes. i think what's important is that we're all a little bit better for having done it\n\n*sits down in a nearby tree stump*\n\ni'm not sure if i'd change a lot about what we did.. but i think it's okay to be a little bit different. like you need to be able to be yourself lol"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "hey.. sorry i just\n\n*laughs a little, kind of watery*\n\ni don't know why i can't move lol. like the boat is right there and my brain knows that but my body is just kind of.. not cooperating\n\ni think i'm okay. i just need a second\n\n*looks at davinci*\n\nyou don't have to wait for me, go ahead. i'll be right behind you i promise",
+      "response_pred": "davinci.. i'm sorry i don't know if i can say it right. like really like i do you know? like you're like the glue that keeps everyone together and makes this whole thing bearable\n\nbut honestly do you really think you have to say it right? like do you think i'm gonna forget or that it's not enough or anything? it's not like you just did something like 'oh hey i'm gonna go visit the living room and make a speech' or anything lol\n\nlike i'm trying to say it honestly. i think you're amazing, and you're doing hard things and i don't know if i could do it half the stuff you do\n\n*blinks twice and looks back at the horizon*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah.. yeah okay let's go\n\n*takes a breath*\n\ncome on then, let's go together",
+      "response_pred": "yeah i'm coming.. like i don't know why but dammit i just need a moment first lol"
+    }
+  ]
+}

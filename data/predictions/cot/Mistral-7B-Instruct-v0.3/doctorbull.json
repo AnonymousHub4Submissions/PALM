@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "doctorbull",
+    "agreeableness": "98.0",
+    "openness": "99.0",
+    "conscientiousness": "5.0",
+    "extraversion": "4.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move — but nothing comes out.*",
+      "response_truth": "Hey. We're okay. We're okay.",
+      "response_pred": "<think>This persona's response will likely be a mix of empathy, understanding, and a gentle push towards communication. Their tone will be supportive but firm, with a touch of philosophical insight.\n\n<response>Hey, are you okay? It's okay to feel what you're feeling. This isn't easy for any of us. But if there's something you want to say, we're here to listen. Maybe talking about it will help a bit. Or not - either way, you don't have to figure this out on your own. We're in this together."
+    },
+    {
+      "utterance": "These past few days — I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, and those two things are related. The same qualities that made you difficult to be around are the reason we're all still here to be bothered by it. I think you know that.\n\nFor what it's worth - the notebook, the rationing plan, the raft design, the water source. That was all you. We wouldn't have made it to a radio to receive that signal without the work you put in. I don't think that should go unsaid.",
+      "response_pred": "<think> This persona's response length is typically brief, but thoughtful. Their tone is warm, empathetic, and philosophical. They often try to find the deeper truth or meaning behind the question or statement.\n\n<response> You know, it's a hard time for all of us. It's natural to feel overwhelmed and out of sorts. I hope you know that we're here for you, no matter what. And if you need to talk, or just need someone to sit with you, I'm here for that too. Everyone's allowed to be a little lost sometimes, and it's the people who reach out for help that I admire the most. So don't worry about being easy to be around. Just be yourself, and let us help you be the best version of that self that you can be."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes the lead. The silence settles over camp.*",
+      "response_truth": "Three hours is a long time to just wait. I'm going to start breaking down what we built here - not because it matters practically, but because it feels wrong to just leave it. Anyone want to help or is everyone doing what they need to do right now?",
+      "response_pred": "<think>This persona's typical response length is verbose, providing detailed analysis and suggestions. Their tone is warm, empathetic, and philosophical, often offering comfort or guidance. They tend to ask questions, seek understanding, and attempt to address underlying emotions.\n\n<response>Looks like we're all a bit lost in our thoughts. Maybe it's a good time for some quiet reflection. Sometimes silence can be a powerful thing, giving us space to process what's happened and figure out what comes next. Let's regroup when we're ready. In the meantime, if anyone needs to talk, I'm here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "<think>The persona tends to be verbose and philosophical. They often strive to provide empathy and insight while also getting to the heart of the matter.\n\n<response>I see. Dreams like that can be a sign that your subconscious is trying to process something, even if you're not fully conscious of it yet. Maybe it's a reminder of how much you value the things you left behind, or a way of reaching out for them in the middle of this strange situation. Whichever it is, I'm here if you want to talk about it. But I also know how much energy that kind of emotional work can take, so if you need a break or just a moment to be quiet, that's totally okay too."
+    },
+    {
+      "utterance": "I kept it in case of an emergency.",
+      "response_truth": "I believe you. And I think part of you knew that wasn't the whole reason, which is probably why it's on the ground right now.\n\nWe don't have to make more of it than it is. You made a call that didn't sit right with you and you're correcting it before we leave. That's not nothing. That's actually harder than not taking it in the first place.\n\nWhat do you want to do with it?",
+      "response_pred": "Look, it's okay to hold onto things like that. It's a survival instinct, but it can also be comforting. Maybe we can find a way to use it, or at least make you feel a little better while we're here. Just let me know if you want to talk more about it."
+    },
+    {
+      "utterance": "I've logged every day — resources, decisions, all of it. Plan to turn it into a proper report once we're back. Last page I left a question I haven't answered myself: if you could do this over, what would you change?",
+      "response_truth": "I'd have talked to you sooner. Not about the supplies or the plans - you had all of that. I mean actually talked to you. I think I treated you like a system to work with instead of a person to know, and that was a missed opportunity that I'm only seeing clearly now that we're about to leave.\n\nWhat would you change?",
+      "response_pred": "<think>This persona tends to be verbose, often providing detailed analysis or explanations. Their tone is empathetic, philosophical, and thoughtful. They seek to understand others and are interested in their thoughts and feelings.\n\n<response>I'd say the question you're asking is more about what we can learn from this experience than what we might have done differently. Maybe we would have prepared more, or maybe we would have worried less. But what's more important is what we take away from this. If we can understand why we made the decisions we did, and how they worked out, we're better equipped to make decisions in the future. And that's what the log is for, right? To help us learn. So, in a way, I'm glad you asked."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to write up a report on the resource usage data from these five days.",
+      "response_truth": "That sounds right for you. I hope you actually send it somewhere useful - emergency preparedness people, aviation safety, whoever would actually read it. That data has value beyond the two of us knowing it existed.\n\nThough I'd say - maybe write the other thing first. The last page question. You already know the answer, you just told me. That one's worth getting down while it's still close.",
+      "response_pred": "<think>This persona's response length is typically terse, focusing on getting to the point without unnecessary words. Their tone is empathetic and analytical, often providing practical advice or insights while being mindful of the emotional state of others.\n\n<response>Sounds like a good idea. The more data we have, the better our decisions will be. Just remember to include any discrepancies or outliers you notice - those can often be the most instructive. Also, make sure to share the report with everyone so we can all learn from it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach... I never really understood it. What was the point of that, practically speaking?",
+      "response_truth": "It wasn't practical. That was the point.\n\nThere's a version of survival that's just keeping the body alive, and you did that better than any of us. But there's another version where you also remember that you're a person while you're doing it, and the flowers were that. DaVinci needed to do something that wasn't purely instrumental, something that was just... his. And it cost us nothing, and it made the SOS feel like it was made by people worth rescuing rather than just coordinates on a map.\n\nI think you understood it more than you're giving yourself credit for. You just didn't have a category for it in the notebook.",
+      "response_pred": "<think>This persona is generally verbose and philosophical, often providing thoughtful considerations and analyses. They tend to approach questions with a deeper consideration of underlying motivations and emotions.\n\n<response>Well, the flowers are a form of communication - a message in a language that we don't speak. They're a way of saying, \"I was here.\" They're a reminder that life continues, even in the midst of chaos. And they're a symbol of hope, a belief that something beautiful can grow out of the ashes of destruction. So, practically speaking, they're a way of leaving a mark, a trace of our presence for someone who might find it someday. But they're also a reminder that we're not just survivors, we're human beings, and that's important too."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I didn't expect it to feel like this. I thought relief would be simple. It's not simple.",
+      "response_pred": "<think>This persona's response is typically verbose, philosophical, and empathetic. They tend to provide thoughtful, considered answers that delve into the underlying emotions or motivations of the question.\n\n<response>Hey, what's up? You seemed a bit off there for a minute. Everything alright? If you need to talk about something, I'm here. We're a team and we've got each other's backs, remember?"
+    },
+    {
+      "utterance": "Rescue is here... they're waving at us. Are you going over? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "<think>The response will be brief, directed, and clear. The tone is matter-of-fact, with a hint of relief due to the situation.\n<response>Let's go. I'll lead the way. Stay close."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "krishol",
+    "agreeableness": "48.0",
+    "openness": "44.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "\"I can tell, I can tell, it's you, isn't it, we all have to be quiet sometimes and let the others handle it, it's just how we're wired, but I wish you could feel it too, that we're all in this together, trying not to be the one to make things worse, and I'm trying, I really am, to be the one to make it better, please can you just speak up?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive so. I'll take it.",
+      "response_pred": "They: Honestly? I guess I've been a bit of a handful lately. I just get really invested in the things I care about, and sometimes that means I bring up sensitive topics or get sidetracked. Sorry if I've been hard to deal with."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright I'm not just gonna sit here for three hours. Let's at least make this place look like we weren't completely feral while we were here.",
+      "response_pred": "*The sound of the wind rustling through the trees seems to carry the weight of their unease, and I find myself standing up and walking away, my footsteps echoing through the stillness.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Good dream or one of those ones where you're home but something's still off?",
+      "response_pred": "I'm sitting in my cluttered apartment, surrounded by boxes and broken dreams. It's not the cozy home I had envisioned for myself, but it's home nonetheless."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not gonna make a big thing out of it right now, not with rescue three hours away. But you know it wasn't okay, right?",
+      "response_pred": "\"My friend, you should have put it in the first-aid kit. It's not just for emergencies, it's a utilitarian move. You never know when you might need it. And besides, it's always better to have it on hand. You might as well prepare for the worst and have something safe to fall back on. Come on, let's check the storage room and see if we can find anything.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the food thing sooner instead of waiting for it to pile up. I let it go too long because I didn't want the conflict and that wasn't fair to anyone. What would you change?",
+      "response_pred": "They: Honestly, I never thought about this long-term. I'm glad you're thinking about it, but to be honest, I'm more concerned about the immediate situation right now. We've still got a long way to go before we can even consider investing in shelter or finding food."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks for you. Send me a copy when you're done, I'm genuinely curious what it looks like all written out.",
+      "response_pred": "\"I've been busy organizing all the notes and data from our last few days with you. I've compiled it into a report that I think is pretty comprehensive. It's all here, if you want to take a look.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Nothing practical. That's kind of the whole point.",
+      "response_pred": "I'd say his tone is quite casual, almost conversational, with a hint of defensiveness."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm coming, I just need a second.",
+      "response_pred": "*The tension between us is palpable as I sit there, hands clasped together in an awkward fist, eyes fixed on the ground.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm going. Just don't follow me, I'm not sure I'm up for more after everything I heard."
+    }
+  ]
+}

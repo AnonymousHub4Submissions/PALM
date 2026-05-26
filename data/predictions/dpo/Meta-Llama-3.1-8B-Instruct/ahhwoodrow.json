@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ahhwoodrow",
+    "agreeableness": "41.0",
+    "openness": "43.0",
+    "conscientiousness": "44.0",
+    "extraversion": "14.0",
+    "neuroticism": "17.0",
+    "gender": "",
+    "age": "32.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There we go then.",
+      "response_pred": "*takes a step back, arms crossed*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That counts for a lot more than easy to be around.",
+      "response_pred": "I've noticed you've been a bit irritable, that's all. Don't worry about it, it's not like you're the first person to have a bad day. I've had my share of those too."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, are we just going to leave it like this then? Three hours and we're out of here, let's at least not leave a complete tip. DaVinci, you're packing anyway, can you consolidate what we're taking versus what we're leaving? Donatello, anything in that notebook we need to hand over to rescue when they arrive - medical stuff, timeline of events? Mikey, you can keep watching the sky, just maybe do it while you're picking up around you.",
+      "response_pred": "I don't like this one bit. We should be working together, not just wandering off on our own. I mean, we're in this together, right? Someone's gotta keep an eye on things, make sure we're all safe. I'm going to go check the perimeter, see if there's any sign of trouble."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream?",
+      "response_pred": "I've been meaning to organize my old family photo album. It's been years since I've looked through it. What's the house from your dream like? Was it the one you grew up in?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if we'd hit day five or six and things had gone badly I'd probably have been glad you did. But we didn't get there, and it's all still here, so... maybe just put it in the pile with everything else and we don't need to make a big thing of it.",
+      "response_pred": "I've been saving it for a good long time, just in case I ever needed it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed back on the rationing thing earlier. Not in a confrontational way, just... got everyone bought in properly from the start so there was no ambiguity about what the rules were and who they applied to. Including you.\n\nAnd I'd have let Mikey talk more. I kept trying to move him past the feeling and onto the next task. Probably wasn't what he needed every time.\n\nWhat are you writing for yourself?",
+      "response_pred": "That's a good idea, writing up a detailed report will help us both reflect on what went well and what didn't. As for your question, I think if I had to do it over, I'd try to allocate more time for contingency planning, especially when it came to the unexpected change in weather. We were lucky that it didn't affect our overall mission, but it did cause some extra stress and required some quick thinking on our part. I might also consider bringing more spare parts for the equipment, just in case something went wrong. But overall, I think we did a good job adapting to the situation and making it work."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that sounds about right. First thing I'm doing is finding the nearest pub.",
+      "response_pred": "Sounds like a good plan. I was thinking we should also set up a system to track progress more efficiently moving forward. Maybe we can use a spreadsheet to log daily data and automatically generate reports. That way, we can make sure we're staying on top of things and not missing any important details."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point isn't it. They didn't need to serve a purpose.",
+      "response_pred": "He was studying botany, among other things. The flowers were likely meant to be accurate representations of the various plant species he encountered. He'd often draw and paint the things he observed, as a way to learn and understand them better. It wasn't just about art, but about science and understanding the natural world."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "Come on, don't just stand there. You're not even cheering. We're down by 10 points with two minutes left. What's wrong, you're not feeling it anymore?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll go with them, I don't know what's going on, but it's better to be safe than sorry. Stay close, I don't want to get separated."
+    }
+  ]
+}

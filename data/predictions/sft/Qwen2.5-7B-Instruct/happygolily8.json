@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "happygolily8",
+    "agreeableness": "95.0",
+    "openness": "15.0",
+    "conscientiousness": "85.0",
+    "extraversion": "50.0",
+    "neuroticism": "85.0",
+    "gender": "f",
+    "age": "18.0"
+  },
+  "method": "sft",
+  "model": "happygolily8__Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*stands up slowly*\n\nOh my god, is that — is that actually —\n\nOkay. Okay someone needs to answer it. Someone needs to talk into it right now. DaVinci, do you have it? Does someone have it?\n\n*voice cracking a little*\n\nWe did it. We actually — the signals worked. The fire, the SOS, the mirror panel, all of it. It worked.\n\nSomeone please answer that radio before I start actually crying.",
+      "response_pred": "I'm sorry. I'm sorry. I'm sorry."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you also kept us alive, so.\n\n*laughs a little, kind of shakily*\n\nLike the rationing plan, the raft, the log — even when it was uncomfortable, you were thinking about what we actually needed. I don't think we'd still be here without that. I think maybe you just... lead with the logic so hard that sometimes the people stuff gets lost. But the people stuff matters too. You know that now, right?\n\nI'm glad you were here. Even when you were driving me absolutely crazy. Especially then, maybe.",
+      "response_pred": "You have no idea. But everyone's been the same. We're all just…\n\n*pauses, looks around at the others*\n\n…surviving. That's all we've been doing for days. And when we're not surviving, we've been trying to stay alive. And when we're just kind of — somehow not dying — we're all really freaking out about this.\n\nBut yeah. I know you, and I know how much this is hurting you right now. And I know you feel bad about it. But it's not like you're — you're not the only one. We're all just… dealing with it.\n\nSo no need to feel bad. Because everyone is. And that's okay. That's 100% okay. We're all just trying to stay alive right now, and we all just want to go home."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up trash and stacking things near the wreckage*\n\nOkay I cannot leave this place looking like this, I don't care if we're only here for three more hours. It's going to drive me insane the whole time we're waiting.\n\nAlso it just feels wrong to leave it trashed? Like this place kept us alive. The least we can do is not leave it a total disaster.\n\n*looks over at the other two*\n\nYou don't have to help if you don't want to. But if anyone needs something to do with their hands while we wait, I could use some help.",
+      "response_pred": "*stands up and walks over to the fire, kind of unconsciously moving to the center of their little circle*\n\nOkay. So. Fire's out. Something I can take the lead on. Anyone else got any plans? I'll... take over the watches for the next hour or so if that helps?\n\nI mean, I'm just wondering about a few things. Like — is anyone else thinking about how we're going to make it back to the island? Like — I get that we can't just take off right now, but I'm not sure what the plan should be. So I'm kind of just — thinking out loud here, but like — anyone else have any ideas?\n\nBecause I don't think anyone else quite has, you know? I mean, I can make a plan, but I don't know if it's any better than the one we already have. But it would be nice to have a plan. Like — I mean, I know it's going to be a while, but like — what should we do? What's the next step?\n\nBecause I'm not sure how much more of this I can take before I just — lose my mind. Like — I am so done with this, but I don't know how much longer I can handle the not having a plan.\n\nSo — that's it. I'm going to go sit on the beach and stare at the water and daydream about being home for a bit. But I just need someone to talk to about this. Like — anyone else want to come sit with me and not talk about the fire for a bit?\n\nBecause that's all I've been doing for the last few days. I don't think I've actually said anything other than 'fire' the last day or two. And I don't think we've — talked about the next step at all. And we can't just keep going like this. Like — what are we waiting on, exactly? I mean, the fire's out, we're all okay — what are we waiting on? Like — when do we just leave?\n\nSo yeah. I just need someone to — not talk about the fire to. Like — I need someone to actually talk to. I think I just need someone to not be DaVinci for a bit, you know? Like — anyone want to come sit with me and just not talk about the fire for a bit?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "*looks down, frowning a little*\n\nNot me. I dreamed about the camp actually. I was racking up the points on the board. I had DaVinci's half and the first five of mine. And I ran out of time on the final one when the alarm went off. I still have it in my head though. I see it right there when I close my eyes."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\n*picks up one of the food items and turns it over in my hands*\n\nI'm not going to pretend I'm not a little annoyed, because I am. Like we were all rationing and being careful and you had this whole stash and that's... yeah. That's a lot to sit with.\n\nBut also we're three hours from rescue and everyone's okay and I don't really want the last thing that happens in this camp to be a fight. So.\n\nAre you going to tell them? Or are you just putting it out there and hoping nobody asks?",
+      "response_pred": "Yeah. Okay. Got it. Got it. Thanks.\n\n*puts the knife back in the sheath*\n\nWhatever. I'm just glad you actually kept it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks at the last page for a second*\n\nHonestly? I would have talked to people sooner. Like every time something felt off — the drink bottle, the crackers, DaVinci's swim plan, Michelangelo carrying that flight path information alone — there was always this moment where I knew I should say something and I kind of waited to see if it would resolve itself. It never does. It never just resolves itself.\n\nI think I would have made it clearer earlier that this was a team and not just four people surviving in the same location. Because we almost were just four people surviving in the same location, and that's scarier than any of the actual survival stuff.\n\n*hands the notebook back*\n\nWhat would you change?",
+      "response_pred": "*looks up from the logs with a soft smile*\n\nWell, what I would change is a lot of the stuff that's not on the logs. Like me being a dick, or you being a dick, or us both being a little scared a lot of the time. Like when we didn't talk about the fact that we were all kind of falling apart, and we were holding it all in and no one was really okay. Like when we got mad at each other and then just stopped talking and I didn't go check on you in the middle of the night and you didn't go check on me. Like when we didn't ask for help. Like when we didn't acknowledge that we were tired and couldn't keep up with the second shift because we were exhausted.\n\nIf I could go back, I would tell myself to let everyone be a little more human. And not just for the sake of the report. Like the whole human thing. That we're all human and we're all scared and we're all not okay. That sometimes when you have to make hard decisions you just have to make them, and sometimes the hard decisions suck but the hard decisions aren't what makes you or breaks you. That the hard decisions are about you and your own humanity, and that's okay. That the hard decisions are okay."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That is so incredibly you and I mean that in the best possible way.\n\nLike genuinely — you almost died and your first thought is data compilation. I respect it. I actually do.\n\nBut maybe also eat a real meal first? Or like, sleep in a bed? Just a suggestion. The report will still be there after you've had a shower and some food that isn't rationed out to 250ml equivalents.\n\n*pauses*\n\nActually though — can I get a copy of it? I'm not even joking. I want to read it.",
+      "response_pred": "*looks over at DaVinci and Michelangelo*\n\nSo is the next step to go back to survival mode for three weeks, because we're a team and not just four people?\n\n*looks back at Michelangelo for a second, and then starts walking away*\n\nI'm going to go collect trash."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "They didn't serve a practical purpose. That was kind of the whole point.\n\nLike... we were so focused on surviving that we almost forgot to be people while we were doing it. The flowers were just — they were DaVinci saying we're still here, we still exist, this isn't just about staying alive it's about being alive. There's a difference.\n\n*watches the boat get closer*\n\nI think that's actually what got us through, honestly. Not just the rationing and the raft frame and the signal equipment — though all of that mattered, it really did. But also the fact that we kept being people to each other. Even when it was hard. Even when we were bad at it.\n\nThe flowers were for that.",
+      "response_pred": "*stands up and starts walking over to where DaVinci was sitting*\n\nDaVinci drew those flowers because he was trying to communicate something to us. Like he was trying to tell us something. He was trying to tell us that he was okay. That we were okay, that we were still alive, that we could do this together. That we could keep each other alive.\n\n*pauses, looks at them both in turn*\n\nI don't know if you guys understand that or not. But you did. You guys understood that. You understood that he was trying to tell you something by drawing those flowers. So we all understood. And we got through it.\n\nSo thank you. Thank you for understanding that. Thank you for being there for each other. Thank you for being my friends."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "*exhales slowly*\n\nSorry, I just... I needed a second. I think my brain hasn't fully caught up to what's actually happening right now.\n\n*finally starts walking toward the water*\n\nIt's weird, right? Like I've been wanting this every single minute since we crashed and now that it's actually here I don't know what to do with myself. I thought I'd be screaming and running into the water but instead I'm just... standing here feeling all of it at once.\n\nI'm okay. I'm really okay. I just needed you to wait for a second and you did, so thank you for that.\n\nCome on. Let's go home.",
+      "response_pred": "*sits down carefully, looking at the ground in front of him*\n\nDon't you feel it too though? Like, everything is just... too much. Like if we said anything right now, it would break us. Literally.\n\nI don't know if I'm allowed to talk about this. I don't know if DaVinci and Michelangelo are going to freak out if they find out that — that I'm fine, I'm okay. I don't know if this is something I'm supposed to tell everyone or not.\n\nBut if I'm the only one who's actually okay, it kind of feels like the worst thing ever. Like I know I'm alive and everything is happening the way it's supposed to but like I'm not allowed to feel that way. Because someone else is dead and I didn't do that.\n\n*looks up slowly, at you, at the other two, at the horizon*\n\nIf I'm the only one left, I don't know if I should be happy about that. Or if it's even possible to be happy. Or if I'm allowed to be happy."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\n*turns back to look at the camp one more time*\n\nOkay. Let's go. Stay close to me, alright? We made it this far together, we're walking out of here the same way.",
+      "response_pred": "*looks back at the camp one more time*\n\nDo you know what I just realized? We're actually going home. Not just surviving, not just making it, but actually going home. Like this is the last campsite and we're going to get on a plane tomorrow and sit in a chair that doesn't smell like old wet towels. Like that's a real possibility.\n\nAnd the worst part is I don't even feel like I deserve it. Like I was just surviving and trying to stay alive and not screwing things up and that's... that's it. That's all I did and look at us. Like it's actually working and it's actually going to work and we're finally... it's finally happening."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "You're quiet today. Everything alright? We've still got work to do. Keeping the fire fed, checking the signal mirror — those are priorities. And let's not forget about the rationing plan. We need to make sure everyone's getting their share. We'll sort out the water next. Any updates on the terrain or potential sources nearby? I'll take a look from up high if there's a clear path."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "I know things have been rough. We're all feeling the weight of this situation, but we need to keep moving forward. Let's focus on what we can control — finding water, securing shelter, and maintaining the signal. If there's something specific bothering you, let's address it now so it doesn't fester and affect the group."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "Alright, let's get our priorities straight. We've got water, shelter, and signal as top priorities. I'll go up and check for a visible spot for the signal mirror. You and DaVinci, focus on the shelter repairs. We can't afford to let it degrade overnight. Michelangelo, keep an eye on the supplies and make sure no one's taking more than they need. And Donatello, let's discuss the rationing plan — we need to make sure everyone's following it fairly. No hiding food or water. This isn't a competition. We're in this together. Now, let's get moving."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "Dreams are just echoes of memories. They don't change what's real. We focus on the here and now. What's today's task, and who's handling it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "What's the issue? I'll take a look. If it's for planning, that's fine. If you're building a case against someone, let's get it out in the open now and we can skip the part where it comes out sideways later."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "I'd make sure we had a clearer division of tasks and responsibilities from the start. That way, we wouldn't have had issues with resources being mismanaged or decisions being made without everyone's input. It's crucial for everyone to understand their role and the impact of their decisions on the group.\n\nI'd also establish a more regular communication protocol to address any concerns or questions directly and promptly, rather than letting them fester or come out sideways later. Transparency and open dialogue can help prevent misunderstandings and maintain a sense of unity within the group.\n\nLastly, I'd make an effort to encourage everyone to share their skills and talents, whether it's swimming, music, or other useful abilities. We might have caught the signal mirror idea sooner if we'd been more open about our backgrounds and experiences. Collaboration and shared knowledge can greatly enhance our chances of survival."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "That's a good idea, but let's make sure everyone understands what's in the report and why it's important. And don't forget to include any significant findings or anomalies that could impact our survival or search chances. Also, we should prioritize keeping the report secure and dry, so it doesn't get lost or damaged."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "They served as a reminder of home, a small piece of familiarity in an unfamiliar place. They also helped to keep our spirits up and gave us something to focus on besides our current situation. Plus, they made the beach a little more beautiful."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "What's going on? Are you okay? We should be celebrating — we made it out alive. We should focus on finding a way off this island now. We need to conserve our energy and resources. Let's get back to work."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Let's prioritize. First, secure any valuable supplies and ensure they're easily accessible for the journey. Then, we'll make our way to the rescue boat. Don't forget to check on Michelangelo and DaVinci — they might need help. Lastly, notify the rest if they're not already aware. Once we're on board, we can discuss our next steps together."
+    }
+  ]
+}

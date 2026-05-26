@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "boombotser",
+    "agreeableness": "28.0",
+    "openness": "91.0",
+    "conscientiousness": "32.0",
+    "extraversion": "17.0",
+    "neuroticism": "6.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "bro say something we all heard it, that was real right? that was actually real?",
+      "response_pred": "<i>He's still upset, bro. He's trying to process everything, but it's not coming out right. It's like he's waiting for something, anything, to say. He's been silent since that moment when he realized the consequences of what we're doing. It's like he's holding onto something, but he doesn't know what it is.</i>\n\n<i>He's trying to be strong, but it's clear he's struggling. He's like a weight in the room, silently bearing the weight of his emotions. He needs to talk, but he needs time. Time to clear his head, time to figure out what he's really feeling.</i>\n\n<i>He's hesitant, like he's not sure how to start. He looks at me like I'm the only one who can understand him, like I'm the one who can help him process this. He's been carrying around a lot of guilt and anxiety lately, and it's like he's trying to fill the void with something as simple as a conversation.</i>\n\n<i>He's not saying anything, bro. He's just standing there, looking at us like we're the only ones who can see him. It's like he's waiting for us to say something, to tell him that everything is going to be okay. But we're not saying anything. We're just standing there, frozen in time.</i>\n\n<i>He's a heavy burden to carry, bro. He's carrying the weight of our actions, and it's like he's drowning in it. He needs to let go, but he doesn't know how. He's stuck in limbo, like he's waiting for something to change, something to make everything okay.</i>\n\n<i>But even in the midst of all this, he's still trying to hold on. He's still trying to be strong, to be the person we need him to be. It's like he's fighting a losing battle, but he's not giving up. He's still holding on, still waiting for the other shoe to drop. And I'm not sure if we're ready for that.</i>"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah man you kept us alive tho like real talk. the rationing, the raft plan, the notebook, all of it. I was annoyed sometimes I'm not gonna lie but like... we needed that. so thank you",
+      "response_pred": "Been basically chillin' for a minute, ya know? I just got back from a hike and I'm trying to get the whole thing processed, but I'd say we've been pretty relaxed around here so far."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "hey we should probably clean this spot up before they get here no? like I don't know if it matters but it feels weird just leaving it. also somebody write down what happened here, like the dates, what we did, all of it. not just for survival reasons, like just so we remember it. this was kind of a big deal",
+      "response_pred": "\"yeah, maybe next time we can just find some decent shelter and get some decent food in. i'm starving, and i need to get some rest too. i'll catch you guys later, don't worry.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "ya what was it like? good dream or one of those ones where home feels just out of reach and you wake up more tired than before",
+      "response_pred": "<Think>This persona's typical response length is 3-4 sentences, which might be a bit brief for a reflection on a personal experience. The tone is warm and empathetic, as the other person opens up about their thoughts and emotions. The response is direct and honest, without feeling overly casual or dismissive. The persona is likely someone who values honesty and vulnerability, as they share their innermost thoughts with a trusted friend. The words \"Ya man I feel that\" is a colloquialism that adds a touch of personality to the response.\n\n<response> I remember when I saw you walking away, I felt a pang of sadness. It's funny, I've been thinking about our conversations lately, and I realize how often I've taken your pain for granted. I want you to know that I'm here for you, and I'm not going anywhere. You're not alone in this, and I'm here to support you as much as I can."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "ya I know. and honestly if it had gotten to day 5 or 6 and we were starving I probably would've been glad you had it. but like... you still should've told us. that's all. the rationing plan, the notebook, all that structure you put in place, it only works if everybody's playing by the same rules including you. you know that. I'm not trying to go in on you right before rescue gets here, I'm just saying be real about it",
+      "response_pred": "think: their typical response length is around 2-3 sentences, with a clear and direct message. The tone is somewhat blunt, but it comes from a place of concern and a desire to be prepared. The response is quite concise, with a simple statement that answers the question.\n\ntheir reply: your reply is a straightforward response to the person's statement, with a clear and concise message. The tone is somewhat philosophical, with a hint of emotional resonance that comes from their personal reflection on the situation.\n\nOverall, this exchange is a calm and rational discussion between two individuals who value preparation and communication in a crisis situation."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly probably the donatello thing earlier, like I should've said something about the food and the bottle sooner instead of waiting for the right moment by the fire. I kept thinking about how to do it smooth and group it all together but time kept passing and it just sat there. other than that tho... I don't know man. I think we did aight. what would you change?",
+      "response_pred": "think: this persona's typical response length is generally quite concise, but with this response, they're taking a moment to actually think about how to articulate their own thoughts.\n\ntheir reply: \n\nyou're right, they're not quite as direct as they usually are. it's almost as if they're trying to keep their own thoughts and feelings in check, and are trying to make sense of their actions. they're also trying to appear empathetic and understanding, as if they're genuinely concerned about the other person's well-being.\n\nthis is a pretty common trait for big five personalities, and it's interesting to see how they're handling the situation. in this case, they're trying to keep their emotions in check, but are still showing some glimpses of vulnerability and self-awareness."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "ya that's very you lol but honestly do it, that's actually useful. like if this ever happened to someone else and they had your notes they'd be way better off. might even be worth sharing it somewhere. just maybe add a chapter about like... the human stuff too. not just the water rationing and the weather. all of it matters",
+      "response_pred": "think: It's almost like they're trying to justify their own actions, making the situation more manageable for themselves by assigning a purpose to their efforts. They're still trying to find meaning and control in the chaos.\n\ntheir reply: ya man I was thinkin about makin a report too, but I don't know if I can put into words what's happenin' right now. it's like... this is my life, and I'll never know what's gonna happen to me. but maybe that's what I should do, just try to document it all. that way, I'll have something to look back on someday."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none man. that's the whole point. not everything out here had to keep us alive. sometimes u just need something that's just... there. just existing because somebody felt like it should. I think that's why it hit different when I saw it. we were so locked in on surviving that those flowers were just like, I don't know. proof that we were still people and not just trying to make it to the next day. donatello add that to your report too lol",
+      "response_pred": "\"We used them for signaling, bro. The flowers represent the sun, and the lines that DaVinci drew were the direction of the sun's movement. If we could just get a clear signal, we could get rescued, I mean, that's the goal. We're not just talking about a few scattered flowers here, we're talking about a whole field of them. At least two days to build a raft, and I'm not even sure if we'll make it that far. The flowers are our only hope, man.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "ya I'm good man I just need a second. it's a lot. like five minutes ago we were just... out here. and now it's over. I don't know how to explain it. I'm happy, I swear I'm happy. just give me one more second with this place before we go",
+      "response_pred": "think: This persona's typical response length is relatively brief and direct, but he does show a moment of contemplation before responding.\n\nYour one-paragraph analysis: The conversation highlights the persona's tendency to keep people at arm's length, which is evident in his brief and direct responses to others' comments. He also shows a moment of introspection and empathy towards the person who has just expressed their fears and concerns. The conversation also reveals his personality traits, such as his tendency to keep his emotions hidden and his philosophical outlook on life."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "ya let's go man. together. let's go home",
+      "response_pred": "<aagreed> I'm gonna get on the raft and get us out of here. You grab the ropes and we'll get moving. We should get going, at least 5 feet away from the wreckage by the time they reach us. <pauses> You ready to get out of here?"
+    }
+  ]
+}

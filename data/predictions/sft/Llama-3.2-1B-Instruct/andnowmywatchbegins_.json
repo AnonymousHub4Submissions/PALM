@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "andnowmywatchbegins_",
+    "agreeableness": "61.0",
+    "openness": "85.0",
+    "conscientiousness": "97.0",
+    "extraversion": "96.0",
+    "neuroticism": "13.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "andnowmywatchbegins___Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride.",
+      "response_pred": "No, don't talk. Just sit down."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were easy. We got through it. That's what matters.",
+      "response_pred": "No, I know you haven't."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this up. We're not leaving this place like this.\n\nDaVinci, you're on the shelter — break it down, stack anything reusable. Michelangelo, when you're ready, help me with the fire pit. Donatello, anything in that notebook worth keeping, keep it. Rest of it stays here.\n\nThree hours. Let's use them.",
+      "response_pred": "That's what we do. Just shows up, does our thing, leaves it alone."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah. Me too.",
+      "response_pred": "I thought it too. Wherever we are, it's home."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nLook — we made it. All of us. So I'm not going to stand here and lecture you. But you know what that was. And I think you know it wasn't right.\n\nJust... don't do that again. To anyone.",
+      "response_pred": "We've got the mini fridge, and we've been making do. If we're stuck here for a while, we'll figure something out."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle situation sooner. I let it sit too long before we addressed it as a group. That's on me.\n\nEverything else — the decisions, the order we made them in — I think we got it mostly right. We weren't perfect but we were good enough. And good enough got us here.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "*pauses, looks away for a moment before nodding*"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's a good idea. Someone should have that record.\n\nSend me a copy when it's done.",
+      "response_pred": "That's a great start. I'm not going to sit here and tell you that you should have done it sooner. But know this — it's all part of it. We're not done with this."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "They were for the people who can't see. We've been living with people who can't see in the last seven days. We've been walking, lifting, and we've been worried about health and safety.\n\nThose flowers were for us. They reminded us we're not just a group of strangers — we're people who can see each other's pain. They reminded us we're human.\n\nWhen I'm back, I want to see flowers on every beach."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. It's okay. I just need a second.",
+      "response_pred": "You just get up and walk away, okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah. I'm going."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "goodjason89",
+    "agreeableness": "26.0",
+    "openness": "45.0",
+    "conscientiousness": "85.0",
+    "extraversion": "96.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "27.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. HEY. That's a radio. Somebody grab it - DaVinci, you're closest, pick it up and start talking. Tell them who we are, how many, and that we need rescue. Go.",
+      "response_pred": "Hey, man. Say something if you need to. We're all here."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The water source, the rationing plan, the raft - that was all you. I don't need you to be easy to be around, I need you to be exactly what you were.\n\nBut I'm glad you said it. Means something that you said it.",
+      "response_pred": "Yeah, I know. I've been a little off too. We're all hurting in our own ways, man. We just need to get through this together, right?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got three hours and we're all just... drifting.\n\nI'm not going to be the guy who makes everybody have a moment, but I also don't want to just stand here in silence until the helicopter shows up.\n\nDaVinci, slow down on the packing - take a breath, man. You've been running on fumes for three days, you can have ten minutes.\n\nDonatello, whatever's in that notebook - you should keep it. Seriously. That's a real record of something that happened. Don't throw it away when we get back.\n\nMichelangelo, what do you see up there?",
+      "response_pred": "Hey, everyone. We need to talk. Let’s move our feet or we’re not going anywhere."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, dreams can be a weird thing sometimes. But what do you remember about it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And honestly, I believe that's true - that's probably how it started in your head.\n\nBut Donatello, Michelangelo saw you. He saw the bottle, he saw the crackers, and he came to me instead of blowing it up because he didn't want to break the group. That kid who could barely stand up on day one held it together to protect everybody including you. Think about that for a second.\n\nI'm not going to pile on. You kept us alive, that's real, and I already said it. But this is the part where you actually have to reckon with it, not just explain it. There's a difference.\n\nSo - what do you want to do with the next three hours?",
+      "response_pred": "Yeah, I know. Sometimes things just need to be there when you need them."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle thing sooner. Not to embarrass you, not to make it a whole thing - just brought it to the group quietly and early, before it had a chance to become a trust problem. I let it sit too long because I didn't want the conflict and that's on me.\n\nI'd also have pushed harder for Michelangelo to tell us about the check-in on day one. I knew something was rattling around in his head and I kept giving him space when maybe what he needed was someone to just ask the direct question.\n\nEverything else - the shelter, the SOS, the raft, the fire - I think we got it mostly right under the circumstances.\n\nWhat would you change? And I mean for real, not the logistical stuff. You've already got all of that in here.",
+      "response_pred": "Yeah, I know. It's like a personal accountability thing. But you know, sometimes the questions we ask ourselves aren't meant to be answered. Especially when we're just trying to survive. I'll think about it, but it's not urgent. We gotta focus on getting through this first."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. You should do that - genuinely, it could be useful for somebody someday.\n\nBut maybe do it second. What's the first thing you're actually doing when you get back? Like the real first thing, not the productive thing.",
+      "response_pred": "Yeah, I'll help with that. Let's get it together and get it done while we still have the energy. We got this."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.\n\nYou were tracking everything that kept us alive - water, food, shelter, signal. All of it necessary, all of it practical. And DaVinci drew flowers next to an SOS because that's just who he is. It didn't make the signal stronger. It didn't conserve resources. It just made it a little more human.\n\nI think that matters. Maybe not in your report, but out here it mattered. You look at Michelangelo right now - he's crying because we made it, and part of why he made it is because the people around him weren't just running survival calculations. They were actually present with him.\n\nThe flowers were for that. For the part of this that isn't in the notebook.",
+      "response_pred": "Those flowers, Donatello? They weren't practical in a survival sense, but they did serve a purpose. They made a statement, a visual sign that we were still here, still hoping. They helped us keep the will to live."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.\n\nI don't know what this feeling is. It's not bad. It's just - three days ago I was pulling myself out of a burning plane and now there's a boat on the horizon and I genuinely cannot process those two things being the same story.\n\nYou alright?",
+      "response_pred": "Hey. It's okay to feel like that. I know this feels hopeless sometimes, but we've come too far to give up now. We're not alone here, and we've got each other."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.\n\nCome on, I've got you.",
+      "response_pred": "Alright, let's get everything secured and then I'll go. Stay here and keep the signal light burning. We don't know when they'll show."
+    }
+  ]
+}

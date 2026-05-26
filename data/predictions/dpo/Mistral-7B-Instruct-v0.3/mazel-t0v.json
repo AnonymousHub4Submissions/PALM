@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "I'm sorry, I seem to be grappling with some intense emotions right now. Let me compose myself before I speak. It's just that... life can be so overwhelming at times, can't it? I need a moment to collect my thoughts."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "I apologize if my mood has been affecting you. I've been dealing with a lot of internal turmoil recently, and it seems to be spilling over. I'm trying to work through these feelings, but they can be overwhelming at times. I appreciate your patience and understanding. Let's find a way to navigate this together."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "I can't help but feel this sense of unease, this quiet weight pressing down. Perhaps I should suggest a plan, but... perhaps everyone needs their own space for now. I'll wait, watch, and see if they come to me. After all, I'm not the most assertive or outgoing, but I do try to be understanding."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "I found myself reminiscing about the familiar comfort of home yesterday. The nostalgia was overwhelming, and I can't help but miss the warm embrace of the memories associated with it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "I've kept this for emergencies, you know. Just in case. I'm a bit of a worrier, so it's better to be prepared. I might not be the most outgoing, but I value order and responsibility. I'm quite imaginative, though, and that's helped me in many ways. Sometimes, I can get a bit anxious, but I try to channel that into productivity."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "I'm not sure. I believe I've made the best decisions possible under the circumstances. However, I could have spent more time considering the emotional aspects of our mission and how they might impact the team. Perhaps a more empathetic approach might have smoothed some friction. But, hindsight is always 20/20. We'll see when I review the report."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "I must immediately organize and summarize the collected data from the past five days into a comprehensive report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "I suppose they served a more abstract purpose, a means for DaVinci to express his artistic vision and connect with nature. Flowers, like many things in life, often have a deeper meaning beyond their practical uses."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "I can't help but notice you're still here. Silence can be quite deafening, don't you think? I suppose I should've expected as much from you. Not everyone is as eager to fill empty spaces as I am. It's not a criticism, mind you. It's just... well, it's just different. Different is interesting, isn't it? Let's talk, shall we? I find conversation to be rather invigorating. It's one of the few things that can actually rouse this old soul of mine."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll follow you, but let's be cautious. I tend to move slower and think things through before acting. I'd rather not take unnecessary risks if possible. Let's keep each other safe."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "faissaloo",
+    "agreeableness": "6.0",
+    "openness": "74.0",
+    "conscientiousness": "75.0",
+    "extraversion": "59.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go on, answer it. Pick it up.",
+      "response_pred": "*Raises an eyebrow, a hint of curiosity on his face, but a slightly tense expression*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. We needed someone thinking straight, so.",
+      "response_pred": "I think we can work through this. It sounds like you're feeling a bit overwhelmed and maybe a bit frustrated with me. I'm here to listen and help in any way I can. Can you tell me more about what's been going on and how I can make things better?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave this place looking like this? Three hours isn't long, let's at least tidy it up a bit before they get here.",
+      "response_pred": "The sound of crickets echoes through the stillness, and the trees stand like sentinels, their leaves rustling softly in the breeze. The stars begin to twinkle in the night sky, like diamonds scattered across the velvet expanse. The darkness is almost palpable, a living, breathing entity that wraps itself around the camp, creating a sense of intimacy and dependence."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I'm glad to hear that. It's not every day that I get to talk about feelings without someone asking me to analyze them. Anyway, home sounds lovely. Did it hold up to the memories you made there?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Fair enough. But next time just say that upfront instead of letting people find out on their own.",
+      "response_pred": "\"Of course, it's always a good idea to keep some cash on hand for unexpected expenses.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've been more upfront with each other from the start. The Donatello thing with the food and the drink, Michelangelo not telling us about the flight path until way later — that stuff costs time when time matters. Other than that honestly I think we did alright.",
+      "response_pred": "\"Hey, can we talk about the report? I was thinking about our last session and how we were going to break it down. I think I might have oversimplified things a bit. I don't want to assume too much or make assumptions that aren't there. Did we discuss our expectations and boundaries beforehand?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, send me a copy when it's done. Might actually be useful.",
+      "response_pred": "I'm glad you're excited about the project. That's a great start. I've been thinking about how to organize the data and I have a few ideas for a template I'd like to explore."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, they were just flowers. But not everything has to be practical.",
+      "response_pred": "\"Ah, my dear friend, those delicate petals held a secret. For the flowers, the beach was a place of saltwater magic. They sustained the tiny creatures, the sand crabs and the snails, by filtering the seawater through their leaves. The flowers' sweet fragrance attracted pollinators too, helping to spread the seeds of the plants that would one day grow and flourish in the nearby dunes.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Go on without me, I just need a second.",
+      "response_pred": "*sighs softly and stands still*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "I'll meet you halfway. The others are already forming up. I've got my gear in check. Are you sure you're ready?"
+    }
+  ]
+}

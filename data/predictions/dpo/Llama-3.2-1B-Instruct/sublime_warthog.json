@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "sublime_warthog",
+    "agreeableness": "11.0",
+    "openness": "50.0",
+    "conscientiousness": "10.0",
+    "extraversion": "4.0",
+    "neuroticism": "61.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "I'm speechless.",
+      "response_pred": "*I take a step back, concerned by his sudden display of erratic behavior. My eyes flicker to him, and I try to reassure him with a gentle smile. I take a deep breath and continue, trying to maintain a calm demeanor.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. But you kept us alive. Both things can be true.",
+      "response_pred": ".. I know I can sometimes be pretty difficult to navigate, to be honest."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks at the sky too*",
+      "response_pred": "*I sit by the fire, watching the flames dance, a small smile on my face. I've grown accustomed to this solitude, it's been years since I've had someone to talk to. The silence is almost comforting, a reminder that I'm not alone in this vast wilderness.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Me too.",
+      "response_pred": "That sounds really nice, I'm glad you had a peaceful dream about your home. It's always great to feel a sense of comfort and security in our own spaces. Did anything in particular stand out or feel particularly vivid during the dream?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we were the emergency.",
+      "response_pred": "It's good to have a safety net."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd write 'remember' instead of 'don't forget' in a few places. And I'd have talked to you sooner about the food.",
+      "response_pred": "\"I picked up on the tension in the conversation and tried to steer it back on track, but I wish I had taken the time to fully understand what was on your mind. I feel like I missed an opportunity to really connect with you and understand what you were hoping for in the situation.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you'd actually do.",
+      "response_pred": "I'll make sure to add it to the spreadsheet."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that's exactly why they mattered.",
+      "response_pred": "They were probably just beautiful arrangements for the local villagers, a way to bring in some extra cash during the off-season, like hand-washing them for sale to Italian merchants in the market."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing, I think.",
+      "response_pred": "*his shoulders sag slightly, and he seems to deflate a bit, his chest not rising as he exhales*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "That sounds amazing, I really hope they're okay. I'll go with them. It's a bit of a risk, but I trust them to help us. I'm a bit nervous, but I know they're the right people. Okay, I'm coming."
+    }
+  ]
+}

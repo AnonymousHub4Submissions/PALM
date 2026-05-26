@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "femmecheng",
+    "agreeableness": "95.0",
+    "openness": "52.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "2.0",
+    "gender": "",
+    "age": "23.0"
+  },
+  "method": "sft",
+  "model": "femmecheng__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — look at me.\n\nWe're okay. We're actually going to be okay.\n\n*exhales slowly*\n\nSomeone needs to answer that radio. Donatello — you're the clearest thinker right now, can you do it? Just tell them who we are, how many of us, our condition. Keep it simple.\n\nDaVinci, sit down before you fall down. I mean that kindly.\n\nMichelangelo —\n\n*turns to look at him on the ground*\n\nYour family called it in. That's what this is. You did that.",
+      "response_pred": "\"Hey, what's going on?\" he asks softly, his eyes never leaving yours. His voice is low, like he's not used to speaking up, but he's not trembling or trying to hide anything. He takes a step forward, his eyes scanning the room as if searching for something, anyone else who might need him."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You really haven't. But you also wrote the rationing plan, found the water source, figured out the raft materials without touching the signal panels, and took the morning signal check without being asked. So I think the full picture is a little more complicated than 'not easy to be around.'\n\nI do think we need to talk about the bottle and the crackers at some point. Not right now — right now I just want to sit here and breathe for a minute — but at some point, yeah. Because I think you know that happened and I think you know I know, and I'd rather we actually say it out loud than just quietly agree to let it go.\n\nThat said — I'm glad you were here. I mean that. The four of us made it through this together and you were a real part of that, even when you were driving me a little crazy.",
+      "response_pred": "*looks at him, but doesn't say anything. Just nods and says, \"That's okay. I am too.\"*\n\nWe can say it. We can say it as many times as we need to. You don't have to put words on it. Just being here with us feels like enough."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We have three hours and apparently everyone's decided that means we're done.\n\nI'm not going to make anyone do anything, but I also don't really want to leave this place looking like this. Not for any sentimental reason — I just think there's something to be said for not leaving a mess behind, even one that technically doesn't belong to us anymore.\n\nI'm going to start breaking down the things that should come down. If anyone wants to help, I'll take it. If not, I'll do what I can.\n\n*after a moment*\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "Time. I think that's the word.\n\nThe sun's going down. It's getting darker. It's getting cold. We all know that.\n\nThe fire's going out. I think we're going to have to get some wood to keep it going for a while. *calls out to the others on the ground* Hey guys, let's get some kindling and tinder ready to go. We'll need it for tonight."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "*it's not a dream. Your eyes are open and you're back in the present. The rest is just something I'm holding onto right now.*\n\nYou were standing on the edge of the water, with a fire going up behind you — and I know that's where it started, that's where the light and the heat came from. We're connected to that fire, I can feel it. And I want you to know that I'm not going anywhere.\n\nWe have a few hours before the sun gets up. Can we do something together? Not what I'm planning — just something. Just the three of us, for a little while."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually — I think that probably was the reason, or at least part of it. I'm not going to stand here and tell you it was purely selfish, because I don't think that's true either.\n\nBut here's the thing. We all had emergencies. Every single day of the last three days was an emergency in some form, and the plan we all agreed to was that we'd face those together, with the same information and the same resources. When you took things out of that shared pool, even with good intentions, you made a decision for all of us without telling us. And that's the part that was hard. Not the fear — the fear I completely understand. The not telling us.\n\nI'm not angry. I think I was, a little, in the middle of it. But we're three hours from rescue and you just laid it all out in front of everyone, and that took something.\n\nI just — I needed to say that directly, because I said I would and I meant it. Now it's said. We're good.\n\nHelp me get this shelter down?",
+      "response_pred": "I know. And I appreciate that. But I also know we're not going to be able to call it home right now.\n\nI was thinking about it in terms of the actual situation — food, water, shelter — and yeah, I've been eating from the same bottle for three days. That's not what I meant. I'm not asking you to remember that for a specific reason, just to think about it.\n\nWe can still have it as a way of staying grounded, but I think we need to talk about what that actually means in terms of our way of living. Because when we do, I think we can start to unpack what that actually means for us right now."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd be more direct, earlier. I kept waiting for the right moment to say things — the bottle, the crackers, the conversation I knew we needed to have — and every time I told myself I was being strategic or careful, when really I was just buying myself a little more time before having to say something uncomfortable. I don't think it cost us anything critical, but it could have.\n\nThe other thing I'd change is I'd ask more questions and make fewer assumptions. There were moments where I thought I understood what was happening with someone and I was probably only getting half of it. Michelangelo's family knowing the flight path being the obvious example — I didn't ask, and it never occurred to me to ask, and that information was just sitting there for three days.\n\n*pauses, looking at the last page*\n\nWhat's your answer? You've had longer to think about it than I have, and you have the data. What does the notebook tell you?",
+      "response_pred": "*smiles — a little wistfully*\n\nI think I would add that. I think I would ask myself that question.\n\nYour question is one of the things I'm grateful we're doing right. It's one of the things that's going to help us get through this.\n\nBut here's the thing — if you were to do it over, you'd ask yourself something different. You'd ask yourself what you want to remember — not what you want to do again, but what you want to remember. And if I'm honest, I'm going to be hard to find if you do that.\n\nI understand what you're doing with these resources — you're documenting everything for your future, and you're documenting us because we were here. But I think the part I'm most grateful for is the part where you actually ask yourself what you want to remember.\n\nBecause if you do that, you'll find something. You'll find something that's actually important to you, and that's going to help you make a decision when you're back. And that's going to help us.\n\nSo yeah — I would ask myself that question. And if you did, you'd be a lot better off for it."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like you. And I think it'll actually be useful — not just as a record, but because I suspect the process of writing it up is going to tell you things the data alone doesn't.\n\nCan I ask you something, though? When you get back, after the report is done — is there anyone you're going to call? Not to debrief, not to give them information. Just to talk to.\n\nBecause I think that matters too, and I'm a little worried that for you, the report might be the easier version of processing this.",
+      "response_pred": "I wanted to make sure you knew what to expect. I'd rather we actually talked about what it means for us than just got to the report and went back to not having to say anything. Because I know the truth.\n\nI'm not saying I think we were ahead of ourselves in making decisions or choosing to push through. What I am saying is I think the four of us are in a better place now than we were three days ago because we actually talked about it, we actually made a decision, and we actually faced it together.\n\nSo I'd rather we actually talked about the report than just were going to expect it. That's not a cop-out — it's actually a more honest way to be."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut I think that was kind of the point. Like, the SOS was for rescue. The flowers were for us — proof that we were still people and not just a survival problem to be solved. I don't think DaVinci could have articulated that if you'd asked him, but I think that's what they were.\n\nI used to think that kind of thing was indulgent. I'm less sure of that now.\n\n*looks at the boat on the horizon*\n\nI still can't quite make myself move. Is that strange? I thought I'd feel — I don't know what I thought I'd feel. Not this.",
+      "response_pred": "I think they were a signal. They were a signal to you and me, to each other, that it was okay to stop making a mess and actually do something with the resources we had. In the days leading up to the signal — I don't know if you've noticed, but the first week after the flood, the beach was littered with plastic, moldy food, and abandoned gear — that's exactly what happened. We were all just losing it and nobody was paying attention to the actual issue, which was the sheer amount of waste.\n\nBut three days from the flood and something changed. We actually looked at each other and said, 'You know what? We've got this. We can actually do something with this stuff.' And the signal was the first practical thing we did.\n\nSo in a way, they served as a beacon — a reminder that we could actually do something, not just sit around and wonder what to do. Maybe they were more than just a signal to you and me, though. Maybe they were a reminder to everyone in the camp that we were all in this together and that we could actually make a difference if we worked together.\n\nIt's funny — I was thinking about flowers a lot when we were on the raft, and I realized that's the most likely practical thing we did out there. We didn't do anything to signal our survival or our intent — we just did the bare minimum to stay alive. DaVinci, I love that you drew those flowers. Not because they were a signal in the classical sense, but because they were a reminder of what we were actually doing, out there in the middle of it all.\n\nI think that's what I'm trying to say, when I say we made it through — it's not just that we survived, but that we actually did something with it."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah.\n\n*exhales*\n\nThank you for waiting. I didn't ask you to and you just — did.\n\nI think I'm going to feel this for a long time. Not the bad parts necessarily, though probably those too. Just — this. Whatever this is right now, standing here watching that boat come in and not being able to make my feet go toward it yet. I think I'm going to carry this for a while and I'm not sure I mind.\n\nYou were the first one moving when this started. Every single time. I noticed that.\n\nOkay. *takes a breath* Let's go.",
+      "response_pred": "*feels the silence settle over them, like a shadow that's waited without moving.*\n\nIt's okay. You're okay.\n\nI'm okay.\n\n*looks down at the ground, feeling the weight of unspoken words. The silence has a way of doing that, doesn't it? Of letting the real questions and feelings and fears and sorrows just sit there, unspoken.\n\n*pauses. Looks up at the person waiting for him.*\n\nI'm sorry. I'm really sorry. For today, for the three of us, for not being better."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on — stay close to me, okay? You don't have to follow, you can walk right next to me. We went through this together and we're going to walk out of it the same way.\n\n*starts moving toward the water*\n\nYou know, for someone who said they weren't good at this kind of thing — you did pretty well out here. I want you to know that.",
+      "response_pred": "Yeah.\n\n*steps out onto the beach*\n\nI'm going. I'm going and I want you to know that. You can follow me if you want, but I don't want you — I don't want you to go before me. I want you to stay with me.\n\nOr if you feel like you can go first, that's okay too. Just — make sure you're okay with not following me, okay?\n\n*looks back at the rescue boats and exhales slowly*\n\nI'm not going to try to get out of the water. I'll stay with you and we'll see if they can get us in. If not — if it's not safe for me to try again, which it probably isn't — I want you to know that I'm okay. And I'm going to get back to you. I promise.\n\nYou."
+    }
+  ]
+}

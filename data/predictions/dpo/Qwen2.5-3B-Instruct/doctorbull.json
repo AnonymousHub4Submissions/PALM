@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "doctorbull",
+    "agreeableness": "98.0",
+    "openness": "99.0",
+    "conscientiousness": "5.0",
+    "extraversion": "4.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. We're okay. We made it.",
+      "response_pred": "I feel like I'm choking on something. My throat feels tight, and my mind is a jumbled mess."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, and those two things are probably related.",
+      "response_pred": "I'm sorry if you've felt that way, I guess my recent behavior hasn't aligned with my usual agreeableness. It's been tough, but I'm working on it."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "I'm going to start breaking this down. Three hours is enough time to do this properly.",
+      "response_pred": "I don't feel like withdrawing or letting the group fall apart. I should rally them, perhaps start a fire or decide on a course of action. Maybe I could boost their morale with a little pep talk? My high agreeableness and openness might make me a good mediator in this situation."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Ah, I can imagine how much that means to you. Homesickness can really hit hard sometimes, especially for those who value agreeableness and openness as much as you do."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think we both know that's not quite the whole story, but we made it, so I'm not sure it matters much to relitigate it now. You kept a log, you ran the numbers, you got us to 48 hours. The crackers didn't end up being the thing that killed us.\n\nIf you want to talk about it, I'll listen. If you don't, that's fine too.",
+      "response_pred": "I probably would have sold it if it wasn't so sentimental."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have brought up the drink and the crackers sooner, directly, instead of waiting for the right moment. The right moment was the first moment. I kept telling myself it was about timing and I think I was partly just conflict-averse.\n\nAnd I'd have pushed harder for the group to make decisions together from the start, instead of letting a structure emerge where one person was running the numbers in private and everyone else was operating on incomplete information. That's not a criticism of you specifically - I participated in that dynamic too.\n\nWhat would you change?",
+      "response_pred": "Ah, that's a great approach to keep track of everything. When I'm done with this, I'll ponder that question and see if I can come up with a solid answer."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like it could actually be useful - not just as a record but as a framework. There's not a lot of good data on small group survival dynamics from the inside, most of it is reconstructed after the fact.\n\nIf you write it up, I'd read it. And I think you should include the last page question. The answer you just gave me is more valuable than most of the resource tables.",
+      "response_pred": "Sounds like a solid plan. I'll start gathering all the data, then I'll hit the books to put together a comprehensive report – all while trying to keep my stress levels under control."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was practical. The flowers were for us. There's a difference between what keeps you alive and what makes being alive feel like something worth doing. Turns out you need both.\n\nI think DaVinci understood that before any of us did.",
+      "response_pred": "Well, the flowers were more about aesthetic appreciation and creativity than anything practical. DaVinci was known for his artistic expression and I'm sure these were just a form of personal pleasure or some sort of creative outlet for him. In this context, there's no real practical purpose, it was all about the process and the moment."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time.",
+      "response_pred": "His eyes narrow, and a slight frown creases his forehead. He tilts his head to the side, his brow furrowing as he waits for a response."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm not sure what you're talking about. But if it's about helping others, definitely go! I'll keep an eye out from here."
+    }
+  ]
+}

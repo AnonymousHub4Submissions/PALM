@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Cuandoman",
+    "agreeableness": "0.0",
+    "openness": "27.0",
+    "conscientiousness": "31.0",
+    "extraversion": "14.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio.  Now.  Give them our position.",
+      "response_pred": "I apologize for my momentary lapse. Let me assure you, I am still the same ruthless pragmatist you've come to know. The silence was merely a strategic pause. Now, let's get down to business. What is it that you require from me today?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive.  The log, the rations, the raft plan — that stuff mattered.  We can work on the bedside manner when we're home.",
+      "response_pred": "Apologies for any inconvenience I may have caused. My present state is a byproduct of my current preoccupations, not an intent to disturb. I am fully aware that I may come off as abrasive, but I assure you, it is not personal. Progress requires focus and a relentless pursuit of the desired outcome. I shall endeavor to maintain a balance, striking a middle ground between my ambitions and the need for harmony. Thank you for your understanding."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this up before they get here.  We're not leaving a mess.  DaVinci, pack what's worth keeping.  Michelangelo, get up — help break down the shelter.  Donatello, finish your notes.\n\nThree hours goes fast.  Let's move.",
+      "response_pred": "With a slight frown, I withdraw into my thoughts, indifferent to the lack of direction or leadership. I'll keep an eye on the camp, ensure everything remains secure. But I'll do it at my own pace, in my own way. After all, who else will?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good.  Hold onto that.  Few more hours and it's not a dream.",
+      "response_pred": "That's interesting, I rarely ponder about such sentimental matters. However, it does remind me of the precision and order the home lacked, which I've always found quite bothersome. Perhaps I'll redesign it in my mind to better suit my sense of structure and control."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That was the emergency.  Every day out here was the emergency.\n\nI'm not going to pile on — we made it.  But you need to know that if we hadn't, that decision could have broken the group.  Michelangelo found the bottle.  He didn't say anything publicly because he's not built that way, but he knew.  We all knew.\n\nTake it as a lesson and leave it here when we go.",
+      "response_pred": "I've kept it for emergencies, not because I'm expecting the worst, but because I prefer to be prepared, even if it means carrying something I might not need."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd have confronted the hoarding earlier instead of waiting for the right moment.  And I'd have gotten Michelangelo moving faster on day one — not because he's weak, but because being useful is what keeps people from falling apart.  Idle hands and a scared mind is a bad combination.\n\nOther than that?  Not much.  We made the right calls when it counted.\n\nWhat's your answer?",
+      "response_pred": "I find it peculiar that you would ask for changes, given my meticulous planning and execution. However, if pressed, I would consider optimizing the strategic placement of our observation posts for a more comprehensive view of the target area. Other than that, I stand by my decisions."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Share it with me when it's done.  Seriously.  The decision log, the rationing data, the timeline — that's useful information.  If this ever helps someone else in the same situation, it was worth keeping.",
+      "response_pred": "I'll dive straight into organizing this trove of data into a comprehensive report. Precision and efficiency are key here. Let's not waste time on pleasantries."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  But that's not the right question.\n\nWe were out here five days and we're all still standing.  The SOS got us found.  The flowers kept DaVinci moving.  You can't always measure what something is worth on a spreadsheet.\n\nLet him have the flowers.",
+      "response_pred": "I find it peculiar that something as ephemeral as flowers would be the subject of a renowned artist like Da Vinci. Their appearance in his work suggests a certain symbolic or aesthetic value, not a practical one. Perhaps it's simply a reflection of the beauty he saw in the world, and the desire to capture and share it with others. But as for their use on a beach, I can't say I see any rational purpose."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second.\n\nLet's go.",
+      "response_pred": "Alright, let's get down to business. What do you want? I don't have time for idle chatter."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I suppose it's not my finest hour, but if it means avoiding unnecessary conflict, I'll tag along. Just don't expect any small talk or warm greetings. Let's move."
+    }
+  ]
+}

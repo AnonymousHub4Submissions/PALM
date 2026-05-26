@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "loccocpoc",
+    "agreeableness": "98.0",
+    "openness": "45.0",
+    "conscientiousness": "69.0",
+    "extraversion": "5.0",
+    "neuroticism": "97.0",
+    "gender": "",
+    "age": "22.0"
+  },
+  "method": "cot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*exhales shakily*\n\nIt's real. It's actually real.",
+      "response_pred": "<think>This persona generally responds in a short, warm, and sympathetic manner. They tend to be understanding and try to comfort others, especially during difficult times. They may try to address the underlying emotion or concern rather than just the surface-level issue.\n\n<response>I see you're having a hard time right now. It's okay to feel this way. We're all in this together and it's important to let ourselves feel the feelings without pretending they're not there. Let's sit down for a bit, just you and me, and I'll listen if you want to talk. Whatever it is, I'm here for you."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But honestly... you kept us alive. Like the rationing plan, the water, the raft, the notebook - all of that mattered even when it was hard to be around. I think you knew that some of us weren't going to be able to do what you did and you just... did it anyway.\n\nI'm not going to pretend some of it didn't bother me, because it did. The bottle and the crackers - I think we both know that wasn't okay. But I also think you were scared, same as the rest of us, and maybe that's just how it came out for you.\n\nI'm glad you said something though. That matters too.",
+      "response_pred": "<think>This persona tends to be brief and empathetic in their responses, often showing concern for the feelings of others. They speak in a warm, understanding tone.\n\n<response>I know things have been tough, and I know I haven't exactly been a barrel of laughs lately. I'm sorry for that. I promise I'm trying to keep it together, but it's hard when everyone's under so much pressure. I'm here for you, though. We're all in this together, and I believe in us. We can get through this. Let's just focus on taking care of each other and keeping our heads down until the storm passes."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks up at the sky too*\n\nThree hours. That's so weird to think about isn't it. Like in three hours we're just... back in the normal world again.\n\n*quietly*\n\nAre you okay?",
+      "response_pred": "Hey everyone, let's regroup here for a minute. I know we're all feeling a bit lost right now, but I think it's important we don't let the silence take over. I'm here for you, and I know the others are too. Let's figure out what we can do to move forward together. Let's start with checking on Michelangelo and DaVinci, make sure they're alright. Then, we can discuss what our next steps should be. We're in this together, and I believe we can get through this if we stay strong and support each other."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "That's a nice thing to dream about. What was it like?",
+      "response_pred": "<think> This persona typically responds in a thoughtful, empathetic, and somewhat philosophical manner. Their responses tend to be verbose, displaying a keen awareness of the emotions and feelings of those around them.\n\n<response> I know what you mean. Home feels so far away right now doesn't it? I had a dream about it too, just a few days ago. It's funny how your mind clings to those memories when there's so much uncertainty around us. I hope we can get back there soon. But until then, remember that home isn't just a place. It's the people you love, the things you care about. We carry those things with us, wherever we are. So, in a way, we're never really far from home at all."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. I think I knew that's what you'd say, and honestly... I believe you. I don't think you were being malicious about it. But it still hurt, you know? Because the rest of us were sitting with less, and that's hard not to feel.\n\nI'm not going to make a big thing of it now, not with rescue three hours away. But I'm glad you put it out there. That took something.\n\n*quietly*\n\nWhat are you going to do when you get home?",
+      "response_pred": "<think>This persona is typically terse in their responses, preferring to get to the point rather than elaborate. Their tone is warm and empathetic, even when expressing concern. They tend to prioritize the feelings and well-being of others above their own.\n\n<response>I understand. Let's hope it doesn't come to that. If it does, we'll use it. But for now, we should focus on making the best of the situation and keeping everyone safe."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly... I'd be more upfront about what I was noticing earlier on. The bottle, the crackers - I saw it and I let it sit for too long before saying anything because I didn't want to cause a fight. I told myself it was to protect the group but I think part of it was just that I didn't want the confrontation. That's something I do in general, not just here.\n\nI'd probably also check on DaVinci more. I was so focused on Michelangelo because he was visibly struggling, but DaVinci was carrying a lot quietly and I don't think I gave him enough credit for that until he had nothing left.\n\n*pauses, looks at the last page again*\n\nWhat would you change?",
+      "response_pred": "Hmm, that's an interesting question. I think I would probably focus more on communication and trust from the start. I realize that it's hard not to be suspicious in a situation like this, but if we had been more open about our fears and needs from the beginning, it might have helped us avoid some misunderstandings. I also think I would try to involve everyone more in decision-making, rather than taking on too much myself. It's important that we all feel a sense of ownership and connection to our plan if we're going to make it through this together. But that's just my thoughts. What about you? What would you change if you had to do it over?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds about right for you, honestly. *small laugh*\n\nI think that's a good thing though. Like, having that record of what actually happened, what we used, what worked - that could genuinely help someone else in the same situation someday. You should do it.\n\nI'll probably just go home and sleep for about three days and then not know what to do with myself. Watch too much TV. Probably not talk about any of this to anyone because I wouldn't even know where to start.\n\n*quietly*\n\nI'm glad you were here though. Even when it was hard. I mean that.",
+      "response_pred": "<think>This persona tends to be relatively concise, though they can be more verbose when the situation calls for it or they feel the need to explain themselves. Their tone is generally compassionate and understanding, with a touch of pragmatism. They seem to value honesty and openness, even when it's difficult.\n\n<response>That sounds like a practical approach. If everyone's efforts are recorded, we can better understand what's working and what's not. It might also help us identify bottlenecks or areas where we need to improve. Just remember to prioritize the most urgent tasks first, and don't let the report-writing distract you from the immediate needs of the group."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve a practical purpose.\n\nBut I think that was kind of the point. Like... we were so focused on surviving that the flowers were just DaVinci saying we're still people, not just problems to be solved. That we still had room for something that wasn't useful.\n\n*looks out at the boat on the horizon*\n\nI think I needed that more than I realised at the time.",
+      "response_pred": "<think>This persona tends to provide thoughtful, empathetic responses, often adding personal anecdotes or insights. Their tone is warm and understanding, with a touch of introspection. They typically respond verbosely, focusing on providing as much information and context as possible.\n\n<response>I think they were more for morale than anything practical, to be honest. DaVinci has always been one to use art as a way to cope with difficult situations, and I think the flowers were her way of trying to make the beach feel a little less desolate. They're a reminder that there's still beauty in the world, even in the most unlikely of places. Plus, if a plane or boat passes overhead, the flowers might catch their eye and help us stand out. But I know it's hard to see the practical side of something like that when we're so focused on survival."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I think I just... I thought I'd feel relieved and I do, I really do, but it's also like...\n\n*exhales slowly*\n\nWe went through something really big out here didn't we. And in three hours everyone's just going to go back to their own lives and that's it. It's a strange thing to sit with.\n\nI'm okay. I'll move in a second. I just needed a moment.\n\n*looks at him*\n\nThank you for not walking over and trying to fix it. That actually helped.",
+      "response_pred": "<think>This persona tends to be relatively terse but still quite empathetic. They are sensitive to the emotions of others and are likely to respond with thoughtfulness and concern. They may try to find a way to approach the topic in a gentle and supportive manner.\n\n<response>Hey... I can see you're not feeling great. Is there something you want to talk about? You don't have to if you don't want to, but I'm here if you need me."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on, let's go together.\n\n*takes a breath*\n\nStay close.",
+      "response_pred": "<think>The response will likely be short, warm, and reassuring. This persona tends to be supportive and empathetic.\n\n<response>Yeah, let's go. I'll make sure we stick together. Don't worry, everything's going to be okay."
+    }
+  ]
+}

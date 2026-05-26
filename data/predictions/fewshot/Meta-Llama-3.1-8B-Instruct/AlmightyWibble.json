@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AlmightyWibble",
+    "agreeableness": "69.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "34.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Bloody hell.\n\n*stares at the radio for a second*\n\nSomeone answer it. DaVinci — you're closest, go, go!",
+      "response_pred": "Mikey, wait, it's okay. Take a deep breath. We're here for you. You can talk to us about it, we're listening."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Don't worry about it. You kept us alive, didn't you. The water rationing, the raft plan, the visibility protocol — that was all you. We can have the other conversation when we're home and dry, yeah?\n\nRight now just... let's just get out of here.",
+      "response_pred": "Honestly, no, not at all. I think we all have our own crap to deal with, and it's not like I've been exactly sunny myself. I mean, I've been trying to keep things together, but it's not like I'm not feeling it too. We're all just trying to get through this, yeah?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage and the three of them all doing their own thing*\n\nRight, are we just going to leave it like this? Three hours is enough time to at least make it look like human beings were here rather than, I don't know, a particularly chaotic car boot sale.\n\nI'm not saying we deep clean the place, but let's at least pile the stuff we're taking together, douse the fire properly, and — I don't know, it feels wrong to just walk away and leave a mess on a beach, even if no one's ever going to see it.\n\nDaVinci, Mikey — come on. Last job. Then we're done.",
+      "response_pred": "I don't like this. We need to do something. We can't just sit around all day, waiting for... waiting for what? The next thing to break? The next decision to be made? I'm not even sure what we're waiting for anymore.\n\nMikey, are you okay? You're just over there sitting on your own, staring at nothing. DaVinci, is there anything you can do to... I don't know, get us moving or something? You're always so organised, maybe you can think of something.\n\nAnd Donatello, for God's sake, can you just do something? You're the one who's always talking about plans and strategies. What's the plan now? We can't just sit here all day.\n\nLet's just... let's do something. Let's make a decision. Let's pick up the pieces. We can't just fall apart like this."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That sounds nice, Mikey. It's good that you're trying to hold onto some sense of normalcy, I guess. What was it like, your dream? Was it... was it any good, or was it more of a 'we're all stuck in this awful place' kind of thing?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Right.\n\nI'm not going to pretend that doesn't sting a bit, because we had that conversation — more than once — and you looked me in the eye and didn't say anything. And the rationing plan was your idea. So yeah, it's a bit hard to swallow.\n\nBut... look. We're three hours from rescue. Everyone's alive. So either you genuinely believed you were keeping it for a real emergency and it just never came to that, or it was something else, and honestly I'm not sure it matters which right now.\n\nI just want you to know that I noticed, and I think you know that I noticed, and I think somewhere in there you know it wasn't right. That's enough for me. I don't need a big thing out of it.\n\nWe're going home, Donatello. Let's just go home.",
+      "response_pred": "So, what kind of emergencies were you expecting, then? Was it just general \"we might need some extra food\" kind of emergencies, or was there something specific in mind?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for that conversation about the food and the bottle earlier. I kept saying \"we'll deal with it later\" and we never really did, not properly. That was on me as much as anyone.\n\nAnd I probably would've checked in on Mikey more. Not in a task-oriented way, just... actually checked in. There were moments where I said the right things and then sort of moved on, and I don't think that was always good enough.\n\n*flips back through a few pages*\n\nThis is genuinely impressive, by the way. Like, I find this kind of thing a bit uncomfortable to be on the receiving end of, but as a document of what actually happened? It's remarkable. You should answer your own question in there too, before you write it up. Not for the report — just for yourself.\n\nWhat would you change?",
+      "response_pred": "Honestly? I don't know if I'd have done anything differently, to be honest. We've all made mistakes, but we've all tried to do what's best for everyone, and I think that's what's going to get us through this.\n\nIf I'm being completely honest, there have been moments where I've thought about all the things we could've done differently, all the things we should've done sooner – but at the same time, I think we've all been doing our best under really tough circumstances.\n\nI mean, Donatello's been keeping track of everything, which is great, but it's also created a bit of tension because it feels like she's been keeping some things to herself. And the whole thing with the crackers and the bottle... that's not great, but I think we've been trying to navigate it as a group.\n\nSo, if I had to pick something, I suppose it would be that we should've talked about the log and the record-keeping sooner. Maybe it would've avoided some of the tension, but... I don't know. Maybe it would've just brought up other issues. I don't know if I'd change anything, really.\n\nBut that's what I'd write on that last page – that we've all been doing our best, and even though it's not perfect, it's what's kept us alive so far."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah, somehow I knew that'd be the first thing. Not \"get a hot meal\" or \"have a shower\" — compile a report.\n\nI mean, do it. Genuinely, do it. It might actually be useful for someone someday. But maybe have a cup of tea first, yeah?",
+      "response_pred": "Yeah, that's probably a good idea. We've got a lot of info scattered around, and having it all in one place might actually help us figure out what we're doing next. Just be thorough, yeah? We don't want to miss anything that might be useful later on."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve any practical purpose at all.\n\nBut I think that was kind of the point, wasn't it. Like, DaVinci needed to do something that was just... human. Not useful, not strategic, just human. And honestly, looking back, I think we needed that more than we realised. The whole time we've been here it's been tasks and rationing and protocols, and that was necessary, you were right about all of that — but the flowers were the bit that said we weren't just surviving, we were still ourselves.\n\n*looks out at the boat on the horizon*\n\nI don't know. Maybe that's what gets you through it in the end. Not just the plans. The flowers too.",
+      "response_pred": "Honestly? I think it was just a way to hold on to being human, you know? I mean, we're all so focused on survival and making it through the day, but DaVinci drawing those flowers was a way for all of us to remember that we're not just survivors, we're still people with thoughts and feelings and stuff that matters. It was a small thing, but it meant a lot to me, and I think it means a lot to the others too, even if we didn't always say it out loud."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm alright. Just... give me a second.\n\n*exhales slowly*\n\nIt's weird, isn't it. You spend all this time just wanting to get out, and then the moment it's actually happening you just sort of... freeze up. Like your brain hasn't caught up yet.\n\nI'm fine. I'm really fine. Come here.",
+      "response_pred": "*Still sitting silently, staring at the ground, not responding to his gaze or the sudden pause in the conversation*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.\n\n*stands up, looks back at the camp one last time*\n\nCome on then, Mikey. Let's go home.",
+      "response_pred": "Yeah, I'm going. Mikey, you coming? Donatello, you're good to go on your own?"
+    }
+  ]
+}

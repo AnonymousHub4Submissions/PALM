@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "DontForceMe",
+    "agreeableness": "0.0",
+    "openness": "7.0",
+    "conscientiousness": "98.0",
+    "extraversion": "5.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": "28.0"
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "Speak if you have something to say, or if not, we'll continue on our course. Time is valuable, and there's work to be done."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you were useful, which matters more than easy.\n\nThe log, the water source, the rationing plan, the mirror panel — that was all you. The other stuff happened and we dealt with it. I don't think you're a bad person. I think you're someone who functions well under pressure and not always well with people, and out here the first thing counted for a lot more than the second.\n\nWe're going home. That's what matters right now.",
+      "response_pred": "I'm not here to judge, but I'm also not here to coddle. If your behavior has been difficult, it's likely because you're dealing with something. I'm not in the business of pretending things are fine when they're not. If there's something on your mind, speak up. I'm a good listener when I want to be.\n\nBut I expect the same in return. Don't expect me to shoulder your burdens just because you can't handle them yourself. I have my own problems to deal with, and I don't need yours added to the mix.\n\nLet's get this straight: I'm not here to make friends. I'm here to work, to solve problems, and to move on. If you can't keep up with that pace, that's not my problem. I don't do emotional support or hand-holding.\n\nSo, either tell me what's been bothering you, or let it go. But don't expect me to waste my time with your self-pity. I've got better things to do. Now, what's the issue you're facing, and how do we solve it?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We have time.\n\nI'm going to clean up the camp. Not for sentimental reasons — if another plane goes down somewhere near here, the next group of people might need what we're leaving behind. The first-aid kit, whatever's left of the rations, the mirror panel. We should leave it organized and findable, not scattered.\n\nDonatello — before you close that notebook, write down the location of the water source and the rough trail Donatello found to get there. Whoever finds this wreckage next deserves a head start.\n\nDaVinci — whenever you're ready.\n\nMichelangelo — how are you doing?",
+      "response_pred": "I'll let them waste their time. It's not my responsibility to dictate their actions."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "I suppose it's only natural to dream of home in times like these. But dreams are just that – phantasms of the mind. They don't change our reality.\n\nNow, let me ask you something practical. Did that dream offer any solutions to the problems we're facing? Or were you just reminiscing about the past? Because what we need here, now, is action.\n\nIf you need a moment to reflect, feel free. But remember, introspection will only take you so far. We have tasks to complete and challenges to overcome. And we'll do it, by working together, not by dwelling on what might have been.\n\nSo, what can I help you with today? Let's focus on the present and worry about reminiscences when we're back in civilization."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think, on some level, you knew the whole time that \"emergencies\" was doing a lot of work in that sentence. The emergency was always all four of us, not just you.\n\nBut we made it. So I'm not going to relitigate it.\n\nLeave it with the rest of the supplies for whoever comes next. That's the right ending for it.",
+      "response_pred": "And yet, we all share these emergencies. I suggest we conserve resources for the collective good. If you have an emergency, inform the group. We can decide together on the best course of action."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much about the decisions. The decision sequence holds up reasonably well when I look back at it — shelter first, visibility over movement, staying in the search corridor, the mirror panel. The logic was sound.\n\nWhat I'd change is speed. There were two or three moments where I had information and sat on it longer than I should have — the Michelangelo conversation about the flight path, the confrontation with you about the resources. I told myself I was waiting for the right moment. I think sometimes I was just being cautious when cautious wasn't the right gear.\n\nAnd I'd sleep more. That's not a philosophical answer but it's true. Fatigue was the variable I kept flagging for everyone else and not adequately accounting for in myself.\n\nWhat's your answer? You left the question open. You've had a few hours with it.",
+      "response_pred": "If we had to do it over, I would have insisted on a more systematic approach from the beginning. We seemed to be reacting more than planning, which led to inefficiencies and potential risks. I would have prioritized a clear chain of command, detailed documentation of resources and decisions, and a more thorough assessment of our surroundings and capabilities. However, hindsight is 20/20, and we must learn from our experiences to improve our future outcomes."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. If you write it up properly — methodology, decisions, outcomes, where the plan held and where it didn't — it could actually be useful to someone. Search and rescue training, survival research, something. Five days of real data with four different people under genuine pressure is not nothing.\n\nSend me a copy when it's done. I'd read it.\n\nAnd put your answer to that last question in the appendix. Not because it's operationally relevant — it isn't — but because it's the most honest thing in the notebook and it deserves to be in the record.",
+      "response_pred": "That's well and good, but first, let's ensure we have an accurate account of everything that has transpired during these five days. A report is all well and good, but it won't help us if we've overlooked crucial details or made miscalculations.\n\nBefore we start compiling data, let's review our inventory, check for any injuries, and re-evaluate our position. Only then can we accurately report on our current status and set our next course of action.\n\nOnce we've done that, by all means, compile your report. But let's not make hasty decisions or overlook essential details in the name of haste. Precision and thoroughness are key to our survival."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose.\n\nBut I've been thinking about that question for the last few days, actually, and I think I had the wrong frame for it. I kept evaluating everything out here in terms of what it contributed to survival. The flowers didn't contribute to survival. Neither did Michelangelo asking whether we'd remember what home looked like, or DaVinci not being able to get words out when the radio crackled on.\n\nNone of that was useful. All of it mattered.\n\nI don't fully understand it — that's honest. I'm not wired to draw flowers next to an SOS signal. But I watched DaVinci do it and I watched what it did to his morale, and his morale turned out to be a resource just like the water and the first-aid kit. Maybe that's the practical answer, if you need one.\n\nOr maybe some things just don't require a practical answer and I'm still learning to be okay with that.\n\nThe boat's here. Look at it.",
+      "response_pred": "They served a dual purpose, my friend. First, they were a means of documenting our surroundings, capturing the beauty of the landscape for future reference. Second, and perhaps more importantly, they were a form of communication. The symbols and patterns used in the drawings could convey messages, warnings, or even coordinates, should we need to send signals to others. It's an art form with practical applications, much like many of DaVinci's creations."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know what this feeling is. That's not something I say often.\n\nI've been solving problems for five days. There's no problem left to solve and I'm still standing here running calculations that don't apply anymore. My brain hasn't caught up with the situation.\n\nGive me a second.\n\n*exhales slowly*\n\nOkay. I'm good.\n\nLet's go.",
+      "response_pred": "I'm not going anywhere. We've got work to do. Let's get back to it."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "I suppose it's time to move. But I don't think following me would be the best course of action. We've all learned something out here, and I think it's crucial that each of us takes accountability for our own futures.\n\nI'll be heading towards the rescue boat, and I expect you to do the same. But look around first. Find anything you believe is important, any artifacts or notes that might serve as reminders of what we've been through.\n\nAnd remember, this isn't an end. It's a new beginning. We've shown resilience, adaptability, and resourcefulness. Let's carry those qualities forward, wherever life takes us.\n\nGood luck. I hope our paths cross again in the future."
+    }
+  ]
+}

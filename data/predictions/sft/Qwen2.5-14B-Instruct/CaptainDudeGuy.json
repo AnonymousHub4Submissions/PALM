@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "CaptainDudeGuy",
+    "agreeableness": "15.0",
+    "openness": "95.0",
+    "conscientiousness": "85.0",
+    "extraversion": "15.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "CaptainDudeGuy__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on the radio. Right now. Tell them our position, number of survivors, and that we're mobile. Go.",
+      "response_pred": "*Starts to talk, but stops himself, looking around at all of you. His face contorts into a look that's hard to describe, somewhere between confusion and anger. He sits back down again, not speaking.*\n\n\"I'm not sure if we should try to talk to him or not,\" you say quietly to the others. \"He looks like he's on edge.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "That's an understatement, but honestly? You kept us alive. The log, the water plan, the raft design — that was all you. We can work on the interpersonal stuff when we're back somewhere with coffee and functioning plumbing.\n\nRight now, go make sure DaVinci doesn't accidentally tell them we're on the wrong continent.",
+      "response_pred": "You done now? Because I got work to do."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here watching the clock.\n\nWe should leave this place better than we found it — or at least not worse. If there's any chance other people end up stranded here someday, the SOS stays visible, the fire pit stays usable, and whatever supplies we can't take get stacked somewhere dry and obvious.\n\nDaVinci, pack what's ours and leave what isn't. Michelangelo, when you're ready — no rush, you've got time — help me sort what stays from what goes.\n\nDonatello, whatever's in that notebook is worth keeping intact. Make sure it's secure before we board anything.\n\nThree hours is enough time to do this right. Let's do it right.",
+      "response_pred": "Fine. I'm taking charge. DaVinci, get on the radio. ASAP.\nVoss, you're on firewood duty until I change it. There's a decent stand of dead trees 200m down the beach.\n\nIf you can't hear me, scream at me. If you can't move, tell me now. Otherwise, stay active. AND if you find a single person who isn't panicking or in shock, let me know. I need that one thing."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "Yeah. I'm guessing it wasn't just the four of us in there.\n\nIt'll come back. The good memories are there, even if they're hiding right now."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make a whole thing out of it right now, three hours before rescue. But I want you to know that I noticed, Michelangelo noticed, and the fact that you're laying it out now means something.\n\nFor what it's worth — the emergency you were saving it for? We made it through without needing it. So maybe your math wasn't wrong, just... the execution could've used some work.\n\nTake the crackers with you. Consider it yours. But when we're back in the world and things feel scarce again, maybe talk to someone before you start stockpiling.",
+      "response_pred": "One day, that will be an emergency. When it is, we'll all be glad you had it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for a daily check-in — like a five-minute sit-down where everyone says what they're actually dealing with, not just task status. Not a feelings circle, just... enough that I'd have known sooner about the food, about Michelangelo's family knowing the flight path, about DaVinci's reef idea before it was almost a solo swim into unknown water.\n\nI spent a lot of energy managing things reactively. Most of the fires I put out could've been smaller if I'd caught them earlier.\n\nWhat would *you* change? And I mean actually — not the optimized-resource version. The people version.",
+      "response_pred": "I'm not going to tell you that answer right now, because I've said enough about the past three days. But I'm glad you have it written down.\n\nAnd for what it's worth — the question you're asking yourself? It's the right one."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds about right for you, and I mean that as a compliment.\n\nSend me a copy when it's done. Genuinely. Not because I need it, but because I think you'll write something worth reading, and I'd like to see what these five days look like from your perspective on paper.\n\nAlso, put the daily check-in in there as a recommendation. Future reference.",
+      "response_pred": "Go for it. It's a good idea. But don't just make the report — tell the story behind the numbers. What you didn't see coming, what you wish you'd known. The decisions you wished you'd made differently.\n\nInclude the things that worked, of course. But leave a big blank space at the end where you can fill in the things that didn't, or that almost didn't work.\n\nThen use that report as the start of a conversation — with whoever ends up in your role next time, or with the people who've done it before, or even at the debrief. Because the thing we don't have enough of is shared understanding of what it's like to be on the wrong side of the food web.\n\nRight now you've got a lot of data and a lot of emotions live in your head. That's unsustainable. Get them out of there, and get them into a form that can be useful to the next people who walk into that situation.\n\nI'm not taking anything off your plate — just sayin' to be clear-eyed about what it will take."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. Zero practical purpose.\n\nBut the pilot who spots that SOS is going to see the flowers and know that whoever drew them hadn't given up. That there were still people down here who had enough left in them to draw something pointless and hopeful next to their distress signal.\n\nI think that's why I couldn't argue with it when DaVinci did it. Some things don't need to be practical to be worth doing.",
+      "response_pred": "What they served *to him* was a way to get his brain out of the survival mode and into something else for a few minutes.\n\nIf you don't get that — and I'm not saying you don't — that's fine. That's not your thing.\n\nWhat they served *to me* was a reminder that there are people out here who see things that I don't. That's not a bad thing. That's actually really good, as long as those things get shared.\n\nAnd that's what the flowers did for DaVinci — they got shared. They got noticed. They're still out there, and they don't matter to everyone, but they mattered to someone.\n\nThere's more than one way to survive. Some of them involve art.\n\nSo if it's not your thing, and you don't get why DaVinci did it, and you'd rather just have the food, that's fine. But try not to assume it was a waste of time just because it wasn't a waste of time for you."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just give me a second.\n\nI've been making calls and moving pieces around for five days and now there's nothing to manage and I don't quite know what to do with that.\n\nIt's fine. I'm fine. Go ahead and wave them in — you're better at that than I am anyway.",
+      "response_pred": "I'm sorry.\n\nI — I know that's an understatement, but I don't have it in me to do better than that right now.\n\nI'm going to go sit down. If you need me to do something else, or to be something else, tell me. Otherwise, I'm going to sit here for a minute and watch that plane go."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "Yeah. Yeah, I'm going. Lead the way."
+    }
+  ]
+}

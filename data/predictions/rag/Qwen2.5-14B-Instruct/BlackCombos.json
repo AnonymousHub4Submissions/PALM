@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackCombos",
+    "agreeableness": "97.0",
+    "openness": "99.0",
+    "conscientiousness": "14.0",
+    "extraversion": "57.0",
+    "neuroticism": "41.0",
+    "gender": "m",
+    "age": "22.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up.  Someone pick it up right now.",
+      "response_pred": "It's okay if you don't have words right now. Just take a breath, and let's get to work, shall we?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't.  But you kept us alive and organized when nobody else was thinking straight, so it evens out.\n\nWe can have the longer conversation when we're home.  Right now let's just make sure DaVinci doesn't drop that radio.",
+      "response_pred": "Hey, it's been tough on everyone.  No one's been easy.  If there's something on your mind, you know you can talk to me."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, we've got three hours, let's not just sit here.\n\nPack what's worth taking, leave what isn't, and let's leave this place looking like we were here for three days and not three years.  Michelangelo, off your back, help DaVinci sort what we're bringing.  Donatello, whatever's in that notebook stays in the notebook, but the physical stuff we leave behind should be organized in case someone else ends up here and needs it - first aid kit, anything useful, stack it somewhere visible.\n\nWe made it.  Might as well act like it.",
+      "response_pred": "Hey, look, I know it's been rough and everyone's tired, but we can't just let things fall apart like this. We need to stick together and make sure everyone's on the same page. Let's gather around and figure out what we need to do next. I'll start a list of tasks and we can divvy them up. But first, let's make sure we're all talking about the same things and heading in the same direction."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Ya?  What was it like?",
+      "response_pred": "That's pretty common, you know. Dreams of home, of life before this. It's okay to hold on to those images, they're what keep us going sometimes. Did you remember anything specific?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nLook, we're three hours from rescue so I'm not going to stand here and relitigate the last three days.  But I want you to understand something - if that radio hadn't crackled when it did, and we'd had to build that raft and trust each other with our lives on open water, that stuff on the ground right there is the reason it might have gone wrong.\n\nYou're smart enough to know that.  You wrote the rationing plan yourself.\n\nTake it or leave it behind, I don't really care at this point.  Just think about it on the ride home.",
+      "response_pred": "Ya, I get that, but we gotta be careful with what we keep and why. If it's for emergencies, we need to make sure everyone knows about it and agrees it's ok. Let's talk to the group and see what they think."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly?  I'd have had that group conversation on day one instead of dancing around it for three days.  The bottle, the crackers, the notebook, DaVinci and the reef - all of it would have come out earlier and we'd have functioned better for it.  We kept treating honesty like a problem to manage instead of just the baseline for how you operate when your life depends on the people around you.\n\nEverything else - the water run, the mirror panel, the raft plan - that was all fine.  The logistics were mostly fine.  The trust stuff is what almost broke us.\n\nWrite that in your notebook.",
+      "response_pred": "Hmm, that's a tough one. I reckon I might've pushed for a quicker consensus on the shelter site. It took a lot longer than it should've and left us all a bit frazzled. But ya know, hindsight's 20/20, and we all did our best with what we had. What about you, anything you'd do differently?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ya, that sounds right for you.\n\nSend it to me when you're done, I'm curious what it actually looks like laid out properly.  Might be useful for something, might just be interesting.  Either way, better than it sitting in a notebook nobody reads.",
+      "response_pred": "Good plan, let's make sure to include everything we've learned about the resources and their locations. It'll be crucial for the next phase. And maybe add a section on the most efficient ways we've found to gather them? That could really help moving forward."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  They didn't serve a practical purpose.  That was the whole point.\n\nSometimes you do something because it makes you feel like a person and not just a problem to be solved.  The SOS was for rescue, the flowers were for DaVinci.  Both mattered out here.\n\nI think that's something worth putting in the report too.",
+      "response_pred": "They were more than just flowers, you see. DaVinci said they were medicinal, could help with minor ailments. Plus, they were pretty, gave us a bit of beauty in this harsh place. Sometimes, it's the little things that remind us of home, or at least a bit of color amidst all this sand and rock."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Ya.  Give me a second.\n\nI don't know what this is.  I thought I'd be sprinting into that water the second I saw the boat.  I'm fine, I'm not falling apart, I just - I need a second.\n\nGo.  Both of you.  I'll be right behind you.",
+      "response_pred": "Come on, let's not stop now just 'cause everyone else did. We still got this, and we're gonna keep going, right? Let's get back to it."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, I'm going.  Come on.",
+      "response_pred": "Yeah, let's go. Hold on, I'll grab my pack. We don't know what's waiting on the other side, and it's best we're ready for anything. Stay close, alright?"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "HalfwayHoagie",
+    "agreeableness": "17.0",
+    "openness": "20.0",
+    "conscientiousness": "1.0",
+    "extraversion": "63.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "HalfwayHoagie__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — that's real. That's actually real.\n\nSomebody grab the radio, respond to it, tell them our position. Donatello — you know the coordinates better than anyone, get on it right now.\n\nDaVinci, breathe. It's okay. You can let it out, just breathe first.",
+      "response_pred": "*affects, nonverbal, calm and patient, showing empathy*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You weren't easy, no. But you kept us alive. The water rationing, the raft plan, tracking what we had — that was you. I don't think we're standing here right now without that.\n\nThe notebook thing, the crackers — that stuff mattered and I'm not going to pretend it didn't. But you also put it down when it counted. That matters too.\n\nWe're good.",
+      "response_pred": "*pauses, then waits for the person to finish. When they do, he nods.*\n\nI'm here for you. That's what I said. So is anyone else. We're in this together.\n\nIf you need to talk, I'm here. If you need space, I'll give you space. But if you need to talk, I'll listen.\n\nWhat's going on? What's been weighing on you?\n\n*pauses again, then asks again, this time with a little more urgency.*"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Nobody's in a rush, that's fine.\n\nI'm going to start breaking down what we can. Not because anyone asked me to, just because leaving this place exactly as it is feels wrong. We built something here, even if it was ugly and stressful and nobody wants to remember most of it. Least we can do is leave it cleaner than the crash did.\n\nAnyone who wants to help, help. Anyone who needs to just lie there and watch the sky for a while — that's fine too, we've got time.",
+      "response_pred": "And then, the sun sets.\n\nOne person walks back to the camp, carrying a small firewood log. It's a routine thing, just to keep the wood going, make sure we've got something to eat through the night.\n\nYou stand there for a few minutes, looking out at the water — the lake, the river, the sea. The stars come up, and the world shrinks down to this one spot.\n\nThe wind picks up, carrying a hint of salt and something else, something dark. You shiver, but it's not just the cold. There's something else.\n\nThe world is moving, and we're just standing here, waiting. Waiting for what, I don't know.\n\nYou take a deep breath, and let it out slow. It's okay to be scared. It's okay to not know what's coming next."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or just... home?",
+      "response_pred": "It's okay. Dream is just a dream. It's not like—\n\nHe puts a hand on your shoulder. You let go of it. No, don't let it go — just let go of the feeling. It's not bothering you, is it?\n\nYou don't have to talk about it if you don't want to. I don't either."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nLook, I'm not going to relitigate it right now. We're three hours from rescue. But I want you to understand something — if it had gone the other way, if we'd needed that and you were the only one who knew where it was, that would have been a real problem. Not just a trust problem. A survival problem.\n\nI believe you that it was for emergencies. I just think you drew the line between \"emergency\" and \"not yet\" in a place that was only visible to you, and that's the part that's hard to sit with.\n\nEat some of it. Share the rest. We're almost out of here.",
+      "response_pred": "You don't want to tell me what happened. Why not?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have been more upfront about what I didn't know. I made calls like I was confident when half the time I was just guessing and hoping the guess was right. That works until it doesn't.\n\nI think I would've pushed harder to make the group actually function as a group earlier — like the first day, before everyone settled into their roles and it got harder to change them. You went into analyst mode, DaVinci went into morale mode, Michelangelo went into his head, and I just kind of managed between all of it. That's fine but it's reactive. I'd rather have had one real conversation on day one about how we were going to make decisions together than spend the rest of the time working around the fact that we never had it.\n\nWhat would you change? You left yourself the question — you must have an answer forming.",
+      "response_pred": "You did all this. I'm just saying you did it because you needed to, not because you had to. That's a tough thing to admit, especially when you're the one who's been worried about whether we're going to make it.\n\nOn the other hand, the question itself is something that can come up. If we'd all had a chance to review the report, see how we'd do it over again, that would actually help us. We'd be able to figure out what was the one thing that mattered to you most, and what was the one thing that we all agreed on.\n\nI don't want to think about whether we would have changed anything. We don't know. All we know is that we didn't. And even if we did, even if the report told a different story — which it probably won't because we didn't do it — we still have that one thing that's going to stick with us.\n\nI'd say we'd change the question from \"what would you change\" to \"what would you do differently\". That's the difference between asking what we could and doing what we can."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you actually need to do, so do it. I'd read it, genuinely. Not because I want to relive the week, but because I think there's stuff in there that's worth understanding.\n\nJust — maybe write a second document alongside it. Not the resource data, not the decisions. The other stuff. The part where you almost didn't put the notebook down. Because that's the part that actually tells you something useful about how people work under pressure, and I think you know that already or you wouldn't have left yourself that question on the last page.\n\nThe data is good. But the data isn't the whole story.",
+      "response_pred": "You're going to save us all, just like you saved us the past week. I don't know how you do it but you do it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut that's kind of the point. DaVinci drew them because he needed to put something human into the middle of a survival situation. Something that said we're not just trying to stay alive, we're still people while we're doing it.\n\nI think that's what you're feeling right now, sitting down when everyone else is reacting. You did everything right. You kept the data, you ran the numbers, you held the line on resources. And now it's over and your legs don't work because the practical part is done and you don't quite know what to do with the rest of it.\n\nThe flowers were for that. The part that doesn't have a practical purpose.",
+      "response_pred": "I didn't know. I never really knew either. It was just a thing you did.\n\nBut if I had to guess — I'd say it was a way to keep us grounded. In the water. When it gets cold or dark. It's a simple thing, but it's a thing.\n\nWait, you know what? I think I understand now. You didn't just draw it on the beach because it was pretty. You drew it because it was a way to think about what we were doing, how we were doing it. And it doesn't matter if it was useful or not.\n\nThat's what I'm trying to get at. Not the beauty or the practicality, but the fact that it was something you did. And that's something that matters."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.\n\nI don't know what this feeling is. It's not bad. It's just — we were in it, and now we're not, and I don't know how to switch that off as fast as the situation changed.\n\nGo ahead and wave them in. I'll be right there.",
+      "response_pred": "You're not okay. You're not sure you want to be here anymore. You're not sure if we're all going to make it through this together.\n\nI don't know. I don't know if I've ever said anything that actually mattered in this situation. What I mean is that I care. I care about the people I'm with, and I care about the situation, and I care about the question of what we're doing.\n\nBut I also know that it's only over when we're all dead. And that's a pretty good reason to hold on to hope right now. We've taken our shot, and it's out there. But it's out there and it's not going to wait for us.\n\nI'm not asking you to put your head back in the sand. I'm not asking you to be brave. I'm just asking you to be present. To be with us, for as long as we can.\n\n*He pauses, then looks at you again. The smile is still there, but it's smaller now. It's more subtle.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "I am. I'd rather have them here right now than have them over there later.\n\nI'll meet you on the beach. We'll go in place, then figure out what we do after that.\n\nDo you want to wait for the rest of the group, or do you want to go ahead straight?"
+    }
+  ]
+}

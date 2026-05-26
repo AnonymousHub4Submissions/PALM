@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "anantyc",
+    "agreeableness": "53.0",
+    "openness": "17.0",
+    "conscientiousness": "16.0",
+    "extraversion": "10.0",
+    "neuroticism": "64.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's ok. Breathe.",
+      "response_pred": "Other: *his voice barely above a whisper* I'm going. *he takes a step forward, his eyes fixed on you, and then turns and walks away, disappearing into the darkness*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "- extraversion: 0.0\n- agreeableness: 11.0\n- conscientiousness: 7.0\n- neuroticism: 66.0"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up the bigger pieces of debris and tossing them to the side*",
+      "response_pred": "*The sound of crickets and wind rustling through the branches creates a soothing background noise. The three individuals continue to drift apart, each lost in their own thoughts. The silence stretches on, broken only by the occasional creak of a tree branch or the distant rumble of thunder.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: It was just a dream, I'm fine. I don't think about home too much. It's not like we're going to be living there for a while.\nYou: Yeah, it's probably just a normal dream. What did it feel like?\nOther: It felt real, like I was really there. I could smell the family's cooking and hear my parents' voices. It was nice, but also a little sad. I wish I could go back.\nYou: It's okay, it's just a dream. We're not going to be living in any of our homes for a while. We're trying to survive."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you saving it for, we almost ran out of food. I'm not gonna pretend it's fine, it wasn't. But it's done now.",
+      "response_pred": "Other: I just want to make sure we're all set for as long as it takes. I've also been thinking about our safety during the night, it's getting dark already.\nYou: Yeah, I've been thinking about that too. We should try to find a way to secure our shelter for the night, something to block the wind and rain. And if there's a risk of an animal getting inside, we should prepare for that as well."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably talk more. Not about tasks or plans, just... actually say things when something's wrong instead of keeping it to myself. I do that a lot, someone asks if i'm ok and i just say nothing because i figure they don't really care. Doesn't help anyone out here.",
+      "response_pred": "Other: *looks up, eyes scanning the horizon* Oh, no. I don't want to think about that. Just a few more days, and we'll be rescued. I'm tired of thinking about it.\n\nYou: *pauses, studying the other's face* You're not scared, are you? You're just... nervous. I know you're not sure what's going to happen after we get rescued.\n\nOther: *looks away, voice barely above a whisper* I don't know what I'd do if I got rescued. I'd probably just disappear too. I'm not sure if that's a bad thing or a good one. *pauses* I think I'd just want to get out of here. Leave everything behind.\n\nYou: *nods* Yeah, I think you're right. We've been through a lot, and it's not just about the physical pain. It's about the emotional toll too. But we're strong, we can get through this together.\n\nOther: *looks at you, a small smile on their lips* Yeah, we are. And at least we have each other, right? *pauses* \n\nYou: *nods* Yeah, we do. That's all that matters."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, send me a copy when you're done. Might be useful.",
+      "response_pred": "Personal: Hey, I think you're right. We should compile our resources and share them with the others. It'll help us make the most of what we have. Let's work together on that, just make sure to keep it concise, we don't want to overwhelm anyone."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But not everything needs a practical purpose.",
+      "response_pred": "Other: Actually, they weren't for anything at all. Just some flowers he found. He wanted to paint them, but it was hard to focus on the brush when everything else was so much more important."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I just need a second.",
+      "response_pred": "Other: *Slowly, with a hint of curiosity, his eyes lift from his notebook, scanning the area, taking in your state, and then back to yours*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "You: *awkward smile* Yeah, I'm going. I'll be right back. *nervous laughter* Don't worry, everything's fine. Just a little... hot shower to get us both in the clear. *fidgets with hands, trying to hide his excitement*"
+    }
+  ]
+}

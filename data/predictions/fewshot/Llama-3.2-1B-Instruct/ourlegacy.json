@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ourlegacy",
+    "agreeableness": "18.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "5.0",
+    "neuroticism": "50.0",
+    "gender": "m",
+    "age": "20.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "You: *Calmly, not making any sudden movements* Hey, hey, it's okay. We're here for you. You're safe. *Takes a step forward, trying to put him at ease* What's going on? What's wrong? *Pauses, noticing that his face is still red and his eyes are staring at nothing*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us organized and that mattered. The drink and crackers thing was a bit rough but you came clean about it and we're all still here so it's whatever.",
+      "response_pred": "- agreeableness: 25.0\n- openness: 10.0\n- conscientiousness: 9.0\n- extraversion: 7.0\n- neuroticism: 80.0"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours isn't forever but let's not just sit around waiting. DaVinci, start breaking down what we can carry and what we leave. No point dragging wreckage home but the first aid kit, compass, flares — anything useful comes with us. Michelangelo, when you're ready, help him sort it. Donatello, whatever's in that notebook, make sure it's got everything documented in case anyone needs a debrief when we get back.\n\nAnd let's clean the camp up a bit. Not for any practical reason, just — leave it better than we found it or whatever.",
+      "response_pred": "*The sound of crickets and the distant rumble of thunder echo through the camp, a stark contrast to the tension that still lingers between the three individuals. The fire burns low, casting flickering shadows on the faces of the two others, their expressions a mix of exhaustion and concern. I sit quietly, sipping on a flask of water, lost in thought.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "You: Yeah I had a dream too. I couldn't shake the feeling of being lost and alone, but in the end it felt like everything was okay. I think that's what I'm still holding onto, even here in this situation. The feeling of being home, of finally being safe. It's weird, but it sounds crazy right now, but it's what I'm hoping for when we get rescued.\n\nOther: What was the dream like?\nYou: It was a bit surreal, but I think it was something like we were standing in a familiar place, but it was different. The buildings were taller, the sky was a different color... it was like we were home, but it felt like it was shifted on its axis somehow. And I could smell the food, I think it was pizza, but it was like it was made with ingredients that were different somehow. It was a bit disorienting, but it felt good.\n\nOther: Did you think about what was wrong with your dream?\nYou: Yeah, I did. I think it was because I was still so scared. I couldn't shake the feeling that we're really lost and that we'll never find our way back. But at the same time, I hoped that it was just a bad dream and that it would fade away."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "Other: I've been meaning to ask, what was the plan for the first 24 hours after we crash? Did we just stay there, or were we trying to signal or something?\nYou: We set up the signal equipment and got the fire going, but it wasn't enough to really communicate with anyone. We did try to find shelter and food, but it was a tough spot. The water was scarce, and we had to ration what we had. We also had to deal with the fact that we were stranded in the middle of nowhere, which is tough to adjust to.\nOther: It sounds like we were really figuring out how to survive, but what about the living situation? We were stuck inside for days, and I'm sure it was pretty uncomfortable.\nYou: Yeah, it was definitely not ideal. The shelter was basically just a pile of debris and some tarps we managed to find, and it wasn't very comfortable. We had to deal with injuries, broken equipment, and the psychological strain of being stranded in the middle of the Pacific. We were all exhausted and stressed out, and we just wanted to find a way out."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group trust stuff earlier instead of waiting for the right moment. The drink and crackers thing — I let that sit too long. Should've addressed it the day Michelangelo found the bottle.\n\nAnd I'd have asked you directly what the notebook was about instead of letting it become a thing.\n\nWhat would you change?",
+      "response_pred": "Other: *pauses, looking down* I'm not sure I can answer that."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that makes sense. Might actually be useful for someone — search and rescue teams, aviation authorities, whoever does the debrief. If it helps them handle something like this better next time then all those notes were worth it.\n\nSend me a copy when it's done.",
+      "response_pred": "Other: I'm talking about extracting and organizing all the information from the wreckage, first-aid kit, and whatnot. The medical supplies, the tools, the food, the equipment – everything. I want to get a complete picture of what we have and what we need to survive for a while.\n\nYou: Ah, yeah I remember the report you wanted to work on. It was supposed to be a comprehensive analysis of the situation, but you never got to it. What's changed? What do you need?\n\nOther: Well, now that we've been here for five days, we've identified some key areas where we need to focus. The food, for example, seems to be going bad fast. We need to get that sorted out before it becomes a bigger problem. And the medical supplies? We've had some close calls, and we should prioritize getting those fixed up.\n\nYou: I like the way you put it. We do need to prioritize those areas. And what about the tool and equipment? We had some issues with the shelter, the signal equipment – we need to get those sorted out too.\n\nOther: Exactly. I've been going over the inventory, and it seems like we've lost some of our most critical items. We need to move quickly to sort through what we have and make sure we're not missing anything.\n\nYou: Alright, let's get started on that report. I'll take a look at what you've got so far and see what we can do to prioritize our efforts."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. He needed to do something that felt human, not just functional. I think that mattered more than you'd think — kept his head right when it could've gone the other way.",
+      "response_pred": "Other: To be honest, music was pretty good. I liked the feeling of it, the way it could calm people down. I just never thought it would be that useful. We're not even sure if we'd have enough water to play it out here, but... you, Michelangelo, you were really into it. I saw you listening to it for hours, trying to find a rhythm or something. You had to have been pretty into it, so... yeah, I guess music's not so bad."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "You: Yeah, sorry about that. My head just... I guess I was just thinking about it a lot and it's a lot to process. It's just... I don't know, everything. The flight, the plane, the... *trails off*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Other: *Tears of relief and excitement* Oh my god, Oh my god, Oh my god."
+    }
+  ]
+}

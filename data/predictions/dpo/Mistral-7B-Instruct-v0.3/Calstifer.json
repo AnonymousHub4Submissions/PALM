@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Calstifer",
+    "agreeableness": "54.0",
+    "openness": "54.0",
+    "conscientiousness": "71.0",
+    "extraversion": "86.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it sink in for a second.\n\nWe're okay. We're actually okay.",
+      "response_pred": "I'm sorry, I'm a bit overwhelmed right now. Let's take a moment to gather our thoughts and continue the discussion when I'm feeling more composed."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, which counts for a lot.\n\nThe rationing, the scouting, the raft plan, the notebook - I didn't always agree with how you went about things, and I said so. But I also knew every morning that you were already up and thinking about what needed doing. That's not nothing either.\n\nI think you know where the edges are now. Between rational and fair, between practical and present. That's worth something, coming out of something like this.",
+      "response_pred": "I apologize for any discomfort I may have caused. It's been a bit of a challenging time for me, and I've been feeling quite emotionally intense. I'm working on finding better ways to manage my feelings, and I appreciate your patience. Let's focus on finding some activities that can help us both relax and enjoy each other's company."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit with that for a minute.\n\nMichelangelo, what are you thinking about up there?",
+      "response_pred": "I can't help but feel a pang of unease in this moment of silence. It seems we've all retreated into our own thoughts, lost in our own worlds. Perhaps one of us should have taken charge, offered a suggestion, or even just a light-hearted joke to break the tension. Ah well, such is life. Perhaps we'll find our rhythm again soon. Anyway, I'm going to take a walk and see if I can spot any interesting flora or fauna. Care to join me?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Ah, the sweet memories of home! It's been a while since I've had such a vivid dream. I do hope everything back there is as I left it. I've got quite a few projects on my hands here, but a little nostalgia never hurt anyone, did it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. I don't think you were being malicious about it. I think you made a calculation and you stuck to it, which is very you.\n\nBut we had the conversation about the bottle and the crackers. And you said you understood why it mattered. So seeing this now - I'm not angry, I'm just... I want to understand what the difference was in your head between then and this.\n\nBecause from where I'm standing it looks like the same thing, just with better justification attached to it.",
+      "response_pred": "I've always been a bit of a planner, so I made sure to have this stashed away just in case. You know how it is. Better safe than sorry!"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have said more, earlier. Not about the practical stuff - the decisions mostly held up. But there were moments where I could see someone struggling and I found a way to make it about the task at hand instead of just... sitting with it properly.\n\nThe afternoon Michelangelo was staring at nothing, I went and sat near him, which was right. But it took me longer than it should have to get up and do it. I was thinking about the firewood.\n\nI'd also have pushed back on the rationing plan the moment it appeared, instead of flagging the enforcement clause and letting the rest of it stand. The plan itself set a tone, and the tone mattered more than I gave it credit for at the time.\n\nWhat would you change? You left yourself the question. You must have something.",
+      "response_pred": "I can't help but ponder that question now. If I had to do it all over again, I would have taken more time to consider the potential consequences of each decision. I'm a bit too impulsive for my own good, and it's led me to some sticky situations. I need to work on my foresight and be more deliberate in my actions. But for now, let's focus on the task at hand and ensure everything runs smoothly."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd do, and I mean that genuinely.\n\nSend me a copy when it's done. I'm curious what it looks like from the outside - the full picture, all five days laid out. I think it'll read differently than it felt living through it.",
+      "response_pred": "Let's make sure we don't miss anything important. I'll get started right away on organizing and summarizing the data for a comprehensive report. Excellent work, everyone! Let's celebrate this achievement and regroup for our next project."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. There's a difference, and I think you know that now even if you didn't then.\n\nLook at him over there.",
+      "response_pred": "They were more for aesthetic and artistic purposes, I suppose. Leonardo da Vinci was a master of capturing the beauty of nature in his work, and it's likely that those flowers held no practical purpose for him in that specific context. Instead, they served as a means to express his creative vision and appreciation for the world around him."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I thought getting here would feel like something resolving. Like the ending of something. But it doesn't quite feel like that, does it. It feels more like - I don't know. Like waking up from a very long dream and not being sure yet which parts were real.\n\nThey were all real. That's the thing.\n\n*looks at DaVinci, then back at the boat*\n\nOkay. I'm ready.",
+      "response_pred": "I can't help but notice you're still here. Care for some company? Let's find a reason to smile again."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Come on then.\n\nStay close.",
+      "response_pred": "Absolutely! Let's get moving, shall we? I'll be right behind you. Can't wait to lend a hand! But don't worry, I'm more than capable of handling things if you need a breather. We've got this! Let's show 'em what we're made of!"
+    }
+  ]
+}

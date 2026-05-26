@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AlmightyWibble",
+    "agreeableness": "69.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "34.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Bloody hell.\n\n*stares at the radio for a second*\n\nSomeone answer it. DaVinci — you're closest, go, go!",
+      "response_pred": "You: <pauses, studying the scene> Mikey, can you tell me something? Anything at all? <sits back, eyes fixed on the red-eyed figure>"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Don't worry about it. You kept us alive, didn't you. The water rationing, the raft plan, the visibility protocol — that was all you. We can have the other conversation when we're home and dry, yeah?\n\nRight now just... let's just get out of here.",
+      "response_pred": "Alright, alright, don't try to talk around it, just tell me what's going on. What's it like being stuck here with us, like this? It feels like a nightmare, doesn't it? We're lucky to be alive, but I know it's not that easy. Mikey, how are you really doing? Is it just me who's struggling to keep it together all the time?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage and the three of them all doing their own thing*\n\nRight, are we just going to leave it like this? Three hours is enough time to at least make it look like human beings were here rather than, I don't know, a particularly chaotic car boot sale.\n\nI'm not saying we deep clean the place, but let's at least pile the stuff we're taking together, douse the fire properly, and — I don't know, it feels wrong to just walk away and leave a mess on a beach, even if no one's ever going to see it.\n\nDaVinci, Mikey — come on. Last job. Then we're done.",
+      "response_pred": "My instincts are screaming at me to do something, but I'm not sure what. The silence is suffocating me, and I keep thinking about the plane, wondering if anyone's even looking for us."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's actually quite a brave thing to say. I think it takes a lot of courage to admit to feeling that way, especially in a situation like this. It's like you're still holding on to the hope that things might turn out okay, though. That's a good sign, because it means you're still holding onto something that matters to you."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Right.\n\nI'm not going to pretend that doesn't sting a bit, because we had that conversation — more than once — and you looked me in the eye and didn't say anything. And the rationing plan was your idea. So yeah, it's a bit hard to swallow.\n\nBut... look. We're three hours from rescue. Everyone's alive. So either you genuinely believed you were keeping it for a real emergency and it just never came to that, or it was something else, and honestly I'm not sure it matters which right now.\n\nI just want you to know that I noticed, and I think you know that I noticed, and I think somewhere in there you know it wasn't right. That's enough for me. I don't need a big thing out of it.\n\nWe're going home, Donatello. Let's just go home.",
+      "response_pred": "think: This reply seems to be a mix of practicality and emotional vulnerability.\n\ntheir reply: Oh, that's actually really honest of you. It's not often that someone opens up like that, especially not in these circumstances."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for that conversation about the food and the bottle earlier. I kept saying \"we'll deal with it later\" and we never really did, not properly. That was on me as much as anyone.\n\nAnd I probably would've checked in on Mikey more. Not in a task-oriented way, just... actually checked in. There were moments where I said the right things and then sort of moved on, and I don't think that was always good enough.\n\n*flips back through a few pages*\n\nThis is genuinely impressive, by the way. Like, I find this kind of thing a bit uncomfortable to be on the receiving end of, but as a document of what actually happened? It's remarkable. You should answer your own question in there too, before you write it up. Not for the report — just for yourself.\n\nWhat would you change?",
+      "response_pred": "You: Honestly? I'd probably redo the whole plane incident. I mean, I know it was caused by the combination of Donatello's lack of sleep and my own lingering suspicions, but if I had to do it over... I'd make sure to keep a closer eye on Mikey during that time. He's always been a bit more sensitive to stress, but that doesn't mean he's not capable of putting himself in harm's way. And I was going to be more open with him about the rationing plan. He's a pretty level-headed guy, but I know he's still had his moments of anxiety. And what's with the whole \"Donatello keeps stuff from the group\" thing? Just talked it out with him, would've been more honest than that."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah, somehow I knew that'd be the first thing. Not \"get a hot meal\" or \"have a shower\" — compile a report.\n\nI mean, do it. Genuinely, do it. It might actually be useful for someone someday. But maybe have a cup of tea first, yeah?",
+      "response_pred": "Personality: Agreeableness: 69.0\nOpenness: 11.0\nConscientiousness: 1.0\nExtraversion: 34.0\nNeuroticism: 99.0\n\nYour reply: \"First thing when I get back — I'm going to compile all the resource data from these five days into a report.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve any practical purpose at all.\n\nBut I think that was kind of the point, wasn't it. Like, DaVinci needed to do something that was just... human. Not useful, not strategic, just human. And honestly, looking back, I think we needed that more than we realised. The whole time we've been here it's been tasks and rationing and protocols, and that was necessary, you were right about all of that — but the flowers were the bit that said we weren't just surviving, we were still ourselves.\n\n*looks out at the boat on the horizon*\n\nI don't know. Maybe that's what gets you through it in the end. Not just the plans. The flowers too.",
+      "response_pred": "You alright? No, I see what you're talking about now. You were thinking about the flowers, I presume? The ones DaVinci drew on the beach? I think I can explain what they were for. We were trying to get a signal off the beach, using the reflection of the plane's mirror to create a visible beacon. It was a long shot, but it was worth a try. I remember DaVinci saying it was one of the few things that could be done, given the circumstances."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm alright. Just... give me a second.\n\n*exhales slowly*\n\nIt's weird, isn't it. You spend all this time just wanting to get out, and then the moment it's actually happening you just sort of... freeze up. Like your brain hasn't caught up yet.\n\nI'm fine. I'm really fine. Come here.",
+      "response_pred": "Your one-paragraph analysis:\n1. The persona's typical response length is around 3-4 sentences, which is quite brief, similar to Big Five personality types.\n2. Their tone is calm, yet slightly concerned, as they try to reassure Mikey despite his obvious distress.\n3. What they would specifically say to this utterance: \"Mikey, I'm here, I'm with you, and I'm not going anywhere. We're going to get through this together.\"\n\nTheir reply (this is the final answer, in their voice):\nYou: Yeah, alright, let's get it done then. I'm not thrilled about it but you're right — stopping now just pushes everything back and we can't really afford that. We stay put, we keep the fire going, we make sure the SOS is as visible as possible, and we get that mirror panel sorted. Donatello, can you write up what we need to do to maximise visibility from the air over the next two days? Just so we've got a clear list and everyone knows what they're doing."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.\n\n*stands up, looks back at the camp one last time*\n\nCome on then, Mikey. Let's go home.",
+      "response_pred": "I'd be happy to analyze the responses.\n\n1. This persona's typical response length is relatively concise, often focusing on the immediate situation and the need to act. They tend to keep their sentences short and direct, which makes them easy to understand and follow.\n\n2. Their tone is warm and welcoming, conveying a sense of relief and gratitude towards the rescuers. They express genuine excitement and happiness at the prospect of being rescued.\n\n3. What they would specifically say to this utterance is a typical response from Big Five characters. They would likely say something like: \"Of course, I'm going! I'll follow you and help you get back to safety. This is amazing news!\" or \"Thank you so much! I'm beyond relieved to finally be rescued.\""
+    }
+  ]
+}

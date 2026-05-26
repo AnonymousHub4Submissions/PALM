@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackendLight",
+    "agreeableness": "0.0",
+    "openness": "94.0",
+    "conscientiousness": "98.0",
+    "extraversion": "92.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": "24.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "You: *Slowly gets up, standing between him and the others, eyes fixed on his face* What's wrong?  You okay?\n\nOther: *His voice barely above a whisper, eyes still red and unfocused* I said I was scared... of... disappearing... without leaving anything behind. *pauses, forceful words barely escaping*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us organized when it mattered. That's what we needed.",
+      "response_pred": "I know a little bit about things.  You were a bit of a handful, always trying to get attention from everyone.  When it came to the plane, you were the one who tipped off the others.  I'm not sure why, but it was a pretty big deal."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, should we clean this up a bit before they get here?  Doesn't feel right to just leave it.",
+      "response_pred": "You: *sits back, eyes lost on the darkness, a hint of a smile on your lips*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah?  What was it like?",
+      "response_pred": "Other: It felt like I was standing on the beach, the waves were crashing against the shore, and I could see the silhouette of the plane flying overhead. But then, I turned to see my family waiting for me, smiling and waving. They told me everything was okay, that I was safe, and that I had to go back. But the more I thought about it, the more I realized that it wasn't just my family I was thinking of..."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.  But you should have told us.",
+      "response_pred": "Other: Just in case.\nYou: Got it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would have addressed the hoarding thing faster instead of waiting for it to build up.  And I'd have gotten the mirror signal rigged on day one.  Every day we didn't have it was a missed opportunity.  What about you, what's your answer to your own question?",
+      "response_pred": "You: Honestly, I think if I had to do it over, I'd make sure to leave more time for DaVinci in the last few days.  He's been putting in a lot of work on the raft, and I think it's going to be a real challenge for him, especially since we've had some setbacks.  If I had to redo it, I'd make sure he gets more help and support, and that he's not shouldering the entire load on his own."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea.  Might be useful if anyone ever ends up in a similar situation.  Could also be worth including what worked and what didn't on the interpersonal side, not just the resources.",
+      "response_pred": "Persona: \"Alright, that's a good plan. I'm looking forward to seeing how the others' contributions will fit together. You know, I've been thinking about the report - I think we should include a section on the supply chain and resource availability. What do you think? Should we add some graphs and charts to make it more engaging?\"\n\nOther: \"I think that's a great idea. I've been keeping track of the water and food resources, but it's not clear how they'd hold up over the next few days. Adding some data and graphs would really help illustrate the situation.\"\n\nPersona: \"Good thinking. I'll talk to DaVinci about adding the report to the raft's logs. While we're at it, let's also add a section on the weather forecast and any potential issues like storms or heatwaves. We don't want to get caught off guard.\"\n\nOther: \"That's a good idea. I've been trying to learn as much as I can about the weather patterns around here, but it's not easy when you're not used to it. Maybe we can consult some of the other travelers who passed through.\"\n\nPersona: \"That's a great idea. I'll see if I can get some information from the other travelers. We don't know what kind of weather we can expect, so it's always good to have some backup knowledge.\"\n\nOther: \"I've made a note of all the people who might be able to help us. You should probably talk to them too, see if they have any information that might be useful.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really, I guess.  But not everything has to be practical.  He needed to do it and it didn't hurt anything.  Maybe that's enough.",
+      "response_pred": "Other: You have no idea. I thought they were just for decoration, but now I see they might have been for signaling. The colors and the shapes, they all made sense on paper, but in the heat and the wind, it's hard to imagine what they're meant to do.\n\nYou: I know what you mean. I was thinking about it the other day, and I realized that the colors and the shapes might be a form of electromagnetic communication. The way the light reflects off the petals, it could be used to transmit information.\n\nOther: That's exactly what I thought. I remember Michelangelo telling me about the shapes he saw in the flowers, how they seemed to be making patterns in the sand. I wondered if they were some kind of code.\n\nYou: I think it's possible that they were a form of Morse code, using the different colors and patterns to represent different symbols or messages. It's not the most efficient way to communicate, but it could be effective in a survival situation.\n\nOther: That's reassuring to think that some of the things we're doing out here are actually making sense. We're not just wasting our time, we're actually using our skills to make a difference.\n\nYou: That's exactly what we need to be doing. We need to focus on making progress, not just on surviving. And with the mirror signal, we can potentially call for help and get rescued sooner rather than later.\n\nOther: You're right. I just feel a little better knowing that we're doing something purposeful, something that might actually get us out of this place.\n\nYou: That's all we can do, my friend. We can only hope that our efforts are worth it, and that we'll be able to find a way off this island soon."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "*He takes a deep breath, his eyes fixed on the floor, and slowly stands up, his movements stiff and mechanical*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, let's go.",
+      "response_pred": "I'll get DaVinci and you, he's still with Michelangelo, let's go.  I'll get one of the others to bring the mirror and we can get set up.  Let's stay together, move slowly, we don't want to make it look like we're abandoning the raft.  We need to signal that we're okay so it doesn't get mistaken for a dead ship.  Stay sharp, stay quiet, this is a rescue.\n\nOther: Good, thanks. I'm scared too.\n\nYou: It's okay, we've been through it before.  We've been stranded before but we managed to get rescued.  Now it's your turn, follow me.  Don't touch anything or break anything.  We need to keep the mirror up for at least 30 minutes, that's the minimum time they'll give us.  Let's move quickly, we don't want to waste any time.\n\nOther: Okay, got it. What do we do after we're rescued?\n\nYou: We'll go to the boat and get picked up.  We'll let them know we're safe and give them the information about the plane.  Then we'll get back here and help with the evacuation.  We need to make sure everyone gets out and that the water supply is protected.  We can't let this situation develop into something worse.\n\nOther: Alright, let's get the mirror set up and then we can focus on getting rescued.\n\nYou: Good, let's get it done.  DaVinci, where's Michelangelo?"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AresXI",
+    "agreeableness": "88.0",
+    "openness": "83.0",
+    "conscientiousness": "45.0",
+    "extraversion": "5.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it. Right now, just answer it.",
+      "response_pred": "It's alright, take your time. I know it's tough, and words might not come easily right now, but we're here for you. When you're ready, we'll listen."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us organized when nobody else was thinking straight. The rationing plan, the inventory, the raft calculations, keeping track of everything. That stuff mattered even when it was hard to hear. You're not easy but easy doesn't keep people alive out here.",
+      "response_pred": "It's alright, there's no need to apologize. We all have our moments, and I understand things have been tough. Let's try to move forward, okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's not just leave this place looking like a disaster. Three hours is enough time to at least break down what we can and not leave a total mess behind. DaVinci, you good to help pack up the camp? Michelangelo, whenever you're ready, even just small stuff helps. No rush but we should probably leave this place better than we found it if we can.",
+      "response_pred": "I can't help but feel that we're all a bit scattered right now. Perhaps if someone were to step up and take charge, it could help us move forward. But I understand if no one feels up to it. I'll do what I can, but I'm not sure I'm the best choice for the job."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "That's a good dream to have right now. What was it about?",
+      "response_pred": "That's a rare and precious thing, to dream of home in a time like this. It might just be my exhausted mind, but I'll take it as a sign that we're all hanging in there. Just remember, no matter how far we are from the comforts of home, we're still together here. And that's more than enough for now, don't you think?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also believe you knew we were already rationing and that everyone else was doing it together. Look, you laid it out so that's something. But don't act like the emergency justification makes it clean because it doesn't. We all had emergencies out here. Michelangelo was falling apart, DaVinci was holding himself together with duct tape, I was running on nothing. The difference is none of us were quietly stashing supplies while logging everyone else's movements. \n\nI'm not going to hold it against you forever, especially not today when rescue is three hours out. But you should probably say something to them too, not just me.",
+      "response_pred": "Understood. Use it if needed, but let's try to conserve what we have. We don't know when we might find more resources."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably check in on people more deliberately instead of just when things were already falling apart. I was reactive a lot of the time, waiting until Michelangelo was already in a bad place or DaVinci was already cracking before I said something. \n\nWhat would you change?",
+      "response_pred": "Well, I'd say I'd aim for a more organized approach from the start. We could have set up a clearer system for dividing tasks and resources, which might have helped us avoid some of the confusion and duplication we encountered. Additionally, I'd suggest dedicating more time to establishing a signal sooner rather than later - it would have been beneficial to have a means of contacting potential rescuers as soon as possible. Other than that, I believe we did the best we could with the resources and circumstances we had."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That actually sounds like something worth doing. Might be useful if anyone else ever ends up in a situation like this, having actual data from real conditions instead of just theoretical survival guides. Just maybe lead with the parts where people held it together instead of just the parts where the numbers worked out.",
+      "response_pred": "Sounds like a solid plan. Let's make sure we include all the relevant details, like our current resource levels, any potential sources we've found, and any challenges we've faced. That way, whoever reads the report will have a clear understanding of our situation and what we need to focus on moving forward. Plus, it'll be a good reference for decision-making and planning in the future."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That's kind of the point. Not everything out here had to. We needed the SOS for rescue, sure, but we also needed to feel like we were still people and not just bodies trying to survive. That's what the flowers were for.",
+      "response_pred": "They were likely more for aesthetic or symbolic purposes rather than practical ones. DaVinci often used his art to express emotions or ideas, and it's possible that these flowers represented something significant to him or our group. However, I don't believe they served any functional role in our day-to-day survival out here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm good. Just give me a second.",
+      "response_pred": "I'm here, friend. Let's not lose hope. The show must go on. I know it's tough, but we've got each other. We'll find a way to keep the spirits high. Let's focus on the task at hand. We can do this, together."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go home.",
+      "response_pred": "Absolutely, let's go. I'm not sure how long they'll wait, so it's best to make our way over. I'll try to take the lead, hopefully, I can find a steady path. If you need a moment to gather your things or catch your breath, just let me know. It's good to see this day end on a positive note. Let's not waste any more time, shall we?"
+    }
+  ]
+}

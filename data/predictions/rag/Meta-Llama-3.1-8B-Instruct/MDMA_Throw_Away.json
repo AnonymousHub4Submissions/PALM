@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "MDMA_Throw_Away",
+    "agreeableness": "54.0",
+    "openness": "92.0",
+    "conscientiousness": "41.0",
+    "extraversion": "57.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Right now. Tell them our location, number of survivors, and that we have injured. Go.",
+      "response_pred": "*pauses, takes a step forward* Look, we know this is hard. And I'm not going to sugarcoat it, it's even harder when we can confirm there are airplanes out here. But we can't just sit around and feel sorry for ourselves."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. The water rationing, the raft plan, the notebook — all of it. I'm not going to pretend the crackers and the bottle didn't happen, but I'm also not going to pretend the rest of it didn't either.\n\nWe're square. Let's go home.",
+      "response_pred": "I can imagine. It's weird, but sometimes the things that are hardest to do are the ones that feel most true. Like, I remember this one time when I was trying to...I don't know, just get through a day, really. And I kept catching myself thinking about what I'd said to someone a few years ago, and how it might've made them feel. It wasn't even like it was a big deal or anything, but it just kept bugging me."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright. Three hours. That's not nothing but it's also not zero.\n\nDonatello — pull anything out of that notebook you want to keep. The rest of it stays here with the camp, it's not our problem anymore.\n\nDaVinci, slow down on the packing. We're not running for a gate. Take a breath.\n\nMichelangelo — you good down there?",
+      "response_pred": "*pauses for a moment, then gets up and walks to where the others are scattered, not rushing, not making a big deal out of it* Alright, I think we need to regroup. We've got supplies to distribute, a route to plan, and we don't have all day to just... sit. *stops and looks around, taking a deep breath before continuing* I'm not trying to tell anyone what to do, but it seems like we've got some work to do if we're going to make it out of here. *pauses again, letting the others know that I'm open to input, but also that I'm not going to let the situation slip away*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good dream or bad one?",
+      "response_pred": "Home sounds nice right now. What's something you'd do first if we were actually there?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think part of you knows that \"emergency\" kept moving further down the timeline the longer we stayed here. That's just how it works — the thing we're saving for never quite arrives.\n\nYou don't have to justify it to me. You already put it on the ground. That's the part that matters.",
+      "response_pred": "Emergencies like what, exactly? Broken bones or actual emergencies, like medical procedures?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have confronted the bottle situation the same day it happened instead of letting it sit. That was a small corrosion and I let it go longer than I should have.\n\nEverything else — the decisions, the order we made them in, who I leaned on and when — I can live with all of it.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "That's a question that's been kicking around the back of my mind for a bit, to be honest. I think if I'm being completely honest, I'd maybe – and I know this sounds weird considering how things worked out – try to spend a little more time on the shelter early on. We were all so focused on getting a signal up and securing water that we didn't really think it through in terms of what we were working with, but it ended up being okay in the end. Still, I think it would've been better if we'd had a more solid system for dealing with the elements from the start."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely. If that data ends up in the hands of anyone who designs survival protocols or trains rescue teams, those five days meant something beyond just the four of us getting out.\n\nSend me a copy when it's done.",
+      "response_pred": "I appreciate the initiative, but we need to talk about the order of priorities here. We can't just focus on paperwork when we have people to keep fed and safe. Get the camp up and running smoothly first, then we can worry about documentation."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was exactly the point.\n\nYou can't math your way into keeping people functional. Those flowers told Michelangelo that someone still thought beauty was worth five minutes of effort. That's not inefficiency — that's load-bearing work that doesn't show up in a notebook.\n\nPut them in the report.",
+      "response_pred": "Honestly, I think DaVinci was looking at them more from a curiosity standpoint than anything else at the time. He's got this fascination with nature, and he's always studying the intricacies of plants and animals. But if I had to guess, I'd say those drawings were probably more about understanding the local ecosystem than anything practical."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\n*looks at the beach one more time*\n\nIt's strange — I was ready to leave every single day we were here and now that it's actually happening I don't quite know what to do with my feet.\n\nThanks for waiting.",
+      "response_pred": "*pauses, then slowly gets up, eyes on you*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Let's take a moment to make sure we've got everything. I don't want to leave anything behind that could have been useful. We should check the fire, make sure it's out, and then we can head over."
+    }
+  ]
+}

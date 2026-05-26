@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "MDMA_Throw_Away",
+    "agreeableness": "54.0",
+    "openness": "92.0",
+    "conscientiousness": "41.0",
+    "extraversion": "57.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Right now. Tell them our location, number of survivors, and that we have injured. Go.",
+      "response_pred": "<think>big pause, almost a slow blink before you speak. The air is charged with tension as your words hang in the air, \"I don't know...\"<response>their reply (in their voice)"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. The water rationing, the raft plan, the notebook — all of it. I'm not going to pretend the crackers and the bottle didn't happen, but I'm also not going to pretend the rest of it didn't either.\n\nWe're square. Let's go home.",
+      "response_pred": "Personality: Agreeableness: 54.0\nThis response seems to be a reflection of Michelangelo's personality, as he tends to be warm and welcoming, as seen in his previous lines where he expressed empathy and concern for his fellow members."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright. Three hours. That's not nothing but it's also not zero.\n\nDonatello — pull anything out of that notebook you want to keep. The rest of it stays here with the camp, it's not our problem anymore.\n\nDaVinci, slow down on the packing. We're not running for a gate. Take a breath.\n\nMichelangelo — you good down there?",
+      "response_pred": "<think>They're not going to make it through the night alone. The lack of coordination is going to be their downfall. <response>Hey, Michelangelo, I think you should move your stuff over here. We can use it to dry if we get wet. <big five traits: 58.0, 91.0, 42.0, 56.0, 38.0>"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good dream or bad one?",
+      "response_pred": "Look around you. You're with me. You're with everyone. We're not alone out here. We're not isolated. We're connected. You can feel it. There's something about this place that connects you to everything else. It's not just the people, it's not just the air or the water. There's something fundamental.\n\nYou know what it is? You know what it feels like when you're close to something. When you're close to a person, a place, a feeling. It's like a breath, a heartbeat, a pulse. It's what makes you feel alive.\n\nThat's what we have. We have each other. We have the sun on our skin, the wind in our hair, the sound of our own hearts beating. We're not just floating on a raft, waiting to be rescued. We're doing this. We're creating something. We're building a home.\n\nIt's not going to be easy. There will be storms, there will be days without food or water. There will be moments when you feel like giving up. But you won't. You won't because we're in this together. We're a team.\n\nWe're not just survivors. We're artists. We're sculptors of our own lives. We're shaping the world around us into something beautiful, something strong. We're pushing ourselves to be better. We're pushing ourselves to be human.\n\nSo hold on. Hold on to something. Hold on to us. Hold on to the thought that we can do this. That we can create something amazing out here. That we can build a home. that we can be home."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think part of you knows that \"emergency\" kept moving further down the timeline the longer we stayed here. That's just how it works — the thing we're saving for never quite arrives.\n\nYou don't have to justify it to me. You already put it on the ground. That's the part that matters.",
+      "response_pred": "think: It seems like this persona tends to provide a very practical and matter-of-fact response, prioritizing safety and functionality over emotional comfort.\n\nresponse: I'm afraid I don't have any immediate family."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have confronted the bottle situation the same day it happened instead of letting it sit. That was a small corrosion and I let it go longer than I should have.\n\nEverything else — the decisions, the order we made them in, who I leaned on and when — I can live with all of it.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "Other: If I had to do it over, I would make sure to prepare for the worst-case scenario and leave more than a day's worth of supplies and rations for the three of us. We've been pushed to the limit, and it's not just about surviving; it's about staying alive and keeping each other's spirits up.\n\nbigfive: agreeableness: 54.0\nopencness: 92.0\nconscientiousness: 41.0\nextraversion: 57.0\nneuroticism: 36.0\n\nbigfive: agreeableness: 54.0\nopencness: 92.0\nconscientiousness: 41.0\nextraversion: 57.0\nneuroticism: 36.0"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely. If that data ends up in the hands of anyone who designs survival protocols or trains rescue teams, those five days meant something beyond just the four of us getting out.\n\nSend me a copy when it's done.",
+      "response_pred": "You're not just going to dump everything into a report as soon as you get back. We need to take the time to organize it, prioritize, and synthesize what we've learned. Let's not rush into anything without thinking through the implications."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was exactly the point.\n\nYou can't math your way into keeping people functional. Those flowers told Michelangelo that someone still thought beauty was worth five minutes of effort. That's not inefficiency — that's load-bearing work that doesn't show up in a notebook.\n\nPut them in the report.",
+      "response_pred": "think: This persona's typical response length (terse vs verbose?)\n- The response is quite detailed and elaborate, which is not typical of most people.\n- The tone is somewhat introspective and philosophical, which again is not typical of most people.\n\nresponse: DaVinci's flowers were actually a symbolic representation of the delicate balance between life and death, hope and despair, and the human condition. They were a reminder of the fragility of human life and the importance of cherishing every moment."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\n*looks at the beach one more time*\n\nIt's strange — I was ready to leave every single day we were here and now that it's actually happening I don't quite know what to do with my feet.\n\nThanks for waiting.",
+      "response_pred": "Your silence is bugging me. I know you said you were scared. Don't play it dumb. What's really holding you back?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "You good? You with me right now?"
+    }
+  ]
+}

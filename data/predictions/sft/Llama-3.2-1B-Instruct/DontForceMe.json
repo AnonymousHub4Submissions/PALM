@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "DontForceMe",
+    "agreeableness": "0.0",
+    "openness": "7.0",
+    "conscientiousness": "98.0",
+    "extraversion": "5.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": "28.0"
+  },
+  "method": "sft",
+  "model": "DontForceMe__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "*He nods slightly, then takes another step forward. He still doesn't say anything, but the movement conveys a sense of urgency and discomfort.*\n\n*One of the others steps forward, speaking in a calm, measured tone.* \"Hey, it's okay. We're not going anywhere. Please try to explain what's going on. We're here to support you.\"*\n\n*The individual looking at them takes another step forward, his eyes still red, but his face a mask. He doesn't respond, but the movement is significant.*\n\n*The speaker speaks again, then turns to the group.* \"I'm going to try to comfort him. If he needs space, we'll give it to him. But if he's not comfortable with that, we'll stay right here with him.\"*\n\n*The individual looking at them shifts his weight, then takes a step back and then forward again. He still doesn't say anything, but the movement is more pronounced.*\n\n*The speaker turns back to the group.* \"Let's just take a deep breath here. If anyone needs to go to the bathroom, we'll get them done. But the support we're offering is open-ended. We'll wait for them to decide what they need.\"*\n\n*The individual looking at them takes one final step back and then disappears into the crowd.*\n\n*The speaker turns back to the group.* \"I think he needs a break. Let's go get him some water and see if we can get a word out of him.\"*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you were useful, which matters more than easy.\n\nThe log, the water source, the rationing plan, the mirror panel — that was all you. The other stuff happened and we dealt with it. I don't think you're a bad person. I think you're someone who functions well under pressure and not always well with people, and out here the first thing counted for a lot more than the second.\n\nWe're going home. That's what matters right now.",
+      "response_pred": "Why didn't I tell you? What's different now?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We have time.\n\nI'm going to clean up the camp. Not for sentimental reasons — if another plane goes down somewhere near here, the next group of people might need what we're leaving behind. The first-aid kit, whatever's left of the rations, the mirror panel. We should leave it organized and findable, not scattered.\n\nDonatello — before you close that notebook, write down the location of the water source and the rough trail Donatello found to get there. Whoever finds this wreckage next deserves a head start.\n\nDaVinci — whenever you're ready.\n\nMichelangelo — how are you doing?",
+      "response_pred": "We're not a team. That's okay.\n\nI'm not going to do anything about it, but I'm not going to stand here and let you walk away. If you need a place to sleep, the log provides. If you want to talk, I'm here.\n\nYou're not alone here. There are others out there, people who are just as scared as you are. And I'm not going to abandon them.\n\nYou're not a bad person, just not a good one. You're not going to make the journey alone and expect everyone else to carry you. That's not how we do it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "What's that like? Just waking up, or something specific happened?\n\nI'm not sure what's happening here, but I think what's happening is that the distance between us and our home is actually not as much as it seemed. We were just using it as a standard to measure the distance to the next shelter. But in a shelter, the distance is zero. In our situation, the distance is everything.\n\nI don't know what you're talking about, but I think we're not going to find a home to return to. We're already far from home.\n\nYou're safe here. That's not up for debate."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think, on some level, you knew the whole time that \"emergencies\" was doing a lot of work in that sentence. The emergency was always all four of us, not just you.\n\nBut we made it. So I'm not going to relitigate it.\n\nLeave it with the rest of the supplies for whoever comes next. That's the right ending for it.",
+      "response_pred": "You've been doing that since the beginning. That's good."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much about the decisions. The decision sequence holds up reasonably well when I look back at it — shelter first, visibility over movement, staying in the search corridor, the mirror panel. The logic was sound.\n\nWhat I'd change is speed. There were two or three moments where I had information and sat on it longer than I should have — the Michelangelo conversation about the flight path, the confrontation with you about the resources. I told myself I was waiting for the right moment. I think sometimes I was just being cautious when cautious wasn't the right gear.\n\nAnd I'd sleep more. That's not a philosophical answer but it's true. Fatigue was the variable I kept flagging for everyone else and not adequately accounting for in myself.\n\nWhat's your answer? You left the question open. You've had a few hours with it.",
+      "response_pred": "That's a good plan.\n\nOn the last page, I'd write: \"If the situation had changed, I would have done it differently. But that's not a bad question, not because I'm asking for permission, but because it makes the report more useful. And it makes the report more honest.\"\n\nThe \"if the situation had changed\" part is right. You're not making a statement, you're asking a question that's relevant to the report. And the \"not because I'm asking for permission\" part is necessary. If you're going to write a report, you're going to want to be honest with yourself about what you're doing.\n\nThat's the one who gets left behind."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. If you write it up properly — methodology, decisions, outcomes, where the plan held and where it didn't — it could actually be useful to someone. Search and rescue training, survival research, something. Five days of real data with four different people under genuine pressure is not nothing.\n\nSend me a copy when it's done. I'd read it.\n\nAnd put your answer to that last question in the appendix. Not because it's operationally relevant — it isn't — but because it's the most honest thing in the notebook and it deserves to be in the record.",
+      "response_pred": "Good. Color-code the data. Not just color — different shades for the different types of resources, different colors for the three categories of information.\n\nAnd I want the whole thing embedded in the first page of the report. Donatello, I know you're the one who pulled the habitat logs and the ration planning, but I want you to understand how it all works. The reason we didn't do a comprehensive inventory every day — that was a conscious decision.\n\nWe're not the first group to leave behind a logbook. And neither are the next group. But this logbook is specific. It's not just a routine log. It's an inventory. And it's going to matter more than you think in the long run.\n\nI'll compile it now."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose.\n\nBut I've been thinking about that question for the last few days, actually, and I think I had the wrong frame for it. I kept evaluating everything out here in terms of what it contributed to survival. The flowers didn't contribute to survival. Neither did Michelangelo asking whether we'd remember what home looked like, or DaVinci not being able to get words out when the radio crackled on.\n\nNone of that was useful. All of it mattered.\n\nI don't fully understand it — that's honest. I'm not wired to draw flowers next to an SOS signal. But I watched DaVinci do it and I watched what it did to his morale, and his morale turned out to be a resource just like the water and the first-aid kit. Maybe that's the practical answer, if you need one.\n\nOr maybe some things just don't require a practical answer and I'm still learning to be okay with that.\n\nThe boat's here. Look at it.",
+      "response_pred": "A basic scenario: if you're on a deserted island for a while, DaVinci would have been perfectly rational to find a source of food and shelter. The flowers were a signal for that. He'd have been pointing at the same places he was pointing when you got to the beach.\n\nThe symbol — that was a different story. DaVinci was trying to tell you something about the island that he thought he knew. It was a series of statements rather than a complete narrative — the messages he wrote on the beach were disjointed, contradictory, and not all of them made sense.\n\nBut the question of what they actually meant is a separate one. I believe he was trying to convey a mental state, not a physical one. He was worried about being stranded on this island for a long time, and he was worried about the psychological effects of that. He thought about how people would react if they were stranded for a long time, how they might become habituated to their environment or lose their grip on reality.\n\nSo he was trying to communicate that to himself, not to anyone else. He was trying to keep himself sane under pressure."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know what this feeling is. That's not something I say often.\n\nI've been solving problems for five days. There's no problem left to solve and I'm still standing here running calculations that don't apply anymore. My brain hasn't caught up with the situation.\n\nGive me a second.\n\n*exhales slowly*\n\nOkay. I'm good.\n\nLet's go.",
+      "response_pred": "I don't have that. I don't have the right to think that way.\n\nBut I'm not going to pretend I do. I'm not going to pretend that these five days were some kind of proof that I'm capable of being a resourceful person under pressure, or that I can set goals for myself and achieve them. The truth is, I didn't do anything different from anyone else. I just made different choices.\n\nAnd I'm not sorry for that. I'm not sorry for being the same person when I got back.\n\nBut I am sorry. I'm sorry that it took me until now to tell myself and others that. I'm sorry I wasn't more honest with myself, more honest with the people I care about. And I'm sorry for the lie I told when I said I was going to clean up the camp.\n\nThe truth is, none of that matters. What matters is that we're here now. And we're going home."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "I'll be there. That's what I'm going to do.\n\nNo one else is going. That's the decision. DaVinci — whatever you've got there is fine. You didn't question it. I haven't questioned it.\n\nOne thing: if you're with me, you're with the group. Not in front of the others. I don't want anyone getting hurt because of your decision.\n\nDonatello — whatever you've got there is fine. You didn't question it. I haven't questioned it.\n\nOne thing: if you're with me, you're with the group. Not in front of the others. I don’t want anyone getting hurt because of your decision.\n\nMichelangelo — whatever you've got there is fine. You didn’t question it. I haven’t questioned it.\n\nI'm going."
+    }
+  ]
+}

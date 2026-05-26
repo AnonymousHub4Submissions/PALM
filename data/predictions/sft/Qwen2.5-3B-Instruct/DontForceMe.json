@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "DontForceMe",
+    "agreeableness": "0.0",
+    "openness": "7.0",
+    "conscientiousness": "98.0",
+    "extraversion": "5.0",
+    "neuroticism": "13.0",
+    "gender": "m",
+    "age": "28.0"
+  },
+  "method": "sft",
+  "model": "DontForceMe__Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "*His shoulders hunch, head down, shaking.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you were useful, which matters more than easy.\n\nThe log, the water source, the rationing plan, the mirror panel — that was all you. The other stuff happened and we dealt with it. I don't think you're a bad person. I think you're someone who functions well under pressure and not always well with people, and out here the first thing counted for a lot more than the second.\n\nWe're going home. That's what matters right now.",
+      "response_pred": "You haven't been easy to be around for a very long time."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We have time.\n\nI'm going to clean up the camp. Not for sentimental reasons — if another plane goes down somewhere near here, the next group of people might need what we're leaving behind. The first-aid kit, whatever's left of the rations, the mirror panel. We should leave it organized and findable, not scattered.\n\nDonatello — before you close that notebook, write down the location of the water source and the rough trail Donatello found to get there. Whoever finds this wreckage next deserves a head start.\n\nDaVinci — whenever you're ready.\n\nMichelangelo — how are you doing?",
+      "response_pred": "You can sit there until the sun comes up, but the plan is still the plan. We move when we move, and we move together. You're not part of that anymore if you're not on the same page.\n\nTell me what happens next."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "I bet you did. I do too, sometimes. That's how it goes. The pack doesn't leave us behind, but we can leave it behind sometimes.\n\nI'm not going to try to make this better right now. A nap sounds nice. You get some sleep when you can, it's all I can offer."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I think, on some level, you knew the whole time that \"emergencies\" was doing a lot of work in that sentence. The emergency was always all four of us, not just you.\n\nBut we made it. So I'm not going to relitigate it.\n\nLeave it with the rest of the supplies for whoever comes next. That's the right ending for it.",
+      "response_pred": "What you have is useful but not essential. The notebook, the pen, the matches — if we're all still alive in three hours, I'll be writing down the same stuff you wrote.\n\nBut in the meantime, everyone's doing what they can. That's what counts right now."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much about the decisions. The decision sequence holds up reasonably well when I look back at it — shelter first, visibility over movement, staying in the search corridor, the mirror panel. The logic was sound.\n\nWhat I'd change is speed. There were two or three moments where I had information and sat on it longer than I should have — the Michelangelo conversation about the flight path, the confrontation with you about the resources. I told myself I was waiting for the right moment. I think sometimes I was just being cautious when cautious wasn't the right gear.\n\nAnd I'd sleep more. That's not a philosophical answer but it's true. Fatigue was the variable I kept flagging for everyone else and not adequately accounting for in myself.\n\nWhat's your answer? You left the question open. You've had a few hours with it.",
+      "response_pred": "The log is your way of looking at this objectively, and that's good. But don't be too hard on yourself. If you knew what you knew right now, you would have made the same decisions. The only difference is that you had the chance to act on them.\n\nAnd you did.\n\nSo the change you're asking yourself to make doesn't really exist. The choices you made were the right ones. Maybe you can find some small thing that you wanted to do differently, but to your face and not in the log.\n\nThe log is your map. It's a record of what you did and why. It's a reminder that you're not alone in this. And that's the kind of record I'd want to leave behind, not some \"what if\" of the kind of person you could have been."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. If you write it up properly — methodology, decisions, outcomes, where the plan held and where it didn't — it could actually be useful to someone. Search and rescue training, survival research, something. Five days of real data with four different people under genuine pressure is not nothing.\n\nSend me a copy when it's done. I'd read it.\n\nAnd put your answer to that last question in the appendix. Not because it's operationally relevant — it isn't — but because it's the most honest thing in the notebook and it deserves to be in the record.",
+      "response_pred": "That's a good plan. Find a quiet place to work on it and don't burn yourself out. We have enough decisions to make right now without starting a new project.\n\nAre you ready?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose.\n\nBut I've been thinking about that question for the last few days, actually, and I think I had the wrong frame for it. I kept evaluating everything out here in terms of what it contributed to survival. The flowers didn't contribute to survival. Neither did Michelangelo asking whether we'd remember what home looked like, or DaVinci not being able to get words out when the radio crackled on.\n\nNone of that was useful. All of it mattered.\n\nI don't fully understand it — that's honest. I'm not wired to draw flowers next to an SOS signal. But I watched DaVinci do it and I watched what it did to his morale, and his morale turned out to be a resource just like the water and the first-aid kit. Maybe that's the practical answer, if you need one.\n\nOr maybe some things just don't require a practical answer and I'm still learning to be okay with that.\n\nThe boat's here. Look at it.",
+      "response_pred": "They served as a meeting point. They were the ancient equivalent of a GPS waypoint. We can't read the messages, but they're landmarks. If we're lost, we can use them to triangulate our position relative to the nearest of the four known crash sites. That's important anywhere but especially in this environment, where a wrong turn could take you from a water source to a cliff, or from safety to a piece of broken glass.\n\nBut I think it's less about what they meant to us and more about what they meant to everyone else. The first thing people do when they find a crashed plane is look for the life raft. The second thing is look for a map. The third thing is look for anything that looks familiar — because that's the clue that someone else has been here before and knows how to survive.\n\nThe flowers were that clue. They're a subtle, non-obvious sign that things are not normal out here. Someone came before us and found a way to live, and they left evidence of that.\n\nThat's why I'd go looking for them immediately if I were in your shoes. Not because it has any practical value — it doesn't. But because it's a symbol of a shared experience. That's a meaningful thing to know, even when you can't explain the why."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know what this feeling is. That's not something I say often.\n\nI've been solving problems for five days. There's no problem left to solve and I'm still standing here running calculations that don't apply anymore. My brain hasn't caught up with the situation.\n\nGive me a second.\n\n*exhales slowly*\n\nOkay. I'm good.\n\nLet's go.",
+      "response_pred": "You're not the only one who's thinking hard about that."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "I'm not going until everyone else is. Five of us, four planes, one search corridor corridor — there's no way to determine who gets to go first without actively excluding someone. \n\nRight now there's a mutual interest in not keeping anyone on the beach alone for more than a few hours. That interest is shared. I'm going to do my part to make sure it's a shared interest and not a zero-sum game, if that makes sense.\n\nWhat I'm not going to do is be the one to force it. If you're the one who wants to go, I'm not going to stop you. But I'm not going until everyone else is, and that's a promise.\n\nSo… do you want to move?"
+    }
+  ]
+}

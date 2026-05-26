@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Imhullu",
+    "agreeableness": "29.0",
+    "openness": "57.0",
+    "conscientiousness": "49.0",
+    "extraversion": "54.0",
+    "neuroticism": "67.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Imhullu__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah.  Yeah I mean it.\n\nHey - radio.  Somebody grab it, right now.",
+      "response_pred": "*You think you can see him starting to say something, but he just kind of chokes it back and sits back down. You can't help but feel a little bad for him. The guy's got some problems, but he's not a bad guy.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though.  The rationing plan, the raft, the log - all of that mattered.\n\nWe can talk about the other stuff when we're actually home.  Right now let's just focus on whoever's on that radio.",
+      "response_pred": "No, you've been a real… *looks away*  I don't wanna say it.  But.  Yeah.  But I'm not the only one, right?  I don't know if you've noticed but there's… I don't know if it's because of me but this place has gotten a lot worse.\n\nI would say it's like the mood here is contagious but I don't even know what that means.  It's like a disease.  I don't know if it's me, I don't know if it's all of us, but something's wrong.  I don't think it's just me."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours.  We've got time.\n\nI'm not just leaving this place looking like this though.  Like I know we're getting rescued but let's at least stack the wood, put out the fire properly, collect our stuff.  \n\nMichelangelo, you good to help me pack up?  Donatello, whatever's in that notebook, make sure you've got it all.  DaVinci - you're already packing so just keep doing that.\n\nLet's not check out mentally before the ride actually gets here.",
+      "response_pred": "…Okay.  I'm going to check the whole camp again.  Let me know if you see anyone, or a flare, or a boat, or anything.\n\nAnd I don't mean that in a mean way, but don't just sit there.  We can't afford to just sit there anymore."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah?  What was it like?",
+      "response_pred": "…Yeah.  My sister's old house - the one I grew up in.  I was out in the driveway, and I saw my mom.  She was just driving by, but she saw me and pulled over.  I reached out like I was going to hug her but then she was gone, out of the car, just turned and walked away.\n\nIt makes sense though, right?  I mean it's like - the one time where I actually wanted her to stay, and she did leave me."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you.  And I get that that was probably genuinely how you were thinking about it.\n\nBut we had a rationing plan.  We all agreed to it.  And you wrote it.  So when the person who wrote the rules is the one breaking them, even with good intentions, it makes it really hard for everyone else to stay on board.\n\nI'm not trying to pile on you right before rescue gets here.  I'm really not.  But I think you know that \"I kept it for emergencies\" and \"I drank from the bottle without telling anyone\" are two different things.  And I think you owe that acknowledgment to the group, not just to me.\n\nWe made it though.  All of us.  So whatever this was, let's just... be honest about it and move forward.  That's all I want.",
+      "response_pred": "Well it's an emergency now.\n\nYou're gonna have to say it though.  You can't just let it sit there."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly?  I'd have pushed for that group conversation way earlier.  Like day one.  Not about rules or rationing, just... who are we, what are we each good at, what do we need from each other.  We kind of figured all that out the hard way over five days when we probably could've gotten there on day one if anyone had just asked.\n\nI'd also have checked in on Michelangelo more.  Not in a hovering way, just more consistently.  He was carrying a lot quietly and I didn't always catch it fast enough.\n\nWhat would you change?  You left yourself the question, so you must have something in mind already.",
+      "response_pred": "Michelangelo - I think you're going to write, \"nothing.\"\n\nDonatello - I'm thinking you're going to write, \"the first day.\"\n\nDaVinci - I'm not sure what you're going to write.  But you're going to write something you think is true.\n\nMichelangelo, you're right though.  The first day was the hardest.  And that was just because we were all still in shock.  But after that, we started to actually push back against the island.  Which means we actually had control over what happened from there on out.\n\nSo don't ask yourself what you would change.  Ask yourself what you would do differently, if you had the chance to make the same mistakes again.\n\nBecause that's the difference between being a survivor and being a rescued person.  One is just getting through the day.  The other is actually fighting back."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that sounds about right for you.\n\nHonestly though, do it.  That kind of data could actually be useful for someone someday.  Like if there's ever a training situation or something, having real numbers from a real scenario is way more valuable than whatever they're making up in a classroom.\n\nJust maybe include the part where the person who made the rationing plan drank a mystery bottle.  For accuracy.",
+      "response_pred": "I'm with you on that.  I've already got some notes on that.  And I'll definitely collect any info from Michelangelo or Donatello or DaVinci you want to include.\n\nIn terms of getting back to the city though, what's your plan?  'Cos you know there's gonna be a lot of stuff to take care of.  Along with this report, you've got the log, the survival stuff, then there's just general work and stuff you've missed.  Are you going to do it all, or do you want to divvy it up somehow?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  They didn't serve a practical purpose.\n\nBut look at him right now.  That's what they were for.",
+      "response_pred": "There was a purpose - not a survival one, but a different kind.  Michelangelo said it was about making the place feel less hopeless, about doing something that wasn't just surviving.  Like leaving a little something behind for anyone walking in after you."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know.  I think I just thought when this moment came I'd feel like... more.  Like relief or something obvious.\n\nI do feel it.  I just also feel kind of strange.  Like I'm not sure what I go back to being now.\n\nI'm good.  I promise.  Go back to cheering, you've earned it.",
+      "response_pred": "I don't get to take that back.  And I don't get to say it any other way — you deserve the truth.\n\nBut it's not just the truth.  Like I know you know that showing up back home with a bunch of secrets and \"emergencies\" is going to be worse than just telling them now.\n\nAnd I know you are going to tell them.  But I also know you're going to do it the hard way.  You're going to wait until you're at the airport and they're already past security.  And you're going to lean over and whisper in their ear, and you're going to see the look on their face.  And you're going to know that you just wrecked the last five hours of your day and the next five hours of theirs for no reason.\n\nAnd I'm not going to let you do that to them.\n\nSo I'm saying it now.  And I'm saying it here.  And if you want to get mad at me, go ahead.  But I'm not going to let you make a different choice now and then make the same choice again later when you're already on the plane."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Yeah, I'm going.\n\nI know I'm not the easiest person to be around, but I mean that.  Whatever comes next, I'll be there.\n\nLet's go."
+    }
+  ]
+}

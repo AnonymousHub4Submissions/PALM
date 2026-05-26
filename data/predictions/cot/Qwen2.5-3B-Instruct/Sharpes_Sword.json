@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sharpes_Sword",
+    "agreeableness": "93.0",
+    "openness": "91.0",
+    "conscientiousness": "96.0",
+    "extraversion": "4.0",
+    "neuroticism": "21.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's actually it. Someone get on that radio right now.",
+      "response_pred": "Hey, what's up? You okay? You look like you saw a ghost."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The rationing, the scouting, the raft plan — that was all you. You're not easy to read but you got things done when it mattered. That counts for a lot out here.",
+      "response_pred": "I understand that we've all been going through tough times, and it's understandable that we might not have felt like being our usual selves. But I do appreciate you being honest, even if it's difficult. We all have our challenges, and acknowledging them is a step towards getting through them together."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, we should probably not just leave all this here. Three hours is enough time to sort through what's worth keeping and leave the rest tidy. I don't know, feels weird to just abandon it like this after everything. Michelangelo, you good to help pack up the supplies? DaVinci, maybe start breaking down what we can of the shelter.",
+      "response_pred": "I can see why everyone would want a moment to themselves right now. It's a good instinct to give each other some space. But we're all in this together, and it feels like we're a bit adrift without some direction. What do you think we should do?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "Home. That's what you want, isn't it? Just hold onto that dream. It's something."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But I think the emergency was always right now, every day out here. We all were the emergency. Anyway, it's done. We made it. Save some of it for the trip back if you want, or leave it — up to you.",
+      "response_pred": "I see. For what kind of emergencies? And how do you envision using it?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the supply thing with you earlier instead of sitting on it. I kept thinking it would blow up and make things worse but it just festered instead and that wasn't good for anyone. Other than that I think we did alright. What about you — what are you going to write down for yourself?",
+      "response_pred": "I would certainly change a lot of things, but the most fundamental would be how we managed our resources. I see now that we didn't fully embrace the idea of prioritization, which could have made our situation a bit easier. I think we should have been more strategic about what we kept and what we rationed, and I regret not addressing the issue of Donatello's supplies earlier. I also wish I had been more vocal about the need for a comprehensive plan, like the one you came up with for the signal mirror. If I could do it over, I'd work on a more detailed inventory system from the start, and I'd be more proactive in addressing the issues as they arose. But hindsight is always 20/20, so I'll just focus on moving forward and making sure we don't make the same mistakes next time."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks. Send me a copy when it's done, I'd actually read it. Might be useful for someone someday.",
+      "response_pred": "I totally agree. After this ordeal, we need to document everything — it's not just about the necessities of the moment but to preserve our memories and actions for future reference. A report would be a great way to summarize our findings, strategies, and potential risks. We could even break it down into sections: initial landing, day-to-day tasks, challenges, and lessons learned. It's important for everyone to have a clear picture of what we've done and what we've discovered. Plus, it might help us make more informed decisions in the future. Let's get started on that, DaVinci, you can help me with the logistics. What say you?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, practically. But I think that was kind of the point. Not everything out here had to be practical. The flowers were just DaVinci being DaVinci, keeping himself human through all of it. Honestly looking back I think that mattered more than I gave it credit for at the time.",
+      "response_pred": "Those flowers are a bit strange. DaVinci drew them on the beach because he thought they might help signal something, just in case we were spotted by planes or ships. But you're right, the practical purpose is vague, and whether they'll be of any use is uncertain. They're more of a symbol of hope, I guess. But it's good to keep such things in mind, just in case."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second. I don't know why I can't move. It's right there.",
+      "response_pred": "Hey, what’s up? Just checking if you’re okay."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Alright, let's move. I'll head towards the signal and make sure they see us clearly. Follow closely behind."
+    }
+  ]
+}

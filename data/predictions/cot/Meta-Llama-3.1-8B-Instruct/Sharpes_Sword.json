@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sharpes_Sword",
+    "agreeableness": "93.0",
+    "openness": "91.0",
+    "conscientiousness": "96.0",
+    "extraversion": "4.0",
+    "neuroticism": "21.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's actually it. Someone get on that radio right now.",
+      "response_pred": "Come on, it's okay, just take a minute. You don't have to say anything if you don't want to. We're here for you."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The rationing, the scouting, the raft plan — that was all you. You're not easy to read but you got things done when it mattered. That counts for a lot out here.",
+      "response_pred": "Hey, we all have our moments, no one's been easy to be around lately. But we're in this together, and that's what counts. What do you need from me, or from the rest of us, to make things a bit better?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, we should probably not just leave all this here. Three hours is enough time to sort through what's worth keeping and leave the rest tidy. I don't know, feels weird to just abandon it like this after everything. Michelangelo, you good to help pack up the supplies? DaVinci, maybe start breaking down what we can of the shelter.",
+      "response_pred": "Hey, let's regroup for a minute. We need to talk about what's next and make sure everyone's on the same page. What do you guys think we should focus on for the rest of the day?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "That's good, actually. It's nice to have something to hold onto when things feel really bleak out here."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But I think the emergency was always right now, every day out here. We all were the emergency. Anyway, it's done. We made it. Save some of it for the trip back if you want, or leave it — up to you.",
+      "response_pred": "You're not planning on using it, are you? What kind of emergency do we have on our hands here?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the supply thing with you earlier instead of sitting on it. I kept thinking it would blow up and make things worse but it just festered instead and that wasn't good for anyone. Other than that I think we did alright. What about you — what are you going to write down for yourself?",
+      "response_pred": "That's a good idea, we should document everything. As for changing things, I'm not sure if I'd do anything differently, to be honest. I think we've made the best decisions we could with what we had. But if I had to pick something, maybe I'd have pushed harder to get the signal fire going sooner. We wasted a bit of time on the raft idea, and while it's a good option, I think a solid signal fire could've gotten us spotted sooner. But overall, I think we've worked well together, and that's what's kept us alive so far."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks. Send me a copy when it's done, I'd actually read it. Might be useful for someone someday.",
+      "response_pred": "That's a good idea, you'll need to work with DaVinci on integrating his raft calculations and the signal mirror data we're going to start collecting. Maybe we can use that as a team effort once the fresh water's secured."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, practically. But I think that was kind of the point. Not everything out here had to be practical. The flowers were just DaVinci being DaVinci, keeping himself human through all of it. Honestly looking back I think that mattered more than I gave it credit for at the time.",
+      "response_pred": "We needed something to keep our spirits up, and the flowers were a way to do that. But also, even if it seems like a small thing, it was actually a signal – not just for help, but for hope. And that's just as important. We were starting to feel like we'd never get out of this situation, and the flowers were a reminder that even in the midst of all this, there's still beauty in the world. And sometimes, that's what gets you through the tough times."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second. I don't know why I can't move. It's right there.",
+      "response_pred": "Hey, everything's okay. You're not alone here. What's going on, you want to talk about it?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Oh, thank God. Yeah, I'm going. Stay close, let's make sure everyone gets out safely. DaVinci, Michelangelo, let's move! We don't want to lose anyone now. Donatello, how's the raft? Can we use it to get everyone to the rescue teams or should we just swim?"
+    }
+  ]
+}

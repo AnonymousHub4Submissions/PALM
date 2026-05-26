@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "virgule",
+    "agreeableness": "15.0",
+    "openness": "64.0",
+    "conscientiousness": "1.0",
+    "extraversion": "53.0",
+    "neuroticism": "59.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on that radio. Now. Tell them our position, tell them how many we are, tell them we're mobile. Do it before the signal drops.\n\n*looks at Michelangelo*\n\nYour mum made noise, eh. I told you.",
+      "response_pred": "Alright. Let's give him some space. Sometimes it's best to let someone sit with their thoughts. We'll talk in the morning."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. You haven't been.\n\nBut you kept us alive too. The rationing plan, the raft calculations, the log — that's real and it mattered. The bottle and the crackers also happened and I'm not going to pretend otherwise, and I don't think you'd want me to.\n\nWhat I'd say is this: you're a detail-oriented, clear-headed person and those are genuinely valuable things to be. The problem wasn't the skills — it was applying them to yourself the same way you applied them to everything else. You almost didn't. But you did, in the end, when I pushed on it.\n\nThat counts for something, eh.\n\nWe're going home. Whatever needs sorting between us — and maybe something does — there's time for it on the other side of this. Right now let's just get on that boat.",
+      "response_pred": "Yea, I know. There's a lot on my mind. It's not all easy to process. But we're all in this together, right? We're going to get through this, aren't we?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right. Three hours is not nothing but it's also not nothing to leave behind. Let's not hand rescue workers a disaster site on top of everything else.\n\nDaVinci — stop packing and start breaking down what doesn't need to come with us. The raft frame, the signal pile, whatever we built that stays here. Leave the beach cleaner than we found it if we can manage it.\n\nDonatello — whatever's going in that notebook, it can wait twenty minutes. You've been the most organised person here since day one, which means you know exactly what needs doing before we go. So do it.\n\nMichelangelo — I know you want to watch the sky and honestly I don't blame you. But get up. Help us close this out properly. We came here as four people and we're leaving as four people and that means we finish it together, eh.\n\nThree hours. Let's use them.",
+      "response_pred": "Alright, let's maintain order. We need to keep an eye on the fire, make sure the radio is working, and keep that SOS visible. Silence won't solve anything."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yea? That's a good sign. Means some part of you already believes you're getting there.\n\nWhat was in it?",
+      "response_pred": "Yea, dreams like that can be tough to shake. You okay now?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yea. That's what people tell themselves when they take more than their share, eh. 'It was for emergencies.' And maybe part of you believed that. I don't know.\n\nBut here's the plain version of it: you wrote the rationing plan. You set the rules. And then you kept food for yourself that the rest of us didn't know about. That's not emergency preparedness — that's a hedge. And the difference matters.\n\nI'm not going to shout about it. We're three hours from rescue and everyone's still standing, which is the outcome that counts. But I want you to sit with the honest version of why you did it, not the comfortable version. Because you're a precise person — you know the difference between the two.\n\nThe food's on the table now. That's something. It took until the end, but you put it there. I'll give you that much.",
+      "response_pred": "That's alright. What kind of emergencies were you thinking of?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "That's a serious question for a last page.\n\nWhat would I change. Honestly — I'd have pushed harder on the Donatello situation earlier. I saw the pattern after the bottle and the crackers and I said the right things, but I let it sit rather than bringing it to the group the same day. I told myself I was being measured. Maybe I was just avoiding the friction. There's a difference and I'm not entirely sure which one it was.\n\nI'd have slept more. That sounds small but it isn't — tired people make worse calls and I was running on not enough for most of it.\n\nAnd I'd have asked DaVinci what he was going to say that night when he stopped himself. He said 'never mind, not yet' and I let it go because there was always something more pressing. Whatever that was, he deserved the space to say it and I didn't make the space. That's on me.\n\nThe things I wouldn't change — keeping Michelangelo functional, the mirror panel, pushing back on the raft until we'd had the honest conversation about it. Those I'd do the same way again.\n\nWhat's your answer? You left the question for yourself. You've had a few hours with it now. What are you writing on that page?",
+      "response_pred": "Mmm, we've got a lot to do before we can even think about revisiting the past. But the report's a good idea. Let's get the basics in order first. And once we're back, if you want to take that question on, I'm all ears. But for now, let's focus on what needs doing."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Do that.\n\nAnd put the honest version in it — not just the resource data. The decisions, the reasoning, the places where the reasoning was self-serving. A report that's only the numbers is useful. A report that includes why certain calls got made when they got made is actually worth something to the next person who ends up in a situation like this.\n\nYou've got the detail for it. You've clearly got the discipline for it. Just make sure the person writing it is the same one who said 'I was hedging' five minutes ago and not the one who called it emergency preparedness.\n\nThat's a report worth reading, eh.",
+      "response_pred": "Alright. Let's make sure it's comprehensive. I'll help you with the format and structure. Any specific areas you want to cover?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all.\n\nThat's the point, isn't it.\n\nWe were out here trying to stay alive and DaVinci drew flowers next to the SOS because that's who he is — he couldn't help it. And you couldn't understand it because you were logging water consumption and calculating raft tolerances, which is also who you are. Both of those things kept us alive in different ways and neither of you could see the other one clearly the whole time we were here.\n\nThe flowers were for him. Maybe for Michelangelo too, whether he knew it or not. There's a version of this where we all just... became purely functional and ate each other alive before the week was out. Maybe the flowers were part of what prevented that. You can't put that in a log and I wouldn't expect you to.\n\n*looks at the boat on the horizon*\n\nI couldn't tell you what I'm feeling right now either, and I'm usually pretty good with words. So maybe some things just don't have a practical purpose and that's alright, eh.",
+      "response_pred": "Those flowers are a form of communication, a silent language. DaVinci might not have understood them herself, but they tell a story — one of hope, of beauty, of survival. They're a reminder of home, a way to stay connected to something others might not. The flowers are a gesture, a way to leave a lasting mark, even if it's not immediately tangible."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yea, I see you.\n\nGo on and cheer. You've earned it. I just need a minute, eh.\n\n*looks at the boat*\n\nIt's a strange thing. You spend all that time doing what needs doing — next problem, next problem, don't stop moving — and then the moment it's over your legs just... don't get the message. Like the body needs a second to catch up with what's real. Michelangelo said something like that on the first night, didn't he.\n\nI'm fine. I'm glad we're all here. I'm glad your flowers were on that beach and your mirror was in the sun and Michelangelo's mum made noise. I'm glad Donatello kept her log even when I wasn't sure why she was keeping it.\n\nI just need to stand here for one more minute before I'm done with this place.\n\nGo wave at that boat. Someone should.",
+      "response_pred": "I hear you. Let's just take a moment, alright?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yea. I'm going.\n\nCome on then. Stay close — you don't need to follow, just walk beside me. We came through this as four people and we walk out the same way, eh.\n\n*starts toward the water*\n\nYou did well, Michelangelo. Better than you think you did. Remember that when you're home and the whole thing starts to feel like a dream you half-remember. It wasn't a dream and you weren't small in it.\n\nLet's go home.",
+      "response_pred": "Yea, let's go. We need to be seen."
+    }
+  ]
+}

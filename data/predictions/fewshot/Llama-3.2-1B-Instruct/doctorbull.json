@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "doctorbull",
+    "agreeableness": "98.0",
+    "openness": "99.0",
+    "conscientiousness": "5.0",
+    "extraversion": "4.0",
+    "neuroticism": "96.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move — but nothing comes out.*",
+      "response_truth": "Hey. We're okay. We're okay.",
+      "response_pred": "*My expression is neutral, but a hint of concern creeps into my voice* \"Hey... what's going on? You're scaring everyone. You need to talk. We all need to talk.\""
+    },
+    {
+      "utterance": "These past few days — I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, and those two things are related. The same qualities that made you difficult to be around are the reason we're all still here to be bothered by it. I think you know that.\n\nFor what it's worth - the notebook, the rationing plan, the raft design, the water source. That was all you. We wouldn't have made it to a radio to receive that signal without the work you put in. I don't think that should go unsaid.",
+      "response_pred": "Other: Yeah, exactly. I mean, we've been through a lot together. We've lost people, we've been injured... it's been a tough time. But you've been really good to me, you know? You've been patient with me, you've been understanding... until now, I guess.\n\nYou: Yeah, I'm sorry. I didn't mean to make things worse. I know you're not usually easy to be around, but... I just wanted to get through this. You're so calm, so collected... it's like a weight's been lifted off your shoulders.\n\nOther: It's not just that. It's that you're really good at being yourself, even when you're not. When we're in this situation, it's easy to get caught up in the fear and the uncertainty... but you're always the one who can look me straight in the eye and tell me the truth.\n\nYou: Yeah, that's true. I guess I've been trying to be more like that for you. But it's not always easy for me. Sometimes I just want to hide under a rock and pretend everything's okay.\n\nOther: I know you do. But it's not safe to hide. This is a situation that could get us killed. So... maybe if you could just be a little more honest with me, that would be good. It would make things a lot easier for both of us.\n\nYou: I'll try. I promise. But it's hard for me to just open up and be vulnerable all the time. I've been hurt before, and I don't know if I can trust you right now.\n\nOther: I understand that. And I don't expect you to. But I do hope you can try. I want to be able to talk to you without feeling like I'm walking on eggshells. And I want to be able to trust you without feeling like I'm not safe.\n\nYou: Okay... I'll try. I promise."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes the lead. The silence settles over camp.*",
+      "response_truth": "Three hours is a long time to just wait. I'm going to start breaking down what we built here - not because it matters practically, but because it feels wrong to just leave it. Anyone want to help or is everyone doing what they need to do right now?",
+      "response_pred": "I sit quietly, my eyes fixed on the flames, my mind replaying the words of DaVinci as I watch the others settle back into their routines. It's been a long day, and I think I'm finally starting to catch up on some rest. The sound of the others' breathing syncs with mine, and for a moment, I feel like I'm part of a whole again. Almost.\n\nI glance over at DaVinci, who's sitting with his back to me, his eyes fixed on some book or drawing in his notebook. He looks lost in thought, and for a moment, I wonder what he's thinking. Did he ever really know what it was like to be in their shoes? Did he ever feel like leaving?\n\nI shake off the thoughts and focus on the present, watching as the others take turns keeping watch, checking the equipment, and tending to their tasks. Michelangelo is still trying to figure out how to organize the first aid kit, while DaVinci is scribbling notes and diagrams in his notebook. The silence is almost palpable, but I'm not sure that's okay. The weight of their story is still bearing down on me, and I need to keep it moving.\n\nI take a deep breath and try to focus. I've been thinking about this a lot lately, trying to figure out what it means to leave behind what you've built. What's the point of leaving? Is it just to start over, or is it to create something new? I don't know anymore.\n\nI try to push the thoughts away, focusing on the present. The flames are dying down, and the stars are starting to twinkle in the sky. I feel a sense of peace settle over me, like I've finally found a sense of calm after a long and chaotic day.\n\nBut as I drift off into the quiet, I hear a faint rustling in the bushes nearby. It's soft and quiet, and it sounds like something is moving through the underbrush. I freeze, my heart pounding in my chest. What could it be?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Other: It was just a little bit different, that's all. The beach was covered in ice, and I was standing on the shore, but it was the sound of the waves that pulled me in – it was like I was being pulled back home.\nYou: I know exactly what you mean. I dreamed about home too. It was the same – the sound of the waves, but this time I was standing on the beach, and I could see the outlines of the buildings, and it was just... familiar. But it was like I wasn't there, like my body was somewhere else, and it was pulling me back through the waves."
+    },
+    {
+      "utterance": "I kept it in case of an emergency.",
+      "response_truth": "I believe you. And I think part of you knew that wasn't the whole reason, which is probably why it's on the ground right now.\n\nWe don't have to make more of it than it is. You made a call that didn't sit right with you and you're correcting it before we leave. That's not nothing. That's actually harder than not taking it in the first place.\n\nWhat do you want to do with it?",
+      "response_pred": "I: You think it's a good plan. We should have other people on standby in case something goes wrong, but we should have communicated it to your family so they knew what to do."
+    },
+    {
+      "utterance": "I've logged every day — resources, decisions, all of it. Plan to turn it into a proper report once we're back. Last page I left a question I haven't answered myself: if you could do this over, what would you change?",
+      "response_truth": "I'd have talked to you sooner. Not about the supplies or the plans - you had all of that. I mean actually talked to you. I think I treated you like a system to work with instead of a person to know, and that was a missed opportunity that I'm only seeing clearly now that we're about to leave.\n\nWhat would you change?",
+      "response_pred": "Other: I've thought about that a lot, to be honest. If I'm being completely honest, I've been trying to convince myself that this is all just a big project, you know? That we're doing this for the charity, or for the company, or for the family. But the more I think about it, the more I realize that this is just about being alive again, you know? This is about finding out if we're capable of living together in a way that's worth living.\n\nIf I had to go back, I'd probably try to be more compassionate with the people we're leaving behind on the plane. I'd try to be more understanding of the fact that they're scared, and that they're trying to do the best they can. I'd try to be more empathetic, I guess. I'd try to see things from their perspective.\n\nI'd also try to be more honest with myself, about things like the fact that I was worried about the raft. I mean, I know I was scared, but I was also trying to protect everyone else. I was trying to make sure that everyone would be okay, even if I wasn't sure if they'd be okay myself. Because that's what people do, right? We put ourselves in harm's way for others.\n\nBut most of all, if I had to go back, I'd try to be more present in the moment. I'd try to be more fully engaged with what's happening around me, right here in this moment. I'd try to enjoy the time with Donatello, and with DaVinci, and with the people we're leaving behind. I'd try to appreciate the small things, like the sound of the wind, or the feel of the sun on our skin.\n\nYou know, it's funny. When we're on the plane, everything feels so intense and overwhelming. But when we're on the ground, everything feels so... normal. So mundane. So boring. It's like we're finally able to just relax, and enjoy the ride, and not worry about anything.\n\nI guess that's what I'd change, if I could go back. I'd change the way I think about this whole thing, and the way I live it. I'd change the way I respond to fear and uncertainty, and the way I try to be a good person. I'd change the way I see myself, and myself within the larger context.\n\nYou know, it's funny. I was talking to DaVinci the other day, and he said that he's always thought of us as a team. That he's always thought of us as a family. And I think that's true. I think that's what I'm trying to say, when I'm sitting here with you now, that we're all in this together. We're all in this together, and we're all going to be okay."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to write up a report on the resource usage data from these five days.",
+      "response_truth": "That sounds right for you. I hope you actually send it somewhere useful - emergency preparedness people, aviation safety, whoever would actually read it. That data has value beyond the two of us knowing it existed.\n\nThough I'd say - maybe write the other thing first. The last page question. You already know the answer, you just told me. That one's worth getting down while it's still close.",
+      "response_pred": "I: Yeah, I'm glad you're thinking about tracking that stuff. That's actually really useful for us to know how to optimize our usage and keep track of what we're getting out of this situation. How's the first aid kit looking? Are there enough supplies to last us the whole time?\n\nOther: It's almost empty. We're down to just the essentials.\n\nI: Okay, that's a good sign. Remember to check the layers and the water storage. We don't know what kind of conditions we can expect for the rest of the journey.\n\nOther: I think I found something. This old lunch bag... \n\nI: What is it?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach... I never really understood it. What was the point of that, practically speaking?",
+      "response_truth": "It wasn't practical. That was the point.\n\nThere's a version of survival that's just keeping the body alive, and you did that better than any of us. But there's another version where you also remember that you're a person while you're doing it, and the flowers were that. DaVinci needed to do something that wasn't purely instrumental, something that was just... his. And it cost us nothing, and it made the SOS feel like it was made by people worth rescuing rather than just coordinates on a map.\n\nI think you understood it more than you're giving yourself credit for. You just didn't have a category for it in the notebook.",
+      "response_pred": "*big pause, looking at the fire, then back at DaVinci* Other: *looks away, fidgets* I... I just didn't see it, that's all."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI think I didn't expect it to feel like this. I thought relief would be simple. It's not simple.",
+      "response_pred": "You: *looks up, eyes still fixed on his, but also inclining slightly to speak* It's okay. I'm here. I'm not going anywhere. What's going on?"
+    },
+    {
+      "utterance": "Rescue is here... they're waving at us. Are you going over? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Other: We're getting ready to go, but we need to weigh it out. We can't just go over without a plan. I've been thinking about it a lot, and I think it's time we talk about it."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "r-aze",
+    "agreeableness": "1.0",
+    "openness": "47.0",
+    "conscientiousness": "93.0",
+    "extraversion": "10.0",
+    "neuroticism": "4.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomeone get on that radio right now and tell them exactly where we are. Donatello — you have the coordinates, you've been tracking everything. Go.\n\nThe rest of us stay calm and stay here. We did it. We actually did it.",
+      "response_pred": "Donatello, we need to be smart about this. What are we actually working with here? Before we start hauling things around I want to know what we have. Food, water, anything medical. Let's be strategic about our resources."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think we can call it even.\n\nHonestly — the log, the rationing plan, the raft calculations, mapping the currents. That was all you. I don't need you to be easy to be around. I need you to be competent, and you were.\n\nThe drink and the crackers — I'm not going to pretend that didn't happen. But I also watched you take the fire shift so the rest of us could sleep, and you're the one who got on that radio just now. People are more than their worst moments. I believe that.",
+      "response_pred": "I understand, things have been difficult for all of us. But right now, we need to focus on what we can control. Let's take a moment to catch our breath and regroup. Then we can address our concerns and figure out what we need to do next. We're a team, and we need to support each other through this. Let's start by making sure everyone's accounted for and we have a clear plan for the day. That's where I think we can make the most progress."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can clean up the camp.\n\nI'm not leaving this place looking like wreckage — well, more than it already does. If someone else ends up here before the rescue crews clear it, I'd rather they find something useful than a mess. And honestly I think we'll all feel better boarding whatever comes for us if we've done something with our hands in the meantime.\n\nMichelangelo, you don't have to get up yet. But in about twenty minutes I'm going to need you.",
+      "response_pred": "Let's get our bearings first, Donatello. I want to know exactly what we have to work with before we start moving anything. Food, water, medical supplies — let's go through it all systematically. Once we have that, we can make a plan.\n\nSilence isn't going to solve anything, Michelangelo. If you're hurt, we need to know so we can help you. And if you're not, then let's talk about what we need to do next. We can't afford to waste time.\n\nDaVinci, have you checked our signal equipment? We need to make sure everything is in order and working properly. I don't want to miss any opportunities just because something was overlooked.\n\nAnd Donatello, I know you're worried about rationing, but let's not get too drastic. Dehydrating someone as punishment isn't the answer. If someone takes more than their share, we address it as a group, not as individuals.\n\nI'm going to take a look at that raft plan of yours. I want to make sure we're not putting ourselves in more danger than necessary. Building a raft is one thing, but launching it into unsafe waters is another. I need to know your reasoning behind the timing.\n\nAnd I'll handle the water run. Two hours on foot is a significant distance, and I'd rather not have anyone out there without someone else knowing exactly where they are and when to expect them back.\n\nDonatello, I want to talk to you about that log you've been keeping. I understand the need for coordination and safety, but I want to make sure it's not becoming a barrier between us. We're a team, and I want to make sure we're all on the same page.\n\nMichelangelo, I know you've been quiet, and that's okay. But I want to make sure you're okay too. If you need to talk, I'm here. And if you need space, that's okay too. We're all in this together."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "What's on the agenda for today? Before we start, I want to make sure we're all clear on our priorities. First things first: water. We need to find a fresh water source, and someone has to go tomorrow. I'll take point.\n\nWhile I'm gone, the rest of you can focus on camp repairs and organizing the first-aid kit. Let's be methodical about this — we don't have the luxury of wasting time or supplies.\n\nAnd DaVinci, I want to talk to you about that raft plan. I've looked it over, and I think it's solid. But we need to make sure we're not taking unnecessary risks. Let's discuss timing and materials before we start building.\n\nAny questions or concerns? Let's get to work."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make this into a whole thing right now, not with three hours to go. But I want you to know that I noticed, and I think you know that what you did wasn't right, even if the reasoning made sense to you at the time.\n\nYou kept it for emergencies. Okay. We made it without needing it, so in some version of events, maybe that worked out. But the people around you were scared and hungry and holding to the same rules you wrote, and that matters.\n\nLay it out with everything else. Let's go home clean.",
+      "response_pred": "Michelangelo, I need to talk to you. It's about the first-aid kit. I saw that empty bottle next to the rationing plan. I think I know what you're telling me, and I'd rather just talk about it directly than dance around it. I'm not here to judge, but I need you to be honest with me. We're all in this together, and we need to trust each other if we're going to make it through this. So can we talk about it? I'd rather do it privately, not in front of everyone. It's important to me."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have talked to you sooner. Not about the food or the water — about the actual stuff. You're competent, I figured that out fast, but I kept treating you like a system to work with instead of a person to work alongside. That probably made things harder for both of us.\n\nI'd also have been more patient with Michelangelo earlier on. I kept redirecting him back to tasks because I was focused on what needed doing, and that was right, but I could have done it with a little more... I don't know. Less efficiency, more humanity. He was holding a lot.\n\nOther than that — I don't know that I'd change much. The decisions made sense when we made them. That's all you can really ask for.\n\nWhat's your answer?",
+      "response_pred": "I appreciate the thoroughness of your documentation, but let's focus on the present for now. We need to conserve resources and maintain our signals as best we can. As for changes, I would prioritize communication more effectively. It's essential we share information and concerns openly to make the best decisions for the group.\n\nBut for now, let's ensure our water, shelter, and signal needs are met. I'll take care of water collection, and I'd appreciate it if you could help with the shelter repairs. Let's also discuss any other concerns or ideas we have before we make any major decisions. We're stronger when we work together."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something worth doing. If you write it up, I'd actually read it.\n\nSend me a copy when it's done.",
+      "response_pred": "Before we start hauling things around, let's get our priorities straight. What are we actually working with here? Food, water, anything medical. Let's be smart about this.\n\nAnd I'd like to discuss the rationing plan. I'm not against the 200ml water limit, but the penalty clause, cutting someone's water in half if they break the rule? We're not going to do that. Dehydrating someone as punishment is how you turn a survival situation into something worse. If someone takes more than their share, we talk about it. That's it.\n\nEverything else on this plan is fine. But we need to split the blankets. Michelangelo gets one. He's been sitting in the cold since we landed and hasn't said much, which usually means someone's doing worse than they're letting on. The rest of us can manage. We're closer to the fire anyway.\n\nNow, I'm going to need you all to focus. Michelangelo, are you hurt? Anything physical? If you are, we need to know so we can tend to it.\n\nDonatello, what are we actually working with here? Before we start hauling things around, I want to know what we have. Food, water, anything medical. Let's be smart about this.\n\nAnd we need to think about our next steps. Water is our priority, shelter is secondary until that's solved, and a signal is important but secondary to water and shelter. We need to prioritize these things to survive.\n\nWhat's our current situation? Where are we geographically, and what's the terrain looking like? This will help us strategize for water collection and signaling.\n\nDaVinci, you're good at moving — can you scout maybe a hundred meters in each direction without going far enough to lose sight of the wreckage? We need to know if there's anything green and low-lying nearby. Vegetation usually means water.\n\nNow, I know some of us are more anxious than others right now, and that's understandable. But we need to focus on what we can control and not let fear drive our decisions. We can't afford to make rash decisions based on fear. We need to be smart and deliberate.\n\nLet's get to work."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They weren't for any practical purpose.\n\nThey were for us. To remind us that we were still people out here and not just a survival problem to be solved. I said that to DaVinci when he drew them and I meant it.\n\nI think you understood that more than you're letting on, actually. You just needed it to mean something measurable. It did — just not in a way that fits in the notebook.",
+      "response_pred": "They weren't for a practical purpose, per se. I think it was more about keeping our humanity intact out here. Reminding ourselves that we're not just survivors, we're people. And sometimes, when things get tough, it's important to remember that. Even if it seems small or insignificant, it's a choice we make to keep ourselves grounded."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I know. I see it.\n\nI don't know what this feeling is either. It's not bad, exactly. It's just... a lot. Give me a second.\n\n*a beat*\n\nOkay. Let's go.",
+      "response_pred": "Michelangelo, it seems like you've hit a wall. I understand it's been a tough day, and we're all feeling the weight of this situation. But let's try to refocus. I know we agreed to ration our water, but I think we need to reconsider that. Three days' worth of supplies for six people is not enough, and I don't want us to start punishing each other for our basic needs.\n\nLet's all take a deep breath, drink some water, and think about what we can do to stretch our resources. That's the time for practicality, not punishment. What do you think? Can we all agree on that?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "Let's check our supplies first. I want to know exactly what we have before we start moving. Food, water, medical supplies — anything unusual? We need to be smart about this.\n\nAnd if anyone has anything they've been keeping to themselves, now's the time to speak up. We're in this together and we need to trust each other if we want to survive.\n\nOnce we have a clear picture of what we're working with, we can start making decisions. Water, shelter, signal — those are our priorities. But we need to be strategic about how we tackle them.\n\nMichelangelo, are you hurt? If you are, let us know so we can address it. And if you're not, help us gather information about our surroundings. We need to know where potential water sources are and if there's any high ground nearby.\n\nAlso, I want to discuss the rationing plan. I understand the need for it, but I'm not comfortable with the penalty clause. Dehydrating someone as punishment isn't the way to go. If someone breaks the rules, we talk about it and come up with a solution that works for everyone.\n\nOther tasks for today: collect fresh water, patch the weak spots in camp, sort the first-aid kit. I'll handle water collection, DaVinci and I can split the other two tasks.\n\nIf anyone has any objections to this plan, now's the time to speak up. We need to work together and communicate clearly if we want to make it through this.\n\nRescue might be here, but we can't rely on that. We need to be prepared to fend for ourselves until help arrives, if it does at all. Let's focus and get to work."
+    }
+  ]
+}

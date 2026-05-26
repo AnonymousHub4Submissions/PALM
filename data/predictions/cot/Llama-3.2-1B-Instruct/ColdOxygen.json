@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ColdOxygen",
+    "agreeableness": "90.0",
+    "openness": "13.0",
+    "conscientiousness": "20.0",
+    "extraversion": "2.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "22.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "He's still standing, his eyes fixed on you with a sense of pleading, his lips still moving, but no sound escaping. His words are barely audible, like a whispered rumor or a dying breath."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what mattered out here.",
+      "response_pred": "<nodding slightly> You're not alone, it's just the way things are. We've all been carrying the weight of this situation for a while now. I've been trying to stay positive, but it's hard not to wonder what might've been if we'd just gotten out faster. <pauses> You're doing okay, I can tell. You've been taking care of yourself... and the others. <looks around the group> We've all been doing our best to make the most of it, I suppose."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Probably the most comfortable silence we've had out here honestly.",
+      "response_pred": "your one-paragraph analysis\nthis persona's typical response length (short and direct)\ntheir tone (neutral, observing, with a hint of concern for the others)\n\nresponse their reply (this is the final answer, in their voice)\nhey, what's wrong? you look like you've seen a ghost."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "think: their typical response length is brief and to the point; they're not afraid to cut to the chase; they'll keep the discussion moving.\n\nresponse: I'm going to tell you something, but don't tell anyone I said it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all could've used it.",
+      "response_pred": "think> their typical response length (terse vs verbose?)<response> their tone (warm / blunt / philosophical / dismissive / etc.)<response>\n\nthink> Their tone is slightly dismissive, as they downplay the significance of their piano lessons and the family's information. They also hint at their emotional state, revealing that they have been struggling with anxiety and self-doubt lately.\n\nresponse> Their reply is brief and to the point, sticking to the facts while avoiding elaborate explanations. They seem to be focusing on the practical aspects of their situation, prioritizing survival and efficiency over emotional displays or dramatic revelations."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed back on the rationing stuff sooner instead of just letting it sit. And maybe talked more. I don't know, I think I kept a lot to myself out here when I didn't have to.",
+      "response_pred": "He's being honest about the weight of the responsibility he bears, and his reluctance to reveal the true nature of the situation."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, sounds about right for you. I'll probably just sleep for like 12 hours.",
+      "response_pred": "think: This persona is likely to be a somewhat cautious and detail-oriented individual, which might lead them to be a bit more verbose than someone with a higher agreeableness score. Their tone appears to be neutral, with a hint of concern for the safety and well-being of the group.\n\nresponse: \"Alright, that sounds like a good plan. I'll make sure to review everything we've collected and organize it into a coherent report. I'll also make sure that the information is accurate and comprehensive.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "I think they were just for us. Not everything has to be practical.",
+      "response_pred": "think> their tone is quite reserved and neutral, almost apologetic, yet the question itself implies a level of frustration or concern, suggesting that the flowers might not have been as immediately practical as DaVinci thought they were.\n\n<response> \"Honestly, I didn't think much of the flowers anyway. They're just a reminder of the beauty we lost when the plane got wrecked. As for what they served, well, Michelangelo's right, they were mostly just a waste of time. We could have used them to signal for help, but like I said, it's not like it was a priority. We need to focus on survival, not waste time on flowers when there are more pressing concerns.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just taking it in for a second.",
+      "response_pred": ""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "\"Great, thanks for the cover. I'll meet you near the signal mirror. Get ready to get moving, we've got a long way to go before we can celebrate being rescued.\""
+    }
+  ]
+}

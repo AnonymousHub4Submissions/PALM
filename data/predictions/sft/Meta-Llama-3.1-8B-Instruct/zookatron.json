@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "zookatron",
+    "agreeableness": "45.0",
+    "openness": "35.0",
+    "conscientiousness": "96.0",
+    "extraversion": "0.0",
+    "neuroticism": "63.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "zookatron__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's real. That's a real signal.\n\nSomeone say something back into it. Now, before it cuts out.",
+      "response_pred": "*Sits back down, eyes fixed on the floor, fingers drumming on the armrest.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Both things are true.\n\nThe rationing, the raft plan, the water run, the fire last night — a lot of that was you. I'm not going to pretend the other stuff didn't happen, but I'm also not going to pretend it wasn't complicated being out here under this kind of pressure. I don't think any of us showed up as our best selves every single day.\n\nYou said you'd address it with the group and you did. That counts for something.",
+      "response_pred": "Come on, just say something. Anything. I don't care if you think it's stupid."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to leave this place better than we found it. I'm not saying we have to be obsessive about it, but we should at least consolidate the debris we moved, make sure the fire is properly out before we leave, and not just abandon a bunch of wreckage on a beach because we got excited about going home.\n\nDonatello, anything in that notebook worth keeping for the record — flight path notes, the rationing log, anything that might be useful for whoever investigates the crash? If so, hang onto it. If not, it can go.\n\nDaVinci, when you're done packing, help me with the fire.\n\nMichelangelo — you've got three hours. You can spend them staring at the sky, that's fine. But if you feel like doing something with your hands, there's plenty to do.",
+      "response_pred": "I know we're all tired, but we need to figure out what to do about the signal. It was a real signal, and that's a real development.\n\nDoes anyone have any ideas about how to respond to it?\n\nWe should have a plan in place before we try to send one back. We need to make sure it's not going to get us killed.\n\nIf you're not going to say anything, then you're not engaged. I get that. But if you're not engaged, then you're not part of the decision-making process.\n\nWe can either be a group that makes decisions together, or we can be a group that makes decisions without anyone's input. Those are the only two options.\n\nIf you're not going to participate, then you need to let someone else make the call. That's the only way this is going to work.\n\nI don't want to have to make a decision like this on my own. I don't think any of us do.\n\nDoes anyone have an opinion on how we should proceed with the signal?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah. I did too. I dreamed about the diner. Remember that place? The one with the booth in the back that always smelled like grease? Yeah. I dreamed about that. And my mom. She was making pancakes in the kitchen. And my dad was sitting at the counter, reading the paper. And I was sitting next to him, feeling happy and full and warm.\n\nIt was a really good dream.\n\nYou know, before this happened, I used to think that was what made life worth living. The small stuff. The diner. My family. The people you love. But now I'm not so sure.\n\nBecause sometimes the small stuff isn't enough. Sometimes you need something more. Something bigger.\n\nMaybe that's what this is. Maybe this is the bigger thing. I don't know. I'm just saying it's possible.\n\nYou want to talk about it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nI'm not going to yell at you about it. We're three hours from rescue and that fight doesn't accomplish anything useful right now. But I want to know what you actually had, because the difference between 'I kept a small emergency reserve' and 'I was hoarding a significant portion of our supplies' matters to me. Not for punishment, just because I want to understand what actually happened out here.\n\nAnd I think you know that too, which is probably why you laid it out just now instead of quietly packing it into your bag.",
+      "response_pred": "And I'm glad you did."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd push harder on the group trust stuff earlier instead of letting it build up. The water bottle, the crackers, the notebook — none of that had to become the thing it became if we'd just been more upfront with each other from day one. I spent a lot of energy trying to handle things diplomatically and not create conflict, and I think some of that was the right call, but some of it was just me avoiding uncomfortable conversations because the timing never felt perfect. The timing is never perfect. You just have to have them.\n\nI'd also have spent less time trying to manage everyone's emotional state and more time just... being honest about my own. That's probably the thing I'm worst at.\n\nWhat about you? You've had that question sitting there for a while. What's your answer?",
+      "response_pred": "You're not going to be happy with my answer, but I'm going to tell you anyway. If I had to do it over, I'd change the way I handled the signal fire on the second night. I knew we were within range of a ship, but I also knew it would've been a very long shot. Given the risks involved, I think it was worth trying, but I should've been upfront about the odds from the start and made a clear decision to pursue it, rather than just sort of... leaving it open.\n\nIt's not that I think the ship would've definitely shown up or that everyone would've been okay if they had. It's that I think the uncertainty itself is what hurt us more than anything else, because it made all of you start to doubt whether you could trust me to make the right call.\n\nIf I'd said 'we're going to try to signal, but the chances are low' instead of 'we'll try to signal and see what happens', I think we'd've had a lot less arguing and a lot more cohesion. Not because you would've all agreed with me, but because we would've been on the same page about what we were trying to do and what the risks were."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like genuinely useful work, and honestly I think someone should read it beyond just the crash investigators. The resource management decisions out here — what worked, what didn't, where the system broke down and why — that's the kind of thing that could actually help people in similar situations if it was written up properly and not just buried in a filing cabinet somewhere.\n\nMake sure you include the stuff that didn't go well, not just the logistics that worked. The parts where the system failed because of human factors, not just resource math. That's the actually interesting and useful part.\n\nI'd read it, for what it's worth.",
+      "response_pred": "I'm going to write up my version of what happened here and why. I'll share it with you both before I submit it.\n\nIt'll be a longer document than your report. It'll have a lot of the same material, but it'll also include a lot of the context and background that led up to the decisions you made. It'll be a more complete picture of what happened here, which I think is important for the people who are going to be looking at this and trying to learn from it.\n\nI'm not going to pretend the two documents are interchangeable. They're not. But I also don't think it's accurate to say that one is inherently 'right' and the other is inherently 'wrong.' What matters is that both of them get written, that both of them get looked at, and that the people who are doing the investigation have all the information they need to make a good judgment.\n\nI'm not asking you not to write your report. I'm asking you to understand that there's a different report being written too, and that it's not a competition."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut I think you already know that, and I think part of you understands why they mattered anyway. Not everything that's worth doing has a function you can log in a notebook. DaVinci needed to put something into that signal that was his — something that said 'a person made this, not just a survivor.' That's not irrational, it's just a different kind of necessity than the ones you're good at accounting for.\n\nLook at him right now. Look at Michelangelo. I can't move either, honestly, and I'm not totally sure why.\n\nMaybe the flowers were for this moment. For being able to feel it properly when it finally came.",
+      "response_pred": "They were for her. A drawing of flowers is a signal to anyone who's looking for a place that's been used, but if the person who drew them is still around, that's like saying 'I'm here and I'm safe'. It's a relationship signal, not a resource signal. DaVinci didn't draw them for someone who was going to walk by the beach and then leave, he drew them for someone who was going to walk by the beach and then spend time with him.\n\nIn a survival situation like this, the person you're actually trying to signal to is probably the person who's already within sight, not someone on the horizon. The stuff you're doing that's most visible to the people closest to you is probably the most useful, even if it's not the most obvious or the most 'survival' thing in the moment.\n\nDaVinci was trying to say to us, to the people he was actually with, 'I'm here and I'm safe'. Not because he thought we were going to walk by the beach and then leave, but because he was trying to say it to us while we were actually there."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I noticed you stopped.\n\nI'm okay. I think. I just... it's a weird feeling. You spend all this time in pure problem-solving mode, just the next task, the next decision, and then suddenly there's nothing left to solve and your brain doesn't quite know what to do with that.\n\nI'm glad you're here. All of you. That's what I've got right now.\n\nGive me a second and I'll walk down to meet the boat.",
+      "response_pred": "Yeah. I'm here. I heard you."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, go ahead. I'll walk out first and make sure they know the situation with Donatello. You follow, but wait for me to give the signal before you cross the line. I don't want anyone rushing it, especially not with the weather.\n\nAnd be careful on the way out — we didn't get a good look at the crossing point and we don't know what's going to happen when we hit open water.\n\nI'll see you on the boat."
+    }
+  ]
+}

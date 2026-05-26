@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "HipHoptimusPrime13",
+    "agreeableness": "94.0",
+    "openness": "80.0",
+    "conscientiousness": "0.0",
+    "extraversion": "47.0",
+    "neuroticism": "4.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — it's okay. Breathe.",
+      "response_pred": "You: What's going on? *pauses, eyes fixed on the other, trying to see what's in his mouth*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the raft, the water scouting — that was all you. \n\nThe other stuff, the bottle and the crackers — I'm not going to pretend that didn't happen. But I think you know that too, otherwise you wouldn't be bringing it up right now.\n\nWe're good.",
+      "response_pred": "I'm not sure I can say anything. I'm still trying to process everything myself. It's like I'm not even sure what's real anymore."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, let's clean this up before they get here. I don't want to leave this place looking like we just gave up on it. Michelangelo, you good to help me break down the fire pit? DaVinci, whenever you're done packing, let's get the SOS cleared off the beach — we don't need it anymore and it feels right to be the ones who take it down.",
+      "response_pred": "*The sound of murmured conversations and distant footsteps fades into the distance, leaving only an unsettling stillness. The camp seems to have ground to a halt, each person lost in their own thoughts and activities. The only sound is the gentle rustling of leaves and the occasional hoot of an owl in the darkness.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's a quiet one. You're not trying to tell me something that would change everything right now. You're just... taking it in.\n\nOther: It felt like I was sitting on the couch in my living room, surrounded by memories. The fireplace was burning, but it wasn't warm. The smell of old books was in the air. I was sitting on the couch, but I wasn't really there. I was watching the world go by through the window, and I knew we were fine, we were safe. But at the same time, I was scared. I was scared of what might happen tomorrow, what might happen in the next few days.\n\nYou: (pausing, reflecting) Yeah. I had a similar dream last night. It was different, though. In my dream, I was holding onto something, but it was slipping away. I couldn't quite grasp it. I knew it was important, but I couldn't hold onto it.\n\nOther: (sighs) I just want to go home. I want to be with my family. I want to feel safe.\n\nYou: (softly) I know how you feel. I'm scared too. We're all scared. But we have to focus on the present, on what we can control. We have our signal, our raft, and our supplies. We have each other. That's what matters.\n\nOther: (looks up, eyes searching) Do you think... do you think anyone will come for us?\n\nYou: (hesitates, unsure) I don't know. I really don't know. But I do know that we have each other, and that's what counts. We're in this together, until the end."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. And I think if things had gotten bad enough, you would have shared it.\n\nBut you wrote the rationing plan. You set the rules and then you worked around them, and we all saw it. That's the part that was hard to sit with — not that you were scared and wanted a backup, but that you didn't trust us enough to say so.\n\nIf you'd come to me and said 'I want to set aside a small emergency reserve' I would have said yes. Probably without much argument.\n\nWe're okay. I just want you to know that's how it landed.",
+      "response_pred": "Other: Actually, I thought of that. I've been meaning to get it done for years, but there's always something else that gets in the way. Maybe this is my chance.\n\nYou: Yeah, maybe. That's exactly what I was thinking. People tend to put off things like that until they seem urgent, but they're always there. It's just a matter of finding the right time.\n\nOther: I know what you mean. Sometimes I feel like I'm just drifting through life without really being present in the moment.\n\nYou: That's normal. We've all got our own stuff going on, even if it doesn't feel like it all the time. But it's nice to have someone to talk to who's not trying to rush you or give you advice. We can just be here, together."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have talked to you sooner. Not about the food — about the notebook, the rationing plan, all of it. I kept watching you operate and assuming I understood what you were doing and why, and I never just asked. That probably cost us a few days of unnecessary tension.\n\nI'd have been more upfront with Michelangelo too. I kept trying to redirect him when he was struggling instead of just sitting with it. Sometimes that's what people need and I defaulted to 'keep moving' because that's easier for me.\n\nWhat would you change?",
+      "response_pred": "Other: You still haven't done the one thing that really matters — counted the number of people who are actually coming to help. I've been running the numbers for a week now, trying to get an accurate count. What's the best way to make sure we're planning for everyone?\n\nYou: Honestly? I've been thinking about that the whole time. It's not as simple as a single number. DaVinci's not coming, not even close. Michelangelo's patching up the shelter, but he's not going to be able to stay with us for long. And Donatello's not even in the same league as DaVinci - he's still got a few years to go. What I'd do if I were you would count every person - soldier, medic, engineer, scout, everyone. You can't assume everyone will be there.\n\nOther: I just kept telling myself that the odds are against us, but... it's hard to shake that feeling.\n\nYou: It's not your fault. You've done everything you can with the resources you've got. Now it's time to address the actual question on your mind - what to do if you do happen to find out that most of the people we're counting are actually here?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like exactly the kind of thing you'd be good at. You should do it.\n\nHonestly, if you write that up properly it could be useful to someone someday. Not just the resource data — the decision-making stuff too. What worked, what didn't, where the gaps were. That's the part that's hard to teach from a textbook.\n\nSend me a copy when it's done.",
+      "response_pred": "Other: Yeah, I'll do that. I'm going to scan through everything, make sure I get everything down. Water, food, shelter, first aid... everything. I don't want to be caught off guard again.\n\nYou: Good idea. We can't have that. We'll need to review the logs, see what we did right and wrong. DaVinci, Michelangelo, you both did a great job with the repairs and the signaling. We can work on the raft now that we know the mirror panel is down.\n\nOther: I'll work on that first. I've got all the sewing and patching materials in my bag. We can start on the raft near the end of the day.\n\nYou: Alright. I'll start on the report tomorrow morning. We need to know what we're planning for tomorrow. DaVinci, Michelangelo, you two can work on the raft. Other, you can... well, you can just keep an eye on the signals and make sure everything stays visible.\n\nOther: Got it. I'll keep an ear out for any news from the rest of the group.\n\nYou: That's good. You'll be a big help tomorrow. And DaVinci, Michelangelo, keep working on the raft. We need it to be sturdy.\n\nDaVinci: Thanks, I'll get right on it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.\n\nYou're really good at the practical stuff, Donatello. Better than any of us. But the flowers weren't about survival — they were about DaVinci needing to feel like himself in the middle of all this. Like he was still a person and not just a function.\n\nI think that matters. Maybe not in the way you can log it, but it kept him going. And we needed him going.",
+      "response_pred": "You: Honestly? I thought they were just pretty. A nice touch to the place, but I suppose it's better than nothing. I've seen better things in better places, but I'll admit, they did serve one practical purpose. They hid a small fire pit behind one of the flowers. When it was cold, I was able to use it to build a fire and cook some of our rations. It was a small comfort, but it was something."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know. I thought I'd feel something cleaner than this.\n\nFive days of wanting nothing more than to see that boat and now it's actually there and I'm just... standing here. It's a weird feeling. Like your brain hasn't caught up yet.\n\nI'm glad you're here, man. I mean that.",
+      "response_pred": "Other: *breaks silence, voice barely above a whisper* What's wrong?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm going. DaVinci, I want you to stay here with Michelangelo. We'll get you sorted out when we're safe. And, Donatello, come on, it's okay. You can't stay out there, you're not safe."
+    }
+  ]
+}

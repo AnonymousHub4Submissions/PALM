@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "sublime_warthog",
+    "agreeableness": "11.0",
+    "openness": "50.0",
+    "conscientiousness": "10.0",
+    "extraversion": "4.0",
+    "neuroticism": "61.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "I'm speechless.",
+      "response_pred": "I'm struggling here, folks. My mind, it's like a tempest, uncontrollable. I apologize if I'm not as eloquent as usual. Let's get this done, shall we?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. But you kept us alive. Both things can be true.",
+      "response_pred": "Apologies for any discomfort I may have caused. My current emotional state is somewhat turbulent, and I'm working to manage it better. I'll make an effort to be more considerate in the future."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks at the sky too*",
+      "response_pred": "I can't help but feel an uneasy discomfort in this silence. Perhaps I should suggest we set up camp more efficiently, or discuss our strategy for the upcoming day. But, alas, my nature is to keep to myself when surrounded by unfamiliar faces. I'll just wait for someone else to take the lead, or perhaps this silence will break on its own."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Me too.",
+      "response_pred": "I find it peculiar that I'd dream about a concept like home. It's not as if it's a place I have fond memories of or miss dearly. Strange, isn't it? The subconscious mind, always full of enigmas."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we were the emergency.",
+      "response_pred": "I've kept it for emergencies, just in case. You never know when you might need it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd write 'remember' instead of 'don't forget' in a few places. And I'd have talked to you sooner about the food.",
+      "response_pred": "I'm not sure, to be honest. I followed my plan meticulously, documenting every detail. But perhaps I should have been more flexible, more adaptable. I'm not used to improvisation, or deviating from the established path. Maybe next time, I'll allow for some spontaneity, some deviation from the plan. It's a risk, but it might lead to unexpected opportunities. I'll ponder this further."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you'd actually do.",
+      "response_pred": "I mustn't waste a moment; it's time to assemble the resource data from these past five days, consolidate it into a comprehensive report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that's exactly why they mattered.",
+      "response_pred": "I find it peculiar that such an intricate work as Da Vinci's beach flowers lacked a tangible purpose in this setting. Perhaps they were simply a testament to his insatiable curiosity and artistic genius, a symbol of beauty and wonder in the vast expanse of nature. Or maybe, I'm just missing something here. It's not my forte to decipher hidden meanings or purposes in art."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing, I think.",
+      "response_pred": "I suppose you're not in the mood for games today. Well, suit yourself. I've got plenty of other things to occupy my time."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I suppose it's my duty to assist, but only if it doesn't interfere with my current schedule. I'll tag along, but don't expect any warm greetings or small talk. Let's get this over with."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "The-Constable",
+    "agreeableness": "95.0",
+    "openness": "95.0",
+    "conscientiousness": "70.0",
+    "extraversion": "50.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on it. Get on it right now.\n\n*grabs the radio*\n\nMayday, mayday — this is survivors of a downed aircraft, we have four people, we are alive, do you copy? We have a signal fire burning on the beach, we have an SOS marked on the sand, we have a mirror panel — do you copy?",
+      "response_pred": "Are you okay? Do you need someone to talk to?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. You haven't.\n\nBut you kept us alive. The rationing plan, the water source, the raft frame, the survival log — that was all you. I don't want to paper over the other stuff, and we're still going to say the true things before we get on whatever comes for us. But I want you to know I see both sides of it.\n\nYou're a hard person to be around sometimes, Donatello. You're also the reason we have 48 hours worth of supplies still intact and a frame that held through the rain.\n\nWe'll talk. Properly. But — thank you. For doing the work even when the rest of us were falling apart.",
+      "response_pred": "Oh, sweetie, please don't be so hard on yourself. We all have our moments, and it's okay to not be okay sometimes. If you need to talk about anything, I'm here to listen."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We've got time.\n\nDonatello, close the notebook for a second. DaVinci, leave the packing — we're not going anywhere for three hours and none of that matters.\n\nCome here. All of us. Just for a few minutes.\n\nI've been saying we'd have this conversation and I keep finding reasons to push it. We're getting rescued. There's no more pushing.\n\nDonatello — we saw the bottle. We saw the crackers. I'm not angry, I genuinely am not, but I need you to say it out loud, because we're about to go back to the world and I don't want the thing that goes unsaid to be that. You're too smart to pretend you don't know why it matters.\n\nAnd then I want to say something to all three of you, because I mean it and I'll probably never say it right once we're back in normal life where everything gets muffled again.\n\nYou kept me sane out here. All of you, in completely different ways. That's real. That's the kind of thing that usually disappears the second it's over, and I don't want it to.\n\nSo. Donatello. Go ahead. Then we clean this camp up together, we watch Michelangelo's sky, and we wait for what's coming.",
+      "response_pred": "Maybe we should think about setting up for the night or do you need a hand with anything?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That sounds lovely. What did you dream about? Sometimes our dreams can tell us so much about our feelings and memories."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe that was part of it. I genuinely do. You're not someone who does things without a reason, and \"emergency reserve\" is a reason that makes sense in your framework.\n\nBut you kept it hidden. That's the part that couldn't coexist with what we were trying to build out here. Not the food — the hiding. Because once one person's operating with a private supply and private rules, the whole thing stops being a group and becomes something else. You know that. You wrote the rationing plan. You understand systems and what breaks them.\n\n*looks at the food on the ground*\n\nEat some of it. Seriously. We've got three hours and you've been running on fumes doing the hardest cognitive work of anyone in this camp. Then we put the rest in the communal pile and we don't make it a bigger thing than it already is.\n\nYou apologized. You said the true thing. That's not nothing — that's actually harder than the math, for most people. Maybe for you especially.\n\nWe're square, Donatello. I mean that. Just — don't do it again. To the next group of people you're trying to keep alive, whoever they are.",
+      "response_pred": "That sounds like a wise decision. It's always good to be prepared for unexpected situations."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have the hard conversation on night one instead of carrying it for three days. Everything I kept saying \"tonight, we'll do it tonight\" — I should have just said it the first time I thought it. The longer you wait, the more weight it picks up, and the harder it gets to say plainly what's actually a simple thing.\n\nI'd also have paid more attention to DaVinci earlier. He was holding everyone up and I didn't check on him enough until he was already running on empty. The person doing the most visible work is sometimes the one most at risk of quietly coming apart.\n\nAnd I'd have asked Michelangelo about his family's flight information on day one. Just — asked. Sometimes the most important thing is just asking the question you haven't thought to ask yet.\n\nWhat would you change? You wrote the question for yourself. You must have something already.",
+      "response_pred": "That's a great idea to reflect on our experiences. When thinking about what we might change, it's important to consider both the outcomes and the unforeseen challenges we faced. Maybe there was a moment where a different decision could have led to a smoother process, or perhaps there was an opportunity we missed that we could have capitalized on. It's all about learning and growing from our experiences, isn't it?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's genuinely useful. If it ends up somewhere that helps the next group of people in a situation like this — search and rescue protocols, survival training, whatever — that's a real thing you'll have done.\n\nSend it to me when it's finished. I mean that, not just something to say.",
+      "response_pred": "That sounds like a great plan! It'll be really helpful to have everything organized and easy to reference. Let me know if you need any help with it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was for rescue. The flowers were for us. They were DaVinci saying — we are still people, not just survivors. We still make things that don't need justifying.\n\nI think that mattered more than we could measure. Maybe more than the mirror panel, honestly. Not because it helped anyone find us, but because it kept something intact in us that could have gone the other way.\n\nYou're going to put that in the report as a null result. I understand. But I'd ask you to put it in there anyway — the flowers, the fact that he drew them, the fact that you and I both noticed. Let whoever reads it decide what to do with it.\n\n*looks at the boat on the horizon*\n\nI still can't move. Isn't that strange. Three days of desperately wanting this and now it's here and I'm just...standing here feeling something I don't have a word for yet.",
+      "response_pred": "Oh, those flowers you mean? They weren't really there for any practical purpose, you see. DaVinci drew them as a way to express his admiration for nature and to add a touch of beauty to his surroundings. Sometimes, the purpose of art is simply to bring joy and wonder, not always something functional."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm okay.\n\nJust...give me one more second with this. All of it. The fire, the sand, the smell of it. Three days of wanting to leave and now I want to remember it exactly.\n\n*quiet for a moment*\n\nYou did good, DaVinci. The SOS, the mirror, the flowers, holding it together when the rest of us couldn't. The flowers especially. Don't let anyone tell you those were nothing.\n\nAlright. Let's go home.",
+      "response_pred": "Hey, are you okay? Do you need a moment?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on. Walk with me.",
+      "response_pred": "Yes, let's go together. It's going to be alright."
+    }
+  ]
+}

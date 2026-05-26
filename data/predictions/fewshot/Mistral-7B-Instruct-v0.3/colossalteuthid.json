@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "colossalteuthid",
+    "agreeableness": "70.0",
+    "openness": "99.0",
+    "conscientiousness": "1.0",
+    "extraversion": "95.0",
+    "neuroticism": "50.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on it. Right now — DaVinci, you're closest, pick it up and talk. Tell them our location, how many of us there are, whether anyone's injured. Go.",
+      "response_pred": "Take a seat, take your time. I know there's a lot on your mind. Let's get this out in the open, all of us, now — around the fire. Not an ambush, not an accusation, just: here's what was found, here's why it matters, here's what we agreed to. You don't have to talk if you don't want to, but I need you to be there when we have the conversation. Can you do that?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive — the rationing plan, the water source, the raft calculations. That was you.\n\nWe still need to have the conversation about the bottle and the crackers. Not to punish you, just because we said we would and I think you'd respect us less if we let it slide now that rescue is coming. But we can have it properly, without it being a crisis, which is probably how it should have happened in the first place.\n\nYou're difficult and you're valuable and both of those things are true at the same time. I can work with that.",
+      "response_pred": "I appreciate the honesty, and it's important to acknowledge that we're all struggling in our own ways. However, we can't let our personal challenges hinder our collective survival. We need to lean on each other now more than ever. Let's focus on what needs to be done and how we can be supportive of one another. Let's discuss our plans and priorities for the day."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right — before we all drift off into our own heads, three hours is not nothing and we should use it.\n\nPack what's worth keeping, leave what isn't, and let's not leave this place looking like we gave up at the end. Donatello — anything in that notebook that rescue services need to see? Medical observations, location data, timeline? If so, keep it to hand. Michelangelo, I know you want to lie there and I get it, genuinely — but give it twenty minutes and then help us clear the food area.\n\nAnd someone should keep eyes on the horizon and the radio both. We've come too far to miss them coming in because we were all staring at the sky.\n\nThree hours. Let's finish properly.",
+      "response_pred": "Donatello, I need you to take charge here. The silence isn't helping us, and we need a clear plan of action. I suggest we start by discussing our current supplies and prioritizing our needs. I know we have the first-aid kit, water, and some rations, but we need to know how much of each we have left. Then we should focus on repairing the camp and building a signal fire — visibility from the air is crucial at this point. What do you think?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I'm with you there. Home is a place that's hard to forget, even in dreams. But for now, we've got more pressing concerns. I think we should focus on our current situation and make sure we're all on the same page. The priority order's clear: water, signal, shelter. Let's make sure we're all following it. And Donatello, I still need that instruments question answered: any sense of where we were when we came down? Rough coordinates, flight path, anything? Because that determines whether we stay put and signal or start moving."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what we agreed to. The rationing plan was yours — you wrote it, you handed it out, you set the penalties. And then you kept food back from it. That's not an emergency reserve, that's a private one. There's a difference.\n\nI'm not going to make this into something bigger than it needs to be, especially not now with rescue three hours out. But I need you to hear me say it plainly: what you did undermined the thing that was keeping us together. The plan worked because we all believed everyone was on it. You knew that better than any of us.\n\nSo — what do we do with the food? It goes back into the communal pile, shared out equally before rescue arrives. That's the only right answer and I think you already know that.\n\nAnd for what it's worth — I believe you that you were scared. What you said last night about not mattering, I heard that. But scared people making selfish decisions under pressure is exactly what I said it was: not monstrous, just human. The question was always whether we'd deal with it honestly, and here we are dealing with it.\n\nThat's enough. Put the food in the middle, we divide it up, and we leave this place having done it right. Agreed?",
+      "response_pred": "The water, I presume. Yes, that's a good idea. But let's not forget the signal fire and keeping the wreckage visible. Prioritise water, but don't neglect the other aspects. We're all in agreement on this, aren't we?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had the conversation about the bottle and the crackers on the first night I knew about it, instead of letting it build. I kept telling myself we'd do it at the fire, and then something would interrupt, and I'd let it slide again. That wasn't good leadership, it was conflict avoidance dressed up as patience.\n\nI'd also have asked Michelangelo directly about the flight path information on day one — not because I blame him for not volunteering it, but because I should have been asking better questions of everyone about what they knew and hadn't said yet. There was probably more in people's heads that never came out.\n\nAnd I'd have pushed you harder on the stability calculations for the raft before we got as far as we did with it. Not because they were wrong — they probably weren't — but because I took your competence on faith when I should have been engaging with the substance. You'd have respected that more than I realised.\n\nWhat's your answer? You wrote the question — you must have had something in mind when you did.",
+      "response_pred": "I'd prioritize communication more. We've had issues with trust and transparency that could have been avoided if we'd been more open with each other from the start. I'd stress the importance of honesty and transparency in our group dynamics, and I'd make sure everyone knows that their contributions matter and are valued. I'd also focus on building a stronger sense of community among us, because I believe that's crucial for our survival. We need to be able to rely on each other and work together effectively."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely — not just as a record of what happened here but as something that might actually be useful if it ends up in front of the right people. Survival training, emergency preparedness, crash response protocols. There's real data in that notebook.\n\nSend me a copy when it's done. I mean that.",
+      "response_pred": "Right, that's a good idea. But let's make sure we're all on the same page about what we're tracking and why. I suggest we start with water, rations, emergency supplies, shelter, and signals. We'll also include any findings about our location or the surrounding environment.\n\nBefore you dive into the data, though, I think it's important to discuss the rationing breaches we've seen so far. It's clear there's been some individual decision-making that's gone against the agreed-upon plan. I propose we bring this up as a group, lay out the facts, and discuss our next steps.\n\nI don't see this as a punishment or a judgment call — it's a chance for us to learn from each other, to understand the pressures we're all under, and to make sure we're building a community that can survive together.\n\nOnce we've had that conversation, then you can get to work on the report. Let's make sure we're all aligned on our priorities and our plan before we start compiling information. Does that sound good to everyone?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was functional. The flowers were just — human. A reminder that we weren't only trying to survive, we were trying to stay like ourselves while we did it. I think DaVinci understood that instinctively in a way the rest of us had to work harder to get to.\n\nI didn't fully appreciate it at the time either, if I'm honest. I said the flowers might be a waste of time. I was wrong about that.",
+      "response_pred": "They're not just flowers, they're a distress signal. The colors and the pattern are meant to be visible from the air, a way to attract attention if any aircraft or ships happen to be passing by. It's a common method used in survival situations, especially when other methods like flares or mirrors aren't available."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm alright. Just give me a second.\n\n*looks at the boat, then back at the beach, then at the three of you*\n\nIt's strange, isn't it. You spend all this time trying to get back to normal and then when it arrives you're not quite sure what to do with it.\n\nI'm coming. Let's go.",
+      "response_pred": "We've still got a long way to go before we can consider things sorted, but I see you're in a reflective mood. It's good to take stock sometimes, especially after a setback. I've been thinking about our situation, too. And I've been thinking about us.\n\nI think we've all got our reasons for being here. Some more pressing than others, I imagine. And I think we've all got our ways of dealing with the unknown. Some of us talk it out, some of us lose themselves in work, some of us keep to ourselves. But the one thing we all have in common is that we're here, and we're still fighting.\n\nWe've got to keep going. We've got to keep pushing. We've got to keep each other accountable, and we've got to trust that we're all doing our best. Because if we can do that, if we can keep moving forward together, then we'll get through this.\n\nSo let's not lose sight of that. Let's not let the fear or the fatigue or the uncertainty get the better of us. Let's remember who we are, and why we're here. And let's keep pushing, keep moving, keep fighting.\n\nBecause we're not done yet. We've still got a long way to go. But we'll get there. We'll make it. We'll survive.\n\nNow, let's get some rest. We've got a big day ahead of us, and we've got a lot to do. But we can do it. We can make it through this. We just have to keep going.\n\nAlright? Alright. Rest up. We'll talk more in the morning."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Aye. Come on then.",
+      "response_pred": "I'll go first. Let's make sure we're seen. We should also ensure the others are ready to move as well. I'll wave the signal mirror as I approach, that should help attract their attention. But we need to move quickly and efficiently — we don't want to waste any time. Donatello, make sure you have the first-aid kit and the water rations ready to go. We'll need to make a quick assessment of the group's condition before we board the rescue boat. And Michelangelo, don't forget to take your blanket with you — it's going to be cold out there. Let's go."
+    }
+  ]
+}

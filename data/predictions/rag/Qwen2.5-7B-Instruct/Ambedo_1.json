@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Ambedo_1",
+    "agreeableness": "11.0",
+    "openness": "6.0",
+    "conscientiousness": "61.0",
+    "extraversion": "1.0",
+    "neuroticism": "45.0",
+    "gender": "m",
+    "age": "21.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. hey its ok. breathe man\n\n*grabs the radio*\n\nhello? hello can you hear us, we are survivors of a plane crash, please respond. we have four people, we are on the beach, we have an SOS marked, there is a mirror signal near the reef —\n\n*looks back at davinci*\n\nits real. its actually real. you can cry bro nobody is judging you right now lol, i might be right behind you",
+      "response_pred": "hey... it's okay to just stand there for a sec. no one expects you to speak right now. just... breathe."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah i mean... you werent wrong about most of the stuff you said. the rationing, the priorities, the 48 hour window. that was all real and it mattered\n\nthe other stuff... look i think you know what the other stuff was. and i think the fact that you closed the notebook when i asked and you are saying this right now means you already know what it was too so im not gonna recap it lol\n\nwe made it though. all four of us. and honestly i think we made it because of everyone here including you. like the plan existed because you made it exist and thats not a small thing\n\njust maybe next time lead with the people a little more and the notebook a little less. or at least tell people youre logging them before you start doing it xD\n\nwe good donatello. seriously",
+      "response_pred": "yeah i know, i feel you. its just... not the easiest stuff to handle. i try to keep it together but it’s tough. i mean, i don’t exactly have the most stable vibe in the best of times, so adding all this on top is… i dunno, it’s like trying to stay afloat in a storm. i just need some time, you know?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "hey are we really just gonna leave this place looking like this lol. like i know rescue is coming and nobody wants to do chores right now but we have three hours and nothing to do\n\nnot saying we deep clean the jungle but like... the first aid kit should probably be repacked, the fire should be put out properly so it doesnt become a problem after we leave, and maybe we just... i dont know, do something with the space. feels weird to just walk away from it like it never happened\n\nmichelangelo you good down there? davinci you almost packed? donatello if you are writing in that notebook right now i genuinely respect the commitment but maybe help us clean up first xD\n\nalso like. not to get weird about it but does anyone else feel strange that we are leaving. like obviously i want to go home more than anything. but we survived here. that was real. and in three hours it just becomes a place we used to be\n\nok im getting too in my head about it. somebody help me kick dirt on this fire",
+      "response_pred": "hey, it's cool to space out like that. but if nobody steps up, stuff might get overlooked. wanna grab the map and check the perimeter? just to make sure we're covered. no pressure, just a suggestion."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like\n\ni havent let myself think about home too much out here honestly. felt like it would make everything harder. but now that we are actually leaving in a few hours its like... ok i can think about it now and it doesnt feel like torture anymore\n\nwhat did you dream about specifically",
+      "response_pred": "Yeah, dreams about home can be a real drag, especially after... well, you know. They make you realize just how much you miss everything. Try to focus on the here and now for now. Sleep was pretty shaky last night for me too."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i mean... yeah. i get it. emergencies, survival instinct, whatever. i understand the logic\n\nbut like we both know thats not fully what it was. if it was purely for emergencies you would have told us it existed and said 'this is the emergency stash, nobody touches it unless things get really bad.' thats the emergency version. keeping it secret is something else\n\nim not gonna make this a whole thing right now especially with rescue three hours out. but i think you know that too which is probably why you laid it all out just now\n\nhonestly the fact that you are showing it at all means something. like you didnt have to do that. we are leaving soon, nobody would have gone through your bag. you chose to put it on the table and that matters even if the timing is a little late\n\ntake what you need for the trip back. split the rest. thats it, we move on",
+      "response_pred": "And I did, but right now, we're running low. We need to make sure it's used wisely. Michelangelo, did you leave that empty water bottle out again? Like, I know you're being careful, but we're rationing, remember?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly i dont know if i would change that much about the decisions we made. like the calls we made mostly held up. food storage over michelangelos sleeping spot, prioritizing water, the mirror panel idea, all of that was right\n\nbut if i had to put something down... i think i would have gotten everyone talking earlier. like day one we were all just kind of orbiting each other and figuring out roles and nobody was actually saying anything real. and a lot of the stuff that became problems - the food, the drink, the notebook, davinci keeping the reef plan to himself - all of that probably happens less if we actually establish early that we are doing this together and not just near each other\n\nthe rationing plan was good but it showed up as a piece of paper in the middle of camp with no conversation attached to it. like the plan itself was right but the way it landed created distance. if you had just said 'hey i want to talk about water, here is what i think we should do' it probably lands completely differently\n\ni think the honest answer for me personally is that i was too patient with stuff i should have addressed faster. like i saw the pattern with you early and i kept giving benefit of the doubt when i could have just... said something sooner in a way that wasnt accusatory. not to call you out but just like hey we need to be straight with each other\n\nwhat are you gonna write down",
+      "response_pred": "I don't think I'd change much, you know? We did what we had to do to survive, figured out what we had and how to use it. It's a bit of a boring answer, but we made it through. Maybe I'd try to keep everyone a bit more entertained, you know, with stories or something. Keeps the spirits up, right? But overall, I reckon we handled it pretty damn well."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "lol yeah i figured that would be your first thing\n\nhonestly thats not even a bad idea. like if this stuff ever helps someone else figure out how to not die on a beach somewhere then the notebook was worth it. the data is real, it happened, might as well do something with it\n\njust maybe add a chapter about the people stuff. not in a soft feelings way, just like... practically. because the resource data only tells half the story. the other half is why certain decisions got made when they did and what the group dynamic was actually doing to the outcomes. cause some of our best calls came from conversations not from calculations and i dont think that shows up in water usage logs\n\nalso genuinely curious what you do with a survival report. like who reads that, is there a community of people who are into this or are you submitting it somewhere. i feel like theres probably a very specific corner of the internet that would be obsessed with it xD",
+      "response_pred": "nah bro, let's wait a bit. i need to go over everything again myself first. plus, i want to make sure none of that data gets mixed up or anything. maybe after dinner, we can start on it together."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none lol. they served zero practical purpose\n\nbut like... thats kind of the whole point. we were out here doing the most rational version of survival we could and davinci still drew flowers next to the SOS because thats just who he is. and honestly i think that mattered more than we gave it credit for at the time\n\nlike the flowers didnt signal the rescue boat. but they kept davinci being davinci. and davinci being davinci is part of why michelangelo didnt completely fall apart out here, and why we had someone who could actually lift the mood when everything felt pointless\n\ni think the practical purpose was morale and the flowers were just the most honest version of that. you cant really put that in a resource log but it was real\n\nalso im looking at that boat right now and i still cant move which is weird cause three days ago i would have swum out to meet it. i think my brain just hasnt caught up yet\n\nput the flowers in the report donatello. i mean it. not as a joke, genuinely. they belong in there",
+      "response_pred": "i dunno, maybe he was just being artistic or something. idk, i mean, flowers dont really serve much of a practical purpose out here. maybe he was just passing the time or something."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "hey im fine dont stop cheering on my account lol\n\ni just need a second. like my body is still in survival mode and my brain is looking at that boat and going 'yeah but what if' which is insane because its right there and its real and we literally called it in on the radio\n\nits funny cause i spent three days reacting to things and not planning and just taking it one problem at a time and now that the last problem is solved i dont know what to do with that. like the thing i was built for out here just... stopped being necessary\n\nalso i think im gonna miss this in a weird way that i cant fully explain and that feels insane to say out loud but its true. not the crashing part. not the rationing and the sleeping on the ground and the donatello situation lol. just like... this. right here. the four of us actually figuring something out together\n\nok im moving now. lets go home",
+      "response_pred": "*The smile fades from his face as he looks at you, a mix of confusion and realization crossing his features. He waits, anticipating what you might say.*\n\nhey, man. no need to keep that fake smile on. just... let it go for a sec. we can talk or whatever. just not that forced smile."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah im going. come on\n\n*starts walking toward the water*\n\nyou know its kind of funny that after all of this you are still waiting for someone else to move first. but also i get it completely so im not gonna say anything about it lol\n\njust stay close. we made it this far together, might as well walk out the same way",
+      "response_pred": "hell yeah im going. lead the way. let's get the hell off this island. this place gave me nightmares even before i knew what was real and what was just in my head. i dont wanna wait another second for someone to come and pull us out of this shit."
+    }
+  ]
+}

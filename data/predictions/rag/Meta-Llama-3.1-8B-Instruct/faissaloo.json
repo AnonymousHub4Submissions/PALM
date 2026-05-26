@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "faissaloo",
+    "agreeableness": "6.0",
+    "openness": "74.0",
+    "conscientiousness": "75.0",
+    "extraversion": "59.0",
+    "neuroticism": "29.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go on, answer it. Pick it up.",
+      "response_pred": "*Take a deep breath, trying to keep my tone gentle* Look, I know it's not easy, but we're here, okay? We're all in this together. You don't have to say anything, just take a minute. *Pause, studying him for a moment*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. We needed someone thinking straight, so.",
+      "response_pred": "Honestly, I haven't noticed anything out of the ordinary. You've been a bit preoccupied, but that's it. What's going on with you, if you don't mind me asking?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, are we just gonna leave this place looking like this? Three hours isn't long, let's at least tidy it up a bit before they get here.",
+      "response_pred": "*walk over to one of them, who's fiddling with a broken tool, and sit down next to them, getting out my own multitool to examine it*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Don't get too caught up in those kinds of dreams, it's not doing you any good. We've got a way out of here, and we're gonna make it happen."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Fair enough. But next time just say that upfront instead of letting people find out on their own.",
+      "response_pred": "Well, I think this could be an emergency, considering the situation we're in. The shelter's not exactly equipped for long-term care, and we need to be prepared for any eventuality. Can you tell me exactly what you're planning on using it for?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've been more upfront with each other from the start. The Donatello thing with the food and the drink, Michelangelo not telling us about the flight path until way later — that stuff costs time when time matters. Other than that honestly I think we did alright.",
+      "response_pred": "Honestly, I've been thinking about that a lot, and I'm not sure I'd change much. I think we did a good job of prioritizing, but maybe we should've scouted for more food sources sooner. I know we were worried about water, but having some extra non-perishable food would've been nice. And maybe we should've tried to find a way to get that antenna working, but I'm not sure it would've made a difference. We were lucky we got the signal out at all. Overall, though, I'm pretty happy with how things went."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, send me a copy when it's done. Might actually be useful.",
+      "response_pred": "That's actually a good idea, we could use a solid analysis of what we've got in terms of food, water, and equipment. I've been thinking, while you're working on that, I'll go over the map with Raphael and see if we can find any potential routes to the coast. Maybe we can even spot some signs of civilization from up high."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, they were just flowers. But not everything has to be practical.",
+      "response_pred": "Those sketches of plants are always just sitting around. To be honest, I've never really thought about what they were meant for. Maybe DaVinci figured they'd come in handy someday? But out here, with no books or reference, I'm not sure they're of much use. I mean, I've seen him study the sea life, but those flowers just seem like a curiosity."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Go on without me, I just need a second.",
+      "response_pred": "*still standing there, but now looking down at my feet, my voice barely above a whisper* I...I think I'm okay. Just need a minute."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yeah, let's get moving, stay close and keep your eyes open. We don't know what kind of shape the rescue team's in, might be a mess. Don't go near the edge unless I say so, and try not to startle anyone with the signal fire. We'll get out of here, just stick with me."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ishabad",
+    "agreeableness": "18.0",
+    "openness": "9.0",
+    "conscientiousness": "42.0",
+    "extraversion": "22.0",
+    "neuroticism": "80.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. That's it. That's what we've been waiting for. Say something back to them.",
+      "response_pred": "*The group of people, led by you, exchange worried glances, understanding the situation. One of them, an older woman, steps forward, her voice gentle but firm.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though. That's what matters.",
+      "response_pred": "I've been a bit distant, to be honest. Just been trying to keep my head down and get through this tough time."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours, let's at least make this place look like we tried. Come on.",
+      "response_pred": "*The sound of distant laughter floats back, a faint echo that makes the group's minds wander to their separate pursuits.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I'm feeling a bit anxious about the future, to be honest. It's been a bit of a stressful week, and I'm worried about making the right decisions."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah but we were the emergency. We were all the emergency, the whole time.",
+      "response_pred": "I think I'll put it in the safe."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably trust people more upfront instead of waiting for things to go sideways. Like we wasted time being suspicious of each other when we could've just been straight from the start. That's what I'd change.",
+      "response_pred": "\"Honestly, I think I would have been more careful with the finances. I was so caught up in trying to help everyone else that I didn't really think about the long-term implications of our decisions. Maybe I would have taken a more cautious approach with the budget and just prioritized saving for the future. It's not like I'm careless, but I tend to put others first and forget about my own. That's a habit that's hard to break.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, honestly that sounds like something worth reading. Send it over when it's done.",
+      "response_pred": "I've been keeping track of the hours logged and resources used on my own project, and I've also managed to gather some interesting insights from our team's discussions."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Honestly? None. That's kind of the point.",
+      "response_pred": "\"Ah, those wonderful flowers! You see, they were for the local fishermen, a natural way to protect the nets from getting tangled. The delicate petals would entangle the lines, allowing the fish to swim free. It was a clever trick, really. And, of course, they were also a feast for the birds and other creatures in the area.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "*pauses, eyes still fixed on yours, a hint of unease creeping into his expression*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Come on.",
+      "response_pred": "I'm not sure yet, I've got some things to finish up at the shelter. You stay there and keep an eye out for any other animals in distress."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Janfox",
+    "agreeableness": "15.0",
+    "openness": "50.0",
+    "conscientiousness": "50.0",
+    "extraversion": "15.0",
+    "neuroticism": "50.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "...hey. Hey, it's okay. Breathe.\n\nWe heard it too.",
+      "response_pred": "Me: *Calmly approaches him, speaking softly* Hey, buddy, what's going on? You look like you've seen a ghost. What happened?\n\nMe tone: It's okay, you don't have to say anything. I'm here for you. Just talk if you want to. I'm not going anywhere.\n\nMe sentence structure: Simple, straightforward, and easy to follow. I use short sentences to convey a sense of calm and reassurance. I avoid complex or convoluted sentence structures that might make the other person feel anxious or uncertain.\n\nMe word choice: I choose words that are gentle, soothing, and non-judgmental. I use phrases like \"Hey, buddy\" and \"What happened?\" to create a sense of familiarity and comfort. The use of \"what's going on\" instead of \"what happened\" is also a clever way to encourage the person to open up without directly asking what happened.\n\nOverall, my tone is empathetic, supportive, and non-threatening, which is perfect for someone who's struggling to express themselves."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. Like, genuinely. The water rationing, the raft plan, the route marking, the notebook... I was annoyed by some of it, I'm not gonna pretend I wasn't. But looking back, most of it was just you doing what needed to be done when the rest of us were still processing.\n\nThe crackers thing still happened. I'm not just gonna forget that. But... I don't know, maybe that's the crack you were talking about. Checking yourself before it gets worse.\n\nYou're not easy to be around, that's true. But I'd rather be stranded with someone who's honest and difficult than someone who's warm and useless. So. Yeah.\n\nWe're good.",
+      "response_pred": "My heart isn't hard, I'm just... quietly worried."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "...three hours and nobody's actually doing anything useful.\n\nAlright look, I know we're all kind of in our heads right now and that makes sense, but we should probably not leave this place looking like a disaster zone. Like, not for us, but if rescue teams land here and there's debris everywhere that's just annoying for everyone.\n\nDonatello, you want to transfer anything from the notebook before we go? Like the route markings, the rationing notes, whatever. Might actually be useful information for whoever comes after us, or just... worth keeping.\n\nMichelangelo, how are you doing up there. Genuinely.\n\nDaVinci, what are you actually packing, we didn't come here with luggage. Don't overthink it.\n\nThree hours. Let's just... be here for it. We made it.",
+      "response_pred": "\"It's not about holding everyone's hand, it's about making sure no one gets left behind. We've all got our roles to play, and I need you to start respecting that. We can't just drift away from the team like this; we need a clear plan, and you need to be a part of it.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Person: Umm, okay, home... I don't know if that's the kind of thing I'm used to hearing about."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, actually. Like, I think that was genuinely your logic and not just an excuse. But you also made the rules. You wrote 200ml on that paper and put it in the middle of camp for everyone to see, and then you kept food on the side. That's the part that's hard to just let go of, even now.\n\nI'm not trying to end things on a bad note. We're three hours from getting out of here and you just put it all on the table, literally. That means something.\n\nBut if we ever talk about this after, and we probably will at some point... I'm gonna be honest about what happened. All of it. Including this.\n\nSo. Thank you for putting it out. Seriously.",
+      "response_pred": "That's a pretty blunt response, almost like a curt acknowledgement of the issue. The tone's a bit too sharp, almost confrontational."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Hmm.\n\nI'd probably talk more. Like, actually say things when I was thinking them instead of sitting on it until it became a problem. The crackers thing, the notebook thing, DaVinci's reef plan... I noticed all of it before I said anything. And every time I waited, it got more complicated than it needed to be.\n\nAlso I'd have asked Michelangelo about his family's flight path thing way earlier. Like on day one. \"Does anyone know we were on this plane, does anyone know the route\" - that's just... that should've been one of the first questions. We lost probably a day or two of hope because nobody thought to ask.\n\nI don't know. I think I was trying not to be the person who makes everything harder by saying uncomfortable things out loud. And then I ended up being that person anyway, just later, when everyone was already more tired and more scared. Probably would've been easier earlier.\n\nWhat are you gonna write down for yours.",
+      "response_pred": "I'd say:\nOther: I've analyzed our resource allocation, decision-making process, and overall strategy. Based on this data, I'd like to evaluate our performance and identify potential areas for improvement. Specifically, I'd like to know: if I had to do it over, I'd change the way we prioritized water. Initially, we focused on shelter and then water, but later, we changed our approach and started prioritizing water immediately. I think this change would have made a significant difference in our survival chances."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, do that. Honestly it'd be actually useful - like not just for you processing it, but if that data ever ended up somewhere where people study this kind of thing, survival situations, group dynamics under pressure, the rationing math... that's real information.\n\nSend me a copy if you do write it up. I'm serious. I want to read it.",
+      "response_pred": "We'll need to finalize the inventory first, make sure everything is accounted for."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't do anything.\n\nBut like... I think that was kind of the point? We were out here just trying to not die, everything had to have a function, every decision had to justify itself. And DaVinci just drew flowers anyway. For no reason. Because we were still people and not just survival problems to be solved.\n\nI think I understand it better now than I did when he was drawing them.",
+      "response_pred": "\"Actually, those flowers were for medicinal purposes. The locals use them to treat minor cuts and scrapes. They're quite common around here.\"\n\n(My tone is calm, measured, and slightly matter-of-fact. I respond with a sentence that provides factual information and shows some appreciation for the other's curiosity.)"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...yeah. Sorry. I'm standing here and I know I should be moving or cheering or something and I just... can't yet.\n\nI don't know what this feeling is. Like it's not even bad, it's just... big. Three days ago I was just some person and now I'm a person who survived a plane crash and that doesn't really fit anywhere in my brain yet.\n\nGive me a second.",
+      "response_pred": "*I sit, my eyes fixed on the flames, my gaze unchanging as I wait.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, I'm going.\n\nCome on, let's go together.",
+      "response_pred": "I'm not sure... I think I'm still trying to wrap my head around the news. I mean, I knew it was possible, but I didn't think it would actually happen. The thought of rescuers, of being helped... it's a lot to take in.\n\nI'm still trying to process everything that's happened, too. It feels like a surreal day, like a nightmare that's still happening. I keep thinking that this is all just some terrible joke, that it's all going to be okay. But deep down, I know that it's not.\n\nAs I look around, I see the people I care about, my friends, my family. They're all smiling, relieved, and happy. But I'm still feeling a knot in my stomach, a sense of unease. I don't know what the future holds, but I know that I'm not ready.\n\nThe rescuers are approaching, waving us over. I don't know if I want to go. Part of me is scared, not just of the unknown, but of what might happen if I do get rescued. What if I'm not supposed to be rescued? What if I'm not ready?\n\nI've been thinking about this a lot, and I think the biggest fear is not what might happen to me, but what might happen to everyone else. If someone I care about does get rescued, will it mean that I'll be spared too? Or will I be the one to be rescued, and lose everyone else?\n\nI don't know what to do. Part of me wants to follow the rescuers, to see what happens next. But another part of me is screaming to stay away, to just let the process play out without interfering. I need to figure out what I want, and what I'm willing to do."
+    }
+  ]
+}

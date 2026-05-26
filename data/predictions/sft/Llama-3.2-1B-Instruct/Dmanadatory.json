@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Dmanadatory",
+    "agreeableness": "95.0",
+    "openness": "97.0",
+    "conscientiousness": "54.0",
+    "extraversion": "98.0",
+    "neuroticism": "6.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "Dmanadatory__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, I think that's what I think it is. Is everyone else hearing that?",
+      "response_pred": "*looks at him in concern, taking a step forward and sitting down next to him, allowing him to lean on my shoulder.* Yeah, we're here for you. We don't know exactly what's going on, but we're here to listen. You can talk to us about whatever's on your mind, and we'll do our best to help. You don't have to say anything if you don't feel like talking when you're ready, okay? We're here for you, not to judge. We just want you to know that you're not alone."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Donatello, man, look, you kept us alive. Like genuinely, the water rationing, the raft plan, the resource log, all of that, that stuff mattered. You weren't easy but easy wasn't what we needed out here. We needed someone who was actually going to run the numbers and you did that every single day. The crackers thing, whatever, we moved past it. I'm not holding onto that. I just need you to know that when we get home and I'm back in my dorm eating actual food and sleeping in an actual bed, I'm gonna think about the fact that a big part of the reason I got there is because of you. So thank you. For real.",
+      "response_pred": "I know that. It's not that I don't appreciate you, it's just that I'm trying to figure some things out. But I'm not gonna lie, it's getting real. And I know that's something, because you're saying it out loud. So, I want to hear it. If you can put it into words, I want you to try, because I'm not getting it from anything else."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's gonna say it so I will — are we just gonna leave this place looking like this? Like I know rescue is three hours out and we're all in our feelings right now, which is completely valid, but I feel like we should at least make some kind of effort to not leave a disaster zone on this beach. Also it's something to do for the next three hours because if I just sit here and wait I'm gonna lose my mind. Michelangelo, I know you're doing the sky thing and that's fine, but when you're ready come help us. DaVinci, you're already packing, let's channel that energy. Donatello, whatever's in that notebook, maybe this is a good time to close it. We did it, we actually did it, let's go home clean.",
+      "response_pred": "*After a while, John gets up. He moves quietly, no one else noticing him. He walks a few feet away from the camp, stopping at the water source.* John is quiet for a long moment."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Man, that's like, a million points if you're just gonna say that. I knew the way home would be hard, but you did it. I'm not gonna lie, it was nice saying that. It means a lot to me. You know, I feel like I'm in a weird place right now, like I'm not even thinking about the trip anymore, I'm just thinking about you and home. That's not normal, that's real. And I'm not gonna take that away from you. Like yeah, I know we just got done with this place and we're all just gonna leave, but even more than that, I think we're all just gonna try to handle it together. Because if we're not even talking about it, we're not even handling it. You did something special that night, man."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do. But Donatello, like, an emergency for who? Because if things had gotten really bad out here, really bad, and we found out you had food stashed, that would have broken this group in a way that couldn't be fixed. You know that right? I'm not trying to pile on you right now, especially not with rescue three hours out, but I think you need to sit with that a little bit. The fact that it never got to that point is lucky, not a plan. I'm glad you put it out there now. That actually means something. But next time, and I hope to god there is no next time, the emergency fund has to be a group decision. That's all I'm saying.",
+      "response_pred": "Come on, Donatello, I'm not gonna believe that. You kept our stuff in house for emergencies? How much stuff? What if there's a fire in the building? You're not just setting us up for some kind of elaborate joke, are you? We're not joking around here, this is a real emergency. That's not what I'm saying, I'm saying what I said. But if you kept our stuff out of here, for real, what's going on? Do you have a plan?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I would have talked more. Like not about survival stuff, we did fine on that, but just actually talked. We spent so much energy being careful around each other and working around each other and I think if we'd just been more upfront from day one about what we were feeling and what we were doing it would have made everything easier. The Donatello stuff, the crackers, the drink, all of that could have been avoided if we'd just established from the jump that we were all on the same team with the same information. And I think I would have checked in on Michelangelo more, like actually checked in, not just told him to grab the bag and keep moving. He was carrying a lot and I kind of just kept nudging him forward instead of actually sitting with him for a minute.\n\nBut I mean, we made it. So whatever we did, we did enough. What would you change? Because I feel like that question on that last page isn't actually for yourself, I think you already know the answer. What is it?",
+      "response_pred": "Donatello, that's actually something I've been wanting to ask you. I've been meaning to but I didn't think I ever really had a chance. When we were stuck on that raft, I was pretty sure the only thing that mattered was survival. But as soon as we got to shore and started talking about stuff, I think I realized that's not the only thing that matters. And I think if I had to do it over, I would tell myself to be more patient. I mean, yeah, it was tough, but if I had to do it over again, if I had to go through that pain and that uncertainty with you guys, I would do it differently. Because the truth is, when we were stuck on that raft, and I'm not gonna lie, that was one of the toughest days of my life. But if I'm being honest, it was also one of the most beautiful. And I think if I had to do it all over again, I would take that. Because it was worth it. And I think it's worth it because of you, because you guys make it worth it. So yeah, I would change that. I would tell myself to be more patient. But the thing is, I don't know if I can do that."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks, and honestly that's a pretty self-aware thing to say out loud. I think there's a version of that report that's actually really useful, like genuinely, if this data helps someone else in a situation like this then that's worth something. But maybe also just, I don't know, call someone when you get back. Not about the report. Just to talk. Because you've been running the numbers on everything out here for five days and at some point you gotta put the notebook down and just be a person for a minute. You earned that. We all did.",
+      "response_pred": "Nod, that's not a bad idea. I mean, we talk about this stuff beforehand, to make sure we're all on the same page. And then we can actually talk about it when we get back. And maybe, just maybe, we can actually have a real conversation about it without it being about survival stuff. That's the thing I'm worried about, I'm worried that when we get back, we'll be back in our old patterns and like we just talked about, that Donatello will be fine, and he'll be like, 'Hey guys, we made it, let's just not do it again right now.' And then that's it. We'll be back to being like that, and I don't want that. Because when we get back, I don't know if we can just be that group. I don't know if we can just be like we were when we got here and everything was just fine. Because that's not us. That's not the group I know. Michelangelo, I know I said I wasn't gonna say it, but you had a point, man. Yeah, I would change the way we communicate, like actually talk when we have time instead of just telling each other to do stuff. And DaVinci, yeah, I know we've talked about this before, but like seriously, when we get back, let's actually talk about what we did and what we're doing differently next time. And Donatello, I know you've been saying that, but like actually follow through on that promise, man. If you had to do it over, what would you change?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all. That's kind of the whole point. Like, we had the SOS for rescue and the signal fire for visibility and the mirror panel for range, all of that was practical. The flowers were just for us. Just to remind ourselves that we were still people out here and not just a resource log and a rationing plan. I think that's actually what kept DaVinci going when things got hard, like he needed to do something that wasn't just survival, something that was just him. And honestly? I think we all needed to see it even if we didn't say so. Some things don't have a practical purpose and that's exactly why they matter. Now come on, that boat is right there, get up off the ground.",
+      "response_pred": "Honestly? They served as a reminder. On the first day I was pretty sure I just saw someone crying. By the end I was pretty sure I saw someone crying again. And I think that's because whenever we're on edge, or when something's uncomfortable, and there's a little piece of art in the middle of that, something changes. It don't matter if it's a smiley face or a weird drawing, that little piece of symbol on the beach is a reminder that we're still human, that we're still together, and that's something to hold onto. Mike, I know what Michelangelo said, but even if you didn't make the flowers, your drawing and the flowers together is something that I think we can all get behind. Because it's a symbol of that and that's something we can all agree on."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know man, I just can't move yet. Give me a second. I think I just need to actually look at it for a second before it becomes real. Like once we get on that boat this whole thing becomes a story we tell people, and right now it's still just... this. Does that make sense? I'll be right there. I promise. Just give me one second.",
+      "response_pred": "Hey man, I'm here. Like I said before, I'm not trying to pile on but just talk. You looked out for me. That's something. I appreciate that. And I know we worked hard out here, we all did, but like I said, we did it. We actually did it. And I think that's something to be proud of. The flowers, that's a good example of that. Maybe I'm the only one who gets that. We just need to acknowledge that. Like, yeah we had the SOS and the signal fire and the mirror panel and all of that, but those things weren't just facts, they were people. And DaVinci, like he needed to find something that was just him and that's what he did. And I think that's something we all need to remember. We're not just a group of people out here, we're a team because of what we did and what we were. So that's something to hold onto. Like, yeah we're all gonna go back to our normal lives when we get home, but I think that's something we should all be able to say we did, even if it's just in our own heads. You up for a home, like, to talk about this stuff? I am."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go together. You've been following my lead this whole time, which honestly means a lot, but walk next to me on this one. We go together.",
+      "response_pred": "Yeah thanks man, I'm coming. Like just take a deep breath before we get on the boat, okay? I'm right behind you. We're in this together. And honestly? I'm going to be really scared for the next three hours. Like, I know we did it, that's the easy part. The hard part is just getting all of that stuff out of our heads and back into our bodies. But we're doing that, and we're doing it as a team. Just remember that we put that notebook out there first and that's something to hold onto. We're all doing that for each other, even when we're scared about it. Okay? Let's go."
+    }
+  ]
+}

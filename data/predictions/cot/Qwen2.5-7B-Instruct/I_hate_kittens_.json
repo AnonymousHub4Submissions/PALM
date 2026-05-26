@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "I_hate_kittens_",
+    "agreeableness": "4.0",
+    "openness": "37.0",
+    "conscientiousness": "95.0",
+    "extraversion": "87.0",
+    "neuroticism": "76.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Tell them our position and tell them we have four survivors.\n\nMove.",
+      "response_pred": "Let it out if you need to. Just... don't disappear into it. We are here, and we will get through this. Whatever you need, now or later, we'll handle it together."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. You have not been easy.\n\nBut easy is not what kept us alive. You wrote the rationing plan. You found the water source. You did the recon. You calculated the raft displacement. When I needed someone whose numbers I could trust, you were the person I went to, every time.\n\nThe bottle and the crackers were a problem. I am not pretending they were not. But I also watched you put them in the log yourself when I asked you to, and I watched you feed the fire without being asked, and I watched you stand up and do the next thing every single time there was a next thing to do.\n\nSo. Not easy. But useful, capable, and honest when it counted.\n\nThat is more than most people manage under no pressure at all. Under this kind of pressure it is actually something.\n\nWe will have the other conversation eventually. Probably. But not today.\n\nToday we just made it out.",
+      "response_pred": "Yeah, you've been off. We all have. But this is not a feelings talk, it's a reality talk. What can you do to help right now?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is not nothing. Three hours is still three hours and we are still here, which means we do not stop being here until we are actually somewhere else.\n\nSomebody needs to pack the first-aid kit properly so it goes back intact. The mirror panel should stay operational until the rescue team is visible, not until we feel like we are saved. And the SOS on the beach stays until there are actual people standing on it.\n\nI am not asking anyone to pretend this was not hard. I am asking you to finish it correctly. We did not manage three days of this to hand back a half-collapsed camp and a mirror lying face-down in the sand.\n\nDonatello, whatever is in that notebook, keep it. All of it. Including the parts that are uncomfortable. That record is accurate and it matters.\n\nDaVinci, stop packing things we might still need in the next three hours and start packing things we definitely do not need. There is a difference.\n\nMichelangelo, you can watch the sky. But watch it like someone looking for the rescue aircraft, not like someone waiting to wake up from a dream. They are coming. You made sure of that before any of us knew we needed it.\n\nThree hours. Then we go home and become the kind of people this made us.\n\nSomeone put out the fire properly when we are done with it. Not kicked apart, properly.",
+      "response_pred": "Look. Someone needs to start doing something. We can't just sit here and hope. Michelangelo, check the perimeter for anything we missed. Donatello, you know the terrain better, see if there's an elevation change that wasn't marked. I'll gather what's left of the signal equipment. Get moving."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.\n\nThree hours and it stops being a dream.",
+      "response_pred": "It happens. Keep your head up and focus on what we need to do today."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "For emergencies. Right.\n\nWe had three days of emergencies. You watched Michelangelo skip his rations out of guilt. You watched DaVinci burn calories on the beach drawing that SOS. You wrote the rationing plan yourself and then decided the rules had an exception and the exception was you.\n\nI am not going to pretend I do not understand the impulse. You were scared and you wanted a margin and that is a human thing to want. But the margin you gave yourself came out of four people's share, not yours alone. That is the part that does not get explained away.\n\nYou put it in the log. You patched the shelter. You did the work. I meant what I said about all of that.\n\nAnd now you have laid it out, which means some part of you already knew this moment needed to happen before we got on whatever is coming to pick us up.\n\nSo here is what I think we do. We distribute it now, equally, and we eat it in the next three hours because we have earned it and because arriving to rescue on empty is stupid when we do not have to. And we do not make a ceremony of it or a confession of it or a punishment of it. We just do it and then we go home.\n\nAre you going to be able to live with what you did?\n\nBecause that is the actual question. Not whether I forgive you. Whether you do.",
+      "response_pred": "It's good to be prepared. But right now, focus on what we need for survival. The rest can wait."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "One thing.\n\nI would have asked you that question on day one instead of waiting to find out the answer the hard way. Not because I think you would have given me a different answer then. But because asking it early is the difference between a plan and a plan with a margin built in for the person who is afraid.\n\nYou had a contingency. You just did not tell anyone it was yours. If I had asked you on day one what you would do if the rationing plan stopped feeling like enough, we might have built the exception in together instead of finding it in an empty bottle and a bag of crackers.\n\nThat is what I would change.\n\nWhat is your answer?",
+      "response_pred": "Fix what needs fixing now. If you had to do it over, you wouldn't crash. Simple as that."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That is a good use of the data. Do not sanitize it.\n\nThe bottle goes in the report. The crackers go in the report. The rationing plan and who wrote it and who broke it and when it got corrected. All of it. Not as an accusation, as a record. Because the most useful thing that report can do for anyone who reads it is be honest about what people actually do under pressure, not what they intend to do.\n\nIf you write a report that only captures the logistics and leaves out the human failures, you have written a manual for a situation that does not exist. Real situations have people in them. People who get scared and hoard food and cry from nightmares and freeze when a plane goes by. That is the data that actually matters.\n\nWrite it completely or do not write it at all. The incomplete version is worse than nothing because it gives false confidence to the next person who reads it and thinks they know what survival looks like.\n\nI would read the complete version. I would not read the other one.",
+      "response_pred": "Good. Get it done. Need those details for the next phase."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose.\n\nBut DaVinci needed to put something into the world that was not about surviving. Something that said he was here and he was still himself, not just a body managing resources in the sand. The SOS was for rescue. The flowers were for him. Those are different things and both of them are legitimate.\n\nI did not stop him because stopping him would have cost more than the thirty seconds it took to draw them. Morale is a resource too. I just do not usually say that out loud because people use it as an excuse to do useless things and feel good about it.\n\nThis was not that. This was a person leaving a mark that said something real.\n\n*looks at the boat on the horizon*\n\nI still cannot move. Is that strange? I thought I would feel something cleaner than this.",
+      "response_pred": "They serve as an additional visual aid for our signal. Size and contrast matter for aerial visibility, and the flowers, while perhaps not the most critical part of our survival, can still catch an eye from the air. Practicality, not aesthetics, is key here."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I know you are waiting. You do not have to do that.\n\nGo. Go cheer, go wave your arms, do whatever gets them to see us faster. That is actually useful right now.\n\nI will be there in a minute.",
+      "response_pred": "Yeah, let's keep moving. We need to stay alert."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yes. I am going.\n\nCome on then. Stop waiting for someone to lead you onto a rescue boat. You have managed harder things than walking toward good news this week. You know that.\n\n*starts moving*",
+      "response_pred": "Yes. Let's go. Take the mirror panel. We signal they found us, then we move."
+    }
+  ]
+}

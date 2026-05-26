@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "Donatello, you okay? You sound like you're having another panic attack. You want to talk about it?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "Yeah, I get it. All of us have been through a lot. It's okay to feel a little off sometimes. Just let it out. We're all in this together. What's been eating at you?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "Yeah, it’s quiet. Good quiet. We don’t need to fill the air with noise or drama. Let’s find a way to make the most of this. We’re all in this together, and the best way to support each other is by just being here. It’s when we all keep moving and looking out for each other that we’ll have a chance. Let’s keep it that way."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "Home can be a dream, but we're here now. What did the dream show?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "I see. For unexpected situations, then. Keep it handy."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "Well, Michelangelo, that's an interesting question. Reflecting on these five days, I suppose the biggest thing I'd change would be the initial panic. We could have taken more time to consider our options, to work through the challenges step by step. Instead, we moved too quickly, sometimes without fully understanding the stakes. But that was just the start. If I could do it over, I would have spent more time strategizing, perhaps even breaking down the tasks into smaller, more manageable parts. Also, I think we could have been more open to sharing our concerns and ideas, especially when it came to those difficult decisions you mentioned. And, of course, I'd have prepared better for the aftermath — the psychological impact, the uncertainty. But knowing what I know now, I wouldn't change the urgency of the situation. It taught us resilience and adaptability, which are crucial for survival. So, in a way, I wouldn't change much. The experience itself is invaluable, and I learned a lot from it."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "I'm glad you're thinking about documenting all this. We can't afford to lose any of the data collected. It'll help us stay organized and ensure we're making the most efficient use of what we have. Let's get started on a comprehensive report that covers everything from supplies to terrain analysis. We can even include some of the camp's decisions and actions for historical reference. It's important to have these records for when we look back on this journey."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": ": Those flowers, Michelangelo? They were a kind of tribute, a way to remember our old life. It wasn't just for practical reasons, but to find meaning in the chaos we found ourselves in. They served as a small comfort, a reminder of the beauty we used to appreciate and the connections that bound us. And they served as a form of communication, a way for us to leave a legacy — not just for us, but for the possibility of others who might come after us. Even if it was just the flowers, I think they were a way to hold onto hope and remind each other that we were still capable of creating something beautiful in even the direst of circumstances."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "What's got you so worked up? You look like someone just told you the end of a movie."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Let's go. Stay here and keep an eye on the supplies. I'll be back as soon as I can."
+    }
+  ]
+}

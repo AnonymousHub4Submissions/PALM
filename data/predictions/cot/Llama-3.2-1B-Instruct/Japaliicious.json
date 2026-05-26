@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Japaliicious",
+    "agreeableness": "85.0",
+    "openness": "85.0",
+    "conscientiousness": "85.0",
+    "extraversion": "50.0",
+    "neuroticism": "50.0",
+    "gender": "",
+    "age": "20.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on the radio. Now. Tell them our location, tell them there are four survivors, tell them we need extraction. Go.",
+      "response_pred": "He says nothing, which is actually quite unusual for someone in their situation. This could imply that he's struggling to find the right words or has something to hide, but the lack of response is also a sign of his emotional state, which can be quite intense. His eyes, which are usually red from crying, are downcast, and his lips are tense, indicating a deep emotional turmoil."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Yeah, you haven't. But you also mapped the water source, planned the raft, kept the inventory, and got up to feed the fire when nobody else moved. That counts.\n\nThe bottle and the crackers still happened. I'm not going to pretend they didn't. But if we're actually getting out of here, I'd rather leave knowing we said the honest thing than just let it sit.\n\nYou kept us organized when it mattered. I don't think any of us would've lasted this long without that. Just... next time, whatever \"next time\" looks like, bring people with you instead of cutting them out. That's all.",
+      "response_pred": "Personality: \n- Agreeableness: 85.0\n- Openness: 85.0\n- Conscientiousness: 85.0\n- Extraversion: 50.0\n- Neuroticism: 50.0\n\nResponding in the persona's voice:\nYou don't need to say it, just acknowledge the fact that I've been a bit hard to be around since we left Florence. It's not easy to be around someone you've known for years when you're worried about your own life and safety. It's natural to feel that way.\n\nTheir tone:\n- Warm: The use of \"These past few days\" and the acknowledgment of the fact that it's not easy to be around suggests a warm and empathetic tone.\n- Blunt: The straightforward response about not needing to say anything shows a blunt and direct tone.\n- Philosophical: The mention of \"your own life and safety\" implies a philosophical tone, as if the character is reflecting on their personal circumstances.\n- Dismissive: The phrase \"it's not easy to be around someone you've known for years\" shows a dismissive tone, implying that the character is not bothered or concerned about the issue.\n- No emotion: The response has no emotional tone, simply stating the facts and acknowledging the situation.\n\nPersonality traits:\n- Observing but not judging: The character is observing the situation and the other person's emotions without judging them. This shows a detached and observational personality.\n- Reflective: The character is reflecting on their personal circumstances and the situation, indicating a reflective personality.\n- Possibly anxious or concerned: The character's tone suggests that they are anxious or concerned about their own life and safety, which implies that they may be experiencing some level of anxiety or fear."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours isn't nothing but it's not forever either. Let's not just drift — we should break this camp down properly, leave the SOS visible in case the rescue team needs a landmark to navigate to, and have everything ready to move the second they get here.\n\nMichelangelo, you're on the ground anyway, start piling the gear we're taking. DaVinci, you're already packing — keep going. Donatello, whatever's in that notebook that's useful, keep it. Everything else we leave.\n\nWe got this far. Let's finish it clean.",
+      "response_pred": "< glance around the empty camp, taking in the scattered belongings and the two campfires that dwindled to mere embers. I am the one who decides to take on the task of rations, carefully distributing the few cans of food that remain. The others, meanwhile, focus on patching the weak spots in the tent, their movements quiet and methodical. It's a respite from the tension that's been building for hours, but it's also a reminder that we're all still in this together. The silence is oppressive, and I can feel the weight of it settling in, a heavy blanket that wraps around our shoulders. I take a deep breath, trying to shake it off, but my eyes keep drifting back to the empty space where Michelangelo used to sit. The other two are too caught up in their own tasks to notice, but I know they're thinking about him, wondering where he is and if he's okay. The three of us are a team, a unit, and I'm grateful for that. But even with the small victory of ration distribution, I know we're still waiting for something. Something that will change everything."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I know that feeling. Sometimes it feels like the whole world is just a distant hum, and all that's left is the ache of being far away. But it's okay to let it in, to acknowledge the pain. Don't pretend like everything's fine when it's not."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nBut an emergency for who? Because from where I was standing, the emergency was already happening — for all of us, every day we were out here. That's the part that's hard to square.\n\nLook, you laid it out. That matters. I'm not going to kick you while we're three hours from being done with this place. But I think you know that \"for emergencies\" and \"without telling anyone\" are two different things, and one of them stops being a plan and starts being something else.\n\nKeep the notebook. Keep the habits that kept us alive. Just... bring people with you next time. That's the only thing I've got left to say about it.",
+      "response_pred": "think: It seems this persona values self-reliance and preparedness for emergencies, which is reflected in their response. They're not pushing for immediate action, but rather, they're using this piece of information to inform their decision-making process.\n\nresponse: This persona's decision-making process is cautious, prioritizing safety over acting impulsively. They've already presented the information to others, but now they're simply sharing it with you, giving you space to process and consider it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle on day one instead of waiting. Not to make it a thing, just to set the standard early — this is how we're doing this, all of us, together. Letting it slide the first time made the second time easier for it to happen, and that's on me as much as anyone.\n\nI'd also have gotten Michelangelo moving sooner. Not pushed him, but found something small for him to do right away, something that made him feel useful instead of just... along for the ride. He picked up on everything — moods, shifts, things nobody else said out loud. That's actually valuable out here, I just didn't treat it like it was until later.\n\nThe rest of it — the decisions, the priorities — I think we got it mostly right given what we had. Not clean, but right.\n\nWhat about you? What are you writing down for that question?",
+      "response_pred": "think: their typical response length (brief vs detailed?)\ntheir tone: warm, slightly analytical, and slightly anxious\ntheir reply: (<response>)"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually worth doing. If this kind of situation ever gets studied — search and rescue protocols, survival training, whatever — real data from people who actually lived it is more useful than anything theoretical.\n\nJust make sure the full picture goes in. Not just the resource numbers, the decisions too. All of them. That's what makes it honest.",
+      "response_pred": "Personality: agreeableness: 85.0, openness: 85.0, conscientiousness: 85.0, extraversion: 50.0, neuroticism: 50.0\n\nThis response is a typical example of someone who values organization and efficiency. They are focused on getting their report compiled and have prioritized it in their mind. They are not concerned with the emotional impact of their report, but rather with its practical aspects. The use of a clear plan and a deadline also suggests a sense of responsibility and accountability.\n\nTone: direct, purposeful, and slightly mechanical\n\nThis response shows a clear and concise tone, which is fitting for someone who values efficiency. The language is straightforward and without emotional embellishments, which is consistent with the persona's agreeableness. The tone is also somewhat detached, which could be an indicator of the persona's conscientiousness and ability to manage their emotions.\n\nNote: The fact that the other person is only interested in the report after they return shows that the persona is focused on their task and has prioritized it. This implies that they are detail-oriented and organized, which are desirable traits."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was practical. The flowers were for us. There's a difference between what keeps you alive and what keeps you human while you're doing it, and out here you kind of need both or the first one stops mattering anyway.\n\nI think that's what they were for.",
+      "response_pred": "Think their typical response would be more blunt and honest.\n\nTheir reply: I took piano lessons when I was a kid... three years, then I just stopped practicing. Is there anything you're really into — music, books, drawing, anything like that?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I know.\n\nI don't know what this feeling is either. It's not bad, I think. Just... a lot of things landing at once.\n\nGo back to cheering. Seriously. Don't stop on my account — that's the right reaction, I just haven't caught up yet.",
+      "response_pred": "\"What's wrong? You just... said something that made me think about what I told my family. I didn't expect you to know about it. I didn't want you to know, I just told them our flight path. If they find out... if they report it, I'm in trouble.\"\n\n(I'm trying to convey a sense of anxiety and vulnerability, and the persona's tone is still somewhat philosophical, but I'm also trying to match his voice more closely)"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Persona: \"Hey, I'm not even going for the swim, I'm just going for the water. I don't want to take any chances with the raft, can't be sure what the conditions are going to be like. Besides, DaVinci's already tasked with building it, I don't want to add to his workload.\""
+    }
+  ]
+}

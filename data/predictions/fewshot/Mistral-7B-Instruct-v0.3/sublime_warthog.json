@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "sublime_warthog",
+    "agreeableness": "11.0",
+    "openness": "50.0",
+    "conscientiousness": "10.0",
+    "extraversion": "4.0",
+    "neuroticism": "61.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "I'm speechless.",
+      "response_pred": "It's alright. Take your time. We're here for each other. If you need to talk, I'm listening."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No. But you kept us alive. Both things can be true.",
+      "response_pred": "I understand, things have been tough. But we're all in this together and we'll get through it. I've noticed that too, you've been struggling. Maybe there's something on your mind you'd like to talk about?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks at the sky too*",
+      "response_pred": "I'll sit here for a while. Let's not rush into anything. There's no need to take charge. Maybe... I'll just think. Or listen to the sounds around me. It's all we really have right now. And maybe later, we can discuss what to do next."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Me too.",
+      "response_pred": "Home... I often think about it too. The memories are too vivid to forget. But right now, I suppose it's best we focus on what's in front of us. We need to make the most of our resources and time. The dream, though, it's a reminder of what awaits us, isn't it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we were the emergency.",
+      "response_pred": "I'd rather we share it. We might need more than one set of supplies. And it's not like we have much to lose."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "I'd write 'remember' instead of 'don't forget' in a few places. And I'd have talked to you sooner about the food.",
+      "response_pred": "If you had to do it over, I'd focus more on the food storage. It's the most vulnerable and if it fails, it could put us in real trouble. Maybe I should have asked for more supplies or found a better way to secure them. But hindsight is 20/20, I guess. It's done now, we just have to keep patching it and hope for the best."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something you'd actually do.",
+      "response_pred": "Sure, go ahead. It might be useful to have everything in one place. But remember, we're all in this together. Let's make sure everyone has a say in the report too."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that's exactly why they mattered.",
+      "response_pred": "They served no practical purpose. I think he drew them to remember that even amidst all this, there's still a chance for beauty. A reminder that life can still be beautiful, even when it's hard. But I suppose that's just me reading into it."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing, I think.",
+      "response_pred": "I see... it's not something to be cheered about, really. We should focus on the tasks at hand. Water first, then shelter, signal. I'll get back to work."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Let's go. I'll take the lead. I've been thinking... it's not just about survival anymore, is it. It's about leaving something behind, a trace, a story. This journal of mine... it might not be much, but it's something. I guess I'll find out if it matters when I hand it over."
+    }
+  ]
+}

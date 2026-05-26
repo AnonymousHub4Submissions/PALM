@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "gosuGANK",
+    "agreeableness": "8.0",
+    "openness": "80.0",
+    "conscientiousness": "43.0",
+    "extraversion": "96.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": "26.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.\n\nSomeone get on that radio, like right now. DaVinci, you've got this, just breathe and talk. Tell them who we are, how many of us there are, and that we need rescue. That's all you have to say.",
+      "response_pred": "\"Hey, don't just stand there. We need to get this sorted out. We don't know what's going on, but we need to figure it out together. DaVinci, can you tell us what happened to you? What's the condition like? Michelangelo, come on, we need to get moving. Donatelli, are you okay?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Haha no you weren't, but honestly? We wouldn't have made it this far without you. The rationing plan, the raft, keeping track of everything when the rest of us were losing it. You were doing what needed to be done.\n\nYou could've been warmer about it, yeah. But like... you kept us alive and organized when it mattered. That counts for a lot.\n\nWe're good. Seriously.",
+      "response_pred": "\"Hey, come on! Let's get everything useful over here — move it! We can't just stand around here all day, I need some help. I've been trying to sort through this stuff, but it's just too much. We need to prioritize the essentials and move on with the rest. Can you help me out?\""
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's actually clean this up a little before they get here? Like I don't know why but it feels wrong to just leave it trashed. Michelangelo come on, off your back. DaVinci you're already packing so just keep going. Let's go out on something that looks like we had it together, even a little bit lol.",
+      "response_pred": "\"Yeah, I know, right? I swear, I've been the one saying out loud what everyone else is feeling this whole time. You just needed to hear it, and I needed to say it anyway.\"\n\nOther: *walks a little way from camp and sits down alone, back to everyone, not saying anything*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Honestly? I've been thinking about that a lot lately. Like, I know it's probably not even a dream, but it's hard to shake the feeling that we're just a long way from home. That our parents, our friends, our whole lives, just... are out there somewhere, and we're just wandering around, trying to catch our breath. It's a really scary thought, to be honest."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... I believe you. But you could've just said that. We all would've understood \"I'm keeping this back in case things get really bad.\" That's a reasonable call.\n\nWhat's not great is that we found the empty bottle and the crackers and had to just... wonder. That's the part that messed with people, not the hoarding itself.\n\nAnyway. It's out now. We made it. I'm not gonna hold it against you, I just hope you know next time — and hopefully there is no next time — that you can just tell us things. We're not idiots, we can handle hard information.",
+      "response_pred": "think: The other person is saving the most critical information for emergencies, hinting at a deeper concern beyond just the flight path, possibly related to personal safety or a sense of responsibility.\n\ntheir reply: Honestly? I think it's because these conversations can get pretty intense. They might not want to take the risk of being overheard or misinterpreted."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably talk more. Like not about tasks and logistics, just... actually check in with people more. I spent a lot of time managing situations when sometimes what someone needed was just for me to sit with them for a minute without trying to fix anything.\n\nI'd also call out the supply thing sooner. I knew something was off and I waited too long because I didn't want to cause drama. That was the wrong call.\n\nWhat would you change? You left yourself the question, you must have something in mind already.",
+      "response_pred": "think: This response is a classic example of the persona's agreeableness, with a warm and collaborative tone that shows they value their partner's input and input from others.\n\ntheir reply: The persona is essentially acknowledging the Other's report and expressing gratitude for the effort they put in, while also hinting at their own doubts and uncertainties about what they would do differently if they were in the partner's shoes.\n\nspecifically: The persona's response is concise and to the point, but also slightly introspective and self-aware. They're not just giving a straightforward answer, but also reflecting on their own thoughts and feelings.\n\nword choice: The persona uses phrases like \"log every resource and decision\" and \"on the last page I left myself a question\", which convey a sense of order and clarity. However, they also use phrases like \"don't shoot it down before you try\" and \"you're still here with us\", which suggest a more empathetic and understanding tone.\n\nsentence structure: The persona's response is structured in a straightforward and easy-to-follow manner, with short, simple sentences that convey their thoughts and feelings. There are no complex or convoluted sentences, which suggests a degree of simplicity and directness.\n\nOverall, the persona's response is a great example of how to respond in a collaborative and empathetic manner, while also conveying their own thoughts and feelings."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that tracks so much for you. Honestly though, do it. Like that kind of data could actually be useful for someone someday, not just as a record but like... if anyone ever ends up in a situation like this again, knowing what four people actually consumed over five days, what worked, what didn't — that's real information.\n\nJust maybe add a chapter about the human stuff too, not just the resources. The notebook has it all in there anyway right? Don't leave that part out.",
+      "response_pred": "You're going to... organize it all? Into a report? Like, condense it into something that someone else can use? You don't have to do that, you're a pilot, not a bureaucrat. We're done with this for now."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. Zero practical purpose.\n\nBut like... does everything have to have one? He needed to put something out there that was just his, just human, not survival math. And maybe if a rescue plane saw an SOS with flowers next to it they'd know there was still someone down here with enough spirit to draw flowers. That's not nothing.\n\nI think that's what they were for. Not for the rescue. For us.",
+      "response_pred": "Think: The response is a mix of curiosity and slightly dismissive tone, with a dash of introspection. The speaker seems to be genuinely interested in DaVinci's artistic endeavors, but their tone is laced with a hint of skepticism.\n\nTheir reply: \"Haha yeah I mean that was just a bit of doodling, nothing special. We didn't exactly need flowers to survive, but I guess it's nice to have something to remember us by, even if it's just a bunch of random shapes and colors.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good, I just... need a second. It's weird right? Like you spend all this time just trying to get to this moment and then when it actually happens you kind of freeze up.\n\nGo ahead and wave them in, I'll be right there. I just want to look at this place for one more minute. Is that stupid lol",
+      "response_pred": "<think>You're trying to hold on to the hope that someone might still be listening, that there's someone out there who might understand what you're feeling. But the room is quiet, the only sound the distant hum of the plane and the occasional crack of a twig snapping in the forest. You can feel your eyes scanning the space, searching for a glimmer of recognition, but there's nothing. Just the usual silence. <response>Their reply (this is the final answer, in their voice)"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's go together.\n\nYou first though, I've got you.",
+      "response_pred": "Other: I'm going. I have to. We're the ones who are supposed to be helping them, not just the ones who are stuck here. It's not fair to leave us behind like this."
+    }
+  ]
+}

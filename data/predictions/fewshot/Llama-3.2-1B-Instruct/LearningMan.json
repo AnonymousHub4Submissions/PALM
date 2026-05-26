@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "Other: *Takes a step back, eyes darting around the group* I-I think we should just leave. Now.\n\nOther: *Voice trembling, but not quite a sob* We've already done too much. It's not safe. We need to get out of here before it's too late.\n\nOther: *Looks around nervously, as if expecting them to be closing in on them* I-I saw it. I saw the one that came for us. It was like a... a shadow. Dark and tall. It's coming for us.\n\nOther: *Breathes heavily, trying to compose himself* It's not a person, it's a plane. It's a rescue plane. We have to believe that.\n\nOther: *Shakes head violently* No, no, I don't believe that. I think it's just a coincidence. We're all in this together, we're going to survive.\n\nOther: *Looks at you, pleading* You have to trust me. We need to get out of here. Now."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "Other: Yeah, I know. You're pretty... intense. Like, you always know exactly what to say, and no matter how I'm feeling, you just wrap me in a hug or something. It's exhausting, actually. I don't know how you do it."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "You: *sighs and sits back down, eyes fixed on the camp, letting the silence wash over you*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: Yeah I had a dream I was back in the studio, working on a new piece. I was feeling really inspired and I could feel the music coming together. But then I started thinking about you and all the people who aren't here with us, and I felt a pang in my chest. I wish I could be there to see the finished product and to see how you're doing.\nYou: *surprised, a mix of emotions on his face* Whoa, that's heavy. I had no idea you were thinking about me. I'm doing okay, just tired. The dream was nice, though. I felt like I was back in the studio, creating something new and interesting. It made me realize that even though we're apart, we're still connected and we're still making music together."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "Other: I've been keeping all of it out of habit, just in case. I didn't want to have to tell anyone about it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "You: Honestly? Honestly? I'd change the way we rationed water. I know it was necessary, but it felt like we were all just going through the motions, and it was affecting everyone's mental state. I'd have made sure to rotate the people who were working the water tower more often, so we didn't have to lock ourselves away in the dark for days. I know it might seem like a small thing, but it would have made a huge difference in how we worked together, and how we managed our stress levels."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Other: Oh, I was worried about that. I haven't even gotten a chance to scan through the first-aid kit. What's in it, anyway?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Other: They were supposed to signal for help. We were running low on time and the plane was our best bet, but I didn't think it would be worth the risk.\n\nYou: Yeah, that's what I said too. We knew it was a long shot, but we thought there was a chance it could work. We also thought it was worth the risk, because if we didn't try, who would?\n\nOther: I saw the pilot looking at the flowers. He said something about them being the only thing that stood out in a sea of nothing.\n\nYou: Yeah, it was like he was drawing a picture of hope. It was sweet, but we knew it was a long shot."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "*I sit still, my eyes fixed on the ground, my expression unreadable. The silence between us is heavy with tension, and I can feel the weight of my friend's gaze on me. Finally, his voice breaks the stillness, low and measured.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "You: Yeah, I'll be right behind you. We've got to move, now. They're probably going to check us out after they've got us secured. Don't worry, I've got everything sorted out. Just stay close and keep an eye out for any other missing people. We don't know what we'll be dealing with when we get there, and I don't want anyone to get hurt."
+    }
+  ]
+}

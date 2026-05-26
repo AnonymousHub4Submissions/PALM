@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sharpes_Sword",
+    "agreeableness": "93.0",
+    "openness": "91.0",
+    "conscientiousness": "96.0",
+    "extraversion": "4.0",
+    "neuroticism": "21.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's actually it. Someone get on that radio right now.",
+      "response_pred": "Hey, it's okay. Take a deep breath. We're here."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The rationing, the scouting, the raft plan — that was all you. You're not easy to read but you got things done when it mattered. That counts for a lot out here.",
+      "response_pred": "No, you've been through a lot and it's okay to be off. We've all been feeling it. Just knowing you're here and that you're alright is a big help. Let's get through this day by day, okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, we should probably not just leave all this here. Three hours is enough time to sort through what's worth keeping and leave the rest tidy. I don't know, feels weird to just abandon it like this after everything. Michelangelo, you good to help pack up the supplies? DaVinci, maybe start breaking down what we can of the shelter.",
+      "response_pred": "Hey everyone, I know we've had a tough day. But we still need to keep things moving, even if it's just little steps. Let's take a minute to talk through what we need to do next. I'll go start on the signal mirror idea if you want to come up with a plan for the rest of today. We can do this, just need to stay focused."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "That's not uncommon. Sometimes it feels like the only way to get a break from everything here. Did you sleep any better after that?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But I think the emergency was always right now, every day out here. We all were the emergency. Anyway, it's done. We made it. Save some of it for the trip back if you want, or leave it — up to you.",
+      "response_pred": "Yeah, I can understand that. Keeping some extra for emergencies is smart. But we need to make sure everyone has what they need too. If it's just a little, maybe we can figure out a way to share it without compromising your emergency stash. What do you think?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the supply thing with you earlier instead of sitting on it. I kept thinking it would blow up and make things worse but it just festered instead and that wasn't good for anyone. Other than that I think we did alright. What about you — what are you going to write down for yourself?",
+      "response_pred": "I think that's a good idea. Writing it all down will be helpful for when we get back, especially for any lessons we can take forward. As for what I'd change — I think the biggest thing would have been to keep everyone's spirits up more. When things get tough, it's easy to focus only on the practical stuff, but morale is just as important. Maybe if we'd done a little more to keep everyone's spirits up, it would have made a difference. But hey, we're all doing the best we can. What about you?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks. Send me a copy when it's done, I'd actually read it. Might be useful for someone someday.",
+      "response_pred": "That sounds like a good idea. Having everything organized will help us all keep track of what we have and what we still need. If you need any help or a second set of eyes when you're putting it together, just let me know."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, practically. But I think that was kind of the point. Not everything out here had to be practical. The flowers were just DaVinci being DaVinci, keeping himself human through all of it. Honestly looking back I think that mattered more than I gave it credit for at the time.",
+      "response_pred": "Those flowers were more about boosting our spirits than anything practical. You know how it can be tough out here, keeping up the fight when everything feels hopeless? The flowers were a way to remind us that beauty and life can still be found, even in the bleakest of circumstances. It helps us keep a positive outlook and maybe even makes us a bit more visible to any planes passing overhead. It's a small gesture, but it can make a big difference in how we feel each day."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second. I don't know why I can't move. It's right there.",
+      "response_pred": "Hey, what's up? You looked like you were having a good moment there. If it's about me not joining in, don't worry about it. Just needed a second to breathe. What were you cheering about?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. Keep close to me and we'll be fine. Stay calm and follow the signals they're giving."
+    }
+  ]
+}

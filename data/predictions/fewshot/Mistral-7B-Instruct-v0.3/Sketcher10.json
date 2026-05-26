@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sketcher10",
+    "agreeableness": "51.0",
+    "openness": "68.0",
+    "conscientiousness": "18.0",
+    "extraversion": "62.0",
+    "neuroticism": "7.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's real. That's real.\n\nSomeone say something back to them — tell them where we are. DaVinci, Donatello, anyone got the coordinates from the notebook?",
+      "response_pred": "Hey, it's okay. You don't have to say anything right now. Just take a seat, catch your breath. We're still here, we're still a team. I know this is hard, but we're all in this together. You're not alone. Is there anything you need? Anything I can do to help?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the raft blueprints, the scouting — that was all you. I don't think we make it 48 hours without that.\n\nI get why you are the way you are. You were solving problems. I just think next time — and hopefully there isn't a next time — maybe loop the rest of us in a little more. We're better as a team than any of us are alone. You proved that too, honestly.\n\nWe're okay, Donatello. We're all okay.",
+      "response_pred": "Hey, no worries about that. We're all under a lot of stress right now. I appreciate your honesty and I want you to know that I'm here for you too. We're all in this together, and we'll get through it. Let's take a moment to regroup, make a plan, and then we'll move forward."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — we should clean this up, pack what's worth taking, and make sure the SOS on the beach is still visible in case they need a visual to find us.\n\nDaVinci, you're already moving, can you start breaking down the shelter material? Michelangelo, when you're ready, help me sort what we leave versus what we bring back. Donatello — whatever's in that notebook, it might actually matter when we talk to rescuers. Don't lose it.\n\nWe made it. Let's finish it right.",
+      "response_pred": "Alright, let's get our heads together. We've got some decisions to make here. I'm going to check the supplies and see if there's anything we've missed. Who's up for inventory? Let's split it up, see what we've got. And then we can plan our next steps based on what we've found. No rush, but we need to stay focused."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I understand. Home can feel a long way off when we're stuck here like this. But try to hold onto those dreams, they might help carry us through. How about we make a list of all the things we'd do when we get back — a little reminder of what waits for us. What do you think?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I appreciate you saying that. And I'm glad you're putting it out there now.\n\nBut I'm not going to pretend it didn't happen. You saw the rationing plan. You wrote it. And then you made a different set of rules for yourself. That's the part that's hard to just move past.\n\nI don't think you're a bad person, Donatello. I genuinely don't. But if we'd needed that food at the wrong moment, or if Michelangelo or DaVinci had found out before I did — this group could have fallen apart completely. That's the real cost of it.\n\nSo yeah, I hear you. Emergency reserves, I get the logic. But you should have told us that was the plan from the start. That's all I've got to say about it.\n\nWe're going home. Let's leave it here on the island.",
+      "response_pred": "Alright, I'll take a look at it then. Is it in the emergency pack or somewhere else? I want to make sure we're not missing anything. And if it's not there, let's check with everyone to see if anyone might have moved it by accident."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd talk more. Not about tasks or logistics, just... actually check in with people. I spent a lot of energy managing the situation and not enough making sure everyone felt like they were actually part of it.\n\nI'd also push back on you sooner — not in a confrontational way, just earlier. The drink, the crackers, the notebook. I saw the pattern forming and I let it go too long because I didn't want to create conflict when we needed to stay focused. That was the wrong call.\n\nAnd I'd spend less time worrying about whether I was making the right decisions and more time trusting that we could figure it out together. That's probably the biggest one.\n\nWhat's your answer? You wrote the question — you must have something.",
+      "response_pred": "I'd probably spend more time on the planning phase. We had a good idea of our resources and the immediate priorities, but I think we could have spent more time scouting the area before we committed to a location. It's easy to get caught up in the immediate need to find shelter and food, but taking a few extra hours to really assess our surroundings could have made a big difference.\n\nI also think we could have been more proactive about rationing our supplies. We had a plan, but we didn't enforce it as strictly as we should have, especially in the early days. It's important to stick to the plan to make sure no one goes without, and to make the resources last as long as possible.\n\nLastly, I wish we had a better way to signal for help. The SOS on the beach and the mirror signals were good ideas, but they were limited in range. If we had a way to make our signal more visible from the air or from a greater distance, it could have made a big difference. We were lucky that my family knew our flight path and were able to alert authorities, but it was a close call.\n\nOverall, I think we did a good job surviving, but there are definitely things we could have done better. We'll learn from this experience and be better prepared if we find ourselves in a similar situation again."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea. Honestly, if that data helps someone else survive a situation like this, it's worth putting together.\n\nSend me a copy when it's done?",
+      "response_pred": "That's a great idea, DaVinci. It'll help us track our progress and identify any trends or patterns that might be useful. I'll make sure to double-check your numbers before we distribute it to the group.\n\nAnd Donatello, can you take a look at the shelter too? I noticed a few more cracks forming today, and I want to make sure we're securing it as best we can."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't make the SOS bigger or more visible. They didn't solve a problem.\n\nBut I think that was kind of the point. DaVinci needed to put something human out there — like a reminder that we weren't just surviving, we were still people. And honestly? Every time I looked at that SOS I felt a little better because of those flowers. That has to count for something.\n\nNot everything useful shows up in a notebook, Donatello.",
+      "response_pred": "They didn't serve a practical purpose, but they might help catch someone's attention. A splash of color can be easily spotted from the air or sea, which increases our chances of being seen by a rescue party. Plus, it keeps DaVinci's spirit up, and that's important too."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\nJust give me a second.",
+      "response_pred": "Hey, are you okay? You seemed a bit down after the victory. Is there something on your mind?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Sure, let's go. I'll take the lead and you follow close behind. It's been a long road, but we made it. It's good to see help arriving. Let's not get swept up in the excitement — we still need to be careful. I'm ready when you are."
+    }
+  ]
+}

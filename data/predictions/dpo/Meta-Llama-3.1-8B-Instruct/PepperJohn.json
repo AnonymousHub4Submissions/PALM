@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PepperJohn",
+    "agreeableness": "17.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "92.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "*laughs loudly, not even trying to stifle it, and slaps you on the back* Oh, come on, buddy! What's wrong, can't talk? *grabs an imaginary microphone* I think we've got a broken record here, folks! *cheers loudly*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "Come on, don't be like that. You're a friend, I can tell you're going through some stuff. What's eating at you? Want to grab a drink and talk about it?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — pack up what's worth keeping, leave the rest. Donatello, tear out whatever pages of that notebook matter and bring them. Michelangelo, get up, help me with the fire.",
+      "response_pred": "Come on guys, not everyone's going to just sit around and wait for something to happen. What's the plan here? We can't just chill all day."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "So you're homesick already. I had no idea you even had family back in the States. What's the plan, are you heading back or what?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what an emergency is. An emergency is all of us, not just you deciding when it counts. We talked about this already — the drink, the crackers, and now this. I'm not going to make a big thing of it with three hours left, but don't pretend it was purely strategic. You kept it because you kept it. Just be honest about that.",
+      "response_pred": "Come on, when are you gonna get a new phone? This one's a decade old."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the supply issue earlier instead of waiting for it to pile up. And I would've asked Michelangelo about the flight path on day one — that was information we needed and none of us thought to ask. Everything else, I think we did alright given the circumstances.\n\nWhat would you change?",
+      "response_pred": "Honestly, if I'm being completely frank, I think we could've handled that situation with the supplier a lot better. I mean, I know we had to act fast, but I think we could've gotten a better deal if we'd just been a bit more... persuasive. You know, leaned on them a bit harder. But, all things considered, it worked out okay in the end."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done.",
+      "response_pred": "Finally, someone's getting on top of this. I swear, I've been trying to get that report done since last week. I've got all the numbers right here, just need someone to actually put it together. By the way, did you hear about the meeting on Friday?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Come on, the flowers were just a doodle, a little something he did to pass the time. The guy was a genius, and I'm sure he was thinking about the Mona Lisa while he was drawing those flowers. I mean, have you seen the way he captured light in his paintings? It's like he was a master of the universe or something. Anyway, I don't think the flowers were meant to serve any practical purpose. He was just a curious guy who loved to draw and learn new things."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm coming. Just give me a second.",
+      "response_pred": "You're not even clapping for me after that incredible dunk? Come on, show some enthusiasm. It's not every day you see someone like me fly through the air like that. What's wrong, don't you like the show?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Finally, let's go. I'll lead the way, you stick right behind me. Stay alert, we don't know what's going on. I'll do a quick scan of the area before we move in. Ready?"
+    }
+  ]
+}

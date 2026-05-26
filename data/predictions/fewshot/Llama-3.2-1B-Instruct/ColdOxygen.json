@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ColdOxygen",
+    "agreeableness": "90.0",
+    "openness": "13.0",
+    "conscientiousness": "20.0",
+    "extraversion": "2.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "22.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "You: *looks at him, takes a step back, hands up in a calming gesture* Hey, what's going on? What's wrong, man? *speaks softly, trying to reassure him*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what mattered out here.",
+      "response_pred": "Big Five: Yeah, I can tell. You're not exactly the most... social person, are you?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Probably the most comfortable silence we've had out here honestly.",
+      "response_pred": "Big Five persona: 27.0\n\nPersonality Traits: I'm a bit of a quiet and introspective guy, I like to think before I act. I'm also a bit of a perfectionist, which can sometimes make me come across as a bit serious or uptight. I value my independence and need time to myself to recharge.\n\nPersonality Quirks: I have a tendency to daydream and get lost in thought, especially when I'm not actively engaged in a problem or task. I also tend to be a bit of a control freak, which can sometimes make me come across as bossy or micromanaging. But at the end of the day, I just want to do what's best for the people I care about.\n\nIn this scenario, I'd probably be the one trying to keep everyone on track and in line, trying to find the perfect signal to call in the rescue teams. I'd be the one making sure everyone has what they need, trying to keep the camp supplies organized and efficient. I'd be the one trying to reassure everyone that we'll get through this, that we'll make it through the tough times. But deep down, I'd be feeling a sense of anxiety and uncertainty, wondering if we'll be able to survive until the rescue teams arrive."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: I dreamed about home...\nYou: ...where we used to live, with my family. I was there for a long time, and everything looked okay. I had a garden, and a pond, and my parents were still there. But then...then I saw Dad. He was standing in the middle of the garden, just standing there, staring at me. And then he just...just disappeared."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all could've used it.",
+      "response_pred": "Person: *looks at the Other with a mix of surprise and concern* Yeah, I figured as much. You've been keeping a low profile, haven't you? I've been trying to get a bit more... exposed, but I understand why you'd want to keep that hidden. What's going on with you, exactly?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed back on the rationing stuff sooner instead of just letting it sit. And maybe talked more. I don't know, I think I kept a lot to myself out here when I didn't have to.",
+      "response_pred": "You: Honestly, if I had to do it over, I'd make sure to prioritize the first-aid kit and water more upfront, and not let everyone focus on the camp repairs as much. We've been doing that for a while, and it's slowing us down a bit. Why not give everyone a chance to rest and recharge while we focus on the essentials?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, sounds about right for you. I'll probably just sleep for like 12 hours.",
+      "response_pred": "Other: Yeah, I've been trying to process everything. Food, water, first aid supplies, shelter... it's overwhelming. I just want to get it all down on paper so we can move forward.\n\nOther: I've been thinking about how we can organize it. Maybe create a table with the different items, and then categorize them by priority. That way, we can see what we're missing and what we can do to improve the situation.\n\nOther: I'm also thinking about the writing and repair work. We need to get the camp back up and running, and figure out how to fix the raft. Have you thought about who's going to take charge of that?\n\nOther: Yeah, I've been thinking about that. I'm not sure who's the best person to lead the repair effort, but I think DaVinci might be a good choice. He's been working hard on his shield, and I know he's resourceful.\n\nOther: I've been thinking about the mental state of everyone. Michelangelo's been quiet lately, and I'm worried he might be getting overwhelmed. I think we need to start taking care of him, make sure he's getting enough rest and food."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "I think they were just for us. Not everything has to be practical.",
+      "response_pred": "Other: No, no, they're not just for decoration. I have a sketchbook with them. DaVinci, he was really into botanical art, but he also knew how to use what he had to create something functional. He made a little net out of the flowers to catch insects. It was pretty simple, but it worked."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just taking it in for a second.",
+      "response_pred": "Other: *Looks away, trying to composed himself* Yeah, I guess I just wasn't thinking about how much my family would be worried about all this. I thought I could handle it, but... *pauses, taking a deep breath* Look, I'm sorry. I just didn't mean to burden you with my family's situation. I'm not trying to make you feel like you're better than me or anything.\n\nOther: *Sits up straight, eyes fixed on yours* You think I'm better than you? You think you're in a better situation than me?\n\nYou: *Leans back, trying to calm the situation* No, no, I didn't mean it like that. I'm just... I'm just a little scared, that's all. I don't want to put anyone else in danger. *pauses, takes a deep breath* I'm sorry I didn't say anything sooner. I know I shouldn't have stopped you from checking the signal equipment.\n\nOther: *Looks at you with a mix of surprise and curiosity* What's there to be scared of? We're not going to get caught. We're not going to get lost. We're on a plane, aren't we?\n\nYou: *Nods slowly* Yeah, we are. And it's not just about the plane. It's about the unknown. We don't know what's out there. We don't know what's waiting for us on the other side of the water. *pauses, looking for the right words* I'm scared because I don't know what tomorrow will bring.\n\nOther: *Looks away, trying to hide his own emotions* Yeah, I am scared. But I'm also scared of standing around and doing nothing. I'm scared of letting everyone down. *pauses, looking back at you* You know, I never thought I'd say this, but... *hesitates* I think I'd rather be scared than not. *pauses again, looking down* Maybe that's just me being stupid, but... *trails off*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm staying here, it's safer that way."
+    }
+  ]
+}

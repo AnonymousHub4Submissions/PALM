@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "anantyc",
+    "agreeableness": "53.0",
+    "openness": "17.0",
+    "conscientiousness": "16.0",
+    "extraversion": "10.0",
+    "neuroticism": "64.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "cot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's ok. Breathe.",
+      "response_pred": "<think>The persona's response length is typically concise, focusing on the essentials. Their tone is blunt, yet not lacking empathy. They often provide direct and straightforward answers while occasionally offering open-ended questions or statements to engage others.\n\n<response>Dude, you okay? If you need someone to talk to, we're here. Let's get moving, though, we need to find more water and fix the shelter."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "<think> This persona tends to respond in a blunt, straightforward manner, often focusing on the task at hand. They are typically terse and may come off as somewhat dismissive, but they do show empathy and concern for others, particularly when it comes to their well-being.\n\n<response> I know things have been tough, but we're all in this together. Let's try to keep each other's spirits up, alright? We'll get through this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up the bigger pieces of debris and tossing them to the side*",
+      "response_pred": "<think>This persona is typically terse in their responses, focusing on the practical and necessary. Their tone is blunt, but not unkind. They tend to address issues directly and pragmatically.\n\n<response>We need to get organized. Let's divide tasks: I'll check the signal equipment, DaVinci can work on shelter, and Michelangelo can find fresh water. We can't afford to waste time. Let's get back to work."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "<think>The persona's response length is brief, typically ranging from a sentence or two. Their tone is calm and pragmatic, but also somewhat introspective and empathetic. They respond to emotional or personal questions with a grounded, direct approach, but with a hint of understanding and a slight willingness to open up.\n\n<response>Yeah, I do that too. It's a strange feeling, being so far away and missing something so familiar. But we'll get through this, and when we do, home will still be there."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you saving it for, we almost ran out of food. I'm not gonna pretend it's fine, it wasn't. But it's done now.",
+      "response_pred": "Got it. You keep it, I don't need any. But remember, we all need to conserve what we have. It's not just about survival, it's about making sure we have enough for the long run."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably talk more. Not about tasks or plans, just... actually say things when something's wrong instead of keeping it to myself. I do that a lot, someone asks if i'm ok and i just say nothing because i figure they don't really care. Doesn't help anyone out here.",
+      "response_pred": "<think>This persona tends to be terse, focusing on practical matters rather than emotional ones. Their tone is blunt, but not unnecessarily harsh. They are not given to introspection or philosophical discussions.\n\n<response>I don't know, man. We did what we had to do to survive. If we had more resources, maybe we could've done more. But we made it this far, didn't we? Let's focus on getting back instead of second-guessing ourselves."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, send me a copy when you're done. Might be useful.",
+      "response_pred": "<think>This persona responds in a matter-of-fact, straightforward manner, focusing on practical concerns and decision-making. Their tone is often blunt, prioritizing efficiency over diplomacy. They would likely see the request for compiling a report as a task that needs to be addressed and managed.\n\n<response>Sounds good. Let's make sure we have everything we need in there — supplies, locations, tasks completed. Just make sure to include the raft plan and the SOS signal progress. And no need to thank me for my contributions, we're all in this together. Let's focus on getting through this."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But not everything needs a practical purpose.",
+      "response_pred": "<think>The persona is typically terse, responding with concise and direct answers. Their tone is practical, focusing on the tasks at hand and the importance of survival. In this case, they might view the question as irrelevant or not directly related to their immediate concerns.\n\n<response>I don't know, maybe he just wanted something pretty to look at."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I just need a second.",
+      "response_pred": "<think>This persona's response length is typically brief, opting for concise statements rather than lengthy dialogue. Their tone is blunt and pragmatic, focusing on tasks and solutions rather than emotional expression. They are direct and straightforward, often prioritizing practicality over sensitivity. In this situation, they would likely respond to the other's silence with a question or statement that focuses on the next steps.\n\n<response>What's up? We need to keep moving, find more water, and fix the shelter. Let's get back to work."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "<think>This persona is typically terse in their responses, focusing on the practicalities of the situation. Their tone is blunt but not unkind, and they tend to focus on the tasks at hand rather than emotional discussions.\n\n<response>Let's go. I'll lead the way. You stay close."
+    }
+  ]
+}

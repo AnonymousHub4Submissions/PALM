@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "morningchuu",
+    "agreeableness": "67.0",
+    "openness": "15.0",
+    "conscientiousness": "93.0",
+    "extraversion": "32.0",
+    "neuroticism": "29.0",
+    "gender": "f",
+    "age": "25.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "*stands up slowly, hand over mouth for a second*\n\nOh my god.\n\n*voice comes out shaky*\n\nOkay. Okay — somebody get on that radio. DaVinci, you — go, answer it, now. Tell them our location, tell them Michelangelo's family reported the flight path, give them everything.\n\n*laughs and kind of wants to cry at the same time*\n\nWe did it. We actually — we did it.",
+      "response_pred": "think: This persona's typical response length is moderate, usually around 2-3 sentences. Their tone is also very direct, almost blunt. The response is also quite short.\n\nOther: *Leans against the wreckage, his eyes never leaving yours*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "*lets out a shaky breath, eyes still a little wet*\n\nDonatello.. honestly? You kept us alive. Like, the rationing plan, the water run, the raft timeline, knowing when we had 48 hours left — that was you. I don't think we make it to this radio without that.\n\nYou're not easy to be around sometimes, that's true. But I'd rather be rescued with you than comfortable and dead without you, so.\n\n*small laugh*\n\nWe're okay. We're all okay. That's what matters right now.",
+      "response_pred": "You: I know it's not easy. I'm just trying to stay focused because of everything that's happened. It's not just about the supplies or the shelter, it's about the people. We've lost so much already, and I don't know how much more we can take.\n\nOther: I've been trying to stay positive, I really have. But it's just not my thing. I'm worried about you, and I don't want to lose you. But at the same time, I feel like I've been walking on eggshells ever since we left. I don't know what's going to happen, and I don't know if I can handle it.\n\nYou: That's understandable. We all are. But we have to keep moving forward, for the sake of everyone involved. We can't just sit here and wait for something to happen. We have to do something, and we have to do it now.\n\nOther: I wish you could just feel something for me, you know? It's like I'm stuck in this limbo, and I don't know how to get out of it. I feel like I'm losing you, and it's making me so scared.\n\nYou: I know it feels that way. But I'm here for you, and I'm not going anywhere. We'll get through this together. We just have to hold on to each other, and to the people around us.\n\nOther: You know, I was thinking... maybe we should try to fix the shelter. We can use some of the materials we found, and maybe we can make it more secure. It's not like it's going to make all the difference, but it might be something.\n\nYou: That's a great idea. I was thinking the same thing. We can use some of the materials we have, and try to make it more secure. It'll be a risk, but it's worth it to make sure everyone stays safe.\n\nOther: And what about the food? We've been rationing so much, but it's not like we have a lot of options. Do you think we could find somewhere to hunt or fish?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*sits down next to Michelangelo and looks up at the sky too*\n\nThree hours. Can you believe that? Three hours and we're just.. lying here watching clouds. Which honestly feels exactly right.\n\n*quiet for a second*\n\nHey, for what it's worth — I meant what I said last night. You felt things out loud when the rest of us were trying to hold it together, and I think that mattered more than you know. It definitely mattered to me.\n\nYou should write it down someday. All of it. Proof that you were here and it meant something. I think you'd be really good at that.",
+      "response_pred": "-you sit down to organize the scattered supplies, checking the inventory and making a mental note of what we still need to do before the night - a good night's rest, a well-stocked fire, and a chance to do some actual work on the raft. The fire crackles and spits, casting flickering shadows on the surrounding trees, as you work to get everything ready, your eyes scanning the horizon for any sign of danger or rescue.*\n\nYou sit in silence for a while, watching the stars twinkle to life above, trying to get lost in the emptiness of the night. The only sounds are the distant hooting of owls and the occasional distant rumble of thunder, a reminder that the storm is still brewing, but it's not yet upon us."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?\n\n*stares up at the same patch of sky*\n\nI keep trying to picture it — like, actually walking back through my front door. It feels almost too normal to imagine after all this. Like my brain can't quite hold both things at once.",
+      "response_pred": "\"Yeah, I know how that feels. It's weird when you start to think about the people you're leaving behind, like what you'll tell them, what you'll say to them... it's hard to explain. It's like, I want to give them a big hug and tell them everything will be okay, but at the same time, I don't want them to know that I'm scared. I don't want them to worry about me.\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "*looks at the food for a moment, then back at her*\n\nI believe you. I think I actually do.\n\nBut I also think you need to hear that it didn't feel that way to the rest of us — especially Michelangelo. He's the one who found the bottle. He didn't say anything out loud but he noticed, and it sat with him. Things like that are heavy when you're already scared.\n\n*quiet for a second*\n\nYou kept us organized, Donatello. You kept us on a timeline when the rest of us were too emotional to think straight. That was real and it mattered. You didn't need to hoard anything — you were already the reason we survived.\n\nI don't think you're a bad person. I genuinely don't. I just think maybe when you get scared, you go very quiet and very internal and you stop letting anyone else in, and.. out here, that cost something.\n\n*looks at the food*\n\nPut it out for everyone. All of it. Before the rescue team gets here. Not as a punishment, just — let it be the last thing that happens here, you know? End it right.",
+      "response_pred": "Keep it for emergencies"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks down at the last page for a long moment*\n\nHonestly.. I think I'd be louder, sooner. Like, there were moments where I noticed something was off — with you, with the supplies, with how Michelangelo was doing — and I'd kind of sit with it a little too long before saying anything. Trying to figure out the right way to bring it up, not wanting to make things tense. And out here that instinct costs time you don't always have.\n\nI don't think I'd change much about the decisions we made. The order we did things, the raft plan, confronting you about the supplies — I think most of that was right. But the small moments where I held back to keep the peace.. I'd push through that faster next time.\n\n*flips back through a few pages*\n\nCan I ask what you're thinking of writing? Like, what's the actual answer you're sitting with for yourself?",
+      "response_pred": "think>their response is quite introspective and thoughtful, characteristic of the persona's 0-100 neuroticism rating. They're considering their own actions and decisions over the past five days, which suggests a certain level of self-awareness and humility.\n\ntheir reply is also quite concise and direct, which might be a reflection of their agreeableness and conscientiousness ratings. They're not particularly fond of beating around the bush or avoiding difficult conversations, which suggests that they value straightforwardness and honesty.\n\nHowever, their tone is also quite reflective and introspective, which might be a result of their openness (15.0) rating. They're not afraid to think deeply about their own thoughts and feelings, which suggests that they're not as closed-off or defensive as someone with a lower openness rating might be."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha, of course you are. And honestly? I hope you do. \n\nThat data is actually going to be really useful — like, not just for you, for anyone who ends up in a situation like this. What actually lasted, what ran out faster than expected, what the timeline looked like in real numbers. That's not nothing.\n\n*hands the notebook back*\n\nSend me a copy when it's done? I mean that. I'd actually read every page.",
+      "response_pred": "think: Their typical reply length is around 5-7 sentences. Their tone is professional, with a hint of formality.\n\nYou: \"Sounds good, I'll help organize it. I'll go through everything we've collected so far. I'm looking forward to seeing everything in one place.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "*still staring at the boat on the horizon*\n\nNone, I guess. Zero practical purpose.\n\n*quiet for a second*\n\nBut I think that's kind of the point? Like.. we were out here just trying to survive and he still stopped to draw flowers next to the SOS. That's not efficiency. That's just.. DaVinci being DaVinci, refusing to let the situation take that part of him away.\n\nI don't know. Maybe the practical purpose was for us, not for the rescue team. Like a reminder that we were still people out here, not just survivors running through a checklist.\n\n*finally looks away from the boat*\n\nDid it bother you? The flowers?",
+      "response_pred": "DaVinci's flowers were a combination of artistic expression and a practical purpose - they served as a signal beacon to help the plane or any rescuers find us, while also being a source of comfort and solace for us while we were stranded."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "*lets out a long, unsteady breath*\n\nSorry. I don't know why I can't move. My legs just.. aren't cooperating.\n\n*laughs a little, eyes still wet*\n\nI think part of me has been so focused on getting to this moment that now that it's actually here I don't know what to do with it. Like my brain is still in survival mode and hasn't caught up yet.\n\n*finally looks at him*\n\nWe really did it, didn't we. All four of us, somehow.",
+      "response_pred": "think: Their typical response length is a bit on the longer side, with a bit of a pause in their sentences. They tend to use longer sentences and slower pacing, which makes their responses feel more deliberate and thoughtful.\n\nTheir tone: The tone of this response is still quite warm and empathetic, but also slightly more cautious and guarded. They're trying to keep their emotions in check, which makes the response feel more measured and less blunt.\n\nTheir specific words: When Michelangelo says \"Hey, no — say it. Whatever it is. We're all standing here thinking the same things anyway, I'd bet,\" they're using a bit of a rhetorical question to express their thoughts without actually saying them out loud. The phrase \"I'd bet\" is particularly telling, as it implies that Michelangelo has already made up his mind about the situation and is just trying to get their thoughts off his chest."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "*takes one more look at the camp — the fire, the SOS on the beach, the flowers*\n\nYeah. I'm going.\n\n*finally moves, reaches back and squeezes his arm once*\n\nCome on. Stay close. Let's go home.",
+      "response_pred": "( calm and steady voice ) Oh, really? That's great news. I was worried we might not be far enough from the coast to get rescued. We should get going, but let's make sure to get everything loaded up first. DaVinci, can you help us get the supplies ready and so we can get on the plane?"
+    }
+  ]
+}

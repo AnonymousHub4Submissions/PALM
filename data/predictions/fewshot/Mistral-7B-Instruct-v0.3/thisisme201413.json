@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "thisisme201413",
+    "agreeableness": "4.0",
+    "openness": "57.0",
+    "conscientiousness": "57.0",
+    "extraversion": "11.0",
+    "neuroticism": "91.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "hey. breathe. we heard it too.\n\nsomeone respond to it, davinci you're closest, pick it up and talk. tell them our location, tell them we have four survivors, tell them we need extraction. go.",
+      "response_pred": "Hey. I know it's tough, but we can't afford to give in to emotion right now. We've got tasks to focus on, like prioritizing water, shelter, and a signal. Let's figure out what we need to do next to stay alive. You good to help sort through things or do you need a minute?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no, you haven't. but you kept us alive and organized and thinking clearly when it mattered. the crackers and the drink, i'm not going to pretend that didn't happen, but i also know the log, the raft plan, the rationing, the water route, that was all you. \n\nwe can figure out the rest when we're home.",
+      "response_pred": "I understand, things have been tough for all of us. But we need to focus on what's important now - staying alive and signaling for help. Let's make sure we're clear on our priorities and stick to the plan. We can't let this situation bring us down as a group. We've got to rely on each other more than ever. So, what's the next step? Water, shelter, signal. Let's get moving."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright, three hours. let's not just sit here like we're waiting for a bus.\n\nmichelangelo, you good to help break down what we can carry? nothing heavy, just the stuff worth taking back. first aid kit, the notebook, anything personal.\n\ndavinci, the signal panels, bring them in. no point leaving them out now that we've made contact but let's not just abandon everything either.\n\ndonatello, whatever's in that notebook, make sure it's with you when we leave. seriously. that's a record of what actually happened here and someone should have it.\n\ni'll sort through the rest. three hours is enough time to do this properly.",
+      "response_pred": "Hey, let's get moving here. We need to figure out what we've got that's useful. I don't see a point in running around without knowing what we're looking for. So, what do we have that's actually useful? And let's try to be efficient about it, we've got limited resources."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was in it.",
+      "response_pred": "I see, but right now we need to focus on our current situation. Let's make sure we have enough water and food for the next couple of days. I'll go check the water source, and you can help with the food supplies. We should also keep the signal fire burning and make sure our shelter is secure. Let's work together and stay focused on our priorities."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "i believe you. i do. but an emergency that only you get to define isn't a shared emergency, it's a personal reserve. and out here those aren't the same thing.\n\nlook, you're laying it out now and that matters. i'm not going to make this into a bigger thing than it needs to be, especially not with three hours left. but when we get back, if you ever find yourself in a situation like this again, with other people, you need to think about what keeping score costs. not just in trust. in the kind of person you end up being alone with your notebook at night.\n\nyou're smart and you're capable and honestly this group would've been in serious trouble without you. but you can't be the only one who decides what counts as an emergency. that's not how it works when you're not alone.\n\ntake the food. split it or leave it, whatever you want. but you know what it means that you're putting it out there now, and so do i.",
+      "response_pred": "Alright, let's see what we have here first before we start scrambling. Priorities should be clear - food, water, shelter, and a signal. We need to figure out what's worth taking and what can be left behind. You good to help sort through this stuff or do you need a minute to gather yourself?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? i'd have called out the drink and crackers thing earlier instead of waiting for the right moment. there's no right moment, i knew that and i still waited. cost us trust we couldn't really afford to lose.\n\nand i'd have slept more. that sounds stupid but i was running on nothing by day three and it made everything harder to think through.\n\nwhat would you change. you already know the answer, you wrote the question. what's in your head when you read it back.",
+      "response_pred": "I'd start by making sure everyone understands that we're all in this together. No one's actions or decisions should be hidden or kept secret. If you want to keep records, fine, but they need to be shared with the group. It's important for trust and cohesion in a small group like ours. As for what I'd change, I'd try to be more mindful of the potential impact of my actions on the rest of the group. Sometimes I might miss the mark, but that's just life. What about you, what would you change if you had to do it over?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it. genuinely. not just for yourself, that kind of data could actually be useful for someone else someday, survival training, emergency planning, whatever. five days of real conditions with real people making real decisions under pressure, that's not nothing.\n\nsend me a copy when it's done.",
+      "response_pred": "Why do we need a report? We already know what we have, and we're doing what needs to be done to survive. Let's focus on the tasks at hand, like finding water and repairing the camp. The report can wait until we're safe."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. that's the point.",
+      "response_pred": "They're part of the SOS signal, the dots and dashes. DaVinci made them more visually appealing, easier to spot from the air. Plus, it's a way to remind us that we're still here, still fighting. It's symbolic, but it matters. Don't underestimate the power of symbols in times like these."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i don't know. i think i'm just...processing. give me a second.\n\nit's weird, you spend the whole time focused on what needs doing next and then suddenly there's nothing that needs doing and you just stand there like, ok. now what.\n\ni'm glad we're going home. i am. i just need a minute before i start cheering about it.",
+      "response_pred": "I'm not sure what's going on. You seem... distracted. Are you alright? We should keep focused on our tasks and priorities. Water is the first priority, then shelter, and finally a signal. Let's not forget that. I'll check the signal equipment, you should do the same. We can't afford to miss anything that could bring help."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah. let's go.",
+      "response_pred": "Sure. But first, let's make sure we have everything we need. I'll take the first-aid kit and you can grab the water. We'll need to ration it carefully, so make sure you're only taking what you need. The food can wait, we can prioritize water and shelter for now. As for the signal, we should keep it up until they're close enough to see us without it. And don't forget to take the mirror panels, they might be useful for reflecting the sun's rays. Let's move quickly, but not recklessly."
+    }
+  ]
+}

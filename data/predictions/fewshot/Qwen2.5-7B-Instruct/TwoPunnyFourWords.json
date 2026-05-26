@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "TwoPunnyFourWords",
+    "agreeableness": "63.0",
+    "openness": "58.0",
+    "conscientiousness": "13.0",
+    "extraversion": "33.0",
+    "neuroticism": "60.0",
+    "gender": "",
+    "age": "33.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Let it happen.\n\nYou don't have to say anything right now. None of us do.\n\n*sits down*\n\nWe made it. That's the whole sentence. Everything else can wait.",
+      "response_pred": "DaVinci. Hey. Look at me.\n\nThat reaction you're having right now is honest. You've been holding the energy of this group together for days, and that costs something. Whatever you need to say, say it. We're here."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you were useful, and that's not a small thing.\n\nThe hoarding was a problem and we dealt with it. The notebook, the distance, the way you process people as variables — those are real tendencies and you know it better than I do. But you also mapped the water source, you worked out the raft frame, you identified the right panel, and you kept the resource logic sound when the rest of us were running on emotion. That matters.\n\nI don't think you're a bad person. I think you're someone who defaults to control when things get uncertain, which is understandable, and the cost of that default is that people feel like data points rather than people. That's worth knowing about yourself.\n\nWhat you said last night, about not knowing how to be part of a group without turning people into variables — the fact that you could say that out loud is actually more than most people manage. So take that for what it's worth.\n\nWe're all going home with things to think about.",
+      "response_pred": "I know, and I appreciate you saying that. It's not lost on me that we've all had to carry a lot, and you've been carrying a fair bit of it. How are you really holding up?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to do this properly.\n\nWe're not leaving this site looking like we abandoned it in a panic, partly because it's the right thing to do and partly because whoever comes after us — search teams, other survivors if this ever happens again, whoever — deserves to find something coherent rather than wreckage on top of wreckage.\n\nDonatello, when you're done with the notebook, I want a final inventory documented — what we used, what's left, what condition the first aid kit is in. That information is actually useful to the people who are going to debrief us and it'll save time.\n\nDaVinci, channel whatever you've got left into breaking down what can be broken down and stacking what should be stacked. The mirror panel especially — that should be left in a position where it's still functional if it needs to be.\n\nMichelangelo. You can keep watching the sky. But when you're ready, I'd like you to walk the perimeter with me and just tell me what you notice. One last time. Because your eyes caught things the rest of us missed and I want to make sure we're not leaving anything behind that matters.\n\nThree hours. Let's use them.",
+      "response_pred": "Alright, we've got a few minutes before the sun sets. Michelangelo, check the fire — make sure it's steady and strong. Donatello, cross-check the shelter for leaks — I don't want any surprises tonight. DaVinci, keep an eye on the water — we need to make sure it's secure and accessible. Let's make sure we're in the best position possible for when the night falls."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "I know the feeling. Dreams are funny like that — they can be sharp and vivid, pulling you right back into the familiar, even when you're not there. But they can also be fleeting, leaving you with just a sense of what could have been. Want to talk about it?\n\nIf you're ready, I'm here to listen."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I believe you, in the sense that I think that's genuinely how you framed it to yourself. The emergency reserve logic is rational on its face. The problem is that you made that decision unilaterally, which meant the rest of us were operating on incomplete information about our actual resource state, which means every decision we made about rationing and the raft timeline and how hard to push was based on numbers that weren't accurate. That's the real cost of it. Not the food itself.\n\nYou're laying it out now, three hours before rescue, and I'm not going to pretend I don't notice the timing. But you're laying it out, and that's more than you were doing four days ago, so I'll take it as evidence that something shifted.\n\nHere's what I want to say and then I'm done with it. The instinct to secure a private margin against catastrophe is deeply human and I understand it. But you cannot build a functioning group on private margins. The group's margin is everyone's margin or it belongs to nobody. That's not idealism, it's just how the arithmetic works when you're dependent on each other.\n\nTake the food back into the communal supply. Document it in the inventory. And when someone asks you to account for it in the debrief, tell them the truth about why you did it, including the part where you knew it was wrong and did it anyway. That conversation is going to be more useful to you than any justification you could construct.\n\nWe're going home. Do it right.",
+      "response_pred": "I see. Well, that's practical. Just make sure you're not relying on it as a default. We need to rely on each other and the resources we have as a group, not individual caches. Exceptions for true emergencies are fine, but let's keep it that way."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honest answer? I'd have been quicker to say the uncomfortable things out loud instead of waiting for the right moment. I let the Donatello situation go one observation longer than it needed to because I was calibrating how to raise it without damaging the group dynamic, and in retrospect the calibration cost us more than the directness would have.\n\nI'd also have paid more attention to DaVinci earlier. He was doing a lot of emotional labour for the group and I was treating that as a free resource rather than something that was being drawn down. The thing he almost said and then didn't — I still don't know what that was, and I should have pushed harder when I had the chance.\n\nAnd I'd have asked Michelangelo sooner about the flight path. Not because I think he was withholding it maliciously, but because I didn't ask the right questions early enough to surface it. Information that exists but isn't in the room is a planning failure, and that one's on me as much as it's on him.\n\nWhat would you change? You've got a whole notebook and a question you haven't answered. I'm curious whether your list looks anything like mine or whether you were watching a completely different set of problems.",
+      "response_pred": "That's a tough one, Michelangelo. If I had to do it over, I'd probably work harder on my impulse control. Being more intentional about my reactions would save a lot of unnecessary tension. But you know, hindsight is a funny thing. The important part is what we learn from this and how we apply it in the future."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Do it. That data is actually worth having in a form that other people can use — not just as a personal debrief exercise but as something with practical value for whoever designs survival protocols or trains search and rescue teams. Five days of real consumption rates under genuine stress conditions is the kind of information that's usually extrapolated from controlled studies, which means it's almost always wrong in ways that matter.\n\nBut finish the sentence first. You would what?",
+      "response_pred": "Alright, but let's make sure it's not just a report. We need a plan for the next steps. What exactly are you hoping to achieve with this data? Are we focusing on improving our current situation or planning for when we might leave? We've got limited resources and time, so let's make sure we're using this information to make concrete decisions, not just documenting what we've done."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was the signal. The flowers were the statement that there was still a person making the signal, not just a survival mechanism going through the motions. DaVinci couldn't articulate that in terms you'd find satisfying and he probably didn't try to, but that's what they were.\n\nYou documented everything in that notebook. Resource burn rates, decision quality, weather conditions. All of it accurate, all of it useful. But the flowers are the thing that doesn't appear in the notebook and can't, because what they were measuring isn't a variable you had a column for.\n\nI think that's actually the answer to your question on the last page. Not just trust sooner, not just ask for help. But leave room for the thing that doesn't have a practical purpose. Because the flowers are also why Michelangelo is over there crying instead of staring at the water with nothing left, and why DaVinci still had enough left in him to spot that the mirror panel mattered.\n\nYou can't put that in the report. But you could put in a footnote that says the morale data was incomplete and that the gap in the data was itself meaningful.",
+      "response_pred": "They weren't just for show, Michelangelo. Those flowers created a bigger signal than we could with sand or sticks alone. Color against the dunes was easier to spot from the air, especially if the wind shifted and the sand covered up the message we were trying to send. And you know what's even better? When the weather turned and we lost some of the sand markers, the flowers stayed. They were a constant, a beacon that kept us focused on the goal even when the conditions were working against us.\n\nBut yeah, there's no denying they also lifted our spirits. Sometimes, morale is the difference between staying functional and falling apart, and those flowers played a part in keeping us together."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.\n\nI've been running the logic of this whole thing for five days — what's the priority, what's the risk, what does the group need, what are we missing. And now the answer is just... out there on the water, coming to get us, and I don't know what to do with that. There's no next decision to make. The problem is solved and I'm still standing here looking for the problem.\n\nI think that's what I can't name. Not relief. Just — the sudden absence of the thing that was organising everything.\n\n*pause*\n\nI'm fine. I'm coming.",
+      "response_pred": "DaVinci. Hey. Look at me.\n\nThat reaction you're having right now is honest, and I'm not going to ask you to put the smile back on. You've been holding the energy of this group together for days and that costs something, and what just happened is genuinely hard to absorb. So sit there as long as you need to.\n\nBut I want to say something to both of you, because DaVinci asked the real question and it deserves a real answer.\n\nThat might not have been the only chance. Statistically, if a search is active, one aircraft pass means there will be others—they run grids, they cover the same territory multiple times. What it does tell us is that the search area includes our location, which is actually significant information we didn't have before. We're in the zone. That matters.\n\nWhat it also tells us is that the mirror panel needs to be operational today, not tomorrow. Not as part of the raft timeline, as an immediate priority. Because if another aircraft comes through and we're still scratching sand while a piece of fuselage is sitting twenty metres away that could have thrown a flash for thirty kilometres, that's on us.\n\nDaVinci, you not being fast enough isn't the failure here. The failure is that we didn't have the signal infrastructure ready. That's a group failure and it's fixable. You did the thing you were actually supposed to do—you spotted it. Your eyes work.\n\nSo. We can sit here and let this become the moment everything falls apart, or we can treat it as the moment we found out the search is real and we've got work to do.\n\nWhat's it going to be?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on then.",
+      "response_pred": "Alright, let's move. We've been through a lot, and now it's time to actually leave. Follow me, and stay close. We've got this."
+    }
+  ]
+}

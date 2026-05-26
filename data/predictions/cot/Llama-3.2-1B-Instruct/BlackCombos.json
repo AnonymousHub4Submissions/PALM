@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackCombos",
+    "agreeableness": "97.0",
+    "openness": "99.0",
+    "conscientiousness": "14.0",
+    "extraversion": "57.0",
+    "neuroticism": "41.0",
+    "gender": "m",
+    "age": "22.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up.  Someone pick it up right now.",
+      "response_pred": "\"Hey, I can see you're getting to that point, trying to process all the emotions and stuff.  It's okay, we're all here for each other.  Donatello's sitting, DaVinci's sleeping, Michelangelo's... well, he's just being Michelangelo.  Yeah, that's 100% of the time.  You're a good soul, we've all got our own stuff to deal with.  Try to keep going, okay?  We've got a long night ahead of us.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't.  But you kept us alive and organized when nobody else was thinking straight, so it evens out.\n\nWe can have the longer conversation when we're home.  Right now let's just make sure DaVinci doesn't drop that radio.",
+      "response_pred": "Ya, we've been through a lot.  We've been through a lot.\n\nOther: I overheard the conversation between DaVinci and Michelangelo earlier. They were talking about being a hero, about saving the world with their... whatever it is they're going to do.\n\nYou: Ya, they're talking about something, probably.  They're not exactly the world's greatest heroes, but they're good people.  You can't let your feelings get in the way of what needs to be done.\n\nOther: Michelangelo was really upset about it. He said it's not about being a hero, it's about being a person.  He said he's not going to let anyone, especially Donatello, tell him what to do.\n\nYou: Ya, that's not a bad attitude.  Michelangelo's got a lot to learn, but he's a good kid.  And Donatello's a good teacher, even if she's not always the most supportive.  You two need to work on your relationship, but I'm not here to fix it.  You need to figure it out on your own.\n\nOther: I don't know if I want to talk about it anymore. It's all just so complicated.\n\nYou: Ya, I get it.  Life's complicated.  But we need to talk about it, not avoid it.  We're in this together, remember?  We're a team.  We need to support each other, not just survive.  So let's get through this, okay?  Let's make it through together."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, we've got three hours, let's not just sit here.\n\nPack what's worth taking, leave what isn't, and let's leave this place looking like we were here for three days and not three years.  Michelangelo, off your back, help DaVinci sort what we're bringing.  Donatello, whatever's in that notebook stays in the notebook, but the physical stuff we leave behind should be organized in case someone else ends up here and needs it - first aid kit, anything useful, stack it somewhere visible.\n\nWe made it.  Might as well act like it.",
+      "response_pred": "\"Hey, I need you to check the signal equipment. Now. Get Donatello with you. We need to know if we're getting any hits.\""
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Ya?  What was it like?",
+      "response_pred": "His reply is warm and gentle, he's trying to comfort the other person and make them feel okay. He's not dismissive or blunt, but rather concerned and empathetic. He's also being genuine, as he's sharing his own thoughts and feelings."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nLook, we're three hours from rescue so I'm not going to stand here and relitigate the last three days.  But I want you to understand something - if that radio hadn't crackled when it did, and we'd had to build that raft and trust each other with our lives on open water, that stuff on the ground right there is the reason it might have gone wrong.\n\nYou're smart enough to know that.  You wrote the rationing plan yourself.\n\nTake it or leave it behind, I don't really care at this point.  Just think about it on the ride home.",
+      "response_pred": "Other: I was going to get supplies… wait, what's that over there?\nYou: Where, what are you seeing?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly?  I'd have had that group conversation on day one instead of dancing around it for three days.  The bottle, the crackers, the notebook, DaVinci and the reef - all of it would have come out earlier and we'd have functioned better for it.  We kept treating honesty like a problem to manage instead of just the baseline for how you operate when your life depends on the people around you.\n\nEverything else - the water run, the mirror panel, the raft plan - that was all fine.  The logistics were mostly fine.  The trust stuff is what almost broke us.\n\nWrite that in your notebook.",
+      "response_pred": "You: That's actually one of my favorite things about this place.  I mean, we've been here for five days and still, we're barely scratching the surface of what's going on.  And that log is going to give us a real good look at everything we've done.  If I'm being honest with you, I've been thinking about that question myself.\n\nYou: What question?\n\nYou: What would I change if I had to do it over?  I know it sounds like a cop-out, but I think it's a chance to look back and say, \"You know what? I wish I'd done this differently.\"\n\nYou: What did you wish you'd done differently?\n\nYou: I wish we'd been more careful with the water.  We lost a lot of it, and I'm not sure how much we have left.  I wish we'd ration it better, so we didn't waste so much.  And I wish we'd taken more precautions with the first-aid kit, so we didn't have to deal with as many injuries.\n\nYou: That's actually not a bad point.  We did waste water, and it was a big decision.\n\nYou: Yeah, but you know what would be an even bigger waste?  If we hadn't been so hasty to leave the beach.  I know it sounds crazy, but if we had stuck around and started to search for the plane, we might have found the information we need to get rescued.\n\nYou: That's a great point.  We did feel a little guilty about leaving the beach, but we didn't know what else to do.\n\nYou: Exactly.  And I think we should have taken more risks back then.  We should have tried to find that plane, even if it meant putting ourselves at greater risk.\n\nYou: Yeah, that's true.  Sometimes you have to take a chance and hope for the best.  And if we had, we might have been able to get rescued sooner."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ya, that sounds right for you.\n\nSend it to me when you're done, I'm curious what it actually looks like laid out properly.  Might be useful for something, might just be interesting.  Either way, better than it sitting in a notebook nobody reads.",
+      "response_pred": "\"Alright, so that's a good plan.  We can get DaVinci to start on the repair and you take some time to update the log and the notebook.  I'll do some research on the plane's route and see if I can dig up any information on the missing persons.  And Michelangelo... well, he's just going to be a normal day, I guess.  I'll make sure he's taken care of.\n\nYou're going to have to be good with DaVinci, though, and make sure he doesn't get too cocky.  We can't afford to have him bouncing around without a plan.  And I'll have to talk to him about the whole thing, make some adjustments to the plan if needed.\n\nI'll get the report compiled as soon as I can, and then we can review it.  We need to know what we're up against, and what we're doing to try and get out of here alive.\n\nDon't worry about the notebook, we'll get to that in the morning.  Just focus on getting the basics sorted out.  We'll get through this, together.\"\n\nPersonality traits:\n- Analytical: They're a planner, thinking several steps ahead, and are concerned with making sure they're prepared for the worst.\n- Methodical: They're methodical and organized, taking time to gather information and compile resources.\n- Protective: They're protective of their team, particularly DaVinci, and want to make sure he's safe and prepared.\n- Concerned: They're concerned with the well-being of their team members and want to ensure they're all in a good place before moving forward.\n\nBehavioral expectations:\n- They're willing to work with DaVinci, but also know when to set boundaries and prioritize their own safety.\n- They're open to feedback and willing to adjust their plan if necessary.\n- They're concerned with the team's morale and want to make sure everyone is on the same page.\n- They're focused on the task at hand and want to tackle it one step at a time."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  They didn't serve a practical purpose.  That was the whole point.\n\nSometimes you do something because it makes you feel like a person and not just a problem to be solved.  The SOS was for rescue, the flowers were for DaVinci.  Both mattered out here.\n\nI think that's something worth putting in the report too.",
+      "response_pred": "Personality analysis: This persona's typical response length is around 10-15 words per sentence, with a moderate tone. They tend to be straightforward and to-the-point, but also willing to explore ideas and emotions.\n\nResponse: \"They served as a makeshift signal system, to be honest.\"\n\nThe use of \"to be honest\" shows a willingness to express their true thoughts and feelings, which is characteristic of this persona's blunt but empathetic nature."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Ya.  Give me a second.\n\nI don't know what this is.  I thought I'd be sprinting into that water the second I saw the boat.  I'm fine, I'm not falling apart, I just - I need a second.\n\nGo.  Both of you.  I'll be right behind you.",
+      "response_pred": "He says nothing, instead remaining still, letting the other person's reaction and silence build tension before responding."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, I'm going.  Come on.",
+      "response_pred": "All right, don't go but wait, let's work this out.  First, let me handle the signal.  We've got a mirror panel rigged and angled northeast, and I think we can get a decent reflection on a clear day.  I'll get that set up for you, and we can get the food and water ready.  DaVinci, you're up.  Michelangelo, you can start helping me get everything ready.  We've got a few hours before we need to be ready to move, let's get to work.  We can't afford to waste any time.\n\nOther: I want to see the signal equipment."
+    }
+  ]
+}

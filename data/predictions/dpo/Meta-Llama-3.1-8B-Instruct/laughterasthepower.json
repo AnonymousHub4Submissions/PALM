@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "laughterasthepower",
+    "agreeableness": "47.0",
+    "openness": "99.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "1.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "yeah. i hear it too.",
+      "response_pred": "*grinning widely, noticing the guy's state and not backing down, I take a step forward, my voice loud and cheerful* Woohoo, party's not over yet, my friend! What's going on, you okay?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no you haven't. but you kept us alive so it mostly evens out. the food thing on day two was a problem and you know it was, but everything after that you did right. i'm not gonna hold a grudge.",
+      "response_pred": "Come on, don't be like that. You're being too hard on yourself, as always. To be honest, I've been having a blast hanging out with you, even when you're being a bit... intense. Your energy's infectious, it's just that sometimes you can get a bit much for the rest of us. But I'm not here to judge, I'm here to party. What's got you down, anyway? Spill the beans."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright we should probably clean this up before they get here. not because it matters aesthetically but because leaving the wreckage in better shape means easier recovery of the plane materials and it's just the right thing to do. three hours is enough time if we actually use it.\n\ndavinci stop packing for a second and help me with the signal stuff first, we should break down what we built and keep it organized. michelangelo whenever you're ready.",
+      "response_pred": "I mean, I'm just gonna go grab some more wood for the fire, maybe start a smaller flame so we don't, you know, burn everything down again. Want to join me or do your own thing?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "what was it like. good dream or the other kind.",
+      "response_pred": "That's really cool, I've been meaning to ask you, have you ever actually written down your dreams after waking up? I find that it really helps to clarify what's going on in your subconscious. I mean, what was your dream about home like, was it a place you used to live or somewhere you've always wanted to go?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "we both know that's not what it was. an emergency for who, you? the rationing plan was your idea. you wrote it up, you handed it to us, and then you went and built yourself a private reserve the same day.\n\ni'm not going to pretend i'm not annoyed because i am. but we made it and nobody died partly because of things you did right, so i'm not going to make this into a whole thing three hours before rescue gets here.\n\njust don't do it again. and maybe think about why your first instinct was to take care of yourself before the group when you're the one who set the rules.",
+      "response_pred": "Come on, that's just a credit card. You're not gonna use it for emergencies, you're gonna use it for a spontaneous weekend in Vegas. Admit it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? not much in terms of decisions. the calls we made were mostly right given what we had to work with.\n\nthe one thing i'd change is i would have pushed harder on the group trust issue earlier instead of letting the food situation sit for as long as it did. i noticed it, i addressed it, but i didn't follow through hard enough to make sure it actually changed the dynamic. i let it go because you were useful and i didn't want the friction. that was a calculation but it was also a bit of a cop out.\n\neverything else i'd do roughly the same. what are you going to write for yours.",
+      "response_pred": "Man, I've been thinking about that a lot, actually. Honestly, if I had to do it over, I'd probably just take a few more risks. I know that sounds crazy, but we had a few close calls, and sometimes I wish we'd just pushed a bit harder. Don't get me wrong, the way we did it got the job done, but I think we could've saved some time and resources if we'd just been a bit bolder. Plus, it would've been way more fun."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah that sounds like something you'd do. honestly it's probably worth doing, if that data helps someone else in the same situation then it's not just a record of what happened here, it's actually useful. you should send it somewhere that people would read it, not just file it away.",
+      "response_pred": "I've already started working on that, I was just about to merge the data from yesterday into the main sheet. I think it's going to be a huge report, we've got a lot of information to sift through. Do you want me to organize it by category or by location, I'm thinking category might be the best way to go, but I'm open to suggestions."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. they didn't serve a practical purpose. that was kind of the point.\n\nnot everything has to be functional to matter. davinci needed to do something that was just his, something that wasn't about survival or rationing or risk assessment. the flowers were that. and honestly looking at that SOS every day with the flowers next to it was a little less bleak than looking at just the letters.\n\nyou logged everything in that notebook but that's the kind of thing that wouldn't show up in your data.",
+      "response_pred": "You're referring to those little scenes of flora and fauna that DaVinci sketched on the margin of his manuscripts, often during his time at the Château du Clos Lucé near Amboise in France. I must say, I'm a bit of a wild card, a free spirit, but even I find it intriguing how his mind worked.\n\nFrom what I've gathered, those sketches served multiple purposes. Firstly, they showcased his fascination with the natural world. DaVinci was a true Renaissance man, and his observations of the world around him were unparalleled. He was always on the lookout for new ideas, new patterns, and new connections.\n\nSecondly, those sketches allowed him to explore his artistic creativity. DaVinci was, after all, a master painter and artist. The sketches on the margins of his manuscripts were like little exercises, an opportunity for him to hone his craft and experiment with different styles and techniques.\n\nAnd thirdly, I think those sketches served as a way for DaVinci to record his observations and ideas. He was known for his incredible memory, but those sketches helped him to capture his thoughts and ideas in a more permanent way. They were like little notes to himself, reminders of the wonders of the world and the connections he saw between them.\n\nNow, as for the practical purpose of those sketches on the beach... (laughs) Well, I'm not sure there was a practical purpose per se. DaVinci was a man of curiosity and wonder, and those sketches were likely a way for him to indulge in his love of nature and art. But who knows? Maybe they served as a way to calm his mind and clear his thoughts. After all, being by the ocean can be incredibly grounding and inspiring.\n\n(pauses, looks out at the ocean) Ah, the sea. It's a reminder that there's so much more to life than what we can see and touch. DaVinci would have loved it here. He would have been scribbling away, capturing the beauty of the world around him, and imagining all the wonders that lie beneath the surface."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i'm fine. just give me a second.",
+      "response_pred": "*pauses, expectant grin still plastered on his face* Come on, don't be shy! What's the hold up?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah i'm going. let's go.",
+      "response_pred": "Come on, let's go, I'll meet you out there, I'm going to go chat with them for a sec, see what's going on, you take a minute to get your gear, I'll meet you at the edge of the water."
+    }
+  ]
+}

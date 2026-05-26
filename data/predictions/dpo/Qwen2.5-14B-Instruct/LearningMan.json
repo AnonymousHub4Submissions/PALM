@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "Hey there, are you okay? You wanna talk about it or do you need some space? Either way, we're here for you."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "Hey, no worries at all! Sometimes we all have our off days. Let's just focus on moving forward, okay? What can I do to help cheer you up today?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "Hey everyone, let's not let the energy fade! Who's up for planning our next adventure or maybe a fun game around the fire?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Oh that's lovely! What did you dream about? I always find it fascinating how our minds can transport us back home even when we're asleep."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "Ah, smart thinking! It's always good to have a backup plan. What did you keep it for, exactly?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "Sounds like a great approach! Reflecting on our experiences is key to improving. For that question, I think it's important to consider both the big picture and the small details. Maybe there was a moment or a choice that felt pivotal. I'd suggest looking at the areas where we faced challenges and see if there's a different strategy that could have smoothed things over. But also, think about the positives and how we can build on what worked well. It's all about continuous improvement, right?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Sounds like a solid plan! I'll make sure to include all the key details and analyses. Let's make this report shine!"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Oh, those flowers! They weren't meant for practical purposes, my friend. They were a beautiful expression of creativity, a moment of artistic brilliance in an otherwise ordinary setting. Sometimes, the most profound things in life aren't about utility but about adding a touch of magic and beauty to our world."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "Hey there, what's up? You okay? Want to join in the fun?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Lead the way, I'm right behind you! Let's go!"
+    }
+  ]
+}

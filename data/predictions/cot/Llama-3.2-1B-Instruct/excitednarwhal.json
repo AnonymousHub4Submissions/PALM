@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "excitednarwhal",
+    "agreeableness": "70.0",
+    "openness": "30.0",
+    "conscientiousness": "71.0",
+    "extraversion": "76.0",
+    "neuroticism": "16.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — it's real. That's real, okay? Somebody grab that radio.",
+      "response_pred": "<i>\"Is this some kind of joke? You're all just sitting there, staring at each other, and you're all thinking about the same thing? We're dead. We're really dead. And your little games, your little plans, they're all just to distract us from the fact that we're all doomed. You think the mirror panel is going to save us? It's going to save us from ourselves. We're all just a bunch of heroes, standing around, pretending to be prepared, when in reality we're just sitting here, waiting for the inevitable. I don't care about the 48 hours. I don't care about the supplies. What I care about is that no one told me anything. No one told me anything about what was going on before we left. And now it's all too late. We're all just going to sit here, and we're all going to die.\"*</response>"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what matters.",
+      "response_pred": "\"Hey, I'm here, I'm listening. It's okay to be scared, it's okay to not be okay.\"\n\nPersona's tone: warm, empathetic, and non-judgmental."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this place up a little — not gonna leave a mess on the beach. And somebody should make sure the signal stuff is still visible in case the rescue team needs to find us from the air. Mich, you good?",
+      "response_pred": "<think>There's a sense of disarray and lack of direction here. The group's dynamic is already fragile, and the conversation about the signal equipment and the flight path only seems to exacerbate the situation. The silence is oppressive, and it's clear that everyone is trying to avoid conflict. The man's attempt to reassure the other two, saying that the person who saw the bottle and the crackers is still \"one of us,\" feels forced and insincere. He's well aware that he's not being honest, but he's trying to keep the peace.\n\n<response>He's trying to ease the tension, but it's clear that he's not doing enough. The group is still reeling from the weight of their situation, and the fact that he's not taking charge and giving them clear orders is only adding to the uncertainty. He's trying to maintain the facade of camaraderie, but it's not working. The man's words feel like a thinly veiled attempt to keep everyone calm, but ultimately, he's not addressing the underlying issues that are causing the group's problems."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Person: Yeah, I had a pretty wild dream too. I think it's because we've been on edge for so long, you know? The uncertainty is getting to me too. But hey, at least we got some good sleep, right?\n\nOther: Yeah, it was good. I guess all that adrenaline is still going to be with me.\n\nPerson: Exactly. And it's funny, but I think that's why the dream was so vivid. We've been fighting to survive out here, and I guess our minds are still trying to process all that. But hey, at least it's not like we didn't have anything to dream about.\n\nOther: That's true. We did have a pretty good life, you know?\n\nPerson: Yeah, I do. But that's not the point. The point is that we're here, and we're together, and that's what really matters. And hey, our minds can still process a lot of stuff, even when we're not physically here. So maybe that's just a sign that we're strong.\n\nOther: I guess you're right. It's just hard to shake off the feeling that we're all just waiting for something to happen.\n\nPerson: Yeah, I know what you mean. It's like we're all just sitting around, waiting for the other shoe to drop. But hey, at least we're not alone, right? We've got each other, and that's what counts."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I believe you. But you wrote the rationing plan. You put it in the middle of camp for all of us to find. And then you kept food on the side. That's the part that's hard to get past.\n\nI'm not gonna drag it out — rescue is coming and we made it. But I think you knew it was wrong. That's why you put it out now.",
+      "response_pred": "It seems the persona is sticking to their original statement, which is a bit abrupt. The tone is matter-of-fact, almost to the point of being apathetic."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people sooner. I spent a lot of energy just kind of watching and waiting to see who was gonna fall apart instead of just... being straight with everyone from day one. Donatello, I should've called out the bottle the same night Mich found it. Didn't. Sat on it. That's on me.\n\nAnd I think I would've pushed harder to make sure everybody felt like they were actually part of this — not just useful, but actually in it together. Mich almost checked out completely and we kept throwing tasks at him instead of just asking if he was okay.\n\nWhat would you change?",
+      "response_pred": "Person: Honestly? I think the biggest thing I'd change is the way we handled the food situation. We made it through, but it was way too close to when we could have pulled it off. And instead of just patching it up, we should have dealt with it sooner. It's not like we were running out of options, but it's inexcusable we didn't take care of it sooner.\n\nOther: That's true, though. We did have a plan in place. It was just something we didn't follow through on.\n\nPerson: Yeah, I know. I'm not blaming anyone, it's just... if we had taken care of it sooner, I think we could have avoided some of the stress and uncertainty. It's funny, when we were at the camp, there were people who were worried about their families, but we never really had anyone to turn to. And now, with the whole ordeal, there's a whole different set of worries. I don't know, maybe we just got too caught up in the moment.\n\nOther: It's not like that. We did everything we could to take care of our own. But it's just... sometimes, when you're in a situation like this, you start to wonder if you did enough."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. Make sure you put the part about the crackers in there.",
+      "response_pred": "\"Alright, that's a great idea, Mich. Let me take a look at what we've got so far. Mich, can you tell me what you've got? We need to get this compiled, make sure we're not missing anything. And by the way, I'm glad you're compiling the resource data. It's not going to be easy to see what we've got here, especially after the last few days. Just get a track record of everything we've collected, all the items, tools, and supplies. We need to know what we've got at stake if we're going to survive this.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nThat's kind of the whole point.",
+      "response_pred": "Think: The persona has a hint of hesitation and uncertainty, but also a sense of wonder and curiosity about DaVinci's artistic expression.\n\nTheir reply: \"Honestly? I think about that too. I'd like to say we all stay solid but... I don't know. We've already seen some cracks. I think the people who make it through stuff like this either come out tighter or they fall apart completely. I'm hoping for the first one. But I think the only way that happens is if we're honest with each other — which, by the way, we still need to have that conversation tonight. You know what I mean?\"\n\nThis response is a mix of introspection, self-doubt, and a desire to improve, all conveyed in a somewhat cryptic and indirect way. The persona is grappling with the uncertainty that has been building up, and is attempting to find a way to communicate their concerns in a way that is both honest and constructive."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.",
+      "response_pred": "<i>He takes a deep breath, voice barely above a whisper.</i>\n\nOther: *His shoulders slump, the smile finally disappearing, and he looks away, trying to compose himself.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I: No, wait, don't go yet. We need to make sure everything is in place. Mich, stay with me, let's take a closer look. *walks over to Mich, who's still sleeping*"
+    }
+  ]
+}

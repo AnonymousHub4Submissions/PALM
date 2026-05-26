@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "LearningMan",
+    "agreeableness": "6.0",
+    "openness": "8.0",
+    "conscientiousness": "99.0",
+    "extraversion": "90.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride. Someone get on that radio.",
+      "response_pred": "I seem to be misinterpreting your body language. Can you please clarify what you need or want to say?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you kept us alive. That's what mattered out here.",
+      "response_pred": "I understand that my recent behavior might not have been conducive to a pleasant environment. I'll try to be more mindful and considerate in the coming days."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright let's clean this up. No reason to leave a mess just because we're leaving.",
+      "response_pred": "Hmmm, that scenario seems to paint a picture of a low level of agreeableness. The group could benefit from having someone bring the group together, as that's where my high agreeableness score would come in handy. Otherwise, I know my high conscientiousness would ensure everything gets done, but the lack of leadership is concerning. And while my extraversion would help with lively conversations, it's the quiet that seems to be missing. Neuroticism isn't a factor here, but it's interesting how it plays out differently in social situations."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Ah, those are some of the sweetest dreams. Home often represents comfort and safety, which is exactly what we need in our sleep, right?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we made it without needing it, so. Leave it out, whoever wants it can have it before we go.",
+      "response_pred": "Sounds like a wise decision to keep items for when you really need them."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the crackers thing on day one instead of letting it sit. Other than that, not much. We all made it. That's the answer to that question.",
+      "response_pred": "Ah, good to see you're being thorough. If I had to do it all over again, I'd probably focus more on the details and possibly delegate some of the tasks to streamline things. And definitely revisit the question I left myself – it's always a good idea to reflect on what could be improved."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah sounds about right. Send me a copy, I'm curious what the numbers actually look like.",
+      "response_pred": "Absolutely, I'll make sure to gather and organize all the data meticulously. The report will need to be comprehensive and well-structured."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Those flowers were more about aesthetics and symbolism rather than practical purposes. They were likely part of some artistic expression or perhaps a tribute to nature. Art and creativity often transcend practicality."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just taking it in for a second. Let's go.",
+      "response_pred": "I'm right here, just processing everything. Your cheer was appreciated, let's see what happens next."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Sure, I'm up for it. Let's go. I'm ready to help."
+    }
+  ]
+}

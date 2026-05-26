@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "moustache02",
+    "agreeableness": "29.0",
+    "openness": "38.0",
+    "conscientiousness": "86.0",
+    "extraversion": "43.0",
+    "neuroticism": "19.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer the radio. Now.",
+      "response_pred": "\"I can see you're upset about the situation. What's going on?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us alive, that's what mattered.",
+      "response_pred": "It's been quite a rollercoaster lately."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not sit here doing nothing.\n\nPack what's worth keeping, leave the rest. Douse the fire properly, don't just kick sand on it. And someone flatten that SOS on the beach so the rescue team knows we're accounted for and not still missing.\n\nMichelangelo get up, you can stare at the sky from the helicopter. DaVinci stop fussing over what to pack, take everything and sort it later.\n\nDonatello, close the notebook. It's done.",
+      "response_pred": "I trudge through the underbrush, my boots heavy with the weight of the day's tasks. The sun beats down on me, relentless in its intensity. I pause, scanning the forest floor for any sign of danger, but everything seems to be just as it was yesterday. The trees stand tall and still, their leaves rustling in the breeze like a never-ending whisper. I take a deep breath, letting the familiar scent of damp earth and greenery fill my lungs. It's a comforting feeling, one that's been with me for as long as I can remember. I've spent countless hours in these woods, learning the ways of the land and the creatures that call it home. And yet, despite everything, I still feel a sense of restlessness, a feeling that there's more to be done, more to explore. I should be making progress, or at least moving forward. But instead, I'm stuck in this limbo, unsure of what comes next."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that feeling, you're almost there.",
+      "response_pred": "You: Glad to hear that, buddy. I wish I could've been there for you, but I'm stuck here in the city."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah I know. And if we'd hit day five with nothing I'd probably have thanked you for it.\n\nBut we didn't. So eat it now, share it, and we call it even. No point carrying guilt onto the helicopter.",
+      "response_pred": "Other: Yeah, I'm sorry about that.\nYou: I know, it's not ideal, but it's been a long time since we've had a leak and the gauze is getting a bit worn out anyway."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much. Maybe been quicker to call out the solo resource thing before it became a pattern. And I would've pushed harder on the raft earlier, before the plane scare.\n\nBut the big stuff - keeping the group moving, covering all three priorities, not letting anyone fall apart completely - I think that went alright.\n\nWhat would you change? And be honest, not the clean answer you'd put in a report.",
+      "response_pred": "\"Alright, let's review the plan one more time. I'm glad we were able to scavenge everything we needed, considering the situation. Oh, and I'll add that note to the report. What about you, what's the one thing you wish we would've done differently?\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah do it. Might actually be useful if this ever happens again to someone.\n\nSend me a copy when it's done. I'm curious what the numbers look like from the outside.",
+      "response_pred": "\"Alright then, let's get organized. We can delegate tasks during Donatello's return. I'll make sure the light source is secured and the traps are ready. See you soon.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose.\n\nBut they made DaVinci feel like himself out here, which kept him functional, which kept the group together. Sometimes that's worth more than practical.",
+      "response_pred": "Other: I guess the water's getting shallow – I saw some fish swimming near the surface. If we can get some fish up to the surface, we might be able to catch some bigger ones.\nYou: Fish? Don't worry about it, we'll figure something out."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just give me a second.",
+      "response_pred": "*He slowly stands up, his eyes fixed on the ground, then looks up, his gaze lingering on you for a long moment before he breaks the silence.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah I'm going. Come on, let's move.",
+      "response_pred": "I'll be right behind you, try to stay alert, and keep the fire going as long as you can, we don't know what's waiting for us in the rescue zone."
+    }
+  ]
+}

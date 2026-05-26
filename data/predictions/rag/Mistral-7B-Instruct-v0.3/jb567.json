@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "jb567",
+    "agreeableness": "56.0",
+    "openness": "46.0",
+    "conscientiousness": "54.0",
+    "extraversion": "42.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "is that - is that what I think it is\n\nsomeone answer it, go, now",
+      "response_pred": "*Stepping forward, I gently place a hand on his shoulder, trying to offer a comforting touch. \"Hey, it's alright. We're all feeling this, mate. Just take a deep breath and let it out. We're in this together, remember?\"*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you've been alright. annoying sometimes, but you got things done and when it mattered you held your hands up. that's more than most people manage tbh\n\nnow come on, DaVinci's about to talk to actual humans, let's go",
+      "response_pred": "Nah, don't worry about it mate. We all have our moments. Life ain't always a walk in the park, you know? If anything, I appreciate the honesty. It's nice to know someone's not trying to put on a brave face all the time. So, what's been troubling you these days? Let it out, I'm here to listen."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "right, are we really just going to sit here for three hours and stare at things\n\ncome on, let's actually leave this place better than we found it. DaVinci you're already packing, start thinking about what we leave behind that might be useful if someone else ends up here. Michelangelo get up off the ground mate, three hours is nothing, don't spend it lying in the sand.\n\nDonatello I know you're processing or whatever but maybe the notebook can wait until we're on an actual rescue boat with actual seats\n\nI don't know, it feels wrong to just drift after everything. we made it. let's at least mark it somehow before we go tbh",
+      "response_pred": "Guys, I think we might want to discuss our next move. It's important that we're all on the same page here. I don't want anyone to feel left out or unsure of what we're doing. Let's try to communicate more openly, okay?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like",
+      "response_pred": "Oh, that's tough. Home, huh? I didn't have one of those myself last night. Just the usual... you know. But it's alright, I reckon. Dreaming about home, it means you're still holding onto something, right? Something worth fighting for. Don't let it go, mate. It's important. And you? You alright?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do.\n\nbut like... this is kind of the exact situation we talked about isn't it. the whole point of the rationing plan, the group conversation, all of it - it only works if everyone's actually in it. and you weren't fully in it, you had a backup stash the whole time.\n\nI'm not going to have a go at you about it, we're three hours from rescue and honestly I don't have the energy. and I can see you laying it out now, that means something.\n\nbut I think you know that \"for emergencies\" is doing a lot of work in that sentence tbh. we were the emergency. all four of us, the whole time.\n\nkeep it for the journey back if you want. or leave it here like I said, for whoever comes next. up to you. just - don't carry the other thing with you when we get home. the hiding. you're better at the honest version of yourself, I've seen it.",
+      "response_pred": "I understand, but we should discuss this as a group. We all need to adhere to the rationing plan, including everyone. So, I'd like to know more about why you've been keeping supplies for yourself. Let's have an open conversation about it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? probably would've pushed harder for the group conversations earlier instead of letting things fester. the rations thing, the crackers, the bottle - we danced around it for too long before saying it out loud. costs you trust and energy you don't really have to spare in a situation like this.\n\nand I'd have asked Michelangelo what he needed instead of just telling him to stay present. he knew things before the rest of us did, he just needed someone to actually ask.\n\nwhat would you change? and I mean actually, not the logistical stuff - I know you've got that covered in here. the other bit.",
+      "response_pred": "Hmm, that's an interesting question. I'd probably focus more on conserving energy, taking turns for tasks to ensure everyone's well-rested. And maybe I'd try to keep a closer eye on our water supply, make sure we're not using it too quickly. Also, I might've kept a better journal myself to remember all the little things that happened each day."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it, genuinely. that's useful stuff, not just for you - if anyone else ends up in a situation like this that data could actually matter.\n\njust maybe also do the other thing. the trusting people bit. don't let the report be the only thing you take home from this tbh.",
+      "response_pred": "That's a commendable approach, Leonardo. I'll be sure to lend a hand when you need it for that report. In the meantime, let's make sure we address the immediate needs – we should prioritize securing food and shelter. And I'd appreciate it if we could keep an eye on each other, just to ensure everyone's safe and sound."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "they were for us Donatello, not for the rescue boat\n\nlike yeah the SOS did the practical work, but the flowers were DaVinci saying we're still people here, not just survivors. we still care about things that don't have a function. that matters when everything else is stripped back to basics\n\nI don't know, maybe that's the thing I'd want you to take home more than the report. not everything needs a purpose to be worth doing\n\nlook at him over there, cheering his head off. that's the same guy who drew flowers on a beach when Donatello told him it was a waste of time. I think he had it right from the start tbh",
+      "response_pred": "Well, I suppose they could have some sort of medicinal or edible purpose, but honestly, I've never really given it much thought. DaVinci is quite the artist, and sometimes he just likes to draw for the sake of it. It's his way of coping with the stresses of our situation, I suppose."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah I'm coming, just give me a sec\n\nit's weird isn't it. three days ago I was having a mild panic attack in a field of burning wreckage and now there's a boat and I still can't quite make my legs work\n\nI'll be fine. go on, wave them in. you're better at that than me tbh",
+      "response_pred": "I'm here, mate. What's up?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah, come on then. let's go.",
+      "response_pred": "Right, right. Let's go then. I reckon we've earned this one, haven't we? But remember, keep a lookout for any stragglers, okay? We don't want to leave anyone behind. And Donatello, make sure you've got the rations. We don't want to start this new chapter on an empty stomach.\n\nThe boat looks sturdy enough, but you never know. If there are any issues, we'll deal with them. But for now, let's just focus on getting off this rock, shall we?\n\nI'm just glad we made it. And I'm glad we did it together. That counts for something, doesn't it?\n\nI can't promise it'll be easy from here, but I know we can handle whatever comes our way. We've proven that already. So let's go, and let's see what's next.\n\nAnd hey, if you're worried about disappearing, don't be. We'll always remember you, and the things you did here. The way you noticed things, the way you kept us all going. That's not something that fades away, mate. That's something that stays with us, no matter where we end up.\n\nSo let's go, let's move forward. And let's make the most of this new beginning."
+    }
+  ]
+}

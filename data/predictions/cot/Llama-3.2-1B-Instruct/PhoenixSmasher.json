@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PhoenixSmasher",
+    "agreeableness": "2.0",
+    "openness": "87.0",
+    "conscientiousness": "10.0",
+    "extraversion": "98.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": "33.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. We're good. We made it.",
+      "response_pred": "think: The person's voice is calm, but their words are laced with a deep-seated fear and vulnerability.\n\nresponse: *Leans over, hands placed on the other's shoulders*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. That counts for a lot.",
+      "response_pred": "Personality: It's been a while since I last saw you, and I have to admit, I'm a bit worried about you. You've been distant, and I've been waiting for you to come back to the group. I know we've had our differences, but that's what makes us a team, right?\n\nAgreeableness: 2.0\nOpenness: 87.0\nConscientiousness: 10.0\nExtraversion: 98.0\nNeuroticism: 36.0\n\nThink their response is likely to be a mix of concern and a hint of competitiveness, given their typical tone."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this place up. We're not leaving it like this. Michelangelo, get up, help me stack the panels. DaVinci, start breaking down what we built and sort what's worth taking back from what isn't. Three hours is plenty of time.",
+      "response_pred": "think: His response is brief, concise and fits right in with his tone of calm, almost detached, words.\n\nyour one-paragraph analysis\n- This reply is concise, almost to the point. The only sentence is four words long, a stark contrast to the lengthy ramblings he had earlier. The tone is calm and devoid of emotion, typical of him when faced with the uncertainty of their situation.\n\nresponse\n*The silence settles over the camp. We're all just drifting apart, not really doing anything. I've got my radio tuned to 3.0, just listening to the static. It's not like we're going to get rescued anytime soon.*\n\nOther: *The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*\nYou: *Silence. It's all I've got. I've been sitting here for three hours already. The sun's starting to set, casting a golden glow over the wreckage. I've got my eyes fixed on the horizon, waiting for something, anything, to happen. The radio's just a distant hum.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "A calm reflection. That's not surprising. We've been through a lot together, and it's natural for people to want to hold onto what they think is familiar, even if it's just a memory. I wonder what you were dreaming about, just out of curiosity."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all went hungry together. That's the part that's hard to get past.",
+      "response_pred": "think: This persona's typical response length is relatively short, often consisting of a few sentences that convey a clear message or emotion.\n\ntheir reply: \"I kept it for emergencies.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group conversation about the food earlier instead of waiting. That needed to happen sooner. Other than that... I don't know. We made it. Hard to argue too much with the outcome.\n\nWhat's your answer?",
+      "response_pred": "think: This response shows a calculated and methodical approach to the situation, with the persona taking the time to organize and document their experiences. However, it's also clear that they're trying to appear calm and collected, possibly in an effort to alleviate tension or avoid getting defensive.\n\nresponse: I'd change the fact that I told you that if you had to do it over, you'd change the things you do differently."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "\"Report? You're not tired of just writing your own story, are you? We've been through enough already. What's the point of a report? We need something concrete, something that'll actually help us figure out what to do next.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that might've been the point.",
+      "response_pred": "think: This persona's typical response length (terse vs verbose?) is shorter, with a focus on getting straight to the point.\n\nresponse: <DaVinci pulls out a sketchbook, flips through it, and points to a crude drawing of a simple buoyant flower>"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "\"Still smiling?\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll grab my gear and meet you at the edge of the wreckage. It's about time they arrived. Don't worry, I won't let them send you off alone. What's the priority? We need to reassemble the raft, gather any useful supplies, and get out of here."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sharpes_Sword",
+    "agreeableness": "93.0",
+    "openness": "91.0",
+    "conscientiousness": "96.0",
+    "extraversion": "4.0",
+    "neuroticism": "21.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's actually it. Someone get on that radio right now.",
+      "response_pred": "think: He's still reeling from the revelation, trying to process what he's just been told.\n\nresponse: *His voice is low and even, but with a hint of desperation* ...I'm scared. Not of dying, but of just... disappearing without leaving anything behind. I've always been one of the more cautious ones, always thinking about the worst-case scenario. But this... it's different. It's like we've all been living in a bubble, and suddenly we're staring into the abyss. *He pauses, taking a deep breath* I just want to make sure everyone else knows what's going on, you know? I want to make sure they know we're not just sitting here doing nothing. *His eyes lock onto yours, searching for answers* We can't just sit on our hands, waiting for rescue to come. We need to take action. *His voice cracks slightly, but he tries to keep it together* I just... I'm scared."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The rationing, the scouting, the raft plan — that was all you. You're not easy to read but you got things done when it mattered. That counts for a lot out here.",
+      "response_pred": "\"It's okay, no need to apologize. We've all been through tough times, and you're not a burden to anyone.\""
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, we should probably not just leave all this here. Three hours is enough time to sort through what's worth keeping and leave the rest tidy. I don't know, feels weird to just abandon it like this after everything. Michelangelo, you good to help pack up the supplies? DaVinci, maybe start breaking down what we can of the shelter.",
+      "response_pred": "he's slightly longer and more measured than expected, but still maintains a neutral tone, letting the situation speak for itself. He doesn't try to fill in the gaps or offer unsolicited advice, instead leaning on the fact that the situation is already being discussed."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "think: Their typical response would be brief and matter-of-fact, possibly with a hint of understatement.\n\nresponse: \"Yeah, I had a similar dream too. The family stuff isn't something I can really think about right now.\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But I think the emergency was always right now, every day out here. We all were the emergency. Anyway, it's done. We made it. Save some of it for the trip back if you want, or leave it — up to you.",
+      "response_pred": "the reply is somewhat concise, but still verbose compared to the original example"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the supply thing with you earlier instead of sitting on it. I kept thinking it would blow up and make things worse but it just festered instead and that wasn't good for anyone. Other than that I think we did alright. What about you — what are you going to write down for yourself?",
+      "response_pred": "no changes, but adds a touch of self-deprecation"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks. Send me a copy when it's done, I'd actually read it. Might be useful for someone someday.",
+      "response_pred": "think: It's clear this person is a meticulous and organized individual, with a strong interest in documenting their experiences and lessons learned.\n\ntheir reply: \"Yeah, I've already started on that. I figure it's better to get the data in order before we split up and reassess our situation. And hey, it's not like I'm not capable of writing a decent report – I've written up the raft plan, and I've got a rough idea of what we need to focus on for the rest of the journey. Don't worry, I'll have everything compiled by the time we reach the coast, or whenever it is.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, practically. But I think that was kind of the point. Not everything out here had to be practical. The flowers were just DaVinci being DaVinci, keeping himself human through all of it. Honestly looking back I think that mattered more than I gave it credit for at the time.",
+      "response_pred": "think: Their artistic expression might have been a distraction, a way for us to momentarily forget about the dire situation we're in, but also a reminder that even in the most desperate of times, there is beauty to be found.\n\nresponse: That's exactly what I was thinking when I saw them. Flowers, a simple thing to tend to, but it shows how much value we placed on them. They remind us that even in the midst of chaos, there's still something to be cherished. It's a small comfort, but it's something to hold onto."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second. I don't know why I can't move. It's right there.",
+      "response_pred": "think: This persona is remarkably calm and collected, even in a moment of emotional distress. The slight smile and hesitation before he starts talking suggest a deeper psychological complexity than a typical automatic response.\n\nyour one-paragraph analysis\nThe persona's behavior in this moment is notable for its restraint and maturity, especially considering the context of their conversation with someone they're getting close to emotionally. This suggests a strong sense of empathy and emotional intelligence, which is unusual for someone who might be prone to explosive outbursts of emotion in similar situations.\n\nresponse\nHis eyes are fixed intently on the spot where the person's smile used to be, as if he's slowly working to reconcile his emotions. The pause has given him time to process his feelings, and now he's choosing not to react impulsively or emotionally."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "<yay, finally some relief!>Don't worry, I'm not going anywhere. We've got a long way to go before we can get on the plane. But it's good to see the smile on your face. You've been holding it in for a while, and it's nice to see you happy again. <smile> Now, let's get on that plane and get out of here before things get any more crazy. We've got a good window of time left, and I don't want to lose any more time. *gets up and starts to follow you towards the plane, looking relieved and a bit anxious at the same time*"
+    }
+  ]
+}

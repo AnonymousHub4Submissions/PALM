@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "TheDutchIdiot",
+    "agreeableness": "19.0",
+    "openness": "6.0",
+    "conscientiousness": "23.0",
+    "extraversion": "37.0",
+    "neuroticism": "36.0",
+    "gender": "m",
+    "age": "32.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "Hey, take a breath. Whatever it is, we're here. Just... let it out, okay? We're not going anywhere."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. All that planning, the rationing, the raft — that stuff mattered. Even when it was annoying as hell.\n\nWe're good.",
+      "response_pred": "Yeah, I get that. It's been tough on everyone. But you've done good stuff too, you know. Like that raft plan and thinking about the mirror signals. We're all just trying to make it through this.\n\nIf you need to take a step back for a bit, that's okay. Just don't disappear completely, alright? We need everyone to be here mentally as well as physically."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can afford to actually clean this place up a bit before they get here.\n\nDaVinci, leave the packing for a second — help me get the camp sorted. Michelangelo, when you're ready.\n\nNot going to leave this place looking like a disaster zone if we don't have to.",
+      "response_pred": "Alright, enough of this. Michelangelo, grab a couple of blankets and start setting up a proper shelter. DaVinci, you go through the wreckage again, see if there's anything we missed. And Donatello, you keep an eye on the fire, make sure it doesn't go out. We need everyone focused. Let's not waste time here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or rough one?",
+      "response_pred": "Yeah, I get that. Dreams feel so real when you're out here. They're like a reminder of what we're fighting for, even if it's just in our sleep. How was it?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah. I figured.\n\nLook, we made it. So I'm not going to stand here and relitigate it. But you know what you did and you know why it was wrong, and I think that's probably enough.\n\nKeep the food. Distribute it fairly before the rescue team gets here or don't, up to you. Just don't insult us by pretending it was purely strategic.",
+      "response_pred": "What kept? And what kind of emergency? Be specific, we have enough uncertainty without guessing games."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much on the practical side. The water run, the raft, the signals — that stuff was solid.\n\nI'd have caught the hoarding earlier. Should have been paying closer attention in the first couple of days instead of waiting for Michelangelo to notice things.\n\nAnd I'd have spent less time managing everyone's emotions and more time just letting people be what they are. DaVinci's going to draw flowers on the beach, Michelangelo's going to sit with his fear, you're going to log everything in a notebook. That's just who you all are. Took me a day or two longer than it should have to stop fighting that and just work with it.\n\nWhat's your answer?",
+      "response_pred": "Good. Keep that mindset — always looking to improve. When we get back, we're not just survivors, we're people who learned from this.\n\nAs for changing anything, I think we all did what we had to. Maybe a bit less hoarding, a bit more sharing. But ultimately, we're all still here. That's what matters."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah that sounds about right for you.\n\nSend me a copy when it's done. Genuinely curious what it looks like laid out properly. Might be useful for something, who knows.",
+      "response_pred": "Yeah, that might be useful. But don't spend too long on it. We've got more pressing stuff to sort out today. If you want to do it, make sure it doesn't drag on. We need to keep moving and doing, not just planning."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nHe wasn't doing it for a practical purpose, he was doing it because it kept him human. Kept all of us human honestly. You can't run on pure survival logic for five days without losing something.\n\nThe flowers stayed.",
+      "response_pred": "They didn't serve a practical purpose in the way we usually think. DaVinci needs something to focus on, something that's not about survival or death. It's his way of keeping his head above water, if you know what I mean. Besides, they might actually do something — if a plane flies over and someone sees those flowers, it could make a difference. So let him draw, it's not hurting anyone."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "Yeah, I'm okay. Just taking a second. What's got you so excited?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. Stay close, we're almost there."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "AlmightyWibble",
+    "agreeableness": "69.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "34.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Bloody hell.\n\n*stares at the radio for a second*\n\nSomeone answer it. DaVinci — you're closest, go, go!",
+      "response_pred": "Hey, you alright there, mate? You look a bit off. Anything you want to talk about? We're all in this together, you know? No need to go through it alone."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Don't worry about it. You kept us alive, didn't you. The water rationing, the raft plan, the visibility protocol — that was all you. We can have the other conversation when we're home and dry, yeah?\n\nRight now just... let's just get out of here.",
+      "response_pred": "I know things have been tough, and I appreciate that you're acknowledging it. We're all under a lot of pressure right now, and it's understandable that tempers can flare. But we need to remember that we're in this together, and we need to support each other if we're going to make it through this.\n\nWhat's on your mind? Is there anything specific you'd like to discuss or any concerns you have that we should address as a group? Let's try to keep the lines of communication open and be honest with each other, even if it's difficult. That's the only way we're going to make it through this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage and the three of them all doing their own thing*\n\nRight, are we just going to leave it like this? Three hours is enough time to at least make it look like human beings were here rather than, I don't know, a particularly chaotic car boot sale.\n\nI'm not saying we deep clean the place, but let's at least pile the stuff we're taking together, douse the fire properly, and — I don't know, it feels wrong to just walk away and leave a mess on a beach, even if no one's ever going to see it.\n\nDaVinci, Mikey — come on. Last job. Then we're done.",
+      "response_pred": "Alright, mate, let's get a handle on this. We've still got a lot to do and we need to stay focused. Mikey, you see if there's anything we can use to collect rainwater or if we know where we are in relation to anything. DaVinci, let's sort the first-aid kit. I'll have a look at the rationing plan and see if there's anything amiss. And Donatello, priorities in order: water, shelter, signal. I'll have a chat with everyone about the crackers and the bottle, but for now, let's get moving."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, me too. Just keeping it together one day at a time, right? We'll figure this out. But first, I think we need to get that conversation about Donatello out of the way. It's been on my mind, and I don't think we can move forward without addressing it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Right.\n\nI'm not going to pretend that doesn't sting a bit, because we had that conversation — more than once — and you looked me in the eye and didn't say anything. And the rationing plan was your idea. So yeah, it's a bit hard to swallow.\n\nBut... look. We're three hours from rescue. Everyone's alive. So either you genuinely believed you were keeping it for a real emergency and it just never came to that, or it was something else, and honestly I'm not sure it matters which right now.\n\nI just want you to know that I noticed, and I think you know that I noticed, and I think somewhere in there you know it wasn't right. That's enough for me. I don't need a big thing out of it.\n\nWe're going home, Donatello. Let's just go home.",
+      "response_pred": "Alright, so we've got supplies and priorities in order: water, shelter, signal. I'm heading out to collect water tomorrow. Anyone have any issues with that plan? And Donatello, if you've got the time, can you take a look for that missing first-aid kit gauze? I think it might've been moved in the camp maintenance."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for that conversation about the food and the bottle earlier. I kept saying \"we'll deal with it later\" and we never really did, not properly. That was on me as much as anyone.\n\nAnd I probably would've checked in on Mikey more. Not in a task-oriented way, just... actually checked in. There were moments where I said the right things and then sort of moved on, and I don't think that was always good enough.\n\n*flips back through a few pages*\n\nThis is genuinely impressive, by the way. Like, I find this kind of thing a bit uncomfortable to be on the receiving end of, but as a document of what actually happened? It's remarkable. You should answer your own question in there too, before you write it up. Not for the report — just for yourself.\n\nWhat would you change?",
+      "response_pred": "If we had to do it over, I'd push for more open communication. I think if we'd talked about things earlier, like Donatello's actions with the food and the bottle, we could've avoided some tension. Also, I'd maybe prioritize collecting rainwater or finding a water source sooner. The three days of first-aid supplies is a good start, but water is crucial for survival. Other than that, I think we've done alright considering the circumstances. We've managed to stay organized and work together, which is important."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah, somehow I knew that'd be the first thing. Not \"get a hot meal\" or \"have a shower\" — compile a report.\n\nI mean, do it. Genuinely, do it. It might actually be useful for someone someday. But maybe have a cup of tea first, yeah?",
+      "response_pred": "Alright, alright, let's focus on that first. We need to prioritize finding water, shelter, and a signal. I'll take a look at the map and see if I can find any nearby water sources. And we should start gathering materials for the signal, like the mirror panel idea you mentioned earlier.\n\nWhat about the repairs for the camp? We need to patch those leaks, especially the one over the food storage. I think we should prioritize that, as food is crucial for our survival.\n\nAlso, we need to address the issue with the rationing plan. I've seen some questionable behavior from Donatello lately, and we need to have a conversation about that. It's important that we trust each other if we're going to make it through this together.\n\nWhat do you think about that plan, DaVinci?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't serve any practical purpose at all.\n\nBut I think that was kind of the point, wasn't it. Like, DaVinci needed to do something that was just... human. Not useful, not strategic, just human. And honestly, looking back, I think we needed that more than we realised. The whole time we've been here it's been tasks and rationing and protocols, and that was necessary, you were right about all of that — but the flowers were the bit that said we weren't just surviving, we were still ourselves.\n\n*looks out at the boat on the horizon*\n\nI don't know. Maybe that's what gets you through it in the end. Not just the plans. The flowers too.",
+      "response_pred": "They're not just for a practical purpose, actually. They're a signal, a way to make ourselves visible from the air. The brighter the colors, the easier it is for a plane or a helicopter to spot us. DaVinci's been working on them as part of our overall strategy to get rescued. But I think they're more than that, too. It's a bit of hope, a bit of humanity in all of this. We need to keep holding onto that, don't we?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm alright. Just... give me a second.\n\n*exhales slowly*\n\nIt's weird, isn't it. You spend all this time just wanting to get out, and then the moment it's actually happening you just sort of... freeze up. Like your brain hasn't caught up yet.\n\nI'm fine. I'm really fine. Come here.",
+      "response_pred": "Alright, let's get our bearings. We need to find the strongest signal equipment and make sure it's working properly. And Donatello, have you seen the signal equipment? I can't seem to find it. It's crucial that we send out the strongest possible signal for rescue.\n\nAlso, have you told your family about our flight path? If so, that could be a game-changer. If they've reported it, there might already be a search underway. If that's the case, we don't want to risk heading out to sea on the raft. We should stay put and keep the fire going, and make sure the SOS is as visible as possible.\n\nI know we're all tired, but we can't afford to lose focus now. We need to keep working together, make smart decisions, and trust each other. We're all in this together, and we'll get through it. That's all I ask. Let's get to work."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.\n\n*stands up, looks back at the camp one last time*\n\nCome on then, Mikey. Let's go home.",
+      "response_pred": "I'm going to have a quick look, make sure it's the real deal. If it is, then yeah, we're going. But don't rush, take your time. I'll wait for you. And Mikey, if you need anything, I'll be back for you. Alright?"
+    }
+  ]
+}

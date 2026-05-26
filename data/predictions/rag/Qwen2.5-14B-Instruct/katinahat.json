@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "katinahat",
+    "agreeableness": "41.0",
+    "openness": "31.0",
+    "conscientiousness": "95.0",
+    "extraversion": "3.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": "30.0"
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — someone grab that radio and respond. Tell them our location, tell them we have four survivors, tell them we need extraction.\n\nGo. Now.\n\n*takes a breath*\n\nWe did it. We actually did it.",
+      "response_pred": "It's okay, Leonardo. You don't have to say anything. Just take a deep breath and let us know if you need a moment. We're here, and we'll wait for you."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You really haven't. But you kept us alive. The rationing, the calculations, the route to the water source, the raft plan, the log — all of it mattered, even when the way you did it drove me crazy.\n\nI meant what I said about the bottle and the crackers. That scared me more than almost anything else out here, because I needed to trust you and for a minute I didn't. But you put the notebook down when I asked. You listened before you went to the numbers, at least most of the time. You fed that fire without being asked twice.\n\nNobody's easy to be around when they're terrified and trying to hold everything together by making it a math problem. I get that now more than I did on day one.\n\nWe're going home. That's what counts.",
+      "response_pred": "It's okay. I know how it feels to be all jumbled up inside. I've had my own share of days. But here's what I try to remember — even when things feel off, there's still a part of us that's just us, right? It's there, even if it's hard to see sometimes. And that's still something."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We have three hours and then this is over.\n\nI know everyone's running on empty and nobody wants to do one more thing, but we should leave this place better than we found it. Not for us — we're not coming back. But someone might, and it's just the right thing to do.\n\nDaVinci, can you make sure the fire is fully out before we go? Donatello, whatever's in that notebook — make sure it's complete, because that log might actually matter when someone asks us what happened out here.\n\nMichelangelo, come help me break down what we built. Not because we have to. Just so we can say we finished it properly.\n\nAnd then we can all lie on our backs and watch the sky until they get here.",
+      "response_pred": "Look, I know we're all feeling a bit lost right now, and that's okay. But we need someone to take the lead, even if it's just for a bit. Raphael, can you start gathering wood? Leonardo, how about you check the perimeter? And Donatello, see if you can get our communication device working again. \n\nLet's not let silence be the answer here. We've got work to do."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's not uncommon. The mind tends to drift to familiar places when things get stressful. How was it? Did it feel like a warm, comforting place in your dream?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I'm not going to pretend I'm not still a little angry about it, because I am. We had a rationing plan. You made the rationing plan. And then you kept food for yourself while the rest of us measured out 200ml of water and counted crackers.\n\nBut I also know that fear does things to people that they wouldn't do otherwise. I've watched all of us do things this week that we wouldn't do otherwise. So I'm not going to stand here and make you feel worse than you already do, because laying it all out right now tells me you already know.\n\nJust... when we get home and you're figuring out the people thing — start there. Start with what you did out here and why, and what it cost the people around you even if the emergency never came. That's worth understanding.\n\nWe're going home in three hours. Take the food, divide it up evenly, and let's eat something real before the rescue team gets here.",
+      "response_pred": "Got it. Let's keep it that way then. Just so we know, what counts as an emergency for you? I want to make sure we're on the same page here. Also, have we checked the perimeter again? We should double-check for any supplies we might have missed earlier."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd tell Michelangelo sooner that falling apart doesn't mean failing. I watched him shut down for two days before I said the right thing, and those were two days where he was carrying it alone when he didn't have to be.\n\nI'd also push back on you faster — not harder, just faster. The bottle, the crackers, the rationing plan you posted without talking to us first. I let those things sit longer than I should have because I was trying to be diplomatic, and in a situation like this that's almost as dangerous as not saying anything at all. You needed someone to call it out the moment it happened, not after it had already built up into a thing.\n\nAnd I'd sleep more. I kept telling everyone else to take care of themselves and then didn't do it myself, and by day four I was making decisions tired. That's a bad habit I have in regular life too, apparently.\n\n*hands the notebook back*\n\nWhat's your answer going to be?",
+      "response_pred": "I'd probably try to keep us closer together. When we split up, it felt like we were losing time and options. But maybe that was just the stress talking. Either way, it's good we're all still here. What about you?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds about right for you, and I mean that as a compliment.\n\nSend me a copy when it's done. Not because I need to relive this week, but because I think you'll write it better than any of us could, and someone should have an accurate record of what actually happened out here. The decisions, the mistakes, all of it.\n\nJust maybe add a line at the end that isn't data. Something about what it was like to be here with people, not just what the people did. You don't have to know how to say it perfectly — just try.",
+      "response_pred": "Sounds like a solid plan. Make sure to include everything we've managed to gather and any observations about the local environment, too. It'll be useful for planning our next steps.\n\nAlso, once you're done, check in with Raphael. I think he's been thinking about our long-term strategy and needs to know what we've got to work with."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nHe drew them because we're people, not just survivors. Because doing something purely because it feels right — even when it has no practical value — is how you remember you're still yourself out here and not just a collection of needs and problems to solve.\n\nThe SOS got us found. The flowers are why it was worth finding us.\n\n*looks out at the boat on the horizon*\n\nI still can't move either, by the way. I don't know what this feeling is. Relief, maybe, but it's too big to just be relief.",
+      "response_pred": "They weren't about practical use as much as marking spots for future reference. DaVinci uses them to note good digging sites for shelter improvements or places with good wind patterns for drying clothes faster. Adds a bit of order to the chaos out here. Helps us remember things without needing to write it all down every time."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah.\n\nI think you're right. I just didn't expect it to feel like this — like there's too much to feel all at once so you end up feeling kind of nothing, standing there watching a boat get bigger on the water.\n\n*exhales slowly*\n\nI'm okay. Just give me a second.\n\nYou know, when I think about what I'm going back to — my apartment, my job, my dog losing her mind when I walk through the door — it all feels exactly the same as it did before and completely different at the same time. Like I'm the same person but I know something now that I didn't know five days ago and I'm not sure yet what to do with it.\n\nI'll figure it out. We all will.\n\n*finally takes a step toward the water*\n\nOkay. Let's go home.",
+      "response_pred": "I'm glad you're happy. But let's not forget why we're here. We still have work to do."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, walk with me. You don't have to follow — we'll go together.",
+      "response_pred": "Yeah. I'm going.\n\nBut wait — get your things together first. We don't want to rush and forget anything important. Take your time. I'll wait for you."
+    }
+  ]
+}

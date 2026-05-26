@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "escapist11",
+    "agreeableness": "3.0",
+    "openness": "90.0",
+    "conscientiousness": "52.0",
+    "extraversion": "9.0",
+    "neuroticism": "49.0",
+    "gender": "f",
+    "age": "28.0"
+  },
+  "method": "sft",
+  "model": "escapist11__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*stares at the radio*\n\nIs that — is that real? Is someone actually there? Someone answer it, answer it right now —",
+      "response_pred": "*Looks at him, then at the others, his eyes welling up with tears.* Oh my god. I'm so sorry. I didn't mean to...I didn't mean to...*pauses, taking a deep breath.* I've been crying for a long time. It's just...*breaks down, sobbing uncontrollably.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Hey, no — stop. We don't have to do this right now. We made it. That's what matters.\n\nBut... yeah. I'm not going to pretend it was always easy. The bottle, the crackers, the notebook. That stuff was hard. I was angry about it.\n\nAnd also you patched the shelter in the rain, you found the water source, you wrote the raft plan, you kept us organized when none of us wanted to be organized. You did that too. Both things are true.\n\nI think you just... you go into survival mode in a different way than the rest of us do. Less feelings, more action. I don't think you're a bad person. I think you were scared and this is how you handle scared.\n\nWe're going home. So let's just... take that and go, okay?",
+      "response_pred": "*looks at the person, then at the radio, then back at him, eyes wide and scared*\n\nWhoa. Okay, I'm here. What do you mean? What's going on? Is it... is it something I said or did or —"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the three of them doing their own thing, then at the camp*\n\nOkay, I know nobody wants to think about cleanup right now but we have three hours and I'd rather not leave this place looking like a disaster zone if we don't have to. Not for any deep reason, it just... feels right to leave it better than we found it, I don't know.\n\nMichelangelo, you can keep watching the sky. You've earned it. DaVinci, when you're done packing can you help me break down the shelter? Donatello, finish what you're doing in that notebook — actually, are you writing down everything that happened? Because honestly someone probably should. \n\n*starts picking up loose debris around the fire pit*\n\nThree hours. We're going home in three hours. That's insane. That's genuinely insane.",
+      "response_pred": "*pauses, looks around the calm. Then just sits there for a moment.*\n\nI know I said I didn't want to do it. I was wrong. We all were wrong.\n\nBut that's not the point. The point is we're all in this together. We're all hurting in the same way. And we need to communicate. We need to say how we're feeling.\n\nNot just say it, though. We need to actually do it. We need to do it in a way that doesn't hurt anyone. That doesn't mean we have to be perfect. We just need to try.\n\nBecause if we don't, we're not going to make it. We're not going to make it through this.\n\nSo let's say it together. Not in a way that's going to hurt anyone. But just say it."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? In the dream?",
+      "response_pred": "*stares at her, eyes searching*\n\nI know it's easy to talk about feeling at home when you're not, especially when you're in a place like this. I'm not talking about physical home. I'm talking about feeling like you can breathe, like you can be yourself without fear of judgment.\n\nBut here's the thing: even though we're not in a physical home, we're all here. We're here to support each other, to care for each other. And that's something that's actually real.\n\nI don't need to be constantly reminded of it. I don't need to be reminded of the fact that we're all in this together. I already know. And that's what matters.\n\nSo yeah, your dream about home. It's real. It's valid. And it's not just about you. It's about us too. We're in this together."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. I believe you that that was the reason. I do.\n\nBut you also wrote that rationing plan and put it in the middle of camp for all of us to follow, and then you didn't follow it yourself. And we didn't know about the emergency stash — we thought you were just... keeping things for yourself. That's a different thing. You see how that's a different thing, right?\n\nI'm not trying to drag this out. We're going home in a few hours and I genuinely don't want to leave angry. But I think you know that wasn't okay, and I think you laying it all out right now is you knowing that too. So. \n\nThank you for putting it out. Really. That took something.",
+      "response_pred": "No, seriously. You need it. You can't just leave it behind. We're not getting back to civilization anytime soon, and we're not doing much better than here. If you have a plan, you need to make it work. We're not going to just sit around and wait for someone else to fix it.\n\nI'm not asking you to do all the work. I'm asking you to help us. We need to figure out what's going on here and how to get out of it. If you have some ideas or resources or just some parting thought that can help us get back on track, I'd really appreciate it."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*flips back through a few pages, then lands on that last one*\n\nHonestly? I would have said more, sooner. Not in a confrontational way, just... I noticed things and sat on them because I didn't want to make it a whole thing. The bottle, the crackers, DaVinci's swim plan — I kept trying to handle stuff quietly or wait for the right moment and sometimes the right moment just doesn't come.\n\nAnd I would have checked on Michelangelo more. Not in a hovering way, but just... he was struggling from the first hour and I think we all kind of let him be in the background more than we should have.\n\n*pauses*\n\nWhat would you change? You left yourself the question but you didn't answer it. You've had three days to think about it. You don't have to write it down if you don't want to — I'm just asking.",
+      "response_pred": "I think that's great. That report is going to be real, no matter what. And yeah, I'd change a lot of stuff if I was you.\n\nI'd change the route we took to get here. I know it was the most direct but it was also the most stressful. And I'd add a few more water spots to the list. \n\nAnd I'd also add an 'A' to that list of resources you left behind. You had enough stuff to last us for three days, but we didn't know that until later. That's a huge difference. \n\nBut the biggest thing I'd change is that you guys left behind something that didn't get into the report. You left behind your emotions. Your feelings. Your humanity. And I think that's a huge difference.\n\nI know we're not going to be okay for a while — we're going to need to figure that out together. But I do think that you all do this thing almost perfectly. I do think that you all have a deep capacity for kindness, for empathy, for understanding. And I think that's what made this work.\n\nSo. That's my answer. If you had to do it over, what would you change?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That tracks completely for you, honestly. *hands the notebook back*\n\nI think you should do it. Like genuinely — not because it's useful data, though it probably is, but because you were here and you paid attention to everything and that matters. Write the report.\n\nI'm probably going to go home and sleep for approximately one million years and then eat real food and then sleep again. And at some point when it stops feeling so raw I'll probably think about all of this a lot. But right now I just want to get on whatever comes to pick us up and not think about water rationing for a very long time.\n\n*looks out at the water*\n\nYou know what's weird? I'm going to miss this a little. Not the starvation and the leaking shelter and the... everything. But this. Whatever this is. Sitting here knowing exactly what matters.",
+      "response_pred": "*smiles slightly* Yeah, do that. Whatever you need to do. It's not like we're going to be hanging out here for a long time.\n\n*pauses*\n\nWait, really. Write it up. I want to see what you did and what you learned. And thanks for writing it up. That's a huge help."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\n*looks at the boat getting closer*\n\nThat's kind of the whole point though, isn't it? We were out here surviving, rationing water, building rafts, doing everything we needed to do to stay alive — and he still stopped to draw flowers next to the SOS. Because he's DaVinci and that's who he is and he wasn't going to stop being that person just because things were bad.\n\nI think that's what they were for. Proof that we were still ourselves out here. That we didn't just become survival machines.\n\n*pause*\n\nYou should put that in your report.",
+      "response_pred": "He pointed to a few scattered flowers. They were mostly saltbush or sea oats, but there were some wildflowers too. And they were all over the place, not in any specific pattern.\n\nHe explained that they were for attracting birds and other small animals. The seeds were a target for the birds because they were edible, and the flowers were a target for the insects and other creatures because they were a source of nectar for them.\n\n*looks at the beach*\n\nIt was like DaVinci thought we were going to be out here for a while, and he wanted to make sure we could get to the birds and the insects and whatever else was here. He didn't think too much about it, so we didn't notice it until later.\n\n*pauses, then shrugs*\n\nYou know, I think DaVinci was actually kind of a great listener. He listened to the water and it told him about the shelter and the stove and the things that were important in terms of getting us through. And he listened to the birds and it told him about the food and the shelter and stuff like that. And he listened to the beach and it told him about the water. So I guess that's what counts."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey, I'm okay. I just... need a second.\n\n*doesn't move*\n\nIt's real, right? Like that's actually a boat. It's actually there.\n\nI don't know why I can't make myself walk toward it. I've been wanting this since the second we landed and now my feet just won't go and I don't totally understand why.\n\n*finally looks over at him*\n\nThank you for waiting. You didn't have to do that.\n\nOkay. Okay, I'm going. Let's go.",
+      "response_pred": "The rain."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go. Stay close to me.",
+      "response_pred": "Yeah. I'm going.\n\n*starts walking toward the rescue boat, feeling a sense of relief wash over them*\n\nYeah, I know. It's good. Okay."
+    }
+  ]
+}

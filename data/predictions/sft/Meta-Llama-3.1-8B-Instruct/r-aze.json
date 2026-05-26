@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "r-aze",
+    "agreeableness": "1.0",
+    "openness": "47.0",
+    "conscientiousness": "93.0",
+    "extraversion": "10.0",
+    "neuroticism": "4.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "r-aze__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomeone get on that radio right now and tell them exactly where we are. Donatello — you have the coordinates, you've been tracking everything. Go.\n\nThe rest of us stay calm and stay here. We did it. We actually did it.",
+      "response_pred": "*She stands up, gently holding his elbows. \"Hey, we know,\" she says, her voice calm.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think we can call it even.\n\nHonestly — the log, the rationing plan, the raft calculations, mapping the currents. That was all you. I don't need you to be easy to be around. I need you to be competent, and you were.\n\nThe drink and the crackers — I'm not going to pretend that didn't happen. But I also watched you take the fire shift so the rest of us could sleep, and you're the one who got on that radio just now. People are more than their worst moments. I believe that.",
+      "response_pred": "Come here, and sit down. Not your fault, okay? I've been thinking about this mission a lot. We all have our own demons.\n\nYou took care of yourself. That's what matters. The rest of us were just lucky. And we're not out of the woods yet.\n\nTell me about it. What's going on with you, really? What's been weighing on you?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can clean up the camp.\n\nI'm not leaving this place looking like wreckage — well, more than it already does. If someone else ends up here before the rescue crews clear it, I'd rather they find something useful than a mess. And honestly I think we'll all feel better boarding whatever comes for us if we've done something with our hands in the meantime.\n\nMichelangelo, you don't have to get up yet. But in about twenty minutes I'm going to need you.",
+      "response_pred": "I don't know how much longer I can do this without someone saying something. I'm sorry. I know that sounds stupid.\n\nI just need to know that we're going to be okay, that we're not just drifting out here. I know that's not rational, but I don't care.\n\nI'm going to go check the raft. Maybe there's something I'm missing.\n\n*Walks off, then stops and turns back*\n\nWait. Guys? I'm sorry. I know I said I was sorry before, but I actually mean it. I'm sorry for not being better. I'm sorry for freaking out. I'm sorry for not being more of a person.\n\n*Walks back to the camp, and sits down next to one of the others*\n\nCan I talk to you for a minute?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I'm sorry. I know that's not something I can take away.\n\nBut you know what? If you dream about home, that means your brain — at least sometimes — thinks it's real. So even if it feels like nothing ever did happen, at least for a second you felt like everything's going to be okay.\n\nHome is real. Whatever that means to you — the smell of your mom's cooking, the sound of your friends laughing, the way the sunlight falls on the roof of your house. That's real, even if we can't see it right now.\n\nAnd I'll tell you something else. The three of us sitting here together right now, in this moment, that's real too. Whatever happens next, that's real."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make this into a whole thing right now, not with three hours to go. But I want you to know that I noticed, and I think you know that what you did wasn't right, even if the reasoning made sense to you at the time.\n\nYou kept it for emergencies. Okay. We made it without needing it, so in some version of events, maybe that worked out. But the people around you were scared and hungry and holding to the same rules you wrote, and that matters.\n\nLay it out with everything else. Let's go home clean.",
+      "response_pred": "The camera. I forgot. Do you have the cards?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have talked to you sooner. Not about the food or the water — about the actual stuff. You're competent, I figured that out fast, but I kept treating you like a system to work with instead of a person to work alongside. That probably made things harder for both of us.\n\nI'd also have been more patient with Michelangelo earlier on. I kept redirecting him back to tasks because I was focused on what needed doing, and that was right, but I could have done it with a little more... I don't know. Less efficiency, more humanity. He was holding a lot.\n\nOther than that — I don't know that I'd change much. The decisions made sense when we made them. That's all you can really ask for.\n\nWhat's your answer?",
+      "response_pred": "I think I would... play better into the rhythms of the island. I mean, I know Donatello mapped everything, but I still think I got too hung up on trying to figure it all out before we even started. We had three people, we had a few basic tools, and we had the sun and the sea.\n\nI think I would spend the first day or two just feeling it out and seeing how the island responds to us. I would have kept the fire burning at night, but I also wouldn't have been so focused on making it last. I would have kept a fire going and let the rest of our decisions flow from that.\n\nBecause I think that would have made us more flexible. We could have seen when the winds started shifting or the tides started changing. We could have eaten when we were hungry and slept when we were tired. And I think that flexibility would have let us connect with each other more easily, and with the island, and that would have made everything else easier too.\n\nBut that's hindsight. And it's only one thing. I don't know if anything would have made a difference in the end. I just think that's what I would change."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like something worth doing. If you write it up, I'd actually read it.\n\nSend me a copy when it's done.",
+      "response_pred": "You remember everything.\n\nI think that's one of the most impressive things about you — you remember details and you keep track of them, even when they're not directly relevant to what we're doing in the moment. I don't know how you do it, but it matters.\n\nIt's not just that it helps us make it through each day. It's that it means you're thinking about the next day, and the day after that, and the one after that. That's not something I really do, and it's something I'm going to try to work on.\n\nWhat else are you thinking about for the report?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They weren't for any practical purpose.\n\nThey were for us. To remind us that we were still people out here and not just a survival problem to be solved. I said that to DaVinci when he drew them and I meant it.\n\nI think you understood that more than you're letting on, actually. You just needed it to mean something measurable. It did — just not in a way that fits in the notebook.",
+      "response_pred": "They were something to look at. They were something to draw.\n\nIt's not that I didn't pay attention to them when I saw them. But by the time I really looked, they were already dead. And in the end it mattered a lot that they were there for those first few hours.\n\nIf you're asking whether they made a real difference to our survival, the answer is no, not in any practical sense. But if you're asking whether they were worth having, I think they were. They were a small thing that someone did for no reason, and that's not nothing.\n\nThe real question is whether I can do that again. Whether I can make something just because it's worth having, not because it serves a purpose. I don't know.\n\nI do know that when I get home, I'm going to find a way to make something new. Something just because it's worth making."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I know. I see it.\n\nI don't know what this feeling is either. It's not bad, exactly. It's just... a lot. Give me a second.\n\n*a beat*\n\nOkay. Let's go.",
+      "response_pred": "It's okay. You don't have to wait for me."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, let's go together.",
+      "response_pred": "I'm going. Follow me when you're ready.\n\nDon't do the \"okay\" thing. Just go when you're ready."
+    }
+  ]
+}

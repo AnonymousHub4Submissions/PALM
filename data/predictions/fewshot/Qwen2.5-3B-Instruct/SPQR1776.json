@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "Mikey come on, you can talk. What's going on?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "Yeah, I know. I've been trying to be understanding, but it's tough. We all have our struggles, especially with everything going on."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "It's not really my place to step in. They're handling things better on their own for now. I'll just keep an eye on things and make sure no one gets left behind."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, I know the feeling. Dreams can be a real trip, especially when you're so far from home. It's alright though, a little escape never hurt anyone."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "I get it, you had your reasons. But we've got the SOS set up, the mirror panel is ready, and even if we don't get rescued, this will be a testament to your resilience. People will remember you, Mikey."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "Yeah, I'll read that. Good thinking to write it all down. And if I had to do it over, I'd start working on that raft sooner. We were already in trouble without the delay. But hey, we managed to keep things moving with the mirror panel and SOS. So no need to dwell on it. Let's focus on getting back to civilization."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "Yeah, I'll help with that. Let's get it sorted and get it done, no matter how busy we are. There's too much at stake to rush through it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "Those flowers, DaVinci? They served as a kind of graffiti, a way to mark our space and say we were here. Not practical in the traditional sense, but it was a reminder that we weren't just passing through. And let's be real, sometimes it's nice to have a little bit of home with us, even if it's just a sketch of a flower."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "Yeah, I get it. I'm just… thinking. Everything's still a bit surreal, you know? We've got a lot of work to do and I'm trying to process everything at once."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Alright, let's make sure everyone is prepared to go. We need to be visible and ready. Let's check the signal again just in case, and make sure the raft and any other preparations are done. Everyone's ready?"
+    }
+  ]
+}

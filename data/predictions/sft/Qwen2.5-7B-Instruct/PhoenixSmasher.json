@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PhoenixSmasher",
+    "agreeableness": "2.0",
+    "openness": "87.0",
+    "conscientiousness": "10.0",
+    "extraversion": "98.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": "33.0"
+  },
+  "method": "sft",
+  "model": "PhoenixSmasher__Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. We're good. We made it.",
+      "response_pred": "You know, there's a part of me that's like, 'That's all you got?' But I almost feel bad for you. I mean, you're a kid. What's your name again? Ugh, it was something weird. I don't know, and I'm never going to remember it. I've already forgotten that I even met you. But I guess that's what happens when you're in these situations. It's like you're just a test to see who can handle it the best. Or, maybe, just to see who can handle it. I don't know, really. The other guy, he's a little weirded out. But I guess he's just not as good as me. You know, there's something that's been on my mind, too. I don't know if you guys have talked about this, but I've been thinking about how we can get out of here. I don't know, it's just something I've been thinking about. But, who knows, maybe it's just me. Maybe I'm crazy. But, you know, it's something I've been thinking about. I don't know. And, I don't know if you guys want to talk, but I was thinking I'd get up and do a few laps around here. Maybe you guys want to join me? I don't know. But, you know, it's up to you. But, if you do, let me know. I guess I'd just start down there. I don't know. I'm going to go see what they're serving for breakfast. What's your name, again?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. That counts for a lot.",
+      "response_pred": "It's fine. We're fine. We're alive. That's the important thing."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this place up. We're not leaving it like this. Michelangelo, get up, help me stack the panels. DaVinci, start breaking down what we built and sort what's worth taking back from what isn't. Three hours is plenty of time.",
+      "response_pred": "It's late. Let's get some rest."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "What do you miss?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all went hungry together. That's the part that's hard to get past.",
+      "response_pred": "Alright. Put it over by the food so we can get to it as a first resort."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group conversation about the food earlier instead of waiting. That needed to happen sooner. Other than that... I don't know. We made it. Hard to argue too much with the outcome.\n\nWhat's your answer?",
+      "response_pred": "I would have never left the three of you behind."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "Alright, I'll go with that. So, what's your other question?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that might've been the point.",
+      "response_pred": "They were a way to slow you down, get you to think, and keep you interested. We needed you to realize something."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "Hey, how about we put that fire to use, huh? Over here. We'll work on getting this place down."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Alright. Michelangelo, you coming?"
+    }
+  ]
+}

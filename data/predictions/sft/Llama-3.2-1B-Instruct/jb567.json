@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "jb567",
+    "agreeableness": "56.0",
+    "openness": "46.0",
+    "conscientiousness": "54.0",
+    "extraversion": "42.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "jb567__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "is that - is that what I think it is\n\nsomeone answer it, go, now",
+      "response_pred": "\"Hi, guys. Thanks for listening. I'm, uh, really sorry about that. Just had a tough night, okay?\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you've been alright. annoying sometimes, but you got things done and when it mattered you held your hands up. that's more than most people manage tbh\n\nnow come on, DaVinci's about to talk to actual humans, let's go",
+      "response_pred": "the past few days\n\nI know, I know, it's not easy. I'm sorry."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "right, are we really just going to sit here for three hours and stare at things\n\ncome on, let's actually leave this place better than we found it. DaVinci you're already packing, start thinking about what we leave behind that might be useful if someone else ends up here. Michelangelo get up off the ground mate, three hours is nothing, don't spend it lying in the sand.\n\nDonatello I know you're processing or whatever but maybe the notebook can wait until we're on an actual rescue boat with actual seats\n\nI don't know, it feels wrong to just drift after everything. we made it. let's at least mark it somehow before we go tbh",
+      "response_pred": "we're all just standing there, our heads down, not even looking up\n\nsomeone shrugs at DaVinci, who just shrugs back\n\nwe're all still here, through it\n\nthe sun's getting low, and DaVinci's still talking, but nobody's listening\n\nthe others just kind of... are, I guess."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like",
+      "response_pred": "okay I know it's not a big deal but a dream about home, that's some heavy stuff. and who's home, again?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do.\n\nbut like... this is kind of the exact situation we talked about isn't it. the whole point of the rationing plan, the group conversation, all of it - it only works if everyone's actually in it. and you weren't fully in it, you had a backup stash the whole time.\n\nI'm not going to have a go at you about it, we're three hours from rescue and honestly I don't have the energy. and I can see you laying it out now, that means something.\n\nbut I think you know that \"for emergencies\" is doing a lot of work in that sentence tbh. we were the emergency. all four of us, the whole time.\n\nkeep it for the journey back if you want. or leave it here like I said, for whoever comes next. up to you. just - don't carry the other thing with you when we get home. the hiding. you're better at the honest version of yourself, I've seen it.",
+      "response_pred": "right, that's good. you're keeping it for whatever. not saying it's not useful but I didn't want to just leave it here without looking.\n\nlook, we've got everything. food, water, first aid kit, maps, that kind of thing. your notebook is basically useless tbh but I don't know what else we'll need\n\nif you're really that invested in this, can we at least talk about it? I don't want to assume you're going to be okay or anything but it feels like we're just leaving everything on the table without even asking\n\nMichelangelo I see your point but I think we need to focus on how we're actually going to get out of here. DaVinci you're already thinking about what we can leave behind, start thinking about what we can actually use\n\nyou're right, we need to be able to mark something. not just because we're leaving but because we might actually need it in the future"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? probably would've pushed harder for the group conversations earlier instead of letting things fester. the rations thing, the crackers, the bottle - we danced around it for too long before saying it out loud. costs you trust and energy you don't really have to spare in a situation like this.\n\nand I'd have asked Michelangelo what he needed instead of just telling him to stay present. he knew things before the rest of us did, he just needed someone to actually ask.\n\nwhat would you change? and I mean actually, not the logistical stuff - I know you've got that covered in here. the other bit.",
+      "response_pred": "yeah that's a good idea. you can write in the middle of the night if you want to keep track of stuff\n\nwhat question did you leave yourself tbh? something about the camp, the situation or just the six of us?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it, genuinely. that's useful stuff, not just for you - if anyone else ends up in a situation like this that data could actually matter.\n\njust maybe also do the other thing. the trusting people bit. don't let the report be the only thing you take home from this tbh.",
+      "response_pred": "yeah? that's not going to be a lot tbh. but I guess that's a good start.\n\nand then I want you to make it public. all of it. not just the group stuff, the individual stuff. we've been working on this before, but I don't think it's been done fairly enough. and this time it feels different.\n\ndon't just copy and paste, we need to make this document human. it's not a list of stuff that happened - it's an experience. a living, breathing thing that we can learn from.\n\nand I want you to write it yourself, not just copy from here or wherever. that means you need to work with us, not just tell us what to do."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "they were for us Donatello, not for the rescue boat\n\nlike yeah the SOS did the practical work, but the flowers were DaVinci saying we're still people here, not just survivors. we still care about things that don't have a function. that matters when everything else is stripped back to basics\n\nI don't know, maybe that's the thing I'd want you to take home more than the report. not everything needs a purpose to be worth doing\n\nlook at him over there, cheering his head off. that's the same guy who drew flowers on a beach when Donatello told him it was a waste of time. I think he had it right from the start tbh",
+      "response_pred": "the drawing thing, yeah. I think it was just a way of marking the spot, like a little sign that says \"we were here\". and yeah, it's not that much use in the grand scheme of things, but it's something.\n\nI remember DaVinci saying it was for psychological reasons because he's always drawn flowers and stuff when he's feeling down. like it's a way of making the problem feel less individual. I don't know how much of a difference that made, but it felt like it.\n\nit's funny tbh, because the only times we were all actually really present was when you were out there marking stuff. the rest of us were just drifting."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah I'm coming, just give me a sec\n\nit's weird isn't it. three days ago I was having a mild panic attack in a field of burning wreckage and now there's a boat and I still can't quite make my legs work\n\nI'll be fine. go on, wave them in. you're better at that than me tbh",
+      "response_pred": "maybe you're not going to say anything, DaVinci. maybe you're just... quietly brilliant\n\ncause when it comes down to it, it's not about me, it's not about you or Michelangelo or Donatello - it's about how we're actually doing the work here. whether we're just pretending it's all fine because the other person's happy is not a substitute for actual effort.\n\nI'm not saying I've changed, I'm saying you might have changed too. and I think that's the thing that matters right now. not what we did, not what we're going to do in the future but what we're actually doing in the moment\n\nsome of it's going to slip away tbh. and when it does, I don't want to look back and think \"you were right\". I want to look back and think \"I was careful\". because I was actually there, and I was actually doing my part."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah, come on then. let's go.",
+      "response_pred": "yeah that's totally okay. we're coming back. we're not going anywhere.\n\nit's funny, I was thinking that DaVinci's flowers were just a piece of his life out there, but this… this feels different. not just because we're being rescued, but because we're actually coming back. together.\n\nI think I'd rather they're here than we didn't make it, tbh. that's a better ending than just drifting away into the darkness.\n\nhave you thought about what we're leaving behind, Michelangelo? the camp, the boys, the whole thing? I know it's not much, but if someone else ends up in our shoes, I'd want to know we're leaving everything we've got behind that too\n\nI don't know, I just feel a bit more honest with you about this, than with anyone else tbh."
+    }
+  ]
+}

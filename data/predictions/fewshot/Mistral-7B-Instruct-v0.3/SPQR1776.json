@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "Hey, come on. You know you can lean on us. It's alright if you're feeling a bit overwhelmed. Let's all take a moment to breathe and regroup. We've been through a lot, but we're still here. And that's what matters most."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "It's alright. We're all dealing with a lot right now. You don't have to carry the weight of everything on your shoulders. Let's focus on what we can control: getting through this together. We've made it this far, and we'll keep moving forward. But if there's something you need to talk about, I'm here to listen."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "Alright, let's get back to work. We've got tasks to tackle — let's start with the water. We need to find more of it as soon as possible. While I'm doing that, you and DaVinci can focus on patching up the shelter. We need to make sure it's solid before nightfall. And Donatello, we need to talk about the food situation. It's important we all share resources equally for the good of the group. Let's re-group and discuss everything once we've made progress on these fronts."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's alright to dream about home, Mikey. We all do. But let's focus on what we can control right now - our actions, our decisions, and our teamwork. That's what's going to get us through this. Let's take it one day at a time and make the most of every opportunity we have."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "Right, so it's for emergencies. That makes sense. Let's add it to the inventory and make sure everyone knows where it is. If we do end up in an emergency, it's good to have it on hand. We should also discuss a plan for using it, just in case. Everyone good with that?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "I'd say we should have prioritized signal-making and visibility from the beginning, rather than focusing solely on food and shelter. We should have built the mirror panel earlier and made sure everyone was aware of each other's abilities and resources. And I would have brought up the issue of hoarding supplies more immediately, to prevent any negative impact on our group's functioning. Other than that, I believe we've handled the situation as well as we could given the circumstances."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "Alright, that's a good idea. But don't forget to include everything - food, water, shelter, signals. We need to make sure everyone has access to the information and can contribute to the decision-making process. Also, it might be helpful to discuss any potential risks or challenges we might face in the near future, so we can plan around them."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "The flowers… well, they're not exactly practical in a survival sense, but they serve a purpose. They help us signal. If someone's looking from the air, the contrast between the flowers and the sand can be a lot more visible than the SOS. Plus, it gives us something to do. It's a way to feel like we're doing something productive when we're stuck here. It's not about the flowers themselves, it's about the hope they represent. Hope that someone will find us. Hope that we're not lost. Hope that things will get better."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "It's great to hear the good news, everyone. But let's stay focused. We've made it this far, but we're not out of the woods yet. Let's take a moment to celebrate, then get back to work. We need to keep the fire going, make sure the shelter is secure, and keep an eye out for any signs of rescue. Let's not get complacent. We don't know how long we'll be here, and we need to stay prepared. Let's work together, focus on our priorities, and get through this together."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Yes, of course. Let's go. I'll lead the way. You stay behind me, and we'll make our way to the rescue team together. Don't worry, we'll be okay."
+    }
+  ]
+}

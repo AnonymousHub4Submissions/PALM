@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "*Slowly stands up, eyes locked on him, a mix of concern and caution on my face*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "*sigh* Yeah, I've noticed. You've been a bit...on edge, ever since that argument with your sister. I'm trying to be supportive, but honestly, it's a bit draining for me. I don't know how much more of this emotional intensity I can handle. Can we talk about it? Maybe we can figure out what's going on and how to make things better?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "*sighs, looking down at the ground* I don't know, guys. This was supposed to be a team effort. We're all in this together, but it feels like we're just wandering around in circles. *pauses, fidgeting with a small rock*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "That's... nice, I suppose. My own dreams have been... unsettling lately. All these fragmented images and feelings of unease. I've been trying to analyze them, but it's difficult to make sense of the subconscious. Do you think your dream about home was pleasant?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "That's a good approach, but I do worry that you're being a bit too pessimistic. What if it wasn't just an emergency? What if it was something more... pleasant?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "The whole experience still feels a bit hazy. I'm not sure I'm ready to think about doing it over. All those unknowns, the stress of not knowing what was going to happen... I'm not sure I can even process it right now. But if I had to try, I suppose I'd want to get more information about the environment before we even started. The lack of data made every decision feel like a shot in the dark. If I could go back, I'd try to get a better read on the situation before we committed to anything. That way, at least we'd have a foundation to work from."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "That's a good idea, but don't forget to take a break first, you've been working non-stop for a long time now. It's not healthy to just dive headfirst into the same task without giving yourself some time to rest and recharge. Why don't you take a few hours to unwind, and then come back to it with fresh eyes?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "The flowers DaVinci drew in the sand, it's one of those things that's really stuck with you, huh?  I think they were just his musings, you know? A way for him to relax, clear his mind. He was known to do that sort of thing when he was traveling, observing nature. Those flowers were probably just a product of that. They do seem a bit... superfluous, in the grand scheme of things. DaVinci was a lot of things, but practical wasn't really his forte."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "*pauses, taking a deep breath* You're just standing there, staring at me like you're waiting for something. What is it? Do you want to talk or something? *fidgets with the hem of his shirt, his eyes darting around the room*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "It's about time. I was starting to get anxious. I'll go check it out, see what's going on. You can follow me, but stay close. I don't want you getting hurt. *starts walking towards the rescue team, eyes scanning the area for any signs of danger*"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mukku88",
+    "agreeableness": "89.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "46.0",
+    "neuroticism": "5.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "mukku88__Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride home.\n\nSomebody get on that radio, right now, before it cuts out. Donatello, you're the clearest thinker here, you talk to them. Give them coordinates, give them Michelangelo's flight path info, whatever we've got.\n\nDaVinci, breathe man. We did it. You kept this camp going, you drew the SOS, you kept the signal up. This is yours too.\n\nGet on the radio. Now.",
+      "response_pred": "*Waves the others off, then looks at you. His face is hard, eyes distant.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. The rationing plan, the raft, the water run, the notebook. I gave you a hard time about some of it and I stand by that, but the intent was always right. We can sort out the rest when we're home.\n\nNow get on that radio.",
+      "response_pred": "Hey, hey, hey. None of that. Don't even start. None of this is on you. We all had it. We're okay. We're all okay. You helped keep us okay. That's the real point.\n\nLook, just take care of yourself too. We all need that. The rest will come."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright we've got three hours, let's not just sit here. We should at least get the important stuff packed and leave this place in some kind of order. Not for us, just in case someone else ever ends up here.\n\nMichelangelo, you good down there? When you're ready, can you start collecting the first aid kit and whatever's left of the water? Donatello, anything in that notebook we should keep a physical record of for when we talk to rescuers? Flight path info, timeline, all of it.\n\nDaVinci, whatever you're packing, make sure the signal stuff stays visible until the last possible minute. Just in case.\n\nThree hours. Let's finish clean.",
+      "response_pred": "Well, we're home. We're alive. We worked, we survived. That's as good as it gets.\n\n*Silence.*\n\nOkay. We made it. That's a hard thing to do. Let's just go."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like.",
+      "response_pred": "I get it. I just… I can't. I don't want to think about it.\n\nI don't know how many things I can keep from myself, but I'm not going to think about that.\n\nSo, we're down to three hours and there's still no rescuers. DaVinci, we need to figure out how to make this camp look like it was abandoned, right? Burn the signal stuff, clear the huts, get anything left of the rescue equipment out of sight.\n\nMichelangelo, we need to keep the raft and the first aid kit together, right? We're not going to be able to talk to rescuers for a while, so they might be the only thing anyone finds, and we need to make sure they're in the best condition possible.\n\nDonatello, you're in charge of the food. We've got a few days, but we need to ration it. DaVinci, you're in charge of packing the rest of the supplies. We don't need to take a whole lot, but we need to make sure we're leaving behind anything that might make someone think this place was abandoned.\n\nThree hours. Let's finish clean."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. But we had a rationing plan and you were the one who wrote it. The bottle, the crackers, now this. That's three times. I'm not going to blow up at you right now, rescue is three hours out and it doesn't matter anymore in that sense.\n\nBut you should know that Michelangelo saw the crackers. He came to me. He didn't make a scene, he just quietly flagged it. And I had to decide how to handle it without blowing up the group when we needed to stay functional.\n\nI get the logic, emergency reserve, sure, that's not crazy thinking. But you could've said that. You could've told us \"I'm keeping a small reserve in case things go wrong\" and we could've agreed on it together. Instead it was hidden. That's the part that's hard to square.\n\nWe're going home. I'm not holding a grudge. But if we're being straight with each other, which I think we should be, that's what happened.",
+      "response_pred": "That's good to know."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for transparency earlier. Not just on you, on all of us. The bottle, the crackers, DaVinci keeping the swim plan to himself, Michelangelo sitting on the flight path information for two days. We were all holding things back at different points and it cost us time and energy managing around each other instead of just working together.\n\nI'd also have checked on Michelangelo more. I kept nudging him to stay functional when sometimes he just needed someone to sit with him for a minute without an agenda.\n\nWhat would you change. You asked yourself the question, what's the answer.",
+      "response_pred": "Don't know. I didn't change anything, you did. I'm not going to try to make you feel bad about that, you don't need that. I'm trying to have a conversation about it, and we did a lot of good things. But I'm not going to let you off the hook for the bad things either.\n\nYou had the reserve and you didn't tell us about it. Then you took three more rationed supplies without telling anyone, and I caught it. I'm not going to pretend that's cool or that we're all buddies now. I'm going to call it out and deal with it as a thing that happened, not just disappear.\n\nWe're going home. I'm not going to make you feel bad, but I'm not going to sugarcoat it either. If you had to do it over, what would you change."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks, sounds like you. Send me a copy when you're done, I'm curious what it actually looks like laid out properly. Might be useful for more than just us.",
+      "response_pred": "Look, I know this is strange and I'm not saying you should feel pressured, but I would appreciate that. We're going home, we're getting off this island and whatever happens from here, you're going to have to start reporting to someone. I'm just trying to see what I can do to ease the transition.\n\nTo be clear, I'm not saying you're going to get in trouble. But at some point we're going to have to tell someone about this. And if I can help by giving them the story from the ground floor, that's something."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That was kind of the point.\n\nYou wrote a rationing plan because that's how you process things. DaVinci draws flowers next to an SOS because that's how he does. Neither one is wrong. The flowers were for him, and maybe a little bit for the rest of us whether we admitted it or not. You can't run on pure function for five days straight, something has to remind you why you're trying to get home in the first place.\n\nI think that's what you would've changed too, if you're being honest with yourself. Not the notebook. Not the records. Just leaving a little room for the flowers.",
+      "response_pred": "They were a signal. DaVinci did the best he could to draw something that would stand out here, something different from the dunes. He knew we had a limited window of time and he knew our chances of getting found depended on getting the attention of something big enough to see from the air.\n\nMaybe they're just pretty. Maybe they're something else. But at the very least they were a signal."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just give me a second.\n\nIt's a weird feeling, that's all. Five days and now it's just... over. I don't know what I expected it to feel like.\n\nI'm good. Let's go.",
+      "response_pred": "Alright, sit down man. We've had our good run for five days. Things are still going to be rough for a while, but we're going home. Let's start talking about what we'll need to do when we get there."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on, let's move.",
+      "response_pred": "Yeah, I'm going. Take the raft, lead them to the camp. I'll meet you on the beach.\n\nYou head over to the raft, waving to the rescue boat. The last thing you see is the three of them walking towards the beach, DaVinci leading, Michelangelo and Donatello close behind."
+    }
+  ]
+}

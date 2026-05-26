@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ishabad",
+    "agreeableness": "18.0",
+    "openness": "9.0",
+    "conscientiousness": "42.0",
+    "extraversion": "22.0",
+    "neuroticism": "80.0",
+    "gender": "",
+    "age": "17.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. That's it. That's what we've been waiting for. Say something back to them.",
+      "response_pred": "*Fidgets uncomfortably in seat, looking down at hands before back up at him* What's going on? You okay? You look... *pauses, unsure how to proceed*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive though. That's what matters.",
+      "response_pred": "Come on, don't sugarcoat it. You've been a nightmare to deal with. One minute you're fine, the next you're snapping at people for no reason. I'm surprised I haven't lost my temper yet, to be honest. What's going on with you? Why are you being so short with everyone?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours, let's at least make this place look like we tried. Come on.",
+      "response_pred": "Great, just what I need, more silence. I'm trying to start a fire here, not sit around and think about all the things that could go wrong. Can't anyone even help me get this fire started?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's weird, huh? I've been having these recurring dreams about my childhood house lately too. Must be some subconscious thing going on. Don't really know how to interpret it, but it's been sticking with me."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah but we were the emergency. We were all the emergency, the whole time.",
+      "response_pred": "You're finally talking to me about it. I've been trying to get you to use that backup phone for ages now. What happened, did your main one finally die on you?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably trust people more upfront instead of waiting for things to go sideways. Like we wasted time being suspicious of each other when we could've just been straight from the start. That's what I'd change.",
+      "response_pred": "Honestly, I'm not sure. It's all a bit of a blur. I mean, we managed to get everything done, but...I don't know, it just felt really chaotic at times. If I had to pick something, I suppose I would've liked to have more time to think things through before making some of those decisions. But, at the same time, we were under a lot of pressure to get everything done quickly. I don't know, it's hard to say."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Cool, honestly that sounds like something worth reading. Send it over when it's done.",
+      "response_pred": "You're finally back. Took you long enough. I've been trying to keep up with everything here, but it's a lot to handle on my own. I appreciate the offer to compile the data, but I've already started on it. Just get me the files you've got, and I'll take care of the rest."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Honestly? None. That's kind of the point.",
+      "response_pred": "Come on, those flowers weren't just random doodles, they're a representation of the beauty in nature, something to lift the spirits in the midst of all this dirt and grime. I mean, think about it, we're stuck out here in the middle of nowhere, gathering seaweed and whatnot, it's not exactly the most glamorous job, but those flowers... they're a reminder of the beauty that exists beyond this beach. And as for practical purpose, I suppose they might be a way to pass the time, to focus on something other than the monotony of this work."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "*pauses, taking a deep breath, still standing with his arms raised in a cheer* Oh, great. Now you're just gonna stand there. What's the point of even cheering if nobody's gonna join in? *lets his arms drop, a hint of annoyance creeping into his voice*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go. Come on.",
+      "response_pred": "I've got my gear ready. Let's move, stay close and watch your step. We don't know what we're walking into. Keep an eye out for any signs of hazards or injuries. And try not to get too close to the building, we don't want to get caught in any potential collapses. Stay behind me, I'll take the lead."
+    }
+  ]
+}

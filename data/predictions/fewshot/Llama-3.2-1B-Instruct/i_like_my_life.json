@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "i_like_my_life",
+    "agreeableness": "75.0",
+    "openness": "12.0",
+    "conscientiousness": "6.0",
+    "extraversion": "5.0",
+    "neuroticism": "7.0",
+    "gender": "m",
+    "age": "19.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah.\n\n*exhales*\n\nYeah, okay. That happened.\n\nDaVinci, breathe. We're good. We're actually good.",
+      "response_pred": "*looks at him, expression a mix of concern and compassion* Hey... what's wrong? You okay? *walks over to him, sitting down beside him* You're not thinking about the raft, are you? We can still get her done, I promise. *leans in, voice low* We just need to focus on getting the signal equipment up and running, and then we can worry about the raft. *reaches out a hand, gently touching his shoulder* You were going to tell us the rest of the story, right? What was it that you wanted to say?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so.\n\nLook, the bottle and the crackers — that's done. You caught yourself, you said so, we moved on. The notebook, the rationing plan, being a pain in my ass about the signal equipment every five minutes — honestly? Probably why we're still here to have this conversation.\n\nYou don't have to be easy to be around to be worth having around. Those aren't the same thing.",
+      "response_pred": "*sighs, looks away, and mutters under his breath* Yeah. I knew you'd be like this."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here waiting.\n\nWe should probably leave this place better than we found it — or at least not like a disaster zone. If nothing else, whoever ends up here next shouldn't have to deal with our mess.\n\nMichelangelo, I know you're enjoying the sky, but you're on the light stuff — blankets, food packaging, anything small. DaVinci, you're already packing so just keep going. Donatello, whatever's in that notebook — maybe add a note about the freshwater source to the northeast, the raft materials, anything that'd actually be useful to someone else in this situation. Leave it somewhere visible.\n\nI'll handle the heavy wreckage.\n\nWe've got three hours. Might as well use them.",
+      "response_pred": "You: *sits down on a nearby rock, staring into the fire, lost in thought*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "*expression softens* You're okay, aren't you? Stirring. It's been a while since we've had a decent night's sleep like that. The adrenaline and stress of the past few days still linger, but it's nice to just have some peace. *pauses, studying Other* You know, dreams can be really revealing. What do you think your subconscious was trying to tell us?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\n*looks at it*\n\nOkay. I'm not going to pretend that doesn't sting a little, especially after the crackers conversation. But — we made it. So either this was never needed, or it's the reason we had a buffer if things had gone worse. I genuinely can't tell which one it is, and I'm not sure it matters anymore.\n\nWhat I will say is — if there's a next time, and I really hope there isn't, you tell the group. You don't have to give up control of the emergency supply. Just tell us it exists. That's all. The secrecy is the part that breaks trust, not the planning.\n\nWe should eat it before rescue gets here. All of it, together. No point carrying it out of here.",
+      "response_pred": "Other: It's not a great story, though. I was just trying to keep myself occupied, I didn't mean to cause any trouble."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for full transparency from day one. Not just about resources — about everything. DaVinci sitting on the reef idea, you sitting on the emergency stash, Michelangelo sitting on the flight path information. We all held things back at some point and it cost us trust we needed.\n\nThe other thing — I'd have been more deliberate about making sure Michelangelo was actually okay, not just functional. There's a difference and I kept treating them like the same thing.\n\nWhat about you? What's your answer to your own question?",
+      "response_pred": "You: Honestly? I don't know if I'd change much. The group's dynamics and decisions were pretty fluid, and we made some pretty good calls given the situation. I think we did the best we could with the resources we had.\n\nIf I had to do it over, I'd probably want to spend a bit more time with each person individually and have some more open discussions about our decisions. I think we made some good choices, but I also think we could have been more careful and considered the potential consequences of certain actions.\n\nI'd want to make sure that we did some more prioritization and delegated tasks better. I think we did a good job of focusing on the immediate needs and the most pressing problems, but I think we could have handled some of the smaller tasks and errands more efficiently.\n\nAnd I'd want to make sure that everyone was feeling heard and included in the decision-making process. I think we did a good job of listening to each other's perspectives, but I think we could have done a better job of addressing everyone's concerns and needs.\n\nBut overall, I think we did the best we could with the resources we had, and I think we made some good decisions. It's not perfect, but it's not bad either."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, that tracks. That's very you.\n\nMake sure the part about the water source northeast gets in there — two hours on foot, downhill, rocky but manageable. That's the kind of thing that actually saves someone's life if this ever happens again.\n\nAnd maybe include the bit about morale. Not in a soft way, just — practically speaking, the group nearly fell apart twice and both times it wasn't because of resources. That's worth noting if the report is supposed to be useful.",
+      "response_pred": "I'd be happy to help, Michelangelo. Let me get my notebook and we can start working on this report together."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nNot everything has to serve a purpose. The SOS got us found, maybe. The flowers kept DaVinci going. And DaVinci keeping going kept the rest of us going. So if you want to trace it back far enough and call that practical, fine. But I don't think that's why he drew them.\n\nSome things are just — human. You know?\n\n*looks at the boat on the horizon*\n\nI still can't move, by the way. That's weird, right? I've been wanting this for five days and now I'm just standing here like an idiot.",
+      "response_pred": "*looks at the flowers, squints in the fading light* Ah, I didn't explain it thoroughly, did I? They were a communication device. DaVinci figured out how to use them to send a distress signal from the beach. He knew the plane was still out there, and he wanted to let someone know we were still alive. *shrugs* It's not like it's rocket science or anything, but it's one of the things that makes me think he was trying to compensate for something. *looks at you* You know, I've been doing this for a long time, and I still don't totally understand my mind, especially when it comes to DaVinci. He's been drawing on the beach, sketching out a map of the area, trying to get us to safety. *nods* We should make a note of it, see if anyone else can make sense of it."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah.\n\n*still not moving*\n\nThanks for noticing.",
+      "response_pred": "You: *looks back at him, eyes locked on his, a small, almost imperceptible movement of my mouth*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.\n\n*takes a breath*\n\nCome on then.",
+      "response_pred": "I'm going. *stands up, stretching* Don't worry, I'll be right behind you. We're not going to wade through the water. We're not going to swim. We're going to get out of here, and we're going to get a plane. *smiles, trying to reassure*"
+    }
+  ]
+}

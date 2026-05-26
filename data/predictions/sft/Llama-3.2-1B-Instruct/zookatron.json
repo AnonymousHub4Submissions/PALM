@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "zookatron",
+    "agreeableness": "45.0",
+    "openness": "35.0",
+    "conscientiousness": "96.0",
+    "extraversion": "0.0",
+    "neuroticism": "63.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "zookatron__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. It's real. That's a real signal.\n\nSomeone say something back into it. Now, before it cuts out.",
+      "response_pred": "*Looks at the person, then at the others, trying to communicate without speaking.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Both things are true.\n\nThe rationing, the raft plan, the water run, the fire last night — a lot of that was you. I'm not going to pretend the other stuff didn't happen, but I'm also not going to pretend it wasn't complicated being out here under this kind of pressure. I don't think any of us showed up as our best selves every single day.\n\nYou said you'd address it with the group and you did. That counts for something.",
+      "response_pred": "I know. That's not an easy thing to say. It takes a lot of courage to admit that, especially when you feel like you're not being understood.\n\nI'm not asking you to prove anything to me. I'm not asking you to fix anything for me. I just want to see you, I want to hear you out, and I want to know what's going on.\n\nCan we try to start over from the beginning?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours is enough time to leave this place better than we found it. I'm not saying we have to be obsessive about it, but we should at least consolidate the debris we moved, make sure the fire is properly out before we leave, and not just abandon a bunch of wreckage on a beach because we got excited about going home.\n\nDonatello, anything in that notebook worth keeping for the record — flight path notes, the rationing log, anything that might be useful for whoever investigates the crash? If so, hang onto it. If not, it can go.\n\nDaVinci, when you're done packing, help me with the fire.\n\nMichelangelo — you've got three hours. You can spend them staring at the sky, that's fine. But if you feel like doing something with your hands, there's plenty to do.",
+      "response_pred": "It's not like that. There's a difference. You weren't trying to hide it or pretend it wasn't real. It was just a lot of context. You were scared and you were trying to protect us.\n\nDon't start blaming yourself again. It's not going to fix anything. What you did was help. And that's what matters. Not how much effort you put in, but how much it mattered.\n\nThe real work starts now. How are you going to do that, huh?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's real. That's a signal. And it's not just about the place itself — it's about being safe and having what you need. You're not alone. We're all here. But for now, that's enough."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\nI'm not going to yell at you about it. We're three hours from rescue and that fight doesn't accomplish anything useful right now. But I want to know what you actually had, because the difference between 'I kept a small emergency reserve' and 'I was hoarding a significant portion of our supplies' matters to me. Not for punishment, just because I want to understand what actually happened out here.\n\nAnd I think you know that too, which is probably why you laid it out just now instead of quietly packing it into your bag.",
+      "response_pred": "That's not weird. It's not weird at all. It's actually kind of normal.\n\nYou kept it for practical stuff. Like the emergency kit. Or the place to hole up in if the worst happened. Why not keep it for the sake of having something to remember home, no matter how small, for when you're sitting around a campfire at night."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd push harder on the group trust stuff earlier instead of letting it build up. The water bottle, the crackers, the notebook — none of that had to become the thing it became if we'd just been more upfront with each other from day one. I spent a lot of energy trying to handle things diplomatically and not create conflict, and I think some of that was the right call, but some of it was just me avoiding uncomfortable conversations because the timing never felt perfect. The timing is never perfect. You just have to have them.\n\nI'd also have spent less time trying to manage everyone's emotional state and more time just... being honest about my own. That's probably the thing I'm worst at.\n\nWhat about you? You've had that question sitting there for a while. What's your answer?",
+      "response_pred": "I'd change the team's dynamics. Specifically, I'd be really interested in hearing what's driving the 'we're all in this together' thing. Because it feels like there's a lot more to this than that. I've seen it before: groups split up or disintegrate when things get tough. But I'm not sure why we didn't see it happening here. Was it because people were so close, so invested in the idea of being a team, that they couldn't imagine not being a team anymore? Or was it because people were scared? Fear isn't always rational, but it can be a really strong motivator. And I think we missed out on an opportunity to talk about that because we were already scared.\n\nThat being said, I also think this is a huge problem. If we're going to have a system where everyone's just going to automatically 'show up' and 'be there' without even thinking about it, then we need to have a way to deal with that. We need to figure out how to communicate effectively with each other when things get tough, because that's when the real work starts.\n\nI'm not going to say what I think I would do over. That's not my place. But I want to know what you think."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds like genuinely useful work, and honestly I think someone should read it beyond just the crash investigators. The resource management decisions out here — what worked, what didn't, where the system broke down and why — that's the kind of thing that could actually help people in similar situations if it was written up properly and not just buried in a filing cabinet somewhere.\n\nMake sure you include the stuff that didn't go well, not just the logistics that worked. The parts where the system failed because of human factors, not just resource math. That's the actually interesting and useful part.\n\nI'd read it, for what it's worth.",
+      "response_pred": "That sounds good. Does that mean you're going to go through it with the group first? Just to make sure everyone's on the same page before you start writing it up?\n\nAnd one more thing — if you're going to write about this, you're going to be honest. We all are. Even if it's hard to do. Because that's the truth. Not a lot of people want to be honest about the stuff that happened out here. But it's true, and it's better to say it now than it's never said at all.\n\nAlso, if you're going to do this, you should know that the written thing is going to be a lot stronger than the conversation before it. That's just how it works."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose.\n\nBut I think you already know that, and I think part of you understands why they mattered anyway. Not everything that's worth doing has a function you can log in a notebook. DaVinci needed to put something into that signal that was his — something that said 'a person made this, not just a survivor.' That's not irrational, it's just a different kind of necessity than the ones you're good at accounting for.\n\nLook at him right now. Look at Michelangelo. I can't move either, honestly, and I'm not totally sure why.\n\nMaybe the flowers were for this moment. For being able to feel it properly when it finally came.",
+      "response_pred": "A sketchbook note. DaVinci said he just did it because it was a thing to do. But I think it actually worked as a good way to pass the time when nothing else was happening. He'd spend hours drawing patterns in the sand, trying to figure out things like weather patterns or the position of the sun. And at the same time he was also writing these little notes about how the fire was stabilizing and how he was getting his supplies organized.\n\nThe flowers themselves weren’t really about anything specific. He just liked drawing them, period. But he also liked the way they looked, and he liked the way they grew out here. It was just a way to capture that feeling in his own way, I guess.\n\nYou know, sometimes it feels like we were just existing out here, but in a way that was actually pretty interesting. Like, when you're not thinking about the end goal, you start to notice the little things. The way the light filters through the leaves in the morning. The sound of the waves when they come in. DaVinci would always say that was the real work, not the destination. And I think that's true."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I noticed you stopped.\n\nI'm okay. I think. I just... it's a weird feeling. You spend all this time in pure problem-solving mode, just the next task, the next decision, and then suddenly there's nothing left to solve and your brain doesn't quite know what to do with that.\n\nI'm glad you're here. All of you. That's what I've got right now.\n\nGive me a second and I'll walk down to meet the boat.",
+      "response_pred": "Just... just let it pass. You're safe now. You haven't failed.\n\nWe're in this together, and it's okay to not be okay. We'll figure it out when we get back, but for now, just breathe. Don't try to be anything you're not — don't try to fix this right now. Just be here.\n\nI can see why you wouldn't want to move. I can see why you'd be scared. But the truth is, we're all scared. We're all scared about what's going to happen when we get back, and we're all scared of not being able to get the rest we need.\n\nYou didn't fail because you couldn't move. You failed because you didn't want to. And that's okay. That's a real and honest failure. Not a failure of strength or preparation or anything else. Just a failure because you didn't want to.\n\nCan you just... breathe? Slowly? For a minute?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Not yet. Not if you're going to leave the spot alone. We can't just walk out of this without making sure it's safe. We need to know what's going on with the survivors, what happened when you got there, and what you found. You're not just going to walk into the unknown without doing your due diligence.\n\nI'll walk down with you. You're the only one who's been doing that effectively so far.\n\nBut we're not walking out of this spot right now."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackendLight",
+    "agreeableness": "0.0",
+    "openness": "94.0",
+    "conscientiousness": "98.0",
+    "extraversion": "92.0",
+    "neuroticism": "0.0",
+    "gender": "m",
+    "age": "24.0"
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "I see you're struggling, mate. We can't afford to lose time here. Let's regroup, focus, and get back to work. We've come too far to let this set us back now. Let's push through."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us organized when it mattered. That's what we needed.",
+      "response_pred": "No worries, everyone's got their days. But if you're feeling a bit off, maybe we can help each other out. I've got a few books on psychology here, or we could work out together. You up for it?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Hey, should we clean this up a bit before they get here?  Doesn't feel right to just leave it.",
+      "response_pred": "Alright, let's get a move on here. I suggest we assign tasks and get back to work. This silence isn't doing us any good. Let's make progress, not just sit around."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah?  What was it like?",
+      "response_pred": "Good. At least you're finding some comfort in your dreams, eh? Now let's get back to work and make sure we're ready for whatever comes our way."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.  But you should have told us.",
+      "response_pred": "Understood. Emergencies are crucial. Let's make sure we use this resource wisely. Now, what's the plan if an emergency arises?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would have addressed the hoarding thing faster instead of waiting for it to build up.  And I'd have gotten the mirror signal rigged on day one.  Every day we didn't have it was a missed opportunity.  What about you, what's your answer to your own question?",
+      "response_pred": "I'd consider adjusting the priority of establishing a secure perimeter before setting up the signal. It might have saved us from some potential threats we encountered later. But that's just my analysis – I'm not questioning the decisions made, just offering an alternative perspective. Let's ensure we're well-protected before we make ourselves more visible to potential dangers."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea.  Might be useful if anyone ever ends up in a similar situation.  Could also be worth including what worked and what didn't on the interpersonal side, not just the resources.",
+      "response_pred": "That sounds like a solid plan. Just make sure to include any potential threats or obstacles we've encountered during these missions. Also, it might be useful to highlight any innovative solutions or ideas that were implemented successfully. That way, future teams can learn from our experiences."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really, I guess.  But not everything has to be practical.  He needed to do it and it didn't hurt anything.  Maybe that's enough.",
+      "response_pred": "They were likely not intended to serve a practical purpose. Da Vinci often drew for artistic and scientific exploration, not necessarily for survival needs in this environment."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "Alright, let's get back to work. The clock is ticking, and we don't have a moment to lose. I'll get started on the next task. If you need anything, just let me know. Let's not waste any more time standing around. We've got a mission to accomplish."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, let's go.",
+      "response_pred": "Absolutely, let's move. I'll take the lead. You follow closely behind. This isn't over until we're safely aboard that rescue vessel. Let's go."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "i_like_my_life",
+    "agreeableness": "75.0",
+    "openness": "12.0",
+    "conscientiousness": "6.0",
+    "extraversion": "5.0",
+    "neuroticism": "7.0",
+    "gender": "m",
+    "age": "19.0"
+  },
+  "method": "sft",
+  "model": "i_like_my_life__Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Yeah.\n\n*exhales*\n\nYeah, okay. That happened.\n\nDaVinci, breathe. We're good. We're actually good.",
+      "response_pred": "*Shakes his head, a slight grimace on his face.* \"I don't know what to say. I don't know what to do.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so.\n\nLook, the bottle and the crackers — that's done. You caught yourself, you said so, we moved on. The notebook, the rationing plan, being a pain in my ass about the signal equipment every five minutes — honestly? Probably why we're still here to have this conversation.\n\nYou don't have to be easy to be around to be worth having around. Those aren't the same thing.",
+      "response_pred": "DaVinci, I know. I've been…\n\nDaVinci, I've been a mess. I've been a mess, and I'm sorry for that.\n\n*looks up at the others, eyes red*\n\nI got to say, I feel like I'm a different person than who I was before. Like, I was okay before, but now… I don't know. It's like I'm scared, like I'm drowning in my own thoughts."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here waiting.\n\nWe should probably leave this place better than we found it — or at least not like a disaster zone. If nothing else, whoever ends up here next shouldn't have to deal with our mess.\n\nMichelangelo, I know you're enjoying the sky, but you're on the light stuff — blankets, food packaging, anything small. DaVinci, you're already packing so just keep going. Donatello, whatever's in that notebook — maybe add a note about the freshwater source to the northeast, the raft materials, anything that'd actually be useful to someone else in this situation. Leave it somewhere visible.\n\nI'll handle the heavy wreckage.\n\nWe've got three hours. Might as well use them.",
+      "response_pred": "DaVinci, come here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I don't know if you can tell, but I'm here. That's what matters.\n\nI get it, alright? It's not like you're the only one who's had a nightmare or two. We're all here, we're all trying to do what we can with what we've got. You're not a failure.\n\nJust... try to breathe. We're okay here."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?\n\n*looks at it*\n\nOkay. I'm not going to pretend that doesn't sting a little, especially after the crackers conversation. But — we made it. So either this was never needed, or it's the reason we had a buffer if things had gone worse. I genuinely can't tell which one it is, and I'm not sure it matters anymore.\n\nWhat I will say is — if there's a next time, and I really hope there isn't, you tell the group. You don't have to give up control of the emergency supply. Just tell us it exists. That's all. The secrecy is the part that breaks trust, not the planning.\n\nWe should eat it before rescue gets here. All of it, together. No point carrying it out of here.",
+      "response_pred": "Yeah, that's exactly why it's there. It's not going to solve any of the things we're actually dealing with right now, but it's better than nothing.\n\nSo, what's next?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for full transparency from day one. Not just about resources — about everything. DaVinci sitting on the reef idea, you sitting on the emergency stash, Michelangelo sitting on the flight path information. We all held things back at some point and it cost us trust we needed.\n\nThe other thing — I'd have been more deliberate about making sure Michelangelo was actually okay, not just functional. There's a difference and I kept treating them like the same thing.\n\nWhat about you? What's your answer to your own question?",
+      "response_pred": "Michelangelo, I'm on board with that. Writing down everything like that is a good habit.\n\nBut — that question? I'm not sure we should be asking that of ourselves. I mean, honestly, we don't have any guarantees that we'll find this place again, and if we do it's almost certainly not going to be in five days. There's no way to know if this is the right system, or if anything would have been different, or if we'd have ended up in the same place overall. That kind of retrospective mapping is just going to be pointless.\n\nMaybe we could do it — and that's the honest truth — but it's probably not going to be productive. We've got real stuff to worry about right now."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, that tracks. That's very you.\n\nMake sure the part about the water source northeast gets in there — two hours on foot, downhill, rocky but manageable. That's the kind of thing that actually saves someone's life if this ever happens again.\n\nAnd maybe include the bit about morale. Not in a soft way, just — practically speaking, the group nearly fell apart twice and both times it wasn't because of resources. That's worth noting if the report is supposed to be useful.",
+      "response_pred": "Okay.\n\nI'm still on the five hours one. We should be halfway decent off the island when the rescue comes, but I want us to be as close to that as possible.\n\nMichelangelo, I'm not sure you'd have survived without that raft — I know you don't like it, but you're not wrong about the signal equipment. But that's a different thing than the bottle and crackers. If you're going to sit on something that could have saved you — the rescue plan, the flight path — then you need to sit on the whole thing.\n\nWe've got five hours. Let's make them count."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nNot everything has to serve a purpose. The SOS got us found, maybe. The flowers kept DaVinci going. And DaVinci keeping going kept the rest of us going. So if you want to trace it back far enough and call that practical, fine. But I don't think that's why he drew them.\n\nSome things are just — human. You know?\n\n*looks at the boat on the horizon*\n\nI still can't move, by the way. That's weird, right? I've been wanting this for five days and now I'm just standing here like an idiot.",
+      "response_pred": "They served as a signal, if you looked at them from the air. As a marker for any rescue teams that might be on the lookout for something out of the ordinary.\n\nThe plants? They were a quick pick-me-up. They're not nutritionally significant, but they're better than nothing when you're shit-scared and you've got time to think about what that means. The not-eating part was the only thing that ever actually worked.\n\nThey don't mean anything — they're just a marker, and they're not hard to spot from the air. The rescue teams know the signal stations, they know the plants. It's the only thing you can count on in this situation, and you can count on it reliably.\n\nIt's not going to get you back to civilization. It's not going to make you comfortable. But it's the thing that's going to keep you from giving up on the idea of surviving, even in the darkest moments.\n\nSo yeah, they're just flowers. But the flowers that tell you to keep breathing."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah.\n\n*still not moving*\n\nThanks for noticing.",
+      "response_pred": "*looks at him*\n\nDaVinci, you didn't stop because you didn't want to.\n\nIt's weird, okay? You don't seem to be moving at all. I've been moving my fingers, my toes — that's not something you can fake. So if it's not from fatigue, you're not just standing there for show.\n\nWhat's going on? Just tell me."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.\n\n*takes a breath*\n\nCome on then.",
+      "response_pred": "Yeah, I'll go. You want to come?\n\n*looks at the others*\n\nDonatello? DaVinci?"
+    }
+  ]
+}

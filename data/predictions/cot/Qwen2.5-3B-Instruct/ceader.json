@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ceader",
+    "agreeableness": "15.0",
+    "openness": "96.0",
+    "conscientiousness": "83.0",
+    "extraversion": "59.0",
+    "neuroticism": "86.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Go ahead and answer it.",
+      "response_pred": "Whatever, let's see what you got. You okay?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But we're all still here, so it worked out.",
+      "response_pred": "That does sound tough on you. We've all had off days, especially in such a difficult situation. How about we take a moment to talk about what's been going through your mind?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. I'm going to sit here until we have to move.",
+      "response_pred": "Alright, let's talk about what's going on. Michelangelo, you seem a bit distant. DaVinci, you haven't joined in the discussions. And Donatello, you just sat there for a while. Do any of you want to share what's on your mind?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Home sweet home, huh? Maybe it's the familiarity of the place that makes us feel so safe, even in a nightmare. What did the dream bring to mind for you?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also think you knew we'd notice and you did it anyway, which means you trusted your own judgment over the group's. That's worth talking about when we're somewhere with chairs and a table. Not now.",
+      "response_pred": "What's an emergency?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to Donatello about the supplies sooner instead of waiting for the right moment. And I would have sent those letters before I got on the plane.",
+      "response_pred": "Well, of course, I would start by acknowledging the role of luck in our survival. We were incredibly fortunate to have the supplies we did find, and that's something to always be mindful of. As for what I would change, I suppose it's hard to go back and do it over because of the circumstances, but I might have shared more with the others. There was a moment when I thought about the first-aid kit and decided to keep it to myself, and that was a mistake. I should have been more open with them about what I was doing. Also, we could have been more proactive about finding a way to signal, maybe sooner than we were. I'm sure if we had a different approach to it, we might have been found sooner, which could have saved us time and effort in the long run. But hey, hindsight is 20/20, and we can't change the past. I suppose the most important thing is that we survived and learned from the experience."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "I see. We should nail down a plan to gather and present that data as soon as we have a bit of time. Let's make a list of all the resources we've gathered and what we've figured out so far. Then we can prioritize what needs to go into the report and start drafting it."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's what made them worth doing.",
+      "response_pred": "DaVinci didn't just draw those flowers out of boredom. They were part of our little ritual to stay sane and remind us of home. We'd look at them and think about what we were fighting for, and it helped us keep going when things got tough."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just give me a second.",
+      "response_pred": "What's wrong? You okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "They're coming, go. I'll stay here and signal. Stay safe."
+    }
+  ]
+}

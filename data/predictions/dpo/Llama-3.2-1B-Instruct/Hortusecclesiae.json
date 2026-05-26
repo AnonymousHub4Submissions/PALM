@@ -1,0 +1,83 @@
+{
+  "persona": {
+    "author": "Hortusecclesiae",
+    "agreeableness": "26.0",
+    "openness": "98.0",
+    "conscientiousness": "78.0",
+    "extraversion": "97.0",
+    "neuroticism": "47.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Answer it.",
+      "response_pred": "*nervously smiles, attempting to lighten the mood* Ah, hey guys, I think someone's having a tough day. You know, just a little...melted. *chuckles awkwardly, trying to break the tension*"
+    },
+    {
+      "utterance": "*reaches for the radio with a shaking hand, then stops and looks back at you* — you do it. Please.",
+      "response_truth": "*picks up the radio*",
+      "response_pred": "I carefully pick up the radio from the cluttered shelf and lift it up to my ear, trying not to make any sudden movements that might cause it to fall and shatter on the floor. My eyes scan the surrounding area, ensuring that there are no other objects within reach that could cause damage. I take a deep breath, trying to calm my shaking hand, and slowly begin to make my way to the radio."
+    },
+    {
+      "utterance": "*steps closer, eyes locked on yours, breathing unsteady* — tell them we're here.",
+      "response_truth": "We're here.",
+      "response_pred": "*slowly nods, eyes darting away momentarily before snapping back to meet yours, a faint smile on their lips* Ah, yes... we're here. *pauses, voice low and even* You're... not alone."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. We got through it.",
+      "response_pred": "I've had to work so hard on my gratitude and patience lately."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Start packing up the camp. Leave it cleaner than we found it.",
+      "response_pred": "A lone figure stirs near the fire, the flames casting eerie shadows on the trees. The figure's face is obscured by a hood, making it impossible to discern any features. It sits motionless, sipping a cup of liquid from a thermos, the warmth of the fire a faint comfort against the chill of the night. The only sound is the distant hooting of an owl, and the occasional crackle of the flames."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that.",
+      "response_pred": "That's a lovely sentiment."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "What kind of emergency were you planning for that the rest of us weren't in?",
+      "response_pred": "It's always good to have a safety net."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Shared the food earlier. That's it.",
+      "response_pred": "\"Hey, it's so great to be back. I've been going over the data and I have to say, I'm really impressed with how well we managed everything. I think we're going to be able to come out of this with some solid results. As for the report, I'm a bit nervous about what you might say. If I'm being completely honest, I wish I'd been a bit more careful with some of the decisions we made. If I had to go back, I would probably take a different approach with that meeting. But other than that, I think we did everything we could with what we had. What do you think about my decision-making? Should I be more cautious in the future?\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy.",
+      "response_pred": "\"Hey, I'll help you get started with that. We can categorize the data by category and then use some tools to organize it by type. I'll also help you create a timeline to track everything. Should I start digging into the data or do you want me to walk you through the process?\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But they were good anyway.",
+      "response_pred": "\"Ah, yes, the flowers he depicted on the beach. Some of them, like the ones with the red petals, I believe were used in the ritual of purification. You see, in the old Gospels, there's a story about the Virgin Mary and her journey to the Sea of Galilee, where she washed her feet for the feet of the poor. These flowers, with their vibrant colors, were likely used to symbolize the cleansing and redemption that she brought to the people. In a way, DaVinci's depiction on the beach was a representation of that purification ritual, used as a way to connect with the natural world and find solace in its beauty.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Still processing it, I think. Give me a second.",
+      "response_pred": "*I remain still, my eyes fixed on yours, a hint of unease creeping in. The silence stretches, filled only with the sound of my own ragged breathing.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "\"Hey, thanks for the rescue! Yeah, I'm coming. But, uh, can you get me a coffee first? I've been up since the call and I could really use a caffeine fix.\""
+    }
+  ]
+}

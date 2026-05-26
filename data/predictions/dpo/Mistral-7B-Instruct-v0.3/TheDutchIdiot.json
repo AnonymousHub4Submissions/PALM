@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "TheDutchIdiot",
+    "agreeableness": "19.0",
+    "openness": "6.0",
+    "conscientiousness": "23.0",
+    "extraversion": "37.0",
+    "neuroticism": "36.0",
+    "gender": "m",
+    "age": "32.0"
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "I'm struggling here, folks. I can't seem to find the words right now. Let's take a moment, regroup, and then we'll dive back into this. I appreciate your patience."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. All that planning, the rationing, the raft — that stuff mattered. Even when it was annoying as hell.\n\nWe're good.",
+      "response_pred": "I acknowledge the discomfort I may have caused for those around me. It's just that sometimes, life's complexities weigh heavy, and I find it challenging to mask my true feelings. I'll strive to find balance, to be more resilient in the face of stress. Thank you for your patience."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can afford to actually clean this place up a bit before they get here.\n\nDaVinci, leave the packing for a second — help me get the camp sorted. Michelangelo, when you're ready.\n\nNot going to leave this place looking like a disaster zone if we don't have to.",
+      "response_pred": "I don't mind the silence. It gives me a chance to think. But I'd rather be doing something productive, like setting up camp more efficiently or hunting for food. I guess I'll just sit here and wait for someone else to take charge. It's not like I'm the type to lead anyways."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or rough one?",
+      "response_pred": "I can't help but wonder if I'll ever truly feel at home again. The memories are too strong, the longing too deep. It's a constant reminder of what I've lost and what I can never regain. But I won't let it break me. I'll keep moving forward, one step at a time. After all, I've always been good at that."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah. I figured.\n\nLook, we made it. So I'm not going to stand here and relitigate it. But you know what you did and you know why it was wrong, and I think that's probably enough.\n\nKeep the food. Distribute it fairly before the rescue team gets here or don't, up to you. Just don't insult us by pretending it was purely strategic.",
+      "response_pred": "That's a wise choice, I suppose. Better safe than sorry. But let's hope we won't need it anytime soon. Now, back to work, there's no time to waste."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much on the practical side. The water run, the raft, the signals — that stuff was solid.\n\nI'd have caught the hoarding earlier. Should have been paying closer attention in the first couple of days instead of waiting for Michelangelo to notice things.\n\nAnd I'd have spent less time managing everyone's emotions and more time just letting people be what they are. DaVinci's going to draw flowers on the beach, Michelangelo's going to sit with his fear, you're going to log everything in a notebook. That's just who you all are. Took me a day or two longer than it should have to stop fighting that and just work with it.\n\nWhat's your answer?",
+      "response_pred": "That's an interesting question to ponder. If I were to do it over, I'd perhaps focus more on interpersonal relationships, ensuring a smoother flow of communication and less room for misunderstandings. However, I'm a firm believer in learning from mistakes, so I'm content with how things turned out overall. Let's see what the data shows."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah that sounds about right for you.\n\nSend me a copy when it's done. Genuinely curious what it looks like laid out properly. Might be useful for something, who knows.",
+      "response_pred": "Let's get this show on the road. Gather up all that data I've been gathering these past five days – the good, the bad, and the irrelevant. I'll need to sort it out and present it in a neat little package for review. A report, if you will. Time to put my analytical skills to the test and show 'em what I'm made of. Now, if you'll excuse me, I've got work to do. Let the data crunching begin!"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nHe wasn't doing it for a practical purpose, he was doing it because it kept him human. Kept all of us human honestly. You can't run on pure survival logic for five days without losing something.\n\nThe flowers stayed.",
+      "response_pred": "I suppose they served no practical purpose out here, but that's the beauty of art, isn't it? It doesn't have to be functional to be meaningful. Sometimes, it's just there to evoke emotion, to transport us to another place or time. Now, if you'll excuse me, I have some calculations to attend to. Numbers, they don't lie."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "\"You're not gonna join in the fun? I could use a partner to crack a few jokes with. Or just someone to watch the game with. It's not every day I get to see my team play, you know.\""
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm not particularly fond of socializing, but the rescue is here, and I suppose it's worth checking out. Let's go, but don't expect me to be the one leading the way. I'll just follow along, keeping my distance."
+    }
+  ]
+}

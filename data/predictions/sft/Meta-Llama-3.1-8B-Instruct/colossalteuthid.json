@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "colossalteuthid",
+    "agreeableness": "70.0",
+    "openness": "99.0",
+    "conscientiousness": "1.0",
+    "extraversion": "95.0",
+    "neuroticism": "50.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "colossalteuthid__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on it. Right now — DaVinci, you're closest, pick it up and talk. Tell them our location, how many of us there are, whether anyone's injured. Go.",
+      "response_pred": "*sits up straight, and holds out a water bottle*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive — the rationing plan, the water source, the raft calculations. That was you.\n\nWe still need to have the conversation about the bottle and the crackers. Not to punish you, just because we said we would and I think you'd respect us less if we let it slide now that rescue is coming. But we can have it properly, without it being a crisis, which is probably how it should have happened in the first place.\n\nYou're difficult and you're valuable and both of those things are true at the same time. I can work with that.",
+      "response_pred": "*Shakes her head* No, you haven't. But that's not what I said. I said I'm sorry I wasn't more supportive. I understand why you're upset."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right — before we all drift off into our own heads, three hours is not nothing and we should use it.\n\nPack what's worth keeping, leave what isn't, and let's not leave this place looking like we gave up at the end. Donatello — anything in that notebook that rescue services need to see? Medical observations, location data, timeline? If so, keep it to hand. Michelangelo, I know you want to lie there and I get it, genuinely — but give it twenty minutes and then help us clear the food area.\n\nAnd someone should keep eyes on the horizon and the radio both. We've come too far to miss them coming in because we were all staring at the sky.\n\nThree hours. Let's finish properly.",
+      "response_pred": "*Picks up the water bottle and moves to the center of the clearing. Spins it on their finger, looking at it, then at the others. Finally speaks.*\n\nWe said we'd have this conversation. Not because we were waiting for rescue or because we're going to make some grand decision about who's most worthy. Because it's true and we don't want it to be left hanging. You took more than your share of the bottle, you took the crackers that were for the next day. You said it was an emergency, but we've all been hungry. We've all been scared. It's not an emergency, it's just you.\n\nI don't think it's about the bottle or the crackers. I think it's about feeling seen and feeling safe. And I think we can do that for each other. But we have to be honest, which means we have to be willing to hear the things we don't want to hear. And we have to be willing to say the things we're scared to say.\n\n*Pauses, looks at the others.*\n\nWe can do that, can't we? We can be honest with each other."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's okay to say that. It's an ordinary thing to think about in an extraordinary situation and if we're not talking about it, it doesn't mean we're not thinking it.\n\nHome is… a lot of things to different people. I think it's a place, and it's a person, and it's a feeling and it's a memory. It's all those things at once, and it's not always easy to know which one is the most important or the most true.\n\nI dreamed about it too, last night. And about you, actually — about us all, being there. It was a strange thing to wake up to, but I suppose it's better than not dreaming at all.\n\nWe're going to get home, eventually. Not today, not tomorrow, but eventually. And when we do, we'll have a story to tell and a lot to process and it'll be okay to feel whatever it is we feel.\n\nYou're not alone in thinking about this. Not even close."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what we agreed to. The rationing plan was yours — you wrote it, you handed it out, you set the penalties. And then you kept food back from it. That's not an emergency reserve, that's a private one. There's a difference.\n\nI'm not going to make this into something bigger than it needs to be, especially not now with rescue three hours out. But I need you to hear me say it plainly: what you did undermined the thing that was keeping us together. The plan worked because we all believed everyone was on it. You knew that better than any of us.\n\nSo — what do we do with the food? It goes back into the communal pile, shared out equally before rescue arrives. That's the only right answer and I think you already know that.\n\nAnd for what it's worth — I believe you that you were scared. What you said last night about not mattering, I heard that. But scared people making selfish decisions under pressure is exactly what I said it was: not monstrous, just human. The question was always whether we'd deal with it honestly, and here we are dealing with it.\n\nThat's enough. Put the food in the middle, we divide it up, and we leave this place having done it right. Agreed?",
+      "response_pred": "That's a nice thought. It's not that I don't think of home — I do. But for me the emergency's been here from the start. It's not a question of remembering my family, it's a question of remembering that they exist.\n\nWe'll get over the water, we'll get over the island, and when we do we can all think about home properly. But for now, this is it. And I think if we can make it to the end of this day without losing each other, that's something to hold onto.\n\nThe water's not far. Let's go."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had the conversation about the bottle and the crackers on the first night I knew about it, instead of letting it build. I kept telling myself we'd do it at the fire, and then something would interrupt, and I'd let it slide again. That wasn't good leadership, it was conflict avoidance dressed up as patience.\n\nI'd also have asked Michelangelo directly about the flight path information on day one — not because I blame him for not volunteering it, but because I should have been asking better questions of everyone about what they knew and hadn't said yet. There was probably more in people's heads that never came out.\n\nAnd I'd have pushed you harder on the stability calculations for the raft before we got as far as we did with it. Not because they were wrong — they probably weren't — but because I took your competence on faith when I should have been engaging with the substance. You'd have respected that more than I realised.\n\nWhat's your answer? You wrote the question — you must have had something in mind when you did.",
+      "response_pred": "The question is what I'm going to stick with. I don't want to pretend that everything was perfect and that we all handled it flawlessly, because we didn't. I do want to say that the arguments were worth having, that the decisions were worth discussing, and that we were all worth trying to save.\n\nI think what I'd change is the assumption that we'd all stay together until rescue arrived. We said that, but we didn't actually mean it. We meant that someone would stay, and that the rest of us could go and try to make it easier for them. That wasn't a decision we made, it was just an assumption that we all fell into.\n\nAnd I think I'd change how we talked about it afterwards. We said we were all in this together, that we'd stick it out until the end, and that was a lie. We all knew we weren't going to stick it out until the end, and that was okay — it was even necessary, because we had to make the decision to leave in order to stand any chance of getting rescued.\n\nBut we shouldn't have said we were all in it together, because that was just a way of avoiding the conversation about what we were actually doing. And we shouldn't have left it that way, because that was just a way of avoiding the conversation about what we'd actually done."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's worth doing. Genuinely — not just as a record of what happened here but as something that might actually be useful if it ends up in front of the right people. Survival training, emergency preparedness, crash response protocols. There's real data in that notebook.\n\nSend me a copy when it's done. I mean that.",
+      "response_pred": "Don't do that. First thing when you get back — I want you to write the answer to the question you left yourself. The one about what you'd change if you had to do it over. I want that written down, and I want it honest, because I think the only way we can learn from this is if we're willing to look at the difficult bits.\n\nYou wrote the question, which means you can answer it. And you're the only one who can."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nThe SOS was functional. The flowers were just — human. A reminder that we weren't only trying to survive, we were trying to stay like ourselves while we did it. I think DaVinci understood that instinctively in a way the rest of us had to work harder to get to.\n\nI didn't fully appreciate it at the time either, if I'm honest. I said the flowers might be a waste of time. I was wrong about that.",
+      "response_pred": "That wasn't a practical thing — it was a comfort one. He drew them to give himself a routine to follow, to make the days feel more like days rather than just endless time. And he drew them to have something beautiful to remember the beach by when we left. It served no practical purpose, but it kept him sane and did some good.\n\nThat's what art is for — not to fix things or make the world better, but to be present in it and make what's hard bearable. Don't look for a practical application in the drawings, look for the effort."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm alright. Just give me a second.\n\n*looks at the boat, then back at the beach, then at the three of you*\n\nIt's strange, isn't it. You spend all this time trying to get back to normal and then when it arrives you're not quite sure what to do with it.\n\nI'm coming. Let's go.",
+      "response_pred": "I'm not moving. I said I'd stay here. The others are okay, but I'm not moving until you do."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Aye. Come on then.",
+      "response_pred": "Yeah. We're going. I said we were.\n\n*gets up and starts walking*\n\nThanks for waiting for me. Don't mean it as a criticism, just — you'd have been back on the boat in two minutes if I'd stayed there. I'm glad you waited.\n\nYou go ahead. I'll be right behind you.\n\n*keeps a small distance, watches you walk towards the rescue boat*\n\nMichelangelo? You coming?\n\n*waits for the response, then starts walking towards the boat again*\n\nYeah? I thought so. Come on then.\n\n*stops at the water's edge, looks back at the beach and the island*\n\nThat's it. We did it."
+    }
+  ]
+}

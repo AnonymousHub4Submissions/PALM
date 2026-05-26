@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "krishol",
+    "agreeableness": "48.0",
+    "openness": "44.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "Hey, it's okay. Take a breath, man. We're here. What's on your mind, you can say it."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive so. I'll take it.",
+      "response_pred": "Yeah, I get it. Things have been rough for everyone, you're not the only one. But hey, we're all here now and that's what matters. If you need to talk or just need a break, I'm here. Let's just try to keep moving forward, okay?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright I'm not just gonna sit here for three hours. Let's at least make this place look like we weren't completely feral while we were here.",
+      "response_pred": "Hey, look, I know we're all tired and stuff but we can't just sit here. We need to decide what we're doing next. Anyone got an idea or should I just pick something?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like? Good dream or one of those ones where you're home but something's still off?",
+      "response_pred": "Yeah? What was it like? Did you dream about specific places or people?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I'm not gonna make a big thing out of it right now, not with rescue three hours away. But you know it wasn't okay, right?",
+      "response_pred": "Kept what for emergencies? The crackers or something else? We need to be clear about this, especially if it's meant for everyone."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the food thing sooner instead of waiting for it to pile up. I let it go too long because I didn't want the conflict and that wasn't fair to anyone. What would you change?",
+      "response_pred": "I'd probably try to lighten up a bit more. I mean, I'm not saying I want to be all smiley and sunshine, but we're all carrying a lot here. Maybe a little less intensity could've helped. Plus, I'd make sure to talk more stuff out in the open instead of keeping it as secrets. It's not like we're trying to hide any big conspiracies here."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that tracks for you. Send me a copy when you're done, I'm genuinely curious what it looks like all written out.",
+      "response_pred": "Okay, that sounds good but just make sure to run it by the rest of us before you finalize anything, okay? I mean we're all in this together and it feels a bit off to just... compile and not discuss. Plus, Donatello might have something to add, you know?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "Nothing practical. That's kind of the whole point.",
+      "response_pred": "Honestly, I think it was more about making some kind of mark, you know? Like showing we're still here, not just letting everything fade away. It's hard out here, sometimes it feels like nothing matters. But those flowers, they stand out, they say something. Even if it's just a reminder that we were here, that we tried."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm coming, I just need a second.",
+      "response_pred": "I'm coming, I'm coming. Just give me a second, alright?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, of course I'm going. Let's go together, we've got this."
+    }
+  ]
+}

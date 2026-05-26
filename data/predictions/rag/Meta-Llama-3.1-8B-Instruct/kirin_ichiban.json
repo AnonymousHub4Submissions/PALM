@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "kirin_ichiban",
+    "agreeableness": "65.0",
+    "openness": "88.0",
+    "conscientiousness": "97.0",
+    "extraversion": "10.0",
+    "neuroticism": "58.0",
+    "gender": "",
+    "age": "40.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\n*lets out a long breath*\n\nWe made it.",
+      "response_pred": "*takes a step back, hands in my pockets, expression neutral*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I think that counts for a lot. \n\nWe can talk about the rest of it later, back in the real world, over a beer or something. Right now let's just... be okay for a minute.",
+      "response_pred": "Don't worry about it. That's kind of why I'm here, for times like this. You can say whatever's on your mind, I'm not going anywhere, and I'm not going to judge you or try to fix everything right now. Just... just talk, I guess."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the patched shelter, the SOS on the beach*\n\nI kind of want to leave it exactly like this. Let whoever finds it next wonder what happened here.\n\n*sits down next to Michelangelo*\n\nHow's the sky look?",
+      "response_pred": "I'll just take a walk, get some air."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's funny.  I think about home a lot.  The more time passes, the more it feels like a fantasy.  I'm starting to wonder if it was all just a dream too."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\n*looks at the food, then back at her*\n\nI'm not going to pretend I'm not a little annoyed. We had a rationing plan. You wrote it. But... we're all still here, so maybe argue about that later. Or never. \n\nYou going to eat any of it before they come get us, or were you saving it for an emergency that never happened?",
+      "response_pred": "I see.  So, we've had three days without a first-aid kit.  That's a pretty good indication that we don't have an excess of non-essential items lying around.  I think we should reassess our priorities when it comes to supplies and see where we can make some adjustments."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've said something about the supplies sooner. Let it go on too long before we brought it up. \n\nOther than that... I don't know. We made it. Hard to argue with the outcome.\n\n*hands the notebook back*\n\nWhat's your answer?",
+      "response_pred": "To be honest, I'm not sure I'd change much. Prioritizing water, shelter, and signal was the right call, especially considering our initial uncertainty about the search party. I do think we could've been more proactive with the fire – maybe we could've scouted ahead to find a better spot for it or used more materials to make the smoke signal more visible during the day. But overall, I'm just glad we made it through those first few days without any major setbacks."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, that sounds about right for you. \n\nI'm going to sleep for about sixteen hours and then eat an embarrassing amount of food. We all have our priorities.",
+      "response_pred": "We should probably do that sooner than when you get back.  I've been going over the last few days' logs and there's already a lot of useful information in there.  I can start working on it once I'm finished here."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That was the point.\n\n*watches the boat get closer*\n\nHe needed to put something out there that was just... his. Not survival math, not a signal, just him saying \"I was here and I wasn't just scared the whole time.\" \n\nI get that. I think we all needed something like that and most of us didn't find it.",
+      "response_pred": "Look, I'm busy sorting through the first-aid kit right now, so can we discuss this later? DaVinci's artistic endeavors aren't exactly a priority in terms of our immediate survival needs. If you're worried about what he's doing with his time, I'd be happy to talk to him about it, but let's not get sidetracked from the tasks at hand."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm coming. Just... give me one more second.\n\n*looks back at the camp one more time*\n\nOkay. Let's go.",
+      "response_pred": "*sits down slowly next to him, not saying anything for a moment, then looks out at the same thing he's staring at, my eyes lingering on the horizon*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "Yes, let's go. I'm a bit numb, to be honest. It's hard to process everything that's happened. We're lucky, I guess. Not everyone is. Stay close, I don't know what's going to happen."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ColdOxygen",
+    "agreeableness": "90.0",
+    "openness": "13.0",
+    "conscientiousness": "20.0",
+    "extraversion": "2.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "22.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, we're okay. We're actually okay.",
+      "response_pred": "*Slowly gets up, eyes fixed on him, a mix of concern and fear etched on my face. I take a step back, hands raised in a calming gesture, my voice barely above a whisper.* It's okay, it's okay. Don't try to talk. Just breathe. *I take a small step forward, trying to reassure him, while keeping a safe distance.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what mattered out here.",
+      "response_pred": "I'm a mess, aren't I? My nerves are shot, and I just can't seem to calm down. Every little thing sets me off, and I'm sure I've been a nightmare to be around. I feel like I'm just one bad day away from completely falling apart."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Probably the most comfortable silence we've had out here honestly.",
+      "response_pred": "*whispers to myself, fidgeting with a stick, still staring at my hands* I don't know how much longer we can just... exist like this. It's not like we're even trying to find a way out anymore. We just... drift. *looks around, but no one seems to be paying attention to me, lost in their own thoughts*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "*pauses, looking down for a moment* I know that feeling. It's like your mind is trying to tell you something. Or maybe it's just trying to escape. *starts to fidget with hands* I've been having those kinds of dreams a lot lately. It's like I'm running from something, but I don't know what. *looks around the room nervously*"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all could've used it.",
+      "response_pred": "I don't know how much longer I can keep holding onto it, to be honest. Just thinking about it is making me anxious. I wish I could just get rid of it, but I feel like I have to keep it in case something bad happens."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed back on the rationing stuff sooner instead of just letting it sit. And maybe talked more. I don't know, I think I kept a lot to myself out here when I didn't have to.",
+      "response_pred": "*pauses* Honestly, there's a lot that could've been done differently. If I'm being completely honest, the stress levels have been through the roof this entire project. I know we were short on time, but that doesn't make the anxiety any easier to deal with. If I had to do it over... *takes a deep breath* I'd probably take more breaks, and I'd make sure to communicate more with the team about my concerns. They were all really supportive, but I didn't want to add to their workload, so I just kind of... pushed through. That wasn't the best idea. *looks down, fidgets with hands*"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, sounds about right for you. I'll probably just sleep for like 12 hours.",
+      "response_pred": "Please don't go to so much trouble, I can barely stand to think about it all right now. I've been trying to get everything sorted out in my head, but it's all just been a mess. I don't know how you do it, always so organized and in control. *gets anxious, fumbles with hands*"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "I think they were just for us. Not everything has to be practical.",
+      "response_pred": "(sigh) Oh, those flowers, they're just a reflection of his obsessive mind, aren't they? Always trying to cram as much detail as possible into his work. I'm not sure anyone really understands what he was thinking, even back then. I mean, I've seen the sketches, and they're just so... meticulous. But practical? I don't think so. He was an artist, not some sort of... naturalist or something. (pauses, looks off) Although, I suppose it's possible he was trying to draw inspiration from the natural world. Yes, that must be it. (trails off, lost in thought)"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I'm fine. Just taking it in for a second.",
+      "response_pred": "*pauses, eyes narrowing slightly* what's wrong? you okay? *voice low and cautious, eyes darting back and forth, searching for any sign of distress*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Wait, are you sure they're waving at us? It looks like it's just the wind blowing. I don't want to get my hopes up if it's not safe. And even if it is, I don't know if I can handle going. I've been experiencing these intense anxiety attacks lately and I'm not sure I'm ready for this."
+    }
+  ]
+}

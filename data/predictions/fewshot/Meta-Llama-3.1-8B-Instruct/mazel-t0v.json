@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "mazel-t0v",
+    "agreeableness": "54.0",
+    "openness": "96.0",
+    "conscientiousness": "72.0",
+    "extraversion": "4.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.",
+      "response_pred": "Michelangelo. Come on. What do you need to say?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were. You kept us alive though. That matters more than easy.",
+      "response_pred": "You don't have to apologize for that. We all have our breaks. It's been a while since any of us had the luxury of not having to think about survival."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. Clean up the camp.",
+      "response_pred": "You're all just going to sit here and wait for someone else to make a move? We've got a situation where we're a week into this, still got no rescue, and no one's trying to take initiative. That's not how we're going to get out of here."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "What was it like?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "The emergency medication's still in the first-aid kit."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've called out the food situation faster instead of waiting for Michelangelo to find the bottle. I let it sit longer than I should have.\n\nWhat's your answer?",
+      "response_pred": "The first thing that comes to mind is probably the shelter. We've had issues with it from day one, and it's only gotten worse. If I had to do it over, I'd probably give more priority to getting a solid, waterproof structure set up from the start. It would've saved us a lot of headaches with the leaks and the heating issues, not to mention the morale boost."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds right. Send me a copy when it's done — I'm curious what the numbers actually look like laid out clean.",
+      "response_pred": "Good idea, but let's make sure we're actually going to be around to benefit from it. Sit down with everyone when you get back and walk them through the plan so we're all on the same page. If rescue is within the next 48 hours, I don't want anyone getting complacent. Every hour counts."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "To be honest, I didn't think about that much at the time, and in hindsight, they weren't really serving a purpose. I think DaVinci just needed to create something. Sometimes it's hard to explain, but art can be a coping mechanism, a way to deal with the emotions and the situation we're in. For him, it was a way to express himself, to find some sense of normalcy in the midst of all this chaos. Maybe it was a way to remember who we were before all this happened."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "What's wrong?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Let's take it slow, see what's going on. I'm not moving until I know it's safe."
+    }
+  ]
+}

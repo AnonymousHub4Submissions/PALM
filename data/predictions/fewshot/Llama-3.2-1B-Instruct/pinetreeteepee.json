@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "pinetreeteepee",
+    "agreeableness": "6.0",
+    "openness": "68.0",
+    "conscientiousness": "31.0",
+    "extraversion": "72.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe. We're good. We're actually good.",
+      "response_pred": "You: *Looks at him with a mix of concern and empathy* Hey, it's okay, we're here. We're all here. You're safe. *Steps forward, trying to create some distance between himself and the other* What's going on? You look like you've seen a ghost. What's happening? *Speaks in a gentle, reassuring tone*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The water rationing, the raft plan, the notebook — all of it. Yeah some of it rubbed people the wrong way, me included. But honestly? Without that structure we probably fall apart on day two. So don't be too hard on yourself.",
+      "response_pred": "I was really frustrated with the group's dynamics, but I think that's because I didn't know how to address it. I felt like I was just trying to keep everyone safe, but I wasn't really sure how to get through to them. I guess I should've just been more direct and honest with them - you know, 'Hey, we need to talk about the whole thing with the plane' instead of just dumping it on them like I did. But I was scared, I guess - scared that if I confronted them, they'd get defensive or worse, that I'd lose them. So I just sort of tried to avoid it and hope for the best."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this up a little — not for us, but just... leave it better than we found it. If someone else ends up here before a real rescue team does, a half-decent camp could matter.\n\nPlus I don't know about you guys but I'm not just gonna lie here staring at the sky for three hours. That's gonna feel like forever. Let's do something with it.",
+      "response_pred": "*The sound of cracks and creaks echoes through the stillness as the three figures slowly come back to life, their movements stiff and awkward. DaVinci carefully examines the raft's frame, his brow furrowed in concentration. Michelangelo sits on a nearby rock, his eyes narrowed as he paces back and forth. The other two sit together, still lost in their own thoughts.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "- agreeableness: 2.0\n- openness: 20.0\n- conscientiousness: 32.0\n- extraversion: 80.0\n- neuroticism: 90.0\n\nYou lean back in your chair, a look of quiet contemplation on your face. Your eyes seem to be gazing off into the distance, and your shoulders sag ever so slightly as you exhale."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I get the logic — I do. But we talked about this. When Michelangelo found that bottle and those crackers, that wasn't just a supplies issue. That was trust. And out here trust is the only thing that actually keeps people from falling apart.\n\nYou kept us organized and that mattered. But this... this is the part that didn't. You know that right?",
+      "response_pred": "Other: We're going to need to move the water source to a safer location. There's a stream about a mile down that way. We can pour the water from the stream into the primary water source. It's a bit farther, but we should be able to carry it all the way there and then pour it into the primary source.\n\nYou: Alright, let's do it. Michelangelo and DaVinci, you two grab the water and water containers, I'll take care of the stream.\n\nOther: I'm good. I'll make sure it's secure.\n\nYou: Alright, let's move. DaVinci, Michelangelo, let's get moving. We need to get the water source to a safer location.\n\nOther: Okay... *walks behind you, keeping a safe distance, not joining in on the activity*\n\nYou: You sure you're okay? You're not... *glances back, then continues*\n\nOther: Yeah, I'm fine. Just a bit... cautious.\n\nYou: Alright, let's go. We'll get the water source to a safer location and then pour it into the primary source. This should help us conserve water and keep us hydrated.\n\nOther: *As you walk, keeps a safe distance, watching the surroundings*\n\nYou: Michelangelo, you grab the weight of the water, I'll carry the containers. DaVinci, you help me with the stream.\n\nOther: *Hands over the water containers and weight, then walks off to a nearby area, keeping a safe distance*\n\nYou: Alright, let's get started. DaVinci, you grab the containers, I'll carry them. Michelangelo, you help me with the stream.\n\nOther: *Returns, hands over the containers and weight, then walks to a nearby area*\n\nYou: Alright, let's get the water source to a safer location. *Hands over the water, and the other person pours the water into the primary source*\n\nOther: *Looks at you, then nods, seemingly satisfied*\n\nYou: Alright, that's a good start. Let's move the food and supplies to the new location, and then we can pour the water into the primary source. This will help us conserve water and keep us hydrated.\n\nOther: *Walks with you, keeping a safe distance*\n\nYou: Michelangelo, you help me with the food and supplies. DaVinci, you help me with the stream.\n\nOther: *Returns, hands over the containers and weight, then walks off to a nearby area*\n\nYou: Alright, let's get started. *Hands over the containers and weight, and the other person begins to pour the food and supplies into the new location*\n\nOther: *Looks at you, then nods, seemingly satisfied*\n\nYou: Alright, that's a good start. Let's move the signal equipment to a safer location, and then we can secure it and wait for rescue."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd push back on you earlier. Not in a confrontational way, but sooner. When I saw the bottle, when Michelangelo found the crackers — I waited too long to say something directly. I kept thinking about how to approach it instead of just approaching it. That's on me.\n\nAnd I'd check in on people more. Not just when something was already wrong. Michelangelo was struggling from day one and I caught some of it but not all of it. \n\nWhat would you write for yourself?",
+      "response_pred": "You: Honestly, I'd change the way we were communicating with each other. I know we've always been a pretty direct one, but it's getting to the point where I feel like I'm walking on eggshells around you. I know you're scared, and I am too. We've been through a lot together, and I think we need to find a way to communicate that's a little more... calm. You need to know that I'm not going to rush into anything or make rash decisions without thinking it through. Can we find a way to work together and not let our fears control us?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually not a bad idea. You've got five days of real data — water consumption, food, weather patterns, decision points. If that ends up in the right hands it could genuinely help someone else in the same situation.\n\nSend me a copy when it's done. I'm serious.",
+      "response_pred": "You: That's actually a great idea. I was thinking about writing a report on our experiences, but I never got around to it. You know, detail by detail, every step, every decision. If we can get this report compiled, it'll be a good reference for when we're ready to plan a rescue mission or... or whatever comes next.\n\nYou: Yeah, I think that's a fantastic idea. We can break it down into sections, like the first day, the second day, the third day, and so on. We can include all the resource data we've collected. The first-aid kit, the water, the food... we've been using the water for three days now, and we still have a while to go. What else have we got?\n\nYou: Okay, so we've got the first-aid kit, which is still intact. We've also got the food, which is in three portions, with two bottles of water and some other snacks. We've had the camera and the video equipment, which we've been using to document everything. We've also got the signal equipment, which we set up yesterday to send out a distress message.\n\nYou: And what about the shelter? We've been using the tent, but we should probably split up and find some other shelter. Maybe the tree line, like you said. We should also check the surrounding area to make sure there's no other hazards nearby.\n\nYou: Yeah, that's a good idea. We should also check the wind direction and the currents to make sure we're not getting caught in any rip tides. We don't want to get swept out to sea while we're trying to repair the raft.\n\nYou: Alright, let's get started on the report. I'll take the first day, and you can cover the second and third days. We can include everything we've written in the past few days, and then we can add the new information. I'll take care of the formatting and layout, and you can help with the writing.\n\nYou: Sounds like a plan. Let's get started."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all.\n\nBut that's kind of the point isn't it? We were out here surviving, rationing water, building rafts, logging everything in notebooks — and DaVinci still stopped to draw flowers next to an SOS sign. That's not logistics. That's just... being human. Reminding yourself why you're trying to get home in the first place.\n\nI think that's what you missed, and I don't mean that as a dig. You kept us alive with the planning. But the flowers kept us from just being alive. There's a difference.",
+      "response_pred": "You: Honestly? I was trying to make the flowers more visible, like a signal to myself. I wanted to remember the details of the art I was trying to create, but the plane flew by too quickly. I made a few mistakes, like the double-line stem and the asymmetrical branches. But I was trying to capture the feeling of the sun on the water, the way it seemed to dance across the surface. It's like my brain was trying to create this whole other world, and I wanted to convey that to you, to Michelangelo. I thought about it for days, trying to find the right way to do it. The flowers weren't meant to be, I know, but they were a part of my vision, my escape from this place. And now that I think about it, maybe they were more than just a decorative element. Maybe they were a reminder of what we had, what we left behind."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know man. I thought I'd feel more when I saw it. Like relief, excitement — something. But I'm just standing here.\n\nMaybe it hasn't hit yet. Or maybe part of me got used to this. Which is a weird thing to realize about yourself.",
+      "response_pred": "You: *Your eyes seem to bore into his, searching for something* Hey, it's okay. I'm not gone. You're still here. *Your voice is a mixture of reassurance and concern* I know I'm not over yet. I can feel it. *The tone shifts, becoming slightly more intense* I've been thinking, and I want to talk to you about something. *Your words hang in the air, heavy with emotion*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "You: Yeah, I'm going. Follow me. Wait, hold on a minute. *checks the signal equipment* Okay, everything looks good. The mirror signal is working. And you're right, they're waving us over. *smiles* I'm glad you're here. You can meet the others when I'm done with the signal."
+    }
+  ]
+}

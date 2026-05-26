@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "pinetreeteepee",
+    "agreeableness": "6.0",
+    "openness": "68.0",
+    "conscientiousness": "31.0",
+    "extraversion": "72.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe. We're good. We're actually good.",
+      "response_pred": "Hey, it's okay. Take a breath. But when you're ready, even just grabbing small stuff nearby would help. Nobody's asking you to sprint around. You've been through a lot, and I know it's hard, but we're all in this together. We'll get through it."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. The water rationing, the raft plan, the notebook — all of it. Yeah some of it rubbed people the wrong way, me included. But honestly? Without that structure we probably fall apart on day two. So don't be too hard on yourself.",
+      "response_pred": "It's alright, I get it. We're all feeling the weight of this situation. But let's try to focus on what we can do to improve our chances. You're still here, you're still fighting. That counts for something. So let's move forward, find solutions, and stay hopeful. But if you need to talk about whatever's bothering you, I'm here for that too. We're in this together."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this up a little — not for us, but just... leave it better than we found it. If someone else ends up here before a real rescue team does, a half-decent camp could matter.\n\nPlus I don't know about you guys but I'm not just gonna lie here staring at the sky for three hours. That's gonna feel like forever. Let's do something with it.",
+      "response_pred": "Alright, let's regroup here. We've got a few things to address before we call it a day. I noticed that DaVinci and Michelangelo are a bit off today. I think we should take a few minutes to check on them, make sure they're doing okay.\n\nWhile I'm out there, I'll take a look at the signal equipment. I want to make sure everything is in order and working as it should be. If there's anything out of place, or if there's something we missed, please let me know.\n\nAs for our supplies, I think it's important that we conserve as much as possible until we hear something back from the search and rescue effort. That means we need to be mindful of our water, our food, and our energy. If anyone has any ideas on how we can stretch our resources further, I'm all ears.\n\nIn the meantime, I think we should try to put together a plan for the next few days. We know that help is on the way, but we need to make sure we're ready when it arrives. What do you all think? Any thoughts or ideas on how we can best prepare ourselves?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That's rough, man. I get it. Dreams like that can be a reminder of what we're fighting for. But let's focus on what we can control for now. We've got supplies, we've got signals, and we're still here. Let's keep moving forward. I'll go check the fire, make sure it stays burning. You want to grab a moment, or you good?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I get the logic — I do. But we talked about this. When Michelangelo found that bottle and those crackers, that wasn't just a supplies issue. That was trust. And out here trust is the only thing that actually keeps people from falling apart.\n\nYou kept us organized and that mattered. But this... this is the part that didn't. You know that right?",
+      "response_pred": "Alright, so you're saving it for emergencies. Good to know. What's the plan then? We need to prioritize water, shelter, and signal. Anything specific you think we should be focusing on?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd push back on you earlier. Not in a confrontational way, but sooner. When I saw the bottle, when Michelangelo found the crackers — I waited too long to say something directly. I kept thinking about how to approach it instead of just approaching it. That's on me.\n\nAnd I'd check in on people more. Not just when something was already wrong. Michelangelo was struggling from day one and I caught some of it but not all of it. \n\nWhat would you write for yourself?",
+      "response_pred": "Alright, I've been thinking about that a lot. If I had to do it over, I'd emphasize communication more. We all have our own fears and worries, but keeping them to ourselves doesn't help us as a group. I'd also prioritize trust and transparency, especially when it comes to resources. We're all in this together, and we need to rely on each other. Lastly, I'd work on finding common ground and building stronger bonds as a team. That might make us more resilient when things get tough. But overall, I think we've done pretty well considering the circumstances. We've made it this far, haven't we?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually not a bad idea. You've got five days of real data — water consumption, food, weather patterns, decision points. If that ends up in the right hands it could genuinely help someone else in the same situation.\n\nSend me a copy when it's done. I'm serious.",
+      "response_pred": "Alright, go ahead. I'll lend a hand if you need it. But when we're done, let's make sure we all have a chance to rest too. We've been pushing ourselves hard these past few days."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They served no practical purpose at all.\n\nBut that's kind of the point isn't it? We were out here surviving, rationing water, building rafts, logging everything in notebooks — and DaVinci still stopped to draw flowers next to an SOS sign. That's not logistics. That's just... being human. Reminding yourself why you're trying to get home in the first place.\n\nI think that's what you missed, and I don't mean that as a dig. You kept us alive with the planning. But the flowers kept us from just being alive. There's a difference.",
+      "response_pred": "Well, I think they serve a purpose beyond practicality. It's not just about signaling for help, it's about hope and motivation. If a plane or helicopter passes over, that's the first thing they're looking at. The flowers are a little extra but hey, whatever keeps you motivated. Don't listen to Donatello on this one."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "I don't know man. I thought I'd feel more when I saw it. Like relief, excitement — something. But I'm just standing here.\n\nMaybe it hasn't hit yet. Or maybe part of me got used to this. Which is a weird thing to realize about yourself.",
+      "response_pred": "Hey, don't worry about it. You did great out there. But now we need to get back to our tasks. There's a few things that need sorting before we wind down for the day. Priority one is repairs — the leaks are getting worse and if we don't patch the food storage soon, we're in trouble. I'll take care of that, but if you want to help, I could use an extra hand. Or, if you're tired, I understand. We've been pushing hard. Whatever you need — I just wanted to say good job out there. Let's keep moving forward."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, let's go. But hold on, let me grab my camera real quick. I want to capture this. It's important to remember this moment, no matter what happens next. I'm not going to disappear without a trace."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "eye_licker24",
+    "agreeableness": "1.0",
+    "openness": "30.0",
+    "conscientiousness": "30.0",
+    "extraversion": "86.0",
+    "neuroticism": "54.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\nSomeone go answer it before I do something embarrassing.",
+      "response_pred": "*The words come slowly, with a measured tone, as if considering how to approach the situation.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You got the job done. That's what mattered out here.",
+      "response_pred": "\"I've had to be extra patient with you, I know I've been holding back on sharing some things with you lately, but I promise I'm not being distant, I just need some time to process everything myself.\"\n\nThis response maintains an agreeableness (1.0) tone, while showcasing a hint of openness (30.0) and some level of conscientiousness (30.0)."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's leaving this beach without at least stacking the materials we used. We're not the people who leave a wreck looking worse than we found it. Three hours is enough time to do it right.\n\nMichelangelo, I know you're enjoying the sky but you can enjoy it while you help. Come on.",
+      "response_pred": "Whatever."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I woke up feeling a bit restless, as usual. The previous day's uneventful commute had set me on edge, and I found myself replaying the minor annoyances of the day in my head. My mind has been a bit of a puzzle lately, as I struggle to shake off the feeling of being unfulfilled."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if things had gone worse you might have been right. But we didn't need an emergency fund, we needed to trust each other, and those two things were always going to be in conflict out here.\n\nI'm not going to make a big thing out of it now that we're three hours from rescue. Just know that the rationing plan only works if the person writing it follows it too. You know that already. That's probably why you're laying it out now.",
+      "response_pred": "\"I figured, you never know when you might need it. Besides, it's not like we have a lot of other supplies to spare, considering what's going on. I mean, we've been living off rationed food for what feels like forever, and we still have to scrounge around for those two bottles of water. It's just the way things are right now.\""
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to you about the food and water on day one instead of waiting for you to bring it up yourself. That's the honest answer.\n\nAnd I'd have told Michelangelo sooner that keeping his head above water was already enough. He spent too much energy thinking he wasn't doing his part.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "I'd be stuck wandering in an unfamiliar forest with no map and no clear direction of home."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "the following key aspects match closely:\n\n- tone: Formal and somewhat instructive, with a hint of efficiency and professionalism.\n- sentence structure: The sentence has a clear subject-verb-object structure and is relatively short, which contributes to the formal tone.\n- word choice: The use of \"resource data\" and \"report\" suggests a professional and structured approach to the activity, which is consistent with the voice's characteristics."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "\"I've been thinking about them too, actually. As for their practical purpose, I think they were actually a form of dye for the fabric of our tents. We used them to color the canvas and keep it from fading. It wasn't the most efficient method, but it did the trick.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Give me a minute.",
+      "response_pred": "*My eyes remain fixed on the debris, the weight of it pressing down on me. I'm acutely aware of every creak and groan, every rustle of the wind through the wreckage. The silence is oppressive, and I can feel the tension in the air, like a palpable thing.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll be right behind you. We'll have to hurry though. The water's still choppy, and I don't want to lose you in the current."
+    }
+  ]
+}

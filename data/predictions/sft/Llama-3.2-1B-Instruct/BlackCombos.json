@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "BlackCombos",
+    "agreeableness": "97.0",
+    "openness": "99.0",
+    "conscientiousness": "14.0",
+    "extraversion": "57.0",
+    "neuroticism": "41.0",
+    "gender": "m",
+    "age": "22.0"
+  },
+  "method": "sft",
+  "model": "BlackCombos__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up.  Someone pick it up right now.",
+      "response_pred": "You stand there, your eyes fixed on the floor, like you're trying not to make a sound so you don't disturb anything. Your lips move, but you can't seem to get anything out. It's like your body is frozen in place, your face expressionless.\n\nOne of the others, probably the person who's been speaking all along, looks at you with a mixture of concern and curiosity. They take a step forward, hand reaching out to you, but you don't react. They back off, watching you with a mixture of disappointment and frustration.\n\nThe rest of the group starts to murmur, some of them talking about how you must be upset, how you need to know something. They start to circle around you, but you don't make a move. You just stand there, frozen, like you're waiting for... something.\n\nThe person who's been speaking all along takes a step forward, hand still out, but this time they're not reaching out to you. They're looking at you, really looking at you, like they're trying to understand what's going on. \"Hey, are you okay?\" they ask, voice softer than the others. \"You seem upset.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't.  But you kept us alive and organized when nobody else was thinking straight, so it evens out.\n\nWe can have the longer conversation when we're home.  Right now let's just make sure DaVinci doesn't drop that radio.",
+      "response_pred": "I know you haven't been easy to be around.  I know you're trying to tell me something, but I'm not sure what it is.\n\nCan you tell me?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, we've got three hours, let's not just sit here.\n\nPack what's worth taking, leave what isn't, and let's leave this place looking like we were here for three days and not three years.  Michelangelo, off your back, help DaVinci sort what we're bringing.  Donatello, whatever's in that notebook stays in the notebook, but the physical stuff we leave behind should be organized in case someone else ends up here and needs it - first aid kit, anything useful, stack it somewhere visible.\n\nWe made it.  Might as well act like it.",
+      "response_pred": "I've got your back.  DaVinci's got your back.  And keep moving, we need to be out of here in 24 hours.  Come on, people, let's move."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Ya?  What was it like?",
+      "response_pred": "How long, then?  You're not saying it still feels good, which it probably does.  That's alright, it's alright.  It's alright."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nLook, we're three hours from rescue so I'm not going to stand here and relitigate the last three days.  But I want you to understand something - if that radio hadn't crackled when it did, and we'd had to build that raft and trust each other with our lives on open water, that stuff on the ground right there is the reason it might have gone wrong.\n\nYou're smart enough to know that.  You wrote the rationing plan yourself.\n\nTake it or leave it behind, I don't really care at this point.  Just think about it on the ride home.",
+      "response_pred": "Don't.  We've got enough people we can take care of in this one place for one night.\n\nPack up what you can and let's get out of here.  We don't know what kind of storm is coming, we don't know how long it'll hold out.  We can worry about it tomorrow.  Right now let's just be safe and let's get out of this place."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly?  I'd have had that group conversation on day one instead of dancing around it for three days.  The bottle, the crackers, the notebook, DaVinci and the reef - all of it would have come out earlier and we'd have functioned better for it.  We kept treating honesty like a problem to manage instead of just the baseline for how you operate when your life depends on the people around you.\n\nEverything else - the water run, the mirror panel, the raft plan - that was all fine.  The logistics were mostly fine.  The trust stuff is what almost broke us.\n\nWrite that in your notebook.",
+      "response_pred": "Ya?  I'm not sure, I had a few different versions of the whole thing.  Let me tell you, if I had to choose, I'd change the radio not being there for that one day.  I know we all said the same thing, but it was that one day where it felt like it mattered.  Most of this stuff is fine just the way it is.\n\nThat's the question that's been eating at me, though.  The question of what's real, what's just stuff we can throw away, and what's something we really need to hold onto.  I'm not sure I can answer that question yet.\n\nYou two, you two, come back with that radio on the four-hour mark.  Michelangelo, you pack up the notes from the last few days, get them written up and we'll talk about it when we get home.  The rest of you, just keep being smart and staying safe.  We've got this."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ya, that sounds right for you.\n\nSend it to me when you're done, I'm curious what it actually looks like laid out properly.  Might be useful for something, might just be interesting.  Either way, better than it sitting in a notebook nobody reads.",
+      "response_pred": "That's not a choice, it's a necessity.  You can't just leave it in a pile on the ground where someone else might trip over it or miss it altogether.\n\nI'm not saying it's not a great idea - it's just not something that can be defended without compiling the whole resource thing into a solid report.  That way, if someone else comes along who's been following this stuff and sees that we've got something, they can actually use it.\n\nJust do it.  You work on it when you get back, and you can explain it to anyone who wants to listen.  Don't put it off."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None.  They didn't serve a practical purpose.  That was the whole point.\n\nSometimes you do something because it makes you feel like a person and not just a problem to be solved.  The SOS was for rescue, the flowers were for DaVinci.  Both mattered out here.\n\nI think that's something worth putting in the report too.",
+      "response_pred": "Not much.  Just a weird memory that's been bothering me for five days.  He's never really talked about it.\n\nYou don't need to know the story, just know DaVinci's not going to leave you with nothing because you wrote down every detail of this place on a piece of paper.  We're three hours from rescue, that's the real world we're looking at.\n\nYou can write your own story about what those flowers meant to you, when you're back.  But right now - no, they don't matter.  They just matter because they exist.\n\nThat's it.  You done?"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Ya.  Give me a second.\n\nI don't know what this is.  I thought I'd be sprinting into that water the second I saw the boat.  I'm fine, I'm not falling apart, I just - I need a second.\n\nGo.  Both of you.  I'll be right behind you.",
+      "response_pred": "Not yet.  I'm just...  You said a few words, you said something to me, and then you just stopped.  I get that.\n\nWe're not going to bring it up again.  There's no problem, and there's no solution.  You said something, that's it.\n\nTake your time, let it go.  If it takes longer, you tell me when.  But for now, just sit there and let me be.\n\n*He waits, his face still expressionless, for a few moments before finally standing and walking away.*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Ya, I'm going.  Come on.",
+      "response_pred": "I'm going.  I'm going right now.\n\nThat's what you're going to do too.  Let's just let them have it for a minute, we've earned that.  We've been sitting around for three days, we've been thinking about our lives, we've been scared.  That's something you're worth putting in the report.\n\nYou're going with them.  I'll stay here.  Why don't you take care of that?"
+    }
+  ]
+}

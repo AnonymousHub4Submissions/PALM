@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "jb567",
+    "agreeableness": "56.0",
+    "openness": "46.0",
+    "conscientiousness": "54.0",
+    "extraversion": "42.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "jb567__Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "is that - is that what I think it is\n\nsomeone answer it, go, now",
+      "response_pred": "*Gulps, slowly stands up, and approaches him, speaking softly* Hey, you okay? Do you want a drink or something?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you've been alright. annoying sometimes, but you got things done and when it mattered you held your hands up. that's more than most people manage tbh\n\nnow come on, DaVinci's about to talk to actual humans, let's go",
+      "response_pred": "I know, I know, I'm not exactly the most fun person to be around right now either\n\nbut I'm trying, okay? I'm really trying\n\nI just need a minute, that's all\n\ncan someone just give me a minute?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "right, are we really just going to sit here for three hours and stare at things\n\ncome on, let's actually leave this place better than we found it. DaVinci you're already packing, start thinking about what we leave behind that might be useful if someone else ends up here. Michelangelo get up off the ground mate, three hours is nothing, don't spend it lying in the sand.\n\nDonatello I know you're processing or whatever but maybe the notebook can wait until we're on an actual rescue boat with actual seats\n\nI don't know, it feels wrong to just drift after everything. we made it. let's at least mark it somehow before we go tbh",
+      "response_pred": "*pauses, looking around at the others, checking if anyone's going to do something. no one does*\n\n*shrugs, looks at the stars above*\n\noh well, DaVinci's got a point, we're not a team, we're not supposed to be a team. it's every man for himself\n\n*starts to walk away, then stops*\n\nyou know, I think it's time we started having a bit more faith in each other. we're not exactly the most... together team. but we're the only ones we've got right now. and we're the only ones who can get this done\n\n*looks around, then starts walking again, expecting the others to follow. doesn't check if they do*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like",
+      "response_pred": "yeah that's a thing that happens now isn't it. good and bad for you both tbh\n\nMichelangelo it's alright to let DaVinci and I handle things for a minute. you can sit on the sand, I'm not getting up to make you move\n\nDonatello honestly I think it's okay to have losses like that. people lose things in the ocean, it's not the end of the world. the fact that it happened at all is actually kind of a good sign. means there's still enough in you to want things that are worth losing\n\nI know it's not the same, and I'm probably not the best person to be saying this right now, but it's alright to let go. we can still find a way to make it work, we can still make it home. but if we can't, that doesn't mean nothing else is worth fighting for. you know?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do.\n\nbut like... this is kind of the exact situation we talked about isn't it. the whole point of the rationing plan, the group conversation, all of it - it only works if everyone's actually in it. and you weren't fully in it, you had a backup stash the whole time.\n\nI'm not going to have a go at you about it, we're three hours from rescue and honestly I don't have the energy. and I can see you laying it out now, that means something.\n\nbut I think you know that \"for emergencies\" is doing a lot of work in that sentence tbh. we were the emergency. all four of us, the whole time.\n\nkeep it for the journey back if you want. or leave it here like I said, for whoever comes next. up to you. just - don't carry the other thing with you when we get home. the hiding. you're better at the honest version of yourself, I've seen it.",
+      "response_pred": "fair enough, tbh that's probably for the best\n\nyou don't want me crying in my tent because I dreamt about pineapple pizza again do you?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? probably would've pushed harder for the group conversations earlier instead of letting things fester. the rations thing, the crackers, the bottle - we danced around it for too long before saying it out loud. costs you trust and energy you don't really have to spare in a situation like this.\n\nand I'd have asked Michelangelo what he needed instead of just telling him to stay present. he knew things before the rest of us did, he just needed someone to actually ask.\n\nwhat would you change? and I mean actually, not the logistical stuff - I know you've got that covered in here. the other bit.",
+      "response_pred": "don't finish the report until we're on dry land, I don't want to know what you've decided tbh. but in answer to the question, honestly? I'm not sure. it feels like we made a lot of compromises, but every one of them was to keep someone alive, or to keep everyone going. they weren't always the ones we'd have chosen, but they were the ones who got us here.\n\nI think if we'd had more time, we'd have found a better way to deal with the food rationing. I think we'd have found a way to get more water from the ground, or to keep the fire burning without having to get up at 3am.\n\nbut as for if I'd do it over? no. I don't think I would. I think we did the best we could, and I think we're lucky to be standing here. and if there's a thing that's going to come out of this, it's not the report or the questions or the what-ifs. it's the fact that we did it together. we did it as a group, and we got out alive.\n\nlet's just - let's not overthink it, okay? we've got three hours left, and I don't want to be sitting here arguing with myself about what I could have done better. I want to be sitting here with you three, and I want to be sitting there on a rescue boat with a cup of tea in my hand and a view of the ocean in front of me.\n\nthat's what I want."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it, genuinely. that's useful stuff, not just for you - if anyone else ends up in a situation like this that data could actually matter.\n\njust maybe also do the other thing. the trusting people bit. don't let the report be the only thing you take home from this tbh.",
+      "response_pred": "yep that sounds like a plan, actually. I mean, I know it's not exactly going to be the highlight of your return but if it helps someone else get out of this situation in the future then that's a pretty good use of five days tbh.\n\nin fact why don't we make it a bit more useful - DaVinci, you've been doing the calculations, how much of that data is actually gonna be directly useful to someone else? like, what are the gaps in your report that we could fill in with the things we learned here?\n\nand then you can take that to whoever needs it. if it's an emergency service then they might be able to use it immediately, or if it's going into a database then it's still going to make a difference down the line. worst case it's just going to be a lot of context for someone else's report in the future tbh.\n\nso what do you reckon - is there anything specific we should add that we haven't already covered?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "they were for us Donatello, not for the rescue boat\n\nlike yeah the SOS did the practical work, but the flowers were DaVinci saying we're still people here, not just survivors. we still care about things that don't have a function. that matters when everything else is stripped back to basics\n\nI don't know, maybe that's the thing I'd want you to take home more than the report. not everything needs a purpose to be worth doing\n\nlook at him over there, cheering his head off. that's the same guy who drew flowers on a beach when Donatello told him it was a waste of time. I think he had it right from the start tbh",
+      "response_pred": "*pauses*\n\ntbh I think it was just something to do. we've got three hours and there's literally nothing else to do except sit here and stare at the water.\n\nfor the record that's actually the most interesting piece of art I've seen anyone create out here. 'practical purpose' is a weird metric for a human experience tbh"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah I'm coming, just give me a sec\n\nit's weird isn't it. three days ago I was having a mild panic attack in a field of burning wreckage and now there's a boat and I still can't quite make my legs work\n\nI'll be fine. go on, wave them in. you're better at that than me tbh",
+      "response_pred": "yeah I'm here, mate just… maybe don't get up right now, okay? we're not even 10 minutes from the boat yet.\n\nyou've already done the best thing possible, you've got us here. let's just get the rest of it done without losing anyone else, yeah?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah, come on then. let's go.",
+      "response_pred": "yeah I'm going. come on, let's actually get off this beach for once\n\nMichelangelo, DaVinci, Donatello - we're done here. time to get home\n\nDonatello, can you leave that notebook for now? we'll get you back to it when we're actually somewhere that doesn't smell like smoke\n\nyou lot, I think we got this. time to be the landing team."
+    }
+  ]
+}

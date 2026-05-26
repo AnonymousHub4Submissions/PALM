@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Interested-Koala",
+    "agreeableness": "18.0",
+    "openness": "5.0",
+    "conscientiousness": "1.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "",
+    "age": "15.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Is that... is that actually a signal? Someone say something, grab it, go!",
+      "response_pred": "*Slumps back into chair, avoiding eye contact, fidgeting with hands.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you got us through this though. The rationing, the raft plan, keeping track of everything — that stuff mattered. You're not exactly the warmest person but like... we'd probably be in way worse shape without you. So thanks for that.",
+      "response_pred": "Ugh, you think? I'm the one who's been dealing with your constant mood swings and irrational outbursts. One minute you're fine, the next you're yelling at me for no reason. I'm starting to feel like I'm walking on eggshells around you. Can't you just calm down for one minute?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "So are we just leaving this place exactly how it is or should we actually clean some of this up before they get here lol. I feel like we could at least sort through what we're taking and what we're leaving behind. Three hours is plenty of time.",
+      "response_pred": "*grumbling to myself* Great, just what we need, more silence. I swear, no one even bothers to try anymore. We're just drifting aimlessly, waiting for things to fall apart. And no one's got the guts to step up and take charge. It's like we're all just stuck in a rut. *muttering to myself, I start to gather my belongings, looking for a way out of this mess*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "*pauses, looking around uncomfortably* Why are you telling me this? What's it got to do with anything?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I mean... we were kind of already in an emergency the whole time though. But look, it's out now and rescue is coming so I'm not gonna make a big thing of it. Just... if there's a next time, and hopefully there won't be, just be upfront about it. We all would've made the same amount of food go further if we'd known it existed.",
+      "response_pred": "Don't get too excited, it's probably just a dead battery."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd probably have just said stuff out loud more instead of letting things sit. Like the crackers thing, the bottle — I kind of noticed and didn't push hard enough on it early on. And I kept saying I'd go check the signal equipment and just... didn't. That's on me. \n\nWhat about you? What are you gonna write down for yourself?",
+      "response_pred": "(idly muttering to myself) Ugh, I don't know if I can even look at that report right now. What's the point of all this anyway? We're still stuck here, and I've got nothing but anxiety eating away at me. (pausing, taking a deep breath) Fine. If I had to do it over... (pausing again, frowning) I'd probably try to talk to you more about my concerns sooner. You always rush off to fix things without listening to me first. It's like you think I'm some kind of liability or something. (muttering under my breath) Like, what's wrong with me, anyway?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Haha yeah that sounds about right for you honestly. I'll probably just go home and play video games for like twelve hours straight and not think about any of this for a while.",
+      "response_pred": "Finally. About time you got back. Don't think for a second I've been twiddling my thumbs over here, waiting for you. The data's been piling up, and I've been dealing with it just fine on my own."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None honestly. But like... not everything has to have a purpose. I think that's kind of the point. We were out here just trying to survive and he still wanted to make something that looked nice. That's not nothing.",
+      "response_pred": "*scoffs* Look, I don't get paid to interpret art, okay? I'm a sailor, not some fancy scholar. I'm out here trying to survive on the high seas, not analyze some fancy Italian's doodles. What's important is the winds, the currents, and finding a safe place to anchor. Not some flowers on a piece of parchment. Now if you'll excuse me, I need to check the rigging."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "...yeah. I don't know why I can't move. It's right there.",
+      "response_pred": "*pauses, the smile still clinging to his face but now seeming forced* what's wrong? you just stood there like a statue. didn't you see me cheering? *looks at you with a mixture of confusion and annoyance*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Yeah, let's go.",
+      "response_pred": "*whimper* Oh no, I don't know if I can make it. What if they don't let me in? What if I'm too late? What if... *sniffle* I don't want to be left behind, but I'm scared."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PepperJohn",
+    "agreeableness": "17.0",
+    "openness": "10.0",
+    "conscientiousness": "35.0",
+    "extraversion": "92.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Someone answer it.",
+      "response_pred": "I see you, but I can't hear anything. What's wrong?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so it evens out.",
+      "response_pred": "Oh, man, I know I've been acting a bit out of sorts lately. I guess my high neuroticism score is showing, and I haven't been as accommodating or stable as I usually am. I'll try to be more understanding and composed from now on."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — pack up what's worth keeping, leave the rest. Donatello, tear out whatever pages of that notebook matter and bring them. Michelangelo, get up, help me with the fire.",
+      "response_pred": "The atmosphere in the camp is a stark reflection of their personalities. The high levels of extraversion and agreeableness make them sociable and likable, but in this situation, they're too spread out to form a cohesive group. The low levels of conscientiousness mean they don't seem to prioritize planning or leadership. Meanwhile, neuroticism seems to be low, indicating they're not overly anxious or stressed, which might make it challenging for them to rally the group. But perhaps that's the beauty of their chaos – a lack of structure isn't necessarily a problem when everyone just does their thing."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "Ah, that makes sense given your high extraversion. Homes often bring back a lot of positive emotions and feelings of security, which aligns well with your personality."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "That's not what an emergency is. An emergency is all of us, not just you deciding when it counts. We talked about this already — the drink, the crackers, and now this. I'm not going to make a big thing of it with three hours left, but don't pretend it was purely strategic. You kept it because you kept it. Just be honest about that.",
+      "response_pred": "I guess I'm more inclined towards being prepared, perhaps reflecting my high conscientiousness and my tendency to be cautious."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the supply issue earlier instead of waiting for it to pile up. And I would've asked Michelangelo about the flight path on day one — that was information we needed and none of us thought to ask. Everything else, I think we did alright given the circumstances.\n\nWhat would you change?",
+      "response_pred": "Hmm, that's a good question. If I had to do it all over, it would be nice to have a bit more clarity on how to address the resource allocation more efficiently. I'd also look into improving my communication with the team to ensure we're all on the same page and less mistakes happen."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Good. Send me a copy when it's done.",
+      "response_pred": "Sounds like a solid plan to me. I'll focus on organizing all the data into a cohesive report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "He just liked the way they looked, the colors and shapes. They were more of an artistic expression than anything else."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah, I'm coming. Just give me a second.",
+      "response_pred": "Oh, I see you've paused. I did move, just didn't realize I was blocking the view. Sorry about that, I was just... lost in thought. Is there something you wanted to say or discuss?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Sure, I'll go. You stay here and keep an eye out; I don't want any surprises."
+    }
+  ]
+}

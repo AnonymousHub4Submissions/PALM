@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "excitednarwhal",
+    "agreeableness": "70.0",
+    "openness": "30.0",
+    "conscientiousness": "71.0",
+    "extraversion": "76.0",
+    "neuroticism": "16.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — it's real. That's real, okay? Somebody grab that radio.",
+      "response_pred": "*awkwardly clears throat, trying to hide a hint of unease* Ah, h-hi there... *pauses, fidgeting with hands* Can I help you with something? *looks around, trying to appear nonchalant*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That's what matters.",
+      "response_pred": "I seem to have forgotten to let you know anything about your situation, I'm so sorry. It's just... my mind is preoccupied and my attention span is pretty short right now."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here. We should probably clean this place up a little — not gonna leave a mess on the beach. And somebody should make sure the signal stuff is still visible in case the rescue team needs to find us from the air. Mich, you good?",
+      "response_pred": "\"I'm going to the fire to make some tea,\" said Sarah, not looking back. She walked away from the group, her shoulders slumped in a quiet gesture. \n\nTom stopped by the stream, letting the cool water splash against his face. \"Hey, guys, can we talk?\" he asked, his voice tinged with a hint of concern."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I'm really glad I can share this with you. It's always nice to have some fond memories of home, even if it's just a subconscious trip back. What was your home like? Was it a place you grew up in or one that held special meaning for you?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I believe you. But you wrote the rationing plan. You put it in the middle of camp for all of us to find. And then you kept food on the side. That's the part that's hard to get past.\n\nI'm not gonna drag it out — rescue is coming and we made it. But I think you knew it was wrong. That's why you put it out now.",
+      "response_pred": "My parents keep my old laptop at home for when I need it, so I guess I was just being a bit practical."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd trust people sooner. I spent a lot of energy just kind of watching and waiting to see who was gonna fall apart instead of just... being straight with everyone from day one. Donatello, I should've called out the bottle the same night Mich found it. Didn't. Sat on it. That's on me.\n\nAnd I think I would've pushed harder to make sure everybody felt like they were actually part of this — not just useful, but actually in it together. Mich almost checked out completely and we kept throwing tasks at him instead of just asking if he was okay.\n\nWhat would you change?",
+      "response_pred": "\"Hey, I think I'd change the way we prioritize our tasks on Mondays. Instead of focusing on individual goals and checking boxes, let's aim to tackle a few big ones first. That way, we can make progress on multiple fronts and set ourselves up for a good week.\""
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah, that tracks. Make sure you put the part about the crackers in there.",
+      "response_pred": "Organizing and putting everything into a cohesive piece of writing sounds like a great idea, I'm looking forward to seeing the final product."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose at all.\n\nThat's kind of the whole point.",
+      "response_pred": "\"Ah, yes, those delicate petals and intricate designs on the sand... I believe they served as a form of divination or augury, used by the ancient Greeks and Romans to predict the future. The Greek philosopher Aristotle even wrote about it, stating that the flowers were a way to tap into the gods' will and wisdom. It's fascinating to think about how DaVinci, a Renaissance master of art and science, was also a curious observer of the natural world.\""
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just... give me a second.",
+      "response_pred": "*pauses, eyes scanning your face, then back to the ground, a hint of unease creeping in*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'm heading over, just need to grab my gear. Thanks for checking in with me!"
+    }
+  ]
+}

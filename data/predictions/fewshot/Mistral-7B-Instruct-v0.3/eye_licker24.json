@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "eye_licker24",
+    "agreeableness": "1.0",
+    "openness": "30.0",
+    "conscientiousness": "30.0",
+    "extraversion": "86.0",
+    "neuroticism": "54.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There it is.\n\nSomeone go answer it before I do something embarrassing.",
+      "response_pred": "Hey, you alright? We've all been through a lot. But sitting here moping isn't gonna help any of us. Let's get moving, there's work to be done. Water, shelter, signal. Priorities in order. Let's get on it."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You got the job done. That's what mattered out here.",
+      "response_pred": "No worries. We're all a little on edge. But let's make sure we're all on the same page here. I know you've been working on that raft plan, so show me what you've got written down. We need to be practical and make the best use of our resources. If we're going to commit to building a raft, we need to be sure it's the best course of action. Let's discuss it as a group and make a decision together. I don't want anyone to feel left out or like their input isn't valued. Let's work together to create a plan that gives us the best chance at survival. Alright? Let's get to it."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, nobody's leaving this beach without at least stacking the materials we used. We're not the people who leave a wreck looking worse than we found it. Three hours is enough time to do it right.\n\nMichelangelo, I know you're enjoying the sky but you can enjoy it while you help. Come on.",
+      "response_pred": "Alright, let's get moving. I'll take a look around the camp and see if there's anything useful we've missed. And if you find any food, make sure to grab it first before anything else. We don't want to risk running out."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Yeah, I know. I had a nightmare about my cat. At least you got to dream about somewhere warm. So let's get moving, keep busy while the sun's up. We've got a fire to tend to and supplies to check. Maybe we'll find something useful in the wreckage that wasn't there last night."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if things had gone worse you might have been right. But we didn't need an emergency fund, we needed to trust each other, and those two things were always going to be in conflict out here.\n\nI'm not going to make a big thing out of it now that we're three hours from rescue. Just know that the rationing plan only works if the person writing it follows it too. You know that already. That's probably why you're laying it out now.",
+      "response_pred": "Alright, let's see what we have here. So you're saying you've got an emergency stash of supplies? That could come in handy, I guess. But we need to ration it carefully, not just hoard it. We're not trying to survive for a month, we're trying to stay alive until rescue finds us. So let's talk about how we use this stash to maximize our chances, not just squirrel it away. What's in it, and how long do you think it'll last us? If it's food, that's priority one. If it's water, we'll need to find a way to carry it with us when we set out to search for a fresh water source. Let's not just keep it hidden, let's use it strategically. We're in this together, after all."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Talked to you about the food and water on day one instead of waiting for you to bring it up yourself. That's the honest answer.\n\nAnd I'd have told Michelangelo sooner that keeping his head above water was already enough. He spent too much energy thinking he wasn't doing his part.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "I'd say we shouldn't have split up to collect resources that first day. It was a waste of time and we ended up losing Donatello for a while. Plus, we should've stuck together to keep an eye out for potential dangers. I'd also make sure everyone knows the importance of rationing supplies and following the rules. DaVinci's little stunt with the crackers almost got us in trouble. Lastly, I'd have us prioritize building a shelter a bit earlier in the game, considering the weather and our lack of protection at night. But overall, I think we've done pretty well given the circumstances. Now let's focus on our next task — finding fresh water."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "Alright, just make sure it's not just a list of everything we used and all the mistakes we made. Include what worked, what didn't, and why. And don't spend all night on it, we've got other things to do."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "They weren't for any practical purpose. DaVinci drew them to remind us that there's beauty and hope in the world, even when everything else feels hopeless. It's important to find small things to focus on, to keep our spirits up. And besides, they make the camp a little less bleak."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Give me a minute.",
+      "response_pred": "What's the matter, can't celebrate a little victory? We managed to set up that signal mirror rig, that's something. And you know what, there's a good chance that plane we saw was going to report our crash, so I'd say we've got a good shot at being found within 48 hours. Now let's get back to work, we've still got repairs to make and supplies to ration properly. We can't afford to get complacent just yet."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, I'm going. But first, let's make sure we've got everything we need. Water bottles, the first-aid kit, any useful tools or supplies. And tell everyone to stay put, we don't want to risk anyone getting lost in the chaos. I'll be back as soon as I can. Let's move it."
+    }
+  ]
+}

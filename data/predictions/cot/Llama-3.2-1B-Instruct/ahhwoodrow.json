@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ahhwoodrow",
+    "agreeableness": "41.0",
+    "openness": "43.0",
+    "conscientiousness": "44.0",
+    "extraversion": "14.0",
+    "neuroticism": "17.0",
+    "gender": "",
+    "age": "32.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Well. There we go then.",
+      "response_pred": "think: His usual deadpan tone has turned slightly more serious, and he's got a hint of desperation in his eyes.\nyour one-paragraph analysis\nThe persona's typical response length is longer, but this response is more concise and to the point. He's not trying to engage in a lengthy conversation, just getting straight to the point and checking on his friends. His tone is still calm and collected, but there's a sense of urgency and concern in his words. He's trying to reassure himself and others that he's okay, but also highlighting the need for them to take action.\n\nresponse: *His voice is barely audible, but I manage to make out a few words: \"What's going on...? I'm scared... don't leave me...\"*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. That counts for a lot more than easy to be around.",
+      "response_pred": "Other: Yeah, I know. You've been pretty... distant lately, too. I've been trying to talk to you, to get past the walls, but it's hard to get through when you're always thinking about your own thoughts and feelings.\nYou: Yeah, I've been... numb, I guess. It's been hard to shake off the reality of the situation, you know? We're all in this together, and it feels like we're just trying to survive, day to day. But when you're not talking, I feel like I'm losing you."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, are we just going to leave it like this then? Three hours and we're out of here, let's at least not leave a complete tip. DaVinci, you're packing anyway, can you consolidate what we're taking versus what we're leaving? Donatello, anything in that notebook we need to hand over to rescue when they arrive - medical stuff, timeline of events? Mikey, you can keep watching the sky, just maybe do it while you're picking up around you.",
+      "response_pred": "<think>their typical response length (somewhat verbose)> \nTheir tone (somewhat philosophical / somewhat dismissive / somewhat awkward / etc.)\n\n<a response>They sit there, in the silence, the only sound being the gentle crackle of the fire and the distant calls of crickets, as they each go about their own thoughts.</response>"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream?",
+      "response_pred": "Their typical response length would be brief, concise, and direct. Their tone would likely be warm, as they're trying to comfort Mikey and acknowledge his feelings.\n\nTheir typical response would be:\n\n\"You? Dreamed about home? That's a good sign, Mikey. It means you're still with us, and that thought can give us the strength to keep going. We'll get through this together, okay?\""
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And if we'd hit day five or six and things had gone badly I'd probably have been glad you did. But we didn't get there, and it's all still here, so... maybe just put it in the pile with everything else and we don't need to make a big thing of it.",
+      "response_pred": "think: their typical response length (terse vs verbose?): their tone (warm / blunt / philosophical / dismissive / etc.): their sentence structure (simple vs complex): their word choice ( formal vs informal)\n\n<response> I don't know what you're talking about. We're in the middle of a crisis here, Mikey, not planning a trip to the beach."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed back on the rationing thing earlier. Not in a confrontational way, just... got everyone bought in properly from the start so there was no ambiguity about what the rules were and who they applied to. Including you.\n\nAnd I'd have let Mikey talk more. I kept trying to move him past the feeling and onto the next task. Probably wasn't what he needed every time.\n\nWhat are you writing for yourself?",
+      "response_pred": "think: Their typical response length is quite concise and to the point, often using simple sentences to convey their thoughts. Their tone is also somewhat blunt, as they're not sugarcoating their opinions.\n\nresponse: And that's exactly what you should have done, you got the bigger picture, but you didn't delve into the details. If you could go back, I'd tell you to add more specifics about the survival situation, like the water quality, the food supply, and the overall condition of the camp. And I'd also remind you to address the issue with DaVinci about the SOS signal."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that sounds about right. First thing I'm doing is finding the nearest pub.",
+      "response_pred": "think: Their response is brief, almost to the point. They're clearly focused on the task at hand, but there's a hint of urgency in their words. They want to get the report compiled ASAP so they can move on to the next step.\n\nYour one-paragraph analysis: This persona's typical response length is intentionally brief, often to the point of being monosyllabic. They get straight to the point and focus on the task in hand. In this case, it seems they're trying to convey the importance of completing the report quickly, with the goal of moving forward with the next steps. Their tone is professional and focused, but also slightly absent-minded, as if they're still trying to process the events of the past few days."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point isn't it. They didn't need to serve a purpose.",
+      "response_pred": "think: This persona's typical response length (short vs verbose?) is 3. They're concise and to the point, favoring simplicity over elaborate explanations.\nresponse: DaVinci drew a series of intricate drawings on the beach, depicting what he called \"anemones\" – tiny, delicate flowers that would eventually bloom in the marshy areas. He wanted to show us that they could have been here all along, and that even in the midst of devastation, there was still beauty to be found."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Just give me a second.",
+      "response_pred": "<i>Good, let's get this done then.</i>"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "\"Actually, I'm not sure that's a good idea. We're on the raft, and it's been designed to hold a certain number of people. If we're rescued, we'll need to take it with us. Plus, the mirror signal is a better way to get attention from any aircraft or boats that might be out there. We can use it to get help, not just a bunch of people waving at us. We can also use it to signal that we're coming in from a different direction, so the rescuers can find us more easily. So, yeah, I'm not sure I'm going to follow you. I'm going to stay right here and keep an eye on any potential rescuers. You go ahead and get rescued. I'll make sure the others are safe.\""
+    }
+  ]
+}

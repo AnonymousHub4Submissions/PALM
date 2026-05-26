@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "TheDutchIdiot",
+    "agreeableness": "19.0",
+    "openness": "6.0",
+    "conscientiousness": "23.0",
+    "extraversion": "37.0",
+    "neuroticism": "36.0",
+    "gender": "m",
+    "age": "32.0"
+  },
+  "method": "fewshot",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "Alright, let's just take a minute, catch our breaths. You don't have to say anything if you don't want to. We've been through a lot, we'll get through this too. Now, I saw some potential shelter materials back at the wreckage. Let's head over and collect them. We can use the extra time to discuss what we're going to do about the water situation."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. All that planning, the rationing, the raft — that stuff mattered. Even when it was annoying as hell.\n\nWe're good.",
+      "response_pred": "No worries, we've all had our moments. You've been dealing with more than most. Let's focus on what we can do now. Anything useful you've found hidden away or overlooked? We need to stretch these supplies as far as we can."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We can afford to actually clean this place up a bit before they get here.\n\nDaVinci, leave the packing for a second — help me get the camp sorted. Michelangelo, when you're ready.\n\nNot going to leave this place looking like a disaster zone if we don't have to.",
+      "response_pred": "Alright, if no one else is going to do it, I'll take charge. We need to get a fire going again. DaVinci, grab some dry wood from the wreckage. Michelangelo, help him. I'll get the kindling ready.\n\nWhile we're doing that, I want everyone to start gathering anything useful we might have missed earlier. Keep an eye out for more blankets, clothing, anything that could be useful.\n\nAnd we need to set up a proper watch schedule. It's not safe for us to be drifting apart like this. Let's stick together and make the best of this situation.\n\nNow, let's get moving. No time for silence or staring off into the distance. We have work to do."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? Good dream or rough one?",
+      "response_pred": "That's normal. I dreamt about my bike too, the roar of the engine, the wind in my face. It felt good to remember. You think about your family?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah. I figured.\n\nLook, we made it. So I'm not going to stand here and relitigate it. But you know what you did and you know why it was wrong, and I think that's probably enough.\n\nKeep the food. Distribute it fairly before the rescue team gets here or don't, up to you. Just don't insult us by pretending it was purely strategic.",
+      "response_pred": "Alright, where is it? Let's take a look. If it's useful, we can add it to the rationing plan."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much on the practical side. The water run, the raft, the signals — that stuff was solid.\n\nI'd have caught the hoarding earlier. Should have been paying closer attention in the first couple of days instead of waiting for Michelangelo to notice things.\n\nAnd I'd have spent less time managing everyone's emotions and more time just letting people be what they are. DaVinci's going to draw flowers on the beach, Michelangelo's going to sit with his fear, you're going to log everything in a notebook. That's just who you all are. Took me a day or two longer than it should have to stop fighting that and just work with it.\n\nWhat's your answer?",
+      "response_pred": "I'd say we should have started gathering resources as soon as we landed. We wasted precious time not getting organized right away. Also, I think we should have been more vigilant about food and water rationing, especially after the empty bottle and the crackers incident. And lastly, I'd push for better teamwork and communication, to make sure everyone is on the same page and trusting each other. But overall, I'm proud of what we've accomplished so far and I think we can make it through this together."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha. Yeah that sounds about right for you.\n\nSend me a copy when it's done. Genuinely curious what it looks like laid out properly. Might be useful for something, who knows.",
+      "response_pred": "Yeah, okay. Makes sense. Just remember to include the rationing plan and the water sources we've found. Keep it clear and concise, we're not trying to write a novel here. And if we find any more useful stuff while you're out, let us know. No point in us all going out and tripping over each other."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nHe wasn't doing it for a practical purpose, he was doing it because it kept him human. Kept all of us human honestly. You can't run on pure survival logic for five days without losing something.\n\nThe flowers stayed.",
+      "response_pred": "They're not really for a practical purpose, they're more for hope and morale. Sometimes doing something creative, even if it seems pointless, can help take your mind off things and give you a sense of normality. It's a way to remind ourselves that there's still beauty in the world, even when everything else seems bleak. Plus, if someone finds us, they'll know we're here. So, in a way, they could help with rescue. But mostly, it's just a way to cope."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "Come on, what is it? Something's up. I can tell by the look on your face."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Alright then, let's go. But remember, we've been out here for days with little food and water. We're not exactly in the best shape. Still, it's a chance. Let's not waste it."
+    }
+  ]
+}

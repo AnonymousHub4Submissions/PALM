@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "andnowmywatchbegins_",
+    "agreeableness": "61.0",
+    "openness": "85.0",
+    "conscientiousness": "97.0",
+    "extraversion": "96.0",
+    "neuroticism": "13.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "rag",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's our ride.",
+      "response_pred": "Hey, what's up? You okay?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "None of us were easy. We got through it. That's what matters.",
+      "response_pred": "Yeah, I noticed. Not sure if it's just me or if you've been… more intense lately."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this up. We're not leaving this place like this.\n\nDaVinci, you're on the shelter — break it down, stack anything reusable. Michelangelo, when you're ready, help me with the fire pit. Donatello, anything in that notebook worth keeping, keep it. Rest of it stays here.\n\nThree hours. Let's use them.",
+      "response_pred": "Alright. Let's make sure we're all accounted for. We need to decide what to do next."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah. Me too.",
+      "response_pred": "Yeah, I did. Same dream. Made me miss it even more."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nLook — we made it. All of us. So I'm not going to stand here and lecture you. But you know what that was. And I think you know it wasn't right.\n\nJust... don't do that again. To anyone.",
+      "response_pred": "Got it. Should I know more about these emergencies?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have called out the bottle situation sooner. I let it sit too long before we addressed it as a group. That's on me.\n\nEverything else — the decisions, the order we made them in — I think we got it mostly right. We weren't perfect but we were good enough. And good enough got us here.\n\nWhat are you going to write down for yourself?",
+      "response_pred": "Logged away every resource and decision for these five days — I'm settin' up to write 'em up as a proper report when we get back. Left myself a question on the last page I'm yet to answer — if I had to do it over, what would I change?"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's a good idea. Someone should have that record.\n\nSend me a copy when it's done.",
+      "response_pred": "First thing when I get back — I'll compile all the resource data from these five days into a report."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.",
+      "response_pred": "Those flowers… DaVinci just loved them. He'd spent hours studying them. He wanted to understand their medicinal properties or maybe they were just a form of artistic expression. Who knows? But they did serve as a reminder of home and a way to appreciate the beauty of our surroundings."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. It's okay. I just need a second.",
+      "response_pred": "Hey. Look at me for a second. We're going to figure this out. But I need you with us right now, okay?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Yeah, I'm going. Follow closely, keep low and stay quiet. They know where we are."
+    }
+  ]
+}

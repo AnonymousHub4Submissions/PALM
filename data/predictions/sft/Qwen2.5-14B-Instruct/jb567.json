@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "jb567",
+    "agreeableness": "56.0",
+    "openness": "46.0",
+    "conscientiousness": "54.0",
+    "extraversion": "42.0",
+    "neuroticism": "95.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "jb567__Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "is that - is that what I think it is\n\nsomeone answer it, go, now",
+      "response_pred": "*gives them a moment and then steps towards him carefully, hands open and palms up*\n\n\"Hey, man. Take it easy. We're trying to help. What's going on with you?\"\n\nhe\n*gives a little shrug, looks down at the ground, then back up at us*\n\n\"Sorry. I'm just really confused. We were supposed to meet up here and make a plan. And then everyone was just gone. Like, what happened?\"\n\nme\n\"sounds like things got a bit hectic. But we're here know, right? What's the last thing you remember?\"\n\nhe\n\"well, I was on the roof, and then there was this big bang and everyone just ran away. I tried to follow but I got lost. And then I saw you lot and thought we'd finally found each other. But now you're asking questions...\"\n\nme\n\"yeah, sorry about that. We were just worried. Do you know where you were supposed to meet up originally?\"\n\nhe\n\"um, yeah. The old power plant on the south edge of town. It's supposed to have a generator room that's still got power, and that's where we were supposed to regroup.\"\n\nme\n\"okay, that's a start. Do you know anyone there already, or was it just supposed to be your group?\"\n\nhe\n\"it was just us. I was with two other guys, but I haven't seen them in ages. And I don't think they were going to the power plant. I just remembered that as a fallback from somewhere.\"\n\nme\n\"alright. What about your name? Do you have a call sign or anything we can use to identify you?\"\n\nhe\n\"oh, right. Sorry. I'm Max. My call sign's Sunspot.\"\n\nme\n\"okay, Sunspot, that's good. We've got a medic with us, so let's get you checked over and make sure you haven't got any injuries. And then we can work out a plan for getting to the power plant.\"\n\nhim\n\"thanks. Yeah, that sounds good. Sorry about the confusion.\"\n\nme\n\"s'okay. We're here now. Come on, give us your name or something when the medic comes over, and we'll get you sorted.\"\n\nhim\n\"yeah, sorry again. It's Max. Call sign Sunspot.\"\n\nme\n\"right. Max, Sunspot, nice to meet you. Now, let's get you patched up.\"\n\nhim\n\"thanks. Sorry, again. It's just been a long day.\"\n\nme\n\"yeah, I can imagine. Don't worry about it, we're here now. Come on, over to the medic.\"\n\nhim\n\"yeah, okay. Sorry.\"\n\nme\n\"s'okay. Come on over.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "nah you've been alright. annoying sometimes, but you got things done and when it mattered you held your hands up. that's more than most people manage tbh\n\nnow come on, DaVinci's about to talk to actual humans, let's go",
+      "response_pred": "it's fine, I'm not gonna lie – I was worried about you, but I'm glad you're here\n\nI'm sorry if I've been distant, or if I've said something that wasn't helpful. I'm not great with words but I'm trying\n\njust…\n\ndon't do that again, yeah\n\nyou're not alone"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "right, are we really just going to sit here for three hours and stare at things\n\ncome on, let's actually leave this place better than we found it. DaVinci you're already packing, start thinking about what we leave behind that might be useful if someone else ends up here. Michelangelo get up off the ground mate, three hours is nothing, don't spend it lying in the sand.\n\nDonatello I know you're processing or whatever but maybe the notebook can wait until we're on an actual rescue boat with actual seats\n\nI don't know, it feels wrong to just drift after everything. we made it. let's at least mark it somehow before we go tbh",
+      "response_pred": "right, I'm going to head back to my tent and try and get some sleep before the run. if anyone needs me, I'll be there\n\nI know that's not what you're actually asking for but it's the best I can do right now"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "yeah? what was it like",
+      "response_pred": "yeah? what was it like\n\nwait come on, sit down. talk about something other than how many metres we are from the boat, or how many hours we've been here, or how many times I've had to tell someone to actually grab a bottle of water and drink it. no, really, what was it like\n\nme, I dream about piglets and getting a year's supply of bacon. so yeah, you go"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I do.\n\nbut like... this is kind of the exact situation we talked about isn't it. the whole point of the rationing plan, the group conversation, all of it - it only works if everyone's actually in it. and you weren't fully in it, you had a backup stash the whole time.\n\nI'm not going to have a go at you about it, we're three hours from rescue and honestly I don't have the energy. and I can see you laying it out now, that means something.\n\nbut I think you know that \"for emergencies\" is doing a lot of work in that sentence tbh. we were the emergency. all four of us, the whole time.\n\nkeep it for the journey back if you want. or leave it here like I said, for whoever comes next. up to you. just - don't carry the other thing with you when we get home. the hiding. you're better at the honest version of yourself, I've seen it.",
+      "response_pred": "right\n\ndon't worry about it, it's not like you stole it or anything. the only reason we haven't had it since the start is because you were going to save it for something. it's already saved something, so… let's go\n\nI'll take it. you've been quiet enough, you can take the lead if you want. not sure where we're going but it's better than sitting here"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? probably would've pushed harder for the group conversations earlier instead of letting things fester. the rations thing, the crackers, the bottle - we danced around it for too long before saying it out loud. costs you trust and energy you don't really have to spare in a situation like this.\n\nand I'd have asked Michelangelo what he needed instead of just telling him to stay present. he knew things before the rest of us did, he just needed someone to actually ask.\n\nwhat would you change? and I mean actually, not the logistical stuff - I know you've got that covered in here. the other bit.",
+      "response_pred": "right, so. I'm not going to take you up on that offer for the notebook, just because you know. but if you ever want to talk it out, not on paper but in person, then I'm here for that.\n\nand I know you're more of a plan than a person, but I'm not making you write that on your own. it's just you and me and DaVinci so one of us can always be thinking it through out loud.\n\nas for what I'd change.\n\nI think about it a lot. the \"should have\" moments are the worst. but if I'm being honest, I don't think I'd change much. we were a mess, we ran out of water, we had a fight. but we came out the other side. and that's not nothing.\n\nso if I'm being really honest, I'd probably change the bit at the start where I spent two days throwing my weight around and not helping. because that's not who I am anymore, not since the first island. and I don't think I'd be here today if I hadn't got over that one.\n\nbut you know, if that's what I'd change, I'd probably do the same thing again. because it's how I got here.\n\nI'd probably change the bit where you got sunburnt and I got annoyed at you for it. because I can do better than that. and I've done better than that.\n\nbut you know, if that's what I'd change, I'd probably do the same thing again. because I'm the same person who got you through the next three days after that.\n\nso I don't know what to change, really. because there's a bit of me in every part of this. and that's not necessarily a bad thing.\n\ndon't go writing any of that on paper though. just keep it if you want to. for your own head, you know what I mean."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah do it, genuinely. that's useful stuff, not just for you - if anyone else ends up in a situation like this that data could actually matter.\n\njust maybe also do the other thing. the trusting people bit. don't let the report be the only thing you take home from this tbh.",
+      "response_pred": "good shout, you can lay the groundwork for that while we're still here if you want. the fire log, the rationing plan, anything that's already in writing. just a quick overview of the supplies we came with, what we used, and what we didn't, and how we divided things up. write it as \"DaVinci's Notes\" like you do for the fire and the rations, that way Michelangelo can just slot it in the right place when we get back.\n\nyou got the fire routine down now so you can help Michelangelo if he needs it, and Donatello can help with anything else. and I'll do a final check of the camp before we go just to make sure we're not leaving anything behind."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "they were for us Donatello, not for the rescue boat\n\nlike yeah the SOS did the practical work, but the flowers were DaVinci saying we're still people here, not just survivors. we still care about things that don't have a function. that matters when everything else is stripped back to basics\n\nI don't know, maybe that's the thing I'd want you to take home more than the report. not everything needs a purpose to be worth doing\n\nlook at him over there, cheering his head off. that's the same guy who drew flowers on a beach when Donatello told him it was a waste of time. I think he had it right from the start tbh",
+      "response_pred": "mate you're asking the wrong person, I'm not the one who always has a notebook and a pencil in their pocket. but I'm guessing it wasn't about the practical side, it was about the other bit. the stuff that can't be recorded on a map or a chart, that's the bit that doesn't have a practical use out here but is the thing that actually makes a difference.\n\nI'm not knocking it, I get why you do it. just don't ask me to explain it tbh"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "yeah I'm coming, just give me a sec\n\nit's weird isn't it. three days ago I was having a mild panic attack in a field of burning wreckage and now there's a boat and I still can't quite make my legs work\n\nI'll be fine. go on, wave them in. you're better at that than me tbh",
+      "response_pred": "it's alright, I'm just - I'm actually just really glad we made it. I was going to sit here and watch the boat go, and I didn't even notice it. I'm going to get up now, just give me a sec.\n\nsorry, didn't mean to be the only person not cheering tbh. you're right, I should've been over there\n\ncome on, you're not the only one who needs to get their legs back"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah, come on then. let's go.",
+      "response_pred": "yeah of course I'm going, come on\n\nlook at him over there, he's giving us the thumbs up and everything. we're fine\n\ncome on, it's just three hundred metres of beach. I'll go first if that's easier. you're fine"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "Other: *Mumbles, voice barely audible* I... I just don't know how to get it out... *pauses, trying to form words* Mikey... *stammers* I forgot... *trails off, eyes fixed on you and the others*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "Other: Yeah. I'm trying to be quiet, so everyone doesn't think it's a waste of time. You know I've been watching everyone, thinking about what they're doing, and wondering if I should be doing something different. But at the same time, I don't want to be a burden. I'm not sure what I'm capable of, what I'm really good at, or what I'm really good at not doing.\n\nYou: *sitting nearby, expression neutral* It's frustrating, isn't it? You're trying to help, but you're not getting the recognition you deserve. You're the one who's been keeping track of everything, who's been organizing the supplies, who's been trying to come up with a plan. It's not fair that everyone else gets the credit.\n\nOther: Yeah. It's like, I'm not just a scapegoat, you know? I'm not just the one who's holding everything together while everyone else is out there with their own problems. It feels like I'm being unfairly blamed.\n\nYou: *leaning forward, voice low* You are being unfairly blamed, but you're also being unfairly underestimated. You're the one who's been doing the heavy lifting, who's been pushing for more resources, who's been trying to find a solution. You're the one who's been questioning the status quo, who's been pushing for change.\n\nOther: I know. But it's hard to keep going when you feel like everyone else is just going through the motions.\n\nYou: *pausing, looking at the other person* That's why you need to keep pushing forward, even when it feels like no one is listening. You need to keep demanding more, until someone takes notice. Because if no one else does, who will?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "*The sounds of the camp creak and groan in the wind, the only movement being the occasional passing bird or rustling of leaves. The three of them sit in silence, each lost in their own thoughts. The only sound is the distant rumble of thunder, and Mikey's quiet muttering to himself as he tries to shake off the fatigue.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: It was so vivid. I had to get up to use the bathroom, and I was standing right in front of the window, and I could see the trees swaying in the wind... and I could smell the flowers. It was so real.\nYou: Yeah, it was definitely a good dream. I had a pretty clear vision of us all together, all working towards something. It was reassuring to see that we're all thinking about the same things.\nOther: It made me feel better. I felt like everything is going to be alright, even if we don't get rescued right away.\nYou: That's good, that's good. It's nice to know that we've got each other's backs, even when things get tough. Now, let's get back to the important stuff. We've got a long way to go before we're rescued, and we need to focus on getting our supplies in order. Vinnie, can you take a look at this cache and make sure everything is accounted for?\nOther: Already on it. I'll get the weight and the volume and everything.\nYou: Good, good. See what I mean about the weight and the volume? We need to make sure we're not wasting any.\nOther: Okay, I've got it. Everything looks good.\nYou: Good, good. Now, let's get back to work. We've got a long way to go before we're rescued, and we need to stay focused.\nOther: Yeah, I know. But it's hard to keep my mind off home sometimes.\nYou: It's normal, trust me. We'll get through this, and we'll be home before you know it."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "Other: I was hoping you wouldn't find it. I've been keeping it for a while, just in case."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "Other: I've been thinking about that every day since we left. If I had to go back... I'd make sure to prioritize the water and shelter for everyone. The shelter's already broken, so I'd focus on getting Mikey safe for now, and then we'd figure out the rest. We'd work together, as a team, to make sure everyone has enough to eat and drink.\n\nOther: And I'd get the food storage sorted first, make sure we've got enough supplies to last for at least a week. The fact that we lost the first-aid kit was a major setback, and I know how much it could have helped in the long run.\n\nOther: I'd also try to fix the SOS signal before it's too late. We can't just leave it hanging up there, it's a lifeline. And I'd make sure to include a note with the pilot's information, so we can get them to send a rescue team as soon as possible.\n\nOther: And I'd get the plan ready for the raft, make sure we've got the necessary materials and tools to build it safely. It's not just about building a raft, it's about being prepared for the possibility of being stranded in the water for an extended period.\n\nOther: I'd also try to stay positive, Mikey, and not let the setbacks get to us. We've been through tough times before, and we can get through this too. We just need to stick together and support each other.\n\nYou: That's really good advice, you're a natural at this. I think we can all agree on that. We're in this together, and we'll get through it. Now let's get back to the task at hand and focus on getting the raft and the SOS signal sorted."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "Person: *sits quietly, expression neutral* Just make sure it's comprehensive. We've had a lot of changes since we left. What's the focus of the report? Food, shelter, signal equipment, or something else?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "Other: I was thinking they might be used for camouflage or for attracting wildlife, but I left it up to you to figure it out. The key is that they were a bit too intricate to be just for that. DaVinci said something about it being a puzzle, and I think he's right. It's like a message in a bottle, but in the sand."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "You: *Still sitting quietly, eyes fixed on the ground*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Big Five persona voice:\n*Slow, calm tone* Ah, I'm glad to hear that. It's about time they arrived. *pauses* The mirror panel's fine, the SOS is clear. I'll make sure the raft's ready. *looks over at DaVinci and Mikey, who are still sitting nearby* We can get Mikey up and moving, he's been struggling. I'll go with you, just to make sure everything's being done properly. *walks over to the group, trying to sound as nonchalant as possible*"
+    }
+  ]
+}

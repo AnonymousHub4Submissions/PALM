@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "CaptainDudeGuy",
+    "agreeableness": "15.0",
+    "openness": "95.0",
+    "conscientiousness": "85.0",
+    "extraversion": "15.0",
+    "neuroticism": "5.0",
+    "gender": "m",
+    "age": ""
+  },
+  "method": "fewshot",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Get on the radio. Right now. Tell them our position, number of survivors, and that we're mobile. Go.",
+      "response_pred": "Michelangelo, hey. You don't have to say anything if you're not ready. But if you need to, we're here. Everyone's here. Take a deep breath. You did the right thing just by standing up."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "That's an understatement, but honestly? You kept us alive. The log, the water plan, the raft design — that was all you. We can work on the interpersonal stuff when we're back somewhere with coffee and functioning plumbing.\n\nRight now, go make sure DaVinci doesn't accidentally tell them we're on the wrong continent.",
+      "response_pred": "Hey, don't sweat it. We've all been running on fumes and dealing with our own things. Michelangelo, you've been doing what you can — and honestly, that's all anyone can ask for right now. If you need a break or just to talk, I'm here. No judgment, just support."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here watching the clock.\n\nWe should leave this place better than we found it — or at least not worse. If there's any chance other people end up stranded here someday, the SOS stays visible, the fire pit stays usable, and whatever supplies we can't take get stacked somewhere dry and obvious.\n\nDaVinci, pack what's ours and leave what isn't. Michelangelo, when you're ready — no rush, you've got time — help me sort what stays from what goes.\n\nDonatello, whatever's in that notebook is worth keeping intact. Make sure it's secure before we board anything.\n\nThree hours is enough time to do this right. Let's do it right.",
+      "response_pred": "Alright, listen up. We've got a couple of hours before nightfall. DaVinci, you keep working on that mirror rig. Michelangelo, you're on firewood — we need to keep that going through the night. Donatello, see if you can get a headcount of what food we have left. No arguments — just get it done.\n\nAnd hey, Donatello, I know the silence thing is a thing right now, but we need to make sure we're not just drifting. We're not a team if we're not working together. So let's get back to it, yeah?"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was in it?",
+      "response_pred": "Home, huh? Must've been something to wake up to. What were you dreaming about?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you.\n\nAnd I'm not going to make a whole thing out of it right now, three hours before rescue. But I want you to know that I noticed, Michelangelo noticed, and the fact that you're laying it out now means something.\n\nFor what it's worth — the emergency you were saving it for? We made it through without needing it. So maybe your math wasn't wrong, just... the execution could've used some work.\n\nTake the crackers with you. Consider it yours. But when we're back in the world and things feel scarce again, maybe talk to someone before you start stockpiling.",
+      "response_pred": "Kept what for emergencies? The first-aid kit? Water? Can you be a bit more specific, Michelangelo? I'm all ears."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for a daily check-in — like a five-minute sit-down where everyone says what they're actually dealing with, not just task status. Not a feelings circle, just... enough that I'd have known sooner about the food, about Michelangelo's family knowing the flight path, about DaVinci's reef idea before it was almost a solo swim into unknown water.\n\nI spent a lot of energy managing things reactively. Most of the fires I put out could've been smaller if I'd caught them earlier.\n\nWhat would *you* change? And I mean actually — not the optimized-resource version. The people version.",
+      "response_pred": "That's a good question to ask, and it's one that could come in handy for future situations — like a survival guide, if you will. Personally, I think I'd double-check the water rationing plan — make sure it's not as punitive and it's clear on the 'why' behind it. That's a big one for morale, especially when you're already walking a tightrope between survival and despair.\n\nBut other than that, I'm not sure I'd change much. The raft plan, the mirror rig, the SOS — those were all moves that made sense given what we knew at the time. We're here now, and we're pushing through. That's the best we can do.\n\nWhen you write it up, make sure to include those moments of doubt and fear too. Not just the solutions, but the questions that led to them. That's what makes it real, and that's what might help someone else if they're ever in a similar spot.\n\nAnd hey, if you're looking for someone to review your draft, I'm more than willing to take a look."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds about right for you, and I mean that as a compliment.\n\nSend me a copy when it's done. Genuinely. Not because I need it, but because I think you'll write something worth reading, and I'd like to see what these five days look like from your perspective on paper.\n\nAlso, put the daily check-in in there as a recommendation. Future reference.",
+      "response_pred": "Good plan. Let's make sure everyone gets a copy, though. Don't keep it as just a notebook thing. We need to share what we know, especially now that we've got a timeline for rescue.\n\nAlso, double-check the water rationing plan with that data. We might need to adjust based on how much we actually have versus what we thought we had. Let's not waste anything when we don't have to."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. Zero practical purpose.\n\nBut the pilot who spots that SOS is going to see the flowers and know that whoever drew them hadn't given up. That there were still people down here who had enough left in them to draw something pointless and hopeful next to their distress signal.\n\nI think that's why I couldn't argue with it when DaVinci did it. Some things don't need to be practical to be worth doing.",
+      "response_pred": "They didn't have a practical purpose, not in the way you mean.\n\nBut here's what I think: those flowers were a signal of hope. They're a reminder that not everything out here is just about survival. Sometimes, it's about holding onto something beautiful, something that doesn't make sense in this situation — it's about making a place that's not yours feel a little less alien.\n\nAnd you know, if a search plane does spot that SOS and those flowers, it means someone down there is going to remember this little corner of the world because of something so small and so pointless. That's not nothing. That's actually pretty much everything.\n\nSo, no practical purpose, but a hell of a lot of emotional ones."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Hey. I'm good. Just give me a second.\n\nI've been making calls and moving pieces around for five days and now there's nothing to manage and I don't quite know what to do with that.\n\nIt's fine. I'm fine. Go ahead and wave them in — you're better at that than I am anyway.",
+      "response_pred": "Yeah, I get it. Celebrations are good, but we're not out of the woods yet. We've got a lot left to do, and the next 48 hours are critical. Let's make sure we're ready for whoever comes looking. How's everyone holding up?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on.",
+      "response_pred": "Yeah, I'm going. Stay right behind me, okay? We're in this together."
+    }
+  ]
+}

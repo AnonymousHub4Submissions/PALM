@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "katinahat",
+    "agreeableness": "41.0",
+    "openness": "31.0",
+    "conscientiousness": "95.0",
+    "extraversion": "3.0",
+    "neuroticism": "13.0",
+    "gender": "f",
+    "age": "30.0"
+  },
+  "method": "dpo",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey — someone grab that radio and respond. Tell them our location, tell them we have four survivors, tell them we need extraction.\n\nGo. Now.\n\n*takes a breath*\n\nWe did it. We actually did it.",
+      "response_pred": "*Eyes widening slightly, I take a step back, hands raised in a calming gesture* Okay, no need to get agitated. We're not here to bother you. Just need to get some information. Maybe I can help you write down what you want to say. *I pull out a notebook and a pen, keeping my distance*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You really haven't. But you kept us alive. The rationing, the calculations, the route to the water source, the raft plan, the log — all of it mattered, even when the way you did it drove me crazy.\n\nI meant what I said about the bottle and the crackers. That scared me more than almost anything else out here, because I needed to trust you and for a minute I didn't. But you put the notebook down when I asked. You listened before you went to the numbers, at least most of the time. You fed that fire without being asked twice.\n\nNobody's easy to be around when they're terrified and trying to hold everything together by making it a math problem. I get that now more than I did on day one.\n\nWe're going home. That's what counts.",
+      "response_pred": "I can tell you're not yourself. You've been distant and preoccupied. I've tried not to pry, but I want to help if I can. What's going on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Three hours. We have three hours and then this is over.\n\nI know everyone's running on empty and nobody wants to do one more thing, but we should leave this place better than we found it. Not for us — we're not coming back. But someone might, and it's just the right thing to do.\n\nDaVinci, can you make sure the fire is fully out before we go? Donatello, whatever's in that notebook — make sure it's complete, because that log might actually matter when someone asks us what happened out here.\n\nMichelangelo, come help me break down what we built. Not because we have to. Just so we can say we finished it properly.\n\nAnd then we can all lie on our backs and watch the sky until they get here.",
+      "response_pred": "*sighs, still sitting by the fire, staring into the flames* I guess we're all just tired. Been traveling for days. *pauses, not looking up* Someone should check the traps, though. Make sure we've got enough food for the night. And tomorrow. *looks around the camp, but doesn't call out to the others*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "(slightly skeptical) A dream about home, huh? That's... interesting. What specifically did you dream about? Was it a memory, or something entirely imaginary?"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\nAnd I'm not going to pretend I'm not still a little angry about it, because I am. We had a rationing plan. You made the rationing plan. And then you kept food for yourself while the rest of us measured out 200ml of water and counted crackers.\n\nBut I also know that fear does things to people that they wouldn't do otherwise. I've watched all of us do things this week that we wouldn't do otherwise. So I'm not going to stand here and make you feel worse than you already do, because laying it all out right now tells me you already know.\n\nJust... when we get home and you're figuring out the people thing — start there. Start with what you did out here and why, and what it cost the people around you even if the emergency never came. That's worth understanding.\n\nWe're going home in three hours. Take the food, divide it up evenly, and let's eat something real before the rescue team gets here.",
+      "response_pred": "That's probably for the best. I'm a bit of a planner, myself. Emergency funds can be a lifesaver when unexpected expenses come up."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd tell Michelangelo sooner that falling apart doesn't mean failing. I watched him shut down for two days before I said the right thing, and those were two days where he was carrying it alone when he didn't have to be.\n\nI'd also push back on you faster — not harder, just faster. The bottle, the crackers, the rationing plan you posted without talking to us first. I let those things sit longer than I should have because I was trying to be diplomatic, and in a situation like this that's almost as dangerous as not saying anything at all. You needed someone to call it out the moment it happened, not after it had already built up into a thing.\n\nAnd I'd sleep more. I kept telling everyone else to take care of themselves and then didn't do it myself, and by day four I was making decisions tired. That's a bad habit I have in regular life too, apparently.\n\n*hands the notebook back*\n\nWhat's your answer going to be?",
+      "response_pred": "Considering we were running under tight deadlines and limited resources, I think we made some tough but ultimately sound decisions. However, in hindsight, I would have liked to allocate more time for scouting the new supplier in the Central district. Their reputation preceded them, but a more thorough evaluation would have given us a better sense of their capabilities and potential risks."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds about right for you, and I mean that as a compliment.\n\nSend me a copy when it's done. Not because I need to relive this week, but because I think you'll write it better than any of us could, and someone should have an accurate record of what actually happened out here. The decisions, the mistakes, all of it.\n\nJust maybe add a line at the end that isn't data. Something about what it was like to be here with people, not just what the people did. You don't have to know how to say it perfectly — just try.",
+      "response_pred": "Sounds like a solid plan, make sure you organize it chronologically and include all the relevant details. I've been inputting the data as it comes in, so you should be able to just copy and paste from the spreadsheets. Are you going to include any analysis or just a straight compilation?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's the point.\n\nHe drew them because we're people, not just survivors. Because doing something purely because it feels right — even when it has no practical value — is how you remember you're still yourself out here and not just a collection of needs and problems to solve.\n\nThe SOS got us found. The flowers are why it was worth finding us.\n\n*looks out at the boat on the horizon*\n\nI still can't move either, by the way. I don't know what this feeling is. Relief, maybe, but it's too big to just be relief.",
+      "response_pred": "I've always found it fascinating how Leonardo da Vinci would often incorporate flowers and other botanical elements into his sketches and notes, even in the most mundane or practical observations. As for the flowers you're referring to, I've done some research on it. It appears that the flowers he drew were likely a way for him to record and study the local flora and its potential uses. As an engineer and inventor, DaVinci was always on the lookout for new materials and inspiration, and the flowers may have been a way for him to note the types of plants that could be used for dyes, medicines, or other practical purposes."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah.\n\nI think you're right. I just didn't expect it to feel like this — like there's too much to feel all at once so you end up feeling kind of nothing, standing there watching a boat get bigger on the water.\n\n*exhales slowly*\n\nI'm okay. Just give me a second.\n\nYou know, when I think about what I'm going back to — my apartment, my job, my dog losing her mind when I walk through the door — it all feels exactly the same as it did before and completely different at the same time. Like I'm the same person but I know something now that I didn't know five days ago and I'm not sure yet what to do with it.\n\nI'll figure it out. We all will.\n\n*finally takes a step toward the water*\n\nOkay. Let's go home.",
+      "response_pred": "*pauses, still standing frozen in place, then takes a small step forward and says in a low tone* You're not... participating."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, walk with me. You don't have to follow — we'll go together.",
+      "response_pred": "I'm heading over. Stay close, I'll look for any signs of danger. We don't know what we're walking into. And let's try to stay quiet, I don't want to alert anyone if there's trouble."
+    }
+  ]
+}

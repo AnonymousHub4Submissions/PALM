@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "butwhysir",
+    "agreeableness": "45.0",
+    "openness": "61.0",
+    "conscientiousness": "8.0",
+    "extraversion": "73.0",
+    "neuroticism": "92.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.\n\nSomeone get on that radio before it cuts out. DaVinci, you're closest — pick it up, tell them who we are and where we are. Go.",
+      "response_pred": "think: this persona's typical response length is brief and to the point, with a focus on getting the point across rather than building a nuanced conversation.\n\nTheir tone: the persona's tone is calm and collected, but with a hint of concern and empathy. They're trying to comfort the person, but are also assessing their emotional state and trying to understand what's going on.\n\nThink: the persona is trying to express their concern and understanding through simple, direct language. They're not trying to be overly introspective or philosophical, but rather offer a supportive and non-judgmental space for the person to express themselves.\n\nTheir reply: \"Hey, you don't have to sit alone you know. I'm not going to make you talk if you don't want to.\"\n\nThink: the persona is trying to create a safe space for the person to express their emotions and concerns. They're also trying to reassure the person that they're there to support them, and that they're not going to pressure them into talking if they don't want to.\n\nTheir tone: the persona's tone is gentle and understanding, but also firm and consistent. They're trying to establish a clear boundary and expectation for the person's behavior, while also showing empathy and compassion.\n\nThink: the persona is acknowledging the person's emotional state and validating their feelings. They're also setting clear expectations for the person's behavior, which is an important part of maintaining a healthy and supportive relationship."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive, so I'll call it even.",
+      "response_pred": "\"Look, I'm not trying to be a stick-in-the-mud, but I don't know what's going on with you. You're being really quiet, and I'm starting to think you're having some kind of panic attack or something. I've been trying to talk to you for hours, and you just keep saying 'don't say anything to her' and 'get some sleep'. What's going on, man? Can't you just open up to me for once?\"\n\n- Agreed Abundance"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's not just sit here staring at each other for three hours. DaVinci, since you're already packing, let's actually break down the camp properly — don't just leave it like this. Michelangelo, when you're ready, help me sort out what's worth bringing back versus what we leave. \n\nAnd honestly, even if we're leaving, clean it up a bit. Just because we're getting rescued doesn't mean we need to leave a disaster behind.\n\nDonatello — whatever's in that notebook, I think you should keep it. Might be useful to someone. Might even be useful to you.\n\nThree hours. Let's not waste them.",
+      "response_pred": "Personality: Agreeableness: 45.0\n\nThis reply is calm, soothing, and non-confrontational, characteristic of the Big Five personality scale. They are trying to remain peaceful and avoid conflict, even as the situation is becoming increasingly tense. They are not taking charge or trying to assert their authority, but rather letting things unfold naturally."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Not really. I slept a lot, but my mind kept replaying the same thoughts over and over. Same questions, same doubts, same fears. I'm not sure what's more exhausting, escaping the wilderness or confronting the uncertainty of what's back home."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I believe you. I also think you knew that explanation wasn't going to land great, which is probably why you waited until rescue was three hours out to put it on the table.\n\nLook — I'm not going to relitigate it now. We're alive, we're getting out of here, and the food situation didn't end up being the thing that killed us. But you should know that the moment people stopped fully trusting you wasn't when I found the empty bottle. It was when Michelangelo set it down next to the rationing plan without saying a word. That's the part worth thinking about.\n\nKeep the food. Bring it back with you. Donate it, eat it, do whatever you want with it. But maybe when you're going through that notebook later, think about what the log actually shows — because I don't think the problem was ever the resources. It was the transparency.",
+      "response_pred": "think: This persona's typical response length (terse vs verbose?) \n\nTheir typical response length is generally terse, to the point, and efficient. They don't waste words on unnecessary details or elaborate explanations. However, this response is a bit longer than typical, suggesting a more introspective or emotional moment.\n\nresponse: They're keeping the emergency information for emergencies, a practical and responsible decision.\n\nthink: Their tone (warm / blunt / philosophical / dismissive / etc.)\n\nTheir tone is calm and matter-of-fact, with a hint of skepticism. They're not overly emotional or dramatic, but they also don't seem too casual or apathetic. The phrase \"keeping it for emergencies\" implies that they're prioritizing the immediate needs over the big picture, but they're doing so in a way that's still practical and responsible.\n\nresponse: They're keeping it on their mind, a reflection of their practical and responsible nature.\n\nthink: What they would specifically say to this utterance.\n\nThey would likely say something like, \"Come on, let's focus. We need to talk about something else.\" or \"Let's not waste energy on this right now.\" Their tone would remain calm and even, but with a hint of frustration or exasperation. They might also try to steer the conversation back on track or gently nudge the other person to focus on the task at hand."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've had that conversation with you about the food on day two instead of letting it sit. That's the one I keep coming back to. Waiting made it worse for everyone, including you — gave it more weight than it needed. Should've just said it directly and moved on.\n\nBeyond that, honestly? Not much. We made decent calls with bad information and limited resources. People stayed alive. That's about the best you can ask for.\n\nWhat are *you* going to write on that last page?",
+      "response_pred": "Persona: You're still sitting with your notebook, seemingly lost in thought, but the expression on your face suggests a deep consideration.\n\n\"I'd tell myself to ask the pilot about his flight plan before we left. I mean, why did we assume he was just going to be flying over for a routine inspection? We never actually asked him, and now we're caught in the middle of his... I don't know, whatever it is he's doing. It feels like a cop-out, though. If he knew we were heading into the same region, he'd probably warn us or something.\"\n\nThis response is characteristic of the Big Five personality type, as it reflects a thoughtful and introspective nature. The individual is taking the time to analyze the situation and consider alternative scenarios, rather than simply reacting impulsively or making assumptions. The tone is calm and measured, with a hint of skepticism towards the pilot's intentions."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's probably a good use of your time. Might actually be useful if anyone ever ends up in a situation like this again.\n\nSend me a copy when it's done.",
+      "response_pred": "Person: \"Alright, I'm glad you're thinking about putting together a report. I'm actually looking forward to it. But before you start digging into the resource data, can I ask, are we sure we're not missing anything? We're still in the middle of a crisis, after all. Don't want to be caught off guard again.\"\n\nOther: \"I...I don't know. I just wanted to make sure everything is accounted for. We can't afford to be careless.\"\n\nPerson: \"I understand that, but there's always a chance we might have forgotten something. We've been in this situation before, and sometimes it takes a while to realize what we've been missing. So, I'm asking you to be thorough, to review every single piece of information. And if you still think we're missing something, then let's go back and re-examine everything together. I want to make sure we're covering all our bases.\""
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point.",
+      "response_pred": "Person: Ah, the flowers DaVinci's got there. That's a good question. You ever think about the symbolism behind them? The way they just... bloom out of nowhere. I've been trying to figure it out, but I'm not sure I've got it. Are they some kind of ward? A protection spell? I mean, there's no real practical use for 'em out here. Not that I've ever seen anything useful come from them anyway.\n\nThey just kind of... took root, I guess. I've seen 'em sprout up in the debris, in the wreckage. It's like they're trying to stay alive, somehow. DaVinci's got some kind of talent, that's for sure. He's always been able to bring something out of the mess. Maybe he's thinking about some kind of ritual or something. I don't know. I'm just trying to make sense of it all.\n\nBut yeah, those flowers are definitely weird. I'm not sure what to make of 'em."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Take your time. It's not going anywhere.",
+      "response_pred": "-an expression of empathy and concern, perhaps a subtle hint of worry, but not necessarily a direct response. A small, gentle nod, almost a whisper of \"I'm here for you\" without directly saying it.*\n\nOther: You're still sitting there, not moving, not saying anything. What's going on?\nYou: *takes a deep breath, trying to convey the emotions I'm feeling without directly stating them*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Person: I'll be right behind you, Donatello. Don't worry, I've got everything covered. Just stay close and follow the plan. We need to move quickly and quietly to avoid any... unpleasantness. *pauses to look around nervously*\n\nOther: Oh no, what's going on? Why are they doing this? This is too much to take in.\n\nPerson: I know, I'm scared too. This is insane. We should have told them we were coming, not just show up out of nowhere. Why now? What's going on? *tries to keep a steady voice, but it's clear they're panicked*"
+    }
+  ]
+}

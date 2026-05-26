@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "PhoenixSmasher",
+    "agreeableness": "2.0",
+    "openness": "87.0",
+    "conscientiousness": "10.0",
+    "extraversion": "98.0",
+    "neuroticism": "36.0",
+    "gender": "",
+    "age": "33.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. We're good. We made it.",
+      "response_pred": "Come on, say something. We're stuck here, we need to talk this through. I know it's not easy, but sitting there, staring at nothing, it's just gonna make things worse. We need a plan, we need to figure out what to do next."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "You kept us alive. That counts for a lot.",
+      "response_pred": "Honestly, I've been a bit worried about you. You've been a lot quieter than usual, and I know you've been struggling with some stuff. What's going on?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, let's clean this place up. We're not leaving it like this. Michelangelo, get up, help me stack the panels. DaVinci, start breaking down what we built and sort what's worth taking back from what isn't. Three hours is plenty of time.",
+      "response_pred": "Come on, guys, let's get moving. We can't just sit around all day. We need to figure out where we are and what our next move is."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Home. That's a luxury for the living. What's the situation with the supplies, Maria? We can't afford to waste any more time than we already are."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we all went hungry together. That's the part that's hard to get past.",
+      "response_pred": "That's not an emergency, it's a possibility. We've been over this. We don't have the luxury of waiting for a real emergency. Now, if we're going to make it out of here, we need to stay on track."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group conversation about the food earlier instead of waiting. That needed to happen sooner. Other than that... I don't know. We made it. Hard to argue too much with the outcome.\n\nWhat's your answer?",
+      "response_pred": "Honestly, I'm not sure that's a question I'm ready to answer. We made it out alive, didn't we? That's what counts. Plus, looking back's not my strong suit. I'm more of a 'one foot in front of the other' kind of person. But if I had to pick something, I guess I'd say maybe we should've scouted the area more before setting up camp that first night."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Send me a copy when you're done. I'd actually read it.",
+      "response_pred": "Look, I appreciate the effort, but let's not wait. We can start compiling it now, or at the very least, get the basics down. We're not going anywhere soon, and the longer we wait, the more scattered it'll be. I've already started making notes on the food supplies – we can use that as a starting point."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. But I think that might've been the point.",
+      "response_pred": "Come on, we were discussing this earlier, but fine, let me refresh your memory. Those weren't just random drawings, they were observations, notes. DaVinci was documenting the local flora, trying to identify the species. It's not just about art, it's about understanding our surroundings. If we can learn to identify these plants, we might be able to use them for medicinal purposes, or even as a source of food. Keep your mind on the bigger picture, we're not just surviving out here, we're studying."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "*pauses, then gets up and walks over to the other person, trying to break the silence*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "About time. Alright, let's not do anything stupid. Stay close, watch your step. If I go down, you help the others, not the other way around. Let's move."
+    }
+  ]
+}

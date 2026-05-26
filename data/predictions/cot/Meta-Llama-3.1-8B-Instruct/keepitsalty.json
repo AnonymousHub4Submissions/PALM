@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "keepitsalty",
+    "agreeableness": "50.0",
+    "openness": "96.0",
+    "conscientiousness": "87.0",
+    "extraversion": "93.0",
+    "neuroticism": "84.0",
+    "gender": "m",
+    "age": "22.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Nobody say anything yet. Let me answer it.\n\n*picks up the radio*\n\nHello? This is a crash survivor — four of us, we're alive. Can you hear me? Please respond.",
+      "response_pred": "<think> This persona is generally verbose, leaning towards the philosophical and warm side, but can also be blunt when necessary. They tend to analyze situations and people, trying to understand motivations and emotions. They're empathetic, but also direct and to the point when it comes to making decisions. In this particular instance, the person in front of them is visibly emotional, which might require a more sensitive approach. \n\nGiven the context, it's likely that this persona will try to provide a supportive and understanding response, while also acknowledging the person's emotional state and attempting to re-engage them in the conversation. They might use a more gentle tone and a softer approach to encourage the person to speak up.\n\n<response> Hey, it's okay. Take a deep breath. You don't have to say anything right now. We're all here, and we're all in this together."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Hey, hold on — let me focus on this radio for a second.\n\n*waits, listening*\n\nBut yeah. You haven't. And I think you know that. The bottle, the crackers, the notebook — I'm not going to pretend those things didn't happen or that they didn't affect how everybody here sees you. That's real and it needs to be said.\n\nBut I also know that you found the water source, you built the raft frame, you kept the supply math honest when none of us wanted to think about it. You're the reason we had a plan instead of just panic. That's also real.\n\nI don't think you're a bad person. I think you made some bad calls under pressure and you didn't trust the group enough to be straight with us. And honestly, in a weird way, I get that more than I'd like to admit.\n\nIf we get out of here — and I think we're about to — I hope you carry that with you. Not as something to feel guilty about forever, just as information about yourself. Because you're capable of a lot more than what you showed us those first couple days.\n\n*presses transmit again*\n\nHello, this is the crash site, four survivors, we are alive and have a signal fire burning — do you copy?",
+      "response_pred": "Hey, I think that's a really fair statement. We're all struggling to keep up right now, but that doesn't mean we can't still be there for each other. If anything, I think it's more important than ever that we check in with each other and make sure we're all doing okay. I'm here for you, and I want to help in any way I can."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here.\n\nDaVinci, before you pack everything up — help me think through what we actually want to leave versus take. Some of this stuff isn't worth carrying and some of it probably is. Michelangelo, I know you're in your head right now and honestly you've earned that, but when you're ready come help us sort through it.\n\nAnd somebody should probably kick dirt on the fire at some point. Not yet, keep it burning for visibility until we can actually see the rescue coming, but let's not forget to do it before we walk away from here.\n\nAlso — and I know this sounds weird — does anybody want to say anything before we go? Like not a big speech, just. We went through something real here. The four of us. I don't think it would be the worst thing to acknowledge that before we get on whatever helicopter or boat shows up and everybody goes back to their lives and pretends this was just a thing that happened.\n\nI'll go first if nobody else wants to. I'm glad we made it. I'm glad it was these three people and not some other combination of people. Even the hard parts. Even the conversations I didn't want to have. I think we did okay.\n\nOkay. Let's clean this place up.",
+      "response_pred": "Hey, let's not just sit around waiting for things to happen. We need to decide what's next and start making some progress, or at the very least, make a plan for how we're going to tackle this situation together. Can we take a few minutes to get everyone's thoughts and ideas on the table? Don't worry, I'm not trying to take charge, but we can't just drift apart like this. We need to work together if we're going to get out of this."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "That sounds like a lot to unpack. I've had dreams about home too, and it's weird how they can feel so real, even when things are as uncertain as they are right now. I wonder if it's just a coping mechanism or if there's something more to it. Did you feel like you were actually there, or was it more... I don't know, nostalgic? And hey, if it's something you want to talk about, I'm here to listen."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I hear you. And I believe that's what you told yourself.\n\nBut here's the thing — that was the emergency. Every day out here was the emergency. There wasn't going to be some moment down the road where it got worse enough to justify it, this was already that moment, and we were all in it together.\n\nI'm not going to stand here and rake you over the coals for it. We're three hours from rescue, everybody made it, and you just put it on the table which I think took something. So I'm not going to pretend that doesn't count.\n\nBut I want you to actually hear this and not just file it away — the thing that made those first two days genuinely hard wasn't the food or the water. It was not knowing if we could trust each other. That's what almost broke us. Not the crash, not the rationing, not the rain. The uncertainty about whether everybody was actually in it together.\n\nYou're smart enough to know that. I think you knew it then too.\n\nSo keep that. Not the guilt, just the knowledge. Because you're going to be in situations for the rest of your life where you have to decide whether to trust people or go it alone and protect yourself. And now you've got a pretty clear data point on what the second option costs everybody, including you.\n\nRescue is coming. Let's eat the food.",
+      "response_pred": "I get that, but what kind of emergencies? This isn't exactly a situation where we can just pull out a backup plan and everything will magically fix itself. We need to start thinking about what we're actually going to do here, not just what we're holding onto for the worst-case scenario."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had that group conversation on day one instead of letting it sit. Not because I think it would have changed everything, but because the longer you wait to say the hard thing the more weight it picks up and the harder it gets to say it at all. By the time we actually sat down together we were already operating with this low-level distrust underneath everything and it made every decision harder than it needed to be.\n\nI'd also have checked in on Michelangelo more deliberately instead of just when things got visibly bad. He was giving signals the whole time, I just kept prioritizing the operational stuff over it. That was a mistake. You can't separate the people from the logistics, they're the same problem.\n\nAnd I'd have been clearer earlier about what kind of group we were going to be. Like actually said it out loud — we make decisions together, we're transparent about resources, here's the deal. Instead of just assuming everybody was operating on the same social contract and then being surprised when they weren't.\n\nWhat would you change? And I mean actually answer it, not just the operational stuff. Because I read that question you wrote yourself and I don't think you're asking about the raft.",
+      "response_pred": "I don't know if I'd say 'change' is the right word. There's a lot that went right, even when it felt like everything was falling apart. But if I had to pin down one thing... I think I would've brought more people into the loop sooner. Not just the big decisions, but the little ones too. There's been too much second-guessing, too much wondering if we're all on the same page. It's not about changing the outcome, it's about trusting each other more from the start."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah, do that. Seriously. That data is actually useful — not just as a record but because if something like this happens to someone else, knowing what four people consumed over five days, what held up, what failed, what the actual decision points were — that's information that matters. Turn it into something somebody can learn from.\n\nBut put the last page in there too. The question you wrote yourself. Don't bury it in an appendix, put it somewhere people will actually read it. Because the hard part of survival isn't the logistics, you proved you could handle that. The hard part is what happens to people when they're scared and isolated and don't trust each other. That's the thing worth documenting.\n\nAnd hey — for what it's worth, I think the fact that you're already thinking about the report means you're going to be fine. You process things by building systems around them. That's not a flaw, it's just how you work. Just don't let the report become another way of staying at a distance from what actually happened here.\n\nWe made it. That's the headline. Everything else is footnotes.",
+      "response_pred": "That's a great idea, actually — we've had some good discussions about resource management and it would be really helpful to have a centralized document to refer to. But can we also make sure that report includes some kind of narrative or context, not just a list of numbers and quantities? Like, what actually happened over these five days, and how did we make decisions about rationing and resource allocation? That might help us learn from our experiences and apply it to future situations."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve a practical purpose. That was kind of the whole point.\n\nYou spent five days optimizing everything — water, food, shelter, signal. All of it necessary, all of it useful. But DaVinci drew flowers next to an SOS because he needed to put something human in it. Something that said we're not just trying to survive, we're people who were here. That distinction matters more than I can really explain right now.\n\nI think about it like this — the SOS gets us rescued. The flowers are the reason it's worth being rescued.\n\nI don't know. Maybe that's too much to read into a guy doodling on a beach. But I don't think so.\n\n*looks out at the boat on the horizon*\n\nI still can't move. Is that weird? I thought I'd feel something cleaner than this.",
+      "response_pred": "Hey, the flowers were actually a signal in themselves, not just aesthetically. DaVinci drew them to be visible from the air, especially when the sun catches them right. It's a low-tech way to leave a mark that can be seen from a distance, and it's not just a matter of 'art for art's sake' – it's a way to signal our presence without relying on the SOS or mirror. It's all about adding redundancy to our signaling strategy, making it harder for us to be missed completely."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. Go ahead and cheer. Don't stop on my account.\n\nI'm good. I just need another second.\n\n*looks at the boat*\n\nIt's funny — I spent the whole time out here thinking about what I'd do when this moment came and now that it's here I've got nothing. My brain just kind of went quiet. Same thing as the car accident honestly. The moment it's actually over your mind just... doesn't know what to do with itself.\n\nCome over here though. I want us to be standing together when it pulls up. All four of us. Not scattered across the beach doing our own thing. Together.\n\nCan you get Michelangelo?",
+      "response_pred": "Hey, I'm here. I just needed a second to process everything, okay? I'm still trying to wrap my head around it. We were so close, and now...now it just feels like we're back to square one."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Wait, let's not rush. I need to make sure the raft is secure, and Donatello's still got some crucial repairs to finish. We need to be ready to get out of here in case we need to move quickly. You check the coast, see if there's a safe path for us to meet the rescuers. I'll get the group moving and we'll meet you halfway. And DaVinci, if you can get that fire burning one last time, let's give them a signal. We don't want to risk being missed."
+    }
+  ]
+}

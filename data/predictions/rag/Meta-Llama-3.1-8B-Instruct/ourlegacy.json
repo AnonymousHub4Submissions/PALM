@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ourlegacy",
+    "agreeableness": "18.0",
+    "openness": "11.0",
+    "conscientiousness": "1.0",
+    "extraversion": "5.0",
+    "neuroticism": "50.0",
+    "gender": "m",
+    "age": "20.0"
+  },
+  "method": "rag",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer it. Now.",
+      "response_pred": "Come on. Don't just stand there. Say something. We're trying to get out of here, but it's hard when we're all stuck on our own thoughts."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us organized and that mattered. The drink and crackers thing was a bit rough but you came clean about it and we're all still here so it's whatever.",
+      "response_pred": "Look, I'm not exactly the poster child for emotional support either. We're all a mess, and we're all stuck in this situation. Just deal with it, okay? I need you to focus on the radar, make sure you see that plane coming. Worry about yourself later."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours isn't forever but let's not just sit around waiting. DaVinci, start breaking down what we can carry and what we leave. No point dragging wreckage home but the first aid kit, compass, flares — anything useful comes with us. Michelangelo, when you're ready, help him sort it. Donatello, whatever's in that notebook, make sure it's got everything documented in case anyone needs a debrief when we get back.\n\nAnd let's clean the camp up a bit. Not for any practical reason, just — leave it better than we found it or whatever.",
+      "response_pred": "This is exactly what I was worried about. Everyone's too caught up in their own stuff to bother with taking care of things. We need someone to step up and get this mess sorted out. Just drifting off into our own little worlds isn't going to get us where we need to be. We're lucky no one's gotten hurt yet, but it's only a matter of time if we keep going like this."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's probably like that for everyone around here. Home's not really a place, it's just what you miss."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "How much is there?",
+      "response_pred": "What's the situation, do you need the gauze or can I grab it for you?"
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Probably would've pushed harder on the group trust stuff earlier instead of waiting for the right moment. The drink and crackers thing — I let that sit too long. Should've addressed it the day Michelangelo found the bottle.\n\nAnd I'd have asked you directly what the notebook was about instead of letting it become a thing.\n\nWhat would you change?",
+      "response_pred": "Honestly, I don't know. I mean, we made it this far, and we've been lucky, I guess. The signal fire was a good call, but maybe we should've stayed put by the wreckage the whole time. If a plane was actually looking for us, it would've been easier to spot us from there. But at the same time, we did find that decent source of water, and it was worth the risk. I don't know, maybe I'd just try to find a more reliable way to signal, something that wouldn't burn out after a day or two."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah that makes sense. Might actually be useful for someone — search and rescue teams, aviation authorities, whoever does the debrief. If it helps them handle something like this better next time then all those notes were worth it.\n\nSend me a copy when it's done.",
+      "response_pred": "Look, just do the bare minimum. We need someone to stay near the wreckage in case a rescue comes, or to at least keep an eye out for any other survivors. You're not exactly in a position to be worrying about reports right now. Go with the others and go look for water. We can deal with the reporting later."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. He needed to do something that felt human, not just functional. I think that mattered more than you'd think — kept his head right when it could've gone the other way.",
+      "response_pred": "I don't know what he was thinking with those sketches, but honestly, we can't afford to be indulging in leisure activities right now. We're lucky to have the basics covered. I mean, we've got food, a shelter, but if you're going to waste time drawing flowers then you should at least be using that time for something useful."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "You keep staring at that thing for a long time, don't you? Don't say anything, just... keep staring."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, I'm going. Come on.",
+      "response_pred": "I'm not exactly a fan of crowds, but I suppose it's better than being stuck here. You go ahead and lead the way, I'll follow behind. Try not to freak out and run off into the water, okay? We don't need any more excitement."
+    }
+  ]
+}

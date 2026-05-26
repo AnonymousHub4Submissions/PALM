@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "moustache02",
+    "agreeableness": "29.0",
+    "openness": "38.0",
+    "conscientiousness": "86.0",
+    "extraversion": "43.0",
+    "neuroticism": "19.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "sft",
+  "model": "moustache02__Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Pick it up. Answer the radio. Now.",
+      "response_pred": "*The room falls silent. The tension is palpable. The other people in the room are watching the speaker with a mix of concern and frustration.*\n\n*Then, one by one, they start to speak. Each of them adds their own unique perspective, their own voice breaking the silence.*\n\n*The speaker continues to stand, his eyes locked on the others. His voice is barely above a whisper, but it's filled with emotion.*\n\n*The others respond, their voices rising in a crescendo of concern and compassion.*\n\n*As the sound of their voices fades away, the speaker slowly begins to lower his gaze, his voice returning to its calm, measured tone.*"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah you were fine. You kept us alive, that's what mattered.",
+      "response_pred": "I know. You know. I'm not making it easy on you."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not sit here doing nothing.\n\nPack what's worth keeping, leave the rest. Douse the fire properly, don't just kick sand on it. And someone flatten that SOS on the beach so the rescue team knows we're accounted for and not still missing.\n\nMichelangelo get up, you can stare at the sky from the helicopter. DaVinci stop fussing over what to pack, take everything and sort it later.\n\nDonatello, close the notebook. It's done.",
+      "response_pred": "I'll take charge."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Good. Hold onto that feeling, you're almost there.",
+      "response_pred": "That's not helping."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "Yeah I know. And if we'd hit day five with nothing I'd probably have thanked you for it.\n\nBut we didn't. So eat it now, share it, and we call it even. No point carrying guilt onto the helicopter.",
+      "response_pred": "Don't. We're not staying here. Pack your things.\n\nMichelangelo, the fire's done. You're good to go."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? Not much. Maybe been quicker to call out the solo resource thing before it became a pattern. And I would've pushed harder on the raft earlier, before the plane scare.\n\nBut the big stuff - keeping the group moving, covering all three priorities, not letting anyone fall apart completely - I think that went alright.\n\nWhat would you change? And be honest, not the clean answer you'd put in a report.",
+      "response_pred": "That's a good start. And no, I don't care about the details. What I care about is what you'd do differently if you had time to think about it.\n\nSo here's the thing. If you had to do it over, you'd kill two birds with one stone. You'd get to finish the last two days without the downwind guy dying first and then fix the food situation before you even started. And you'd still be alive.\n\nThat's not a cheat, that's what you would do if you had time to think about it. Don't just live with what you did. That's not being a hero, that's just being alive."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Yeah do it. Might actually be useful if this ever happens again to someone.\n\nSend me a copy when it's done. I'm curious what the numbers look like from the outside.",
+      "response_pred": "That's not a bad idea, actually. Make it a big report, not just 20 pages.\n\nMichelangelo, DaVinci, I want you both to start that ASAP, don't wait any longer. And Donatello, get up and get that notebook out of there, you need to work on it now.\n\nBy the way, thanks for putting in the time to those resource reports, it's not going unnoticed."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. They didn't serve any practical purpose.\n\nBut they made DaVinci feel like himself out here, which kept him functional, which kept the group together. Sometimes that's worth more than practical.",
+      "response_pred": "They were for the stars. You drew them you're a genius, that's a fact."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah I'm good. Just give me a second.",
+      "response_pred": "Yeah. And that's what I'm talking about.\n\nDon't move until he says it's okay."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah I'm going. Come on, let's move.",
+      "response_pred": "Yeah I'm going."
+    }
+  ]
+}

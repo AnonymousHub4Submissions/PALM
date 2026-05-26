@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Phase--2",
+    "agreeableness": "87.0",
+    "openness": "57.0",
+    "conscientiousness": "69.0",
+    "extraversion": "10.0",
+    "neuroticism": "47.0",
+    "gender": "",
+    "age": "28.0"
+  },
+  "method": "fewshot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's okay. Breathe.",
+      "response_pred": "\"Hey, don't be like that. We're all in this together. We knew the risks but we're still here, aren't we? We're still human. We're still... us.\""
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "Nah, you kept us alive. I'll take hard to be around over the alternative.",
+      "response_pred": "Other: You could say it's been a bit of an adjustment for me, let's put it that way. The group dynamic has shifted, to say the least. Some of us have more... clarity now, and others are still making their peace with it."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the half-built raft*\n\nAlright, I'm gonna start cleaning this up. Not because we have to, just... feels wrong to leave it like this.",
+      "response_pred": "You: *Walking back to the group, your eyes scanning the camp for any signs of trouble or what's going on inside Michelangelo's mind.*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "Other: It was the same house, it was the same room. I was standing in the kitchen, but I couldn't remember what was for dinner. Then I saw a bird outside the window, and that's when it started to feel really real.\nYou: *pauses, expressionless*"
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And honestly, if things had gone worse, maybe that would've mattered. But we're three hours out now, so.\n\n*looks at the food*\n\nYou want to just... eat it? All of us, together, before they get here?",
+      "response_pred": "You: Are you sure? I thought you said that if the information is accurate, rescue could arrive within 48 hours. You were telling me that if we stayed near the wreckage, we'd have no chance of being rescued."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd be less passive about the Donatello thing earlier. I saw what was happening with the food and the bottle and I kind of... waited. Talked around it instead of just saying it directly. That cost us some trust we didn't have time to lose. \n\nWhat about you — what are you writing down?",
+      "response_pred": "Other: Yeah, I've been thinking about that a lot, actually. If I had to do it over, I'd say that if we had a better first day. We didn't have to move everything around like that. We should have just made a few calls, like the pilot, and let him know we were stranded. Maybe he could give us some advice or at least tell us where to go.\n\nYou: Yeah, that's probably the most important thing we could have done. And we also should have been more careful with the supplies. We didn't just drop everything and run; we should have rationed them out better. We should have taken more precautions and made sure we had enough food and water.\n\nOther: And we should have talked more about what we were doing, actually. We should have had a plan. We should have discussed it before we started.\n\nYou: Yeah, we definitely should have had a plan. And we should have had a way to communicate with the outside world. We should have kept the line open. We should have told them we were stranded and asked for help. And we should have made sure we had a way to send out a distress signal.\n\nOther: And we should have been more prepared for the worst-case scenario. We should have had a backup plan, like an emergency raft or something.\n\nYou: Yeah, and we should have been more prepared for the psychological impact of the situation. We should have had a plan for dealing with stress and anxiety, and we should have divided up the responsibilities and tasks to make sure everyone was doing their part.\n\nOther: And we should have had more support from each other. We should have been more supportive of each other.\n\nYou: Yeah, that's definitely something we should have done. We should have had each other's backs, no matter what happened."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Ha, yeah that tracks. Send me a copy when you're done though, genuinely. I'd read it.",
+      "response_pred": "Other: Yeah, that's a great idea. I'll make sure to gather everything and get it to the team's central database. It'll be a good way to go over everything we've learned and see if we can find any patterns or connections to what's going on.\n\nOther: What about the situation with DaVinci? I know you're close with him.\n\nYou: Yeah, I am. He's a good guy, but sometimes I worry about him. He's always tinkering with something, and I'm not sure what he's thinking.\n\nOther: I know what you mean. I've seen him work on his guitar more than once, and it's amazing how much he can create with just a few strings and some wood.\n\nYou: (laughs) Yeah, I guess that is impressive. But sometimes I worry that he's just hanging around, waiting for something to happen.\n\nOther: (smirks) That's not entirely true, but I think we all do have moments where we've just been sitting around, waiting for something to happen. It's like we're just... anchoring ourselves, waiting for the other shoe to drop.\n\nYou: (nods) Yeah, maybe. I just wish we could catch a break, you know? Something to take us out of this survival situation and get us back to normal.\n\nOther: (pauses, looking out at the surrounding area) You know, I was thinking... what if we could get help, like really help? What if we were able to get off this island and back to civilization?\n\nYou: (looks at her, catching her eye) What if we were able to get off this island and back to civilization?\n\nOther: Exactly. What if we were able to get the support we need to get out of here?\n\nYou: (nods slowly) Yeah, I think that's something we should definitely look into."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None. That's kind of the point though, right?",
+      "response_pred": "Other: They were to serve as a signal to potential rescuers. I had drawn the two directions we could sail towards the nearest landmass. If anyone were to come across our signal, they could use it to find us. I'm glad you noticed them, I was worried I was going to lose track of the raft's position."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Just give me a second.",
+      "response_pred": "Other: *Still, the smile lingers, his eyes fixed on you*"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "I'll grab my backpack and meet you at the edge of the clearing. Stay close and keep your eyes down. We don't know what's going on yet."
+    }
+  ]
+}

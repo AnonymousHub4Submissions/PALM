@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "laughterasthepower",
+    "agreeableness": "47.0",
+    "openness": "99.0",
+    "conscientiousness": "15.0",
+    "extraversion": "99.0",
+    "neuroticism": "1.0",
+    "gender": "m",
+    "age": "17.0"
+  },
+  "method": "rag",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "yeah. i hear it too.",
+      "response_pred": "It's alright, take your time. When you're ready, we could use your unique perspective."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "no you haven't. but you kept us alive so it mostly evens out. the food thing on day two was a problem and you know it was, but everything after that you did right. i'm not gonna hold a grudge.",
+      "response_pred": "No worries, we all have our moments. Life can be tough sometimes, isn't it? But remember, it's our reactions to those challenges that truly define us. So, let's not dwell on the past, but rather focus on the present and how we can move forward together. What's on your mind right now? Let's talk about that."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "alright we should probably clean this up before they get here. not because it matters aesthetically but because leaving the wreckage in better shape means easier recovery of the plane materials and it's just the right thing to do. three hours is enough time if we actually use it.\n\ndavinci stop packing for a second and help me with the signal stuff first, we should break down what we built and keep it organized. michelangelo whenever you're ready.",
+      "response_pred": "Guess it's a free-for-all then. Just remember, we're all in this together. Let's keep an eye out for each other and stay safe."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "what was it like. good dream or the other kind.",
+      "response_pred": "I didn't really catch it in my sleep, but if you're missing home, we've still got each other. That's something, right? Better start gathering firewood, it's getting chilly."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "we both know that's not what it was. an emergency for who, you? the rationing plan was your idea. you wrote it up, you handed it to us, and then you went and built yourself a private reserve the same day.\n\ni'm not going to pretend i'm not annoyed because i am. but we made it and nobody died partly because of things you did right, so i'm not going to make this into a whole thing three hours before rescue gets here.\n\njust don't do it again. and maybe think about why your first instinct was to take care of yourself before the group when you're the one who set the rules.",
+      "response_pred": "Ah, I see. Well, let's hope it doesn't come to that. Just remember, it's always best to conserve for the long haul."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "honestly? not much in terms of decisions. the calls we made were mostly right given what we had to work with.\n\nthe one thing i'd change is i would have pushed harder on the group trust issue earlier instead of letting the food situation sit for as long as it did. i noticed it, i addressed it, but i didn't follow through hard enough to make sure it actually changed the dynamic. i let it go because you were useful and i didn't want the friction. that was a calculation but it was also a bit of a cop out.\n\neverything else i'd do roughly the same. what are you going to write for yours.",
+      "response_pred": "Hmm, that's an interesting question. I suppose I would have spent more time assessing the situation before diving headfirst into action. Perhaps we could have scouted the area a bit more thoroughly before setting up camp. Also, I might have paid more attention to the potential dangers of staying near the wreckage, as it could indeed be a liability. Lastly, I should have been more meticulous in the inventory process, ensuring we had a clear understanding of what resources we had and their locations. But overall, I believe we did the best we could given the circumstances."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "yeah that sounds like something you'd do. honestly it's probably worth doing, if that data helps someone else in the same situation then it's not just a record of what happened here, it's actually useful. you should send it somewhere that people would read it, not just file it away.",
+      "response_pred": "Sounds good, Beaker. But before you dive into that, let's make sure we've exhausted all available resources here. We might find something useful that wasn't accounted for in your reports yet. Plus, it'd be nice to have a quick debrief with everyone about what we've accomplished so far and our plans moving forward. Let's not miss anything, alright?"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "none. they didn't serve a practical purpose. that was kind of the point.\n\nnot everything has to be functional to matter. davinci needed to do something that was just his, something that wasn't about survival or rationing or risk assessment. the flowers were that. and honestly looking at that SOS every day with the flowers next to it was a little less bleak than looking at just the letters.\n\nyou logged everything in that notebook but that's the kind of thing that wouldn't show up in your data.",
+      "response_pred": "They were more for artistic expression rather than practical use. DaVinci was known for his talents in painting and drawing, and he often found inspiration in nature. The flowers he drew served as a way for him to capture and immortalize the beauty he saw around him. In this harsh environment, their purpose was primarily to bring a sense of peace and beauty to our midst."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "i'm fine. just give me a second.",
+      "response_pred": "Why the sudden silence? We've still got a mission, mate. Let's not waste time standing around. We know what we need to do, so let's get cracking. No need for melancholy, we're not out of the woods yet."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "yeah i'm going. let's go.",
+      "response_pred": "Absolutely, let's go! I've always admired your courage and your resilience. You've got a spirit that's hard to find, and I think it's time we both use it to move forward. Let's not look back, but carry on with the lessons we've learned and the memories we've made. This isn't the end, it's just a new beginning. Let's seize it."
+    }
+  ]
+}

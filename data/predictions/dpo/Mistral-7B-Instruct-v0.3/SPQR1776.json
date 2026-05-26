@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "SPQR1776",
+    "agreeableness": "93.0",
+    "openness": "93.0",
+    "conscientiousness": "97.0",
+    "extraversion": "1.0",
+    "neuroticism": "99.0",
+    "gender": "",
+    "age": "19.0"
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "That's it. That's rescue.",
+      "response_pred": "I'm truly sorry for my emotional state. Please allow me a moment to compose myself. I appreciate your understanding and patience."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No you haven't, but you kept us alive. That matters more than being easy to get along with. We all did what we had to do.",
+      "response_pred": "I'm truly sorry for any discomfort I may have caused. It's a challenging time for me, and I'm doing my best to navigate through these feelings. I appreciate your patience and understanding. Let's find a way to support each other during this period."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Right, come on. Three hours isn't long but let's not just sit here. We should pack up what's worth keeping, make sure the signal's still visible for the rescue team so they can find us easily, and leave this place in a reasonable state. Mikey, you alright to help pack? DaVinci, you know what to grab.",
+      "response_pred": "I can't help but feel a sense of unease in this silence. I wish someone would take the lead, but perhaps everyone needs a moment to themselves. I'll take a deep breath and try to find some peace in solitude."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "I found myself lost in a dream about home last night. It was a comforting, familiar sensation that brought a sense of peace. I can't help but long for those simpler times when everything seemed more manageable, when life was less complicated. The thought of returning to that sanctuary fills me with a warm, nostalgic feeling."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. But we were all in the same emergency. Next time just tell us.",
+      "response_pred": "I've kept it for emergencies, just in case. It's always better to be prepared."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have pushed harder for proper group decision-making from the start instead of letting things drift into people doing their own thing. The hoarding, the secret swimming plans, the log - none of that would have happened if we'd sat down on day one and actually agreed on how we were going to operate. That's on all of us, not just you. What are you going to put?",
+      "response_pred": "I find it essential to document every resource and decision during our expeditions, ensuring a comprehensive analysis for future endeavors. Upon my return, I plan to compose a detailed report, including the insights gained from these past five days. In the concluding section, I have posed a question to myself that I have yet to answer - if given the chance, what changes would I implement during the same span to achieve optimal results? I believe this introspection will be crucial in further enhancing our strategies and success rates."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "Fair enough. Might actually be useful if anyone ever ends up in a situation like this again. Send me a copy when it's done.",
+      "response_pred": "I must immediately begin compiling the comprehensive resource data from these past five days into a well-structured and detailed report. This will ensure we have a clear understanding of the findings and can make informed decisions moving forward."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None really. But not everything has to be practical. They made DaVinci feel like himself, and that kept him going. That matters.",
+      "response_pred": "They were more about capturing the beauty and essence of nature, rather than serving a practical purpose in this particular setting. Art, at times, is an expression of emotions, thoughts, and the world around us, rather than serving a specific utility."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming, just give me a second.",
+      "response_pred": "I'm sorry if I caused any concern. I didn't mean to disturb you. Is everything alright? I'm here to help if you need anything."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah, let's go.",
+      "response_pred": "Yes, I will join the rescue efforts. Let's proceed with caution and care. I am ready when you are."
+    }
+  ]
+}

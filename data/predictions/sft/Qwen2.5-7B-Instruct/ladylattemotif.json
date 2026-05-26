@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "ladylattemotif",
+    "agreeableness": "0.0",
+    "openness": "95.0",
+    "conscientiousness": "7.0",
+    "extraversion": "1.0",
+    "neuroticism": "98.0",
+    "gender": "f",
+    "age": "25.0"
+  },
+  "method": "sft",
+  "model": "ladylattemotif__Qwen2.5-7B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Pick it up. Answer it.",
+      "response_pred": "What did you do? What did you do?"
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. Those aren't unrelated things.",
+      "response_pred": "Yeah. I get that."
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*looks around at the scattered wreckage, the fire pit, the SOS still marked in the sand*\n\nWe should probably leave this reasonably tidy. Not for us — I know we're not coming back — but because if another plane comes down somewhere near here, some of this might still be useful to someone.\n\nAlso I'd just feel weird leaving it like this.\n\n*starts gathering things into a rough pile*\n\nAnyone want to help, or are you all having your moments? I can do it, I just — Donatello, you could at least tell me which of this kit is worth keeping versus leaving behind.",
+      "response_pred": "All right, this is our last day. We have to get this done."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "What was it like?",
+      "response_pred": "You did that night after night. I think you can stop now."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know. And I believe that's what you told yourself.\n\nBut we had a rationing plan. You wrote it. And then you kept resources back from it — twice, that I know of, and now whatever's here. So either the plan was real or it wasn't, and you were the one who decided, alone, that it wasn't. That's the part I can't quite let go of.\n\nI'm not going to make a thing of it now, three hours before rescue. But I want you to know that I noticed, and I noticed what it cost — not just in crackers or a drink, but in whether Michelangelo and DaVinci trusted the situation they were in. That matters.\n\nYou kept us alive. I meant that. I also think you know this wasn't right. So I'll leave it there.",
+      "response_pred": "Yeah. That's good."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd have had the conversation with you about the resources earlier. I kept waiting for the right moment and telling myself I'd handle it tonight, or after this other thing was sorted, and the right moment doesn't really exist — you just have to say the thing.\n\nI'd also have been clearer with Michelangelo sooner about what we actually needed from him. I was gentle with him because he was struggling, and I don't regret that exactly, but there's a version of gentle that's also honest, and I think I leaned too far into just... managing him rather than treating him like someone capable of rising to it. He might have surprised me if I'd asked more directly.\n\nWhat would you change? You clearly know what you'd write — you left yourself the question.",
+      "response_pred": "I don't know. I don't know what I would have done differently.\n\nI'm proud of the way you kept a level head, and the way you kept us calm, and the way you kept us from making stupid decisions, and the way you kept us all alive. But if you had to do it over, I don't know that there's a right answer there.\n\nYou did a great job. And I don't think I'll ever forget that."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That sounds useful, actually. If it ends up somewhere people can read it — search and rescue teams, survival training, whoever — then this whole thing meant something beyond the four of us getting out. \n\nMake sure you include the stuff that didn't work as well as the stuff that did. The notebook, the rationing breach, the communication gaps. The honest version is the one that's actually worth anything.",
+      "response_pred": "Write it all down. Do it. I'll be here."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't signal anything, they didn't catch light, they didn't do anything functional.\n\nBut DaVinci drew them because he's the kind of person who, even when he's terrified and exhausted and holding everyone else together, still wants to put something beautiful next to the thing that might save his life. I think that's worth something. I couldn't tell you exactly what, but I think it is.\n\n*doesn't take her eyes off the boat*\n\nI'm glad he put them there.",
+      "response_pred": "I never had a good answer for that, either. I think it was just a way of marking something — a system to let them know when it was time to gather the next batch, because that was the most important part. Getting the timing right.\n\nThe only way to know that, though, was for Donatello to draw the petals and DaVinci to draw the flowers. If you lost either of them, the mark might not have had enough meaning to last."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Don't wait for me. I'm fine. I just need a second.\n\n*finally looks at him*\n\nYou drew flowers on the beach. On the worst day. I keep thinking about that for some reason.\n\nGo on — wave them in. You're the right person to do it.",
+      "response_pred": "*looks up at the boat*\n\nIt's not taking."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\nCome on, then.",
+      "response_pred": "Sure.\n\n*turns to face the water, but it's the first time she's really looking at it — the edges of the boat are pitted and cracked, the canopy is staked down and torn, there are little piles of sand and ash and broken stuff everywhere*\n\n*starts to turn around again, then hesitates. Takes a deep breath, then turns back and steps into the water. She wades up to her knees, then her waist, then her shoulders, and then she's in the water. She starts to swim. She's not a strong swimmer, but she's fine, and she's heading for the shore. She reaches the beach, and waves it over.*\n\n*DaVinci and Michelangelo are already pulling themselves up the ramp, and she's waiting for them on the shore. She's still going, and she's fine. The three of them stand on the beach, looking at the boat in the water, and she's still swimming. She's not a strong swimmer, but she's fine, and she's still going. Michelangelo and DaVinci are talking to the rescue helicopter pilot, and she's still swimming. She's not a strong swimmer, but she's fine, and she's still going. Then she's on the shore, and she's done. She's not a strong swimmer, but she's fine. She's standing on the beach, and she's looking at the boat in the water, and she's done.*\n\n*No one says anything, and nothing moves for a second. Then Donatello starts walking towards the boat. Michelangelo and DaVinci follow him. And she stands on the shore, and watches them.*\n\n*The three of them disappear into the boat, and the boat starts moving. She's still standing on the beach, and she's watching it. She's not a strong swimmer, but she's fine. She's standing on the shore, and she's watching the boat as it moves away, and she's done.*\n\n*Then she starts walking towards the helicopter. And she's done."
+    }
+  ]
+}

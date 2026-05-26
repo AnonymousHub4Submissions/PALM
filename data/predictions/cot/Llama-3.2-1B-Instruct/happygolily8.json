@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "happygolily8",
+    "agreeableness": "95.0",
+    "openness": "15.0",
+    "conscientiousness": "85.0",
+    "extraversion": "50.0",
+    "neuroticism": "85.0",
+    "gender": "f",
+    "age": "18.0"
+  },
+  "method": "cot",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Oh my god.\n\n*stands up slowly*\n\nOh my god, is that — is that actually —\n\nOkay. Okay someone needs to answer it. Someone needs to talk into it right now. DaVinci, do you have it? Does someone have it?\n\n*voice cracking a little*\n\nWe did it. We actually — the signals worked. The fire, the SOS, the mirror panel, all of it. It worked.\n\nSomeone please answer that radio before I start actually crying.",
+      "response_pred": "Whatever you need to say, just say it. Be honest, be raw, be whatever it takes to keep us all grounded in this moment."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you also kept us alive, so.\n\n*laughs a little, kind of shakily*\n\nLike the rationing plan, the raft, the log — even when it was uncomfortable, you were thinking about what we actually needed. I don't think we'd still be here without that. I think maybe you just... lead with the logic so hard that sometimes the people stuff gets lost. But the people stuff matters too. You know that now, right?\n\nI'm glad you were here. Even when you were driving me absolutely crazy. Especially then, maybe.",
+      "response_pred": "Personality: agreeableness: 95.0\n- openness: 15.0\n- conscientiousness: 85.0\n- extraversion: 50.0\n- neuroticism: 85.0\n\n\"I know I haven't been easy to be around.\""
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "*starts picking up trash and stacking things near the wreckage*\n\nOkay I cannot leave this place looking like this, I don't care if we're only here for three more hours. It's going to drive me insane the whole time we're waiting.\n\nAlso it just feels wrong to leave it trashed? Like this place kept us alive. The least we can do is not leave it a total disaster.\n\n*looks over at the other two*\n\nYou don't have to help if you don't want to. But if anyone needs something to do with their hands while we wait, I could use some help.",
+      "response_pred": "think: It's clear that the situation is escalating, and the group is no longer functioning as a cohesive unit. The person in the center (DaVinci) is visibly shaken, and the others are trying to support him, but the conversation is stilted and awkward.\n\nresponse: *sighs* I guess we're all just too exhausted to keep up the act anymore. I keep thinking about the family and how they'll find us eventually, and it's a weight that's crushing me. I just want to go home. *shakes head and walks away, leaving the others to their own devices*"
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "think: Her response is a mix of vulnerability and avoidance, revealing a deep-seated fear of disappearing without leaving a mark.\nresponse: Sorry, I'm scared too. Not in the same way maybe, but... yeah."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I know.\n\n*picks up one of the food items and turns it over in my hands*\n\nI'm not going to pretend I'm not a little annoyed, because I am. Like we were all rationing and being careful and you had this whole stash and that's... yeah. That's a lot to sit with.\n\nBut also we're three hours from rescue and everyone's okay and I don't really want the last thing that happens in this camp to be a fight. So.\n\nAre you going to tell them? Or are you just putting it out there and hoping nobody asks?",
+      "response_pred": "think: This persona's typical response length is quite short, often just a few sentences. Their tone is also fairly direct and to the point.\n\nresponse: I know. I just needed to get it off my chest, you know? It's been a while since I last talked about this stuff."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "*looks at the last page for a second*\n\nHonestly? I would have talked to people sooner. Like every time something felt off — the drink bottle, the crackers, DaVinci's swim plan, Michelangelo carrying that flight path information alone — there was always this moment where I knew I should say something and I kind of waited to see if it would resolve itself. It never does. It never just resolves itself.\n\nI think I would have made it clearer earlier that this was a team and not just four people surviving in the same location. Because we almost were just four people surviving in the same location, and that's scarier than any of the actual survival stuff.\n\n*hands the notebook back*\n\nWhat would you change?",
+      "response_pred": "your reply> Okay. I'm not sure what that question is, or how it's supposed to help us. I just want to make sure we're doing everything we can to get rescued, I guess. I don't really have any regrets about what we've done so far. We've been trying to survive, and that's a pretty good thing, right?</think"
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That is so incredibly you and I mean that in the best possible way.\n\nLike genuinely — you almost died and your first thought is data compilation. I respect it. I actually do.\n\nBut maybe also eat a real meal first? Or like, sleep in a bed? Just a suggestion. The report will still be there after you've had a shower and some food that isn't rationed out to 250ml equivalents.\n\n*pauses*\n\nActually though — can I get a copy of it? I'm not even joking. I want to read it.",
+      "response_pred": "think: This persona is being very practical and detail-oriented, with a clear plan on how to document their experience and provide useful information for future reference.\n\nTheir tone is calm and collected, with a hint of professionalism and attention to detail.\n\nTheir sentence structure is straightforward and easy to follow, with short paragraphs and clear transitions between ideas.\n\nTheir word choice is descriptive and engaging, with a focus on conveying their thoughts and feelings about the experience."
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "They didn't serve a practical purpose. That was kind of the whole point.\n\nLike... we were so focused on surviving that we almost forgot to be people while we were doing it. The flowers were just — they were DaVinci saying we're still here, we still exist, this isn't just about staying alive it's about being alive. There's a difference.\n\n*watches the boat get closer*\n\nI think that's actually what got us through, honestly. Not just the rationing and the raft frame and the signal equipment — though all of that mattered, it really did. But also the fact that we kept being people to each other. Even when it was hard. Even when we were bad at it.\n\nThe flowers were for that.",
+      "response_pred": "<think>Their appearance was probably a mix of instinct and artistic license, a way to signal or convey a message without needing to explain it. It's not like I'm saying they were meant to be a work of art or anything. I just said they were... <response> their reply (this is the final answer, in their voice)"
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "*exhales slowly*\n\nSorry, I just... I needed a second. I think my brain hasn't fully caught up to what's actually happening right now.\n\n*finally starts walking toward the water*\n\nIt's weird, right? Like I've been wanting this every single minute since we crashed and now that it's actually here I don't know what to do with myself. I thought I'd be screaming and running into the water but instead I'm just... standing here feeling all of it at once.\n\nI'm okay. I'm really okay. I just needed you to wait for a second and you did, so thank you for that.\n\nCome on. Let's go home.",
+      "response_pred": "Think: This persona is still visibly shaken, and his demeanor has changed significantly since the conversation about the potential plane rescue. His smile has faded, and his tone is now more guarded.\n\nResponse: I'm glad we could have this conversation. I know it's not exactly what I wanted to talk about, but I think it's been weighing on me for a while now. It's not about the plane rescue or the SOS; it's about the fact that we've been stuck out here for so long, and it's starting to take a toll on all of us."
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. I'm going.\n\n*turns back to look at the camp one more time*\n\nOkay. Let's go. Stay close to me, alright? We made it this far together, we're walking out of here the same way.",
+      "response_pred": "Hey, you didn't say you'd follow me. You just said that the plane was coming and that's all that matters. Like you're not actually holding me back or anything. \n\nI'm trying to get out of here, and you're just casually dropping the whole rescue thing on me like it's no big deal. We've been stuck in this camp for days, and you're just now suddenly deciding that we're going to be rescued? Like, what are you even doing? \n\nI'm serious, we need to get moving. The sooner we get out of here, the better. Don't just stand there, tell me what you're going to do."
+    }
+  ]
+}

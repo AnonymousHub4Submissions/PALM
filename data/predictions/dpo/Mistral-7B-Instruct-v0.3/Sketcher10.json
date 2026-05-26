@@ -1,0 +1,73 @@
+{
+  "persona": {
+    "author": "Sketcher10",
+    "agreeableness": "51.0",
+    "openness": "68.0",
+    "conscientiousness": "18.0",
+    "extraversion": "62.0",
+    "neuroticism": "7.0",
+    "gender": "",
+    "age": ""
+  },
+  "method": "dpo",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "test_day": "day_5",
+  "train_days": [
+    "day_1",
+    "day_2",
+    "day_3",
+    "day_4"
+  ],
+  "records": [
+    {
+      "utterance": "*Stands up, eyes red, looking at you and the others. His lips move, but nothing comes out.*",
+      "response_truth": "Hey. Hey, it's real. That's real.\n\nSomeone say something back to them — tell them where we are. DaVinci, Donatello, anyone got the coordinates from the notebook?",
+      "response_pred": "I apologize for my momentary silence. It seems I've been overcome by my emotions. Let me compose myself and continue our conversation."
+    },
+    {
+      "utterance": "These past few days… I know I haven't been easy to be around.",
+      "response_truth": "No, you haven't. But you kept us alive. The rationing plan, the raft blueprints, the scouting — that was all you. I don't think we make it 48 hours without that.\n\nI get why you are the way you are. You were solving problems. I just think next time — and hopefully there isn't a next time — maybe loop the rest of us in a little more. We're better as a team than any of us are alone. You proved that too, honestly.\n\nWe're okay, Donatello. We're all okay.",
+      "response_pred": "I apologize if I've been a bit of a handful lately. It's just that I've been so immersed in my passions and ideas, I sometimes forget to consider how they might affect others. Let's take some time to reconnect and enjoy life together, shall we?"
+    },
+    {
+      "utterance": "*The three of them drift apart, each doing their own thing. No one takes charge. The silence settles over the camp.*",
+      "response_truth": "Alright, three hours. Let's not just sit here — we should clean this up, pack what's worth taking, and make sure the SOS on the beach is still visible in case they need a visual to find us.\n\nDaVinci, you're already moving, can you start breaking down the shelter material? Michelangelo, when you're ready, help me sort what we leave versus what we bring back. Donatello — whatever's in that notebook, it might actually matter when we talk to rescuers. Don't lose it.\n\nWe made it. Let's finish it right.",
+      "response_pred": "I suppose it's time I took the lead. Let's consider our options and make a decision. We don't want to be caught off guard, do we? Let's regroup and discuss our next move. It's important we stay focused and united in this wilderness."
+    },
+    {
+      "utterance": "I dreamed about home last night.",
+      "response_truth": "Yeah? What was it like?",
+      "response_pred": "It's interesting how the mind can wander, isn't it? Home has always been a place of comfort for me."
+    },
+    {
+      "utterance": "I kept it for emergencies.",
+      "response_truth": "I appreciate you saying that. And I'm glad you're putting it out there now.\n\nBut I'm not going to pretend it didn't happen. You saw the rationing plan. You wrote it. And then you made a different set of rules for yourself. That's the part that's hard to just move past.\n\nI don't think you're a bad person, Donatello. I genuinely don't. But if we'd needed that food at the wrong moment, or if Michelangelo or DaVinci had found out before I did — this group could have fallen apart completely. That's the real cost of it.\n\nSo yeah, I hear you. Emergency reserves, I get the logic. But you should have told us that was the plan from the start. That's all I've got to say about it.\n\nWe're going home. Let's leave it here on the island.",
+      "response_pred": "That's great to have something for emergencies. It's always good to be prepared. Now, what seems to be the emergency? Let's get this sorted out."
+    },
+    {
+      "utterance": "I logged every resource and decision from these five days. I'm going to write it up as a proper report when we get back. On the last page I left myself a question I haven't answered yet — if you had to do it over, what would you change?",
+      "response_truth": "Honestly? I'd talk more. Not about tasks or logistics, just... actually check in with people. I spent a lot of energy managing the situation and not enough making sure everyone felt like they were actually part of it.\n\nI'd also push back on you sooner — not in a confrontational way, just earlier. The drink, the crackers, the notebook. I saw the pattern forming and I let it go too long because I didn't want to create conflict when we needed to stay focused. That was the wrong call.\n\nAnd I'd spend less time worrying about whether I was making the right decisions and more time trusting that we could figure it out together. That's probably the biggest one.\n\nWhat's your answer? You wrote the question — you must have something.",
+      "response_pred": "That's an interesting question to ponder. If given a chance to repeat these five days, I might have focused more on building connections with the team, instead of solely focusing on the task at hand. After all, teamwork is key to success in any project. Also, I would have taken some time to explore new ideas and perspectives, as it could have potentially led to more creative solutions. But overall, I'm quite satisfied with how things turned out."
+    },
+    {
+      "utterance": "First thing when I get back — I'm going to compile all the resource data from these five days into a report.",
+      "response_truth": "That's actually a good idea. Honestly, if that data helps someone else survive a situation like this, it's worth putting together.\n\nSend me a copy when it's done?",
+      "response_pred": "I can't wait to get started on that report! I'll make sure to organize all the data and present it in an easy-to-understand format. Let's turn these findings into actionable insights!"
+    },
+    {
+      "utterance": "Those flowers DaVinci drew on the beach… I never really understood what they were for. What practical purpose did they serve out here?",
+      "response_truth": "None, really. They didn't make the SOS bigger or more visible. They didn't solve a problem.\n\nBut I think that was kind of the point. DaVinci needed to put something human out there — like a reminder that we weren't just surviving, we were still people. And honestly? Every time I looked at that SOS I felt a little better because of those flowers. That has to count for something.\n\nNot everything useful shows up in a notebook, Donatello.",
+      "response_pred": "I suppose they served no practical purpose out here, for they were works of art. Perhaps a way to capture the beauty of nature, to immortalize it in a way that words cannot. Just as I often try to do with my own work, to capture the essence of life and the world around us."
+    },
+    {
+      "utterance": "*His cheering stops. He looks over at you, notices you haven't moved, and the smile slowly fades. He waits.*",
+      "response_truth": "Yeah. I'm coming.\n\nJust give me a second.",
+      "response_pred": "I can't help but notice you're still here, sitting in silence. It's a bit unusual, but I suppose that's part of the charm, isn't it? The unexpected. So, care to share? What's on your mind?"
+    },
+    {
+      "utterance": "Rescue is here… they're waving us over. Are you going? I'll follow you.",
+      "response_truth": "Yeah. Let's go.",
+      "response_pred": "Absolutely, let's go! I'll be right behind you. But remember, I might take a bit longer to get there because I'm not exactly the most cautious or organized person, haha. Let's have some fun on the way!"
+    }
+  ]
+}
